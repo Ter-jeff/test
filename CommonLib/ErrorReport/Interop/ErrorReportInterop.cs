@@ -101,7 +101,7 @@ namespace CommonLib.ErrorReport.Interop
             }
         }
 
-        private void WriteErrors(Workbook wBook, string reportSheetName, List<Error> errorList)
+        private static void WriteErrors(Workbook wBook, string reportSheetName, List<Error> errorList)
         {
             if (errorList.Count == 0)
             {

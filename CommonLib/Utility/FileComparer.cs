@@ -156,7 +156,7 @@ namespace CommonLib.Utility
             return true;
         }
 
-        public bool FilesAreEqualUsingMd5(string first, string second)
+        public static bool FilesAreEqualUsingMd5(string first, string second)
         {
             string md5ForFirst = GetFileMD5(first);
             string md5ForSecond = GetFileMD5(second);

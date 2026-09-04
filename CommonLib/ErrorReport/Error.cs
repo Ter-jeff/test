@@ -54,7 +54,7 @@ namespace CommonLib.ErrorReport
             return SheetName + "!" + GetAddress(RowNum, ColNum);
         }
 
-        public string GetAddress(int row, int column, bool absolute = false)
+        public static string GetAddress(int row, int column, bool absolute = false)
         {
             if (row == 0 || column == 0)
             {
