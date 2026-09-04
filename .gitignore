@@ -1,0 +1,12 @@
+.vs
+bin
+obj
+*.suo
+*.user
+Debug
+Publish
+Release
+*.pfx
+TestResults
+CoverageReports
+LocalPackages
