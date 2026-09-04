@@ -1,0 +1,83 @@
+solution: '../Common.sln'
+
+# Global ignores — applied to all metrics
+ignore_projects:
+  - '(.*?).Test.csproj'
+  - CommonLib.Test.csproj
+ignore_directories:
+  - CommonLib.Test
+ignore_classes: []
+ignore_methods: []
+
+# Duplicate code detector
+duplicate_code:
+  name: 'Duplicate Methods'
+  block_split: 'method'
+  min_tokens: 100
+  threshold_type: '<='
+  good: 0
+  acceptable: 5
+  suffix: '%'
+
+# Code text analysis
+todos:
+  name: 'TODOs'
+  threshold_type: '<='
+  good: 0
+  acceptable: 20
+
+not_implemented:
+  name: 'NotImplementedException'
+  threshold_type: '<='
+  good: 0
+  acceptable: 20
+
+# Metrics
+maintainability:
+  name: 'Maintainability'
+  threshold_type: '>='
+  good: 20
+  acceptable: 10
+  suffix: '%'
+
+depth_of_inheritance:
+  name: 'Max Depth of Inheritance'
+  threshold_type: '<='
+  good: 4
+
+cyclomatic_complexity:
+  name: 'Max Cyclomatic Complexity'
+  threshold_type: '<='
+  good: 25
+
+class_coupling:
+  name: 'Max Class Coupling'
+  threshold_type: '<='
+  good: 30
+  # Reported and published to GitLab, but a violation does not fail the build.
+  fail_build: false
+  # Regex patterns for types to exclude from coupling count
+  exclude_types:
+    - System.(.*?)
+    - OfficeOpenXml.(.*?)
+
+class_cohesion:
+  name: 'Min Class Cohesion'
+  threshold_type: '>='
+  good: 20
+  min_methods: 8
+  min_fields: 8
+  suffix: '%'
+  # Reported and published to GitLab, but a violation does not fail the build.
+  fail_build: false
+
+# Disabled by default — uncomment and configure to enable
+# class_num_fields:
+#   name: 'Max # Fields'
+#   threshold_type: '<='
+#   good: 20
+
+# class_num_public_methods:
+#   name: 'Max # Public Methods'
+#   threshold_type: '<='
+#   good: 20

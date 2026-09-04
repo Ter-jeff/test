@@ -1,0 +1,21 @@
+{
+    "Version": "1.1.0",
+    "Agents": [
+      {
+        "Name": "offline1",
+        "Label": "D4T-AGENT2",
+        "Enabled": true,
+        "Resource": {
+          "Template": "D4T-AGENT2"
+        },
+        "TesterSoftware": {
+          "Name": "IG-XL",
+          "Version": "PreRel\\10.59.94\\14-Sep-2024"
+        }
+      }
+    ],
+    "Settings": {
+      "EMAILS": "kevin.bushe@teradyne.com",
+      "CONFIG_FILE": ".devops\\config.json"
+    }
+  }
