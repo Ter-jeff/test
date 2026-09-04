@@ -80,7 +80,7 @@ pipeline {
                 stage('Metrics') {
                     steps {
                         dir('.devops') {
-                            sh('python3 -m pip install pip_system_certs lxml tabulate pyyaml')
+                            sh('python3 -m pip install --break-system-packages pip_system_certs lxml tabulate pyyaml')
                             sh('python3 metrics_calculate.py ./metrics_config.yaml ./metrics_reports')
                         }
                     }
