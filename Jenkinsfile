@@ -46,6 +46,10 @@ pipeline {
         stage('Build') {
             agent { label 'swarm' }
 
+            environment {
+                GITHUB_PACKAGES_TOKEN = credentials('github-packages-pat')
+            }
+
             stages {
                 stage('Clean and Restore') {
                     steps {
