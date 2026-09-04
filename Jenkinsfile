@@ -1,7 +1,6 @@
-// @Library(['ter-d4t-sharedlib']) _
+@Library(['ter-d4t-sharedlib']) _
 
 def config
-def pipelineUtils
 
 pipeline {
     agent none
@@ -22,7 +21,6 @@ pipeline {
 
             steps {
                 script {
-                    pipelineUtils = load '.devops/PipelineUtils.groovy'
                     // config = loadConfiguration(configFile: "${CONFIG_FILE}")
                      config = readJSON file: CONFIG_FILE
                 }
@@ -113,7 +111,7 @@ pipeline {
                         always {
                             archiveArtifacts artifacts: '.devops/coverage_reports/**, .devops/TestResults/**', allowEmptyArchive: true
                             script {
-                                pipelineUtils?.publishCoverageStatus()
+                                publishCoverageStatus()
                             }
                         }
                     }
@@ -129,7 +127,7 @@ pipeline {
                     // releaseAgent()
 
                     try {
-                        // pipelineUtils?.sendBuildEmail(config)
+                        sendBuildEmail(config)
                     } finally {
                         cleanWs()
                     }
