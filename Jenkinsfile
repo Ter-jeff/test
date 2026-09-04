@@ -50,7 +50,6 @@ pipeline {
                 stage('Clean and Restore') {
                     steps {
                         echo 'Cleaning and Restoring NuGet Packages...'
-                        echo "DEBUG PATH=${env.PATH}"
                         sh "dotnet clean ${env.SOLUTION}"
                         sh "dotnet restore ${env.SOLUTION}"
                     }
