@@ -13,7 +13,7 @@ pipeline {
         SOLUTION = "Common.sln"
         TEST_PROJECT = "CommonLib.Test/CommonLib.Test.csproj"
         TOOLS_DIR = ".devops/dotnet-tools"
-        PATH = "/usr/local/share/dotnet:/opt/homebrew/bin:/Users/neko0824/.dotnet/tools:${env.PATH}"
+        PATH = "/usr/local/share/dotnet:/opt/homebrew/bin:/Users/neko0824/.dotnet/tools:/usr/bin:/bin:/usr/sbin:/sbin:${env.PATH}"
     }
 
     stages {
@@ -50,6 +50,7 @@ pipeline {
                 stage('Clean and Restore') {
                     steps {
                         echo 'Cleaning and Restoring NuGet Packages...'
+                        echo "DEBUG PATH=${env.PATH}"
                         sh "dotnet clean ${env.SOLUTION}"
                         sh "dotnet restore ${env.SOLUTION}"
                     }
