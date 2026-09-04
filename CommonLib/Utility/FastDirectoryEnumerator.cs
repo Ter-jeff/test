@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
-using System.Security.Permissions;
 
 using Microsoft.Win32.SafeHandles;
 
@@ -332,14 +330,12 @@ namespace CommonLib.Utility
         /// </summary>
         private sealed class SafeFindHandle : SafeHandleZeroOrMinusOneIsInvalid
         {
-            [ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
             [DllImport("kernel32.dll")]
             private static extern bool FindClose(IntPtr handle);
 
             /// <summary>
             /// Initializes a new instance of the <see cref="SafeFindHandle"/> class.
             /// </summary>
-            [SecurityPermission(SecurityAction.LinkDemand, UnmanagedCode = true)]
             internal SafeFindHandle()
                 : base(true)
             {
@@ -485,8 +481,6 @@ namespace CommonLib.Utility
                 {
                     if (_hndFindFile == null)
                     {
-                        new FileIOPermission(FileIOPermissionAccess.PathDiscovery, _path).Demand();
-
                         string searchPath = Path.Combine(_path, _filter);
                         _hndFindFile = FindFirstFile(searchPath, _winFindData);
                         retval = !_hndFindFile.IsInvalid;
