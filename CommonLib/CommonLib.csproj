@@ -1,9 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net48</TargetFramework>
+		<TargetFramework>net8.0-windows</TargetFramework>
 		<OutputType>Library</OutputType>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<UseWPF>true</UseWPF>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -12,10 +14,6 @@
 		<PackageReference Include="ExcelDna.Interop" Version="15.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="NLog" Version="5.3.4" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Reference Include="PresentationFramework" />
 	</ItemGroup>
 
 </Project>

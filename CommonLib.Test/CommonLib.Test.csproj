@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net48</TargetFramework>
+		<TargetFramework>net8.0-windows</TargetFramework>
 		<TestProjectType>UnitTest</TestProjectType>
 		<IsTestProject>true</IsTestProject>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
 	</PropertyGroup>
 
 	<ItemGroup>

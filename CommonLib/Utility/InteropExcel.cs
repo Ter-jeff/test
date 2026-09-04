@@ -15,6 +15,7 @@ using OfficeOpenXml;
 
 using Application = Microsoft.Office.Interop.Excel.Application;
 using DataTable = System.Data.DataTable;
+using Range = Microsoft.Office.Interop.Excel.Range;
 using Style = Microsoft.Office.Interop.Excel.Style;
 
 namespace CommonLib.Utility

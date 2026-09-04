@@ -8,6 +8,8 @@ using CommonLib.Utility;
 
 using Microsoft.Office.Interop.Excel;
 
+using Range = Microsoft.Office.Interop.Excel.Range;
+
 using OfficeOpenXml;
 
 namespace CommonLib.FormatCheck

@@ -13,6 +13,8 @@ using CommonLib.ResponseManager;
 
 using Microsoft.Office.Interop.Excel;
 
+using Range = Microsoft.Office.Interop.Excel.Range;
+
 using OfficeOpenXml;
 using OfficeOpenXml.VBA;
 

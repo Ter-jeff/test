@@ -1,6 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
+﻿using Newtonsoft.Json;
 
 namespace CommonLib.Extension
 {
@@ -8,24 +6,13 @@ namespace CommonLib.Extension
     {
         public static T DeepClone<T>(this T source)
         {
-            if (!typeof(T).IsSerializable)
+            if (source == null)
             {
-                throw new ArgumentException("The type must be serializable.");
+                return default(T);
             }
 
-            if (source != null)
-            {
-                using (var stream = new MemoryStream())
-                {
-                    var formatter = new BinaryFormatter();
-                    formatter.Serialize(stream, source);
-                    stream.Seek(0, SeekOrigin.Begin);
-                    var clonedSource = (T)formatter.Deserialize(stream);
-                    return clonedSource;
-                }
-            }
-
-            return default(T);
+            var json = JsonConvert.SerializeObject(source);
+            return JsonConvert.DeserializeObject<T>(json);
         }
 
         //public static T CloneJson<T>(this T source)

@@ -7,6 +7,8 @@ using System.Reflection;
 
 using Microsoft.Office.Interop.Excel;
 
+using Range = Microsoft.Office.Interop.Excel.Range;
+
 namespace CommonLib.Extension
 {
     public static class InteropExcelExtensions

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 using Microsoft.Office.Interop.Excel;
 
+using Range = Microsoft.Office.Interop.Excel.Range;
+
 namespace CommonLib.ErrorReport.Interop
 {
     internal class ReportPatValtPinValueMissInCategory : ErrorReportInterop
