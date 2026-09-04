@@ -77,7 +77,7 @@ pipeline {
 
                 stage('Install DotNet Tools') {
                     steps {
-                        sh "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11"
+                        sh "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11 --add-source https://api.nuget.org/v3/index.json"
                     }
                 }
 
