@@ -127,7 +127,7 @@ pipeline {
                     // releaseAgent()
 
                     try {
-                        sendBuildEmail(config)
+                        // sendBuildEmail(config)
                     } finally {
                         cleanWs()
                     }

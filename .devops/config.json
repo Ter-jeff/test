@@ -10,12 +10,12 @@
         },
         "TesterSoftware": {
           "Name": "IG-XL",
-          "Version": "PreRel\\10.59.94\\14-Sep-2024"
+          "Version": "PreRel\\10.5s9.94\\14-Sep-2024"
         }
       }
     ],
     "Settings": {
-      "EMAILS": "kevin.bushe@teradyne.com",
+      "EMAILS": "jeff.li@teradyne.com",
       "CONFIG_FILE": ".devops\\config.json"
     }
   }
