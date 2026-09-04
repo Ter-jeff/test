@@ -24,7 +24,7 @@ namespace CommonLib.Utility
         public List<string> LackItems = new List<string>();
         public List<DiffPair> Md5DiffItems = new List<DiffPair>();
 
-        public bool CompareFile(string fileName)
+        public static bool CompareFile(string fileName)
         {
             return false;
         }
@@ -168,7 +168,7 @@ namespace CommonLib.Utility
             return false;
         }
 
-        private string GetFileMD5(string filename)
+        private static string GetFileMD5(string filename)
         {
             using (var md5 = MD5.Create())
             {
@@ -188,7 +188,7 @@ namespace CommonLib.Utility
             }
         }
 
-        private string GetFileName(string fileFullName)
+        private static string GetFileName(string fileFullName)
         {
             return new FileInfo(fileFullName).Name;
         }

@@ -122,7 +122,7 @@ namespace CommonLib.ErrorReport
             return _errors.Where(a => a.ErrorType.GetType() == type).ToList();
         }
 
-        public List<Error> GetErrorsByType(List<Error> errorItems, Type type)
+        public static List<Error> GetErrorsByType(List<Error> errorItems, Type type)
         {
             return errorItems.Where(a => a.ErrorType.GetType() == type).OrderBy(x => x.SheetName).ThenBy(x => x.RowNum).ToList();
         }

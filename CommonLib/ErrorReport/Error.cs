@@ -80,7 +80,7 @@ namespace CommonLib.ErrorReport
             return (GetColumnLetter(ColNum) + RowNum);
         }
 
-        private string GetColumnLetter(int iColumnNumber)
+        private static string GetColumnLetter(int iColumnNumber)
         {
             if (iColumnNumber < 1)
             {

@@ -13,13 +13,12 @@ using CommonLib.ResponseManager;
 
 using Microsoft.Office.Interop.Excel;
 
-using Range = Microsoft.Office.Interop.Excel.Range;
-
 using OfficeOpenXml;
 using OfficeOpenXml.VBA;
 
 using Application = Microsoft.Office.Interop.Excel.Application;
 using DataTable = System.Data.DataTable;
+using Range = Microsoft.Office.Interop.Excel.Range;
 
 namespace CommonLib.ErrorReport
 {
@@ -125,7 +124,7 @@ namespace CommonLib.ErrorReport
                 {
                     Application app = workbook.Parent;
                     workbook.Close(false);
-                    var intPtr = new IntPtr(app.Hwnd);
+                    nint intPtr = new IntPtr(app.Hwnd);
                     int excelProcessId;
                     GetWindowThreadProcessId(intPtr, out excelProcessId);
                     var excelProcess = Process.GetProcessById(excelProcessId);

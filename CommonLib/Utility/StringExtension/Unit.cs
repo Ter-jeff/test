@@ -37,7 +37,7 @@ namespace CommonLib.Utility.StringExtension
                 text = text.Replace("*10^", "E");
             }
 
-            if (text == "")
+            if (string.IsNullOrEmpty(text))
             {
                 return text;
             }

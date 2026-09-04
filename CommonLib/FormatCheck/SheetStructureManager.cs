@@ -8,9 +8,9 @@ using CommonLib.Utility;
 
 using Microsoft.Office.Interop.Excel;
 
-using Range = Microsoft.Office.Interop.Excel.Range;
-
 using OfficeOpenXml;
+
+using Range = Microsoft.Office.Interop.Excel.Range;
 
 namespace CommonLib.FormatCheck
 {

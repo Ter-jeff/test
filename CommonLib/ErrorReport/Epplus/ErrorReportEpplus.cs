@@ -208,7 +208,7 @@ namespace CommonLib.ErrorReport.Epplus
             }
         }
 
-        private void SetErrorColor(ExcelWorkbook workbook, Error error, ErrorLevel errorLevel)
+        private static void SetErrorColor(ExcelWorkbook workbook, Error error, ErrorLevel errorLevel)
         {
             ExcelWorksheet workSheet = workbook.Worksheets[error.SheetName];
             ExcelRange range = error.ColNum > 0
@@ -229,7 +229,7 @@ namespace CommonLib.ErrorReport.Epplus
             }
         }
 
-        private void AppendSummaryReport(ExcelWorkbook workbook, string reportName, string summaryReport, int count)
+        private static void AppendSummaryReport(ExcelWorkbook workbook, string reportName, string summaryReport, int count)
         {
             ExcelWorksheet sheet;
             if (workbook.Worksheets.Any(x => x.Name.Equals(summaryReport, StringComparison.OrdinalIgnoreCase)))

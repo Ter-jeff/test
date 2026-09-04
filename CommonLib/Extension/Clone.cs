@@ -11,7 +11,7 @@ namespace CommonLib.Extension
                 return default(T);
             }
 
-            var json = JsonConvert.SerializeObject(source);
+            string json = JsonConvert.SerializeObject(source);
             return JsonConvert.DeserializeObject<T>(json);
         }
 

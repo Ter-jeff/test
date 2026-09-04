@@ -128,7 +128,7 @@ namespace CommonLib.Utility
             }
 
             string value = sheet.Cells[row, column].Formula;
-            if (value.Equals(""))
+            if (string.IsNullOrEmpty(value))
             {
                 return GetCellValue(sheet, row, column);
             }

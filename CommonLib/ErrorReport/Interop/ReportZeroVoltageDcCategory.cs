@@ -113,7 +113,7 @@ namespace CommonLib.ErrorReport.Interop
             AddDetailSheet(workbook, dicInstance);
         }
 
-        private void AddDetailSheet(Workbook wBook, Dictionary<string, List<string>> dicInstance)
+        private static void AddDetailSheet(Workbook wBook, Dictionary<string, List<string>> dicInstance)
         {
             const string sheetName = "DCCateInsTable";
             Worksheet wSheet = wBook.IsSheetExist(sheetName) ?

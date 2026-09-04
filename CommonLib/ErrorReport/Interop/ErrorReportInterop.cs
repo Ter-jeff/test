@@ -65,7 +65,7 @@ namespace CommonLib.ErrorReport.Interop
 
         public abstract void Write(Workbook workbook);
 
-        protected void WriteSummary(Workbook wBook, string reportSheetName, int errorCount, int warningCount = 0)
+        protected static void WriteSummary(Workbook wBook, string reportSheetName, int errorCount, int warningCount = 0)
         {
             bool flag = wBook.Worksheets.Cast<Worksheet>().Any(sheet => sheet.Name.Equals("SummaryReport", StringComparison.OrdinalIgnoreCase));
             if (!flag)
@@ -251,13 +251,13 @@ namespace CommonLib.ErrorReport.Interop
         //    }
         //}
 
-        private List<object> GetErrorSubType(List<Error> errorList)
+        private static List<object> GetErrorSubType(List<Error> errorList)
         {
             var subTypeList = errorList.GroupBy(p => p.ErrorType).Select(p => p.Key).ToList();
             return subTypeList;
         }
 
-        private List<Error> GetErrorsBySubType(object subtype, List<Error> errorList)
+        private static List<Error> GetErrorsBySubType(object subtype, List<Error> errorList)
         {
             return errorList.Where(p => p.ErrorType.Equals(subtype)).ToList();
         }
