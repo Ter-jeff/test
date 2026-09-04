@@ -78,6 +78,9 @@ pipeline {
                 }
 
                 stage('Metrics') {
+                    when {
+                        expression { !isUnix() }
+                    }
                     steps {
                         dir('.devops') {
                             sh('python3 -m pip install --break-system-packages pip_system_certs lxml tabulate pyyaml')
@@ -86,7 +89,7 @@ pipeline {
                     }
                     post {
                         always {
-                            archiveArtifacts artifacts: '**/metrics_reports/**', caseSensitive: true
+                            archiveArtifacts artifacts: '**/metrics_reports/**', caseSensitive: true, allowEmptyArchive: true
                         }
                     }
                 }
