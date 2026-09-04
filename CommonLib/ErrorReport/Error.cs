@@ -32,7 +32,7 @@ namespace CommonLib.ErrorReport
 
         public List<string> Comments = new List<string>();
 
-        private string GetHyperlinkFomula(string sheetName, int row, int column, string friendlyName)
+        private static string GetHyperlinkFomula(string sheetName, int row, int column, string friendlyName)
         {
             //if (row == 0)
             //    return "";

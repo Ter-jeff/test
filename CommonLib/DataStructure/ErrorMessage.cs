@@ -1,12 +1,41 @@
-﻿using System.Windows;
+﻿using System.Runtime.InteropServices;
 
 using NLog;
 
 namespace CommonLib.DataStructure
 {
+    public enum MessageBoxButton
+    {
+        OK = 0x0,
+        OKCancel = 0x1,
+        YesNoCancel = 0x3,
+        YesNo = 0x4,
+    }
+
+    public enum MessageBoxImage
+    {
+        None = 0x0,
+        Error = 0x10,
+        Question = 0x20,
+        Warning = 0x30,
+        Information = 0x40,
+    }
+
+    public enum MessageBoxResult
+    {
+        None = 0,
+        OK = 1,
+        Cancel = 2,
+        Yes = 6,
+        No = 7,
+    }
+
     public static class ErrorMessage
     {
         public static bool CmdMode { set; get; }
+
+        [DllImport("user32.dll", CharSet = CharSet.Unicode)]
+        private static extern int MessageBox(nint hWnd, string text, string caption, uint type);
 
         public static void SetMode(bool isCmd)
         {
@@ -22,7 +51,7 @@ namespace CommonLib.DataStructure
             }
             else
             {
-                MessageBox.Show(text);
+                MessageBox(0, text, string.Empty, (uint)MessageBoxButton.OK);
             }
         }
 
@@ -36,7 +65,8 @@ namespace CommonLib.DataStructure
             }
             else
             {
-                return MessageBox.Show(text, type, button, icon);
+                int result = MessageBox(0, text, type, (uint)button | (uint)icon);
+                return (MessageBoxResult)result;
             }
         }
 
@@ -49,7 +79,7 @@ namespace CommonLib.DataStructure
             }
             else
             {
-                MessageBox.Show(type, text);
+                MessageBox(0, type, text, (uint)MessageBoxButton.OK);
             }
         }
 
@@ -63,7 +93,8 @@ namespace CommonLib.DataStructure
             }
             else
             {
-                return MessageBox.Show(text, caption, buttons);
+                int result = MessageBox(0, text, caption, (uint)buttons);
+                return (MessageBoxResult)result;
             }
         }
     }
