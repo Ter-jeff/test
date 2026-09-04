@@ -11,8 +11,8 @@ pipeline {
         CONFIG_DIR = ".devops"
         CONFIG_FILE = "${CONFIG_DIR}/config.json"
         SOLUTION = "Common.sln"
-        TEST_PROJECT = "CommonLib.Test\\CommonLib.Test.csproj"
-        TOOLS_DIR = ".devops\\dotnet-tools"
+        TEST_PROJECT = "CommonLib.Test/CommonLib.Test.csproj"
+        TOOLS_DIR = ".devops/dotnet-tools"
     }
 
     stages {
@@ -49,15 +49,15 @@ pipeline {
                 stage('Clean and Restore') {
                     steps {
                         echo 'Cleaning and Restoring NuGet Packages...'
-                        bat "dotnet clean ${env.SOLUTION}"
-                        bat "dotnet restore ${env.SOLUTION}"
+                        sh "dotnet clean ${env.SOLUTION}"
+                        sh "dotnet restore ${env.SOLUTION}"
                     }
                 }
 
                 stage('Compile') {
                     steps {
                         echo 'Building Common.sln...'
-                        bat "dotnet build ${env.SOLUTION} --configuration Release"
+                        sh "dotnet build ${env.SOLUTION} --configuration Release"
                     }
                 }
 
@@ -66,21 +66,21 @@ pipeline {
                         timeout(time: 5, unit: 'MINUTES')
                     }
                     steps {
-                        bat "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
+                        sh "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
                     }
                 }
 
                 stage('Install DotNet Tools') {
                     steps {
-                        bat "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11"
+                        sh "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11"
                     }
                 }
 
                 stage('Metrics') {
                     steps {
                         dir('.devops') {
-                            powershell('py -m pip install pip_system_certs lxml tabulate pyyaml')
-                            powershell('py metrics_calculate.py ./metrics_config.yaml ./metrics_reports')
+                            sh('python3 -m pip install pip_system_certs lxml tabulate pyyaml')
+                            sh('python3 metrics_calculate.py ./metrics_config.yaml ./metrics_reports')
                         }
                     }
                     post {
@@ -93,13 +93,13 @@ pipeline {
                 stage('Unit Test') {
                     steps {
                         echo 'Running Unit Tests with Code Coverage...'
-                        bat "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --results-directory .devops\\TestResults"
+                        sh "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --results-directory .devops/TestResults"
                     }
                 }
 
                 stage('Coverage') {
                     steps {
-                        bat "${env.TOOLS_DIR}\\reportgenerator.exe -reports:.devops\\TestResults\\**\\coverage.cobertura.xml -targetdir:.devops\\coverage_reports \"-reporttypes:Html;Cobertura\""
+                        sh "${env.TOOLS_DIR}/reportgenerator -reports:.devops/TestResults/**/coverage.cobertura.xml -targetdir:.devops/coverage_reports \"-reporttypes:Html;Cobertura\""
                     }
                     post {
                         always {
