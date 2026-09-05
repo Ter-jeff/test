@@ -1,0 +1,448 @@
+@Library(['ter-d4t-sharedlib', 'seg-devops-infra-lib']) _
+
+def config
+
+def getBuildDiscarder() {
+    switch(env.BRANCH_NAME) {
+        case 'main':
+        case 'master':
+            return logRotator(
+                daysToKeepStr: '90',
+            )
+        case ~/^release\/.*/: // start with release/
+            return logRotator(
+                daysToKeepStr: '60',
+            )
+        case ~/^integration\/.*/: // start with integration/
+            return logRotator(
+                daysToKeepStr: '60',
+            )
+        case ~/^downstream\/.*/: // start with downstream/
+            return logRotator(
+                numToKeepStr: '5',
+            )
+        case ~/^MR-.*/:
+            return logRotator(
+                numToKeepStr: '10',
+            )
+        default: // includes dev branches
+            return logRotator(
+                numToKeepStr: '10',
+            )
+    }
+}
+
+// Mutation testing and downstream pipelines are expensive, so restrict them to
+// master/main and non-draft merge requests.
+def shouldRunOnMainOrReadyMr() {
+    if (env.BRANCH_NAME in ['master', 'main']) {
+        return true
+    }
+    // An MR pipeline exposes the MR number via CHANGE_ID (multibranch) or GITLAB_OA_IID (GitLab plugin).
+    // Both are empty on a plain branch build.
+    if (!env.CHANGE_ID?.trim() && !env.GITLAB_OA_IID?.trim()) {
+        return false
+    }
+    // Skip draft MRs. GitLab prefixes the title with "Draft: ".
+    def title = (env.CHANGE_TITLE ?: env.GITLAB_OA_TITLE ?: env.gitlabMergeRequestTitle ?: '').trim()
+    return !title.startsWith('Draft:')
+}
+
+// A tag pipeline sets TAG_NAME (BRANCH_NAME is set to the same value).
+def isTagPipeline() {
+    return env.TAG_NAME?.trim() ? true : false
+}
+
+pipeline
+{
+    agent none
+
+    options
+    {
+        buildDiscarder(getBuildDiscarder())
+        disableConcurrentBuilds()
+        skipDefaultCheckout()
+    }
+
+    parameters
+    {
+        string(name: 'GIT_CLONE_DEPTH', description: 'Truncate the clone history to the specified number of commits.', trim: true, defaultValue: '1')
+    }
+
+    environment
+    {
+        CONFIG_DIR = ".devops"
+        CONFIG_FILE = "${CONFIG_DIR}/config.json"
+        GITLAB_NUGET_PUSH_TOKEN = credentials('gitlab_nuget_push_token')
+        GITLAB_SERVICE_ACCOUNT_CRED = credentials('segte_tools_pat_global')
+        JENKINS_SERVICE_ACCOUNT_CRED = credentials('segte_tools_jenkins_cred')
+    }
+
+    stages
+    {
+        stage('Load D4T Configuration')
+        {
+            agent { label 'service-node' }
+
+            steps
+            {
+              script
+              {
+                config = loadConfiguration(configFile: "${CONFIG_FILE}")
+              }
+            }
+        }
+
+        // stage('Setup Agents')
+        // {
+        //     options
+        //     {
+        //         timeout(time: 45, unit: 'MINUTES')
+        //     }
+
+        //     agent { label 'service-node' }
+
+        //     steps
+        //     {
+        //         script
+        //         {
+        //             config = deployAgents(config)
+        //         }
+        //     }
+        // }
+
+        stage('Build')
+        {
+            agent { label 'swarm' }
+
+            stages
+            {
+                stage('SCM Checkout')
+                {
+                    steps
+                    {
+                        checkout scm
+                    }
+                }
+                stage('Deploy CLI') 
+                {
+                    options 
+                    {
+                        timeout(time: 60, unit: 'MINUTES')
+                    }
+                    steps 
+                    {
+                        dir(path: '.devops')
+                        {
+                            powershell('git fetch --tags')
+                            powershell('.\\package_autogen_cli.ps1')
+                            powershell('.\\validate_autogen_tool.ps1')
+                            powershell('.\\validate_autogen_exe.ps1')
+                        }
+                    }
+                }
+                stage('Compile') 
+                {
+                    options 
+                    {
+                        timeout(time: 60, unit: 'MINUTES')
+                    }
+                    steps 
+                    {
+                        dir(path: '01_Code/ProjectAutomation')
+                        {
+                            powershell('dotnet restore')
+                            powershell('dotnet build Automation.sln')
+                        }
+                    }
+                }
+                stage('Lint')
+                {
+                    options
+                    {
+                        timeout(time: 5, unit: 'MINUTES')
+                    }
+                    steps
+                    {
+                        dir('01_Code/ProjectAutomation')
+                        {
+                            powershell('dotnet format --verify-no-changes --exclude-diagnostics CA1502 CA1505 --exclude ./Cautogen/')
+                        }
+                    }
+                }
+                stage('Test') 
+                {
+                    options 
+                    {
+                        timeout(time: 60, unit: 'MINUTES')
+                    }
+                    steps 
+                    {
+                        dir(path: '01_Code/ProjectAutomation')
+                        {
+                            powershell('dotnet restore')
+                            powershell('dotnet build /p:WarningLevel=0')
+                            script
+                            {
+                                def testProjects = [
+                                    'CommonLib.Test': 'Common',
+                                    'BinCutScriptLib.Test': 'Common',
+                                    'IgxlLib.Test': 'Common',
+                                    'ScghLib.Test': 'Common',
+                                    'TestPlanLib.Test': 'Common',
+                                    'TagDiff.Test': 'TagDiff'
+                                ]
+                                testProjects.each { testProject, testDir ->
+                                    catchError(
+                                        buildResult: 'SUCCESS',
+                                        stageResult: 'UNSTABLE',
+                                        message: "Unit test project ${testProject} failed"
+                                    )
+                                    {
+                                        powershell("dotnet test --no-build --no-restore ${testDir}/${testProject}/${testProject}.csproj")
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                stage('Install DotNet Tools') {
+                    steps {
+                        powershell('dotnet tool install --global dotnet-coverage --version 17.13.1')
+                        powershell('dotnet tool install --global dotnet-reportgenerator-globaltool --version 5.3.11')
+
+                        // Fuji NuGet packages
+                        powershell("dotnet nuget add source --name fuji_nuget_packages --username $GITLAB_SERVICE_ACCOUNT_CRED_USR --password $GITLAB_SERVICE_ACCOUNT_CRED_PSW --store-password-in-clear-text 'https://vendor-gitlab.csg.apple.com/api/v4/projects/513/packages/nuget/index.json'")
+                        powershell('dotnet tool install --global slt-csharp-metrics')
+                        powershell('dotnet tool install --global sltduplicatecodedetector')
+                    }
+                }
+                stage('Metrics') {
+                    steps {
+                        dir(path: '.devops')
+                        {
+                            powershell('python -m pip install pip_system_certs lxml tabulate pyyaml python-gitlab')
+                            script {
+                                def reportUrl = "${env.BUILD_URL}artifact/.devops/metrics_reports/"
+                                powershell("python calculate_metrics.py ./metrics_config.yaml ./metrics_reports --publish-gitlab-status --target-url ${reportUrl}")
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            archiveArtifacts artifacts: '**/metrics_reports/**', caseSensitive: true
+                        }
+                    }
+                }
+                stage('Unit Test') {
+                    options { timeout(time: 30, unit: 'MINUTES') }
+                    steps {
+                        dir('01_Code/ProjectAutomation/Automation.Test') {
+                            script {
+                                def result = bat(returnStatus: true, script: '''
+                                    dotnet test Automation.Test.csproj ^
+                                        --configuration Release ^
+                                        --collect:"XPlat Code Coverage" ^
+                                        --settings "Automation.runsettings" ^
+                                        --results-directory "TestResults" ^
+                                        --filter "FullyQualifiedName=Automation.Test.UT.Project.Hidra.Lite_Hidra | FullyQualifiedName=Automation.Test.UT.Project.Borneo.Lite_Borneo | FullyQualifiedName~Automation.Test.UT.Scan | FullyQualifiedName~Automation.Test.UT.Rtos | FullyQualifiedName~Automation.Test.UT.PreAction| FullyQualifiedName~Automation.Test.UT.PostAction | FullyQualifiedName~Automation.Test.UT.Htol | FullyQualifiedName~Automation.Test.UT.HardIp | FullyQualifiedName~Automation.Test.UT.Evs | FullyQualifiedName~Automation.Test.UT.Efuse | FullyQualifiedName~Automation.Test.UT.Common | FullyQualifiedName~Automation.Test.UT.BistBira | FullyQualifiedName~Automation.Test.UT.BinCut | FullyQualifiedName~Automation.Test.UT.Basic | FullyQualifiedName~Automation.Test.UT.VRE" ^
+                                        --logger "console;verbosity=minimal"
+                                ''')
+
+                                if (result != 0) {
+                                    error "[ERROR] Unit tests failed with exit code ${result}"
+                                }
+
+                                def reportFiles = findFiles(glob: '**/bin/Release/FileDiffReport/**/*')
+                                if (reportFiles.length != 0) {
+                                    echo "Found ${reportFiles.length} FileDiffReport file(s)."
+                                    for (f in reportFiles) {
+                                        echo " - ${f.path}"
+                                    }
+                                } else {
+                                    echo "No FileDiffReport files found."
+                                }
+                            }
+                        }
+                    }
+                    post {
+                        failure {
+                            archiveArtifacts artifacts: '**/bin/Release/FileDiffReport/**/*', caseSensitive: true, allowEmptyArchive: true
+                            archiveArtifacts artifacts: '**/bin/Release/Expected/**/*', caseSensitive: true, allowEmptyArchive: true
+                            archiveArtifacts artifacts: '**/bin/Release/Output/**/*', caseSensitive: true, allowEmptyArchive: true
+                        }
+                    }
+                }
+                stage('Coverage') {
+                    steps {
+                        dir('01_Code/ProjectAutomation/Automation.Test') {
+                            powershell("reportgenerator -reports:TestResults\\**\\coverage.cobertura.xml -targetdir:CoverageReport '-reporttypes:Html;Cobertura' -assemblyfilters:+*Automation*")
+                        }
+                    }
+                    post {
+                        always {
+                            archiveArtifacts artifacts: '**/CoverageReport/**', caseSensitive: true
+                            publishHTML([
+                                allowMissing: true,
+                                alwaysLinkToLastBuild: false,
+                                keepAll: true,
+                                reportDir: '01_Code/ProjectAutomation/Automation.Test/CoverageReport',
+                                reportFiles: 'index.html',
+                                reportName: 'Unit Test Coverage'
+                            ])
+                            script {
+                                // publishHTML above serves the report under the stage's report name.
+                                def reportUrl = "${env.BUILD_URL}Unit_20Test_20Coverage/"
+                                dir(path: '.devops') {
+                                    powershell('python -m pip install pip_system_certs python-gitlab')
+                                    powershell("python update_gitlab_coverage.py ../01_Code/ProjectAutomation/Automation.Test/CoverageReport/Cobertura.xml --target-url ${reportUrl}")
+                                }
+                            }
+                        }
+                    }
+                }
+                stage('Downstream')
+                {
+                    when { expression { shouldRunOnMainOrReadyMr() || isTagPipeline() } }
+                    options
+                    {
+                    timeout(time: 240, unit: 'MINUTES')
+                    }
+                    steps
+                    {
+                    dir(path: '.devops')
+                    {
+                        script
+                        {
+                            // Tag pipelines block until the downstream build finishes so the
+                            // stage status reflects it; main/master/MRs stay non-blocking.
+                            def blockFlag = isTagPipeline() ? ' --block' : ''
+                            powershell('python -m pip install pip_system_certs python-gitlab jenkinsapi')
+                            powershell("python .\\run_downstream_pipelines.py .\\downstream_references.csv${blockFlag}")
+                        }
+                    }
+                    }
+                }
+                stage('Mutation Test') {
+                    when { expression { shouldRunOnMainOrReadyMr() } }
+                    options { timeout(time: 240, unit: 'MINUTES') }
+                    steps {
+                        script {
+                            // Make the baseline's commit reachable for the --since diff: unshallow the clone,
+                            // then fetch master with an explicit refspec. Do NOT modify the remote's tracked
+                            // branches / fetch refspec -- that breaks Stryker's own LibGit2Sharp target
+                            // resolution ("ref 'refs/remotes/origin/master' doesn't match the destination").
+                            powershell('''
+                                $shallow = (git rev-parse --is-shallow-repository).Trim()
+                                if ($shallow -eq 'true') { git fetch --no-tags --unshallow origin }
+                                git fetch --no-tags origin master:refs/remotes/origin/master
+                            ''')
+                            def isSeedBranch = env.BRANCH_NAME in ['master', 'main']
+                            env.STRYKER_IS_SEED = isSeedBranch.toString()
+                            // HEAD SHA is the version under which master publishes the advanced baseline.
+                            env.STRYKER_HEAD_SHA = powershell(returnStdout: true, script: 'git rev-parse HEAD').trim()
+                        }
+                        dir('01_Code/ProjectAutomation') {
+                            powershell('dotnet tool restore')
+                            catchError(buildResult: 'SUCCESS', stageResult: 'UNSTABLE', message: 'Stryker mutation run failed or below threshold') {
+                                script {
+                                    // Restore newest ancestor baseline + .sha sidecar (see stryker_package_registry.py).
+                                    powershell('python ..\\..\\.devops\\stryker_package_registry.py restore-baseline --dest StrykerOutput\\baseline\\master\\stryker-report.json')
+                                    // Diff --since the restored baseline's own commit (see the .sha sidecar note there).
+                                    env.STRYKER_DIFF_TARGET = powershell(returnStdout: true, script: '''
+                                        $f = 'StrykerOutput\\baseline\\master\\stryker-report.json.sha'
+                                        if (Test-Path $f) { (Get-Content -Raw $f).Trim() } else { '' }
+                                    ''').trim()
+                                    echo "Stryker diff target (restored baseline) = ${env.STRYKER_DIFF_TARGET}"
+                                    if (!env.STRYKER_DIFF_TARGET?.trim()) {
+                                        // No baseline to diff against (e.g. empty registry). The baseline is
+                                        // seeded once out-of-band; nothing to advance incrementally here.
+                                        echo 'No baseline diff target available; skipping mutation run (bootstrap a baseline first).'
+                                    } else {
+                                        // Stryker can't merge a baseline itself; --since tests only changed
+                                        // files, then merge_stryker_reports.py overlays them onto the baseline.
+                                        powershell("dotnet stryker --config-file ../../.devops/stryker-config.json --since:${env.STRYKER_DIFF_TARGET} --log-to-file")
+                                        powershell('''
+                                            $seed  = 'StrykerOutput\\baseline\\master\\stryker-report.json'
+                                            $child = Get-ChildItem -Path StrykerOutput -Recurse -Filter mutation-report.json |
+                                                     Where-Object { $_.FullName -notlike '*\\baseline\\*' } |
+                                                     Sort-Object LastWriteTime | Select-Object -Last 1
+                                            if (-not $child) { throw 'Mutation run produced no mutation-report.json' }
+                                            if (Test-Path $seed) {
+                                                python ..\\..\\.devops\\merge_stryker_reports.py $seed $child.FullName StrykerOutput\\merged
+                                            } else {
+                                                Write-Host 'No seed baseline present; publishing branch-only report (no full-project merge).'
+                                            }
+                                        ''')
+                                        if (env.STRYKER_IS_SEED == 'true') {
+                                            // Advance the canonical baseline: publish the merged full-project
+                                            // report under master HEAD so future builds restore it.
+                                            powershell("python ..\\..\\.devops\\stryker_package_registry.py publish-baseline --sha ${env.STRYKER_HEAD_SHA} StrykerOutput\\merged\\mutation-report.json")
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            archiveArtifacts artifacts: '**/StrykerOutput/**', allowEmptyArchive: true, caseSensitive: true
+                            publishHTML([
+                                allowMissing: true,
+                                alwaysLinkToLastBuild: false,
+                                keepAll: true,
+                                reportDir: '01_Code/ProjectAutomation/StrykerOutput/merged',
+                                reportFiles: 'mutation-report.html',
+                                reportName: 'Mutation Test Coverage'
+                            ])
+                            script {
+                                def reportUrl = "${env.BUILD_URL}Mutation_20Test_20Coverage/"
+                                dir(path: '.devops') {
+                                    powershell('python -m pip install pip_system_certs python-gitlab')
+                                    powershell("python update_gitlab_mutation_status.py --target-url ${reportUrl} --report-json ..\\01_Code\\ProjectAutomation\\StrykerOutput\\merged\\mutation-report.json")
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post
+    {
+        always
+        {
+            script
+            {
+                node('service-node')
+                {
+                    releaseAgent()
+                    
+                    def email_body = '$DEFAULT_CONTENT <br /> <br /> <div style="padding-left: 30px; padding-bottom: 15px;"> ${CHANGES, showPaths=true, format="<div><b>%a</b>: %r %p </div><div style=\\"padding-left:30px;\\"> &#8212; &#8220;<em>%m</em>&#8221;</div>", pathFormat="</div><div style=\\"padding-left:30px;\\">%p"} </div>'
+
+                    if (config.Settings.EMAILS != "")
+                    {
+                        emailext(subject: '$DEFAULT_SUBJECT',
+                        body: email_body,
+                        mimeType: 'text/html',
+                        attachLog: true,
+                        from: 'tagswbuild@teradyne.com',
+                        recipientProviders: [developers(), culprits(), requestor()],
+                        to: config.Settings.EMAILS)
+                    }
+                    else
+                    {
+                        emailext(subject: '$DEFAULT_SUBJECT',
+                        body: email_body,
+                        mimeType: 'text/html',
+                        attachLog: true,
+                        from: 'tagswbuild@teradyne.com',
+                        recipientProviders: [developers(), culprits(), requestor()])
+                    }
+
+                    cleanWs()
+                }
+            }
+        }
+    }
+}
