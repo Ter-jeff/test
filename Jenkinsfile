@@ -16,7 +16,7 @@ pipeline {
     }
 
     stages {
-        stage('Load D4T Configuration') {
+        stage('Load Config') {
             agent { label 'service-node' }
 
             steps {
