@@ -103,7 +103,7 @@ pipeline {
                     }
                     post {
                         always {
-                            junit testResults: '.devops/TestResults/**/test-results.xml', allowEmptyResults: true
+                            junit testResults: '**/test-results.xml', allowEmptyResults: true
                         }
                     }
                 }
