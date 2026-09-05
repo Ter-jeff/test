@@ -115,6 +115,14 @@ pipeline {
                     post {
                         always {
                             archiveArtifacts artifacts: '.devops/coverage_reports/**, .devops/TestResults/**', allowEmptyArchive: true
+                            publishHTML(target: [
+                                reportDir: '.devops/coverage_reports',
+                                reportFiles: 'index.html',
+                                reportName: 'Coverage Report',
+                                keepAll: true,
+                                alwaysLinkToLastBuild: true,
+                                allowMissing: true,
+                            ])
                             script {
                                 publishCoverageStatus()
                             }
