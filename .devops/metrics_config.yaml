@@ -1,11 +1,11 @@
-solution: '../Common.sln'
+solution: '../Automation.sln'
 
 # Global ignores — applied to all metrics
 ignore_projects:
   - '(.*?).Test.csproj'
-  - CommonLib.Test.csproj
+  - Automation.Test.csproj
 ignore_directories:
-  - CommonLib.Test
+  - Automation.Test
 ignore_classes: []
 ignore_methods: []
 
