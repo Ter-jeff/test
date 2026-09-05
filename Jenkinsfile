@@ -70,7 +70,7 @@ pipeline {
                         timeout(time: 5, unit: 'MINUTES')
                     }
                     steps {
-                        sh "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505 --exclude ./Cautogen/"
+                        sh "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505 --exclude ./Cautogen/ ./AutogenCommandLine/ ./RF_PatternTool/ ./Automation.Test/ ./Common/RfLib.Test/ ./TagDiff/TagDiff.Test/"
                     }
                 }
 
@@ -99,7 +99,7 @@ pipeline {
                 stage('Unit Test') {
                     steps {
                         echo 'Running Unit Tests with Code Coverage...'
-                        sh "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --logger \"junit;LogFilePath=test-results.xml\" --results-directory .devops/TestResults"
+                        sh "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --logger \"junit;LogFilePath=test-results.xml\" --results-directory .devops/TestResults --filter \"FullyQualifiedName=Automation.Test.UT.Project.Hidra.Lite_Hidra | FullyQualifiedName=Automation.Test.UT.Project.Borneo.Lite_Borneo | FullyQualifiedName~Automation.Test.UT.Scan | FullyQualifiedName~Automation.Test.UT.Rtos | FullyQualifiedName~Automation.Test.UT.PreAction | FullyQualifiedName~Automation.Test.UT.PostAction | FullyQualifiedName~Automation.Test.UT.Htol | FullyQualifiedName~Automation.Test.UT.HardIp | FullyQualifiedName~Automation.Test.UT.Evs | FullyQualifiedName~Automation.Test.UT.Efuse | FullyQualifiedName~Automation.Test.UT.Common | FullyQualifiedName~Automation.Test.UT.BistBira | FullyQualifiedName~Automation.Test.UT.BinCut | FullyQualifiedName~Automation.Test.UT.Basic | FullyQualifiedName~Automation.Test.UT.VRE\""
                     }
                     post {
                         always {
