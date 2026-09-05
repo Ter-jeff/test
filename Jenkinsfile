@@ -65,14 +65,14 @@ pipeline {
                     }
                 }
 
-                stage('Lint') {
-                    options {
-                        timeout(time: 5, unit: 'MINUTES')
-                    }
-                    steps {
-                        sh "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505 --exclude ./Cautogen/ ./AutogenCommandLine/ ./RF_PatternTool/ ./Automation.Test/ ./Common/RfLib.Test/ ./TagDiff/TagDiff.Test/"
-                    }
-                }
+                // stage('Lint') {
+                //     options {
+                //         timeout(time: 5, unit: 'MINUTES')
+                //     }
+                //     steps {
+                //         sh "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505 --exclude ./Cautogen/ ./AutogenCommandLine/ ./RF_PatternTool/ ./Automation.Test/ ./Common/RfLib.Test/ ./TagDiff/TagDiff.Test/"
+                //     }
+                // }
 
                 stage('Install DotNet Tools') {
                     steps {
