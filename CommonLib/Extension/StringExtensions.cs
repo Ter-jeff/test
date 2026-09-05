@@ -7,7 +7,7 @@ namespace CommonLib.Extension
 {
     public static class StringExtensions
     {
-            public static string Join(this string connector, params string[] components)
+        public static string Join(this string connector, params string[] components)
         {
             return string.Join(connector, components);
         }
