@@ -67,7 +67,14 @@ def fetch_previous_coverage(token: str, current_sha: str) -> Optional[float]:
 
 
 def find_branch_coverage(search_root: Path) -> Optional[float]:
-    matches = sorted(search_root.rglob('coverage.cobertura.xml'))
+    """Read branch coverage from ReportGenerator's aggregated Cobertura.xml.
+
+    This is deliberately the *filtered* output (the Jenkinsfile's reportgenerator
+    call passes -assemblyfilters:+*Automation*), not coverlet's raw per-run
+    coverage.cobertura.xml under TestResults -- so this status and the Jenkins
+    HTML coverage report always agree on scope without duplicating the filter here.
+    """
+    matches = sorted(search_root.rglob('Cobertura.xml'))
     if not matches:
         return None
     root = ET.parse(matches[0]).getroot()
