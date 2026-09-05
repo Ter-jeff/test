@@ -7,6 +7,7 @@ pipeline {
 
     options {
         buildDiscarder(logRotator(numToKeepStr: '30'))
+        timeout(time: 30, unit: 'MINUTES')
     }
 
     environment
@@ -98,7 +99,12 @@ pipeline {
                 stage('Unit Test') {
                     steps {
                         echo 'Running Unit Tests with Code Coverage...'
-                        sh "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --results-directory .devops/TestResults"
+                        sh "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --logger \"junit;LogFilePath=test-results.xml\" --results-directory .devops/TestResults"
+                    }
+                    post {
+                        always {
+                            junit testResults: '.devops/TestResults/**/test-results.xml', allowEmptyResults: true
+                        }
                     }
                 }
 
