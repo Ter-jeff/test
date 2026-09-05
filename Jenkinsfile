@@ -3,7 +3,11 @@
 def config
 
 pipeline {
-    agent none
+    agent { label 'swarm' }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '30'))
+    }
 
     environment
     {
@@ -17,8 +21,6 @@ pipeline {
 
     stages {
         stage('Load Config') {
-            agent { label 'service-node' }
-
             steps {
                 script {
                     // config = loadConfiguration(configFile: "${CONFIG_FILE}")
@@ -42,8 +44,6 @@ pipeline {
         // }
 
         stage('Build') {
-            agent { label 'swarm' }
-
             environment {
                 GITHUB_PACKAGES_TOKEN = credentials('github-packages-pat')
             }
@@ -122,14 +122,12 @@ pipeline {
     post {
         always {
             script {
-                node('service-node') {
-                    // releaseAgent()
+                // releaseAgent()
 
-                    try {
-                        // sendBuildEmail(config)
-                    } finally {
-                        cleanWs()
-                    }
+                try {
+                    // sendBuildEmail(config)
+                } finally {
+                    cleanWs()
                 }
             }
         }
