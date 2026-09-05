@@ -14,8 +14,8 @@ pipeline {
     {
         CONFIG_DIR = ".devops"
         CONFIG_FILE = "${CONFIG_DIR}/config.json"
-        SOLUTION = "Common.sln"
-        TEST_PROJECT = "CommonLib.Test/CommonLib.Test.csproj"
+        SOLUTION = "Automation.sln"
+        TEST_PROJECT = "Automation.Test/Automation.Test.csproj"
         TOOLS_DIR = ".devops/dotnet-tools"
         PATH = "/usr/local/share/dotnet:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:${env.PATH}"
     }
