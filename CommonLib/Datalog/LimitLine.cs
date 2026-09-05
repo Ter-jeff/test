@@ -87,7 +87,7 @@ namespace CommonLib.Datalog
 
         public LimitRow ToRow()
         {
-            if (Line.StartsWith("[INFO]") || RegEfuseLine.IsMatch(Line) || Line == "")
+            if (Line.StartsWith("[INFO]") || RegEfuseLine.IsMatch(Line) || string.IsNullOrEmpty(Line))
             {
                 return null;
             }
@@ -139,7 +139,7 @@ namespace CommonLib.Datalog
             return limitRow;
         }
 
-        public void GetExecuteUnitVal(string line, string[] spt, int step, out double limitlow, out double limithigh)
+        public static void GetExecuteUnitVal(string line, string[] spt, int step, out double limitlow, out double limithigh)
         {
             double unitValue = 1;
             if (line.Contains(" K "))

@@ -2,11 +2,13 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Versioning;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace CommonLib.Utility
 {
+    [SupportedOSPlatform("windows")]
     public sealed class StaTaskScheduler : TaskScheduler, IDisposable
     {
         private readonly List<Thread> _threads;

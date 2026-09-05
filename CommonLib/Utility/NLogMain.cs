@@ -6,7 +6,7 @@ namespace CommonLib.Utility
 {
     public class NLogMain
     {
-        public void SetNLog(string fileName)
+        public static void SetNLog(string fileName)
         {
             var config = new LoggingConfiguration();
             var fileTarget = new FileTarget();
@@ -21,7 +21,7 @@ namespace CommonLib.Utility
             config.LoggingRules.Add(rule2);
             LogManager.Configuration = config;
         }
-        public void SetNLogInTrace(string fileName)
+        public static void SetNLogInTrace(string fileName)
         {
             var config = new LoggingConfiguration();
             var fileTarget = new FileTarget();
@@ -34,7 +34,7 @@ namespace CommonLib.Utility
             config.LoggingRules.Add(rule);
             LogManager.Configuration = config;
         }
-        public void SetNLog()
+        public static void SetNLog()
         {
             var config = new LoggingConfiguration();
             var fileTarget = new FileTarget();

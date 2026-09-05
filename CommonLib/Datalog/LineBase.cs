@@ -16,7 +16,7 @@ namespace CommonLib.Datalog
         public int LineNo;
         public string Line = "";
 
-        public int GetChannelIndex(string[] spt)
+        public static int GetChannelIndex(string[] spt)
         {
             int channelIndex = 0;
             for (int i = 0; i < spt.Length; i++)
@@ -30,7 +30,7 @@ namespace CommonLib.Datalog
             return channelIndex;
         }
 
-        public int GetPowerBinningIndex(string[] spt)
+        public static int GetPowerBinningIndex(string[] spt)
         {
             int channelIndex = 0;
             for (int i = 0; i < spt.Length; i++)
@@ -44,7 +44,7 @@ namespace CommonLib.Datalog
             return channelIndex;
         }
 
-        public int GetMeasureIndex(int channelIndex, string[] spt)
+        public static int GetMeasureIndex(int channelIndex, string[] spt)
         {
             int step = 0;
             int moreTwoStep = 0;

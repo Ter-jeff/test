@@ -607,7 +607,7 @@ namespace CommonLib.Extension
             for (int i = startRowNumber; i <= endRowNumber; i++)
             {
                 IEnumerable<string> range = worksheet.Cells[i, startColNumber, i, endColNumber].ToList().Select(x => x.Text);
-                if (range.All(x => string.IsNullOrEmpty(x)))
+                if (range.All(string.IsNullOrEmpty))
                 {
                     splitRows.Add(i);
                 }
@@ -912,7 +912,7 @@ namespace CommonLib.Extension
             for (int index = 0; index < data.Length; index++)
             {
                 T item = data[index];
-                array[index] = item == null ? (object)"" : item;
+                array[index] = item == null ? "" : item;
             }
 
             arrays.Add(array);
