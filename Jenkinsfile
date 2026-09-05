@@ -76,13 +76,12 @@ pipeline {
                 stage('Install DotNet Tools') {
                     steps {
                         sh "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11 --add-source https://api.nuget.org/v3/index.json"
+                        sh "dotnet tool update --tool-path ${env.TOOLS_DIR} slt-csharp-metrics --version 4.1.2"
+                        sh "dotnet tool update --tool-path ${env.TOOLS_DIR} SltDuplicateCodeDetector --version 1.1.0"
                     }
                 }
 
                 stage('Metrics') {
-                    when {
-                        expression { !isUnix() }
-                    }
                     steps {
                         dir('.devops') {
                             sh('python3 -m pip install --break-system-packages pip_system_certs lxml tabulate pyyaml')

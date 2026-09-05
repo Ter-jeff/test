@@ -27,6 +27,8 @@ args = parser.parse_args()
 
 SCRIPT_DIR = Path(__file__).parent.resolve()  # .devops
 DOTNET_TOOLS_DIR = SCRIPT_DIR / 'dotnet-tools'
+# `dotnet tool` launchers carry a .exe suffix on Windows but not on macOS/Linux.
+TOOL_SUFFIX = '.exe' if os.name == 'nt' else ''
 OUTPUT_DIR: Path = Path(args.output_directory).resolve()
 METRICS_XML_PATH = OUTPUT_DIR / 'metrics.xml'
 DUPLICATES_CSV_PATH = OUTPUT_DIR / 'duplicates.csv'
@@ -832,7 +834,7 @@ if __name__ == '__main__':
         print_buffer('ANALYZING CODE METRICS')
         print('Generating metrics.xml...')
         run_os_command(
-            str(DOTNET_TOOLS_DIR / 'slt-csharp-metrics.exe'),
+            str(DOTNET_TOOLS_DIR / f'slt-csharp-metrics{TOOL_SUFFIX}'),
             f'/solution:{SOLUTION_PATH}',
             f'/out:{METRICS_XML_PATH}'
         )
@@ -841,7 +843,7 @@ if __name__ == '__main__':
             print_buffer('ANALYZING DUPLICATE CODE')
             exclude_dirs = ','.join(config.ignore_directories)
             duplicate_stdout = run_os_command(
-                str(DOTNET_TOOLS_DIR / 'csharp-duplicate-detector.exe'),
+                str(DOTNET_TOOLS_DIR / f'csharp-duplicate-detector{TOOL_SUFFIX}'),
                 f'--min-tokens={config.duplicate_min_tokens}',
                 f'--block-split={config.duplicate_block_split}',
                 f'--exclude={exclude_dirs}',
