@@ -1,0 +1,2 @@
+Pin	CurrentRange	WaitTime
+All_IO	0.02	0.00054

@@ -1,0 +1,208 @@
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 4843:  41810004     6     MS001_SocTd_MSX001_SOC_MSX001_TD_CCX0_PL00_PL20_SSC_FT1_BV                                                     PP_HIDC0_S_PL00_SC_CCA0_TDF_SSC_HAR_MSLXXX_SI_1_C0_2501092143                                        (F) N/A               N/A                   
+
+=> Site mismatch in instance : MS001_SocTd_MSX001_SOC_MSX001_TD_CAF0_CCB1_PL00_PL20_PRC_FT1_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 4852:  41812004     6     MS001_SocTd_MSX001_SOC_MSX001_TD_CAF0_CCB1_PL00_PL20_PRC_FT1_BV                                                PP_HIDA0_S_PL00_SC_CAF0_TDF_PRC_HAR_MSPXXX_SI_6_A0_2403031048                                        (F) N/A               N/A                   
+
+=> Site mismatch in instance : MS001_SocMbist_MSX001_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_NoHarv_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 4958:  41832009     6     MS001_GPU_GpuTd_MSX001_CFND_PL00_PL2X_FT1_SRM04_BV                                                             PP_HIDC0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_SI_1_C0_2412062354                                        (F) N/A               N/A                   
+
+=> Site mismatch in instance : MS001_GPU_GpuMbist_MSX001_PP_HIDA0_L_PLLP_BI_PSOC_BST_JTG_55N_MSXXXX_SI_PSOC_BIST_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 4983:  41899004     6     MD001_SocTd_MDX001_SOC_MDX001_TD_CDD0_PL00_PL20_SSC_FT1_SRM0E_BV                                               PP_HIDB0_S_PL00_SC_CDD0_TDF_SSC_AUT_MSDXXX_SI_5_B0_2408130916                                        (F) N/A               N/A                   
+
+=> Site mismatch in instance : MD001_SocMbist_MDX001_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_NoHarv_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> Getting error in line : 5019
+Can not find harvest flags in data log !!!
+Fail line:5019 & 5018         X:10 Y:17         Site:6
+<MI001_SocTd_MIX001_SOC_MIX001_TD_CIA0_PL00_SSC_FT1_BV>
+Selsram:
+       Expected :[INFO]  [Site 6] 1110
+       Datalog  :[INFO]  [Site 6] 1111
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 5025:  41933004     6     MI001_SocTd_MIX001_SOC_MIX001_TD_CIA0_PL00_SSC_FT1_BV                                                          PP_HIDC0_S_PL00_SC_CIA0_TDF_SSC_HAR_MIXXXX_SI_2_C0_2412310031                                        (F) N/A               N/A                   
+
+=> Site mismatch in instance : MI001_SocMbist_MIX001_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_NoHarv_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> Getting error in line : 5028
+Can not find harvest flags in data log !!!
+Fail line:5028 & 5027         X:10 Y:17         Site:6
+<MI001_SocMbist_MIX001_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_NoHarv_BV>
+Selsram:
+       Expected :[INFO]  [Site 6] 1110
+       Datalog  :[INFO]  [Site 6] 1111
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 5074:  42186003     6     ME001_CpuTd_MEX001_DIV166_FT1_BV                                                                               PP_HIDB0_C_PL00_SC_C0F7_TDF_COM_HAR_MEXXXX_SI_DIV166_3_B0_2408160534                                 (F) N/A               N/A                   
+
+=> Site mismatch in instance : ME001_CpuTd_MEX001_DIV422_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 5081:  42188003     6     ME001_CpuTd_MEX001_DIV422_BV                                                                                   PP_HIDB0_C_PL00_SC_C0F7_TDF_COM_AUT_MEXXXX_SI_DIV422_1_B0_2407270157                                 (F) N/A               N/A                   
+
+=> Site mismatch in instance : ME001_CXD_CpuMbist_MEX001_59N_SP1_SP5_LATR_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 5121:  42222003     6     MP001_CpuTd_MPX001_DIV166_FT1_SRM0E_BV                                                                         PP_HIDB0_C_PL00_SC_C307_TDF_COM_HAR_MPXXXX_SI_DIV166_2_B0_2408112126                                 (F) N/A               N/A                   
+
+=> Site mismatch in instance : MP001_CpuTd_MPX001_DIV422_SRM0E_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 5128:  42224003     6     MP001_CpuTd_MPX001_DIV422_SRM0E_BV                                                                             PP_HIDB0_C_PL00_SC_C307_TDF_COM_AUT_MPXXXX_SI_DIV422_1_B0_2407272158                                 (F) N/A               N/A                   
+
+=> Site mismatch in instance : MP001_SocTd_MPX001_SOC_MPX001_TD_CANX_PL00_PL20_PRC_FT1_SRM0E_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 5136:  42230004     6     MP001_SocTd_MPX001_SOC_MPX001_TD_CANX_PL00_PL20_PRC_FT1_SRM0E_BV                                               PP_HIDA0_S_PL00_SC_CAN1_TDF_COM_HAR_MPXXXX_SI_2_A0_2405140537                                        (F) N/A               N/A                   
+
+=> Site mismatch in instance : MP001_CXD_CpuMbist_MPX001_59N_SP1_SP4_SP5_LATR_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 5269:  42346003     6     MP00I_CpuTd_MPX00I_DIV133_1P_Div422_SRM0E_BV                                                                   PP_HIDB0_C_PL00_SC_C307_TDF_COM_HAR_MPXXXX_SI_DIV133_1CBLK_4_B0_2409052239                           (F) N/A               N/A                   
+
+=> Site mismatch in instance : ME009_CpuTd_MEX008_DIV166_SRM04_HBV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6019:  43227721     6     ME009_CpuTd_MEX008_DIV166_SRM04_HBV                                                                            PP_HIDB0_C_PL00_SC_C0F7_TDF_COM_HAR_MEXXXX_SI_DIV166_3_B0_2408160534                                 (F) N/A               N/A                   
+
+=> Site mismatch in instance : ME009_CpuTd_MEX008_DIV422_SRM04_HBV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6026:  43227725     6     ME009_CpuTd_MEX008_DIV422_SRM04_HBV                                                                            PP_HIDB0_C_PL00_SC_C0F7_TDF_COM_AUT_MEXXXX_SI_DIV422_1_B0_2407270157                                 (F) N/A               N/A                   
+
+=> Site mismatch in instance : ME009_CpuMbist_MEX007_LATR_HBV
+Site 6 should be turn down because last instance pattern fail
+
+=> Getting error in line : 6029
+Can not find harvest flags in data log !!!
+Fail line:6029 & 6028         X:10 Y:17         Site:6
+<ME009_CpuMbist_MEX007_LATR_HBV>
+Selsram:
+       Expected :[INFO]  [Site 6] 0100
+       Datalog  :[INFO]  [Site 6] 1110
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6042:  43227733     6     ME009_CpuTd_MEX008_DIV166_CEXTEST_SRM04_HBV                                                                    PP_HIDB0_C_PL00_SC_C0F7_TDF_COM_AUT_MEXXXX_SI_DIV166_CEXTEST_1_B0_2407270157                         (F) N/A               N/A                   
+
+=> Site mismatch in instance : MP00H_CpuTd_MPX00F_DIV166_CEXTEST_SRM04_HBV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6049:  43227737     6     MP00H_CpuTd_MPX00F_DIV166_CEXTEST_SRM04_HBV                                                                    PP_HIDB0_C_PL00_SC_C307_TDF_COM_AUT_MPXXXX_SI_DIV166_CEXTEST_1_B0_2407272158                         (F) N/A               N/A                   
+
+=> Site mismatch in instance : MP00H_SocTd_MPX00D_SOC_MPX00D_TD_CANX_PL00_PL10_PRC_FT_SRM04_HBV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6057:  43227742     6     MP00H_SocTd_MPX00D_SOC_MPX00D_TD_CANX_PL00_PL10_PRC_FT_SRM04_HBV                                               PP_HIDA0_S_PL00_SC_CAN1_TDF_COM_HAR_MPXXXX_SI_2_A0_2405140537                                        (F) N/A               N/A                   
+
+=> Site mismatch in instance : MS005_SocTd_MDS058_SBST_MDS058_HBV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6112:  43227784     6     MP00J_CpuTd_MPX00I_DIV133_1P_DIV422_SRM04_HBV                                                                  PP_HIDB0_C_PL00_SC_C307_TDF_COM_HAR_MPXXXX_SI_DIV133_1CBLK_4_B0_2409052239                           (F) N/A               N/A                   
+
+=> Site mismatch in instance : MG00C_GpuTd_MGX00C_MultiFSTP_X10GR1_SRM0A_HBV
+Site 6 should be turn down because last instance pattern fail
+
+=> Getting error in line : 6115
+Can not find harvest flags in data log !!!
+HarvestSourceCode Error
+Line 6115: 
+=> Datalog:  [INFO]  [Site 6] 100000000011110111110000
+=> Expected: [INFO]  [Site 6] 000000000000000000000000
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6123:  43227791     6     MG00C_GpuTd_MGX00C_MultiFSTP_X10GR1_SRM0A_HBV                                                                  PP_HIDC0_L_PL00_SC_CFXX_TDF_COM_HAR_ALLFRV_SI_2_C0_2501140826                                        (F) N/A               N/A                   
+
+=> Site mismatch in instance : MG00C_GpuTd_MGX00C_CSO0_SRM0A_HBV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6133:  43227798     6     MG00C_GpuTd_MGX00C_CSO0_SRM0A_HBV                                                                              PP_HIDC0_L_PL00_SC_CSO0_TDF_COM_AUT_ALLFRV_SI_1_C0_2412062354                                        (F) N/A               N/A                   
+
+=> Site mismatch in instance : MS005_TD_PBC_SocTd_MSX001_SOC_MSX001_TD_CUC0_CUD0_UNC_PL10_Post_outsidebincut_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> Getting error in line : 6138
+Can not find harvest flags in data log !!!
+Fail line:6138 & 6137         X:10 Y:17         Site:6
+<MS005_TD_PBC_SocTd_MSX001_SOC_MSX001_TD_CUC0_CUD0_UNC_PL10_Post_outsidebincut_BV>
+Selsram:
+       Expected :[INFO]  [Site 6] 0110
+       Datalog  :[INFO]  [Site 6] 0100
+
+=> Getting error in line : 6152
+Can not find harvest flags in data log !!!
+Fail line:6152 & 6151         X:10 Y:17         Site:6
+<MS005_TD_PBC_SocTd_MSX001_SOC_MSX001_TD_CUE0_UNC_PL10_Post_outsidebincut_BV>
+Selsram:
+       Expected :[INFO]  [Site 6] 0110
+       Datalog  :[INFO]  [Site 6] 0100
+
+Fail line:6225         X:10 Y:17          Touch Down Index = 0
+Instance name   = <MP00J_24N_PBC_CpuMbist_MPX00L_PCPU_MBIST_24N_Post_outsidebincut_BV>
+Datalog         = [INFO]  [Site 6] Bincut payload voltage: VDD_CIO:0.795,VDD_CPU_SRAM:1.216,VDD_DCS_DDR:0.64,VDD_DISP:0.67,VDD_ECPU:0.6,VDD_FIXED_ALL:0.77,VDD_GPU:0.58,VDD_LOW_ALL:0.8,VDD_PCPU:1.304,VDD_SOC:0.95,VDD_SRAM_SOC:0.73
+POST(Test Plan) = [INFO]  [Site 6] Bincut payload voltage: VDD_CIO:0.795,VDD_CPU_SRAM:1.1495,VDD_DCS_DDR:0.64,VDD_DISP:0.67,VDD_ECPU:0.6,VDD_FIXED_ALL:0.77,VDD_GPU:0.58,VDD_LOW_ALL:0.8,VDD_PCPU:1.078,VDD_SOC:0.95,VDD_SRAM_SOC:0.73
+
+Fail line:6237         X:10 Y:17          Touch Down Index = 0
+Instance name   = <ME009_24N_PBC_CpuMbist_MEX009_ECPU_MBIST_24N_Post_outsidebincut_BV>
+Datalog         = [INFO]  [Site 6] Bincut payload voltage: VDD_CIO:0.795,VDD_CPU_SRAM:1.04,VDD_DCS_DDR:0.64,VDD_DISP:0.67,VDD_ECPU:1.045,VDD_FIXED_ALL:0.77,VDD_GPU:0.58,VDD_LOW_ALL:0.8,VDD_PCPU:0.97,VDD_SOC:0.835,VDD_SRAM_SOC:0.73
+POST(Test Plan) = [INFO]  [Site 6] Bincut payload voltage: VDD_CIO:0.795,VDD_CPU_SRAM:0.9845,VDD_DCS_DDR:0.64,VDD_DISP:0.67,VDD_ECPU:0.9075,VDD_FIXED_ALL:0.77,VDD_GPU:0.58,VDD_LOW_ALL:0.8,VDD_PCPU:0.97,VDD_SOC:0.835,VDD_SRAM_SOC:0.73
+
+=> Getting error in line : 6270
+Can not find harvest flags in data log !!!
+Fail line:6270 & 6269         X:10 Y:17         Site:6
+<MS001_CXT_PBC_SocTd_MSX001_SOC_MSX001_SOCTD_CXTF_CXTK_Post_outsidebincut_BV>
+Selsram:
+       Expected :[INFO]  [Site 6] 0111
+       Datalog  :[INFO]  [Site 6] 0101
+
+=> Getting error in line : 6284
+Can not find harvest flags in data log !!!
+Fail line:6284 & 6283         X:10 Y:17         Site:6
+<MS001_CXT_PBC_SocTd_MSX001_SOC_MSX001_SOCTD_CXT_Rest_Post_outsidebincut_BV>
+Selsram:
+       Expected :[INFO]  [Site 6] 0111
+       Datalog  :[INFO]  [Site 6] 0101
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6357:  61809003     6     MP001_CEXTEST_PBC_CpuTd_MPX001_DIV166_CEXTEST_Post_outsidebincut_BV                                            PP_HIDB0_C_PL00_SC_C307_TDF_COM_AUT_MPXXXX_SI_DIV166_CEXTEST_1_B0_2407272158                         (F) N/A               N/A                   
+
+=> Site mismatch in instance : MP00H_CEXTEST_PBC_CpuTd_MPX00F_DIV166_CEXTEST_Post_outsidebincut_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6365:  61814003     6     MP00H_CEXTEST_PBC_CpuTd_MPX00F_DIV166_CEXTEST_Post_outsidebincut_BV                                            PP_HIDB0_C_PL00_SC_C307_TDF_COM_AUT_MPXXXX_SI_DIV166_CEXTEST_1_B0_2407272158                         (F) N/A               N/A                   
+
+=> Site mismatch in instance : ME001_CEXTEST_PBC_CpuTd_MEX001_DIV166_CEXTEST_Post_outsidebincut_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6373:  61819003     6     ME001_CEXTEST_PBC_CpuTd_MEX001_DIV166_CEXTEST_Post_outsidebincut_BV                                            PP_HIDB0_C_PL00_SC_C0F7_TDF_COM_AUT_MEXXXX_SI_DIV166_CEXTEST_1_B0_2407270157                         (F) N/A               N/A                   
+
+=> Site mismatch in instance : ME009_CEXTEST_PBC_CpuTd_MEX008_DIV166_CEXTEST_Post_outsidebincut_BV
+Site 6 should be turn down because last instance pattern fail
+
+=> The pattern fail, but final hard bin is still good bin !!!
+Line 6381:  61820003     6     ME009_CEXTEST_PBC_CpuTd_MEX008_DIV166_CEXTEST_Post_outsidebincut_BV                                            PP_HIDB0_C_PL00_SC_C0F7_TDF_COM_AUT_MEXXXX_SI_DIV166_CEXTEST_1_B0_2407270157                         (F) N/A               N/A                   
+

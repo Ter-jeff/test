@@ -1,0 +1,65 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"Flow_ClockCheck_Start_"																															
+		HardIP_NV_MN||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocTd_MD001_PP_MN_GLNA0_S_IN01_IN02_IN04_SC_CXXX_XXXX_XXX_TDF_XXX_AUT_EMA_MSX000_ALLFRV_DM_RESET_EMA_OBSPLL0_PWR_DEF_MD001_TD_NV														F_ClockCheck_CLOCKCHECK_OBSPLL0_mn_glna0_s_in04_sc_xxxx_tdf_xxx_aut_allfrv_dm_obspll0_N_Flag																	obspll0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_td_meas_2_nv														F_ClockCheck_CLOCKCHECK_TD_MEAS_2_NV_td_meas_2_nv_N_Flag																	td_meas_2_nv	
+						Use-Limit	CLOCKCHECK_td_meas_2_nv	MD001 TD OBS0_3		57000000	62000000	M	Hz								F_ClockCheck_CLOCKCHECK_TD_MEAS_2_NV_td_meas_2_nv_N_Flag																instance:td_meas_2_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV_MN||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocTd_MD001_PP_MN_GLNA0_S_IN01_IN02_IN04_SC_CXXX_XXXX_XXX_TDF_XXX_AUT_EMA_MSX000_ALLFRV_DM_RESET_EMA_OBSPLL1_PWR_DEF_MD001_TD_NV														F_ClockCheck_CLOCKCHECK_OBSPLL1_mn_glna0_s_in04_sc_xxxx_tdf_xxx_aut_allfrv_dm_obspll1_N_Flag																	obspll1	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_td_meas_3_nv														F_ClockCheck_CLOCKCHECK_TD_MEAS_3_NV_td_meas_3_nv_N_Flag																	td_meas_3_nv	
+						Use-Limit	CLOCKCHECK_td_meas_3_nv	MD001 TD OBS1_4		18000000	23000000	M	Hz								F_ClockCheck_CLOCKCHECK_TD_MEAS_3_NV_td_meas_3_nv_N_Flag																instance:td_meas_3_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV_MN||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocTd_MD001_PP_MN_GLNA0_S_IN01_IN02_IN04_SC_CXXX_XXXX_XXX_TDF_XXX_AUT_EMA_MSX000_ALLFRV_DM_RESET_EMA_OBSOSC_PWR_DEF_MD001_TD_NV														F_ClockCheck_CLOCKCHECK_OBSOSC_mn_glna0_s_in04_sc_xxxx_tdf_xxx_aut_allfrv_dm_obsosc_N_Flag																	obsosc	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_td_meas_4_nv														F_ClockCheck_CLOCKCHECK_TD_MEAS_4_NV_td_meas_4_nv_N_Flag																	td_meas_4_nv	
+						Use-Limit	CLOCKCHECK_td_meas_4_nv	MD001 TD OBSOSC_5		12700000	13800000	M	Hz								F_ClockCheck_CLOCKCHECK_TD_MEAS_4_NV_td_meas_4_nv_N_Flag																instance:td_meas_4_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV_MN||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocTd_MD002_PP_MN_GLNA0_S_IN01_IN02_IN04_SC_CXXX_XXXX_XXX_TDF_XXX_AUT_EMA_MSX000_ALLFRV_DM_RESET_EMA_OBSPLL0_PWR_DEF_MD002_TD_NV														F_ClockCheck_CLOCKCHECK_OBSPLL0_mn_glna0_s_in04_sc_xxxx_tdf_xxx_aut_allfrv_dm_obspll0_N_Flag																	obspll0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_td_meas_5_nv														F_ClockCheck_CLOCKCHECK_TD_MEAS_5_NV_td_meas_5_nv_N_Flag																	td_meas_5_nv	
+						Use-Limit	CLOCKCHECK_td_meas_5_nv	MD002 TD OBS0_6		57000000	62000000	M	Hz								F_ClockCheck_CLOCKCHECK_TD_MEAS_5_NV_td_meas_5_nv_N_Flag																instance:td_meas_5_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV_MN||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocTd_MD002_PP_MN_GLNA0_S_IN01_IN02_IN04_SC_CXXX_XXXX_XXX_TDF_XXX_AUT_EMA_MSX000_ALLFRV_DM_RESET_EMA_OBSPLL1_PWR_DEF_MD002_TD_NV														F_ClockCheck_CLOCKCHECK_OBSPLL1_mn_glna0_s_in04_sc_xxxx_tdf_xxx_aut_allfrv_dm_obspll1_N_Flag																	obspll1	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_td_meas_6_nv														F_ClockCheck_CLOCKCHECK_TD_MEAS_6_NV_td_meas_6_nv_N_Flag																	td_meas_6_nv	
+						Use-Limit	CLOCKCHECK_td_meas_6_nv	MD002 TD OBS1_7		18000000	238000000	M	Hz								F_ClockCheck_CLOCKCHECK_TD_MEAS_6_NV_td_meas_6_nv_N_Flag																instance:td_meas_6_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV_MN||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocTd_MD002_PP_MN_GLNA0_S_IN01_IN02_IN04_SC_CXXX_XXXX_XXX_TDF_XXX_AUT_EMA_MSX000_ALLFRV_DM_RESET_EMA_OBSOSC_PWR_DEF_MD002_TD_NV														F_ClockCheck_CLOCKCHECK_OBSOSC_mn_glna0_s_in04_sc_xxxx_tdf_xxx_aut_allfrv_dm_obsosc_N_Flag																	obsosc	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_td_meas_7_nv														F_ClockCheck_CLOCKCHECK_TD_MEAS_7_NV_td_meas_7_nv_N_Flag																	td_meas_7_nv	
+						Use-Limit	CLOCKCHECK_td_meas_7_nv	MD002 TD OBSOSC_8		12700000	13800000	M	Hz								F_ClockCheck_CLOCKCHECK_TD_MEAS_7_NV_td_meas_7_nv_N_Flag																instance:td_meas_7_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocMbist_MD001_PP_DD_GLNA0_S_IN00_IN01_IN02_BI_XXXX_XXX_PLL_JTG_UNS_ALLFRV_MRD001_SI_OBSCPLL0_MD001_MBIST_NV														F_ClockCheck_CLOCKCHECK_OBSCPLL0_dd_glna0_s_in01_bi_xxxx_pll_jtg_uns_allfrv_si_obscpll0_N_Flag																	obscpll0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_sa_meas_8_nv														F_ClockCheck_CLOCKCHECK_SA_MEAS_8_NV_sa_meas_8_nv_N_Flag																	sa_meas_8_nv	
+						Use-Limit	CLOCKCHECK_sa_meas_8_nv	MD001 MBIST OBS0_10		6000000	9000000	M	Hz								F_ClockCheck_CLOCKCHECK_SA_MEAS_8_NV_sa_meas_8_nv_N_Flag																instance:sa_meas_8_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocMbist_MD001_PP_DD_GLNA0_S_IN00_IN01_IN02_BI_XXXX_XXX_PLL_JTG_UNS_ALLFRV_MRD001_SI_OBSCPLL1_MD001_MBIST_NV														F_ClockCheck_CLOCKCHECK_OBSCPLL1_dd_glna0_s_in01_bi_xxxx_pll_jtg_uns_allfrv_si_obscpll1_N_Flag																	obscpll1	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_sa_meas_9_nv														F_ClockCheck_CLOCKCHECK_SA_MEAS_9_NV_sa_meas_9_nv_N_Flag																	sa_meas_9_nv	
+						Use-Limit	CLOCKCHECK_sa_meas_9_nv	MD001 MBIST OBS1_11		4000000	7000000	M	Hz								F_ClockCheck_CLOCKCHECK_SA_MEAS_9_NV_sa_meas_9_nv_N_Flag																instance:sa_meas_9_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocMbist_MD001_PP_DD_GLNA0_S_IN00_IN01_IN02_BI_XXXX_XXX_PLL_JTG_UNS_ALLFRV_MRD001_SI_MSOBS_MD001_MBIST_NV														F_ClockCheck_CLOCKCHECK_MSOBS_dd_glna0_s_in01_bi_xxxx_pll_jtg_uns_allfrv_si_msobs_N_Flag																	msobs	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_sa_meas_10_nv														F_ClockCheck_CLOCKCHECK_SA_MEAS_10_NV_sa_meas_10_nv_N_Flag																	sa_meas_10_nv	
+						Use-Limit	CLOCKCHECK_sa_meas_10_nv	MD001 MBIST MSOBS_12		57000000	62000000	M	Hz								F_ClockCheck_CLOCKCHECK_SA_MEAS_10_NV_sa_meas_10_nv_N_Flag																instance:sa_meas_10_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocMbist_MD002_PP_DD_GLNA0_S_IN00_IN01_IN02_BI_XXXX_XXX_PLL_JTG_UNS_ALLFRV_MRD002_SI_OBSCPLL0_MD002_MBIST_NV														F_ClockCheck_CLOCKCHECK_OBSCPLL0_dd_glna0_s_in01_bi_xxxx_pll_jtg_uns_allfrv_si_obscpll0_N_Flag																	obscpll0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_sa_meas_11_nv														F_ClockCheck_CLOCKCHECK_SA_MEAS_11_NV_sa_meas_11_nv_N_Flag																	sa_meas_11_nv	
+						Use-Limit	CLOCKCHECK_sa_meas_11_nv	MD002 MBIST OBS0_13		6000000	9000000	M	Hz								F_ClockCheck_CLOCKCHECK_SA_MEAS_11_NV_sa_meas_11_nv_N_Flag																instance:sa_meas_11_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocMbist_MD002_PP_DD_GLNA0_S_IN00_IN01_IN02_BI_XXXX_XXX_PLL_JTG_UNS_ALLFRV_MRD002_SI_OBSCPLL1_MD002_MBIST_NV														F_ClockCheck_CLOCKCHECK_OBSCPLL1_dd_glna0_s_in01_bi_xxxx_pll_jtg_uns_allfrv_si_obscpll1_N_Flag																	obscpll1	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_sa_meas_12_nv														F_ClockCheck_CLOCKCHECK_SA_MEAS_12_NV_sa_meas_12_nv_N_Flag																	sa_meas_12_nv	
+						Use-Limit	CLOCKCHECK_sa_meas_12_nv	MD002 MBIST OBS1_14		4000000	7000000	M	Hz								F_ClockCheck_CLOCKCHECK_SA_MEAS_12_NV_sa_meas_12_nv_N_Flag																instance:sa_meas_12_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocMbist_MD002_PP_DD_GLNA0_S_IN00_IN01_IN02_BI_XXXX_XXX_PLL_JTG_UNS_ALLFRV_MRD002_SI_MSOBS_MD002_MBIST_NV														F_ClockCheck_CLOCKCHECK_MSOBS_dd_glna0_s_in01_bi_xxxx_pll_jtg_uns_allfrv_si_msobs_N_Flag																	msobs	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_sa_meas_13_nv														F_ClockCheck_CLOCKCHECK_SA_MEAS_13_NV_sa_meas_13_nv_N_Flag																	sa_meas_13_nv	
+						Use-Limit	CLOCKCHECK_sa_meas_13_nv	MD002 MBIST MSOBS_15		57000000	62000000	M	Hz								F_ClockCheck_CLOCKCHECK_SA_MEAS_13_NV_sa_meas_13_nv_N_Flag																instance:sa_meas_13_nv_MeasF_SPARE_GPIO0	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	SocMbist_PP_DD_GLNA0_S_IN00_IN01_IN02_BI_XXXX_XXX_PLL_JTG_UNS_ALLFRV_F00100_SI_MSOBS_F00100_MBIST_NV														F_ClockCheck_CLOCKCHECK_MSOBS_dd_glna0_s_in01_bi_xxxx_pll_jtg_uns_allfrv_si_msobs_N_Flag																	msobs	
+		HardIP_NV||Prod_CP1||Prod_CP2||Prod_FT1				Test	CLOCKCHECK_sa_meas_14_nv														F_ClockCheck_CLOCKCHECK_SA_MEAS_14_NV_sa_meas_14_nv_N_Flag																	sa_meas_14_nv	
+						Use-Limit	CLOCKCHECK_sa_meas_14_nv	F00100 MBIST MSOBS_16		57000000	62000000	M	Hz								F_ClockCheck_CLOCKCHECK_SA_MEAS_14_NV_sa_meas_14_nv_N_Flag																instance:sa_meas_14_nv_MeasF_SPARE_GPIO0	
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_OBSPLL0_mn_glna0_s_in04_sc_xxxx_tdf_xxx_aut_allfrv_dm_obspll0																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_TD_MEAS_2_NV_td_meas_2_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_OBSPLL1_mn_glna0_s_in04_sc_xxxx_tdf_xxx_aut_allfrv_dm_obspll1																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_TD_MEAS_3_NV_td_meas_3_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_OBSOSC_mn_glna0_s_in04_sc_xxxx_tdf_xxx_aut_allfrv_dm_obsosc																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_TD_MEAS_4_NV_td_meas_4_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_TD_MEAS_5_NV_td_meas_5_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_TD_MEAS_6_NV_td_meas_6_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_TD_MEAS_7_NV_td_meas_7_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_OBSCPLL0_dd_glna0_s_in01_bi_xxxx_pll_jtg_uns_allfrv_si_obscpll0																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_SA_MEAS_8_NV_sa_meas_8_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_OBSCPLL1_dd_glna0_s_in01_bi_xxxx_pll_jtg_uns_allfrv_si_obscpll1																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_SA_MEAS_9_NV_sa_meas_9_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_MSOBS_dd_glna0_s_in01_bi_xxxx_pll_jtg_uns_allfrv_si_msobs																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_SA_MEAS_10_NV_sa_meas_10_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_SA_MEAS_11_NV_sa_meas_11_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_SA_MEAS_12_NV_sa_meas_12_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_SA_MEAS_13_NV_sa_meas_13_nv																															
+		(HardIPBin)&&(CP1||CP2||FT1)				nop	Bin_ClockCheck_CLOCKCHECK_SA_MEAS_14_NV_sa_meas_14_nv																															
+						print	"Flow_ClockCheck_Stop_"																															
+						return																																

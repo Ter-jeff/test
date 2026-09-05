@@ -1,0 +1,524 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						set-alarm-bin										21		998																				
+						set-error-bin										21		999																				
+						Test	InitTestTimeUtility																															
+			CP1			create-integer	EVS_INDEX																															
+			CP1			assign-integer	EVS_INDEX 0																															
+			CP1			create-integer	EVS_MAX_Step																															
+			CP1			assign-integer	EVS_MAX_Step 1																															
+			CP1			create-integer	SrcCodeIndx																															
+			CP1			assign-integer	SrcCodeIndx 0																															
+			CP1			create-integer	SrcCodeIndx0																															
+			CP1			assign-integer	SrcCodeIndx0 0																															
+			CP1			create-integer	SrcCodeIndx1																															
+			CP1			assign-integer	SrcCodeIndx1 0																															
+			CP1			create-integer	SrcCodeIndx2																															
+			CP1			assign-integer	SrcCodeIndx2 0																															
+			CP1			create-site-var	CFGChk_Var																															
+			CP1			assign-site-var	CFGChk_Var 0																															
+			CP1			create-site-var	ECIDChk_Var																															
+			CP1			assign-site-var	ECIDChk_Var 0																															
+			CP1			create-site-var	Efuse_config_Current																															
+			CP1			assign-site-var	Efuse_config_Current 0																															
+			CP1			create-site-var	Efuse_config_Early																															
+			CP1			assign-site-var	Efuse_config_Early 0																															
+			CP1			create-site-var	Efuse_config_Future																															
+			CP1			assign-site-var	Efuse_config_Future 0																															
+			CP1			create-site-var	Efuse_config_Previous																															
+			CP1			assign-site-var	Efuse_config_Previous 0																															
+			CP1			create-site-var	Efuse_ecid_Current																															
+			CP1			assign-site-var	Efuse_ecid_Current 0																															
+			CP1			create-site-var	Efuse_ecid_Future																															
+			CP1			assign-site-var	Efuse_ecid_Future 0																															
+			CP1			create-site-var	Efuse_ecid_Previous																															
+			CP1			assign-site-var	Efuse_ecid_Previous 0																															
+			CP1			create-site-var	Efuse_mon_Current																															
+			CP1			assign-site-var	Efuse_mon_Current 0																															
+			CP1			create-site-var	Efuse_mon_Early																															
+			CP1			assign-site-var	Efuse_mon_Early 0																															
+			CP1			create-site-var	Efuse_mon_Future																															
+			CP1			assign-site-var	Efuse_mon_Future 0																															
+			CP1			create-site-var	Efuse_mon_Previous																															
+			CP1			assign-site-var	Efuse_mon_Previous 0																															
+			CP1			create-site-var	Efuse_udr_e_Current																															
+			CP1			assign-site-var	Efuse_udr_e_Current 0																															
+			CP1			create-site-var	Efuse_udr_e_Future																															
+			CP1			assign-site-var	Efuse_udr_e_Future 0																															
+			CP1			create-site-var	Efuse_udr_e_Previous																															
+			CP1			assign-site-var	Efuse_udr_e_Previous 0																															
+			CP1			create-site-var	Efuse_udr_p_Current																															
+			CP1			assign-site-var	Efuse_udr_p_Current 0																															
+			CP1			create-site-var	Efuse_udr_p_Future																															
+			CP1			assign-site-var	Efuse_udr_p_Future 0																															
+			CP1			create-site-var	Efuse_udr_p_Previous																															
+			CP1			assign-site-var	Efuse_udr_p_Previous 0																															
+			CP1			create-site-var	LPCount_End																															
+			CP1			assign-site-var	LPCount_End 0																															
+			CP1			create-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index																															
+			CP1			assign-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index 0																															
+			CP1			create-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index																															
+			CP1			assign-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index 0																															
+			CP1			create-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index																															
+			CP1			assign-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index 0																															
+			CP1			create-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index																															
+			CP1			assign-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index 0																															
+			CP1			create-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index																															
+			CP1			assign-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index 0																															
+			CP1			create-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index																															
+			CP1			assign-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index 0																															
+			CP1			create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index																															
+			CP1			assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index 0																															
+			CP1			create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index																															
+			CP1			assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index 0																															
+			CP1			create-site-var	MFP_flow_idx																															
+			CP1			assign-site-var	MFP_flow_idx 0																															
+			CP1			create-site-var	MONChk_Var																															
+			CP1			assign-site-var	MONChk_Var 0																															
+			CP1			create-site-var	RSCR_Flow_Idx																															
+			CP1			assign-site-var	RSCR_Flow_Idx 0																															
+			CP1			create-site-var	SEL_CASE_CNT																															
+			CP1			assign-site-var	SEL_CASE_CNT 0																															
+			CP1			create-site-var	SEL_CASE_End																															
+			CP1			assign-site-var	SEL_CASE_End 0																															
+			CP1			create-site-var	SelSrm_LP_Var																															
+			CP1			assign-site-var	SelSrm_LP_Var 0																															
+			CP1			create-site-var	UDR_EChk_Var																															
+			CP1			assign-site-var	UDR_EChk_Var 0																															
+			CP1			create-site-var	UDR_PChk_Var																															
+			CP1			assign-site-var	UDR_PChk_Var 0																															
+			CP1			create-site-var	UIDChk_Var																															
+			CP1			assign-site-var	UIDChk_Var 0																															
+			CP1			create-site-var	Efuse_cmp_e_Current																															
+			CP1			assign-site-var	Efuse_cmp_e_Current 0																															
+			CP1			create-site-var	Efuse_cmp_e_Future																															
+			CP1			assign-site-var	Efuse_cmp_e_Future 0																															
+			CP1			create-site-var	Efuse_cmp_e_Previous																															
+			CP1			assign-site-var	Efuse_cmp_e_Previous 0																															
+			CP1			create-site-var	Efuse_cmp_p_Current																															
+			CP1			assign-site-var	Efuse_cmp_p_Current 0																															
+			CP1			create-site-var	Efuse_cmp_p_Future																															
+			CP1			assign-site-var	Efuse_cmp_p_Future 0																															
+			CP1			create-site-var	Efuse_cmp_p_Previous																															
+			CP1			assign-site-var	Efuse_cmp_p_Previous 0																															
+			CP2			create-integer	EVS_INDEX																															
+			CP2			assign-integer	EVS_INDEX 0																															
+			CP2			create-integer	EVS_MAX_Step																															
+			CP2			assign-integer	EVS_MAX_Step 1																															
+			CP2			create-integer	SrcCodeIndx																															
+			CP2			assign-integer	SrcCodeIndx 0																															
+			CP2			create-integer	SrcCodeIndx0																															
+			CP2			assign-integer	SrcCodeIndx0 0																															
+			CP2			create-integer	SrcCodeIndx1																															
+			CP2			assign-integer	SrcCodeIndx1 0																															
+			CP2			create-integer	SrcCodeIndx2																															
+			CP2			assign-integer	SrcCodeIndx2 0																															
+			CP2			create-site-var	CFGChk_Var																															
+			CP2			assign-site-var	CFGChk_Var 0																															
+			CP2			create-site-var	ECIDChk_Var																															
+			CP2			assign-site-var	ECIDChk_Var 0																															
+			CP2			create-site-var	Efuse_config_Current																															
+			CP2			assign-site-var	Efuse_config_Current 0																															
+			CP2			create-site-var	Efuse_config_Early																															
+			CP2			assign-site-var	Efuse_config_Early 0																															
+			CP2			create-site-var	Efuse_config_Future																															
+			CP2			assign-site-var	Efuse_config_Future 0																															
+			CP2			create-site-var	Efuse_config_Previous																															
+			CP2			assign-site-var	Efuse_config_Previous 0																															
+			CP2			create-site-var	Efuse_ecid_Current																															
+			CP2			assign-site-var	Efuse_ecid_Current 0																															
+			CP2			create-site-var	Efuse_ecid_Future																															
+			CP2			assign-site-var	Efuse_ecid_Future 0																															
+			CP2			create-site-var	Efuse_ecid_Previous																															
+			CP2			assign-site-var	Efuse_ecid_Previous 0																															
+			CP2			create-site-var	Efuse_mon_Current																															
+			CP2			assign-site-var	Efuse_mon_Current 0																															
+			CP2			create-site-var	Efuse_mon_Early																															
+			CP2			assign-site-var	Efuse_mon_Early 0																															
+			CP2			create-site-var	Efuse_mon_Future																															
+			CP2			assign-site-var	Efuse_mon_Future 0																															
+			CP2			create-site-var	Efuse_mon_Previous																															
+			CP2			assign-site-var	Efuse_mon_Previous 0																															
+			CP2			create-site-var	Efuse_udr_e_Current																															
+			CP2			assign-site-var	Efuse_udr_e_Current 0																															
+			CP2			create-site-var	Efuse_udr_e_Future																															
+			CP2			assign-site-var	Efuse_udr_e_Future 0																															
+			CP2			create-site-var	Efuse_udr_e_Previous																															
+			CP2			assign-site-var	Efuse_udr_e_Previous 0																															
+			CP2			create-site-var	Efuse_udr_p_Current																															
+			CP2			assign-site-var	Efuse_udr_p_Current 0																															
+			CP2			create-site-var	Efuse_udr_p_Future																															
+			CP2			assign-site-var	Efuse_udr_p_Future 0																															
+			CP2			create-site-var	Efuse_udr_p_Previous																															
+			CP2			assign-site-var	Efuse_udr_p_Previous 0																															
+			CP2			create-site-var	LPCount_End																															
+			CP2			assign-site-var	LPCount_End 0																															
+			CP2			create-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index																															
+			CP2			assign-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index 0																															
+			CP2			create-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index																															
+			CP2			assign-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index 0																															
+			CP2			create-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index																															
+			CP2			assign-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index 0																															
+			CP2			create-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index																															
+			CP2			assign-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index 0																															
+			CP2			create-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index																															
+			CP2			assign-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index 0																															
+			CP2			create-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index																															
+			CP2			assign-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index 0																															
+			CP2			create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index																															
+			CP2			assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index 0																															
+			CP2			create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index																															
+			CP2			assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index 0																															
+			CP2			create-site-var	MFP_flow_idx																															
+			CP2			assign-site-var	MFP_flow_idx 0																															
+			CP2			create-site-var	MONChk_Var																															
+			CP2			assign-site-var	MONChk_Var 0																															
+			CP2			create-site-var	RSCR_Flow_Idx																															
+			CP2			assign-site-var	RSCR_Flow_Idx 0																															
+			CP2			create-site-var	SEL_CASE_CNT																															
+			CP2			assign-site-var	SEL_CASE_CNT 0																															
+			CP2			create-site-var	SEL_CASE_End																															
+			CP2			assign-site-var	SEL_CASE_End 0																															
+			CP2			create-site-var	SelSrm_LP_Var																															
+			CP2			assign-site-var	SelSrm_LP_Var 0																															
+			CP2			create-site-var	UDR_EChk_Var																															
+			CP2			assign-site-var	UDR_EChk_Var 0																															
+			CP2			create-site-var	UDR_PChk_Var																															
+			CP2			assign-site-var	UDR_PChk_Var 0																															
+			CP2			create-site-var	UIDChk_Var																															
+			CP2			assign-site-var	UIDChk_Var 0																															
+			CP2			create-site-var	Efuse_cmp_e_Current																															
+			CP2			assign-site-var	Efuse_cmp_e_Current 0																															
+			CP2			create-site-var	Efuse_cmp_e_Future																															
+			CP2			assign-site-var	Efuse_cmp_e_Future 0																															
+			CP2			create-site-var	Efuse_cmp_e_Previous																															
+			CP2			assign-site-var	Efuse_cmp_e_Previous 0																															
+			CP2			create-site-var	Efuse_cmp_p_Current																															
+			CP2			assign-site-var	Efuse_cmp_p_Current 0																															
+			CP2			create-site-var	Efuse_cmp_p_Future																															
+			CP2			assign-site-var	Efuse_cmp_p_Future 0																															
+			CP2			create-site-var	Efuse_cmp_p_Previous																															
+			CP2			assign-site-var	Efuse_cmp_p_Previous 0																															
+			FT1			create-integer	EVS_INDEX																															
+			FT1			assign-integer	EVS_INDEX 0																															
+			FT1			create-integer	EVS_MAX_Step																															
+			FT1			assign-integer	EVS_MAX_Step 0																															
+			FT1			create-integer	SrcCodeIndx																															
+			FT1			assign-integer	SrcCodeIndx 0																															
+			FT1			create-integer	SrcCodeIndx0																															
+			FT1			assign-integer	SrcCodeIndx0 0																															
+			FT1			create-integer	SrcCodeIndx1																															
+			FT1			assign-integer	SrcCodeIndx1 0																															
+			FT1			create-integer	SrcCodeIndx2																															
+			FT1			assign-integer	SrcCodeIndx2 0																															
+			FT1			create-site-var	CFGChk_Var																															
+			FT1			assign-site-var	CFGChk_Var 0																															
+			FT1			create-site-var	ECIDChk_Var																															
+			FT1			assign-site-var	ECIDChk_Var 0																															
+			FT1			create-site-var	Efuse_config_Current																															
+			FT1			assign-site-var	Efuse_config_Current 0																															
+			FT1			create-site-var	Efuse_config_Early																															
+			FT1			assign-site-var	Efuse_config_Early 0																															
+			FT1			create-site-var	Efuse_config_Future																															
+			FT1			assign-site-var	Efuse_config_Future 0																															
+			FT1			create-site-var	Efuse_config_Previous																															
+			FT1			assign-site-var	Efuse_config_Previous 0																															
+			FT1			create-site-var	Efuse_ecid_Current																															
+			FT1			assign-site-var	Efuse_ecid_Current 0																															
+			FT1			create-site-var	Efuse_ecid_Future																															
+			FT1			assign-site-var	Efuse_ecid_Future 0																															
+			FT1			create-site-var	Efuse_ecid_Previous																															
+			FT1			assign-site-var	Efuse_ecid_Previous 0																															
+			FT1			create-site-var	Efuse_mon_Current																															
+			FT1			assign-site-var	Efuse_mon_Current 0																															
+			FT1			create-site-var	Efuse_mon_Early																															
+			FT1			assign-site-var	Efuse_mon_Early 0																															
+			FT1			create-site-var	Efuse_mon_Future																															
+			FT1			assign-site-var	Efuse_mon_Future 0																															
+			FT1			create-site-var	Efuse_mon_Previous																															
+			FT1			assign-site-var	Efuse_mon_Previous 0																															
+			FT1			create-site-var	Efuse_udr_e_Current																															
+			FT1			assign-site-var	Efuse_udr_e_Current 0																															
+			FT1			create-site-var	Efuse_udr_e_Future																															
+			FT1			assign-site-var	Efuse_udr_e_Future 0																															
+			FT1			create-site-var	Efuse_udr_e_Previous																															
+			FT1			assign-site-var	Efuse_udr_e_Previous 0																															
+			FT1			create-site-var	Efuse_udr_p_Current																															
+			FT1			assign-site-var	Efuse_udr_p_Current 0																															
+			FT1			create-site-var	Efuse_udr_p_Future																															
+			FT1			assign-site-var	Efuse_udr_p_Future 0																															
+			FT1			create-site-var	Efuse_udr_p_Previous																															
+			FT1			assign-site-var	Efuse_udr_p_Previous 0																															
+			FT1			create-site-var	LPCount_End																															
+			FT1			assign-site-var	LPCount_End 0																															
+			FT1			create-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index																															
+			FT1			assign-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index 0																															
+			FT1			create-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index																															
+			FT1			assign-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index 0																															
+			FT1			create-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index																															
+			FT1			assign-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index 0																															
+			FT1			create-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index																															
+			FT1			assign-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index 0																															
+			FT1			create-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index																															
+			FT1			assign-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index 0																															
+			FT1			create-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index																															
+			FT1			assign-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index 0																															
+			FT1			create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index																															
+			FT1			assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index 0																															
+			FT1			create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index																															
+			FT1			assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index 0																															
+			FT1			create-site-var	MFP_flow_idx																															
+			FT1			assign-site-var	MFP_flow_idx 0																															
+			FT1			create-site-var	MONChk_Var																															
+			FT1			assign-site-var	MONChk_Var 0																															
+			FT1			create-site-var	RSCR_Flow_Idx																															
+			FT1			assign-site-var	RSCR_Flow_Idx 0																															
+			FT1			create-site-var	SEL_CASE_CNT																															
+			FT1			assign-site-var	SEL_CASE_CNT 0																															
+			FT1			create-site-var	SEL_CASE_End																															
+			FT1			assign-site-var	SEL_CASE_End 0																															
+			FT1			create-site-var	SelSrm_LP_Var																															
+			FT1			assign-site-var	SelSrm_LP_Var 0																															
+			FT1			create-site-var	UDR_EChk_Var																															
+			FT1			assign-site-var	UDR_EChk_Var 0																															
+			FT1			create-site-var	UDR_PChk_Var																															
+			FT1			assign-site-var	UDR_PChk_Var 0																															
+			FT1			create-site-var	UIDChk_Var																															
+			FT1			assign-site-var	UIDChk_Var 0																															
+			FT1			create-site-var	Efuse_cmp_e_Current																															
+			FT1			assign-site-var	Efuse_cmp_e_Current 0																															
+			FT1			create-site-var	Efuse_cmp_e_Future																															
+			FT1			assign-site-var	Efuse_cmp_e_Future 0																															
+			FT1			create-site-var	Efuse_cmp_e_Previous																															
+			FT1			assign-site-var	Efuse_cmp_e_Previous 0																															
+			FT1			create-site-var	Efuse_cmp_p_Current																															
+			FT1			assign-site-var	Efuse_cmp_p_Current 0																															
+			FT1			create-site-var	Efuse_cmp_p_Future																															
+			FT1			assign-site-var	Efuse_cmp_p_Future 0																															
+			FT1			create-site-var	Efuse_cmp_p_Previous																															
+			FT1			assign-site-var	Efuse_cmp_p_Previous 0																															
+			FT2			create-integer	EVS_INDEX																															
+			FT2			assign-integer	EVS_INDEX 0																															
+			FT2			create-integer	EVS_MAX_Step																															
+			FT2			assign-integer	EVS_MAX_Step 0																															
+			FT2			create-integer	SrcCodeIndx																															
+			FT2			assign-integer	SrcCodeIndx 0																															
+			FT2			create-integer	SrcCodeIndx0																															
+			FT2			assign-integer	SrcCodeIndx0 0																															
+			FT2			create-integer	SrcCodeIndx1																															
+			FT2			assign-integer	SrcCodeIndx1 0																															
+			FT2			create-integer	SrcCodeIndx2																															
+			FT2			assign-integer	SrcCodeIndx2 0																															
+			FT2			create-site-var	CFGChk_Var																															
+			FT2			assign-site-var	CFGChk_Var 0																															
+			FT2			create-site-var	ECIDChk_Var																															
+			FT2			assign-site-var	ECIDChk_Var 0																															
+			FT2			create-site-var	Efuse_config_Current																															
+			FT2			assign-site-var	Efuse_config_Current 0																															
+			FT2			create-site-var	Efuse_config_Early																															
+			FT2			assign-site-var	Efuse_config_Early 0																															
+			FT2			create-site-var	Efuse_config_Future																															
+			FT2			assign-site-var	Efuse_config_Future 0																															
+			FT2			create-site-var	Efuse_config_Previous																															
+			FT2			assign-site-var	Efuse_config_Previous 0																															
+			FT2			create-site-var	Efuse_ecid_Current																															
+			FT2			assign-site-var	Efuse_ecid_Current 0																															
+			FT2			create-site-var	Efuse_ecid_Future																															
+			FT2			assign-site-var	Efuse_ecid_Future 0																															
+			FT2			create-site-var	Efuse_ecid_Previous																															
+			FT2			assign-site-var	Efuse_ecid_Previous 0																															
+			FT2			create-site-var	Efuse_mon_Current																															
+			FT2			assign-site-var	Efuse_mon_Current 0																															
+			FT2			create-site-var	Efuse_mon_Early																															
+			FT2			assign-site-var	Efuse_mon_Early 0																															
+			FT2			create-site-var	Efuse_mon_Future																															
+			FT2			assign-site-var	Efuse_mon_Future 0																															
+			FT2			create-site-var	Efuse_mon_Previous																															
+			FT2			assign-site-var	Efuse_mon_Previous 0																															
+			FT2			create-site-var	Efuse_udr_e_Current																															
+			FT2			assign-site-var	Efuse_udr_e_Current 0																															
+			FT2			create-site-var	Efuse_udr_e_Future																															
+			FT2			assign-site-var	Efuse_udr_e_Future 0																															
+			FT2			create-site-var	Efuse_udr_e_Previous																															
+			FT2			assign-site-var	Efuse_udr_e_Previous 0																															
+			FT2			create-site-var	Efuse_udr_p_Current																															
+			FT2			assign-site-var	Efuse_udr_p_Current 0																															
+			FT2			create-site-var	Efuse_udr_p_Future																															
+			FT2			assign-site-var	Efuse_udr_p_Future 0																															
+			FT2			create-site-var	Efuse_udr_p_Previous																															
+			FT2			assign-site-var	Efuse_udr_p_Previous 0																															
+			FT2			create-site-var	LPCount_End																															
+			FT2			assign-site-var	LPCount_End 0																															
+			FT2			create-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index																															
+			FT2			assign-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index 0																															
+			FT2			create-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index																															
+			FT2			assign-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index 0																															
+			FT2			create-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index																															
+			FT2			assign-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index 0																															
+			FT2			create-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index																															
+			FT2			assign-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index 0																															
+			FT2			create-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index																															
+			FT2			assign-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index 0																															
+			FT2			create-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index																															
+			FT2			assign-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index 0																															
+			FT2			create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index																															
+			FT2			assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index 0																															
+			FT2			create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index																															
+			FT2			assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index 0																															
+			FT2			create-site-var	MFP_flow_idx																															
+			FT2			assign-site-var	MFP_flow_idx 0																															
+			FT2			create-site-var	MONChk_Var																															
+			FT2			assign-site-var	MONChk_Var 0																															
+			FT2			create-site-var	RSCR_Flow_Idx																															
+			FT2			assign-site-var	RSCR_Flow_Idx 0																															
+			FT2			create-site-var	SEL_CASE_CNT																															
+			FT2			assign-site-var	SEL_CASE_CNT 0																															
+			FT2			create-site-var	SEL_CASE_End																															
+			FT2			assign-site-var	SEL_CASE_End 0																															
+			FT2			create-site-var	SelSrm_LP_Var																															
+			FT2			assign-site-var	SelSrm_LP_Var 0																															
+			FT2			create-site-var	UDR_EChk_Var																															
+			FT2			assign-site-var	UDR_EChk_Var 0																															
+			FT2			create-site-var	UDR_PChk_Var																															
+			FT2			assign-site-var	UDR_PChk_Var 0																															
+			FT2			create-site-var	UIDChk_Var																															
+			FT2			assign-site-var	UIDChk_Var 0																															
+			FT2			create-site-var	Efuse_cmp_e_Current																															
+			FT2			assign-site-var	Efuse_cmp_e_Current 0																															
+			FT2			create-site-var	Efuse_cmp_e_Future																															
+			FT2			assign-site-var	Efuse_cmp_e_Future 0																															
+			FT2			create-site-var	Efuse_cmp_e_Previous																															
+			FT2			assign-site-var	Efuse_cmp_e_Previous 0																															
+			FT2			create-site-var	Efuse_cmp_p_Current																															
+			FT2			assign-site-var	Efuse_cmp_p_Current 0																															
+			FT2			create-site-var	Efuse_cmp_p_Future																															
+			FT2			assign-site-var	Efuse_cmp_p_Future 0																															
+			FT2			create-site-var	Efuse_cmp_p_Previous																															
+			FT2			assign-site-var	Efuse_cmp_p_Previous 0																															
+			FT3			create-integer	EVS_INDEX																															
+			FT3			assign-integer	EVS_INDEX 0																															
+			FT3			create-integer	EVS_MAX_Step																															
+			FT3			assign-integer	EVS_MAX_Step 0																															
+			FT3			create-integer	SrcCodeIndx																															
+			FT3			assign-integer	SrcCodeIndx 0																															
+			FT3			create-integer	SrcCodeIndx0																															
+			FT3			assign-integer	SrcCodeIndx0 0																															
+			FT3			create-integer	SrcCodeIndx1																															
+			FT3			assign-integer	SrcCodeIndx1 0																															
+			FT3			create-integer	SrcCodeIndx2																															
+			FT3			assign-integer	SrcCodeIndx2 0																															
+			FT3			create-site-var	CFGChk_Var																															
+			FT3			assign-site-var	CFGChk_Var 0																															
+			FT3			create-site-var	ECIDChk_Var																															
+			FT3			assign-site-var	ECIDChk_Var 0																															
+			FT3			create-site-var	Efuse_config_Current																															
+			FT3			assign-site-var	Efuse_config_Current 0																															
+			FT3			create-site-var	Efuse_config_Early																															
+			FT3			assign-site-var	Efuse_config_Early 0																															
+			FT3			create-site-var	Efuse_config_Future																															
+			FT3			assign-site-var	Efuse_config_Future 0																															
+			FT3			create-site-var	Efuse_config_Previous																															
+			FT3			assign-site-var	Efuse_config_Previous 0																															
+			FT3			create-site-var	Efuse_ecid_Current																															
+			FT3			assign-site-var	Efuse_ecid_Current 0																															
+			FT3			create-site-var	Efuse_ecid_Future																															
+			FT3			assign-site-var	Efuse_ecid_Future 0																															
+			FT3			create-site-var	Efuse_ecid_Previous																															
+			FT3			assign-site-var	Efuse_ecid_Previous 0																															
+			FT3			create-site-var	Efuse_mon_Current																															
+			FT3			assign-site-var	Efuse_mon_Current 0																															
+			FT3			create-site-var	Efuse_mon_Early																															
+			FT3			assign-site-var	Efuse_mon_Early 0																															
+			FT3			create-site-var	Efuse_mon_Future																															
+			FT3			assign-site-var	Efuse_mon_Future 0																															
+			FT3			create-site-var	Efuse_mon_Previous																															
+			FT3			assign-site-var	Efuse_mon_Previous 0																															
+			FT3			create-site-var	Efuse_udr_e_Current																															
+			FT3			assign-site-var	Efuse_udr_e_Current 0																															
+			FT3			create-site-var	Efuse_udr_e_Future																															
+			FT3			assign-site-var	Efuse_udr_e_Future 0																															
+			FT3			create-site-var	Efuse_udr_e_Previous																															
+			FT3			assign-site-var	Efuse_udr_e_Previous 0																															
+			FT3			create-site-var	Efuse_udr_p_Current																															
+			FT3			assign-site-var	Efuse_udr_p_Current 0																															
+			FT3			create-site-var	Efuse_udr_p_Future																															
+			FT3			assign-site-var	Efuse_udr_p_Future 0																															
+			FT3			create-site-var	Efuse_udr_p_Previous																															
+			FT3			assign-site-var	Efuse_udr_p_Previous 0																															
+			FT3			create-site-var	LPCount_End																															
+			FT3			assign-site-var	LPCount_End 0																															
+			FT3			create-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index																															
+			FT3			assign-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index 0																															
+			FT3			create-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index																															
+			FT3			assign-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index 0																															
+			FT3			create-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index																															
+			FT3			assign-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index 0																															
+			FT3			create-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index																															
+			FT3			assign-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index 0																															
+			FT3			create-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index																															
+			FT3			assign-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index 0																															
+			FT3			create-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index																															
+			FT3			assign-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index 0																															
+			FT3			create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index																															
+			FT3			assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index 0																															
+			FT3			create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index																															
+			FT3			assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index 0																															
+			FT3			create-site-var	MFP_flow_idx																															
+			FT3			assign-site-var	MFP_flow_idx 0																															
+			FT3			create-site-var	MONChk_Var																															
+			FT3			assign-site-var	MONChk_Var 0																															
+			FT3			create-site-var	RSCR_Flow_Idx																															
+			FT3			assign-site-var	RSCR_Flow_Idx 0																															
+			FT3			create-site-var	SEL_CASE_CNT																															
+			FT3			assign-site-var	SEL_CASE_CNT 0																															
+			FT3			create-site-var	SEL_CASE_End																															
+			FT3			assign-site-var	SEL_CASE_End 0																															
+			FT3			create-site-var	SelSrm_LP_Var																															
+			FT3			assign-site-var	SelSrm_LP_Var 0																															
+			FT3			create-site-var	UDR_EChk_Var																															
+			FT3			assign-site-var	UDR_EChk_Var 0																															
+			FT3			create-site-var	UDR_PChk_Var																															
+			FT3			assign-site-var	UDR_PChk_Var 0																															
+			FT3			create-site-var	UIDChk_Var																															
+			FT3			assign-site-var	UIDChk_Var 0																															
+			FT3			create-site-var	Efuse_cmp_e_Current																															
+			FT3			assign-site-var	Efuse_cmp_e_Current 0																															
+			FT3			create-site-var	Efuse_cmp_e_Future																															
+			FT3			assign-site-var	Efuse_cmp_e_Future 0																															
+			FT3			create-site-var	Efuse_cmp_e_Previous																															
+			FT3			assign-site-var	Efuse_cmp_e_Previous 0																															
+			FT3			create-site-var	Efuse_cmp_p_Current																															
+			FT3			assign-site-var	Efuse_cmp_p_Current 0																															
+			FT3			create-site-var	Efuse_cmp_p_Future																															
+			FT3			assign-site-var	Efuse_cmp_p_Future 0																															
+			FT3			create-site-var	Efuse_cmp_p_Previous																															
+			FT3			assign-site-var	Efuse_cmp_p_Previous 0																															
+						call	Flow_Initilize																															
+						nop	Flow_SPIROM																															
+						call	Flow_Conti																															
+						nop	Flow_JTAG_IO																															
+						nop	Flow_Efuse_Initial_Read																															
+						nop	Flow_DRAM_TMPS_ADC																															
+						call	Flow_IDS																															
+						call	Flow_EVS																															
+						nop	Flow_ECID																															
+						call	Flow_IDS_CORR																															
+						nop	Flow_SAA_CP																															
+						nop	Flow_Mbist_Repair																															
+						nop	Flow_TD_Mbist_Outside																															
+						nop	Flow_Harvest_Before_Bincut																															
+						nop	Flow_HIP_Main																															
+						nop	Flow_DigHIP_Main																															
+						nop	Flow_DFTL																															
+						nop	Flow_Bincut																															
+						nop	Flow_HIP_PostBinCut																															
+						nop	Flow_CPM																															
+						nop	Flow_SAA_FT																															
+						nop	Flow_Harvesting_FinalSummary																															
+						nop	Flow_RTOS																															
+						call	Flow_Efuse_Final																															
+						nop																																
+						limits-all																																
+						set-device									1		1		Pass																			

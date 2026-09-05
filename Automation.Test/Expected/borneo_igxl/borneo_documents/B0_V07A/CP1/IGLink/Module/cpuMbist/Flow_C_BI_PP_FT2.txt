@@ -1,0 +1,140 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow C_BI_PP_FT2 Start "																															
+						flag-clear	Control__00_SRVE_BS_START,Control_SRVE_LATR_setup_LV,Control_SRVE_LATR_LV_CPM,Control_SRVE_BIST_LATR_CPM_fail,Control_SRVE_GET_F_ECPU_BIST_CORE_LATR,Control_SRVE_LATR_LV,Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE0,Control_SRVE_BIST_LATR_CORE0_LV,Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE1,Control_SRVE_BIST_LATR_CORE1_LV,Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE2,Control_SRVE_BIST_LATR_CORE2_LV,Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE3,Control_SRVE_BIST_LATR_CORE3_LV,Control_SRVE_BIST_LATR_setup_fail,Control_SRVE_BIST_LATR_Fail,Control_SRVE_BIST_PerfMode_Setup_LV,Control_SRVE_BIST_PerfMode_CPM_LV,Control_SRVE_BIST_59NSP_Setup_Fail,Control_SRVE_BIST_59NSP_CPM_Fail,Control_SRVE_GET_F_ECPU_BIST_CORE_59NSP,Control_SRVE_BIST_PerfMode_LV,Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE0,Control_SRVE_BIST_59NSP_CORE0_LV,Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE1,Control_SRVE_BIST_59NSP_CORE1_LV,Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE2,Control_SRVE_BIST_59NSP_CORE2_LV,Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE3,Control_SRVE_BIST_59NSP_CORE3_LV,Control_SRVE_BIST_59NSP_Fail,Control_SRVP_BIST_LATR_setup_LV,Control_SRVP_BIST_LATRNAMX_CPM_LV,Control_SRVP_BIST_LATR_CPM_LV,Control_SRVP_BIST_LATR_setup_fail,Control_SRVP_BIST_LATR_CPM_fail,Control_SRVP_GET_F_ECPU_BIST_CORE_LATR,Control_SRVP_BIST_LATR_LV,Control_SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE0,Control_SRVP_BIST_LATR_CORE0_LV,Control_SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE1,Control_SRVP_BIST_LATR_CORE1_LV,Control_SRVP_BIST_LATR_Fail,Control_SRVP_BIST_PerfMode_Setup_LV,Control_SRVP_BIST_PerfMode_CPM_LV,Control_SRVP_BIST_59NSP_Setup_Fail,Control_SRVP_BIST_59NSP_CPM_Fail,Control_SRVP_GET_F_ECPU_BIST_CORE_59NSP,Control_SRVP_BIST_PerfMode_LV,Control_SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE0,Control_SRVP_BIST_59NSP_CORE0_LV,Control_SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE1,Control_SRVP_BIST_59NSP_CORE1_LV,Control_SRVP_BIST_59NSP_Fail,Control_SRVP_BIST_59NSP_pass																															
+						flag-false	F_CPU_MBIST_SRVE_LATR_SETUP_LV_NV,F_CPU_MBIST_SRVE_LATR_LV_CPM_LV,F_CPU_MBIST_SRVE_LATR_LV_LV,F_CPU_MBIST_SRVE_BIST_LATR_CORE0_LV_LV,F_CPU_MBIST_SRVE_BIST_LATR_CORE1_LV_LV,F_CPU_MBIST_SRVE_BIST_LATR_CORE2_LV_LV,F_CPU_MBIST_SRVE_BIST_LATR_CORE3_LV_LV,F_CPU_MBIST_SRVE_BIST_PERFMODE_SETUP_LV_NV,F_CPU_MBIST_SRVE_BIST_PERFMODE_CPM_LV_LV,F_CPU_MBIST_SRVE_BIST_PERFMODE_LV_LV,F_CPU_MBIST_SRVE_BIST_59NSP_CORE0_LV_LV,F_CPU_MBIST_SRVE_BIST_59NSP_CORE1_LV_LV,F_CPU_MBIST_SRVE_BIST_59NSP_CORE2_LV_LV,F_CPU_MBIST_SRVE_BIST_59NSP_CORE3_LV_LV,F_CPU_MBIST_SRVP_BIST_LATR_SETUP_LV_NV,F_CPU_MBIST_SRVP_BIST_LATRNAMX_CPM_LV_LV,F_CPU_MBIST_SRVP_BIST_LATR_CPM_LV_LV,F_CPU_MBIST_SRVP_BIST_LATR_LV_LV,F_CPU_MBIST_SRVP_BIST_LATR_CORE0_LV_LV,F_CPU_MBIST_SRVP_BIST_LATR_CORE1_LV_LV,F_CPU_MBIST_SRVP_BIST_PERFMODE_SETUP_LV_NV,F_CPU_MBIST_SRVP_BIST_PERFMODE_CPM_LV_LV,F_CPU_MBIST_SRVP_BIST_PERFMODE_LV_LV,F_CPU_MBIST_SRVP_BIST_59NSP_CORE0_LV_LV,F_CPU_MBIST_SRVP_BIST_59NSP_CORE1_LV_LV																															
+_00_SRVE_BS_START						flag-true	Control_SRVE_LATR_setup_LV																															
+SRVE_LATR_setup_LV						Test	CpuMbist_FT2_Mbist_Cpu_Init_X_PatSet_SRVE_LATR_setup_LV_FT2_NV													Control_SRVE_LATR_LV_CPM	Control_SRVE_BIST_LATR_setup_fail,F_CPU_MBIST_SRVE_LATR_SETUP_LV_NV							flag-true	Control_SRVE_LATR_setup_LV									
+SRVE_LATR_LV_CPM						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_LATR_LV_CPM_FT2_LV													Control_SRVE_GET_F_ECPU_BIST_CORE_LATR	Control_SRVE_BIST_LATR_CPM_fail,F_CPU_MBIST_SRVE_LATR_LV_CPM_LV							flag-true	Control_SRVE_LATR_LV_CPM									
+SRVE_BIST_LATR_CPM_fail						Bintable	Bin_CPU_MBIST_SRVE_LATR_LV_CPM_LV																					flag-true	Control_SRVE_BIST_LATR_CPM_fail									
+SRVE_GET_F_ECPU_BIST_CORE_LATR						If	(F_ECPU_BIST_CORE0||F_ECPU_BIST_CORE1||F_ECPU_BIST_CORE2||F_ECPU_BIST_CORE3)																															
+SRVE_GET_F_ECPU_BIST_CORE_LATR						flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE0																					flag-true	Control_SRVE_GET_F_ECPU_BIST_CORE_LATR									
+SRVE_GET_F_ECPU_BIST_CORE_LATR						Else																																
+SRVE_GET_F_ECPU_BIST_CORE_LATR						flag-true	Control_SRVE_LATR_LV																					flag-true	Control_SRVE_GET_F_ECPU_BIST_CORE_LATR									
+SRVE_GET_F_ECPU_BIST_CORE_LATR						EndIf																																
+SRVE_LATR_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_LATR_LV_FT2_LV													Control_SRVE_BIST_PerfMode_Setup_LV	Control_SRVE_BIST_LATR_Fail,F_CPU_MBIST_SRVE_LATR_LV_LV							flag-true	Control_SRVE_LATR_LV									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE0						If	F_ECPU_BIST_CORE0																															
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE0						flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE1																					flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE0									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE0						Else																																
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE0						flag-true	Control_SRVE_BIST_LATR_CORE0_LV																					flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE0									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE0						EndIf																																
+SRVE_BIST_LATR_CORE0_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_BIST_LATR_CORE0_LV_FT2_LV													Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE1	Control_SRVE_BIST_LATR_Fail,F_CPU_MBIST_SRVE_BIST_LATR_CORE0_LV_LV							flag-true	Control_SRVE_BIST_LATR_CORE0_LV									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE1						If	F_ECPU_BIST_CORE1																															
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE1						flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE2																					flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE1									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE1						Else																																
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE1						flag-true	Control_SRVE_BIST_LATR_CORE1_LV																					flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE1									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE1						EndIf																																
+SRVE_BIST_LATR_CORE1_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_BIST_LATR_CORE1_LV_FT2_LV													Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE2	Control_SRVE_BIST_LATR_Fail,F_CPU_MBIST_SRVE_BIST_LATR_CORE1_LV_LV							flag-true	Control_SRVE_BIST_LATR_CORE1_LV									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE2						If	F_ECPU_BIST_CORE2																															
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE2						flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE3																					flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE2									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE2						Else																																
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE2						flag-true	Control_SRVE_BIST_LATR_CORE2_LV																					flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE2									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE2						EndIf																																
+SRVE_BIST_LATR_CORE2_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_BIST_LATR_CORE2_LV_FT2_LV													Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE3	Control_SRVE_BIST_LATR_Fail,F_CPU_MBIST_SRVE_BIST_LATR_CORE2_LV_LV							flag-true	Control_SRVE_BIST_LATR_CORE2_LV									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE3						If	F_ECPU_BIST_CORE3																															
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE3						flag-true	Control_SRVE_BIST_PerfMode_Setup_LV																					flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE3									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE3						Else																																
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE3						flag-true	Control_SRVE_BIST_LATR_CORE3_LV																					flag-true	Control_SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE3									
+SRVE_BIST_LATR_GET_F_ECPU_BIST_CORE3						EndIf																																
+SRVE_BIST_LATR_CORE3_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_BIST_LATR_CORE3_LV_FT2_LV													Control_SRVE_BIST_PerfMode_Setup_LV	Control_SRVE_BIST_LATR_Fail,F_CPU_MBIST_SRVE_BIST_LATR_CORE3_LV_LV							flag-true	Control_SRVE_BIST_LATR_CORE3_LV									
+SRVE_BIST_LATR_setup_fail						Bintable	Bin_CPU_MBIST_SRVE_LATR_SETUP_LV_NV																					flag-true	Control_SRVE_BIST_LATR_setup_fail									
+SRVE_BIST_LATR_Fail						Bintable	Bin_CPU_MBIST_SRVE_LATR_LV_LV																					flag-true	Control_SRVE_BIST_LATR_Fail									
+SRVE_BIST_LATR_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_LATR_CORE0_LV_LV																					flag-true	Control_SRVE_BIST_LATR_Fail									
+SRVE_BIST_LATR_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_LATR_CORE1_LV_LV																					flag-true	Control_SRVE_BIST_LATR_Fail									
+SRVE_BIST_LATR_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_LATR_CORE2_LV_LV																					flag-true	Control_SRVE_BIST_LATR_Fail									
+SRVE_BIST_LATR_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_LATR_CORE3_LV_LV																					flag-true	Control_SRVE_BIST_LATR_Fail									
+SRVE_BIST_PerfMode_Setup_LV						Test	CpuMbist_FT2_Mbist_Cpu_Init_X_PatSet_SRVE_BIST_PerfMode_Setup_LV_FT2_NV													Control_SRVE_BIST_PerfMode_CPM_LV	Control_SRVE_BIST_59NSP_Setup_Fail,F_CPU_MBIST_SRVE_BIST_PERFMODE_SETUP_LV_NV							flag-true	Control_SRVE_BIST_PerfMode_Setup_LV									
+SRVE_BIST_PerfMode_CPM_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_BIST_PerfMode_CPM_LV_FT2_LV													Control_SRVE_GET_F_ECPU_BIST_CORE_59NSP	Control_SRVE_BIST_59NSP_CPM_Fail,F_CPU_MBIST_SRVE_BIST_PERFMODE_CPM_LV_LV							flag-true	Control_SRVE_BIST_PerfMode_CPM_LV									
+SRVE_BIST_59NSP_Setup_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_PERFMODE_SETUP_LV_NV																					flag-true	Control_SRVE_BIST_59NSP_Setup_Fail									
+SRVE_BIST_59NSP_CPM_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_PERFMODE_CPM_LV_LV																					flag-true	Control_SRVE_BIST_59NSP_CPM_Fail									
+SRVE_GET_F_ECPU_BIST_CORE_59NSP						If	(F_ECPU_BIST_CORE0||F_ECPU_BIST_CORE1||F_ECPU_BIST_CORE2||F_ECPU_BIST_CORE3)																															
+SRVE_GET_F_ECPU_BIST_CORE_59NSP						flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE0																					flag-true	Control_SRVE_GET_F_ECPU_BIST_CORE_59NSP									
+SRVE_GET_F_ECPU_BIST_CORE_59NSP						Else																																
+SRVE_GET_F_ECPU_BIST_CORE_59NSP						flag-true	Control_SRVE_BIST_PerfMode_LV																					flag-true	Control_SRVE_GET_F_ECPU_BIST_CORE_59NSP									
+SRVE_GET_F_ECPU_BIST_CORE_59NSP						EndIf																																
+SRVE_BIST_PerfMode_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_BIST_PerfMode_LV_FT2_LV													Control_SRVP_BIST_LATR_setup_LV	Control_SRVE_BIST_59NSP_Fail,F_CPU_MBIST_SRVE_BIST_PERFMODE_LV_LV							flag-true	Control_SRVE_BIST_PerfMode_LV									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE0						If	F_ECPU_BIST_CORE0																															
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE0						flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE1																					flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE0									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE0						Else																																
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE0						flag-true	Control_SRVE_BIST_59NSP_CORE0_LV																					flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE0									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE0						EndIf																																
+SRVE_BIST_59NSP_CORE0_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_BIST_59NSP_CORE0_LV_FT2_LV													Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE1	Control_SRVE_BIST_59NSP_Fail,F_CPU_MBIST_SRVE_BIST_59NSP_CORE0_LV_LV							flag-true	Control_SRVE_BIST_59NSP_CORE0_LV									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE1						If	F_ECPU_BIST_CORE1																															
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE1						flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE2																					flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE1									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE1						Else																																
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE1						flag-true	Control_SRVE_BIST_59NSP_CORE1_LV																					flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE1									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE1						EndIf																																
+SRVE_BIST_59NSP_CORE1_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_BIST_59NSP_CORE1_LV_FT2_LV													Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE2	Control_SRVE_BIST_59NSP_Fail,F_CPU_MBIST_SRVE_BIST_59NSP_CORE1_LV_LV							flag-true	Control_SRVE_BIST_59NSP_CORE1_LV									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE2						If	F_ECPU_BIST_CORE2																															
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE2						flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE3																					flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE2									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE2						Else																																
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE2						flag-true	Control_SRVE_BIST_59NSP_CORE2_LV																					flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE2									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE2						EndIf																																
+SRVE_BIST_59NSP_CORE2_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_BIST_59NSP_CORE2_LV_FT2_LV													Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE3	Control_SRVE_BIST_59NSP_Fail,F_CPU_MBIST_SRVE_BIST_59NSP_CORE2_LV_LV							flag-true	Control_SRVE_BIST_59NSP_CORE2_LV									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE3						If	F_ECPU_BIST_CORE3																															
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE3						flag-true	Control_SRVP_BIST_LATR_setup_LV																					flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE3									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE3						Else																																
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE3						flag-true	Control_SRVE_BIST_59NSP_CORE3_LV																					flag-true	Control_SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE3									
+SRVE_BIST_59NSP_GET_F_ECPU_BIST_CORE3						EndIf																																
+SRVE_BIST_59NSP_CORE3_LV						Test	CpuMbist_FT2_MEX001_Mbist_Cpu_BIST_MEX001_PatSet_SRVE_BIST_59NSP_CORE3_LV_FT2_LV													Control_SRVP_BIST_LATR_setup_LV	Control_SRVE_BIST_59NSP_Fail,F_CPU_MBIST_SRVE_BIST_59NSP_CORE3_LV_LV							flag-true	Control_SRVE_BIST_59NSP_CORE3_LV									
+SRVE_BIST_59NSP_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_PERFMODE_LV_LV																					flag-true	Control_SRVE_BIST_59NSP_Fail									
+SRVE_BIST_59NSP_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_59NSP_CORE0_LV_LV																					flag-true	Control_SRVE_BIST_59NSP_Fail									
+SRVE_BIST_59NSP_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_59NSP_CORE1_LV_LV																					flag-true	Control_SRVE_BIST_59NSP_Fail									
+SRVE_BIST_59NSP_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_59NSP_CORE2_LV_LV																					flag-true	Control_SRVE_BIST_59NSP_Fail									
+SRVE_BIST_59NSP_Fail						Bintable	Bin_CPU_MBIST_SRVE_BIST_59NSP_CORE3_LV_LV																					flag-true	Control_SRVE_BIST_59NSP_Fail									
+SRVP_BIST_LATR_setup_LV						Test	CpuMbist_FT2_Mbist_Cpu_Init_X_PatSet_SRVP_BIST_LATR_setup_LV_FT2_NV													Control_SRVP_BIST_LATRNAMX_CPM_LV	Control_SRVP_BIST_LATR_setup_fail,F_CPU_MBIST_SRVP_BIST_LATR_SETUP_LV_NV							flag-true	Control_SRVP_BIST_LATR_setup_LV									
+SRVP_BIST_LATRNAMX_CPM_LV						Test	CpuMbist_FT2_MPX001_Mbist_Cpu_BIST_MPX001_PatSet_SRVP_BIST_LATRNAMX_CPM_LV_FT2_LV													Control_SRVP_BIST_LATR_CPM_LV	Control_SRVP_BIST_LATR_CPM_fail,F_CPU_MBIST_SRVP_BIST_LATRNAMX_CPM_LV_LV							flag-true	Control_SRVP_BIST_LATRNAMX_CPM_LV									
+SRVP_BIST_LATR_CPM_LV						Test	CpuMbist_FT2_MPX001_Mbist_Cpu_BIST_MPX001_PatSet_SRVP_BIST_LATR_CPM_LV_FT2_LV													Control_SRVP_GET_F_ECPU_BIST_CORE_LATR	Control_SRVP_BIST_LATR_CPM_fail,F_CPU_MBIST_SRVP_BIST_LATR_CPM_LV_LV							flag-true	Control_SRVP_BIST_LATR_CPM_LV									
+SRVP_BIST_LATR_setup_fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_LATR_SETUP_LV_NV																					flag-true	Control_SRVP_BIST_LATR_setup_fail									
+SRVP_BIST_LATR_CPM_fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_LATRNAMX_CPM_LV_LV																					flag-true	Control_SRVP_BIST_LATR_CPM_fail									
+SRVP_BIST_LATR_CPM_fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_LATR_CPM_LV_LV																					flag-true	Control_SRVP_BIST_LATR_CPM_fail									
+SRVP_GET_F_ECPU_BIST_CORE_LATR						If	(F_PCPU_BIST_CORE0||F_PCPU_BIST_CORE1)																															
+SRVP_GET_F_ECPU_BIST_CORE_LATR						flag-true	Control_SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE0																					flag-true	Control_SRVP_GET_F_ECPU_BIST_CORE_LATR									
+SRVP_GET_F_ECPU_BIST_CORE_LATR						Else																																
+SRVP_GET_F_ECPU_BIST_CORE_LATR						flag-true	Control_SRVP_BIST_LATR_LV																					flag-true	Control_SRVP_GET_F_ECPU_BIST_CORE_LATR									
+SRVP_GET_F_ECPU_BIST_CORE_LATR						EndIf																																
+SRVP_BIST_LATR_LV						Test	CpuMbist_FT2_MPX001_Mbist_Cpu_BIST_MPX001_PatSet_SRVP_BIST_LATR_LV_FT2_LV													Control_SRVP_BIST_PerfMode_Setup_LV	Control_SRVP_BIST_LATR_Fail,F_CPU_MBIST_SRVP_BIST_LATR_LV_LV							flag-true	Control_SRVP_BIST_LATR_LV									
+SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE0						If	F_PCPU_BIST_CORE0																															
+SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE0						flag-true	Control_SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE1																					flag-true	Control_SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE0									
+SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE0						Else																																
+SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE0						flag-true	Control_SRVP_BIST_LATR_CORE0_LV																					flag-true	Control_SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE0									
+SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE0						EndIf																																
+SRVP_BIST_LATR_CORE0_LV						Test	CpuMbist_FT2_MPX001_Mbist_Cpu_BIST_MPX001_PatSet_SRVP_BIST_LATR_CORE0_LV_FT2_LV													Control_SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE1	Control_SRVP_BIST_LATR_Fail,F_CPU_MBIST_SRVP_BIST_LATR_CORE0_LV_LV							flag-true	Control_SRVP_BIST_LATR_CORE0_LV									
+SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE1						If	F_PCPU_BIST_CORE1																															
+SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE1						flag-true	Control_SRVP_BIST_PerfMode_Setup_LV																					flag-true	Control_SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE1									
+SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE1						Else																																
+SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE1						flag-true	Control_SRVP_BIST_LATR_CORE1_LV																					flag-true	Control_SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE1									
+SRVP_BIST_LATR_GET_F_PCPU_BIST_CORE1						EndIf																																
+SRVP_BIST_LATR_CORE1_LV						Test	CpuMbist_FT2_MPX001_Mbist_Cpu_BIST_MPX001_PatSet_SRVP_BIST_LATR_CORE1_LV_FT2_LV													Control_SRVP_BIST_PerfMode_Setup_LV	Control_SRVP_BIST_LATR_Fail,F_CPU_MBIST_SRVP_BIST_LATR_CORE1_LV_LV							flag-true	Control_SRVP_BIST_LATR_CORE1_LV									
+SRVP_BIST_LATR_Fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_LATR_LV_LV																					flag-true	Control_SRVP_BIST_LATR_Fail									
+SRVP_BIST_LATR_Fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_LATR_CORE0_LV_LV																					flag-true	Control_SRVP_BIST_LATR_Fail									
+SRVP_BIST_LATR_Fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_LATR_CORE1_LV_LV																					flag-true	Control_SRVP_BIST_LATR_Fail									
+SRVP_BIST_PerfMode_Setup_LV						Test	CpuMbist_FT2_Mbist_Cpu_Init_X_PatSet_SRVP_BIST_PerfMode_Setup_LV_FT2_NV													Control_SRVP_BIST_PerfMode_CPM_LV	Control_SRVP_BIST_59NSP_Setup_Fail,F_CPU_MBIST_SRVP_BIST_PERFMODE_SETUP_LV_NV							flag-true	Control_SRVP_BIST_PerfMode_Setup_LV									
+SRVP_BIST_PerfMode_CPM_LV						Test	CpuMbist_FT2_MPX001_Mbist_Cpu_BIST_MPX001_PatSet_SRVP_BIST_PerfMode_CPM_LV_FT2_LV													Control_SRVP_GET_F_ECPU_BIST_CORE_59NSP	Control_SRVP_BIST_59NSP_CPM_Fail,F_CPU_MBIST_SRVP_BIST_PERFMODE_CPM_LV_LV							flag-true	Control_SRVP_BIST_PerfMode_CPM_LV									
+SRVP_BIST_59NSP_Setup_Fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_PERFMODE_SETUP_LV_NV																					flag-true	Control_SRVP_BIST_59NSP_Setup_Fail									
+SRVP_BIST_59NSP_CPM_Fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_PERFMODE_CPM_LV_LV																					flag-true	Control_SRVP_BIST_59NSP_CPM_Fail									
+SRVP_GET_F_ECPU_BIST_CORE_59NSP						If	(F_PCPU_BIST_CORE0||F_PCPU_BIST_CORE1)																															
+SRVP_GET_F_ECPU_BIST_CORE_59NSP						flag-true	Control_SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE0																					flag-true	Control_SRVP_GET_F_ECPU_BIST_CORE_59NSP									
+SRVP_GET_F_ECPU_BIST_CORE_59NSP						Else																																
+SRVP_GET_F_ECPU_BIST_CORE_59NSP						flag-true	Control_SRVP_BIST_PerfMode_LV																					flag-true	Control_SRVP_GET_F_ECPU_BIST_CORE_59NSP									
+SRVP_GET_F_ECPU_BIST_CORE_59NSP						EndIf																																
+SRVP_BIST_PerfMode_LV						Test	CpuMbist_FT2_MPX001_Mbist_Cpu_BIST_MPX001_PatSet_SRVP_BIST_PerfMode_LV_FT2_LV													Control_SRVP_BIST_59NSP_pass	Control_SRVP_BIST_59NSP_Fail,F_CPU_MBIST_SRVP_BIST_PERFMODE_LV_LV							flag-true	Control_SRVP_BIST_PerfMode_LV									
+SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE0						If	F_PCPU_BIST_CORE0																															
+SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE0						flag-true	Control_SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE1																					flag-true	Control_SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE0									
+SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE0						Else																																
+SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE0						flag-true	Control_SRVP_BIST_59NSP_CORE0_LV																					flag-true	Control_SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE0									
+SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE0						EndIf																																
+SRVP_BIST_59NSP_CORE0_LV						Test	CpuMbist_FT2_MPX001_Mbist_Cpu_BIST_MPX001_PatSet_SRVP_BIST_59NSP_CORE0_LV_FT2_LV													Control_SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE1	Control_SRVP_BIST_59NSP_Fail,F_CPU_MBIST_SRVP_BIST_59NSP_CORE0_LV_LV							flag-true	Control_SRVP_BIST_59NSP_CORE0_LV									
+SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE1						If	F_PCPU_BIST_CORE1																															
+SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE1						flag-true	Control_SRVP_BIST_59NSP_pass																					flag-true	Control_SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE1									
+SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE1						Else																																
+SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE1						flag-true	Control_SRVP_BIST_59NSP_CORE1_LV																					flag-true	Control_SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE1									
+SRVP_BIST_59NSP_GET_F_PCPU_BIST_CORE1						EndIf																																
+SRVP_BIST_59NSP_CORE1_LV						Test	CpuMbist_FT2_MPX001_Mbist_Cpu_BIST_MPX001_PatSet_SRVP_BIST_59NSP_CORE1_LV_FT2_LV													Control_SRVP_BIST_59NSP_pass	Control_SRVP_BIST_59NSP_Fail,F_CPU_MBIST_SRVP_BIST_59NSP_CORE1_LV_LV							flag-true	Control_SRVP_BIST_59NSP_CORE1_LV									
+SRVP_BIST_59NSP_Fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_PERFMODE_LV_LV																					flag-true	Control_SRVP_BIST_59NSP_Fail									
+SRVP_BIST_59NSP_Fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_59NSP_CORE0_LV_LV																					flag-true	Control_SRVP_BIST_59NSP_Fail									
+SRVP_BIST_59NSP_Fail						Bintable	Bin_CPU_MBIST_SRVP_BIST_59NSP_CORE1_LV_LV																					flag-true	Control_SRVP_BIST_59NSP_Fail									
+						print	"Flow C_BI_PP_FT2 End "																															
+SRVP_BIST_59NSP_pass						Return																																

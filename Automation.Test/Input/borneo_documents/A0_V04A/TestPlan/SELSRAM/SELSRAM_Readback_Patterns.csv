@@ -1,0 +1,8 @@
+﻿Org,SELSRAM DigCap Readback Pattern,,comment
+SOCSCAN,MN_BRNA0_S_FULP_AN_PTSX_PFF_JTG_UNS_ALLFRV_SI_SRMREAD,,all domains to use the same SRMREAD pattern
+CPUSCAN,MN_BRNA0_S_FULP_AN_PTSX_PFF_JTG_UNS_ALLFRV_SI_SRMREAD,,all domains to use the same SRMREAD pattern
+GFXSCAN,MN_BRNA0_S_FULP_AN_PTSX_PFF_JTG_UNS_ALLFRV_SI_SRMREAD,,all domains to use the same SRMREAD pattern
+SOCMBIST,MN_BRNA0_S_FULP_AN_PTSX_PFF_JTG_UNS_ALLFRV_SI_SRMREAD,,all domains to use the same SRMREAD pattern
+CPUMBIST,MN_BRNA0_S_FULP_AN_PTSX_PFF_JTG_UNS_ALLFRV_SI_SRMREAD,,all domains to use the same SRMREAD pattern
+GFXMBIST,MN_BRNA0_S_FULP_AN_PTSX_PFF_JTG_UNS_ALLFRV_SI_SRMREAD,,all domains to use the same SRMREAD pattern
+HIP,MN_BRNA0_S_FULP_AN_PTSX_PFF_JTG_UNS_ALLFRV_SI_SRMREAD,,all domains to use the same SRMREAD pattern

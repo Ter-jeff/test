@@ -1,0 +1,25 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	ME007_TD_Mbist_BV_Header_1																															
+						print	"Flow ME007_TD_Mbist_BV Start"																															
+Instance_Bincut_ME,Row6,MEX008 CPU TD,TD		CP1||FT2||RMA_ROOM||RMA_HOT	CP1,CP2,FT2		no_pattern	Test	ME007_MEX008_DIV166_1_DIV166_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_ME,Row6,MEX008 CPU TD,TD		T0TX_ROOM||T0TX_HOT	CP1,CP2,FT2		no_pattern	Test	ME007_MEX008_DIV166_1_Typ_DIV166_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_ME,Row7,MEX008 CPU TD,TD		CP1||FT2||RMA_ROOM||RMA_HOT	CP1,CP2,FT2		no_pattern	Test	ME007_MEX008_DIV422_1_DIV422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_ME,Row7,MEX008 CPU TD,TD		T0TX_ROOM||T0TX_HOT	CP1,CP2,FT2		no_pattern	Test	ME007_MEX008_DIV422_1_Typ_DIV422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row180,MEX009 CPU BIST,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	ME007_MEX009_59N_SP1_SP5_LATRNAMX_59N_SP1_SP5_LATRNAMX_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row180,MEX009 CPU BIST,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	ME007_MEX009_59N_SP1_SP5_LATRNAMX_Typ_59N_SP1_SP5_LATRNAMX_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row181,MEX009 CPU BIST,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	ME007_MEX009_SP3_SP3_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row181,MEX009 CPU BIST,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	ME007_MEX009_SP3_Typ_SP3_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						print	"Flow ME007_TD_Mbist_BV Stop"																															
+						Test	ME007_TD_Mbist_BV_Footer_1																															
+						Return																																

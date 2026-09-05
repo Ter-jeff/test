@@ -1,0 +1,124 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+Efuse						flag-clear	F_ecid_other,A00,A06,A09,A12,F_ECID_BlankCheck,F_ECID_PLL,F_ECID_WriteDSSC,F_ECID_Read,F_ECID_Check,F_ECID_JTAGRead,F_ECID_BankRead,F_ECID_BlankCheck_nonDeid,F_ECID_WriteDSSC_nonDeid,F_ECID_Read_nonDeid,F_ECID_Check_nonDeid,F_Config_BlankCheck_Early,F_Config_WriteDSSC_Early,F_Config_WriteDSSC_H_Early,F_Config_Read_Early,F_Config_Check_Early,F_Config_BlankCheck_RV,F_Config_Read_Real,F_Config_Check,F_Config_BlankCheck,F_Config_PLL,F_Config_WriteDSSC,F_Config_WriteDSSC_H,F_Config_Read,F_Config_BankRead,F_BKM_Fail,F_Judge_DRAM_Type,F_PseudoFuse_WriteToFile,F_Efuse_PreWrite,F_ECID_ALLBlankCheck																															
+Efuse		CFG_A00				flag-true	A00																															
+Efuse		CFG_A06				flag-true	A06																															
+Efuse		CFG_A09				flag-true	A09																															
+Efuse		CFG_A12				flag-true	A12																															
+		CP1				nop																			create enable words													
+		CP2				nop																																
+		CP				nop																																
+		FT1				nop																																
+		FT2				nop																																
+		FT3				nop																																
+		WLFT				nop																																
+		FT				nop																																
+		Prod_CP1				nop																																
+		Prod_CP2				nop																																
+		Prod_FT1				nop																																
+		Prod_FT2				nop																																
+		HardIPBin				nop																																
+BinCut		Debug_PTE				nop																																
+BinCut		Debug_BinCutCOF_E1				nop																																
+BinCut		Debug_BinCutCOF_Stored				nop																																
+Efuse		eFuse_Disable_DSPwavePrint				nop																																
+Efuse		eFuse_Disable_DecodeDataPrint				nop																																
+C#		ForceUpdateJob				nop																																
+C#		LogLevel_Debug				nop																																
+C#		LogLevel_NPI				nop																																
+C#		LogLevel_Debug_HardIP				nop																																
+C#		LogLevel_NPI_HardIP				nop																																
+C#		Enable_Dummy_IDS				nop																																
+C#		Enable_SFC				nop																																
+C#		Enable_RSCR				nop																																
+C#		Enable_FingerPrint				nop																																
+C#		Enable_FFC				nop																																
+C#		Enable_HFC				nop																																
+C#		DisableCoreMask				nop																																
+C#		DebugPrint				nop																																
+C#		Vdd_Binning_PTE_Debug				nop																																
+C#		Debug_BinCutCOF_Stored				nop																																
+EVS		A_EVS				nop																																
+Efuse		eFuse_All_Enable				nop																																
+Efuse		eFuse_All_Disable				nop																																
+Efuse		Enable_Flow_efuse_BankRead				nop																																
+Efuse		CFG_Early_Enable				nop																																
+Efuse		Enable_Flow_efuse_Config_Early				nop																																
+Efuse		Enable_Flow_efuse_Config				nop																																
+Efuse		Enable_Flow_efuse_ECID				nop																																
+Efuse		Enable_Flow_efuse_Post				nop																																
+Efuse		Pgm2File				nop																																
+Efuse		Enable_Flow_efuse_PreWrite				nop																																
+Efuse		CFG_Partial				nop																																
+Efuse_VBT		eFuse_Disable_DSPwavePrint				nop																																
+Efuse_VBT		eFuse_Disable_DecodeDataPrint				nop																																
+Efuse_VBT		Config_Enable				nop																																
+Efuse_VBT		CFG_Early_Enable				nop																																
+Efuse_VBT		ECID_Enable				nop																																
+Efuse_VBT		BankRead_Enable				nop																																
+Efuse_VBT		eFuse_Check_Allbank_Enable				nop																																
+Efuse_VBT		BypReTestCheck				nop																																
+Efuse_VBT		DRAM_Enable_Wd				nop																																
+Efuse_VBT		Char_CP				nop																																
+		Enable_Force_WAT_Dies				nop																																
+		Alter_XY_Coordinate				nop																																
+Efuse						enable-flow-word	CFG_Early_Enable																															
+Efuse						enable-flow-word	Enable_Flow_efuse_Config_Early																															
+Efuse		eFuse_All_Enable				enable-flow-word	Enable_Flow_efuse_BankRead																															
+Efuse		eFuse_All_Enable				enable-flow-word	Enable_Flow_efuse_Config																															
+Efuse		eFuse_All_Enable				enable-flow-word	Enable_Flow_efuse_Config_Early																															
+Efuse		eFuse_All_Enable				enable-flow-word	Enable_Flow_efuse_ECID																															
+Efuse		eFuse_All_Enable				enable-flow-word	Enable_Flow_efuse_Post																															
+Efuse		eFuse_All_Enable				enable-flow-word	Enable_Flow_efuse_PreWrite																															
+Efuse		eFuse_All_Disable				disable-flow-word	Enable_Flow_efuse_BankRead																															
+Efuse		eFuse_All_Disable				disable-flow-word	Enable_Flow_efuse_Config																															
+Efuse		eFuse_All_Disable				disable-flow-word	Enable_Flow_efuse_ECID																															
+Efuse		eFuse_All_Disable				disable-flow-word	Enable_Flow_efuse_Post																															
+Efuse		eFuse_All_Disable				disable-flow-word	Enable_Flow_efuse_PreWrite																															
+Efuse						flag-clear	F_ecid_other,F_GoodBinRetest																															
+						disable-flow-word	CP1																															
+						disable-flow-word	CP2																															
+						disable-flow-word	CP																															
+						disable-flow-word	FT1																															
+						disable-flow-word	FT2																															
+						disable-flow-word	FT3																															
+						disable-flow-word	FT																															
+						disable-flow-word	Temp_25C																															
+						disable-flow-word	Temp_85C																															
+			CP1			enable-flow-word	CP1																															
+			CP1			enable-flow-word	Prod_CP1																															
+			CP2			enable-flow-word	CP2																															
+			CP2			enable-flow-word	Prod_CP2																															
+			CP1,CP2			enable-flow-word	CP																															
+			FT1			enable-flow-word	FT1																															
+			FT1			enable-flow-word	Prod_FT1																															
+			FT2			enable-flow-word	FT2																															
+			FT2			enable-flow-word	Prod_FT2																															
+			FT1,FT2			enable-flow-word	FT																															
+			CP1,FT1			enable-flow-word	Temp_25C																															
+			CP2,FT2			enable-flow-word	Temp_85C																															
+						enable-flow-word	Enable_SFC																															
+						enable-flow-word	Enable_RSCR																															
+						enable-flow-word	Enable_FingerPrint																															
+						enable-flow-word	Enable_FFC																															
+HardIP						enable-flow-word	LogLevel_NPI																															
+HardIP			CP1,FT1			enable-flow-word	HardIPBin																															
+EVS						enable-flow-word	A_EVS																															
+EVS						flag-false	F_EVS_DIFFER,F_EVS_Tight,F_EVS_AlarmFail,F_SOC_MBIST_Alarm_Check,F_SOC_SCAN_Alarm_Check,F_SOC_MBIST_Defect_Alarm_Check,F_SOC_MBIST_SBIST_Alarm_Check																															
+fuse						flag-false	F_GoodBinRetest																															
+BinCut						flag-false	F_TD_MD002_HBV,F_Mbist_MD002_HBV,F_RTOS_MD002_HBV,F_TD_MD001_HBV,F_Mbist_MD001_HBV,F_RTOS_MD001_HBV,F_Vddbinning_IDS_fail,F_Vddbinning_Fail_Stop,Vddbinning_Fail_Stop_Flag,F_Other_Vddbinning_Interpolation_fail,F_Power_Binning_Fail,F_MD001_Mbist_BV,F_MD002_Mbist_BV,F_MRD001_Mbist_BV,F_MRD002_Mbist_BV,F_MD001_TD_BV,F_MD002_TD_BV,F_MRD001_TD_BV,F_MRD002_TD_BV,F_MD001_RTOS_BV,F_MD002_RTOS_BV,F_MRD001_RTOS_BV,F_MRD002_RTOS_BV,F_MD001_Mbist_IDS,F_MD002_Mbist_IDS,F_MRD001_Mbist_IDS,F_MRD002_Mbist_IDS,F_MD001_TD_IDS,F_MD002_TD_IDS,F_MRD001_TD_IDS,F_MRD002_TD_IDS,F_MD001_RTOS_IDS,F_MD002_RTOS_IDS,F_MRD001_RTOS_IDS,F_MRD002_RTOS_IDS,F_PassBinCut_1,F_PassBinCut_2,F_PassBinCut_3,F_IDS_BinX,F_BinX_MD001_Mbist_BV,F_VDD_DIG_MD001_IDS,F_BinX_MD002_Mbist_BV,F_VDD_DIG_MD002_IDS,F_BinX_MRD001_Mbist_BV,F_VDD_SRAM_MRD001_IDS,F_BinX_MRD002_Mbist_BV,F_VDD_SRAM_MRD002_IDS,F_BinX_MD001_TD_BV,F_BinX_MD002_TD_BV,F_BinX_MRD001_TD_BV,F_BinX_MRD002_TD_BV,F_BinX_MD001_RTOS_BV,F_BinX_MD002_RTOS_BV,F_BinX_MRD001_RTOS_BV,F_BinX_MRD002_RTOS_BV,F_BinX_MD001_Mbist_IDS,F_BinX_MD002_Mbist_IDS,F_BinX_MRD001_Mbist_IDS,F_BinX_MRD002_Mbist_IDS,F_BinX_MD001_TD_IDS,F_BinX_MD002_TD_IDS,F_BinX_MRD001_TD_IDS,F_BinX_MRD002_TD_IDS,F_BinX_MD001_RTOS_IDS,F_BinX_MD002_RTOS_IDS,F_BinX_MRD001_RTOS_IDS,F_BinX_MRD002_RTOS_IDS,F_IDS_BinY,F_BinY_MD001_Mbist_BV,F_BinY_MD002_Mbist_BV,F_BinY_MRD001_Mbist_BV,F_BinY_MRD002_Mbist_BV,F_BinY_MD001_TD_BV,F_BinY_MD002_TD_BV,F_BinY_MRD001_TD_BV,F_BinY_MRD002_TD_BV,F_BinY_MD001_RTOS_BV,F_BinY_MD002_RTOS_BV,F_BinY_MRD001_RTOS_BV,F_BinY_MRD002_RTOS_BV,F_BinY_MD001_Mbist_IDS,F_BinY_MD002_Mbist_IDS,F_BinY_MRD001_Mbist_IDS,F_BinY_MRD002_Mbist_IDS,F_BinY_MD001_TD_IDS,F_BinY_MD002_TD_IDS,F_BinY_MRD001_TD_IDS,F_BinY_MRD002_TD_IDS,F_BinY_MD001_RTOS_IDS,F_BinY_MD002_RTOS_IDS,F_BinY_MRD001_RTOS_IDS,F_BinY_MRD002_RTOS_IDS,F_Mbist_MD001_TD_PBC_outsidebincut_BV,F_TD_MD001_TD_PBC_outsidebincut_BV,F_SPI_MD001_TD_PBC_outsidebincut_BV,F_Mbist_MD002_TD_PBC_outsidebincut_BV,F_TD_MD002_TD_PBC_outsidebincut_BV,F_SPI_MD002_TD_PBC_outsidebincut_BV,F_Mbist_MD001_SBIST_PBC_outsidebincut_BV,F_TD_MD001_SBIST_PBC_outsidebincut_BV,F_SPI_MD001_SBIST_PBC_outsidebincut_BV,F_Mbist_MD002_SBIST_PBC_outsidebincut_BV,F_TD_MD002_SBIST_PBC_outsidebincut_BV,F_SPI_MD002_SBIST_PBC_outsidebincut_BV,F_Mbist_MD001_HAMMER_PBC_outsidebincut_BV,F_TD_MD001_HAMMER_PBC_outsidebincut_BV,F_SPI_MD001_HAMMER_PBC_outsidebincut_BV,F_Mbist_MD002_HAMMER_PBC_outsidebincut_BV,F_TD_MD002_HAMMER_PBC_outsidebincut_BV,F_SPI_MD002_HAMMER_PBC_outsidebincut_BV,F_Mbist_MD001_LG01_PBC_outsidebincut_BV,F_TD_MD001_LG01_PBC_outsidebincut_BV,F_SPI_MD001_LG01_PBC_outsidebincut_BV,F_Mbist_MD002_LG01_PBC_outsidebincut_BV,F_TD_MD002_LG01_PBC_outsidebincut_BV,F_SPI_MD002_LG01_PBC_outsidebincut_BV																															
+BinCut		Vddbin_COF_Instance				nop																																
+BinCut		Vddbin_COF_Instance_with_PerEqnLog				nop																																
+BinCut		Vddbin_COF_StepInheritance				nop																																
+BinCut		Vddbin_CMEM_Collection				nop																																
+C#		ForceUpdateJob				nop																																
+						flag-false	F_EVS_Alarm																															
+						flag-false	F_EVS_AlarmFail																															
+						flag-false	F_EVS_Alarm_CP1																															
+						flag-false	F_EVS_HIGHFAIL_LOWPASS																															
+						flag-false	F_EFUSE_FailDie																															
+						flag-false	F_Other_BKM_Fail																															
+		HIP_T0TX				enable-flow-word	Prod_CP2																															
+						return																																

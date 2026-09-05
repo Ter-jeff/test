@@ -1,0 +1,86 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow L_BI_PP_FT1 Start "																															
+						flag-clear	Control_GFX_MBIST_START,Control_GFX_MBIST_SOC_INIT_1,Control_GFX_MBIST_F_SOC_INIT_1,Control_GFX_MBIST_GFX_INIT_1,Control_GFX_MBIST_F_GFX_INIT_1,Control_GFX_MBIST_EMA_CHECKER_1,Control_GFX_MBIST_F_EMA_CHECKER_1,Control_GFX_MBIST_SMART_REPAIR_1,Control_GFX_MBIST_F_SMART_REPAIR_1,Control_GFX_MBIST_PLL_MSX004_1,Control_GFX_MBIST_F_PLL_MSX004_1,Control_GFX_MBIST_SRM00_1,Control_GFX_MBIST_BIST_PSOC_1,Control_GFX_MBIST_F_BIST_PSOC_1,Control_GFX_MBIST_PLL_MGX00D_1,Control_GFX_MBIST_F_PLL_MGX00D_1,Control_GFX_MBIST_SRM00_2,Control_GFX_MBIST_BIST_PGPU_1,Control_GFX_MBIST_BIST_SERIAL,Control_GFX_MBIST_BIST_CS_1,Control_GFX_MBIST_F_BIST_CS_1,Control_GFX_MBIST_HV_BIST_GPU0_FSTP0,Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP0_1,Control_GFX_MBIST_BIST_PGPU0_FSTP0_1,Control_GFX_MBIST_F_BIST_PGPU0_FSTP0_1,Control_GFX_MBIST_HV_BIST_GPU0_FSTP1,Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP1_1,Control_GFX_MBIST_BIST_PGPU0_FSTP1_1,Control_GFX_MBIST_F_BIST_PGPU0_FSTP1_1,Control_GFX_MBIST_HV_BIST_GPU0_FSTP2,Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP2_1,Control_GFX_MBIST_BIST_PGPU0_FSTP2_1,Control_GFX_MBIST_F_BIST_PGPU0_FSTP2_1,Control_GFX_MBIST_HV_BIST_GPU0_FSTP3,Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP3_1,Control_GFX_MBIST_BIST_PGPU0_FSTP3_1,Control_GFX_MBIST_F_BIST_PGPU0_FSTP3_1,Control_GFX_MBIST_HV_BIST_GPU0_FSTP4,Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP4_1,Control_GFX_MBIST_BIST_PGPU0_FSTP4_1,Control_GFX_MBIST_F_BIST_PGPU0_FSTP4_1,Control_GFX_MBIST_HV_BIST_GPU0_FSTP5,Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP5_1,Control_GFX_MBIST_BIST_PGPU0_FSTP5_1,Control_GFX_MBIST_F_BIST_PGPU0_FSTP5_1,Control_GFX_MBIST_HV_BIST_GPU0_FSTP6,Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP6_1,Control_GFX_MBIST_BIST_PGPU0_FSTP6_1,Control_GFX_MBIST_F_BIST_PGPU0_FSTP6_1,Control_GFX_MBIST_BIST_FAIL,Control_GFX_MBIST_PASS_BIN																															
+						flag-false	F_GFX_MBIST_GFX_MBIST_SOC_INIT_1_NV,F_GFX_MBIST_GFX_MBIST_GFX_INIT_1_NV,F_GFX_MBIST_GFX_MBIST_EMA_CHECKER_1_NV,F_GFX_MBIST_GFX_MBIST_SMART_REPAIR_1_NV,F_GFX_MBIST_GFX_MBIST_PLL_MSX004_1_NV,F_GFX_MBIST_GFX_MBIST_BIST_PSOC_1_HV,F_GFX_MBIST_GFX_MBIST_PLL_MGX00D_1_NV,F_GFX_MBIST_GFX_MBIST_BIST_CS_1_HV,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP0_1_HV,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP1_1_HV,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP2_1_HV,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP3_1_HV,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP4_1_HV,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP5_1_HV,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP6_1_HV																															
+GFX_MBIST_START						flag-true	Control_GFX_MBIST_SOC_INIT_1																															
+GFX_MBIST_SOC_INIT_1						Test	GfxMbist_FT1_Mbist_GFX_Init_X_PatSet_GFX_MBIST_SOC_INIT_1_FT1_NV													Control_GFX_MBIST_GFX_INIT_1	Control_GFX_MBIST_F_SOC_INIT_1,F_GFX_MBIST_GFX_MBIST_SOC_INIT_1_NV							flag-true	Control_GFX_MBIST_SOC_INIT_1									
+GFX_MBIST_F_SOC_INIT_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_SOC_INIT_1_NV																					flag-true	Control_GFX_MBIST_F_SOC_INIT_1									
+GFX_MBIST_GFX_INIT_1						Test	GfxMbist_FT1_Mbist_GFX_Init_X_PatSet_GFX_MBIST_GFX_INIT_1_FT1_NV													Control_GFX_MBIST_EMA_CHECKER_1	Control_GFX_MBIST_F_GFX_INIT_1,F_GFX_MBIST_GFX_MBIST_GFX_INIT_1_NV							flag-true	Control_GFX_MBIST_GFX_INIT_1									
+GFX_MBIST_F_GFX_INIT_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_GFX_INIT_1_NV																					flag-true	Control_GFX_MBIST_F_GFX_INIT_1									
+GFX_MBIST_EMA_CHECKER_1						Test	GfxMbist_FT1_Mbist_GFX_Init_X_PatSet_GFX_MBIST_EMA_CHECKER_1_FT1_NV													Control_GFX_MBIST_SMART_REPAIR_1	Control_GFX_MBIST_F_EMA_CHECKER_1,F_GFX_MBIST_GFX_MBIST_EMA_CHECKER_1_NV							flag-true	Control_GFX_MBIST_EMA_CHECKER_1									
+GFX_MBIST_F_EMA_CHECKER_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_EMA_CHECKER_1_NV																					flag-true	Control_GFX_MBIST_F_EMA_CHECKER_1									
+GFX_MBIST_SMART_REPAIR_1						Test	GfxMbist_FT1_Mbist_GFX_Init_X_PatSet_GFX_MBIST_SMART_REPAIR_1_FT1_NV													Control_GFX_MBIST_PLL_MSX004_1	Control_GFX_MBIST_F_SMART_REPAIR_1,F_GFX_MBIST_GFX_MBIST_SMART_REPAIR_1_NV							flag-true	Control_GFX_MBIST_SMART_REPAIR_1									
+GFX_MBIST_F_SMART_REPAIR_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_SMART_REPAIR_1_NV																					flag-true	Control_GFX_MBIST_F_SMART_REPAIR_1									
+GFX_MBIST_PLL_MSX004_1						Test	GfxMbist_FT1_Mbist_GFX_Init_X_PatSet_GFX_MBIST_PLL_MSX004_1_FT1_NV													Control_GFX_MBIST_SRM00_1	Control_GFX_MBIST_F_PLL_MSX004_1,F_GFX_MBIST_GFX_MBIST_PLL_MSX004_1_NV							flag-true	Control_GFX_MBIST_PLL_MSX004_1									
+GFX_MBIST_F_PLL_MSX004_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_PLL_MSX004_1_NV																					flag-true	Control_GFX_MBIST_F_PLL_MSX004_1									
+GFX_MBIST_SRM00_1						Test	GfxMbist_FT1_Mbist_GFX_Init_X_PatSet_GFX_MBIST_SRM00_1_FT1_NV													Control_GFX_MBIST_BIST_PSOC_1	Control_GFX_MBIST_BIST_PSOC_1							flag-true	Control_GFX_MBIST_SRM00_1									
+GFX_MBIST_BIST_PSOC_1						Test	GfxMbist_FT1_MSX004_Mbist_GFX_BIST_MSX004_PatSet_GFX_MBIST_BIST_PSOC_1_FT1_HV													Control_GFX_MBIST_PLL_MGX00D_1	Control_GFX_MBIST_BIST_FAIL,F_GFX_MBIST_GFX_MBIST_BIST_PSOC_1_HV							flag-true	Control_GFX_MBIST_BIST_PSOC_1									
+GFX_MBIST_PLL_MGX00D_1						Test	GfxMbist_FT1_Mbist_GFX_Init_X_PatSet_GFX_MBIST_PLL_MGX00D_1_FT1_NV													Control_GFX_MBIST_SRM00_2	Control_GFX_MBIST_F_PLL_MGX00D_1,F_GFX_MBIST_GFX_MBIST_PLL_MGX00D_1_NV							flag-true	Control_GFX_MBIST_PLL_MGX00D_1									
+GFX_MBIST_F_PLL_MGX00D_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_PLL_MGX00D_1_NV																					flag-true	Control_GFX_MBIST_F_PLL_MGX00D_1									
+GFX_MBIST_SRM00_2						Test	GfxMbist_FT1_Mbist_GFX_Init_X_PatSet_GFX_MBIST_SRM00_2_FT1_NV													Control_GFX_MBIST_BIST_PGPU_1	Control_GFX_MBIST_BIST_PGPU_1							flag-true	Control_GFX_MBIST_SRM00_2									
+GFX_MBIST_BIST_PGPU_1						Test	GfxMbist_FT1_MGX00D_Mbist_GFX_BIST_MGX00D_PatSet_GFX_MBIST_BIST_PGPU_1_FT1_HV													Control_GFX_MBIST_PASS_BIN	Control_GFX_MBIST_BIST_SERIAL							flag-true	Control_GFX_MBIST_BIST_PGPU_1									
+GFX_MBIST_BIST_SERIAL						flag-true	Control_GFX_MBIST_BIST_CS_1																					flag-true	Control_GFX_MBIST_BIST_SERIAL									
+GFX_MBIST_BIST_CS_1						Test	GfxMbist_FT1_MGX00D_Mbist_GFX_BIST_MGX00D_PatSet_GFX_MBIST_BIST_CS_1_FT1_HV													Control_GFX_MBIST_HV_BIST_GPU0_FSTP0	Control_GFX_MBIST_F_BIST_CS_1,F_GFX_MBIST_GFX_MBIST_BIST_CS_1_HV							flag-true	Control_GFX_MBIST_BIST_CS_1									
+GFX_MBIST_F_BIST_CS_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_BIST_CS_1_HV																					flag-true	Control_GFX_MBIST_F_BIST_CS_1									
+GFX_MBIST_HV_BIST_GPU0_FSTP0						flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP0_1																					flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP0									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP0_1						If	F_GFX0_BIST_CORE0																															
+GFX_MBIST_GET_F_GFX0_BIST_FSTP0_1						flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP1																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP0_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP0_1						Else																																
+GFX_MBIST_GET_F_GFX0_BIST_FSTP0_1						flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP0_1																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP0_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP0_1						EndIf																																
+GFX_MBIST_BIST_PGPU0_FSTP0_1						Test	GfxMbist_FT1_MGX00D_Mbist_GFX_BIST_MGX00D_PatSet_GFX_MBIST_BIST_PGPU0_FSTP0_1_FT1_HV													Control_GFX_MBIST_HV_BIST_GPU0_FSTP1	Control_GFX_MBIST_F_BIST_PGPU0_FSTP0_1,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP0_1_HV							flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP0_1									
+GFX_MBIST_F_BIST_PGPU0_FSTP0_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP0_1_HV																					flag-true	Control_GFX_MBIST_F_BIST_PGPU0_FSTP0_1									
+GFX_MBIST_HV_BIST_GPU0_FSTP1						flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP1_1																					flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP1_1						If	F_GFX0_BIST_CORE1																															
+GFX_MBIST_GET_F_GFX0_BIST_FSTP1_1						flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP2																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP1_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP1_1						Else																																
+GFX_MBIST_GET_F_GFX0_BIST_FSTP1_1						flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP1_1																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP1_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP1_1						EndIf																																
+GFX_MBIST_BIST_PGPU0_FSTP1_1						Test	GfxMbist_FT1_MGX00D_Mbist_GFX_BIST_MGX00D_PatSet_GFX_MBIST_BIST_PGPU0_FSTP1_1_FT1_HV													Control_GFX_MBIST_HV_BIST_GPU0_FSTP2	Control_GFX_MBIST_F_BIST_PGPU0_FSTP1_1,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP1_1_HV							flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP1_1									
+GFX_MBIST_F_BIST_PGPU0_FSTP1_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP1_1_HV																					flag-true	Control_GFX_MBIST_F_BIST_PGPU0_FSTP1_1									
+GFX_MBIST_HV_BIST_GPU0_FSTP2						flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP2_1																					flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP2									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP2_1						If	F_GFX0_BIST_CORE2																															
+GFX_MBIST_GET_F_GFX0_BIST_FSTP2_1						flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP3																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP2_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP2_1						Else																																
+GFX_MBIST_GET_F_GFX0_BIST_FSTP2_1						flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP2_1																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP2_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP2_1						EndIf																																
+GFX_MBIST_BIST_PGPU0_FSTP2_1						Test	GfxMbist_FT1_MGX00D_Mbist_GFX_BIST_MGX00D_PatSet_GFX_MBIST_BIST_PGPU0_FSTP2_1_FT1_HV													Control_GFX_MBIST_HV_BIST_GPU0_FSTP3	Control_GFX_MBIST_F_BIST_PGPU0_FSTP2_1,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP2_1_HV							flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP2_1									
+GFX_MBIST_F_BIST_PGPU0_FSTP2_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP2_1_HV																					flag-true	Control_GFX_MBIST_F_BIST_PGPU0_FSTP2_1									
+GFX_MBIST_HV_BIST_GPU0_FSTP3						flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP3_1																					flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP3									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP3_1						If	F_GFX0_BIST_CORE3																															
+GFX_MBIST_GET_F_GFX0_BIST_FSTP3_1						flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP4																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP3_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP3_1						Else																																
+GFX_MBIST_GET_F_GFX0_BIST_FSTP3_1						flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP3_1																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP3_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP3_1						EndIf																																
+GFX_MBIST_BIST_PGPU0_FSTP3_1						Test	GfxMbist_FT1_MGX00D_Mbist_GFX_BIST_MGX00D_PatSet_GFX_MBIST_BIST_PGPU0_FSTP3_1_FT1_HV													Control_GFX_MBIST_HV_BIST_GPU0_FSTP4	Control_GFX_MBIST_F_BIST_PGPU0_FSTP3_1,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP3_1_HV							flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP3_1									
+GFX_MBIST_F_BIST_PGPU0_FSTP3_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP3_1_HV																					flag-true	Control_GFX_MBIST_F_BIST_PGPU0_FSTP3_1									
+GFX_MBIST_HV_BIST_GPU0_FSTP4						flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP4_1																					flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP4									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP4_1						If	F_GFX0_BIST_CORE4																															
+GFX_MBIST_GET_F_GFX0_BIST_FSTP4_1						flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP5																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP4_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP4_1						Else																																
+GFX_MBIST_GET_F_GFX0_BIST_FSTP4_1						flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP4_1																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP4_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP4_1						EndIf																																
+GFX_MBIST_BIST_PGPU0_FSTP4_1						Test	GfxMbist_FT1_MGX00D_Mbist_GFX_BIST_MGX00D_PatSet_GFX_MBIST_BIST_PGPU0_FSTP4_1_FT1_HV													Control_GFX_MBIST_HV_BIST_GPU0_FSTP5	Control_GFX_MBIST_F_BIST_PGPU0_FSTP4_1,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP4_1_HV							flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP4_1									
+GFX_MBIST_F_BIST_PGPU0_FSTP4_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP4_1_HV																					flag-true	Control_GFX_MBIST_F_BIST_PGPU0_FSTP4_1									
+GFX_MBIST_HV_BIST_GPU0_FSTP5						flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP5_1																					flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP5									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP5_1						If	F_GFX0_BIST_CORE5																															
+GFX_MBIST_GET_F_GFX0_BIST_FSTP5_1						flag-true	Control_GFX_MBIST_PASS_BIN																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP5_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP5_1						Else																																
+GFX_MBIST_GET_F_GFX0_BIST_FSTP5_1						flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP5_1																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP5_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP5_1						EndIf																																
+GFX_MBIST_BIST_PGPU0_FSTP5_1						Test	GfxMbist_FT1_MGX00D_Mbist_GFX_BIST_MGX00D_PatSet_GFX_MBIST_BIST_PGPU0_FSTP5_1_FT1_HV													Control_GFX_MBIST_HV_BIST_GPU0_FSTP6	Control_GFX_MBIST_F_BIST_PGPU0_FSTP5_1,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP5_1_HV							flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP5_1									
+GFX_MBIST_F_BIST_PGPU0_FSTP5_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP5_1_HV																					flag-true	Control_GFX_MBIST_F_BIST_PGPU0_FSTP5_1									
+GFX_MBIST_HV_BIST_GPU0_FSTP6						flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP6_1																					flag-true	Control_GFX_MBIST_HV_BIST_GPU0_FSTP6									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP6_1						If	F_GFX0_BIST_CORE6																															
+GFX_MBIST_GET_F_GFX0_BIST_FSTP6_1						flag-true	Control_GFX_MBIST_PASS_BIN																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP6_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP6_1						Else																																
+GFX_MBIST_GET_F_GFX0_BIST_FSTP6_1						flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP6_1																					flag-true	Control_GFX_MBIST_GET_F_GFX0_BIST_FSTP6_1									
+GFX_MBIST_GET_F_GFX0_BIST_FSTP6_1						EndIf																																
+GFX_MBIST_BIST_PGPU0_FSTP6_1						Test	GfxMbist_FT1_MGX00D_Mbist_GFX_BIST_MGX00D_PatSet_GFX_MBIST_BIST_PGPU0_FSTP6_1_FT1_HV													Control_GFX_MBIST_PASS_BIN	Control_GFX_MBIST_F_BIST_PGPU0_FSTP6_1,F_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP6_1_HV							flag-true	Control_GFX_MBIST_BIST_PGPU0_FSTP6_1									
+GFX_MBIST_F_BIST_PGPU0_FSTP6_1						Bintable	Bin_GFX_MBIST_GFX_MBIST_BIST_PGPU0_FSTP6_1_HV																					flag-true	Control_GFX_MBIST_F_BIST_PGPU0_FSTP6_1									
+GFX_MBIST_BIST_FAIL						Bintable	Bin_GFX_MBIST_GFX_MBIST_BIST_PSOC_1_HV																					flag-true	Control_GFX_MBIST_BIST_FAIL									
+						print	"Flow L_BI_PP_FT1 End "																															
+GFX_MBIST_PASS_BIN						Return																																

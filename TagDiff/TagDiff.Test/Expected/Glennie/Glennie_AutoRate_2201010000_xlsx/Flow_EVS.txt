@@ -1,0 +1,14 @@
+Pass Rate	88.89%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	9	Pass Rows	8																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+M	Flow_EVS.txt	Flow_EVS.txt	5	5		A_EVS => 				assign-integer	EVS_Max_Step 1																														
+P	Flow_EVS.txt	Flow_EVS.txt	6	6		Vtrig				assign-integer	EVS_Max_Step 11																														
+P	Flow_EVS.txt	Flow_EVS.txt	7	8						call	Flow_EVS_SOC_Scan_EVS0																														
+P	Flow_EVS.txt	Flow_EVS.txt	8	9						call	Flow_EVS_SOC_Scan_EVS1																														
+P	Flow_EVS.txt	Flow_EVS.txt	9	10						call	Flow_EVS_SOC_mbist_WD																														
+P	Flow_EVS.txt	Flow_EVS.txt	10	11						call	Flow_EVS_SOC_mbist_WB																														
+P	Flow_EVS.txt	Flow_EVS.txt	11	12						call	Flow_EVS_SOC_mbist_WD_SBIST																														
+P	Flow_EVS.txt	Flow_EVS.txt	12	13						call	Flow_EVS_SOC_mbist_WB_SBIST																														
+P	Flow_EVS.txt	Flow_EVS.txt	13	14						return																															
+MissingBase		Flow_EVS.txt		7						flag-false	F_EVS_Tight																														

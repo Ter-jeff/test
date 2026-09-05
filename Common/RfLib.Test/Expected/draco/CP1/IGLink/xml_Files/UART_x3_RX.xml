@@ -1,0 +1,76 @@
+﻿<protocol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" description="UART" version="1.0" defaultName="UART" controller="Tester" validFamilies="">
+	<function name="UART_IO" group="" type="InOut" description="" />
+	<frame name="UART_Rcv" description="read" type="Read" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">\</cycle>
+			<cycle repeat="0">L</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">H</cycle>
+		</data>
+		<field name="Data" description="" length="0" variableLength="false">
+			<bit function="UART_IO" cycle="25" />
+			<bit function="UART_IO" cycle="22" />
+			<bit function="UART_IO" cycle="19" />
+			<bit function="UART_IO" cycle="16" />
+			<bit function="UART_IO" cycle="13" />
+			<bit function="UART_IO" cycle="10" />
+			<bit function="UART_IO" cycle="7" />
+			<bit function="UART_IO" cycle="4" />
+		</field>
+	</frame>
+	<frame name="UART_x" description="read" type="Read" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">L</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="1">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="0">H</cycle>
+			<cycle repeat="1">X</cycle>
+		</data>
+		<field name="Dataa" description="" length="0" variableLength="false">
+			<bit function="UART_IO" cycle="3" />
+			<bit function="UART_IO" cycle="6" />
+			<bit function="UART_IO" cycle="9" />
+			<bit function="UART_IO" cycle="12" />
+			<bit function="UART_IO" cycle="15" />
+			<bit function="UART_IO" cycle="18" />
+			<bit function="UART_IO" cycle="21" />
+			<bit function="UART_IO" cycle="24" />
+		</field>
+	</frame>
+	<frame name="Idle" description="" type="Idle" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="3">X</cycle>
+		</data>
+	</frame>
+	<layer_map has_hardware_layering="false" />
+</protocol>

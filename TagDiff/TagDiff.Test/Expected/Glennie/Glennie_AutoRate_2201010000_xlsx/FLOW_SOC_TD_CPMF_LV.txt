@@ -1,0 +1,10 @@
+Pass Rate	100.00%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	6	Pass Rows	6																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	FLOW_SOC_TD_CPMF_LV.txt	FLOW_SOC_TD_CPMF_LV.txt	5	5						print	"Flow SOC_TD_CPMF_LV Start"																														
+P	FLOW_SOC_TD_CPMF_LV.txt	FLOW_SOC_TD_CPMF_LV.txt	6	6		CP1||CP2||FT1				Test	SocTd_PP_MN_GLNA0_S_PL10_SC_CPMF_TDF_COM_AUT_MSRDXX_DM_LV		3400000												F_Soc_Td_MSX000_LV																
+P	FLOW_SOC_TD_CPMF_LV.txt	FLOW_SOC_TD_CPMF_LV.txt	7	7						Bintable	Bin_Soc_Td_MSX000_HLV																														
+P	FLOW_SOC_TD_CPMF_LV.txt	FLOW_SOC_TD_CPMF_LV.txt	8	8						Bintable	Bin_Soc_Td_MSX000_LV																														
+P	FLOW_SOC_TD_CPMF_LV.txt	FLOW_SOC_TD_CPMF_LV.txt	9	9						print	"Flow SOC_TD_CPMF_LV Stop"																														
+P	FLOW_SOC_TD_CPMF_LV.txt	FLOW_SOC_TD_CPMF_LV.txt	10	10						return																															

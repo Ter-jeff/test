@@ -1,0 +1,52 @@
+{
+  "Version": "V1.0",
+  "Sessions": [
+    {
+      "Action": "Validate",
+      "ID": "CP1",
+      "IgxlFile": "borneo.igxl",
+      "IsIgxlFile": true,
+      "JobName": "CP1",
+      "FirstName": "ChannelMap_CP_4_site",
+      "FirstStartingSites": "0,1,2",
+      "FirstSites": "",
+      "SecondName": "",
+      "SecondStartingSites": "",
+      "SecondSites": "",
+      "LstOtherChannelMap": [],
+      "DoAll": "Yes",
+      "TestSuites": "",
+      "EnableWords": "",
+      "OverrideFailStop": true,
+      "Part": "",
+      "Environment": "",
+      "TimeLow": "",
+      "TimeHigh": "",
+      "NumLow": "",
+      "NumHigh": "",
+      "DatalogType": "StandardSTDFText",
+      "ArchiveOutputFile": true,
+      "RunMode": "Engineering",
+      "FirstRunSettings": {
+        "DatalogOn": false,
+        "ProfilerOn": false
+      },
+      "ProfilerLoopRunSettings": {
+        "DatalogOn": false
+      },
+      "DiscardLoop": "0",
+      "DatalogOnLoop": "1",
+      "DatalogOffLoop": "0",
+      "ProfilerFlowLoop": "0",
+      "ProfilerVbtLoop": "0",
+      "ProfilerVbtDspLoop": "0",
+      "ProfilerMarkerLoop": "0",
+      "IndexTime": "0",
+      "SerialNumber": "",
+      "PartNumber": "",
+      "Timeout": "",
+      "RegressionTestFile": "",
+      "LstScenarioItem": []
+    }
+  ]
+}

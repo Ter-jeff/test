@@ -1,0 +1,61 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MyAvalonia.Controls.MyTextBoxButton">
+  <UserControl.Styles>
+    <!-- Remove TextBox focus border and background effects -->
+    <Style Selector="TextBox#MyTextBox:focus /template/ Border#PART_BorderElement">
+      <Setter Property="BorderBrush" Value="Transparent" />
+      <Setter Property="Background" Value="Transparent" />
+    </Style>
+
+    <!-- Prevent the TextBox background from changing on pointer hover -->
+    <Style Selector="TextBox#MyTextBox:pointerover /template/ Border#PART_BorderElement">
+      <Setter Property="BorderBrush" Value="Transparent" />
+      <Setter Property="Background" Value="Transparent" />
+    </Style>
+
+    <!-- Remove Button focus/hover background changes -->
+    <Style Selector="Button:focus /template/ ContentPresenter">
+      <Setter Property="Background" Value="Transparent" />
+    </Style>
+    <Style Selector="Button:pointerover /template/ ContentPresenter">
+      <Setter Property="Background" Value="Transparent" />
+    </Style>
+  </UserControl.Styles>
+
+  <DockPanel>
+    <TextBlock x:Name="MyTextBlock"
+               MinWidth="{Binding TextBlockWidth}"
+               DockPanel.Dock="Left"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Center"
+               TextWrapping="WrapWithOverflow"
+               Foreground="{DynamicResource MyFontBrush}"
+               Text="{Binding Header}" />
+    <Border x:Name="MyBorder"
+            BorderThickness="1"
+            BorderBrush="{DynamicResource MyTextBoxBorderBrush}"
+            Background="{DynamicResource MyContentBackground}">
+      <DockPanel LastChildFill="True">
+        <Button DockPanel.Dock="Right"
+                Padding="0"
+                Background="Transparent"
+                BorderThickness="0"
+                VerticalAlignment="Stretch"
+                Click="Button_Click">
+          <Image Source="avares://MyAvalonia/Resources/folder.ico"
+                 Width="24"
+                 Height="24"
+                 Stretch="Uniform" />
+        </Button>
+        <TextBox x:Name="MyTextBox"
+                 Text="{Binding Text, Mode=TwoWay}"
+                 VerticalContentAlignment="Center"
+                 BorderThickness="0"
+                 Padding="5,0"
+                 Background="Transparent"
+                 TextChanged="TextBoxButtonTextBox_TextChanged" />
+      </DockPanel>
+    </Border>
+  </DockPanel>
+</UserControl>

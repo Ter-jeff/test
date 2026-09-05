@@ -1,0 +1,67 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	CPU_SAA_LV_Header_1																															
+						print	"Flow CPU_SAA_LV Start"																															
+Instance_SA_CPU,Row2,Flow_CPU_SAA_LV		SA_Chain_CPU			MissPatternInCsv	Test	CpuSaChain_ECPU_Chain_LV														F_Cpu_SaChain_LV,F_CpuSaChain_ECPU_Chain_LV																	
+Instance_SA_CPU,Row2,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_SaChain_HLV,ControlBin_Cpu_SaChain_LV																					Flag-true	F_CpuSaChain_ECPU_Chain_LV									
+Instance_SA_CPU,Row3,Flow_CPU_SAA_LV		SA_Chain_CPU			MissPatternInCsv	Test	CpuSaChain_PCPU_Chain_LV														F_Cpu_SaChain_LV,F_CpuSaChain_PCPU_Chain_LV																	
+Instance_SA_CPU,Row3,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_SaChain_HLV,ControlBin_Cpu_SaChain_LV																					Flag-true	F_CpuSaChain_PCPU_Chain_LV									
+Instance_SA_CPU,Row4,Flow_CPU_SAA_LV		SA_Chain_CPU			MissPatternInCsv	Test	CpuSaChain_ECPU_XTRCOV_Chain_LV														F_Cpu_SaChain_LV,F_CpuSaChain_ECPU_XTRCOV_Chain_LV																	
+Instance_SA_CPU,Row4,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_SaChain_HLV,ControlBin_Cpu_SaChain_LV																					Flag-true	F_CpuSaChain_ECPU_XTRCOV_Chain_LV									
+Instance_SA_CPU,Row5,Flow_CPU_SAA_LV		SA_Chain_CPU			MissPatternInCsv	Test	CpuSaChain_PCPU_XTRCOV_Chain_LV														F_Cpu_SaChain_LV,F_CpuSaChain_PCPU_XTRCOV_Chain_LV																	
+Instance_SA_CPU,Row5,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_SaChain_HLV,ControlBin_Cpu_SaChain_LV																					Flag-true	F_CpuSaChain_PCPU_XTRCOV_Chain_LV									
+Instance_SA_CPU,Row6,Flow_CPU_SAA_LV		SA_Chain_CPU			MissPatternInCsv	Test	CpuSaChain_ECPU_CEXTEST_Chain_LV														F_Cpu_SaChain_LV,F_CpuSaChain_ECPU_CEXTEST_Chain_LV																	
+Instance_SA_CPU,Row6,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_SaChain_HLV,ControlBin_Cpu_SaChain_LV																					Flag-true	F_CpuSaChain_ECPU_CEXTEST_Chain_LV									
+Instance_SA_CPU,Row7,Flow_CPU_SAA_LV		SA_Chain_CPU			MissPatternInCsv	Test	CpuSaChain_PCPU_CEXTEST_Chain_LV														F_Cpu_SaChain_LV,F_CpuSaChain_PCPU_CEXTEST_Chain_LV																	
+Instance_SA_CPU,Row7,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_SaChain_HLV,ControlBin_Cpu_SaChain_LV																					Flag-true	F_CpuSaChain_PCPU_CEXTEST_Chain_LV									
+Instance_SA_CPU,Row16,Flow_CPU_SAA_LV					MissPatternInCsv	Test	CpuSa_ECPU_SAA_LV														F_Cpu_Sa_LV,F_CpuSa_ECPU_SAA_LV																	
+Instance_SA_CPU,Row16,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_Sa_HLV,ControlBin_Cpu_Sa_LV																					Flag-true	F_CpuSa_ECPU_SAA_LV									
+Instance_SA_CPU,Row17,Flow_CPU_SAA_LV					MissPatternInCsv	Test	CpuSa_PCPU_SAA_LV														F_Cpu_Sa_LV,F_CpuSa_PCPU_SAA_LV																	
+Instance_SA_CPU,Row17,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_Sa_HLV,ControlBin_Cpu_Sa_LV																					Flag-true	F_CpuSa_PCPU_SAA_LV									
+Instance_SA_CPU,Row18,Flow_CPU_SAA_LV					MissPatternInCsv	Test	CpuSa_ECPU_XTRCOV_SAA_LV														F_Cpu_Sa_LV,F_CpuSa_ECPU_XTRCOV_SAA_LV																	
+Instance_SA_CPU,Row18,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_Sa_HLV,ControlBin_Cpu_Sa_LV																					Flag-true	F_CpuSa_ECPU_XTRCOV_SAA_LV									
+Instance_SA_CPU,Row19,Flow_CPU_SAA_LV					MissPatternInCsv	Test	CpuSa_PCPU_XTRCOV_SAA_LV														F_Cpu_Sa_LV,F_CpuSa_PCPU_XTRCOV_SAA_LV																	
+Instance_SA_CPU,Row19,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_Sa_HLV,ControlBin_Cpu_Sa_LV																					Flag-true	F_CpuSa_PCPU_XTRCOV_SAA_LV									
+Instance_SA_CPU,Row20,Flow_CPU_SAA_LV					MissPatternInCsv	Test	CpuSa_ECPU_CEXTEST_SAA_LV														F_Cpu_Sa_LV,F_CpuSa_ECPU_CEXTEST_SAA_LV																	
+Instance_SA_CPU,Row20,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_Sa_HLV,ControlBin_Cpu_Sa_LV																					Flag-true	F_CpuSa_ECPU_CEXTEST_SAA_LV									
+Instance_SA_CPU,Row21,Flow_CPU_SAA_LV					MissPatternInCsv	Test	CpuSa_PCPU_CEXTEST_SAA_LV														F_Cpu_Sa_LV,F_CpuSa_PCPU_CEXTEST_SAA_LV																	
+Instance_SA_CPU,Row21,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_Sa_HLV,ControlBin_Cpu_Sa_LV																					Flag-true	F_CpuSa_PCPU_CEXTEST_SAA_LV									
+Instance_SA_CPU,Row30,Flow_CPU_SAA_LV		SA_PL99_CPU			MissPatternInCsv	Test	CpuTd_ECPU_XTRCOV_BLK0_LV														F_Cpu_LV,F_CpuTd_ECPU_XTRCOV_BLK0_LV																	
+Instance_SA_CPU,Row30,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_HLV,ControlBin_Cpu_LV																					Flag-true	F_CpuTd_ECPU_XTRCOV_BLK0_LV									
+Instance_SA_CPU,Row31,Flow_CPU_SAA_LV		SA_PL99_CPU			MissPatternInCsv	Test	CpuTd_ECPU_XTRCOV_BLK1_LV														F_Cpu_LV,F_CpuTd_ECPU_XTRCOV_BLK1_LV																	
+Instance_SA_CPU,Row31,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_HLV,ControlBin_Cpu_LV																					Flag-true	F_CpuTd_ECPU_XTRCOV_BLK1_LV									
+Instance_SA_CPU,Row32,Flow_CPU_SAA_LV		SA_PL99_CPU			MissPatternInCsv	Test	CpuTd_ECPU_XTRCOV_BLK2_LV														F_Cpu_LV,F_CpuTd_ECPU_XTRCOV_BLK2_LV																	
+Instance_SA_CPU,Row32,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_HLV,ControlBin_Cpu_LV																					Flag-true	F_CpuTd_ECPU_XTRCOV_BLK2_LV									
+Instance_SA_CPU,Row33,Flow_CPU_SAA_LV		SA_PL99_CPU			MissPatternInCsv	Test	CpuTd_ECPU_XTRCOV_BLK3_LV														F_Cpu_LV,F_CpuTd_ECPU_XTRCOV_BLK3_LV																	
+Instance_SA_CPU,Row33,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_HLV,ControlBin_Cpu_LV																					Flag-true	F_CpuTd_ECPU_XTRCOV_BLK3_LV									
+Instance_SA_CPU,Row34,Flow_CPU_SAA_LV		SA_PL99_CPU			MissPatternInCsv	Test	CpuTd_ECPU_XTRCOV_BLKC_LV														F_Cpu_LV,F_CpuTd_ECPU_XTRCOV_BLKC_LV																	
+Instance_SA_CPU,Row34,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_HLV,ControlBin_Cpu_LV																					Flag-true	F_CpuTd_ECPU_XTRCOV_BLKC_LV									
+Instance_SA_CPU,Row36,Flow_CPU_SAA_LV		SA_PL99_CPU			MissPatternInCsv	Test	CpuTd_PCPU_XTRCOV_BLK0_LV														F_Cpu_LV,F_CpuTd_PCPU_XTRCOV_BLK0_LV																	
+Instance_SA_CPU,Row36,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_HLV,ControlBin_Cpu_LV																					Flag-true	F_CpuTd_PCPU_XTRCOV_BLK0_LV									
+Instance_SA_CPU,Row37,Flow_CPU_SAA_LV		SA_PL99_CPU			MissPatternInCsv	Test	CpuTd_PCPU_XTRCOV_BLK1_LV														F_Cpu_LV,F_CpuTd_PCPU_XTRCOV_BLK1_LV																	
+Instance_SA_CPU,Row37,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_HLV,ControlBin_Cpu_LV																					Flag-true	F_CpuTd_PCPU_XTRCOV_BLK1_LV									
+Instance_SA_CPU,Row38,Flow_CPU_SAA_LV		SA_PL99_CPU			MissPatternInCsv	Test	CpuTd_PCPU_XTRCOV_BLKC_LV														F_Cpu_LV,F_CpuTd_PCPU_XTRCOV_BLKC_LV																	
+Instance_SA_CPU,Row38,Flow_CPU_SAA_LV						flag-true	ControlBin_Cpu_HLV,ControlBin_Cpu_LV																					Flag-true	F_CpuTd_PCPU_XTRCOV_BLKC_LV									
+						If	ControlBin_Cpu_SaChain_HLV																															
+						Bintable	Bin_Cpu_SaChain_HLV																															
+						EndIf																																
+						If	ControlBin_Cpu_SaChain_LV																															
+						Bintable	Bin_Cpu_SaChain_LV																															
+						EndIf																																
+						If	ControlBin_Cpu_Sa_HLV																															
+						Bintable	Bin_Cpu_Sa_HLV																															
+						EndIf																																
+						If	ControlBin_Cpu_Sa_LV																															
+						Bintable	Bin_Cpu_Sa_LV																															
+						EndIf																																
+						If	ControlBin_Cpu_HLV																															
+						Bintable	Bin_Cpu_HLV																															
+						EndIf																																
+						If	ControlBin_Cpu_LV																															
+						Bintable	Bin_Cpu_LV																															
+						EndIf																																
+						print	"Flow CPU_SAA_LV Stop"																															
+						Test	CPU_SAA_LV_Footer_1																															
+						Return																																

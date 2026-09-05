@@ -1,0 +1,42 @@
+Pass Rate	46.43%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	28	Pass Rows	13																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	5	5						print	"Flow EVS_SOC_Scan_EVS0 Start"																														
+MissingCompared	Flow_EVS_SOC_Scan_EVS0.txt		6			CurrentProfile				Test	Profile_Start_EVS_Flow_EVS_SOC_Scan_EVS0_Scan		480000																												
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	7	8						For	EVS_INDEX=0; EVS_INDEX< EVS_Max_Step; EVS_INDEX++																														
+M		Flow_EVS_SOC_Scan_EVS0.txt		23						 => For	 => EVS_INDEX=0; EVS_INDEX< EVS_Max_Step; EVS_INDEX++																														
+MissingCompared	Flow_EVS_SOC_Scan_EVS0.txt		8							Test	EVS_SocScan_PatSet_EVS_SOC_Scan_EVS0_SOC_Scan_EVS0_HV		480500																												
+M	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	9	10		(A_EVS)&&(CP1)				Test	EVS_Static_Power_Ramp_Multi_SOC_Scan_EVS0_CP1_EVS1		481000												F_EVS_DIFFER,F_EVS_Tight,F_EVS_AlarmFail,F_SOC_SCAN_Alarm_Check => F_EVS_DIFFER,F_EVS_AlarmFail,F_SOC_SCAN_Alarm_Check,F_EVS_Tight							flag-false => 	F_EVS_DIFFER => 								
+M	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	10	11		(Vtrig)&&(CP1)				Test	EVS_Static_Power_Ramp_Multi_SOC_Scan_EVS0_CP1_EVS1_Vtrig		481500												F_EVS_DIFFER,F_EVS_Tight,F_EVS_AlarmFail,F_SOC_SCAN_Alarm_Check => 																
+M	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	11	12		(IVCurve)&&(CP1)				Test	EVS_Static_Power_Ramp_Multi_SOC_Scan_EVS0_CP1_EVS1_IV		482000												F_EVS_DIFFER,F_EVS_Tight,F_EVS_AlarmFail,F_SOC_SCAN_Alarm_Check => 																
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	12	13			CP1			If	F_EVS_Tight																														
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	13	14		CP1				enable-flow-word	EVS_PwrDown																														
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	22	29		CP2				enable-flow-word	EVS_PwrDown																														
+MissingCompared	Flow_EVS_SOC_Scan_EVS0.txt		14			CP1				flag-clear	F_EVS_Tight																														
+MissingCompared	Flow_EVS_SOC_Scan_EVS0.txt		23			CP2				flag-clear	F_EVS_Tight																														
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	15	15			CP1			EndIf																															
+M		Flow_EVS_SOC_Scan_EVS0.txt		20						 => endif																															
+M		Flow_EVS_SOC_Scan_EVS0.txt		35						 => endif																															
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	16	16		(EVS_PwrDown)&&(CP1)				call	Flow_EVS_PowerReset																														
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	25	31		(EVS_PwrDown)&&(CP2)				call	Flow_EVS_PowerReset																														
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	17	17		CP1				disable-flow-word	EVS_PwrDown																														
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	26	32		CP2				disable-flow-word	EVS_PwrDown																														
+M	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	18	25		(A_EVS)&&(CP2)				Test	EVS_Static_Power_Ramp_Multi_SOC_Scan_EVS0_CP2_EVS1		482500												F_EVS_DIFFER,F_EVS_Tight,F_EVS_AlarmFail,F_SOC_SCAN_Alarm_Check => F_EVS_DIFFER,F_EVS_AlarmFail,F_SOC_SCAN_Alarm_Check,F_EVS_Tight							flag-false => 	F_EVS_DIFFER => 								
+M	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	19	26		(Vtrig)&&(CP2)				Test	EVS_Static_Power_Ramp_Multi_SOC_Scan_EVS0_CP2_EVS1_Vtrig		483000												F_EVS_DIFFER,F_EVS_Tight,F_EVS_AlarmFail,F_SOC_SCAN_Alarm_Check => 																
+M	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	20	27		(IVCurve)&&(CP2)				Test	EVS_Static_Power_Ramp_Multi_SOC_Scan_EVS0_CP2_EVS1_IV		483500												F_EVS_DIFFER,F_EVS_Tight,F_EVS_AlarmFail,F_SOC_SCAN_Alarm_Check => 																
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	29	18						Next																															
+M		Flow_EVS_SOC_Scan_EVS0.txt		33						 => Next																															
+MissingCompared	Flow_EVS_SOC_Scan_EVS0.txt		30			CurrentProfile				Test	Profile_Plot_EVS_Flow_EVS_SOC_Scan_EVS0_Scan		484000																												
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	31	38						print	"Flow EVS_SOC_Scan_EVS0 Stop"																														
+P	Flow_EVS_SOC_Scan_EVS0.txt	Flow_EVS_SOC_Scan_EVS0.txt	32	39						return																															
+MissingBase		Flow_EVS_SOC_Scan_EVS0.txt		6						if	(!F_EVS_Tight) || F_Debug_all																														
+MissingBase		Flow_EVS_SOC_Scan_EVS0.txt		21						if	(!F_EVS_Tight) || F_Debug_all																														
+MissingBase		Flow_EVS_SOC_Scan_EVS0.txt		7		CurrentProfile				Test	Profile_Start_EVS_SOC_Scan_EVS0_CP1_EVS1		75100																												
+MissingBase		Flow_EVS_SOC_Scan_EVS0.txt		9						Test	EVS_SOC_Scan_EVS0_HV		75200												F_EVS_PatSets_Soc_Sa_Fail																
+MissingBase		Flow_EVS_SOC_Scan_EVS0.txt		24						Test	EVS_SOC_Scan_EVS0_HV		76900												F_EVS_PatSets_Soc_Sa_Fail																
+MissingBase		Flow_EVS_SOC_Scan_EVS0.txt		19		CurrentProfile				Test	Profile_Plot_EVS_SOC_Scan_EVS0_CP1_EVS1		76700																												
+MissingBase		Flow_EVS_SOC_Scan_EVS0.txt		22		CurrentProfile				Test	Profile_Start_EVS_SOC_Scan_EVS0_CP2_EVS1		76800																												
+MissingBase		Flow_EVS_SOC_Scan_EVS0.txt		34		CurrentProfile				Test	Profile_Plot_EVS_SOC_Scan_EVS0_CP2_EVS1		77300																												
+MissingBase		Flow_EVS_SOC_Scan_EVS0.txt		36						Bintable	Bin_EVS_PatSets_Soc_Sa_Fail																														
+MissingBase		Flow_EVS_SOC_Scan_EVS0.txt		37						Bintable	Bin_EVS_DIFFER,Bin_EVS_AlarmFail,F_SOC_SCAN_Alarm_Check																														

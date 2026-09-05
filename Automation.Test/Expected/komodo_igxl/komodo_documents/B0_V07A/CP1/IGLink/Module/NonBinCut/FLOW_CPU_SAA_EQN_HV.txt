@@ -1,0 +1,108 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow CPU_SAA_EQN_HV Start"																															
+Instance_SA_CPU,Row13,Flow_CPU_SAA_EQN_HV		SA_Chain_CPU				Test	CpuSaChain_NonHarv_ECPU_Chain_SRM0E_EQN_HV		28250000												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSaChain_NonHarv_ECPU_Chain_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row13,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSaChain_NonHarv_ECPU_Chain_SRM0E_EQN_HV									
+Instance_SA_CPU,Row14,Flow_CPU_SAA_EQN_HV		SA_Chain_CPU				Test	CpuSaChain_NonHarv_PCPU_Chain_SRM0E_EQN_HV		28250500												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSaChain_NonHarv_PCPU_Chain_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row14,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSaChain_NonHarv_PCPU_Chain_SRM0E_EQN_HV									
+Instance_SA_CPU,Row15,Flow_CPU_SAA_EQN_HV		SA_Chain_CPU				Test	CpuSaChain_NonHarv_MCPU_Chain_SRM0E_EQN_HV		28251000												F_HCPU_SA_NonHarv,F_Cpu_Sa_MHXXXX_HV,F_CpuSaChain_NonHarv_MCPU_Chain_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row15,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																					Flag-true	F_CpuSaChain_NonHarv_MCPU_Chain_SRM0E_EQN_HV									
+Instance_SA_CPU,Row17,Flow_CPU_SAA_EQN_HV		SA_Chain_CPU				Test	CpuSaChain_NonHarv_ECPU_XTRCOV_Chain_SRM0E_EQN_HV		28251500												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSaChain_NonHarv_ECPU_XTRCOV_Chain_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row17,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSaChain_NonHarv_ECPU_XTRCOV_Chain_SRM0E_EQN_HV									
+Instance_SA_CPU,Row18,Flow_CPU_SAA_EQN_HV		SA_Chain_CPU				Test	CpuSaChain_NonHarv_PCPU_XTRCOV_Chain_SRM0E_EQN_HV		28252000												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSaChain_NonHarv_PCPU_XTRCOV_Chain_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row18,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSaChain_NonHarv_PCPU_XTRCOV_Chain_SRM0E_EQN_HV									
+Instance_SA_CPU,Row20,Flow_CPU_SAA_EQN_HV		SA_Chain_CPU				Test	CpuSaChain_NonHarv_ECPU_CEXTEST_Chain_SRM0E_EQN_HV		28252500												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSaChain_NonHarv_ECPU_CEXTEST_Chain_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row20,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSaChain_NonHarv_ECPU_CEXTEST_Chain_SRM0E_EQN_HV									
+Instance_SA_CPU,Row21,Flow_CPU_SAA_EQN_HV		SA_Chain_CPU				Test	CpuSaChain_NonHarv_PCPU_CEXTEST_Chain_SRM0E_EQN_HV		28253000												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSaChain_NonHarv_PCPU_CEXTEST_Chain_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row21,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSaChain_NonHarv_PCPU_CEXTEST_Chain_SRM0E_EQN_HV									
+Instance_SA_CPU,Row22,Flow_CPU_SAA_EQN_HV		SA_Chain_CPU				Test	CpuSaChain_NonHarv_MCPU_CEXTEST_Chain_SRM0E_EQN_HV		28253500												F_HCPU_SA_NonHarv,F_Cpu_Sa_MHXXXX_HV,F_CpuSaChain_NonHarv_MCPU_CEXTEST_Chain_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row22,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																					Flag-true	F_CpuSaChain_NonHarv_MCPU_CEXTEST_Chain_SRM0E_EQN_HV									
+Instance_SA_CPU,Row58,Flow_CPU_SAA_EQN_HV		CP1||CP2				Test	CpuSa_Harvest_ECPU_SAA_SRM0E_EQN_HV		28254000												F_Cpu_Sa_MEXXXX_HV,F_CpuSa_Harvest_ECPU_SAA_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row58,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_Harvest_ECPU_SAA_SRM0E_EQN_HV									
+Instance_SA_CPU,Row59,Flow_CPU_SAA_EQN_HV		CP1||CP2				Test	CpuSa_Harvest_PCPU_SAA_SRM0E_EQN_HV		28254500												F_Cpu_Sa_MPXXXX_HV,F_CpuSa_Harvest_PCPU_SAA_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row59,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSa_Harvest_PCPU_SAA_SRM0E_EQN_HV									
+Instance_SA_CPU,Row60,Flow_CPU_SAA_EQN_HV		CP1||CP2				Test	CpuSa_Harvest_MCPU_SAA_SRM0E_EQN_HV		28255000												F_Cpu_Sa_MHXXXX_HV,F_CpuSa_Harvest_MCPU_SAA_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row60,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																					Flag-true	F_CpuSa_Harvest_MCPU_SAA_SRM0E_EQN_HV									
+Instance_SA_CPU,Row62,Flow_CPU_SAA_EQN_HV		FT1||FT2				Test	CpuSa_NonHarv_ECPU_SAA_FT_SRM0E_EQN_HV		28255500												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSa_NonHarv_ECPU_SAA_FT_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row62,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_NonHarv_ECPU_SAA_FT_SRM0E_EQN_HV									
+Instance_SA_CPU,Row63,Flow_CPU_SAA_EQN_HV		FT1||FT2				Test	CpuSa_NonHarv_PCPU_SAA_FT_SRM0E_EQN_HV		28256000												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSa_NonHarv_PCPU_SAA_FT_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row63,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSa_NonHarv_PCPU_SAA_FT_SRM0E_EQN_HV									
+Instance_SA_CPU,Row64,Flow_CPU_SAA_EQN_HV		FT1||FT2				Test	CpuSa_NonHarv_MCPU_SAA_FT_SRM0E_EQN_HV		28256500												F_HCPU_SA_NonHarv,F_Cpu_Sa_MHXXXX_HV,F_CpuSa_NonHarv_MCPU_SAA_FT_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row64,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																					Flag-true	F_CpuSa_NonHarv_MCPU_SAA_FT_SRM0E_EQN_HV									
+Instance_SA_CPU,Row66,Flow_CPU_SAA_EQN_HV		CP1||CP2				Test	CpuSa_Harvest_ECPU_XTRCOV_SAA_SRM0E_EQN_HV		28257000												F_Cpu_Sa_MEXXXX_HV,F_CpuSa_Harvest_ECPU_XTRCOV_SAA_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row66,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_Harvest_ECPU_XTRCOV_SAA_SRM0E_EQN_HV									
+Instance_SA_CPU,Row67,Flow_CPU_SAA_EQN_HV		CP1||CP2				Test	CpuSa_Harvest_PCPU_XTRCOV_SAA_SRM0E_EQN_HV		28257500												F_Cpu_Sa_MPXXXX_HV,F_CpuSa_Harvest_PCPU_XTRCOV_SAA_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row67,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSa_Harvest_PCPU_XTRCOV_SAA_SRM0E_EQN_HV									
+Instance_SA_CPU,Row69,Flow_CPU_SAA_EQN_HV		FT1||FT2				Test	CpuSa_NonHarv_ECPU_XTRCOV_SAA_FT_SRM0E_EQN_HV		28258000												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSa_NonHarv_ECPU_XTRCOV_SAA_FT_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row69,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_NonHarv_ECPU_XTRCOV_SAA_FT_SRM0E_EQN_HV									
+Instance_SA_CPU,Row70,Flow_CPU_SAA_EQN_HV		FT1||FT2				Test	CpuSa_NonHarv_PCPU_XTRCOV_SAA_FT_SRM0E_EQN_HV		28258500												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSa_NonHarv_PCPU_XTRCOV_SAA_FT_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row70,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSa_NonHarv_PCPU_XTRCOV_SAA_FT_SRM0E_EQN_HV									
+Instance_SA_CPU,Row72,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_ECPU_SAA_PL99_BLK0_SRM0E_EQN_HV		28259000												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK0_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row72,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK0_SRM0E_EQN_HV									
+Instance_SA_CPU,Row73,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_ECPU_SAA_PL99_BLK1_SRM0E_EQN_HV		28259500												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK1_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row73,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK1_SRM0E_EQN_HV									
+Instance_SA_CPU,Row74,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_ECPU_SAA_PL99_BLK2_SRM0E_EQN_HV		28260000												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK2_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row74,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK2_SRM0E_EQN_HV									
+Instance_SA_CPU,Row75,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_ECPU_SAA_PL99_BLK3_SRM0E_EQN_HV		28260500												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK3_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row75,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK3_SRM0E_EQN_HV									
+Instance_SA_CPU,Row76,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_ECPU_SAA_PL99_BLK4_SRM0E_EQN_HV		28261000												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK4_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row76,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK4_SRM0E_EQN_HV									
+Instance_SA_CPU,Row77,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_ECPU_SAA_PL99_BLK5_SRM0E_EQN_HV		28261500												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK5_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row77,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_NonHarv_ECPU_SAA_PL99_BLK5_SRM0E_EQN_HV									
+Instance_SA_CPU,Row78,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_ECPU_SAA_PL99_BLKC_SRM0E_EQN_HV		28262000												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSa_NonHarv_ECPU_SAA_PL99_BLKC_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row78,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_NonHarv_ECPU_SAA_PL99_BLKC_SRM0E_EQN_HV									
+Instance_SA_CPU,Row79,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_PCPU_SAA_PL99_BLK0_SRM0E_EQN_HV		28262500												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSa_NonHarv_PCPU_SAA_PL99_BLK0_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row79,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSa_NonHarv_PCPU_SAA_PL99_BLK0_SRM0E_EQN_HV									
+Instance_SA_CPU,Row80,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_PCPU_SAA_PL99_BLK1_SRM0E_EQN_HV		28263000												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSa_NonHarv_PCPU_SAA_PL99_BLK1_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row80,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSa_NonHarv_PCPU_SAA_PL99_BLK1_SRM0E_EQN_HV									
+Instance_SA_CPU,Row81,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_PCPU_SAA_PL99_BLKC_SRM0E_EQN_HV		28263500												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSa_NonHarv_PCPU_SAA_PL99_BLKC_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row81,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSa_NonHarv_PCPU_SAA_PL99_BLKC_SRM0E_EQN_HV									
+Instance_SA_CPU,Row82,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_MCPU_SAA_PL99_BLK2_SRM0E_EQN_HV		28264000												F_HCPU_SA_NonHarv,F_Cpu_Sa_MHXXXX_HV,F_CpuSa_NonHarv_MCPU_SAA_PL99_BLK2_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row82,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																					Flag-true	F_CpuSa_NonHarv_MCPU_SAA_PL99_BLK2_SRM0E_EQN_HV									
+Instance_SA_CPU,Row83,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_MCPU_SAA_PL99_BLK3_SRM0E_EQN_HV		28264500												F_HCPU_SA_NonHarv,F_Cpu_Sa_MHXXXX_HV,F_CpuSa_NonHarv_MCPU_SAA_PL99_BLK3_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row83,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																					Flag-true	F_CpuSa_NonHarv_MCPU_SAA_PL99_BLK3_SRM0E_EQN_HV									
+Instance_SA_CPU,Row84,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_MCPU_SAA_PL99_BLK4_SRM0E_EQN_HV		28265000												F_HCPU_SA_NonHarv,F_Cpu_Sa_MHXXXX_HV,F_CpuSa_NonHarv_MCPU_SAA_PL99_BLK4_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row84,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																					Flag-true	F_CpuSa_NonHarv_MCPU_SAA_PL99_BLK4_SRM0E_EQN_HV									
+Instance_SA_CPU,Row85,Flow_CPU_SAA_EQN_HV		(SA_PL99_CPU)&&(CP1||CP2)				Test	CpuSa_NonHarv_MCPU_SAA_PL99_BLK5_SRM0E_EQN_HV		28265500												F_HCPU_SA_NonHarv,F_Cpu_Sa_MHXXXX_HV,F_CpuSa_NonHarv_MCPU_SAA_PL99_BLK5_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row85,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																					Flag-true	F_CpuSa_NonHarv_MCPU_SAA_PL99_BLK5_SRM0E_EQN_HV									
+						If	(!F_ECPU_SA_CORE0&&!F_ECPU_SA_CORE1&&!F_ECPU_SA_CORE2&&!F_ECPU_SA_CORE3&&!F_ECPU_SA_CORE4&&!F_ECPU_SA_CORE5) || F_Debug_all																															
+Instance_SA_CPU,Row91,Flow_CPU_SAA_EQN_HV						Test	CpuSa_NonHarv_ECPU_CEXTEST_SAA_NoHarv_SRM0E_EQN_HV		28266000												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSa_NonHarv_ECPU_CEXTEST_SAA_NoHarv_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row91,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSa_NonHarv_ECPU_CEXTEST_SAA_NoHarv_SRM0E_EQN_HV									
+						EndIf																																
+						If	(!F_HCPU_SA_CORE0&&!F_HCPU_SA_CORE1) || F_Debug_all																															
+Instance_SA_CPU,Row92,Flow_CPU_SAA_EQN_HV						Test	CpuSa_NonHarv_PCPU_CEXTEST_SAA_NoHarv_SRM0E_EQN_HV		28266500												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSa_NonHarv_PCPU_CEXTEST_SAA_NoHarv_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row92,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSa_NonHarv_PCPU_CEXTEST_SAA_NoHarv_SRM0E_EQN_HV									
+						EndIf																																
+						If	(!F_HCPU_SA_CORE2&&!F_HCPU_SA_CORE3&&!F_HCPU_SA_CORE4&&!F_HCPU_SA_CORE5) || F_Debug_all																															
+Instance_SA_CPU,Row93,Flow_CPU_SAA_EQN_HV						Test	CpuSa_NonHarv_MCPU_CEXTEST_SAA_NoHarv_SRM0E_EQN_HV		28267000												F_HCPU_SA_NonHarv,F_Cpu_Sa_MHXXXX_HV,F_CpuSa_NonHarv_MCPU_CEXTEST_SAA_NoHarv_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row93,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																					Flag-true	F_CpuSa_NonHarv_MCPU_CEXTEST_SAA_NoHarv_SRM0E_EQN_HV									
+						EndIf																																
+						If	(F_HCPU_SA_CORE0&&!F_HCPU_SA_CORE1) || F_Debug_all																															
+Instance_SA_CPU,Row98,Flow_CPU_SAA_EQN_HV						Test	CpuSa_NonHarv_PCPU_CEXTEST_SAA_CORE0HARVEST_SRM0E_EQN_HV		28267500												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSa_NonHarv_PCPU_CEXTEST_SAA_CORE0HARVEST_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row98,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSa_NonHarv_PCPU_CEXTEST_SAA_CORE0HARVEST_SRM0E_EQN_HV									
+						EndIf																																
+						If	(!F_HCPU_SA_CORE0&&F_HCPU_SA_CORE1) || F_Debug_all																															
+Instance_SA_CPU,Row99,Flow_CPU_SAA_EQN_HV						Test	CpuSa_NonHarv_PCPU_CEXTEST_SAA_CORE1HARVEST_SRM0E_EQN_HV		28268000												F_HCPU_SA_NonHarv,F_Cpu_Sa_MPXXXX_HV,F_CpuSa_NonHarv_PCPU_CEXTEST_SAA_CORE1HARVEST_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row99,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																					Flag-true	F_CpuSa_NonHarv_PCPU_CEXTEST_SAA_CORE1HARVEST_SRM0E_EQN_HV									
+						EndIf																																
+						If	(!F_ECPU_SA_CORE0&&!F_ECPU_SA_CORE1&&!F_ECPU_SA_CORE2&&!F_ECPU_SA_CORE3&&!F_ECPU_SA_CORE4&&!F_ECPU_SA_CORE5) || F_Debug_all																															
+Instance_SA_CPU,Row101,Flow_CPU_SAA_EQN_HV						Test	CpuSaChain_NonHarv_ECPU_RET_SAA_SRM0E_EQN_HV		28268500												F_ECPU_SA_NonHarv,F_Cpu_Sa_MEXXXX_HV,F_CpuSaChain_NonHarv_ECPU_RET_SAA_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row101,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																					Flag-true	F_CpuSaChain_NonHarv_ECPU_RET_SAA_SRM0E_EQN_HV									
+						EndIf																																
+						If	(!F_HCPU_SA_CORE0&&!F_HCPU_SA_CORE1&&!F_HCPU_SA_CORE2&&!F_HCPU_SA_CORE3&&!F_HCPU_SA_CORE4&&!F_HCPU_SA_CORE5) || F_Debug_all																															
+Instance_SA_CPU,Row102,Flow_CPU_SAA_EQN_HV		(SA_Skip_HCPURet)&&(CP2)				Test	CpuSaChain_NonHarv_PCPU_RET_SAA_SRM0E_EQN_HV		28269000												F_HCPU_SA_NonHarv,F_Cpu_Sa_MHXXXX_HV,F_CpuSaChain_NonHarv_PCPU_RET_SAA_SRM0E_EQN_HV																	
+Instance_SA_CPU,Row102,Flow_CPU_SAA_EQN_HV						flag-true	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																					Flag-true	F_CpuSaChain_NonHarv_PCPU_RET_SAA_SRM0E_EQN_HV									
+						EndIf																																
+						If	ControlBin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																															
+						Bintable	Bin_ECPU_SA_NonHarv_Cpu_Sa_MEXXXX_HV																															
+						EndIf																																
+						If	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																															
+						Bintable	Bin_HCPU_SA_NonHarv_Cpu_Sa_MPXXXX_HV																															
+						EndIf																																
+						If	ControlBin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																															
+						Bintable	Bin_HCPU_SA_NonHarv_Cpu_Sa_MHXXXX_HV																															
+						EndIf																																
+						print	"Flow CPU_SAA_EQN_HV Stop"																															
+						Return																																

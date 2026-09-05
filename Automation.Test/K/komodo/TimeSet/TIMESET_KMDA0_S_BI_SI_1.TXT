@@ -1,0 +1,762 @@
+DFF 1.4	Time Sets (Basic)																
+																	
+	Timing Mode:	Single		Master Timeset Name:													
+	Time Domain:																
+																	
+		Cycle	Pin Group			Data		Drive				Compare			Edge Resolution		
+	Time Set	Period	Name	Clock Period	Setup	Src	Fmt	On	Data	Return	Off	Mode	Open	Close	Mode	Comment	
+	tpll1	=(1/_TCK_Freq_VAR)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	RL	0	=(0.3984/_TCK_Freq_VAR)	=(0.8880/_TCK_Freq_VAR)		Off	Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART2_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART2_RXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART2_RTSN		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART2_CTSN		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UID_MODE_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	FORCE_DFU		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	GPIO[2]		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	ISP_GPIO_0		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	ISP_GPIO_2		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	ISP_GPIO_3		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	SPI1_SSIN		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	SPI1_SCLK		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	SPI1_PICO		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	SPI1_POCI		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	SPI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	SPI0_PICO		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	SPI0_POCI		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	I2C3_SDA		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	I2C3_SCL		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	I2C2_SDA		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	ISP_SPMI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	ISP_SPMI1_SDATA		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	I2C2_SCL		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	ISP_I2C0_SDA		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	ISP_I2C0_SCL		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	ISP_I2C1_SDA		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	ISP_I2C1_SCL		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	SENSOR0_CLK		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	SENSOR1_CLK		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	GPIO[3]		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DISP_FSYNC		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DISP_LSYNC		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DISP_TOUCH_EB		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART5_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	GPIO[11]		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART6_RXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART6_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	SWD_TCK_OUT4		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART3_CTSN		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART0_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART0_RXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART3_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART3_RXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART3_RTSN		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	GPIO[10]		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART5_RXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DISP_POL		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	DISP_INT		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	UART4_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	XO0		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tpll1	=(1/_TCK_Freq_VAR)	XI0	=(1/_XI0_Diff_Freq_VAR)	clock	PAT	RL	0	=(0.5/_XI0_Diff_Freq_VAR)	=(1/_XI0_Diff_Freq_VAR)		Off			Auto
+
+	twait1	=(4/_TCK_Freq_VAR)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	RL	0	=(1.5936/_TCK_Freq_VAR)	=(3.5520/_TCK_Freq_VAR)		Off	Auto		
+	twait1	=(4/_TCK_Freq_VAR)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait1	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART2_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART2_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART2_RTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART2_CTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UID_MODE_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	FORCE_DFU		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	GPIO[2]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	ISP_GPIO_0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	ISP_GPIO_2		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	ISP_GPIO_3		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	SPI1_SSIN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	SPI1_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	SPI1_PICO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	SPI1_POCI		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	SPI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	SPI0_PICO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	SPI0_POCI		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	I2C3_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	I2C3_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	I2C2_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	ISP_SPMI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	ISP_SPMI1_SDATA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	I2C2_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	ISP_I2C0_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	ISP_I2C0_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	ISP_I2C1_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	ISP_I2C1_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	SENSOR0_CLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	SENSOR1_CLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	GPIO[3]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DISP_FSYNC		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DISP_LSYNC		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DISP_TOUCH_EB		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART5_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	GPIO[11]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART6_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART6_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	SWD_TCK_OUT4		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART3_CTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART0_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART0_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART3_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART3_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART3_RTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	GPIO[10]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART5_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DISP_POL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	DISP_INT		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	UART4_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	XO0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait1	=(4/_TCK_Freq_VAR)	XI0	=(1/_XI0_Diff_Freq_VAR)	clock	PAT	RL	0	=(0.5/_XI0_Diff_Freq_VAR)	=(1/_XI0_Diff_Freq_VAR)		Off			Auto
+
+	twait2	=(4/_TCK_Freq_VAR)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	RL	0	=(1.5936/_TCK_Freq_VAR)	=(3.5520/_TCK_Freq_VAR)		Off	Auto		
+	twait2	=(4/_TCK_Freq_VAR)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	twait2	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART2_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART2_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART2_RTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART2_CTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UID_MODE_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	FORCE_DFU		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	GPIO[2]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	ISP_GPIO_0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	ISP_GPIO_2		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	ISP_GPIO_3		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	SPI1_SSIN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	SPI1_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	SPI1_PICO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	SPI1_POCI		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	SPI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	SPI0_PICO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	SPI0_POCI		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	I2C3_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	I2C3_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	I2C2_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	ISP_SPMI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	ISP_SPMI1_SDATA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	I2C2_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	ISP_I2C0_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	ISP_I2C0_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	ISP_I2C1_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	ISP_I2C1_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	SENSOR0_CLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	SENSOR1_CLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	GPIO[3]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DISP_FSYNC		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DISP_LSYNC		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DISP_TOUCH_EB		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART5_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	GPIO[11]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART6_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART6_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	SWD_TCK_OUT4		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART3_CTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART0_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART0_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART3_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART3_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART3_RTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	GPIO[10]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART5_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DISP_POL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	DISP_INT		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	UART4_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	XO0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	twait2	=(4/_TCK_Freq_VAR)	XI0	=(1/_XI0_Diff_Freq_VAR)	clock	PAT	RL	0	=(0.5/_XI0_Diff_Freq_VAR)	=(1/_XI0_Diff_Freq_VAR)		Off			Auto
+
+	tbyp1	=(20/_TCK_Freq_VAR)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	RL	0	=(7.9680/_TCK_Freq_VAR)	=(17.7600/_TCK_Freq_VAR)		Off	Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART2_TXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART2_RXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART2_RTSN		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART2_CTSN		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UID_MODE_L		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	FORCE_DFU		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	GPIO[2]		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	ISP_GPIO_0		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	ISP_GPIO_2		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	ISP_GPIO_3		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	SPI1_SSIN		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	SPI1_SCLK		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	SPI1_PICO		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	SPI1_POCI		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	SPI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	SPI0_PICO		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	SPI0_POCI		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	I2C3_SDA		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	I2C3_SCL		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	I2C2_SDA		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	ISP_SPMI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	ISP_SPMI1_SDATA		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	I2C2_SCL		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	ISP_I2C0_SDA		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	ISP_I2C0_SCL		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	ISP_I2C1_SDA		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	ISP_I2C1_SCL		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	SENSOR0_CLK		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	SENSOR1_CLK		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	GPIO[3]		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DISP_FSYNC		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DISP_LSYNC		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DISP_TOUCH_EB		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART5_TXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	GPIO[11]		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART6_RXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART6_TXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	SWD_TCK_OUT4		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART3_CTSN		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART0_TXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART0_RXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART3_TXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART3_RXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART3_RTSN		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	GPIO[10]		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART5_RXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DISP_POL		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	DISP_INT		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	UART4_TXD		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	XO0		i/o	PAT	NR	0	0		0	Edge	=(14.8000/_TCK_Freq_VAR)		Auto		
+	tbyp1	=(20/_TCK_Freq_VAR)	XI0	=(1/_XI0_Diff_Freq_VAR)	clock	PAT	RL	0	=(0.5/_XI0_Diff_Freq_VAR)	=(1/_XI0_Diff_Freq_VAR)		Off			Auto
+
+	tsonebyp1	=(4/_TCK_Freq_VAR)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	RL	0	=(1.5936/_TCK_Freq_VAR)	=(3.5520/_TCK_Freq_VAR)		Off	Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART2_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART2_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART2_RTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART2_CTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UID_MODE_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	FORCE_DFU		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	GPIO[2]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	ISP_GPIO_0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	ISP_GPIO_2		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	ISP_GPIO_3		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	SPI1_SSIN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	SPI1_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	SPI1_PICO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	SPI1_POCI		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	SPI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	SPI0_PICO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	SPI0_POCI		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	I2C3_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	I2C3_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	I2C2_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	ISP_SPMI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	ISP_SPMI1_SDATA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	I2C2_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	ISP_I2C0_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	ISP_I2C0_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	ISP_I2C1_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	ISP_I2C1_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	SENSOR0_CLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	SENSOR1_CLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	GPIO[3]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DISP_FSYNC		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DISP_LSYNC		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DISP_TOUCH_EB		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART5_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	GPIO[11]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART6_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART6_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	SWD_TCK_OUT4		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART3_CTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART0_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART0_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART3_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART3_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART3_RTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	GPIO[10]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART5_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DISP_POL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	DISP_INT		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	UART4_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	XO0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsonebyp1	=(4/_TCK_Freq_VAR)	XI0	=(1/_XI0_Diff_Freq_VAR)	clock	PAT	RL	0	=(0.5/_XI0_Diff_Freq_VAR)	=(1/_XI0_Diff_Freq_VAR)		Off			Auto
+
+	tsmt1	=(1.92/_TCK_Freq_VAR)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	RL	0	=(0.7649/_TCK_Freq_VAR)	=(1.7050/_TCK_Freq_VAR)		Off	Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART2_TXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART2_RXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART2_RTSN		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART2_CTSN		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UID_MODE_L		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	FORCE_DFU		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	GPIO[2]		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	ISP_GPIO_0		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	ISP_GPIO_2		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	ISP_GPIO_3		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	SPI1_SSIN		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	SPI1_SCLK		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	SPI1_PICO		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	SPI1_POCI		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	SPI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	SPI0_PICO		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	SPI0_POCI		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	I2C3_SDA		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	I2C3_SCL		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	I2C2_SDA		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	ISP_SPMI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	ISP_SPMI1_SDATA		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	I2C2_SCL		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	ISP_I2C0_SDA		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	ISP_I2C0_SCL		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	ISP_I2C1_SDA		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	ISP_I2C1_SCL		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	SENSOR0_CLK		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	SENSOR1_CLK		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	GPIO[3]		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DISP_FSYNC		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DISP_LSYNC		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DISP_TOUCH_EB		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART5_TXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	GPIO[11]		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART6_RXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART6_TXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	SWD_TCK_OUT4		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART3_CTSN		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART0_TXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART0_RXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART3_TXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART3_RXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART3_RTSN		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	GPIO[10]		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART5_RXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DISP_POL		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	DISP_INT		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	UART4_TXD		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1.4208/_TCK_Freq_VAR)		Auto		
+	tsmt1	=(1.92/_TCK_Freq_VAR)	XI0	=(1/_XI0_Diff_Freq_VAR)	clock	PAT	RL	0	=(0.5/_XI0_Diff_Freq_VAR)	=(1/_XI0_Diff_Freq_VAR)		Off			Auto
+
+	tsup1	=(4/_TCK_Freq_VAR)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	RL	0	=(1.5936/_TCK_Freq_VAR)	=(3.5520/_TCK_Freq_VAR)		Off	Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART2_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART2_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART2_RTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART2_CTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UID_MODE_L		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	FORCE_DFU		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	GPIO[2]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	ISP_GPIO_0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	ISP_GPIO_2		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	ISP_GPIO_3		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	SPI1_SSIN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	SPI1_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	SPI1_PICO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	SPI1_POCI		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	SPI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	SPI0_PICO		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	SPI0_POCI		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	I2C3_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	I2C3_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	I2C2_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	ISP_SPMI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	ISP_SPMI1_SDATA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	I2C2_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	ISP_I2C0_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	ISP_I2C0_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	ISP_I2C1_SDA		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	ISP_I2C1_SCL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	SENSOR0_CLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	SENSOR1_CLK		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	GPIO[3]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DISP_FSYNC		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DISP_LSYNC		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DISP_TOUCH_EB		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART5_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	GPIO[11]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART6_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART6_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	SWD_TCK_OUT4		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART3_CTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART0_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART0_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART3_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART3_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART3_RTSN		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	GPIO[10]		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART5_RXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DISP_POL		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	DISP_INT		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	UART4_TXD		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	XO0		i/o	PAT	NR	0	0		0	Edge	=(2.9600/_TCK_Freq_VAR)		Auto		
+	tsup1	=(4/_TCK_Freq_VAR)	XI0	=(1/_XI0_Diff_Freq_VAR)	clock	PAT	RL	0	=(0.5/_XI0_Diff_Freq_VAR)	=(1/_XI0_Diff_Freq_VAR)		Off			Auto
+
+	tchk1	=(1/_TCK_Freq_VAR)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	RL	0	=(0.3984/_TCK_Freq_VAR)	=(0.8880/_TCK_Freq_VAR)		Off	Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART2_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART2_RXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART2_RTSN		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART2_CTSN		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UID_MODE_L		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	FORCE_DFU		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	GPIO[2]		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	ISP_GPIO_0		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	ISP_GPIO_2		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	ISP_GPIO_3		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	SPI1_SSIN		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	SPI1_SCLK		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	SPI1_PICO		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	SPI1_POCI		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	SPI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	SPI0_PICO		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	SPI0_POCI		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	I2C3_SDA		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	I2C3_SCL		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	I2C2_SDA		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	ISP_SPMI0_SCLK		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	ISP_SPMI1_SDATA		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	I2C2_SCL		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	ISP_I2C0_SDA		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	ISP_I2C0_SCL		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	ISP_I2C1_SDA		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	ISP_I2C1_SCL		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	SENSOR0_CLK		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	SENSOR1_CLK		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	GPIO[3]		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DISP_FSYNC		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DISP_LSYNC		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DISP_TOUCH_EB		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART5_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	GPIO[11]		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART6_RXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART6_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	SWD_TCK_OUT4		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART3_CTSN		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART0_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART0_RXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART3_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART3_RXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART3_RTSN		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	GPIO[10]		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART5_RXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DISP_POL		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	DISP_INT		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	UART4_TXD		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	XO0		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	tchk1	=(1/_TCK_Freq_VAR)	XI0	=(1/_XI0_Diff_Freq_VAR)	clock	PAT	RL	0	=(0.5/_XI0_Diff_Freq_VAR)	=(1/_XI0_Diff_Freq_VAR)		Off			Auto
+
+/* VAR Definitions */
+	TCK_Freq_VAR	=48000000
+	XI0_Diff_Freq_VAR	=24000000

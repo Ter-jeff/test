@@ -1,0 +1,43 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow MG004_TD_Mbist_BV Start"																															
+Instance_Bincut_MG,Row65,MGX004 GPU TD,TD		CP1 && GFX_MFSTP				Test	MG004_MGX004_GPU_MGX004_TD_X12GR1_GPU_MGX004_TD_X12GR1_BV		55240000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row66,MGX004 GPU TD,TD		(CP1)&&(CP2||FT1||FT2)				Test	MG004_MGX004_GPU_MGX004_TD_CMSX_SCAN_GPU_MGX004_TD_CMSX_SCAN_BV		55241000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row68,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF00_SCAN_PL99_GPU_MGX004_TD_CF00_SCAN_PL99_BV		55242000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row69,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF01_SCAN_PL99_GPU_MGX004_TD_CF01_SCAN_PL99_BV		55243000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row70,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF02_SCAN_PL99_GPU_MGX004_TD_CF02_SCAN_PL99_BV		55244000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row71,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF03_SCAN_PL99_GPU_MGX004_TD_CF03_SCAN_PL99_BV		55245000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row72,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF04_SCAN_PL99_GPU_MGX004_TD_CF04_SCAN_PL99_BV		55246000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row73,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF05_SCAN_PL99_GPU_MGX004_TD_CF05_SCAN_PL99_BV		55247000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row74,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF06_SCAN_PL99_GPU_MGX004_TD_CF06_SCAN_PL99_BV		55248000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row75,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF07_SCAN_PL99_GPU_MGX004_TD_CF07_SCAN_PL99_BV		55249000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row76,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF08_SCAN_PL99_GPU_MGX004_TD_CF08_SCAN_PL99_BV		55250000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row77,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF09_SCAN_PL99_GPU_MGX004_TD_CF09_SCAN_PL99_BV		55251000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row78,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF10_SCAN_PL99_GPU_MGX004_TD_CF10_SCAN_PL99_BV		55252000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row79,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CF11_SCAN_PL99_GPU_MGX004_TD_CF11_SCAN_PL99_BV		55253000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row80,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CSOC_SCAN_PL99_GPU_MGX004_TD_CSOC_SCAN_PL99_BV		55254000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row81,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CMS0_SCAN_PL99_GPU_MGX004_TD_CMS0_SCAN_PL99_BV		55255000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row82,MGX004 GPU TD,TD		CP1 && TD_PL99_GPU				Test	MG004_MGX004_GPU_MGX004_TD_CMS1_SCAN_PL99_GPU_MGX004_TD_CMS1_SCAN_PL99_BV		55256000																													
+						Bintable	Bin_MG004_TD_BV																															
+Instance_Bincut_MG,Row298,MGX004 GPU TD,TD		(CP1 && (Content_RMA && GFX_MFSTP))&&(FT1||FT2)				Test	MG004_MGX004_GPU_MGX004_TD_X12GR1_PL40_GPU_MGX004_TD_X12GR1_PL40_BV		55257000																													
+						Bintable	Bin_MG004_TD_BV																															
+						print	"Flow MG004_TD_Mbist_BV Stop"																															
+						Return																																

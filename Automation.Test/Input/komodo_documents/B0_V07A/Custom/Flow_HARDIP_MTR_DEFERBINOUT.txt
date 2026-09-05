@@ -1,0 +1,50 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"Flow HardIP_MTR_Binout Start "																															
+		HardIPBin				Bintable	Bin_HIP_Fuse_Read_Non_Zero_Check																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMT1																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMCALT3A																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMVER0P139																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMVER0P558																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMVER0P837																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMVER0P976																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMT4A																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMT4B																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMT8																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMCALT5A																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMMNVER0P139																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMMNVER0P558																															
+		HardIPBin				Bintable	Bin_HIP_ADCDFT_UCSDMMNVER0P837																															
+		HardIPBin			MN	Bintable	Bin_HIP_ADCDFT_MNUCSDMT6																															
+		HardIPBin			MN	Bintable	Bin_HIP_ADCDFT_MNUCSDMT9A																															
+		HardIPBin			MN	Bintable	Bin_HIP_ADCDFT_MNUCSDMT9B																															
+		HardIPBin			MN	Bintable	Bin_HIP_ADCDFT_MNUCSDMT9C																															
+		HardIPBin			MN	Bintable	Bin_HIP_ADCDFT_MNUCSDMT9D																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTSB0_NBRIDGET2P1																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTSB0_NBRIDGET2P1A																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTSB0_NBRIDGET2P1P1																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTSB0_RBRIDGET3P1																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTSB0_RBRIDGET3P2																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTSB0_READT4P1																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTSB0_TEMPT5P1																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTSB0_TEMPT5P1P1																															
+		HardIPBin			MN	Bintable	Bin_HIP_MTRICTSB0_MNPWRT1P1																															
+		HardIPBin			MN	Bintable	Bin_HIP_MTRICTSB0_MNIREFT1P2																															
+		HardIPBin			MN	Bintable	Bin_HIP_MTRICTSB0_MNANATESTT1P3																															
+		HardIPBin			MN	Bintable	Bin_HIP_MTRICTSB0_MNOSCT6P1																															
+		HardIPBin				Bintable	Bin_HIP_NTSEB0_NTSEREADT1P1CP1																															
+		HardIPBin				Bintable	Bin_HIP_NTSEB0_NTSEREADT1P1FT1																															
+		HardIPBin				Bintable	Bin_HIP_NTSEB0_NTSEREADT1P1FT2																															
+		HardIPBin				Bintable	Bin_HIP_NTSEB0_NTSEREADT2																															
+		HardIPBin			MN	Bintable	Bin_HIP_NTSEB0_MNNTSEREADT1P0																															
+		HardIPBin				Bintable	Bin_HIP_NTSR_NTSRREADT1P1CP1																															
+		HardIPBin				Bintable	Bin_HIP_NTSR_NTSRREADT1P1CP2																															
+		HardIPBin				Bintable	Bin_HIP_NTSR_NTSRREADT1P1FT1																															
+		HardIPBin				Bintable	Bin_HIP_NTSR_NTSRREADT1P1FT2																															
+		HardIPBin				Bintable	Bin_HIP_NTSR_NTSRREADT2																															
+		HardIPBin			MN	Bintable	Bin_HIP_NTSR_MNNTSRREADT1P0																															
+		HardIPBin				Bintable	Bin_HIP_NTSX_NTST1																															
+						print	"Flow HardIP_MTR_Binout Stop "																															
+						return																																

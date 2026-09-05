@@ -1,0 +1,17 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow C_BI_PP_FT1 Start "																															
+						flag-clear	Control_ECPU_SETUP_HV,Control_ECPU_PAYLOAD_HV,Control_HCPU_SETUP_HV,Control_HCPU_PAYLOAD_HV,Control_FAIL_BIN,Control_PASS_BIN																															
+						flag-false	F_CPU_MBIST_ECPU_SETUP_HV_NV,F_CPU_MBIST_ECPU_PAYLOAD_HV_HV,F_CPU_MBIST_HCPU_SETUP_HV_NV,F_CPU_MBIST_HCPU_PAYLOAD_HV_HV																															
+ECPU_SETUP_HV						Test	CpuMbist_FT1_Mbist_CPU_Init_X_PatSet_ECPU_SETUP_HV_FT1_NV		42100000											Control_ECPU_PAYLOAD_HV	Control_FAIL_BIN,F_CPU_MBIST_ECPU_SETUP_HV_NV																	
+ECPU_PAYLOAD_HV						Test	CpuMbist_FT1_MEX009_Mbist_Cpu_BIST_MEX009_EQN_PatSet_ECPU_PAYLOAD_HV_FT1_EQN_HV		42100500											Control_HCPU_SETUP_HV	Control_FAIL_BIN,F_CPU_MBIST_ECPU_PAYLOAD_HV_HV							flag-true	Control_ECPU_PAYLOAD_HV									
+HCPU_SETUP_HV						Test	CpuMbist_FT1_Mbist_CPU_Init_X_PatSet_HCPU_SETUP_HV_FT1_NV		42101000											Control_HCPU_PAYLOAD_HV	Control_FAIL_BIN,F_CPU_MBIST_HCPU_SETUP_HV_NV							flag-true	Control_HCPU_SETUP_HV									
+HCPU_PAYLOAD_HV						Test	CpuMbist_FT1_MPX00I_Mbist_Cpu_BIST_MPX00I_EQN_PatSet_HCPU_PAYLOAD_HV_FT1_EQN_HV		42101500											Control_PASS_BIN	Control_FAIL_BIN,F_CPU_MBIST_HCPU_PAYLOAD_HV_HV							flag-true	Control_HCPU_PAYLOAD_HV									
+FAIL_BIN						Bintable	Bin_CPU_MBIST_ECPU_SETUP_HV_NV																					flag-true	Control_FAIL_BIN									
+FAIL_BIN						Bintable	Bin_CPU_MBIST_ECPU_PAYLOAD_HV_HV																					flag-true	Control_FAIL_BIN									
+FAIL_BIN						Bintable	Bin_CPU_MBIST_HCPU_SETUP_HV_NV																					flag-true	Control_FAIL_BIN									
+FAIL_BIN						Bintable	Bin_CPU_MBIST_HCPU_PAYLOAD_HV_HV																					flag-true	Control_FAIL_BIN									
+						print	"Flow C_BI_PP_FT1 End "																															
+PASS_BIN						Return																																

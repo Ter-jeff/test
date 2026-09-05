@@ -1,0 +1,103 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"*print: Retention_LVCC_Header start*"																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MRD100_RETBIR_SRVA_GR01_ERT_1D_X_SelsrmSSSSS_CZ_NV		62060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MRD100_RETBIR_SRVA_GR01_ERT_1D_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR02_ERT_1D_X_SelsrmSSSSS_CZ_NV		64060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR02_ERT_1D_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR03_ERT_1D_X_SelsrmSSSSS_CZ_NV		66060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR03_ERT_1D_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR04_ERT_1D_X_SelsrmSSSSS_CZ_NV		68060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR04_ERT_1D_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR05_ERT_1D_X_SelsrmSSSSS_CZ_NV		70060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR05_ERT_1D_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MRD100_RETBIR_SRVA_GR01_ERT_1B_X_SelsrmSSSSS_CZ_NV		72060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MRD100_RETBIR_SRVA_GR01_ERT_1B_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR02_ERT_1B_X_SelsrmSSSSS_CZ_NV		74060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR02_ERT_1B_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR03_ERT_1B_X_SelsrmSSSSS_CZ_NV		76060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR03_ERT_1B_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR04_ERT_1B_X_SelsrmSSSSS_CZ_NV		78060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR04_ERT_1B_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR05_ERT_1B_X_SelsrmSSSSS_CZ_NV		80060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR05_ERT_1B_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI1_CR_1D_X_SelsrmSSSSS_CZ_NV		82060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI1_CR_1D_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI2_CR_1D_X_SelsrmSSSSS_CZ_NV		84060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI2_CR_1D_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI3_CR_1D_X_SelsrmSSSSS_CZ_NV		86060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI3_CR_1D_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI1_CR_1B_X_SelsrmSSSSS_CZ_NV		88060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI1_CR_1B_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI2_CR_1B_X_SelsrmSSSSS_CZ_NV		90060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI2_CR_1B_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI3_CR_1B_X_SelsrmSSSSS_CZ_NV		92060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GRI3_CR_1B_X_SelsrmSSSSS_CZ_NV RETBIR_VDDSRAM_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR06_CR_1D_X_SelsrmSSSSS_CZ_NV		94060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR06_CR_1D_X_SelsrmSSSSS_CZ_NV RETBBB_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR07_CR_1D_X_SelsrmSSSSS_CZ_NV		96060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR07_CR_1D_X_SelsrmSSSSS_CZ_NV RETBBB_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR08_CR_1D_X_SelsrmSSSSS_CZ_NV		98060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR08_CR_1D_X_SelsrmSSSSS_CZ_NV RETBBB_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR06_CR_1B_X_SelsrmSSSSS_CZ_NV		100060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR06_CR_1B_X_SelsrmSSSSS_CZ_NV RETBBB_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR07_CR_1B_X_SelsrmSSSSS_CZ_NV		102060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR07_CR_1B_X_SelsrmSSSSS_CZ_NV RETBBB_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR08_CR_1B_X_SelsrmSSSSS_CZ_NV		104060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD100_RETBIR_SRVA_GR08_CR_1B_X_SelsrmSSSSS_CZ_NV RETBBB_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR06_CR_X_RSCR550_SelsrmSSSSS_NV		106060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR07_CR_X_RSCR550_SelsrmSSSSS_NV		108060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR08_CR_X_RSCR550_SelsrmSSSSS_NV		110060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR06_CR_X_RSCR575_SelsrmSSSSS_NV		112060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR07_CR_X_RSCR575_SelsrmSSSSS_NV		114060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR08_CR_X_RSCR575_SelsrmSSSSS_NV		116060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR06_CR_X_RSCR600_SelsrmSSSSS_NV		118060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR07_CR_X_RSCR600_SelsrmSSSSS_NV		120060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR08_CR_X_RSCR600_SelsrmSSSSS_NV		122060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR06_CR_X_RSCR625_SelsrmSSSSS_NV		124060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR07_CR_X_RSCR625_SelsrmSSSSS_NV		126060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR08_CR_X_RSCR625_SelsrmSSSSS_NV		128060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR06_CR_X_RSCR525_SelsrmSSSSS_NV		124060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR07_CR_X_RSCR525_SelsrmSSSSS_NV		126060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						Test	DFTL_SOC_SRAM_MRD100_RETBBB_SRVA_GR08_CR_X_RSCR525_SelsrmSSSSS_NV		128060												F_Dummy																	
+						Test	SocMbist_S_BI_PP_CP1_TE_Mbist_Soc_Init_X_Mbist_Soc_Init_X_RSCR_PatSet__401_RSCR_SHIFT_SRVA_S_BI_PP_CP1_TE_NV																															
+						print	"*print: Retention_Lvcc_Footer end*"																															
+						return																																

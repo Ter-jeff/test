@@ -1,0 +1,4 @@
+Enable Word	Test Program Name	Enable Word Status		3 Enable Word Check Status
+eFuse_All_Enable	*PROD*	True		True
+T0Tx_Hot	*T0TX_85C*	True		False
+T0Tx_Room	*T0TX_25C*	True		BYPASS

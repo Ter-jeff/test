@@ -1,0 +1,13 @@
+# including bin
+!bin
+*.igxl
+*.xls
+*.xlsx
+*.xlsm
+*.dll
+*.log
+ExecInfo.txt
+Versions.txt
+output_hashes.txt
+ElapsedTime.json
+Autogen.log

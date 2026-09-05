@@ -1,0 +1,9 @@
+DTPatternSetSheet,version=2.3:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Pattern Sets								
+									
+	Pattern Set	Time Domain	Enable	File/Group Name	Burst	Start Label	Stop Label	Comment	
+	Continuity_Pos_WalkingZ			.\Pattern\WalkingZ\Glennie_WalkingZ_Continuity_Pos_WalkingZ.PAT:Glennie_WalkingZ_Continuity_Pos_WalkingZ	no				
+	Continuity_Neg_WalkingZ			.\Pattern\WalkingZ\Glennie_WalkingZ_Continuity_Neg_WalkingZ.PAT:Glennie_WalkingZ_Continuity_Neg_WalkingZ	no				
+	Continuity_Diff_Pos_WalkingZ			.\Pattern\WalkingZ\Glennie_WalkingZ_Continuity_Diff_P_WalkingZ.PAT:Glennie_WalkingZ_Continuity_Diff_P_WalkingZ	no				
+	Continuity_Diff_Neg_WalkingZ			.\Pattern\WalkingZ\Glennie_WalkingZ_Continuity_Diff_N_WalkingZ.PAT:Glennie_WalkingZ_Continuity_Diff_N_WalkingZ	no				
+	Continuity_nWire_Pos_WalkingZ			.\Pattern\WalkingZ\Glennie_WalkingZ_nWireContiPos_WalkingZ.PAT:Glennie_WalkingZ_nWireContiPos_WalkingZ	no				
+	Continuity_nWire_Neg_WalkingZ			.\Pattern\WalkingZ\Glennie_WalkingZ_nWireContiNeg_WalkingZ.PAT:Glennie_WalkingZ_nWireContiNeg_WalkingZ	no				

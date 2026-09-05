@@ -1,0 +1,351 @@
+Calc_Eqn						Calc_Eqn						CUS_Str_DigCapData					CUS_Str_DigCapData					
+SubBlockName	Parametric0	Parametric1	Parametric2	Parametric3		SubBlockName	Parametric0	Parametric1	Parametric2	Parametric3		SubBlockName	Bits	SgmName	DicName		SubBlockName	Bits	SgmName	DicName		
+CPLL_MNCPLLT0	V	CPLL0__CALC_PAD_VOS_999 => CPLL0__CALC_PAD_VOS	ANALOGMUX_OUT_POS(cpll0__pad_vreg0)-ANALOGMUX_OUT_POS(cpll0__pad_vreg0_unbuf)	cpll0__calc_pad_vos		CPLL_MNCPLLT1	V	CPLL0__CALC_PAD_VOS	ANALOGMUX_OUT_POS(cpll0__pad_vreg0)-ANALOGMUX_OUT_POS(cpll0__pad_vreg0_unbuf)	cpll0__calc_pad_vos		CPLL_MNCPLLT10	DSSC_OUT				CPLL_MNCPLLT11	DSSC_OUT				
+	V	CPLL1__CALC_PAD_VOS	ANALOGMUX_OUT_POS(cpll1__pad_vreg0)-ANALOGMUX_OUT_POS(cpll1__pad_vreg0_unbuf)	cpll1__calc_pad_vos			V	CPLL1__CALC_PAD_VOS	ANALOGMUX_OUT_POS(cpll1__pad_vreg0)-ANALOGMUX_OUT_POS(cpll1__pad_vreg0_unbuf)	cpll1__calc_pad_vos			16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac0				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_0	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopvref_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac0				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_0	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_0)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopvref_7)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac11				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_0	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopvref_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac11				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_0	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_0)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopvref_7)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac22				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_0	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopvref_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac22				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_0	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_0)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopvref_7)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac33				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac0			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_0	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopvref_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac33				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac0			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_0	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_0)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopvref_7)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac44				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_1	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopvref_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac44				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_1	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_1)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopvref_6)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac55				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_1	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopvref_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac55				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_1	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_1)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopvref_6)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac66				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_1	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopvref_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac66				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_1	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_1)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopvref_6)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac77				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac0			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_1	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopvref_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac77				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac0			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_1	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_1)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopvref_6)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac88				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_2	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopvref_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac88				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_2	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_2)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopvref_5)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac99				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_2	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopvref_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac99				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_2	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_2)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopvref_5)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac110				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_2	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopvref_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac110				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_2	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_2)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopvref_5)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac121				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac0			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_2	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopvref_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac121				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac0			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_2	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_2)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopvref_5)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac132				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_3	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopvref_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac132				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_3	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_3)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopvref_4)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac143				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_3	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopvref_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac143				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_3	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_3)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopvref_4)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac154				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_3	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopvref_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac154				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_3	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_3)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopvref_4)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac165				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac0			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_3	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopvref_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac165				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac0			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_3	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_3)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopvref_4)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac176				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_4	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopvref_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac176				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_4	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_4)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopvref_3)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac187				16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_4	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopvref_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac187				16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_4	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_4)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopvref_3)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac198				16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_4	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopvref_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac198				16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_4	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_4)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopvref_3)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac209				16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac0			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_4	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopvref_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac209				16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac0			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_4	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_4)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopvref_3)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac220				16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_5	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopvref_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac220				16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_5	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_5)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopvref_2)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac231				16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_5	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopvref_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac231				16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_5	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_5)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopvref_2)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac242				16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_5	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopvref_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac242				16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_5	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_5)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopvref_2)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac253				16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac0			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_5	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopvref_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac253				16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac0			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_5	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_5)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopvref_2)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac255				16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_6	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopvref_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac255				16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_6	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_6)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopvref_1)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac0				16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_6	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopvref_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac0				16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_6	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_6)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopvref_1)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac11				16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_6	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopvref_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac11				16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_6	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_6)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopvref_1)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac22				16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac0			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_6	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopvref_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac22				16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac0			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_6	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_6)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopvref_1)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac33				16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac0			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_7	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopvref_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac33				16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac0			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_7	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_7)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopvref_0)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac44				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_7	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopvref_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac44				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_7	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_7)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopvref_0)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac55				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_7	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopvref_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac55				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_7	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_7)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopvref_0)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac66				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac50			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_7	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopvref_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac66				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac50			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_7	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_7)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopvref_0)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac77				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_8	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_8)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0	ANALOGMUX_OUT_POS(cpll0__pad_vreg0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac77				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_8	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_8)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0	ANALOGMUX_OUT_POS(cpll1__pad_vreg0)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac88				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_8	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_8)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac88				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_8	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_8)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac99				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_8	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_8)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac99				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_8	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_8)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac110				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac50			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_8	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_8)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac110				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac50			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_8	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_8)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac121				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_9	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_9)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac121				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_9	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_9)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac132				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_9	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_9)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac132				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_9	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_9)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac143				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_9	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_9)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac143				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_9	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_9)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac154				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac50			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_9	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_9)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac154				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac50			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_9	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_9)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac165				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_10	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_10)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac165				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_10	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_10)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac176				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_10	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_10)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac176				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_10	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_10)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac187				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_10	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_10)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac187				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_10	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_10)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac198				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac50			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_10	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_10)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac198				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac50			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_10	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_10)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac209				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_11	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_11)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac209				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_11	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_11)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac220				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_11	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_11)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac220				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_11	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_11)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac231				16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_11	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_11)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac231				16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_11	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_11)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac242				16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac50			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_11	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_11)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac242				16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac50			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_11	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_11)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac253				16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_12	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_12)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac253				16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_12	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_12)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac255				16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_12	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_12)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac255				16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_12	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_12)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac0				16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_12	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_12)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac0				16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_12	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_12)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac11				16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac50			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_12	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_12)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac11				16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac50			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_12	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_12)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac22				16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_13	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_13)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac22				16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_13	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_13)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac33				16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_13	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_13)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac33				16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_13	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_13)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac44				16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_13	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_13)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac44				16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_13	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_13)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac55				16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac50			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_13	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_13)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac55				16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac50			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_13	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_13)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac66				16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_14	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_14)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac66				16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_14	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_14)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac77				16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac50			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_14	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_14)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac77				16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac50			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_14	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_14)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac88				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac100			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_14	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_14)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac88				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac100			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_14	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_14)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac99				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac100			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_14	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_14)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac99				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac100			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_14	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_14)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac110				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac100			
+	V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_15	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vref_loopres_15)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac110				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac100			
+	V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_15	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vref_loopres_15)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac121				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac100			
+	V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_15	ANALOGMUX_OUT_POS(cpll0__pad_ldo_vbn_loopres_15)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac121				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac100			
+	V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_15	ANALOGMUX_OUT_POS(cpll1__pad_ldo_vbn_loopres_15)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac132				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac100			
+	V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_15	ANALOGMUX_OUT_POS(cpll0__pad_ldo_comparator_loopres_15)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac132				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac100			
+	V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_15	ANALOGMUX_OUT_POS(cpll1__pad_ldo_comparator_loopres_15)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac143				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac100			
+	V	CPLL0__CALC_PAD_VREG0_LOOPRES_15	ANALOGMUX_OUT_POS(cpll0__pad_vreg0_loopres_15)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac143				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac100			
+	V	CPLL1__CALC_PAD_VREG0_LOOPRES_15	ANALOGMUX_OUT_POS(cpll1__pad_vreg0_loopres_15)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac154				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac100			
+	V	CPLL0__CALC_PAD_VREG0	ANALOGMUX_OUT_POS(cpll0__pad_vreg0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac154				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac100			
+	V	CPLL1__CALC_PAD_VREG0	ANALOGMUX_OUT_POS(cpll1__pad_vreg0)-ANALOGMUX_OUT_POS(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac165				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac100			
+													16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac165				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac100			
+													16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac176				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac100			
+													16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac176				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac100			
+													16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac187				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac100			
+													16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac187				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac100			
+													16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac198				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac100			
+													16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac198				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac100			
+													16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac209				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac100			
+													16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac209				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac100			
+													16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac220				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac100			
+													16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac220				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac100			
+													16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac231				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac100			
+													16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac231				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac100			
+													16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac242				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac100			
+													16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac242				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac100			
+													16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac253				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac100			
+													16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac253				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac100			
+													16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac255				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac100			
+													16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac255				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac100			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac100			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac150			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac150			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac200			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac200			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac250			
+																		16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac250			
+																		16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac250			

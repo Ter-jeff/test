@@ -1,0 +1,7 @@
+DTLevelSheet,version=2.1:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Pin Levels	=HYPERLINK("#'Data'!1:1","Return")				
+						
+	Pin/Group	Seq.	Parameter	Value	Comment	
+	QSPI_PWR_1P2		Vmain	0		
+	QSPI_PWR_1P2		valt	0		
+	QSPI_PWR_1P2		iFoldLevel	0.1		
+	QSPI_PWR_1P2		tdelay	0		

@@ -1,0 +1,43 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow Flow_efuse_UDRE Start"																															
+						flag-clear	F_UDRE_Enable																															
+		Enable_Flow_efuse_UDRE				flag-true	F_UDRE_Enable																															
+						If	F_UDRE_Enable																															
+						Test	UDRE_Init012_NV														F_UDRE_PLL							site-var=	Efuse_UDR_E_Current 0									
+						Bintable	Bin_EFUSE_UDRE_PLL																															
+						Test	UDRE_USI														F_UDRE_USI							site-var=	Efuse_UDR_E_Current 0									
+						Bintable	Bin_EFUSE_UDRE_USI																															
+		!Pgm2File				Test	UDRE_UFP														F_UDRE_UFP							site-var=	Efuse_UDR_E_Current 0									
+						Bintable	Bin_EFUSE_UDRE_UFP																															
+		Pgm2File				Test	UDRE_UFP_Pgm2File														F_UDRE_UFP							site-var=	Efuse_UDR_E_Current 0									
+						Bintable	Bin_EFUSE_UDRE_UFP																															
+			FT1,FT2			Test	UDRE_Init012_MR1_NV														F_UDRE_PLL							site-var=	Efuse_UDR_E_Current 0									
+			FT1,FT2			Bintable	Bin_EFUSE_UDRE_PLL																															
+			FT1,FT2			Test	UDRE_USO_Read_WR_Syntax_MR1_LV														F_UDRE_USO_Read							site-var=	Efuse_UDR_E_Current 0									
+			FT1,FT2			Bintable	Bin_EFUSE_UDRE_USO_Read																															
+			FT2,WLFT1,FT1,FT2			Test	UDRE_Init012_MR1_NV														F_UDRE_PLL							site-var=	Efuse_UDR_E_Current 0									
+			FT2,WLFT1,FT1,FT2			Bintable	Bin_EFUSE_UDRE_PLL																															
+			FT2,WLFT1,FT1,FT2			Test	UDRE_USO_Read_WR_Syntax_MR1_HV														F_UDRE_USO_Read							site-var=	Efuse_UDR_E_Current 0									
+			FT2,WLFT1,FT1,FT2			Bintable	Bin_EFUSE_UDRE_USO_Read																															
+			FT1,FT2			Test	UDRE_Init012_MR1_NV_VER1_LV														F_UDRE_PLL							site-var>	Efuse_UDR_E_Current 0									
+			FT1,FT2			Bintable	Bin_EFUSE_UDRE_PLL																															
+			FT1,FT2			Test	UDRE_VER1_MR1_LV														F_UDRE_VER1							site-var>	Efuse_UDR_E_Current 0									
+			FT1,FT2			Bintable	Bin_EFUSE_UDRE_VER1																															
+			FT1,FT2			Test	UDRE_Init012_MR1_NV_VER2_LV														F_UDRE_PLL							site-var>	Efuse_UDR_E_Current 0									
+			FT1,FT2			Bintable	Bin_EFUSE_UDRE_PLL																															
+			FT1,FT2			Test	UDRE_VER2_Read_WR_Syntax_MR1_LV														F_UDRE_VER2							site-var>	Efuse_UDR_E_Current 0									
+			FT1,FT2			Bintable	Bin_EFUSE_UDRE_VER2																															
+			FT2,WLFT1,FT1,FT2			Test	UDRE_Init012_MR1_NV_VER1_HV														F_UDRE_PLL							site-var>	Efuse_UDR_E_Current 0									
+			FT2,WLFT1,FT1,FT2			Bintable	Bin_EFUSE_UDRE_PLL																															
+			FT2,WLFT1,FT1,FT2			Test	UDRE_VER1_MR1_HV														F_UDRE_VER1							site-var>	Efuse_UDR_E_Current 0									
+			FT2,WLFT1,FT1,FT2			Bintable	Bin_EFUSE_UDRE_VER1																															
+			FT2,WLFT1,FT1,FT2			Test	UDRE_Init012_MR1_NV_VER2_HV														F_UDRE_PLL							site-var>	Efuse_UDR_E_Current 0									
+			FT2,WLFT1,FT1,FT2			Bintable	Bin_EFUSE_UDRE_PLL																															
+			FT2,WLFT1,FT1,FT2			Test	UDRE_VER2_Read_WR_Syntax_MR1_HV														F_UDRE_VER2							site-var>	Efuse_UDR_E_Current 0									
+			FT2,WLFT1,FT1,FT2			Bintable	Bin_EFUSE_UDRE_VER2																															
+						EndIf																																
+						print	"Flow Flow_efuse_UDRE Stop"																															
+						Return																																

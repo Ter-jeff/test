@@ -1,0 +1,1540 @@
+CUS_Str_DigCapData					CUS_Str_DigCapData					Calc_Eqn						Calc_Eqn						CUS_Str_DigCapData					CUS_Str_DigCapData				
+SubBlockName	Bits	SgmName	DicName		SubBlockName	Bits	SgmName	DicName		SubBlockName	Parametric0	Parametric1	Parametric2	Parametric3		SubBlockName	Parametric0	Parametric1	Parametric2	Parametric3		SubBlockName	Bits	SgmName	DicName		SubBlockName	Bits	SgmName	DicName	
+CPLL_CZCPLLT10	DSSC_OUT				CPLL_CZCPLLT11	DSSC_OUT				CPLL_MNCPLLT0	V	CPLL0__CALC_PAD_VOS	(ANALOGMUX_OUT_POS(cpll__pad_vreg0)-ANALOGMUX_OUT_POS(cpll__pad_vreg0_unbuf))	cpll0__calc_pad_vos		CPLL_MNCPLLT1	V	CPLL0__CALC_PAD_VOS	(ANALOGMUX_OUT_POS(cpll__pad_vreg0)-ANALOGMUX_OUT_POS(cpll__pad_vreg0_unbuf))	cpll0__calc_pad_vos		CPLL_MNCPLLT10	DSSC_OUT				CPLL_MNCPLLT11	DSSC_OUT			
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac0				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac0				V	CPLL1__CALC_PAD_VOS	(ANALOGMUX_OUT_NEG(cpll__pad_vreg0)-ANALOGMUX_OUT_NEG(cpll__pad_vreg0_unbuf))	cpll1__calc_pad_vos			V	CPLL1__CALC_PAD_VOS	(ANALOGMUX_OUT_NEG(cpll__pad_vreg0)-ANALOGMUX_OUT_NEG(cpll__pad_vreg0_unbuf))	cpll1__calc_pad_vos			16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac0				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac0				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_0	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopvref_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac0				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac1				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_0	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_0)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_7	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopvref_7)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac11				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac1				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_1	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopvref_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac11				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac2				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_1	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_1)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_6	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopvref_6)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac22				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac2				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_2	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopvref_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac22				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac3				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_2	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_2)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_5	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopvref_5)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac33				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac3				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_3	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopvref_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac33				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac4				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_3	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_3)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_4	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopvref_4)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac44				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac4				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_4	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopvref_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac44				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac5				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_4	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_4)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_3	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopvref_3)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac55				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac5				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_5	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopvref_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac55				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac6				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_5	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_5)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_2	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopvref_2)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac66				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac6				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_6	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopvref_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac66				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac7				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_6	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_6)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_1	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopvref_1)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac77				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac7				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_7	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopvref_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac77				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac8				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_7	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_7)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0_LOOPVREF_0	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopvref_0)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac88				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac8				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_8	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_8)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopvref_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac88				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac9				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_8	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_8)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_7	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopvref_7)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac99				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac9				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_9	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_9)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopvref_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac99				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac10				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_9	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_9)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_7	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopvref_7)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac110				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac10				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_10	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_10)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_7	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopvref_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac110				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac11				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_10	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_10)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_7	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopvref_7)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac121				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac11				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_11	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_11)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopvref_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac121				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac12				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_11	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_11)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_6	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopvref_6)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac132				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac12				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_12	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_12)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopvref_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac132				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac13				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_12	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_12)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_6	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopvref_6)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac143				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac13				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_13	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_13)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_6	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopvref_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac143				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac14				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_13	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_13)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_6	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopvref_6)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac154				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac14				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_14	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_14)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopvref_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac154				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac15				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_14	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_14)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_5	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopvref_5)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac165				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac15				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac0				V	CPLL0__CALC_PAD_VREG0_LOOPRES_15	ANALOGMUX_OUT_POS(cpll__pad_vreg0_loopres_15)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopvref_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac165				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac16				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac0				V	CPLL1__CALC_PAD_VREG0_LOOPRES_15	ANALOGMUX_OUT_NEG(cpll__pad_vreg0_loopres_15)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_5	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopvref_5)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac176				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac16				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac0				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_0	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_5	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopvref_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac176				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac17				16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac0				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_0	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_0)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_5	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopvref_5)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac187				16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac17				16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac0				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_0	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopvref_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac187				16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac18				16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac0				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_0	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_0)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_4	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopvref_4)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac198				16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac18				16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac0				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_0	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopvref_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac198				16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac19				16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac0				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_0	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_0)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_4	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopvref_4)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac209				16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac19				16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac0				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_1	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_4	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopvref_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac209				16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac20				16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac0				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_1	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_1)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_4	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopvref_4)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac220				16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac20				16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac0				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_1	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopvref_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac220				16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac21				16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac0				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_1	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_1)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_3	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopvref_3)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac231				16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac21				16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac0				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_1	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopvref_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac231				16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac22				16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac0				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_1	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_1)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_3	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopvref_3)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac242				16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac22				16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac0				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_2	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_3	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopvref_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac242				16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac23				16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac0				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_2	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_2)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_3	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopvref_3)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac253				16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac23				16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac0				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_2	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopvref_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac253				16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac24				16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac0				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_2	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_2)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_2	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopvref_2)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac255				16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac24				16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac0				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_2	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopvref_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac255				16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac25				16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac0				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_2	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_2)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_2	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopvref_2)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac0				16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac25				16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac0				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_3	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_2	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopvref_2)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac0				16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac26				16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac0				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_3	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_3)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_2	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopvref_2)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac11				16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac26				16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac0				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_3	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopvref_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac11				16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac27				16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac0				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_3	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_3)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_1	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopvref_1)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac22				16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac27				16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac0				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_3	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_3)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopvref_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac22				16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac28				16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac0				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_3	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_3)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_1	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopvref_1)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac33				16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac0		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac28				16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac0				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_4	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_1	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopvref_1)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac33				16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac0		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac29				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac50				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_4	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_4)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_1	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopvref_1)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac44				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac29				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac50				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_4	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VREF_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopvref_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac44				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac30				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac50				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_4	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_4)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VREF_LOOPVREF_0	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopvref_0)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac55				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac30				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac50				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_4	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_4)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_VBN_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopvref_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac55				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac31				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac50				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_4	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_4)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_VBN_LOOPVREF_0	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopvref_0)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac66				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac31				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac50				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_5	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPVREF_0	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopvref_0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac66				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac32				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac50				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_5	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_5)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPVREF_0	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopvref_0)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac77				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac32				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac50				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_5	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				V	CPLL0__CALC_PAD_VREG0	ANALOGMUX_OUT_POS(cpll__pad_vreg0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac77				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac33				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac50				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_5	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_5)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				V	CPLL1__CALC_PAD_VREG0	ANALOGMUX_OUT_NEG(cpll__pad_vreg0)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac88				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac33				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac50				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_5	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_5)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac88				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac34				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac50				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_5	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_5)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac99				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac34				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac50				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_6	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac99				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac35				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac50				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_6	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_6)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac110				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac35				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac50				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_6	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac110				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac36				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac50				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_6	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_6)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac121				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac36				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac50				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_6	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_6)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac121				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac37				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac50				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_6	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_6)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac132				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac37				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac50				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_7	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac132				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac38				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac50				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_7	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_7)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac143				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac38				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac50				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_7	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac143				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac39				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac50				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_7	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_7)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac154				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac39				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac50				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_7	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_7)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac154				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac40				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac50				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_7	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_7)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac165				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac40				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac50				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_8	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_8)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac165				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac41				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac50				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_8	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_8)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac176				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac41				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac50				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_8	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_8)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac176				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac42				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac50				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_8	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_8)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac187				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac42				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac50				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_8	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_8)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac187				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac43				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac50				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_8	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_8)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac198				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac43				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac50				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_9	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_9)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac198				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac44				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac50				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_9	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_9)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac209				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac44				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac50				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_9	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_9)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac209				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac45				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac50				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_9	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_9)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac220				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac45				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac50				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_9	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_9)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac220				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac46				16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac50				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_9	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_9)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac231				16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac46				16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac50				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_10	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_10)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac231				16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac47				16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac50				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_10	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_10)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac242				16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac47				16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac50				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_10	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_10)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac242				16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac48				16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac50				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_10	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_10)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac253				16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac48				16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac50				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_10	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_10)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac253				16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac49				16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac50				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_10	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_10)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac255				16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac49				16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac50				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_11	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_11)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac255				16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac50				16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac50				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_11	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_11)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac0				16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac50				16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac50				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_11	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_11)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac0				16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac51				16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac50				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_11	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_11)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac11				16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac51				16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac50				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_11	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_11)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac11				16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac52				16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac50				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_11	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_11)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac22				16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac52				16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac50				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_12	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_12)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac22				16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac53				16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac50				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_12	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_12)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac33				16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac53				16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac50				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_12	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_12)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac33				16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac54				16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac50				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_12	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_12)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac44				16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac54				16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac50				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_12	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_12)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac44				16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac55				16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac50				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_12	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_12)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac55				16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac55				16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac50				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_13	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_13)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac55				16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac56				16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac50				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_13	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_13)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac66				16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac56				16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac50				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_13	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_13)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac66				16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac57				16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac50				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_13	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_13)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac77				16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac50		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac57				16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac50				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_13	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_13)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac77				16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac50		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac58				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac100				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_13	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_13)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac88				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac58				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac100				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_14	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_14)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac88				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac59				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac100				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_14	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_14)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac99				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac59				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac100				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_14	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_14)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac99				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac60				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac100				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_14	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_14)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac110				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac60				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac100				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_14	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_14)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac110				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac61				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac100				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_14	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_14)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac121				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac61				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac100				V	CPLL0__CALC_PAD_LDO_VREF_LOOPRES_15	ANALOGMUX_OUT_POS(cpll__pad_ldo_vref_loopres_15)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac121				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac62				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac100				V	CPLL1__CALC_PAD_LDO_VREF_LOOPRES_15	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vref_loopres_15)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac132				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac62				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac100				V	CPLL0__CALC_PAD_LDO_VBN_LOOPRES_15	ANALOGMUX_OUT_POS(cpll__pad_ldo_vbn_loopres_15)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac132				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac63				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac100				V	CPLL1__CALC_PAD_LDO_VBN_LOOPRES_15	ANALOGMUX_OUT_NEG(cpll__pad_ldo_vbn_loopres_15)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac143				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac63				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac100				V	CPLL0__CALC_PAD_LDO_COMPARATOR_LOOPRES_15	ANALOGMUX_OUT_POS(cpll__pad_ldo_comparator_loopres_15)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac143				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac64				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac100				V	CPLL1__CALC_PAD_LDO_COMPARATOR_LOOPRES_15	ANALOGMUX_OUT_NEG(cpll__pad_ldo_comparator_loopres_15)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac154				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac64				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac100				V	CPLL0__CALC_PAD_VREG0	ANALOGMUX_OUT_POS(cpll__pad_vreg0)-ANALOGMUX_OUT_POS(cpll0__calc_pad_vos)										16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac154				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac65				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac100				V	CPLL1__CALC_PAD_VREG0	ANALOGMUX_OUT_NEG(cpll__pad_vreg0)-ANALOGMUX_OUT_NEG(cpll1__calc_pad_vos)										16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac165				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac65				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac100																16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac165				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac66				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac100																16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac176				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac66				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac100																16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac176				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac67				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac100																16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac187				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac67				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac100																16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac187				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac68				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac100																16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac198				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac68				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac100																16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac198				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac69				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac100																16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac209				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac69				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac100																16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac209				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac70				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac100																16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac220				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac70				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac100																16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac220				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac71				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac100																16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac231				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac71				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac100																16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac231				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac72				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac100																16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac242				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac72				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac100																16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac242				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac73				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac100																16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac253				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac73				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac100																16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac253				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac74				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac100																16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac255				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac74				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac100																16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac255				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac75				16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac75				16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac76				16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac76				16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac77				16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac77				16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac78				16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac78				16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac79				16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac79				16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac80				16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac80				16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac81				16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac81				16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac82				16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac82				16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac83				16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac83				16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac84				16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac84				16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac85				16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac85				16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac86				16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac100																					16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac100		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac86				16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac100																					16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac100		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac87				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac87				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac88				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac88				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac89				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac89				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac90				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac90				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac91				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac91				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac92				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac92				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac93				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac93				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac94				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac94				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac95				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac95				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac96				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac96				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac97				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac97				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac98				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac98				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac99				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac99				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac100				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac100				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac101				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac101				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac102				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac102				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac103				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac103				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac104				16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac104				16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac105				16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac105				16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac106				16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac106				16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac107				16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac107				16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac108				16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac108				16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac109				16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac109				16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac110				16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac110				16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac111				16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac111				16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac112				16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac112				16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac113				16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac113				16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac114				16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac114				16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac115				16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac150																					16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac150		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac115				16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac150																					16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac150		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac116				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac116				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac117				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac117				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac118				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac118				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac119				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac119				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac120				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac120				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac121				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac121				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac122				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac122				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac123				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac123				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac124				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac124				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac125				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac125				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac126				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac126				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac127				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac127				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac128				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac128				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac129				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac129				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac130				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac130				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac131				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac131				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac132				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac132				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac133				16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac133				16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac134				16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac134				16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac135				16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac135				16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac136				16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac136				16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac137				16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac137				16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac138				16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac138				16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac139				16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac139				16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac140				16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac140				16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac141				16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac141				16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac142				16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac142				16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac143				16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac143				16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac144				16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac200																					16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac200		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac144				16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac200																					16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac200		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac145				16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac145				16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac146				16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac5_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac146				16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac5_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac147				16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac6_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac147				16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac6_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac148				16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac7_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac148				16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac7_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac149				16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac8_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac149				16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac8_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac150				16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac9_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac150				16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac9_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac151				16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac10_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac151				16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac10_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac152				16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac11_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac152				16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac11_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac153				16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac12_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac153				16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac12_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac154				16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac13_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac154				16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac13_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac155				16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac14_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac155				16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac14_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac156				16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac15_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac156				16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac15_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac157				16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac16_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac157				16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac16_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac158				16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac158				16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac159				16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac18_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac159				16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac18_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac160				16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac19_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac160				16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac19_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac161				16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac20_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac161				16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac20_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac162				16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac21_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac162				16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac21_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac163				16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac22_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac163				16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac22_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac164				16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac23_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac164				16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac23_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac165				16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac24_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac165				16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac24_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac166				16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac25_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac166				16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac25_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac167				16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac26_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac167				16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac26_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac168				16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac27_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac168				16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac27_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac169				16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac28_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac169				16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac28_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac170				16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac29_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac170				16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac29_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac171				16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac30_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac171				16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac30_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac172				16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac31_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac172				16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac31_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac173				16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac250																					16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac250		
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac173				16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac250																					16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac250		
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac174																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac174																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac175																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac175																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac176																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac176																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac177																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac177																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac178																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac178																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac179																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac179																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac180																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac180																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac181																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac181																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac182																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac182																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac183																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac183																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac184																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac184																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac185																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac185																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac186																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac186																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac187																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac187																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac188																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac188																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac189																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac189																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac190																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac190																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac191																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac191																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac192																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac192																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac193																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac193																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac194																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac194																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac195																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac195																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac196																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac196																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac197																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac197																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac198																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac198																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac199																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac199																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac200																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac200																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac201																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac201																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac202																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac202																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac203																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac203																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac204																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac204																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac205																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac205																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac206																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac206																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac207																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac207																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac208																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac208																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac209																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac209																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac210																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac210																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac211																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac211																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac212																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac212																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac213																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac213																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac214																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac214																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac215																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac215																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac216																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac216																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac217																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac217																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac218																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac218																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac219																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac219																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac220																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac220																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac221																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac221																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac222																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac222																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac223																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac223																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac224																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac224																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac225																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac225																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac226																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac226																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac227																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac227																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac228																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac228																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac229																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac229																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac230																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac230																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac231																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac231																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac232																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac232																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac233																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac233																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac234																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac234																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac235																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac235																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac236																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac236																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac237																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac237																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac238																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac238																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac239																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac239																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac240																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac240																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac241																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac241																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac242																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac242																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac243																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac243																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac244																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac244																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac245																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac245																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac246																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac246																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac247																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac247																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac248																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac248																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac249																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac249																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac250																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac250																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac251																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac251																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac252																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac252																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac253																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac253																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac254																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac254																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac4_Cdac255																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac4_Cdac255																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac0																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac0																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac1																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac1																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac2																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac2																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac3																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac3																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac4																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac4																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac5																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac5																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac6																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac6																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac7																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac7																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac8																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac8																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac9																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac9																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac10																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac10																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac11																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac11																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac12																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac12																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac13																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac13																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac14																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac14																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac15																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac15																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac16																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac16																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac17																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac17																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac18																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac18																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac19																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac19																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac20																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac20																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac21																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac21																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac22																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac22																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac23																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac23																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac24																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac24																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac25																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac25																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac26																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac26																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac27																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac27																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac28																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac28																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac29																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac29																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac30																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac30																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac31																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac31																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac32																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac32																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac33																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac33																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac34																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac34																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac35																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac35																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac36																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac36																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac37																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac37																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac38																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac38																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac39																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac39																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac40																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac40																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac41																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac41																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac42																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac42																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac43																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac43																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac44																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac44																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac45																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac45																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac46																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac46																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac47																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac47																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac48																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac48																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac49																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac49																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac50																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac50																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac51																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac51																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac52																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac52																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac53																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac53																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac54																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac54																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac55																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac55																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac56																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac56																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac57																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac57																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac58																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac58																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac59																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac59																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac60																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac60																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac61																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac61																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac62																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac62																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac63																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac63																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac64																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac64																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac65																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac65																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac66																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac66																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac67																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac67																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac68																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac68																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac69																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac69																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac70																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac70																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac71																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac71																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac72																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac72																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac73																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac73																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac74																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac74																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac75																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac75																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac76																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac76																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac77																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac77																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac78																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac78																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac79																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac79																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac80																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac80																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac81																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac81																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac82																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac82																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac83																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac83																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac84																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac84																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac85																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac85																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac86																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac86																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac87																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac87																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac88																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac88																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac89																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac89																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac90																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac90																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac91																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac91																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac92																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac92																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac93																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac93																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac94																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac94																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac95																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac95																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac96																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac96																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac97																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac97																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac98																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac98																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac99																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac99																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac100																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac100																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac101																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac101																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac102																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac102																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac103																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac103																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac104																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac104																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac105																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac105																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac106																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac106																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac107																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac107																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac108																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac108																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac109																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac109																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac110																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac110																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac111																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac111																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac112																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac112																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac113																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac113																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac114																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac114																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac115																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac115																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac116																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac116																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac117																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac117																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac118																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac118																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac119																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac119																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac120																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac120																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac121																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac121																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac122																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac122																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac123																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac123																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac124																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac124																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac125																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac125																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac126																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac126																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac127																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac127																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac128																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac128																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac129																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac129																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac130																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac130																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac131																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac131																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac132																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac132																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac133																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac133																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac134																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac134																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac135																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac135																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac136																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac136																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac137																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac137																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac138																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac138																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac139																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac139																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac140																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac140																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac141																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac141																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac142																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac142																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac143																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac143																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac144																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac144																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac145																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac145																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac146																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac146																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac147																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac147																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac148																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac148																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac149																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac149																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac150																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac150																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac151																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac151																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac152																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac152																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac153																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac153																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac154																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac154																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac155																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac155																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac156																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac156																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac157																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac157																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac158																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac158																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac159																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac159																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac160																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac160																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac161																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac161																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac162																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac162																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac163																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac163																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac164																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac164																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac165																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac165																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac166																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac166																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac167																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac167																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac168																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac168																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac169																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac169																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac170																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac170																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac171																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac171																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac172																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac172																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac173																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac173																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac174																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac174																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac175																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac175																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac176																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac176																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac177																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac177																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac178																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac178																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac179																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac179																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac180																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac180																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac181																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac181																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac182																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac182																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac183																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac183																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac184																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac184																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac185																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac185																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac186																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac186																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac187																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac187																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac188																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac188																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac189																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac189																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac190																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac190																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac191																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac191																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac192																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac192																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac193																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac193																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac194																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac194																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac195																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac195																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac196																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac196																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac197																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac197																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac198																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac198																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac199																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac199																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac200																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac200																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac201																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac201																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac202																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac202																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac203																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac203																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac204																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac204																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac205																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac205																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac206																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac206																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac207																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac207																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac208																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac208																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac209																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac209																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac210																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac210																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac211																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac211																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac212																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac212																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac213																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac213																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac214																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac214																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac215																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac215																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac216																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac216																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac217																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac217																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac218																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac218																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac219																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac219																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac220																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac220																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac221																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac221																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac222																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac222																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac223																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac223																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac224																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac224																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac225																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac225																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac226																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac226																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac227																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac227																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac228																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac228																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac229																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac229																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac230																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac230																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac231																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac231																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac232																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac232																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac233																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac233																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac234																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac234																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac235																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac235																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac236																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac236																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac237																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac237																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac238																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac238																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac239																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac239																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac240																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac240																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac241																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac241																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac242																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac242																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac243																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac243																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac244																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac244																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac245																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac245																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac246																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac246																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac247																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac247																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac248																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac248																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac249																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac249																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac250																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac250																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac251																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac251																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac252																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac252																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac253																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac253																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac254																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac254																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac17_Cdac255																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac17_Cdac255																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac0																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac0																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac1																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac1																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac2																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac2																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac3																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac3																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac4																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac4																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac5																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac5																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac6																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac6																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac7																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac7																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac8																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac8																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac9																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac9																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac10																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac10																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac11																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac11																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac12																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac12																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac13																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac13																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac14																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac14																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac15																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac15																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac16																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac16																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac17																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac17																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac18																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac18																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac19																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac19																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac20																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac20																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac21																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac21																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac22																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac22																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac23																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac23																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac24																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac24																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac25																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac25																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac26																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac26																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac27																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac27																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac28																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac28																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac29																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac29																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac30																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac30																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac31																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac31																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac32																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac32																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac33																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac33																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac34																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac34																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac35																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac35																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac36																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac36																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac37																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac37																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac38																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac38																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac39																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac39																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac40																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac40																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac41																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac41																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac42																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac42																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac43																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac43																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac44																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac44																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac45																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac45																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac46																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac46																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac47																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac47																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac48																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac48																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac49																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac49																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac50																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac50																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac51																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac51																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac52																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac52																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac53																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac53																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac54																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac54																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac55																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac55																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac56																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac56																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac57																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac57																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac58																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac58																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac59																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac59																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac60																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac60																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac61																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac61																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac62																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac62																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac63																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac63																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac64																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac64																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac65																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac65																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac66																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac66																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac67																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac67																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac68																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac68																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac69																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac69																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac70																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac70																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac71																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac71																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac72																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac72																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac73																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac73																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac74																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac74																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac75																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac75																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac76																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac76																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac77																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac77																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac78																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac78																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac79																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac79																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac80																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac80																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac81																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac81																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac82																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac82																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac83																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac83																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac84																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac84																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac85																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac85																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac86																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac86																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac87																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac87																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac88																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac88																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac89																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac89																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac90																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac90																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac91																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac91																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac92																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac92																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac93																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac93																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac94																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac94																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac95																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac95																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac96																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac96																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac97																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac97																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac98																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac98																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac99																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac99																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac100																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac100																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac101																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac101																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac102																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac102																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac103																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac103																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac104																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac104																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac105																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac105																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac106																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac106																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac107																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac107																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac108																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac108																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac109																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac109																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac110																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac110																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac111																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac111																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac112																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac112																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac113																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac113																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac114																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac114																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac115																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac115																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac116																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac116																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac117																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac117																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac118																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac118																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac119																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac119																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac120																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac120																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac121																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac121																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac122																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac122																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac123																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac123																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac124																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac124																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac125																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac125																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac126																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac126																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac127																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac127																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac128																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac128																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac129																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac129																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac130																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac130																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac131																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac131																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac132																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac132																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac133																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac133																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac134																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac134																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac135																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac135																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac136																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac136																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac137																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac137																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac138																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac138																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac139																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac139																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac140																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac140																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac141																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac141																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac142																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac142																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac143																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac143																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac144																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac144																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac145																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac145																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac146																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac146																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac147																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac147																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac148																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac148																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac149																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac149																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac150																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac150																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac151																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac151																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac152																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac152																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac153																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac153																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac154																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac154																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac155																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac155																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac156																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac156																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac157																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac157																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac158																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac158																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac159																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac159																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac160																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac160																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac161																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac161																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac162																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac162																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac163																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac163																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac164																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac164																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac165																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac165																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac166																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac166																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac167																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac167																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac168																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac168																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac169																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac169																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac170																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac170																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac171																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac171																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac172																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac172																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac173																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac173																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac174																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac174																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac175																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac175																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac176																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac176																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac177																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac177																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac178																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac178																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac179																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac179																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac180																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac180																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac181																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac181																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac182																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac182																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac183																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac183																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac184																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac184																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac185																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac185																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac186																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac186																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac187																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac187																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac188																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac188																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac189																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac189																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac190																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac190																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac191																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac191																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac192																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac192																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac193																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac193																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac194																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac194																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac195																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac195																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac196																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac196																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac197																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac197																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac198																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac198																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac199																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac199																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac200																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac200																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac201																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac201																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac202																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac202																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac203																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac203																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac204																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac204																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac205																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac205																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac206																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac206																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac207																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac207																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac208																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac208																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac209																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac209																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac210																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac210																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac211																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac211																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac212																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac212																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac213																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac213																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac214																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac214																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac215																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac215																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac216																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac216																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac217																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac217																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac218																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac218																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac219																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac219																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac220																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac220																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac221																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac221																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac222																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac222																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac223																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac223																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac224																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac224																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac225																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac225																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac226																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac226																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac227																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac227																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac228																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac228																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac229																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac229																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac230																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac230																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac231																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac231																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac232																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac232																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac233																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac233																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac234																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac234																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac235																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac235																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac236																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac236																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac237																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac237																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac238																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac238																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac239																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac239																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac240																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac240																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac241																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac241																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac242																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac242																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac243																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac243																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac244																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac244																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac245																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac245																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac246																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac246																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac247																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac247																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac248																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac248																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac249																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac249																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac250																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac250																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac251																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac251																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac252																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac252																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac253																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac253																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac254																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac254																													
+	16	CPLL0__OCLA_Fcount_Gclk_Rdac32_Cdac255																													
+	16	CPLL1__OCLA_Fcount_Gclk_Rdac32_Cdac255																													
+																															

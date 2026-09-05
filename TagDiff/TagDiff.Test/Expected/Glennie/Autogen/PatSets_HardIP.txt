@@ -1,0 +1,17 @@
+DTPatternSetSheet,version=2.2:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Pattern Sets
+	
+	Pattern Set	TD Group	Time Domain	Enable	File/Group Name	Burst	Start Label	Stop Label	Comment
+	HTOL_ht_glna0_s_pl00_an_hipx_bst_jtg_uns_allfrv_si_stress_hold				ht_glna0_s_in00_an_hipx_xxx_xxx_uns_allfrv_si_htol_init	Yes			
+	HTOL_ht_glna0_s_pl00_an_hipx_bst_jtg_uns_allfrv_si_stress_hold				ht_glna0_s_pl00_an_hipx_bst_jtg_uns_allfrv_si_stress_hold	Yes			
+	HTOL_ht_glna0_s_fulp_an_eusb_bst_jtg_hst_allfrv_si_hs_t06				ht_glna0_s_in00_an_hipx_xxx_xxx_uns_allfrv_si_htol_init	Yes			
+	HTOL_ht_glna0_s_fulp_an_eusb_bst_jtg_hst_allfrv_si_hs_t06				ht_glna0_s_fulp_an_eusb_bst_jtg_hst_allfrv_si_hs_t06	Yes			
+	HTOL_ht_glna0_s_fulp_an_mt02_dll_jtg_cod_allfrv_si_ntseread_t2				ht_glna0_s_in00_an_hipx_xxx_xxx_uns_allfrv_si_htol_initntse	Yes			
+	HTOL_ht_glna0_s_fulp_an_mt02_dll_jtg_cod_allfrv_si_ntseread_t2				ht_glna0_s_fulp_an_mt02_dll_jtg_cod_allfrv_si_ntseread_t2	Yes			
+	HTOL_ht_glna0_c_fulp_an_aa06_mea_jtg_imx_allfrv_si_osc60m_t4				ht_glna0_s_in00_an_hipx_xxx_xxx_uns_allfrv_si_htol_init	Yes			
+	HTOL_ht_glna0_c_fulp_an_aa06_mea_jtg_imx_allfrv_si_osc60m_t4				ht_glna0_c_fulp_an_aa06_mea_jtg_imx_allfrv_si_osc60m_t4	Yes			
+	HTOL_ht_glna0_c_fulp_an_ulpl_fun_jtg_frq_allfrv_si_case_t1a				ht_glna0_s_in00_an_hipx_xxx_xxx_uns_allfrv_si_htol_initntse	Yes			
+	HTOL_ht_glna0_c_fulp_an_ulpl_fun_jtg_frq_allfrv_si_case_t1a				ht_glna0_c_fulp_an_ulpl_fun_jtg_frq_allfrv_si_case_t1a	Yes			
+	HTOL_ht_glna0_c_fulp_an_flpl_fun_jtg_frq_allfrv_si_case_t1c1				ht_glna0_s_in00_an_hipx_xxx_xxx_uns_allfrv_si_htol_init	Yes			
+	HTOL_ht_glna0_c_fulp_an_flpl_fun_jtg_frq_allfrv_si_case_t1c1				ht_glna0_c_fulp_an_flpl_fun_jtg_frq_allfrv_si_case_t1c1	Yes			
+	HTOL_ht_glna0_c_fulp_an_aa00_dll_jtg_vix_allfrv_si_cpll_t9				ht_glna0_s_in00_an_hipx_xxx_xxx_uns_allfrv_si_htol_init	Yes			
+	HTOL_ht_glna0_c_fulp_an_aa00_dll_jtg_vix_allfrv_si_cpll_t9				ht_glna0_c_fulp_an_aa00_dll_jtg_vix_allfrv_si_cpll_t9	Yes			

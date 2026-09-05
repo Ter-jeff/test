@@ -1,0 +1,40 @@
+############################################################################################################
+## D:\LecturefromChihome\Input\XXXX_A0_Patterns_List_Ext_151120_TW11230834.csv
+## Greated By Hard_IP Auto Gen_Core
+############################################################################################################
+1)====================================================================
+Test_Inst: DD_CMNA0_A_FULP_AN_RX01_BST_JTG_ELB_ALLFV_SI_PWRDNF3_TX3L4
+Tset: TIMESET_CMN_A_AN_SI_1
+meas Seq(0): 
+Send Bit: 4
+Send Bit Str: sgmt1_4
+2)====================================================================
+Test_Inst: CZ_NVSA0_A_FULP_AN_AN00_MEA_JTG_DIO_ALLFRV_SI_ACTCONS_T7
+Tset: TIMESET_NVSA0_S_AN_SI_3
+WithHalt: NO
+Subr: CZ_NVSA0_A_FULP_AN_AN00_MEA_JTG_DIO_ALLFRV_SI_ACTCONS_T7_4_A0_2506251851_srm_meas
+VM_Vector: CZ_NVSA0_A_FULP_AN_AN00_MEA_JTG_DIO_ALLFRV_SI_ACTCONS_T7_4_A0_2506251851
+Call_Subrs: CZ_NVSA0_A_FULP_AN_AN00_MEA_JTG_DIO_ALLFRV_SI_ACTCONS_T7_4_A0_2506251851_meas
+Call_Subrs_Cnt:9
+Call_Subrs_Cnt_Diff:False
+meas Seq(9): I,I,I,I,I,I,I,I,I
+I: VDD_ANP+VDDIO08_ANP+VDDIO12_ANP+VDD_ANP+VDDIO08_ANP+VDDIO12_ANP+VDD_ANP+VDDIO08_ANP+VDDIO12_ANP
+Meas ForceI: ||||||||
+Meas ForceV: ||||||||
+Meas Name: VDDANP_IDLE+VDDIO08_IDLE+VDDIO12_IDLE+VDDANP_ELB+VDDIO08_ELB+VDDIO12_ELB+VDDANP_noRX+VDDIO08_noRX+VDDIO12_noRX
+Power On Fly (HARD_IP): VS_Main_Sel
+Power On Fly Pin: (0) VS_Main_Sel : CorePower1,CorePower2
+ErrMsgDigSrcCap:
+Send Bit: 187
+Send Bit Str: sgmt0_1+sgmt1_8+sgmt2_1+sgmt3_8+sgmt4_1+sgmt5_8+sgmt6_1+sgmt7_8+sgmt8_8+sgmt9_5+sgmt10_5+sgmt11_5+sgmt13_8+sgmt14_8+sgmt15_1+sgmt16_8+sgmt17_8+sgmt18_8+sgmt19_8+sgmt20_1+sgmt21_1+sgmt22_8+sgmt23_8+sgmt24_8+sgmt25_8+sgmt26_1+sgmt27_1+sgmt28_1+sgmt29_8+sgmt30_8+sgmt31_8+sgmt33_8+sgmt34_1+sgmt35_1+sgmt36_8
+Send Bit Name: set_voh_mode+set_voh_vrefintsel+set_voh_mode+set_voh_vrefintsel+set_voh_mode+set_voh_vrefintsel+set_voh_mode+set_voh_vrefcompsel+set_voh_vrefcompsel+coarse_code+coarse_code+coarse_code+set_voh_vrefintsel+set_voh_vrefintsel+set_voh_mode+set_voh_vrefintsel+set_voh_vrefintsel+set_voh_vrefintsel+set_voh_vrefintsel+set_voh_mode+set_voh_mode+set_voh_vrefintsel+set_voh_vrefintsel+set_voh_vrefintsel+set_voh_vrefintsel+set_voh_mode+set_voh_mode+set_voh_mode+set_voh_vrefintsel+set_voh_vrefintsel+sdl_wr_code+set_voh_vrefintsel+set_voh_mode+set_voh_mode+set_voh_vrefintsel
+Send Pin Name: JTAG_TDI
+Send LSB First: True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True+True
+DigSrc Signal Name: CZ_NVSA0_A_FULP_AN_AN00_MEA_JTG_DIO_ALLFRV_SI_ACTCONS_T7_4_A0_2506251851
+Cap Bit: 38
+Cap Bit Str: sgmt12_6+sgmt32_32
+Cap Bit Name: mdll_fine_code+bist_err_cnt
+Cap Pin Name: JTAG_TDO
+Cap LSB First: True+True
+DSSC_OUT,6:mdll_fine_code,16:bist_err_cnt_1,16:bist_err_cnt_2
+Version:4_A0_2506251851

@@ -1,0 +1,37 @@
+ChannelMap	Site	XCoordShift	YCoordShift
+ChannelMap_CP_1_site	0	+0	+0
+			
+ChannelMap_CP_2_site	0	+0	+0
+ChannelMap_CP_2_site	1	+3	+0
+			
+ChannelMap_CP_3_site	0	+0	+0
+ChannelMap_CP_3_site	1	+3	+0
+ChannelMap_CP_3_site	2	+6	+0
+			
+ChannelMap_CP_4_site	0	+0	+0
+ChannelMap_CP_4_site	1	+0	-3
+ChannelMap_CP_4_site	2	+3	+0
+ChannelMap_CP_4_site	3	+3	-3
+			
+ChannelMap_CP_6_site	0	+0	+0
+ChannelMap_CP_6_site	1	+0	-4
+ChannelMap_CP_6_site	2	+2	+0
+ChannelMap_CP_6_site	3	+2	-4
+ChannelMap_CP_6_site	4	+4	+0
+ChannelMap_CP_6_site	5	+4	-4
+			
+ChannelMap_WLFT_6_site	0	+0	+0
+ChannelMap_WLFT_6_site	1	+0	-2
+ChannelMap_WLFT_6_site	2	+2	+0
+ChannelMap_WLFT_6_site	3	+2	-2
+ChannelMap_WLFT_6_site	4	+4	+0
+ChannelMap_WLFT_6_site	5	+4	-2
+			
+ChannelMap_FT_8_site	0	+0	+0
+ChannelMap_FT_8_site	1	+0	-2
+ChannelMap_FT_8_site	2	+0	-4
+ChannelMap_FT_8_site	3	+0	-6
+ChannelMap_FT_8_site	4	+2	+0
+ChannelMap_FT_8_site	5	+2	-2
+ChannelMap_FT_8_site	6	+2	-4
+ChannelMap_FT_8_site	7	+2	-6

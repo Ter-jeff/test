@@ -1,0 +1,4 @@
+Flag1	Flag2	0
+FlagA	FlagB	TestEfuse
+True	False	High
+False	True	Low

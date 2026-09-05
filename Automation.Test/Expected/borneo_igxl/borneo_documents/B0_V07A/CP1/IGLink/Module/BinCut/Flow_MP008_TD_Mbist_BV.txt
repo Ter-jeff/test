@@ -1,0 +1,185 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow MP008_TD_Mbist_BV Start"																															
+Instance_Bincut_TDF_MPX,Row65,MPX008 CPU TD,TD		CP1||FT1				Test	MP008_MPX008_CpuTd_PP_BRNB0_C_PL10_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_7_PCPU_TDF_MPX008_DIV166_PL10_BV		1001015000																													
+						Bintable	Bin_MP008_TD_BV																															
+Instance_Bincut_TDF_MPX,Row66,MPX008 CPU TD,TD		CP1||FT1				Test	MP008_MPX008_CpuTd_PP_BRNB0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_7_PCPU_TDF_MPX008_DIV422_PL00_BV		1001016000																													
+						Bintable	Bin_MP008_TD_BV																															
+Instance_Bincut_TDF_MPX,Row67,MPX008 CPU TD,TD		(CP1||FT1) && x				Test	MP008_MPX008_CpuTd_PP_BRNB0_C_PL00_SC_P0PD_TDF_COM_AUT_MPXXXX_DM_CEXTEST_7_PCPU_TDF_MPX008_CEXTEST_PL00_BV		1001017000																													
+						Bintable	Bin_MP008_TD_BV																															
+Instance_Bincut_TDF_MPX,Row68,MPX008 SOC TD,TD		CP1||FT1				Test	MP008_MPX008_SocTd_PP_BRNA0_S_PL10_SC_CAA0_TDF_SSC_HAR_MPXXXX_DM_7_SOC_TD_MPX008_CAA0_PL10_BV		1001018000																													
+						Bintable	Bin_MP008_TD_BV																															
+Instance_Bincut_TDF_MPX,Row69,MPX008 SOC TD,TD		CP1||FT1				Test	MP008_MPX008_SocTd_PP_BRNA0_S_PL10_SC_CAB0_TDF_SSC_HAR_MPXXXX_DM_7_SOC_TD_MPX008_CAB0_PL10_BV		1001019000																													
+						Bintable	Bin_MP008_TD_BV																															
+Instance_Bincut_TDF_MPX,Row70,MPX008 SOC TD,TD		CP1||FT1				Test	MP008_MPX008_SocTd_PP_BRNA0_S_PL10_SC_CAC0_TDF_SSC_HAR_MPXXXX_DM_7_SOC_TD_MPX008_CAC0_PL10_BV		1001020000																													
+						Bintable	Bin_MP008_TD_BV																															
+Instance_Bincut_TDF_MPX,Row71,MPX008 SOC TD,TD		CP1||FT1				Test	MP008_MPX008_SocTd_PP_BRNA0_S_PL10_SC_CAD0_TDF_SSC_HAR_MPXXXX_DM_7_SOC_TD_MPX008_CAD0_PL10_BV		1001021000																													
+						Bintable	Bin_MP008_TD_BV																															
+Instance_Bincut_TDF_MPX,Row72,MPX008 SOC TD,TD		CP1||FT1				Test	MP008_MPX008_SocTd_PP_BRNA0_S_PL10_SC_CAE0_TDF_SSC_HAR_MPXXXX_DM_7_SOC_TD_MPX008_CAE0_PL10_BV		1001022000																													
+						Bintable	Bin_MP008_TD_BV																															
+Instance_Bincut_TDF_MPX,Row73,MPX008 SOC TD,TD		CP1||FT1				Test	MP008_MPX008_SocTd_PP_BRNB0_S_PL10_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_7_SOC_TD_MPX008_CAF0_PL10_BV		1001023000																													
+						Bintable	Bin_MP008_TD_BV																															
+						If	(!F_PCPU_HARV_CORE0&&!F_PCPU_HARV_CORE1) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_CPU,Row9,MPX008 CPU BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_CpuMbist_PP_BRNA0_C_PLLP_BI_P0XX_BST_JTG_59N_MPXXXX_SI_LATR_LATR_BV		1001024000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+Instance_Bincut_BIST_MPX_CPU,Row31,MPX008 CPU BIST,Mbist		(CP1||FT1) && !BINCUT_WITH_BIST				Test	MP008_MPX008_CpuMbist_PP_BRNA0_C_PLLP_BI_P0XX_BST_JTG_59N_MPXXXX_SI_LATR_LATR_BIRA_BV		1001025000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						If	(!F_PCPU_HARV_CORE0&&!F_PCPU_HARV_CORE_1_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_CPU,Row49,MPX008 CPU BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_CpuMbist_PP_BRNX0_C_PLLP_BI_P0XX_BST_JTG_59N_MPXXXX_SI_LATR_LATR_CORE0_BV		1001026000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_PCPU_HARV_CORE1&&!F_PCPU_HARV_CORE_1_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_CPU,Row68,MPX008 CPU BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_CpuMbist_PP_BRNX0_C_PLLP_BI_P0XX_BST_JTG_59N_MPXXXX_SI_LATR_1_LATR_CORE1_BV		1001027000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+Instance_Bincut_BIST_MPX_SOC,Row9,MPX008 SOC BIST,Mbist		(CP1||FT1) && !BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_NOHARV_BIRA_BV		1001028000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						If	(!F_ANE0_BIST_ALL &&F_ANE0_BIST_CORE_16_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row27,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_1_NOHARV_ANE0_BV		1001029000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&& F_ANE1_BIST_CORE_16_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row45,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_2_NOHARV_ANE1_BV		1001030000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE0) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row63,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_3_NOANE0GH1_BV		1001031000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE2) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row81,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_4_NOANE0GH2_BV		1001032000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE1) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row99,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_5_NOANE0GH3_BV		1001033000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE3) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row117,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_6_NOANE0GH4_BV		1001034000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE4) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row135,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_7_NOANE0GH5_BV		1001035000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE6) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row153,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_8_NOANE0GH6_BV		1001036000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE5) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row171,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_9_NOANE0GH7_BV		1001037000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE7) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row189,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_10_NOANE0GH8_BV		1001038000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE8) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row207,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_11_NOANE0GH9_BV		1001039000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE10) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row225,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_12_NOANE0GH10_BV		1001040000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE9) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row243,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_13_NOANE0GH11_BV		1001041000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE11) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row261,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_14_NOANE0GH12_BV		1001042000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE12) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row279,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_15_NOANE0GH13_BV		1001043000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE14) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row297,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_16_NOANE0GH14_BV		1001044000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE13) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row315,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_17_NOANE0GH15_BV		1001045000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE15) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row333,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_18_NOANE0GH16_BV		1001046000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE16) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row351,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_19_NOANE0GH17_BV		1001047000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE0) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row369,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_20_NOANE1GH1_BV		1001048000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE2) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row387,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_21_NOANE1GH2_BV		1001049000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE1) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row405,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_22_NOANE1GH3_BV		1001050000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE3) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row423,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_23_NOANE1GH4_BV		1001051000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE4) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row441,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_24_NOANE1GH5_BV		1001052000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE6) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row459,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_25_NOANE1GH6_BV		1001053000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE5) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row477,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_26_NOANE1GH7_BV		1001054000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE7) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row495,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_27_NOANE1GH8_BV		1001055000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE8) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row513,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_28_NOANE1GH9_BV		1001056000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE10) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row531,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_29_NOANE1GH10_BV		1001057000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE9) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row549,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_30_NOANE1GH11_BV		1001058000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE11) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row567,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_31_NOANE1GH12_BV		1001059000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE12) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row585,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_32_NOANE1GH13_BV		1001060000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE14) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row603,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_33_NOANE1GH14_BV		1001061000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE13) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row621,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_34_NOANE1GH15_BV		1001062000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE15) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row639,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_35_NOANE1GH16_BV		1001063000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE16) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_SOC,Row657,MPX008 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MP008_MPX008_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_36_NOANE1GH17_BV		1001064000																													
+						Bintable	Bin_MP008_Mbist_BV																															
+						EndIf																																
+						print	"Flow MP008_TD_Mbist_BV Stop"																															
+						Return																																

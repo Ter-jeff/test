@@ -1,0 +1,6 @@
+Line_No	Alarm_Message	IsBeforeBV
+132289	ERROR Test Harvest_eFuse_Write_CP1: 'Exception: Cannot set value for 'te_misc_evs_cp1' in bank 'ECID' for site '0', already locked or it is a default value fuse.	True
+132292	ERROR Test Harvest_eFuse_Write_CP1: 'Exception: Cannot set value for 'te_misc_evs_cp1' in bank 'ECID' for site '1', already locked or it is a default value fuse.	True
+132401	ERROR FLO:0020 : Instance info for ATE_STR_Summary is not loaded	True
+132402	ERROR Error encountered in Exec Interpose Function (ExecInterpose_OnPreShutDownSite) Function Name: OnPreShutDownSite	True
+132490	ERROR Test Harvest_eFuse_Write_CP1: 'Exception: Cannot set value for 'te_misc_evs_cp1' in bank 'ECID' for site '2', already locked or it is a default value fuse.	True

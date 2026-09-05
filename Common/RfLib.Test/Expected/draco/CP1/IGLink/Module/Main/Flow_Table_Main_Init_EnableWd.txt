@@ -1,0 +1,202 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow_Table_Main_Init_EnableWd Start"																															
+		CP1				nop																															create enable words	
+		CP2				nop																																
+		CP				nop																																
+		FT1				nop																																
+		FT2				nop																																
+		FT3				nop																																
+		WLFT				nop																																
+		FT				nop																																
+		Temp_25C				nop																																
+		Temp_85C				nop																																
+		XI0_nWire				nop																																
+		DebugPrintFlag				nop																																
+		Shmoo_BringUp				nop																																
+		Datalog_Verbose				nop																																
+		Shmoo_Debug				nop																																
+		Shmoo_Customize				nop																																
+		BinTable				nop																																
+		CFG_SVM				nop																																
+		ECIDInfo				nop																																
+		eFuse_All_Enable				nop																																
+		eFuse_All_Disable				nop																																
+		eFuse_Disable_ChkLMT				nop																																
+		eFuse_to_STDF				nop																																
+		WAT_Enable				nop																																
+		FT_SIM				nop																																
+		CFG_XXX				nop																																
+		CFG_SVM_A00_CP1				nop																																
+		EVS				nop																																
+		Force_EVS_On				nop																																
+		Force_EVS_Off				nop																																
+		HardIP_LPDPRX				nop																																
+		HardIP_LPDPTX				nop																																
+		HardIP_MIPI				nop																																
+		HardIP_PCIE				nop																																
+		HardIP_PLL_CPU				nop																																
+		HardIP_PLL_LP				nop																																
+		HardIP_PLL_LPDP				nop																																
+		HardIP_PLL_PCIE				nop																																
+		HardIP_PLL_SLV				nop																																
+		HardIP_PLL_SOC				nop																																
+		HardIP_PLL				nop																																
+		HardIP_AMP				nop																																
+		HardIP_USB				nop																																
+		HardIP_HV				nop																																
+		HardIP_LV				nop																																
+		HardIP_NV				nop																																
+		HardIP_misc				nop																																
+		HardIP_PCM				nop																																
+		HardIP_Bin_NV				nop																																
+		HardIPBin_NV				nop																																
+		HardIP_Bin				nop																																
+		HardIPBIn				nop																																
+		SPC1_repair				nop																																
+		AI_Fail_Log				nop																																
+		Incremental_repair				nop																																
+		RET				nop																																
+		IN20				nop																																
+		CUS_Read_Char				nop																																
+		HardIP_Leak				nop																																
+		ProbeIndexMatched				nop																																
+		Vddbin_PTE_Debug				nop																																
+		VDDBinning_OpenSocket				nop																																
+		VDDBinning_Offline_AllPattPass				nop																																
+		Vddbin_DoAll_DebugCollection				nop																																
+		Print_IProfileValue				nop																																
+		DownSample_IProfile				nop																																
+		DisablePlot_IProfile				nop																																
+		offline_test				nop																																
+		eFuse_FT_Wafer_PseudoFuse				nop																																
+						disable-flow-word	CP1																														turn off	
+						disable-flow-word	CP2																															
+						disable-flow-word	CP																															
+						disable-flow-word	FT1																															
+						disable-flow-word	FT2																															
+						disable-flow-word	FT3																															
+						nop	FT3_ECID_SORT																															
+						nop	FT4																															
+						disable-flow-word	FT																															
+						disable-flow-word	Temp_25C																															
+						disable-flow-word	Temp_85C																															
+						disable-flow-word	XI0_nWire																															
+						disable-flow-word	BinTable																															
+						disable-flow-word	Shmoo_BringUp																															
+						disable-flow-word	ECIDInfo																															
+						disable-flow-word	EVS																															
+						disable-flow-word	CUS_Read_Char																															
+			CP1			enable-flow-word	CP1																														choose	
+			CP2			enable-flow-word	CP2																															
+			WLFT			enable-flow-word	WLFT																															
+			CP1, CP2			enable-flow-word	CP																															
+			FT1			enable-flow-word	FT1																															
+			FT2			enable-flow-word	FT2																															
+			FT3			enable-flow-word	FT3																															
+			FT1,FT2,FT3,WLFT			enable-flow-word	FT																															
+			CP1			enable-flow-word	Temp_25C																															
+			CP2			enable-flow-word	Temp_85C																															
+			CP1			enable-flow-word	SPC1_repair																															
+			CP2,FT1,FT2			enable-flow-word	Incremental_repair																															
+						enable-flow-word	RET																															
+						enable-flow-word	IN20																															
+						enable-flow-word	XI0_nWire																														turn on free running clock	
+						enable-flow-word	BinTable																															
+			CP1			enable-flow-word	EVS																															
+						enable-flow-word	Enable_HardIP																															
+						enable-flow-word	HardIP_LV																															
+						enable-flow-word	HardIP_HV																															
+						disable-flow-word	HardIP_NV																															
+		Disable_HardIP				disable-flow-word	Enable_HardIP																															
+		Enable_HardIP				enable-flow-word	HardIP_misc																															
+		Enable_HardIP				enable-flow-word	HardIP_PCM																															
+		Enable_HardIP				enable-flow-word	HardIP_AMP																															
+		Enable_HardIP				enable-flow-word	HardIP_LPDPRX																															
+		Enable_HardIP				enable-flow-word	HardIP_LPDPTX																															
+		Enable_HardIP				enable-flow-word	HardIP_MIPI																															
+		Enable_HardIP				enable-flow-word	HardIP_PCIE																															
+		Enable_HardIP				enable-flow-word	HardIP_PLL_CPU																															
+		Enable_HardIP				enable-flow-word	HardIP_PLL_LP																															
+		Enable_HardIP				enable-flow-word	HardIP_PLL_LPDP																															
+		Enable_HardIP				enable-flow-word	HardIP_PLL_PCIE																															
+		Enable_HardIP				enable-flow-word	HardIP_PLL_SLV																															
+		Enable_HardIP				enable-flow-word	HardIP_PLL_SOC																															
+		Enable_HardIP				enable-flow-word	HardIP_USB																															
+		Enable_HardIP				enable-flow-word	HardIP_PLL																															
+		Enable_HardIP				enable-flow-word	HardIP_Leak																															
+		Enable_HardIP				enable-flow-word	HardIP_Bin_NV																															
+		Enable_HardIP				enable-flow-word	HardIP_Bin																															
+		Enable_HardIP				enable-flow-word	HardIPBIn_NV																															
+		Enable_HardIP				enable-flow-word	HardIPBIn																															
+		Enable_HardIP_HLV				enable-flow-word	HardIP_LV																															
+		Enable_HardIP_HLV				enable-flow-word	HardIP_HV																															
+		Enable_HardIP_HLV				enable-flow-word	HardIP_NV																															
+		Enable_HardIP_HLV				disable-flow-word	HardIP_Bin_NV																															
+		Enable_HardIP_HLV				disable-flow-word	HardIPBIn_NV																															
+		FT				enable-flow-word	ECIDInfo																															
+		Byp_ECIDInfo				disable-flow-word	ECIDInfo																															
+						flag-false	F_EVS_Enable																															
+		EVS				flag-true	F_EVS_Enable																															
+		CFG_SVM_A00_CP1				enable-flow-word	CFG_SVM																															
+		CFG_SVM_A00_CP1				enable-flow-word	CFG_A00																															
+		RTN_Flag				enable-flow-word	RTN_Flag																															
+		CZ2_PRINT_EN				enable-flow-word	CZ2_PRINT_EN																															
+						flag-false	F_FlatCheck_Summary																															
+						flag-false	F_UDR_Early_Enable																															
+						flag-false	F_UDRE_Early_Enable																															
+						flag-false	F_UDRP_Early_Enable																															
+						flag-false	F_Power_Binning_Fail																															
+						flag-false	F_BV_CALLINST																															
+Efuse						flag-clear	F_ecid_other																															
+HardIP		Enable_HardIP_FieldProcesingTTR				nop																																
+HardIP		Enable_HardIP_DigitalTestLimitTTR				nop																																
+HardIP		Enable_HardIP_TnameConstructionTTR				nop																																
+HardIP		Enable_HardIP_AnalogMuxOutTTR				nop																																
+HardIP						enable-flow-word	Enable_HardIP_FieldProcesingTTR																															
+HardIP						enable-flow-word	Enable_HardIP_DigitalTestLimitTTR																															
+HardIP						enable-flow-word	Enable_HardIP_TnameConstructionTTR																															
+HardIP						enable-flow-word	Enable_HardIP_AnalogMuxOutTTR																															
+Efuse		ECIDSort_Enable				nop																																
+Efuse						disable-flow-word	ECIDSort_Enable																															
+Efuse		Enable_ECID_Sorting_2CMode				nop																																
+Efuse						disable-flow-word	Enable_ECID_Sorting_2CMode																															
+Autogen						flag-false	F_ecid_other,F_initFlow_BinOut,F_OCR_error,F_MBIST_BIRA_MHV_FAIL,F_MBIST_BIRA_MLV_FAIL,F_MBIST_BIRA_HV_FAIL,F_MBIST_BIRA_LV_FAIL,F_MBIST_RBOX_COMPARE_HV_FAIL,F_MBIST_RBOX_COMPARE_LV_FAIL,F_MBIST_BIRA_SPLL500_HV_FAIL,F_MBIST_BIRA_SPLL500_LV_FAIL,F_MBIST_BIST_MHV_FAIL,F_MBIST_BIST_MLV_FAIL,F_MBIST_BIST_HV_FAIL,F_MBIST_BIST_LV_FAIL,F_MBIST_BIST_SPLL500_HV_FAIL,F_MBIST_BIST_SPLL500_LV_FAIL,F_SOC_MBIST__0_START_NV,F_MBIST_BIRA_SETUPVM_FAIL,F_MBIST_BIRA_PROD_SETUP_NV_FAIL,F_MBIST_BIRA_NV_FAIL,F_MBIST_BIRA_BISRRUN_NV_FAIL,F_MBIST_BIRA_FLOAD_NV_FAIL,F_MBIST_RBOX_PROGRAM_NV_FAIL,F_MBIST_RBOX_SEL_NV_FAIL,F_MBIST_BIRA_PROD_SETUPSPLL500_NV_FAIL,F_MBIST_BIRA_SPLL500_NV_FAIL,F_MBIST_BIRA_ERT_W0_NV_FAIL,F_SOC_MBIST__83_W0_EXTERNAL_RETENTION_VRET_NV,F_SOC_MBIST__84_W0_EXTERNAL_RETENTION_TIME_NV,F_MBIST_BIRA_ERT_R0_NV_FAIL,F_MBIST_BIRA_ERT_W1_NV_FAIL,F_SOC_MBIST__107_W1_EXTERNAL_RETENTION_VRET_NV,F_SOC_MBIST__108_W1_EXTERNAL_RETENTION_TIME_NV,F_MBIST_BIRA_ERT_R1_NV_FAIL,F_SOC_MBIST__127_START_POST_BIRA_NV,F_MBIST_BIST_SETUPVM_FAIL,F_MBIST_BIST_PROD_SETUP_NV_FAIL,F_MBIST_BIST_NV_FAIL,F_MBIST_BIST_IRT64_W0_NV_FAIL,F_MBIST_BIST_IRT64_ENABLE_NV_FAIL,F_SOC_MBIST__190_W0_INTERNAL_RETENTION_VRET_NV,F_SOC_MBIST__191_W0_INTERNAL_RETENTION_TIME_NV,F_MBIST_BIST_IRT64_DISABLE_NV_FAIL,F_MBIST_BIST_IRT64_R0_NV_FAIL,F_MBIST_BIST_IRT64_W1_NV_FAIL,F_SOC_MBIST__196_W1_INTERNAL_RETENTION_VRET_NV,F_SOC_MBIST__197_W1_INTERNAL_RETENTION_TIME_NV,F_MBIST_BIST_IRT64_R1_NV_FAIL,F_MBIST_BIST_PROD_SETUPSPLL500_NV_FAIL,F_MBIST_BIST_SPLL500_NV_FAIL,F_MBIST_BIST_ERT_W0_NV_FAIL,F_SOC_MBIST__218_W0_EXTERNAL_RETENTION_VRET_NV,F_SOC_MBIST__219_W0_EXTERNAL_RETENTION_TIME_NV,F_MBIST_BIST_ERT_R0_NV_FAIL,F_MBIST_BIST_ERT_W1_NV_FAIL,F_SOC_MBIST__242_W1_EXTERNAL_RETENTION_VRET_NV,F_SOC_MBIST__243_W1_EXTERNAL_RETENTION_TIME_NV,F_MBIST_BIST_ERT_R1_NV_FAIL,F_MBIST_BIST_IRT50_W0_NV_FAIL,F_MBIST_BIST_IRT50_ENABLE_NV_FAIL,F_SOC_MBIST__257_W0_INTERNAL_RETENTION_VRET_NV,F_SOC_MBIST__258_W0_INTERNAL_RETENTION_TIME_NV,F_MBIST_BIST_IRT50_DISABLE_NV_FAIL,F_MBIST_BIST_IRT50_R0_NV_FAIL,F_MBIST_BIST_IRT50_W1_NV_FAIL,F_SOC_MBIST__263_W1_INTERNAL_RETENTION_VRET_NV,F_SOC_MBIST__264_W1_INTERNAL_RETENTION_TIME_NV,F_MBIST_BIST_IRT50_R1_NV_FAIL																															
+Autogen Default						flag-false	F_Debug_all																															
+Autogen Default						flag-true	F_PrintHarvReport																															
+Autogen Default		DebugPrint				nop																																
+Autogen Default		Vdd_Binning_PTE_Debug				nop																																
+Autogen Default		Debug_BinCutCOF_Stored				nop																																
+Autogen Default		Enable_SFC				nop																																
+Autogen Default		Enable_RSCR				nop																																
+Autogen Default		Enable_FingerPrint				nop																																
+Autogen Default		Enable_FFC				nop																																
+Autogen Default		ForceUpdateJob				nop																																
+Autogen Default		LogLevel_Debug				nop																																
+Autogen Default		LogLevel_NPI				nop																																
+Autogen Default		LogLevel_MP				nop																																
+Autogen Default		CurrentProfile_Enhance				nop																																
+Autogen Default		DoNotCheckBuildConfig				nop																																
+Autogen Default		DebugPrint_Detail				nop																																
+						print	"Flow_Table_Main_Init_EnableWd Stop"																															
+						return																																
+
+
+
+
+
+
+
+
+
+
+HardIP		Enable_HardIP_FieldProcesingTTR				nop																																
+HardIP		Enable_HardIP_DigitalTestLimitTTR				nop																																
+HardIP		Enable_HardIP_TnameConstructionTTR				nop																																
+HardIP		Enable_HardIP_AnalogMuxOutTTR				nop																																
+HardIP						enable-flow-word	Enable_HardIP_FieldProcesingTTR																															
+HardIP						enable-flow-word	Enable_HardIP_DigitalTestLimitTTR																															
+HardIP						enable-flow-word	Enable_HardIP_TnameConstructionTTR																															
+HardIP						enable-flow-word	Enable_HardIP_AnalogMuxOutTTR																															

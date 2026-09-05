@@ -1,0 +1,5 @@
+DTCharacterizationSheet,version=2.6:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Characterization
+	
+					Parameter		Range						Test Limits		Algorithm				Apply To			Device Margin			Adjust			Shmoo			Interpose Functions												Output				Output Destinations
+	Setup Name	Test Method	Step Name	Mode	Type	Name	Calc Field	From	To	Steps	Step Size	Perform Test	Low	High	Name	Arguments	Results Check	Transition	Pins	Pin Exec Mode	Time Sets	Contexts	Patterns	Instances	Backoff	Spec Name	From Setup	Axis Execution Order	Function	Arguments	Pre Setup	Arguments	Pre Step	Arguments	Pre Point	Arguments	Post Point	Arguments	Post Step	Arguments	Post Setup	Arguments	Format	Text File	Sheet	Suspend Datalog	Text File	Sheet	Datalog	Immediate Win	Output Win	Comment
+	CPM_LVCC	Retest	VDD_SRAM_SOC_VOP_VAR	X Shmoo	Global Spec	Shmoo_VDD_SRAM_SOC_VOP_VAR_GLB	Steps	0.65	0.55		0.01				Jump	6			VDD_SRAM_SOC	Simultaneous								X-Y[-Z]											PrintShmooInfo	CorePower,VDD_SRAM_SOC			Enhanced	Disable	Disable	TRUE			Enable	Disable	Disable	

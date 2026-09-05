@@ -1,0 +1,304 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						set-alarm-bin										21		998																				
+						set-error-bin										21		999																				
+						Test	InitTestTimeUtility																															
+						Test	TestNameWidth_Basic																															
+						create-integer	EVS_INDEX																															
+						assign-integer	EVS_INDEX 0																															
+						create-integer	EVS_MAX_Step																															
+						assign-integer	EVS_MAX_Step 0																															
+						create-integer	SrcCodeIndx																															
+						assign-integer	SrcCodeIndx 0																															
+						create-integer	SrcCodeIndx0																															
+						assign-integer	SrcCodeIndx0 0																															
+						create-integer	SrcCodeIndx1																															
+						assign-integer	SrcCodeIndx1 0																															
+						create-integer	SrcCodeIndx2																															
+						assign-integer	SrcCodeIndx2 0																															
+						create-site-var	CFGChk_Var																															
+						assign-site-var	CFGChk_Var 0																															
+						create-site-var	ECIDChk_Var																															
+						assign-site-var	ECIDChk_Var 0																															
+						create-site-var	Efuse_config_Current																															
+						assign-site-var	Efuse_config_Current 0																															
+						create-site-var	Efuse_config_Early																															
+						assign-site-var	Efuse_config_Early 0																															
+						create-site-var	Efuse_config_Future																															
+						assign-site-var	Efuse_config_Future 0																															
+						create-site-var	Efuse_config_Previous																															
+						assign-site-var	Efuse_config_Previous 0																															
+						create-site-var	Efuse_ecid_Current																															
+						assign-site-var	Efuse_ecid_Current 0																															
+						create-site-var	Efuse_ecid_Future																															
+						assign-site-var	Efuse_ecid_Future 0																															
+						create-site-var	Efuse_ecid_Previous																															
+						assign-site-var	Efuse_ecid_Previous 0																															
+						create-site-var	Efuse_mon_Current																															
+						assign-site-var	Efuse_mon_Current 0																															
+						create-site-var	Efuse_mon_Early																															
+						assign-site-var	Efuse_mon_Early 0																															
+						create-site-var	Efuse_mon_Future																															
+						assign-site-var	Efuse_mon_Future 0																															
+						create-site-var	Efuse_mon_Previous																															
+						assign-site-var	Efuse_mon_Previous 0																															
+						create-site-var	Efuse_udr_e_Current																															
+						assign-site-var	Efuse_udr_e_Current 0																															
+						create-site-var	Efuse_udr_e_Future																															
+						assign-site-var	Efuse_udr_e_Future 0																															
+						create-site-var	Efuse_udr_e_Previous																															
+						assign-site-var	Efuse_udr_e_Previous 0																															
+						create-site-var	Efuse_udr_p_Current																															
+						assign-site-var	Efuse_udr_p_Current 0																															
+						create-site-var	Efuse_udr_p_Future																															
+						assign-site-var	Efuse_udr_p_Future 0																															
+						create-site-var	Efuse_udr_p_Previous																															
+						assign-site-var	Efuse_udr_p_Previous 0																															
+						create-site-var	LPCount_End																															
+						assign-site-var	LPCount_End 0																															
+						create-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	MFP_flow_idx																															
+						assign-site-var	MFP_flow_idx 0																															
+						create-site-var	MONChk_Var																															
+						assign-site-var	MONChk_Var 0																															
+						create-site-var	RSCR_Flow_Idx																															
+						assign-site-var	RSCR_Flow_Idx 0																															
+						create-site-var	SEL_CASE_CNT																															
+						assign-site-var	SEL_CASE_CNT 0																															
+						create-site-var	SEL_CASE_End																															
+						assign-site-var	SEL_CASE_End 0																															
+						create-site-var	SelSrm_LP_Var																															
+						assign-site-var	SelSrm_LP_Var 0																															
+						create-site-var	UDR_EChk_Var																															
+						assign-site-var	UDR_EChk_Var 0																															
+						create-site-var	UDR_PChk_Var																															
+						assign-site-var	UDR_PChk_Var 0																															
+						create-site-var	UIDChk_Var																															
+						assign-site-var	UIDChk_Var 0																															
+						create-site-var	Efuse_cmp_e_Current																															
+						assign-site-var	Efuse_cmp_e_Current 0																															
+						create-site-var	Efuse_cmp_e_Future																															
+						assign-site-var	Efuse_cmp_e_Future 0																															
+						create-site-var	Efuse_cmp_e_Previous																															
+						assign-site-var	Efuse_cmp_e_Previous 0																															
+						create-site-var	Efuse_cmp_p_Current																															
+						assign-site-var	Efuse_cmp_p_Current 0																															
+						create-site-var	Efuse_cmp_p_Future																															
+						assign-site-var	Efuse_cmp_p_Future 0																															
+						create-site-var	Efuse_cmp_p_Previous																															
+						assign-site-var	Efuse_cmp_p_Previous 0																															
+						call	Flow_HardIP_Init_Flag																															
+						call	Flow_Table_Main_Init_EnableWd																															
+						Test	InitializeModulesFromInstance																															
+						call	Flow_Table_Main_Init_Flows																															
+						Test	TestNameWidth_Basic																															
+						Test	Relay_On_Conti																															
+						Test	TestNameWidth_DC																															
+						call	Flow_DC_Conti																															
+						Test	TestNameWidth_Basic																															
+						Test	Relay_On_HARDIP																															
+						Test	TestNameWidth_Basic																															
+						call	Flow_nWire_Default_Disable																															
+						Test	TestNameWidth_HardIP																															
+						call	Flow_HARDIP_IO_JTAG																															
+						Test	TestNameWidth_Basic																															
+						call	Flow_nWire_Default_Enable																															
+						Test	Relay_Off_HARDIP																															
+						Test	TestNameWidth_Tester																															
+						Test	CFG_Power_Pin_Resistance_VDDA_EFUSE3_NV														F_Other_CFG_Pwr_Resistance																	
+						Bintable	Bin_Other_CFG_Pwr_Resistance																															
+						Test	CFG_Power_Pin_Resistance_VDDA_EFUSE6_NV														F_Other_CFG_Pwr_Resistance																	
+						Bintable	Bin_Other_CFG_Pwr_Resistance																															
+						Test	TestNameWidth_Efuse																															
+						call	Flow_efuse_BankRead																															
+						Test	TestNameWidth_Tester																															
+		Pgm2File				Test	PseudoFuse_ReadFromFile														F_EFUSE_PseudoFuse_WriteToFile																	
+						Bintable	Bin_EFUSE_PseudoFuse_WriteToFile																															
+		!BypRetestCheck				Test	GoodDie_Retest														F_EFUSE_FailDie																	
+						Bintable	Bin_EFUSE_FailDie																															
+						Test	TestNameWidth_Harvest																															
+						call	Flow_Harvest_eFuse_Read																															
+						call	Flow_Harv_Dec_FT1_RD																															
+						Test	TestNameWidth_Basic																															
+						Test	Relay_On_HARDIP																															
+						call	Flow_nWire_Default_Disable																															
+						Test	TestNameWidth_HardIP																															
+						call	Flow_HARDIP_ADCDFT																															
+						call	Flow_HARDIP_MTRICTS																															
+						call	Flow_HARDIP_NTSE																															
+						call	Flow_HARDIP_NTSR																															
+						Test	TestNameWidth_Basic																															
+						call	Flow_nWire_Default_Enable																															
+						Test	Relay_Off_HARDIP																															
+						Test	TestNameWidth_IDS																															
+						call	Flow_DCTEST_IDS																															
+						Test	TestNameWidth_Efuse																															
+						call	Flow_efuse_ECID																															
+						flag-false	SubFlow_TurnOnFlag_ByDie																															
+		Enable_Force_WAT				flag-true	SubFlow_TurnOnFlag_ByDie																															
+		Enable_Force_WAT				print	"Force Enable Flag: SubFlow_TurnOnFlag_ByDie "																															
+						Test	TestNameWidth_Basic																															
+						call	Flow_nWire_Default_Disable																															
+						Test	Relay_On_HARDIP																															
+						Test	TestNameWidth_HardIP																															
+						call	Flow_HARDIP_MISC																															
+						call	Flow_HARDIP_FRO																															
+						call	Flow_HARDIP_CPLL																															
+						call	Flow_HARDIP_ADCLK																															
+						call	Flow_HARDIP_LAPLL																															
+						call	Flow_HARDIP_PCIEREFGEN																															
+						call	Flow_HARDIP_PCIE5CMN																															
+						call	Flow_HARDIP_ACIPHYCMN																															
+						call	Flow_HARDIP_ACIOPHYCMN																															
+						call	Flow_HARDIP_LPDPTXCMN																															
+						call	Flow_HARDIP_AMPCMN																															
+						call	Flow_HARDIP_PCIEREFPLL																															
+						call	Flow_HARDIP_PCIEPLL																															
+						call	Flow_HARDIP_CIOCIOPLL																															
+						call	Flow_HARDIP_CIODPPLL																															
+						call	Flow_HARDIP_LPDPDPPLL																															
+						call	Flow_HARDIP_LPDDRPLL																															
+						call	Flow_HARDIP_HSCSAROSC																															
+						call	Flow_HARDIP_ULPPLL																															
+						call	Flow_HARDIP_FLPPLL																															
+						call	Flow_HARDIP_SEPF2M																															
+						call	Flow_HARDIP_SEPVMC																															
+						call	Flow_HARDIP_MIDBIASLDO																															
+						call	Flow_HARDIP_VMADC																															
+						call	Flow_HARDIP_ACIOPHY																															
+						call	Flow_HARDIP_ACIPHY																															
+						call	Flow_HARDIP_LPDPTX																															
+						call	Flow_HARDIP_PCIE5																															
+						call	Flow_HARDIP_NTSX																															
+						call	Flow_HARDIP_PCIEREFBUF																															
+						call	Flow_HARDIP_EUSB																															
+						Test	TestNameWidth_Basic																															
+						call	Flow_nWire_Default_Enable																															
+						Test	TestNameWidth_DIGIP																															
+						call	Flow_HARDIP_DSGRINGS																															
+						call	Flow_HARDIP_NPMS																															
+						Test	TestNameWidth_Basic																															
+						Test	Relay_On_DAPS																															
+						Test	TestNameWidth_DIGIP																															
+						call	Flow_HARDIP_DAPS																															
+						Test	TestNameWidth_Basic																															
+						Test	Relay_Off_DAPS																															
+						Test	TestNameWidth_DIGIP																															
+						call	Flow_HARDIP_NCKM																															
+						call	Flow_HARDIP_LLPSMN																															
+						call	Flow_HARDIP_ABSMIN																															
+						call	Flow_HARDIP_IVDM																															
+						Test	TestNameWidth_Basic																															
+						Test	Relay_On_DSGVTHSENSOR																															
+						Test	TestNameWidth_DIGIP																															
+						call	Flow_HARDIP_DSGVTHSENSER																															
+						Test	TestNameWidth_Basic																															
+						Test	Relay_Off_DSGVTHSENSOR																															
+						Test	TestNameWidth_DIGIP																															
+						call	Flow_HARDIP_PWRDET																															
+						Test	TestNameWidth_Basic																															
+						Test	Relay_Off_HARDIP																															
+						Test	TestNameWidth_Bincut																															
+						call	Flow_Vddbinning																															
+						call	Flow_Vddbinning_HVCC																															
+						call	Flow_PostBincut																															
+						Test	TestNameWidth_Basic																															
+						call	Flow_nWire_Default_Disable																															
+						Test	Relay_On_HARDIP																															
+						Test	TestNameWidth_HardIP																															
+						call	Flow_HARDIP_AMP																															
+						Test	TestNameWidth_Basic																															
+						Test	Relay_Off_HARDIP																															
+						call	Flow_nWire_Default_Enable																															
+						Test	TestNameWidth_Scan																															
+						call	FLOW_SOC_SAA_EQN_HV																															
+						call	FLOW_GFX_SAA_EQN_HV																															
+						call	FLOW_CPU_SAA_EQN_HV																															
+						Test	TestNameWidth_Tester																															
+						Test	Harvest_Flag_Status_SA_GFX0_HARV_CORE_0to11														F_GFX_SA_CoreOver_GFX0_HARV_CORE_0to11																	
+						Bintable	Bin_GFX_SA_CoreOver_GFX0_HARV_CORE_0to11																															
+						Test	Harvest_Flag_Status_SA_GFX0_HARV_CORE_0to5														F_GFX_SA_CoreOver_GFX0_HARV_CORE_0to5																	
+						Bintable	Bin_GFX_SA_CoreOver_GFX0_HARV_CORE_0to5																															
+						Test	Harvest_Flag_Status_SA_GFX0_HARV_CORE_6to11														F_GFX_SA_CoreOver_GFX0_HARV_CORE_6to11																	
+						Bintable	Bin_GFX_SA_CoreOver_GFX0_HARV_CORE_6to11																															
+						Test	Harvest_Flag_Status_SA_HCPU_HARV_CORE_0to1														F_CPU_SA_CoreOver_HCPU_HARV_CORE_0to1																	
+						Bintable	Bin_CPU_SA_CoreOver_HCPU_HARV_CORE_0to1																															
+						Test	Harvest_Flag_Status_SA_HCPU_HARV_CORE_2to5														F_CPU_SA_CoreOver_HCPU_HARV_CORE_2to5																	
+						Bintable	Bin_CPU_SA_CoreOver_HCPU_HARV_CORE_2to5																															
+						Test	Harvest_Flag_Status_SA_ECPU_HARV_CORE_0to5														F_CPU_SA_CoreOver_ECPU_HARV_CORE_0to5																	
+						Bintable	Bin_CPU_SA_CoreOver_ECPU_HARV_CORE_0to5																															
+						Test	Harvest_Flag_Status_SA_SOC_HARV_IS														F_SOC_SA_CoreOver_SOC_HARV_IS																	
+						Bintable	Bin_SOC_SA_CoreOver_SOC_HARV_IS																															
+						Test	Harvest_Flag_Status_SA_SOC_HARV_ED_0to1														F_SOC_SA_CoreOver_SOC_HARV_ED_0to1																	
+						Bintable	Bin_SOC_SA_CoreOver_SOC_HARV_ED_0to1																															
+						Test	Harvest_Flag_Status_SA_ANE0_HARV_CORE_0to16														F_SOC_SA_CoreOver_ANE0_HARV_CORE_0to16																	
+						Bintable	Bin_SOC_SA_CoreOver_ANE0_HARV_CORE_0to16																															
+						Test	Harvest_Flag_Status_SA_ANE1_HARV_CORE_0to16														F_SOC_SA_CoreOver_ANE1_HARV_CORE_0to16																	
+						Bintable	Bin_SOC_SA_CoreOver_ANE1_HARV_CORE_0to16																															
+						Test	Harvest_Flag_Status_SA_ANE0_HARV_CNTR														F_SOC_SA_CoreOver_ANE0_HARV_CNTR																	
+						Bintable	Bin_SOC_SA_CoreOver_ANE0_HARV_CNTR																															
+						Test	Harvest_Flag_Status_SA_ANE1_HARV_CNTR														F_SOC_SA_CoreOver_ANE1_HARV_CNTR																	
+						Bintable	Bin_SOC_SA_CoreOver_ANE1_HARV_CNTR																															
+						Test	TestNameWidth_MBIST																															
+						call	Flow_S_BI_PP_FT1_BURST																															
+						call	Flow_L_BI_PP_FT1_BURST																															
+						call	Flow_C_BI_PP_FT1_BURST																															
+						Test	TestNameWidth_Tester																															
+						Test	Harvest_Flag_Status_BIST_GFX0_HARV_CORE_0to11														F_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to11																	
+						Bintable	Bin_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to11																															
+						Test	Harvest_Flag_Status_BIST_GFX0_HARV_CORE_0to5														F_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to5																	
+						Bintable	Bin_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to5																															
+						Test	Harvest_Flag_Status_BIST_GFX0_HARV_CORE_6to11														F_GFX_MBIST_CoreOver_GFX0_HARV_CORE_6to11																	
+						Bintable	Bin_GFX_MBIST_CoreOver_GFX0_HARV_CORE_6to11																															
+						Test	Harvest_Flag_Status_BIST_HCPU_HARV_CORE_0to1														F_CPU_MBIST_CoreOver_HCPU_HARV_CORE_0to1																	
+						Bintable	Bin_CPU_MBIST_CoreOver_HCPU_HARV_CORE_0to1																															
+						Test	Harvest_Flag_Status_BIST_HCPU_HARV_CORE_2to5														F_CPU_MBIST_CoreOver_HCPU_HARV_CORE_2to5																	
+						Bintable	Bin_CPU_MBIST_CoreOver_HCPU_HARV_CORE_2to5																															
+						Test	Harvest_Flag_Status_BIST_ECPU_HARV_CORE_0to5														F_CPU_MBIST_CoreOver_ECPU_HARV_CORE_0to5																	
+						Bintable	Bin_CPU_MBIST_CoreOver_ECPU_HARV_CORE_0to5																															
+						Test	Harvest_Flag_Status_BIST_SOC_HARV_IS														F_SOC_MBIST_CoreOver_SOC_HARV_IS																	
+						Bintable	Bin_SOC_MBIST_CoreOver_SOC_HARV_IS																															
+						Test	Harvest_Flag_Status_BIST_SOC_HARV_ED_0to1														F_SOC_MBIST_CoreOver_SOC_HARV_ED_0to1																	
+						Bintable	Bin_SOC_MBIST_CoreOver_SOC_HARV_ED_0to1																															
+						Test	Harvest_Flag_Status_BIST_ANE0_HARV_CORE_0to16														F_SOC_MBIST_CoreOver_ANE0_HARV_CORE_0to16																	
+						Bintable	Bin_SOC_MBIST_CoreOver_ANE0_HARV_CORE_0to16																															
+						Test	Harvest_Flag_Status_BIST_ANE1_HARV_CORE_0to16														F_SOC_MBIST_CoreOver_ANE1_HARV_CORE_0to16																	
+						Bintable	Bin_SOC_MBIST_CoreOver_ANE1_HARV_CORE_0to16																															
+						Test	Harvest_Flag_Status_BIST_ANE0_HARV_CNTR														F_SOC_MBIST_CoreOver_ANE0_HARV_CNTR																	
+						Bintable	Bin_SOC_MBIST_CoreOver_ANE0_HARV_CNTR																															
+						Test	Harvest_Flag_Status_BIST_ANE1_HARV_CNTR														F_SOC_MBIST_CoreOver_ANE1_HARV_CNTR																	
+						Bintable	Bin_SOC_MBIST_CoreOver_ANE1_HARV_CNTR																															
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin01																															
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin07																															
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin08																															
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin13																															
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin14																															
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin15																															
+						Test	TestNameWidth_Efuse																															
+		!CORR				call	Flow_efuse_Post																															
+						Test	TestNameWidth_Tester																															
+		!CORR				Test	IEDA_All_ECID																															
+		!CORR				Test	IEDA_BKM_After_Fused																															
+		!CORR				Test	IEDA_Efuse_Revision																															
+		!CORR				Test	IEDA_Config_288Bits																															
+						Test	TestNameWidth_Basic																															
+						call	Flow_Table_Main_EndFlow																															
+						limits-all																																
+						set-device									1		1		Pass																			

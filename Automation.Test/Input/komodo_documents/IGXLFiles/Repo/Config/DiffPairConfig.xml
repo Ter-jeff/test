@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiffPairConfig xmlns="http://tempuri.org/DiffPairConfig.xsd">
+<DiffPairRules>
+<!--- The rule for defining differential pairs -->
+	<DiffItem Pos="P$" Neg="N$"/>
+	<DiffItem Pos="DP" Neg ="DN"/>
+	<DiffItem Pos="P$" Neg="M$"/>
+	<DiffItem Pos="_P$" Neg="_N$"/>
+</DiffPairRules>
+
+<DiffPairPins>
+<!--- The special pin for differential pairs-->
+	<DiffItem Pos ="" Neg=""/>
+</DiffPairPins>
+</DiffPairConfig>

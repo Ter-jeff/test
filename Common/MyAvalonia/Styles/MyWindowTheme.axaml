@@ -1,0 +1,45 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MyAvalonia.Controls;assembly=MyAvalonia">
+    <Styles.Resources>
+        <ControlTheme x:Key="{x:Type controls:MyWindow}"
+                      TargetType="controls:MyWindow">
+            <Setter Property="SystemDecorations" Value="Full" />
+            <Setter Property="ExtendClientAreaToDecorationsHint" Value="True" />
+            <Setter Property="ExtendClientAreaTitleBarHeightHint" Value="-1" />
+            <Setter Property="ExtendClientAreaChromeHints" Value="NoChrome" />
+            <Setter Property="BorderBrush" Value="{DynamicResource MyWindowBorderBrush}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="Template">
+                <ControlTemplate>
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            Padding="0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <controls:MyWindowCommandBar x:Name="MyWindowCommandBar"
+                                                          Grid.Row="0"
+                                                          Margin="0"
+                                                          Padding="0"
+                                                          Title="{TemplateBinding Title}"
+                                                          ShowHelp="{TemplateBinding ShowHelp}"
+                                                          ShowIcon="{TemplateBinding ShowIcon}"
+                                                          TitleBackground="{TemplateBinding TitleBackground}"
+                                                          Background="{DynamicResource MyTitleBarBackground}" />
+                            <ContentPresenter Name="PART_ContentPresenter"
+                                              Grid.Row="1"
+                                              Content="{TemplateBinding Content}"
+                                              ContentTemplate="{TemplateBinding ContentTemplate}"
+                                              HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}" />
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter>
+        </ControlTheme>
+    </Styles.Resources>
+</Styles>

@@ -1,0 +1,28 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"print: Flow_Vddbinning start"																															
+TNum 1000000000 - 1000006000						call	Flow_T0TX_PreCall																															
+						flag-clear	F_Vddbinning_Fail_Stop																															
+						Test	Print_BinCut_Config		500000																													
+						print	"print: Judge_stored_IDS start"																															
+		CP1				Test	Judge_stored_IDS		500500												F_Vddbinning_IDS_fail																	
+						print	"print: Judge_stored_IDS end"																															
+						Bintable	Bin_Vddbinning_IDS_fail																															
+TNum 1000011000 - 1000033000						call	Flow_MD001_TD_Mbist_BV																															
+TNum 1000033000 - 1000055000						call	Flow_MD002_TD_Mbist_BV																															
+		CP1				Test	Set_VBinResult_without_Test		501000																													
+						print	"print: Vddbinning_PrintOutVddBinning start"																															
+						Test	PrintOutVddBinning		501500												F_Vddbinning_Fail_Stop																	
+						Bintable	Vddbinning_Fail_Stop																															
+						print	"print: Vddbinning_PrintOutVddBinning end"																															
+						print	"print: Vddbinning_Adjust_VddBinning start"																															
+		CP1				Test	Adjust_VddBinning		502000												F_Vddbinning_Fail_Stop																	
+						Bintable	Vddbinning_Fail_Stop																															
+						print	"print: Vddbinning_Adjust_VddBinning end"																															
+						print	"print: Flow_Vddbinning end"																															
+						Test	FuseBinnedProductVoltages		502500																													
+		CP1			V02ARemove	Test	Power_Binning		503000																													
+						Bintable	Vddbinning_Power_Binning_Fail_Stop																															
+						return																																

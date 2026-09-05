@@ -1,0 +1,47 @@
+Pass Rate	100.00%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	43	Pass Rows	43																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	5	5						print	"Flow MD002_TD_Mbist_BV Start"																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	6	6		(CP1||CP2||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_SocTd_PP_GLNA0_S_PL10_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD002_TD_CLA0_PL10_BV		530000																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	7	7						Bintable	Bin_MD002_TD_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	9	9						Bintable	Bin_MD002_TD_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	11	11						Bintable	Bin_MD002_TD_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	13	13						Bintable	Bin_MD002_TD_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	15	15						Bintable	Bin_MD002_TD_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	17	17						Bintable	Bin_MD002_TD_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	8	8		(T0TX_ROOM||T0TX_HOT)&&(CP1||CP2||FT1)				Test	MD002_SocTd_PP_GLNA0_S_PL10_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD002_TD_CLA0_PL10_Typ_BV		530500																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	10	10		(CP1||CP2||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_SocTd_PP_GLNA0_S_PL20_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD002_TD_CLA0_PL20_BV		531000																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	12	12		(T0TX_ROOM||T0TX_HOT)&&(CP1||CP2||FT1)				Test	MD002_SocTd_PP_GLNA0_S_PL20_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD002_TD_CLA0_PL20_Typ_BV		531500																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	14	14		(CP1||CP2||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_SocTd_MN_GLNA0_S_PL99_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD002_TD_CLA0_PL99_BV		532000																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	16	16		(T0TX_ROOM||T0TX_HOT)&&(CP1||CP2||FT1)				Test	MD002_SocTd_MN_GLNA0_S_PL99_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD002_TD_CLA0_PL99_Typ_BV		532500																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	18	18		((CP1||CP2||RMA_ROOM||RMA_HOT) && !BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GO01_GO02_GX01_GX02_GR01_GR02_GR03_GR05_XXXX_GO01_GR04_BST_JTG_UNS_MSXXXX_SI_SRVASETP_BV		533000																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	19	19						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	21	21						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	23	23						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	25	25						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	27	27						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	29	29						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	31	31						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	33	33						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	35	35						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	37	37						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	39	39						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	41	41						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	43	43						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	45	45						Bintable	Bin_MD002_Mbist_BV																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	20	20		((T0TX_ROOM||T0TX_HOT) && !BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GO01_GO02_GX01_GX02_GR01_GR02_GR03_GR05_XXXX_GO01_GR04_BST_JTG_UNS_MSXXXX_SI_SRVASETP_Typ_BV		533500																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	22	22		((CP1||CP2||RMA_ROOM||RMA_HOT) && !BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR05_BST_JTG_1XD_MRDXXX_SI_SRVA_SBIST_MRD002_SOC_SBIST_BV		534000																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	24	24		((T0TX_ROOM||T0TX_HOT) && !BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR05_BST_JTG_1XD_MRDXXX_SI_SRVA_SBIST_MRD002_SOC_SBIST_Typ_BV		534500																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	26	26		((CP1||CP2||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR01_XXXX_GR01_BIR_JTG_UNS_MSXXXX_SI_SRVASETP_BV		535000																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	28	28		((T0TX_ROOM||T0TX_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR01_XXXX_GR01_BIR_JTG_UNS_MSXXXX_SI_SRVASETP_Typ_BV		535500																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	30	30		((CP1||CP2||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR02_XXXX_GR02_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_BV		536000																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	32	32		((T0TX_ROOM||T0TX_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR02_XXXX_GR02_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_Typ_BV		536500																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	34	34		((CP1||CP2||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR03_XXXX_GR03_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_BV		537000																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	36	36		((T0TX_ROOM||T0TX_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR03_XXXX_GR03_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_Typ_BV		537500																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	38	38		((CP1||CP2||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR04_XXXX_GR04_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_BV		538000																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	40	40		((T0TX_ROOM||T0TX_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR04_XXXX_GR04_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_Typ_BV		538500																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	42	42		((CP1||CP2||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR05_XXXX_GR05_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_BV		539000																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	44	44		((T0TX_ROOM||T0TX_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR05_XXXX_GR05_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_Typ_BV		539500																												
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	46	46						print	"Flow MD002_TD_Mbist_BV Stop"																														
+P	Flow_MD002_TD_Mbist_BV.txt	Flow_MD002_TD_Mbist_BV.txt	47	47						return																															

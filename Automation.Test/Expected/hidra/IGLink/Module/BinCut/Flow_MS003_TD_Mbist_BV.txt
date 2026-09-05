@@ -1,0 +1,35 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	MS003_TD_Mbist_BV_Header_1																															
+						print	"Flow MS003_TD_Mbist_BV Start"																															
+Instance_Bincut_MS,Row23,MSX003 SOC TD,TD		CP1	CP1		no_pattern	Test	MS003_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row24,MSX003 SOC TD,TD		CP1	CP1		no_pattern	Test	MS003_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Rest_SOC_MSX003_TD_CCX0_PL00_SSC_Rest_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row26,MSX003 SOC TD,TD		CP1	CP1		no_pattern	Test	MS003_MSX003_SOC_MSX003_TD_CAF0_PL00_PRC_SOC_MSX003_TD_CAF0_PL00_PRC_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row25,MSX003 GPU TD,TD		CP1	CP1		no_pattern	Test	MS003_GPU_MSX003_CFND_1_CFND_BV																					Flag-false	F_GFX0_X_GFXALL									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						If	(!F_SOC_TD_PIS && !F_SOC_TD_AT && !F_SOC_TD_AV && !F_SOC_TD_AD && !F_SOC_TD_MS && !F_SOC_TD_AV && !F_SOC_TD_SC&&!F_SOC_X_ANEALL) || F_Debug_all																															
+Instance_Bincut_BIST,Row458,MSX003 SOC BIST,Mbist		CP1			no_pattern	Test	MS003_MSX003_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_16_NoHarv_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+Instance_Bincut_BIST,Row459,MSX003 SOC BIST,Mbist		CP1			no_pattern	Test	MS003_MSX003_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_17_HarvAT_BV																					Flag-true	F_SOC_TD_AT									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row460,MSX003 SOC BIST,Mbist		CP1			no_pattern	Test	MS003_MSX003_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_18_HarvPIS_BV																					Flag-true	F_SOC_TD_PIS									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row461,MSX003 SOC BIST,Mbist		CP1			no_pattern	Test	MS003_MSX003_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_19_HarvAV_BV																					Flag-true	F_SOC_TD_AV									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row462,MSX003 SOC BIST,Mbist		CP1			no_pattern	Test	MS003_MSX003_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_20_HarvAD_BV																					Flag-true	F_SOC_TD_AD									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row463,MSX003 SOC BIST,Mbist		CP1			no_pattern	Test	MS003_MSX003_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_21_HarvMS_BV																					Flag-true	F_SOC_TD_MS									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row464,MSX003 SOC BIST,Mbist		CP1			no_pattern	Test	MS003_MSX003_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_22_HarvSC_BV																					Flag-true	F_SOC_TD_SC									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row465,MSX003 SOC BIST,Mbist		CP1			no_pattern	Test	MS003_MSX003_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_23_HarvANEALL_BV																					Flag-true	F_SOC_X_ANEALL									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						print	"Flow MS003_TD_Mbist_BV Stop"																															
+						Test	MS003_TD_Mbist_BV_Footer_1																															
+						Return																																

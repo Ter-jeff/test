@@ -1,0 +1,109 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow VddBinning_HVCC Start"																															
+Instance_Bincut_TDF_MEX,Row23,MEX007 CPU TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	ME007_MEX007_CpuTd_PP_BRNA0_C_PL10_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_6_ECPU_TDF_MEX007_DIV166_PL10_HBV_HBV		1200000000																													
+					MissPatternInCsv	Bintable	Bin_TD_ME007_HBV																															
+Instance_Bincut_TDF_MEX,Row24,MEX007 CPU TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	ME007_MEX007_CpuTd_PP_BRNA0_C_PL20_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_ECPU_TDF_MEX007_DIV166_PL20_HBV_HBV		1200001000																													
+					MissPatternInCsv	Bintable	Bin_TD_ME007_HBV																															
+Instance_Bincut_TDF_MEX,Row25,MEX007 CPU TD HBV,TD		CP2||FT1			MissPatternInCsv	Test	ME007_MEX007_CpuTd_PP_BRNA0_C_PL00_SC_E0XD_TDF_COM_AUT_MEXXXX_DM_DIV422_6_ECPU_TDF_MEX007_DIV422_PL00_HBV_HBV		1200002000																													
+					MissPatternInCsv	Bintable	Bin_TD_ME007_HBV																															
+Instance_Bincut_BIST_MEX,Row9,MEX007 CPU BIST LATR HBV,Mbist		(CP2||FT1) && BINCUT_WITH_BIST			MissPatternInCsv	Test	ME007_MEX007_CpuMbist_PP_BRNA0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_LATR_HBV		1200003000																													
+					MissPatternInCsv	Bintable	Bin_Mbist_ME007_HBV																															
+Instance_Bincut_BIST_MEX,Row23,MEX007 CPU BIST LATR HBV,Mbist		(CP2||FT1) && !BINCUT_WITH_BIST			MissPatternInCsv	Test	ME007_MEX007_CpuMbist_PP_BRNA0_C_PLLP_BI_E0XX_BXX_JTG_59N_MEXXXX_SI_XXXX_59N_LATR_BIRA_HBV		1200004000																													
+					MissPatternInCsv	Bintable	Bin_Mbist_ME007_HBV																															
+Instance_Bincut_TDF_MPX,Row149,MPX00H CPU TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MP00K_MPX00H_CpuTd_PP_BRNA0_C_PL10_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_16_PCPU_TDF_MPX00H_DIV166_PL10_HBV_HBV		1200005000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row150,MPX00H CPU TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MP00K_MPX00H_CpuTd_PP_BRNA0_C_PL20_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_PCPU_TDF_MPX00H_DIV166_PL20_HBV_HBV		1200006000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row151,MPX00H CPU TD HBV,TD		CP2||FT1			MissPatternInCsv	Test	MP00K_MPX00H_CpuTd_PP_BRNA0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_16_PCPU_TDF_MPX00H_DIV422_PL00_HBV_HBV		1200007000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row159,MPX00H SOC TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAA0_TDF_SSC_HAR_MPXXXX_DM_15_SOC_TD_MPX00G_CAA0_PL10_HBV		1200008000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row160,MPX00H SOC TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAA0_TDF_SSC_HAR_MPXXXX_DM_SOC_TD_MPX00G_CAA0_PL20_HBV		1200009000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row161,MPX00H SOC TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAB0_TDF_SSC_HAR_MPXXXX_DM_15_SOC_TD_MPX00G_CAB0_PL10_HBV		1200010000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row162,MPX00H SOC TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAB0_TDF_SSC_HAR_MPXXXX_DM_SOC_TD_MPX00G_CAB0_PL20_HBV		1200011000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row163,MPX00H SOC TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAC0_TDF_SSC_HAR_MPXXXX_DM_15_SOC_TD_MPX00G_CAC0_PL10_HBV		1200012000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row164,MPX00H SOC TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAC0_TDF_SSC_HAR_MPXXXX_DM_SOC_TD_MPX00G_CAC0_PL20_HBV		1200013000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row165,MPX00H SOC TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAD0_TDF_SSC_HAR_MPXXXX_DM_15_SOC_TD_MPX00G_CAD0_PL10_HBV		1200014000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row166,MPX00H SOC TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAD0_TDF_SSC_HAR_MPXXXX_DM_SOC_TD_MPX00G_CAD0_PL20_HBV		1200015000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row167,MPX00H SOC TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAE0_TDF_SSC_HAR_MPXXXX_DM_15_SOC_TD_MPX00G_CAE0_PL10_HBV		1200016000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row168,MPX00H SOC TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAE0_TDF_SSC_HAR_MPXXXX_DM_SOC_TD_MPX00G_CAE0_PL20_HBV		1200017000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row169,MPX00H SOC TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_15_SOC_TD_MPX00G_CAF0_PL10_HBV		1200018000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row170,MPX00H SOC TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_SOC_TD_MPX00G_CAF0_PL20_HBV		1200019000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row177,MPX00K CPU TD HBV,TD		CP2||FT1			MissPatternInCsv	Test	MP00K_MPX00K_CpuTd_PP_BRNA0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_19_PCPU_TDF_MPX00K_DIV422_PL00_HBV		1200020000																													
+					MissPatternInCsv	Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_BIST_MPX_CPU,Row22,MPX00H CPU BIST LATR HBV,Mbist		(CP2||FT1) && BINCUT_WITH_BIST			MissPatternInCsv	Test	MP00K_MPX00H_CpuMbist_PP_BRNA0_C_PLLP_BI_P0XX_BST_JTG_59N_MPXXXX_SI_LATR_LATR_HBV		1200021000																													
+					MissPatternInCsv	Bintable	Bin_Mbist_MP00K_HBV																															
+Instance_Bincut_BIST_MPX_CPU,Row21,MPX00J CPU BIST LATRNAMX HBV,Mbist		(CP2||FT1) && BINCUT_WITH_BIST			MissPatternInCsv	Test	MP00K_MPX00J_CpuMbist_PP_BRNA0_C_PLLP_BI_P0XD_BST_JTG_59N_MPXXXX_SI_LATRNAMX_SINGLE_LATRNAMX_HBV		1200022000																													
+					MissPatternInCsv	Bintable	Bin_Mbist_MP00K_HBV																															
+Instance_Bincut_TDF_MGX,Row137,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_MFSTP	CP2		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_GPU_MGX00D_TD_X7GR1_PL20_HBV		1200023000																													
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row138,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_MFSTP	FT1		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL10_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_96_GPU_MGX00D_TD_X7GR1_PL10_HBV		1200024000																													
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row139,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	CP2		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_1_GPU_MGX00D_TD_CF00_SCAN_PL20_HBV		1200025000																			Flag-false	F_GFX0_SCAN_CORE0									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row140,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	CP2		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_2_GPU_MGX00D_TD_CF01_SCAN_PL20_HBV		1200026000																			Flag-false	F_GFX0_SCAN_CORE1									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row141,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	CP2		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_3_GPU_MGX00D_TD_CF02_SCAN_PL20_HBV		1200027000																			Flag-false	F_GFX0_SCAN_CORE2									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row142,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	CP2		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_4_GPU_MGX00D_TD_CF03_SCAN_PL20_HBV		1200028000																			Flag-false	F_GFX0_SCAN_CORE3									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row143,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	CP2		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_5_GPU_MGX00D_TD_CF04_SCAN_PL20_HBV		1200029000																			Flag-false	F_GFX0_SCAN_CORE4									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row144,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	CP2		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_6_GPU_MGX00D_TD_CF05_SCAN_PL20_HBV		1200030000																			Flag-false	F_GFX0_SCAN_CORE5									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row145,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	CP2		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_7_GPU_MGX00D_TD_CF06_SCAN_PL20_HBV		1200031000																			Flag-false	F_GFX0_SCAN_CORE6									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row146,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	FT1		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL10_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_97_GPU_MGX00D_TD_CF00_SCAN_PL10_HBV		1200032000																			Flag-false	F_GFX0_SCAN_CORE0									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row147,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	FT1		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL10_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_98_GPU_MGX00D_TD_CF01_SCAN_PL10_HBV		1200033000																			Flag-false	F_GFX0_SCAN_CORE1									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row148,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	FT1		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL10_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_99_GPU_MGX00D_TD_CF02_SCAN_PL10_HBV		1200034000																			Flag-false	F_GFX0_SCAN_CORE2									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row149,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	FT1		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL10_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_100_GPU_MGX00D_TD_CF03_SCAN_PL10_HBV		1200035000																			Flag-false	F_GFX0_SCAN_CORE3									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row150,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	FT1		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL10_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_101_GPU_MGX00D_TD_CF04_SCAN_PL10_HBV		1200036000																			Flag-false	F_GFX0_SCAN_CORE4									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row151,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	FT1		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL10_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_102_GPU_MGX00D_TD_CF05_SCAN_PL10_HBV		1200037000																			Flag-false	F_GFX0_SCAN_CORE5									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row152,MGX00D GPU TD HBV,TD		(CP2||FT1) && GFX_SFSTP	FT1		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL10_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_103_GPU_MGX00D_TD_CF06_SCAN_PL10_HBV		1200038000																			Flag-false	F_GFX0_SCAN_CORE6									
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row153,MGX00D GPU TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL20_SC_CSO0_TDF_COM_AUT_ALLFRV_DM_GPU_MGX00D_TD_CSO0_SCAN_PL20_HBV		1200039000																													
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row154,MGX00D GPU TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MG00D_MGX00D_GpuTd_PP_BRNA0_L_PL10_SC_CSO0_TDF_COM_AUT_ALLFRV_DM_12_GPU_MGX00D_TD_CSO0_SCAN_PL10_HBV		1200040000																													
+					MissPatternInCsv	Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row89,MSX004_MAX003_MIX005_MLX001_MDX009 SOC TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MS004_MSX004_MAX003_MIX005_MLX001_MDX009_GpuTd_PP_BRNA0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_DM_MGX001_CFND_HBV_CP2_HBV		1200041000																													
+					MissPatternInCsv	Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row90,MSX004_MAX003_MIX005_MLX001_MDX009 SOC TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MS004_MSX004_MAX003_MIX005_MLX001_MDX009_SocTd_PP_BRNA0_S_XXXX_SC_CXXX_XXX_XXX_XXX_XXXXXX_DM_MS4_MA3_MI5_ML1_MD9_SOC_TD_HBV_CP2_HBV		1200042000																													
+					MissPatternInCsv	Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row91,MSX004_MAX003_MIX005_MLX001_MDX009 SOC TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MS004_MSX004_MAX003_MIX005_MLX001_MDX009_GpuTd_PP_BRNA0_L_PL10_SC_CFND_TDF_COM_AUT_ALLFRV_DM_3_MGX001_CFND_HBV_FT1_HBV		1200043000																													
+					MissPatternInCsv	Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row92,MSX004_MAX003_MIX005_MLX001_MDX009 SOC TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MS004_MSX004_MAX003_MIX005_MLX001_MDX009_SocTd_PP_BRNA0_S_XXXX_SC_CXXX_XXX_XXX_XXX_XXXXXX_DM_1_MS4_MA3_MI5_ML1_MD9_SOC_TD_HBV_FT1_HBV		1200044000																													
+					MissPatternInCsv	Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row65,MSX004 GPU TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MS004_MSX004_GpuTd_PP_BRNA0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_DM_GPU_TD_MSX004_CFND_PL20_HBV_HBV		1200045000																													
+					MissPatternInCsv	Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row77,MSX004 GPU TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MS004_MSX004_GpuTd_PP_BRNA0_L_PL10_SC_CFND_TDF_COM_AUT_ALLFRV_DM_3_GPU_TD_MSX004_CFND_PL10_HBV_HBV		1200046000																													
+					MissPatternInCsv	Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSD,Row52,MSD071_MSD092 SOC SBST HBV,TD		CP2||FT1			MissPatternInCsv	Test	MS004_MSD071_MSD092_SocTd_PP_BRNA0_S_XXXX_FU_XXXX_XXX_XXX_XXX_XXXXXX_SI_SXXXXXXXXXXXX_MSD071_MSD092_SOC_SBST_HBV_HBV		1200047000																													
+					MissPatternInCsv	Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSE_MSP,Row27,MSE024_MSP014 CPU TD DOMAIN HBV,TD		CP2||FT1			MissPatternInCsv	Test	MS004_MSE024_MSP014_CpuTd_PP_BRNA0_C_XX0X_XX_XXXX_XXX_XXX_XXX_MXXXXX_DM_XXMXXXX_1_MSE024_MSP014_CPU_TD_DOMAIN_HBV_HBV		1200048000																													
+					MissPatternInCsv	Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row7,MRX001 SOC TD HBV,TD		CP2||FT1	CP2		MissPatternInCsv	Test	MS004_MRX001_SocTd_PP_BRNA0_S_PL20_SC_CPMF_TDF_SSC_AUT_MRXXXX_DM_SOC_TD_MRX001_CPMF_PL20_HBV		1200049000																													
+					MissPatternInCsv	Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row8,MRX001 SOC TD HBV,TD		CP2||FT1	FT1		MissPatternInCsv	Test	MS004_MRX001_SocTd_PP_BRNA0_S_PL10_SC_CPMF_TDF_SSC_AUT_MRXXXX_DM_SOC_TD_MRX001_CPMF_PL10_HBV		1200050000																													
+					MissPatternInCsv	Bintable	Bin_TD_MS004_HBV																															
+						print	"Flow VddBinning_HVCC Stop"																															
+						Return																																

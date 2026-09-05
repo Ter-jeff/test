@@ -1,0 +1,19 @@
+SpiMosiDcssPin	QSPI0_DQ0	
+SpiMisoDigCapPin	QSPI0_DQ1	
+SpiromSizeMBytes	8	
+SpiromId	0xef,0x65,0x17	
+SpiromEraseTimeMs	160	
+SpiromEraseCommand	199	
+SpiromSetEraseAddr	FALSE	
+BootupInputPinsLow	RTOS_Boot_low	
+BootupInputPinsHigh	RTOS_Boot_high	
+BootupInputPinsHighToLow	
+BootupInputPinsLowToHigh	RTOS_Boot_L2H	
+UartDataBits	7	
+UartParity	TRUE	
+UartStopBits	1	
+UartBaudRate	3200	
+RtosSupplies	QSPI_PWR_1P2	
+GpioPassFailPins	
+BootCaptureTimeSeconds	3	
+SpiromBinaryPath	.\Pattern\SPIROM\RTOS_GLNA0_ATE_9.SPI	

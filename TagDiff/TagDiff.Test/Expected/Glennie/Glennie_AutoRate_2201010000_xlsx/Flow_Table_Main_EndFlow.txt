@@ -1,0 +1,9 @@
+Pass Rate	20.00%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	5	Pass Rows	1																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+MissingCompared	Flow_Table_Main_EndFlow.txt		5							Bintable	Bin01_Prime_Pass_EVS1																														
+MissingCompared	Flow_Table_Main_EndFlow.txt		6							Bintable	Bin01_SOC_Repair_Pass_EVS1																														
+MissingCompared	Flow_Table_Main_EndFlow.txt		7							Bintable	Bin02_Prime_Pass_EVS2																														
+MissingCompared	Flow_Table_Main_EndFlow.txt		8							Bintable	Bin02_SOC_Repair_Pass_EVS2																														
+P	Flow_Table_Main_EndFlow.txt	Flow_Table_Main_EndFlow.txt	9	5						return																															

@@ -1,0 +1,279 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow VddBinning_HVCC Start"																															
+Instance_Bincut_TDF_MEX,Row23,MEX007 CPU TD HBV,TD		FT2||FT1	FT1			Test	ME007_MEX007_CpuTd_PP_BRNB0_C_PL10_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_6_ECPU_TDF_MEX007_DIV166_PL10_HBV_HBV		1200000000																													
+						Bintable	Bin_TD_ME007_HBV																															
+Instance_Bincut_TDF_MEX,Row24,MEX007 CPU TD HBV,TD		FT2||FT1	FT2			Test	ME007_MEX007_CpuTd_PP_BRNB0_C_PL20_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_ECPU_TDF_MEX007_DIV166_PL20_HBV_HBV		1200001000																													
+						Bintable	Bin_TD_ME007_HBV																															
+Instance_Bincut_TDF_MEX,Row25,MEX007 CPU TD HBV,TD		FT2||FT1				Test	ME007_MEX007_CpuTd_PP_BRNB0_C_PL00_SC_E0XD_TDF_COM_AUT_MEXXXX_DM_DIV422_6_ECPU_TDF_MEX007_DIV422_PL00_HBV_HBV		1200002000																													
+						Bintable	Bin_TD_ME007_HBV																															
+						If	(!F_ECPU_HARV_CORE0&& !F_ECPU_HARV_CORE1&& !F_ECPU_HARV_CORE2&&!F_ECPU_HARV_CORE3) || F_Debug_all																															
+Instance_Bincut_BIST_MEX,Row9,MEX007 CPU BIST LATR HBV,Mbist		(FT2||FT1) && BINCUT_WITH_BIST				Test	ME007_MEX007_CpuMbist_PP_BRNA0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_LATR_HBV		1200003000																													
+						Bintable	Bin_Mbist_ME007_HBV																															
+						EndIf																																
+Instance_Bincut_BIST_MEX,Row23,MEX007 CPU BIST LATR HBV,Mbist		(FT2||FT1) && !BINCUT_WITH_BIST				Test	ME007_MEX007_CpuMbist_PP_BRNA0_C_PLLP_BI_E0XX_BXX_JTG_59N_MEXXXX_SI_XXXX_59N_LATR_BIRA_HBV		1200004000																													
+						Bintable	Bin_Mbist_ME007_HBV																															
+						If	(!F_ECPU_HARV_CORE0&&!F_ECPU_HARV_CORE_3_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MEX,Row32,MEX007 CPU BIST LATR HBV,Mbist		(FT2||FT1) && BINCUT_WITH_BIST				Test	ME007_MEX007_CpuMbist_PP_BRNX0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_LATR_CORE0_HBV		1200005000																													
+						Bintable	Bin_Mbist_ME007_HBV																															
+						EndIf																																
+						If	(!F_ECPU_HARV_CORE1&&!F_ECPU_HARV_CORE_3_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MEX,Row41,MEX007 CPU BIST LATR HBV,Mbist		(FT2||FT1) && BINCUT_WITH_BIST				Test	ME007_MEX007_CpuMbist_PP_BRNX0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_1_LATR_CORE1_HBV		1200006000																													
+						Bintable	Bin_Mbist_ME007_HBV																															
+						EndIf																																
+						If	(!F_ECPU_HARV_CORE2&&!F_ECPU_HARV_CORE_3_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MEX,Row50,MEX007 CPU BIST LATR HBV,Mbist		(FT2||FT1) && BINCUT_WITH_BIST				Test	ME007_MEX007_CpuMbist_PP_BRNX0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_2_LATR_CORE2_HBV		1200007000																													
+						Bintable	Bin_Mbist_ME007_HBV																															
+						EndIf																																
+						If	(!F_ECPU_HARV_CORE3&&!F_ECPU_HARV_CORE_3_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MEX,Row59,MEX007 CPU BIST LATR HBV,Mbist		(FT2||FT1) && BINCUT_WITH_BIST				Test	ME007_MEX007_CpuMbist_PP_BRNX0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_3_LATR_CORE3_HBV		1200008000																													
+						Bintable	Bin_Mbist_ME007_HBV																															
+						EndIf																																
+Instance_Bincut_TDF_MPX,Row149,MPX00H CPU TD HBV,TD		FT2||FT1	FT1			Test	MP00K_MPX00H_CpuTd_PP_BRNB0_C_PL10_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_16_PCPU_TDF_MPX00H_DIV166_PL10_HBV_HBV		1200009000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row150,MPX00H CPU TD HBV,TD		FT2||FT1	FT2			Test	MP00K_MPX00H_CpuTd_PP_BRNB0_C_PL20_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_PCPU_TDF_MPX00H_DIV166_PL20_HBV_HBV		1200010000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row151,MPX00H CPU TD HBV,TD		FT2||FT1				Test	MP00K_MPX00H_CpuTd_PP_BRNB0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_16_PCPU_TDF_MPX00H_DIV422_PL00_HBV_HBV		1200011000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row159,MPX00H SOC TD HBV,TD		FT2||FT1	FT1			Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAA0_TDF_SSC_HAR_MPXXXX_DM_15_SOC_TD_MPX00G_CAA0_PL10_HBV		1200012000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row160,MPX00H SOC TD HBV,TD		FT2||FT1	FT2			Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAA0_TDF_SSC_HAR_MPXXXX_DM_SOC_TD_MPX00G_CAA0_PL20_HBV		1200013000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row161,MPX00H SOC TD HBV,TD		FT2||FT1	FT1			Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAB0_TDF_SSC_HAR_MPXXXX_DM_15_SOC_TD_MPX00G_CAB0_PL10_HBV		1200014000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row162,MPX00H SOC TD HBV,TD		FT2||FT1	FT2			Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAB0_TDF_SSC_HAR_MPXXXX_DM_SOC_TD_MPX00G_CAB0_PL20_HBV		1200015000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row163,MPX00H SOC TD HBV,TD		FT2||FT1	FT1			Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAC0_TDF_SSC_HAR_MPXXXX_DM_15_SOC_TD_MPX00G_CAC0_PL10_HBV		1200016000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row164,MPX00H SOC TD HBV,TD		FT2||FT1	FT2			Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAC0_TDF_SSC_HAR_MPXXXX_DM_SOC_TD_MPX00G_CAC0_PL20_HBV		1200017000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row165,MPX00H SOC TD HBV,TD		FT2||FT1	FT1			Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAD0_TDF_SSC_HAR_MPXXXX_DM_15_SOC_TD_MPX00G_CAD0_PL10_HBV		1200018000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row166,MPX00H SOC TD HBV,TD		FT2||FT1	FT2			Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAD0_TDF_SSC_HAR_MPXXXX_DM_SOC_TD_MPX00G_CAD0_PL20_HBV		1200019000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row167,MPX00H SOC TD HBV,TD		FT2||FT1	FT1			Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL10_SC_CAE0_TDF_SSC_HAR_MPXXXX_DM_15_SOC_TD_MPX00G_CAE0_PL10_HBV		1200020000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row168,MPX00H SOC TD HBV,TD		FT2||FT1	FT2			Test	MP00K_MPX00H_SocTd_PP_BRNA0_S_PL20_SC_CAE0_TDF_SSC_HAR_MPXXXX_DM_SOC_TD_MPX00G_CAE0_PL20_HBV		1200021000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row169,MPX00H SOC TD HBV,TD		FT2||FT1	FT1			Test	MP00K_MPX00H_SocTd_PP_BRNB0_S_PL10_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_15_SOC_TD_MPX00G_CAF0_PL10_HBV		1200022000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row170,MPX00H SOC TD HBV,TD		FT2||FT1	FT2			Test	MP00K_MPX00H_SocTd_PP_BRNB0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_SOC_TD_MPX00G_CAF0_PL20_HBV		1200023000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+Instance_Bincut_TDF_MPX,Row177,MPX00K CPU TD HBV,TD		FT2||FT1				Test	MP00K_MPX00K_CpuTd_PP_BRNB0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_19_PCPU_TDF_MPX00K_DIV422_PL00_HBV		1200024000																													
+						Bintable	Bin_TD_MP00K_HBV																															
+						If	(!F_PCPU_HARV_CORE0&&!F_PCPU_HARV_CORE1) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_CPU,Row22,MPX00H CPU BIST LATR HBV,Mbist		(FT2||FT1) && BINCUT_WITH_BIST				Test	MP00K_MPX00H_CpuMbist_PP_BRNA0_C_PLLP_BI_P0XX_BST_JTG_59N_MPXXXX_SI_LATR_LATR_HBV		1200025000																													
+						Bintable	Bin_Mbist_MP00K_HBV																															
+						EndIf																																
+						If	(!F_PCPU_HARV_CORE0&&!F_PCPU_HARV_CORE_1_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_CPU,Row59,MPX00H CPU BIST LATR HBV,Mbist		(FT2||FT1) && BINCUT_WITH_BIST				Test	MP00K_MPX00H_CpuMbist_PP_BRNX0_C_PLLP_BI_P0XX_BST_JTG_59N_MPXXXX_SI_LATR_LATR_CORE0_HBV		1200026000																													
+						Bintable	Bin_Mbist_MP00K_HBV																															
+						EndIf																																
+						If	(!F_PCPU_HARV_CORE1&&!F_PCPU_HARV_CORE_1_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_CPU,Row78,MPX00H CPU BIST LATR HBV,Mbist		(FT2||FT1) && BINCUT_WITH_BIST				Test	MP00K_MPX00H_CpuMbist_PP_BRNX0_C_PLLP_BI_P0XX_BST_JTG_59N_MPXXXX_SI_LATR_1_LATR_CORE1_HBV		1200027000																													
+						Bintable	Bin_Mbist_MP00K_HBV																															
+						EndIf																																
+						If	(!F_PCPU_HARV_CORE0&&!F_PCPU_HARV_CORE1) || F_Debug_all																															
+Instance_Bincut_BIST_MPX_CPU,Row21,MPX00J CPU BIST LATRNAMX HBV,Mbist		(FT2||FT1) && BINCUT_WITH_BIST				Test	MP00K_MPX00J_CpuMbist_PP_BRNA0_C_PLLP_BI_P0XD_BST_JTG_59N_MPXXXX_SI_LATRNAMX_SINGLE_LATRNAMX_HBV		1200028000																													
+						Bintable	Bin_Mbist_MP00K_HBV																															
+						EndIf																																
+Instance_Bincut_TDF_MGX,Row28,MGX00D GPU TD HBV,TD		FT2||FT1	FT2			Test	MG00D_MGX00D_X7GR1_PL20_GPU_MGX00D_TD_X7GR1_PL20_HBV		1200029000																													
+						Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row29,MGX00D GPU TD HBV,TD		FT2||FT1	FT1			Test	MG00D_MGX00D_X7GR1_PL10_12_GPU_MGX00D_TD_X7GR1_PL10_HBV		1200030000																													
+						Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row30,MGX00D GPU TD HBV,TD		FT2||FT1	FT2			Test	MG00D_MGX00D_CSO0_PL20_GPU_MGX00D_TD_CSO0_PL20_HBV		1200031000																													
+						Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MGX,Row31,MGX00D GPU TD HBV,TD		FT2||FT1	FT1			Test	MG00D_MGX00D_CSO0_PL10_12_GPU_MGX00D_TD_CSO0_PL10_HBV		1200032000																													
+						Bintable	Bin_TD_MG00D_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row89,MSX004_MAX003_MIX005_MLX001_MDX009 SOC TD HBV,TD		FT2||FT1	FT2			Test	MS004_MSX004_MAX003_MIX005_MLX001_MDX009_GpuTd_PP_BRNB0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_DM_MGX001_CFND_HBV_CP2_HBV		1200033000																													
+						Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row90,MSX004_MAX003_MIX005_MLX001_MDX009 SOC TD HBV,TD		FT2||FT1	FT2			Test	MS004_MSX004_MAX003_MIX005_MLX001_MDX009_SocTd_PP_BRNX0_S_XXXX_SC_CXXX_XXX_XXX_XXX_XXXXXX_DM_MS4_MA3_MI5_ML1_MD9_SOC_TD_HBV_CP2_HBV		1200034000																													
+						Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row91,MSX004_MAX003_MIX005_MLX001_MDX009 SOC TD HBV,TD		FT2||FT1	FT1			Test	MS004_MSX004_MAX003_MIX005_MLX001_MDX009_GpuTd_PP_BRNB0_L_PL10_SC_CFND_TDF_COM_AUT_ALLFRV_DM_3_MGX001_CFND_HBV_FT1_HBV		1200035000																													
+						Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row92,MSX004_MAX003_MIX005_MLX001_MDX009 SOC TD HBV,TD		FT2||FT1	FT1			Test	MS004_MSX004_MAX003_MIX005_MLX001_MDX009_SocTd_PP_BRNX0_S_XXXX_SC_CXXX_XXX_XXX_XXX_XXXXXX_DM_1_MS4_MA3_MI5_ML1_MD9_SOC_TD_HBV_FT1_HBV		1200036000																													
+						Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row65,MSX004 GPU TD HBV,TD		FT2||FT1	FT2			Test	MS004_MSX004_GpuTd_PP_BRNB0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_DM_GPU_TD_MSX004_CFND_PL20_HBV_HBV		1200037000																													
+						Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row77,MSX004 GPU TD HBV,TD		FT2||FT1	FT1			Test	MS004_MSX004_GpuTd_PP_BRNB0_L_PL10_SC_CFND_TDF_COM_AUT_ALLFRV_DM_3_GPU_TD_MSX004_CFND_PL10_HBV_HBV		1200038000																													
+						Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSD,Row52,MSD071_MSD092 SOC SBST HBV,TD		FT2||FT1				Test	MS004_MSD071_MSD092_MSD071_MSD092_SBST_HBV_MSD071_MSD092_SOC_SBST_HBV_HBV		1200039000																													
+						Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSE_MSP,Row27,MSE024_MSP014 CPU TD DOMAIN HBV,TD		FT2||FT1				Test	MS004_MSE024_MSP014_CpuTd_PP_BRNX0_C_XX0X_XX_XXXX_XXX_XXX_XXX_MXXXXX_DM_XXMXXXX_1_MSE024_MSP014_CPU_TD_DOMAIN_HBV_HBV		1200040000																													
+						Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row7,MRX001 SOC TD HBV,TD		FT2||FT1	FT2			Test	MS004_MRX001_SocTd_PP_BRNB0_S_PL20_SC_CPMF_TDF_SSC_AUT_MRXXXX_DM_SOC_TD_MRX001_CPMF_PL20_HBV		1200041000																													
+						Bintable	Bin_TD_MS004_HBV																															
+Instance_Bincut_TDF_MSX_MFX_MLX,Row8,MRX001 SOC TD HBV,TD		FT2||FT1	FT1			Test	MS004_MRX001_SocTd_PP_BRNB0_S_PL10_SC_CPMF_TDF_SSC_AUT_MRXXXX_DM_SOC_TD_MRX001_CPMF_PL10_HBV		1200042000																													
+						Bintable	Bin_TD_MS004_HBV																															
+Call NwireFlow from BMS,TNum 1200043000 - 1200048000		FT1||FT2				call	Flow_nWire_Default_Disable																															
+Relay instance from BMS		FT1||FT2				Test	Relay_On_HARDIP		1200048000																													
+TTRTable,Row0,MDX00A ILB HBV,ILB		FT1||FT2	FT1,FT2			Test	MD00A_Hardip_MDX00A_SocDDR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW__CallInst_HBV		1200049000												F_BV_CALLINST																	INTSMDADQW	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH0_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH0_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH0_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01__CH0_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03__CH0_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05__CH0_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH0_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH0_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH0_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH0_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH0_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH0_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH0_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH0_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH0_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01__CH0_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03__CH0_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05__CH0_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH0_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH0_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH0_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH0_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH0_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH0_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH1_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH1_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH1_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01__CH1_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03__CH1_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05__CH1_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH1_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH1_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH1_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH1_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH1_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH1_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH1_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH1_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH1_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01__CH1_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03__CH1_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05__CH1_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH1_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH1_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH1_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR00_01_CH1_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR02_03_CH1_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQW_HV	DDR04_05_CH1_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqw_MeasC_JTAG_TDO	
+						Bintable	Bin_ILB_MD00A_HBV																															
+TTRTable,Row0,MDX00A ILB HBV,ILB		FT1||FT2	FT1,FT2			Test	MD00A_Hardip_MDX00A_SocDDR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR__CallInst_HBV		1200050000												F_BV_CALLINST																	INTSMDADQR	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH0_DQ0__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH0_DQ0__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH0_DQ0__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH0_DQ0__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH0_DQ0__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH0_DQ0__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH0_DQ0__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH0_DQ0__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH0_DQ0__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH0_DQ1__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH0_DQ1__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH0_DQ1__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH0_DQ1__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH0_DQ1__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH0_DQ1__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH0_DQ1__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH0_DQ1__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH0_DQ1__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH1_DQ0__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH1_DQ0__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH1_DQ0__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH1_DQ0__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH1_DQ0__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH1_DQ0__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH1_DQ0__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH1_DQ0__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH1_DQ0__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH1_DQ1__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH1_DQ1__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH1_DQ1__eye_done		2	2										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH1_DQ1__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH1_DQ1__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH1_DQ1__eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR00_01_CH1_DQ1__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR02_03_CH1_DQ1__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDADQR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDADQR_HV	DDR04_05_CH1_DQ1__eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdadqr_MeasC_JTAG_TDO	
+						Bintable	Bin_ILB_MD00A_HBV																															
+TTRTable,Row0,MDX00A ILB HBV,ILB		FT1||FT2	FT1,FT2			Test	MD00A_Hardip_MDX00A_SocDDR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA__CallInst_HBV		1200051000												F_BV_CALLINST																	INTSMDACA	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR00_01_CH0__CA_CKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR02_03_CH0__CA_CKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR04_05_CH0__CA_CKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR00_01_CH0__CA_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR02_03_CH0__CA_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR04_05_CH0__CA_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR00_01_CH0__CA_CKSWEEP_eye_width		64	270										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR02_03_CH0__CA_CKSWEEP_eye_width		64	270										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR04_05_CH0__CA_CKSWEEP_eye_width		64	270										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR00_01_CH0__CA_CKSWEEP_eye_endpoint		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR02_03_CH0__CA_CKSWEEP_eye_endpoint		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR04_05_CH0__CA_CKSWEEP_eye_endpoint		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR00_01_CH1__CA_CKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR02_03_CH1__CA_CKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR04_05_CH1__CA_CKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR00_01_CH1__CA_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR02_03_CH1__CA_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR04_05_CH1__CA_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR00_01_CH1__CA_CKSWEEP_eye_width		64	270										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR02_03_CH1__CA_CKSWEEP_eye_width		64	270										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR04_05_CH1__CA_CKSWEEP_eye_width		64	270										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR00_01_CH1__CA_CKSWEEP_eye_endpoint		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR02_03_CH1__CA_CKSWEEP_eye_endpoint		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTSMDACA_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTS_MDACA_HV	DDR04_05_CH1__CA_CKSWEEP_eye_endpoint		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_ints_mdaca_MeasC_JTAG_TDO	
+						Bintable	Bin_ILB_MD00A_HBV																															
+TTRTable,Row0,MDX00A ILB HBV,ILB		FT1||FT2	FT1,FT2			Test	MD00A_Hardip_MDX00A_SocDDR_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW__CallInst_HBV		1200052000												F_BV_CALLINST																	INTECCMDADQW	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH0_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH0_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH0_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01__CH0_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03__CH0_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05__CH0_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH0_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH0_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH0_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH0_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH0_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH0_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH0_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH0_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH0_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01__CH0_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03__CH0_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05__CH0_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH0_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH0_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH0_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH0_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH0_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH0_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH1_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH1_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH1_DQ0__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01__CH1_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03__CH1_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05__CH1_DQ0_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH1_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH1_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH1_DQ0__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH1_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH1_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH1_DQ0__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH1_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH1_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH1_DQ1__WCKSWEEP_eye_done		34	34										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01__CH1_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03__CH1_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05__CH1_DQ1_first_code_pass		0	0										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH1_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH1_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH1_DQ1__WCKSWEEP_eye_width		16	70										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR00_01_CH1_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR02_03_CH1_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Use-Limit	AMP_INTECCMDADQW_PP_BRNA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX00A_SI_INTECC_MDADQW_HV	DDR04_05_CH1_DQ1__WCKSWEEP_eye_end_point		0	65535										F_BV_CALLINST																pp_brna0_s_fulp_an_ddio_ilb_jtg_lp5_mdx00a_si_intecc_mdadqw_MeasC_JTAG_TDO	
+						Bintable	Bin_ILB_MD00A_HBV																															
+Relay instance from BMS		FT1||FT2				Test	Relay_Off_HARDIP		1200053000																													
+Call NwireFlow from BMS,TNum 1200054000 - 1200057000		FT1||FT2				call	Flow_nWire_Default_Enable																															
+						print	"Flow VddBinning_HVCC Stop"																															
+						Return																																

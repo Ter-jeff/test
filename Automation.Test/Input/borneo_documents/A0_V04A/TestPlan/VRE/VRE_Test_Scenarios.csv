@@ -1,0 +1,10 @@
+Case ID,SubProgram,Enable words,ProcesureName,InstanceName,Pattern1,Pattern2,Pattern3,User_Def,Level check,Expected Hard Bin,Expected Soft Bin,Comment
+1,Sub_Digital,Enable_SAA_CP;Enable_Mbist_Repair;Enable_Harvesting_FinalSummary,IgxlWrapper.CoreTestLibrary.FunctionalTestMain.FuncTestMain,*,*_L_*_PL*_SC_MFXX_SAA,PP_*_L_INLP_SC_CF[0-1][0-5]_SAA_COM_AUT_ALLFRV_DM,*_L_*_PL*SC*_CFXX*,,1,7,*,Instance-flag harvesting: 1x FSTP harvesting; Template
+2,,Enable_SAA_CP;Enable_Mbist_Repair;Enable_Harvesting_FinalSummary,IgxlWrapper.CoreTestLibrary.FunctionalTestMain.FuncTestMain,*,*_L_*_PL*_SC_MFXX_SAA,*CF01_*_*_,*_L_*_PL*SC*_CFXX*,,1,32,*,Instance-flag harvesting: 2x FSTP failing -- non-harvestable; Template
+2,,,,*,*_L_*_PL*_SC_MFXX_SAA,*CF02_*_*_,*_L_*_PL*SC*_CFXX*,,1,,,
+3,,Enable_SAA_CP;Enable_Mbist_Repair;Enable_Harvesting_FinalSummary,IgxlWrapper.CoreTestLibrary.FunctionalTestMain.FuncTestMain,*,*_L_*_PL*_SC_MFXX_SAA,PP_*_L_INLP_SC_CF0[0-5]_SAA_COM_AUT_ALLFRV_DM,PP_*_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM,,2,8,*,Valid 2-FSTP harvesting case; Template
+3,,Enable_SAA_CP;Enable_Mbist_Repair;Enable_Harvesting_FinalSummary,IgxlWrapper.CoreTestLibrary.FunctionalTestMain.FuncTestMain,*,*_L_*_PL*_SC_MFXX_SAA,PP_*_L_INLP_SC_CF1[0-5]_SAA_COM_AUT_ALLFRV_DM,PP_*_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM,,1,,*,
+4,,Enable_SAA_CP;Enable_Mbist_Repair;Enable_Harvesting_FinalSummary,IgxlWrapper.CoreTestLibrary.FunctionalTestMain.FuncTestMain,*_MHV,PP_BRNA0_L_PLLP_BI_PALL_BIR_JTG_55N_MGSXXX_SI,,,,1,33,*,Mbist failing bin; Template
+4,,,,*_MHV,PP_BRNA0_L_PLLP_BI_PSOC_BST_JTG_55N_MSXXXX_SI,,,,1,,,
+5,,Enable_SAA_CP;Enable_Mbist_Repair;Enable_Harvesting_FinalSummary,IgxlWrapper.CoreTestLibrary.FunctionalTestMain.FuncTestMain,*,*_PL*_H0PD_SAA_COM_HAR_*,,,FailPin: pg_CPU_Main,1,13,*,Pin based harvesting
+6,,Enable_SAA_CP;Enable_Mbist_Repair;Enable_Harvesting_FinalSummary;Enable_Bincut,IgxlWrapper.CoreTestLibrary.BinCut.BinCutMain.BinCutTest,*_BV,*_PL*CSA0_TDF_SSC*,,,,1,38,*,BV failing bin

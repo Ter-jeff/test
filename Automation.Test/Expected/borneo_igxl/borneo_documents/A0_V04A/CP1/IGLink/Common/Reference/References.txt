@@ -1,0 +1,10 @@
+DTReferencesSheet,version=2.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	References
+	
+	File Path	Comment
+	C:\WINDOWS\system32\scrrun.dll	
+	C:\WINDOWS\system32\vbscript.dll\3	
+	.\central_library_cs\bin\CoreTestLibrary.dll	
+	.\central_library_cs\bin\Teradyne.TestAPI.dll	
+	.\central_library_cs\bin\PlatformInterfacesLibrary.dll	
+	.\central_library_cs\bin\PlatformCommonTestLibrary.dll	
+	.\central_library_cs\bin\PowerBinning.dll	

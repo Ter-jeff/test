@@ -1,0 +1,31 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"*print: SOC_LVCC_Header start*"																															
+		!ShmooOnly				Test	DFTL_SOC_FIXED_MFX001_SOCTDF_CHI0_PL10_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV		52060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_FIXED_MFX001_SOCTDF_CHI0_PL10_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV SOCTDF_VDDFIXEDALL_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_FIXED_MFX001_SOCTDF_CHI0_PL20_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV		54060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_FIXED_MFX001_SOCTDF_CHI0_PL20_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV SOCTDF_VDDFIXEDALL_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DCSDDR_MDX009_SOCTDF_CDB0_PL10_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV		50038060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DCSDDR_MDX009_SOCTDF_CDB0_PL10_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV SOCTDF_VDDDCSDDR_Jump_1		50040060												F_Dummy																	
+						nop	Bin_initFlow_BinOut		50042060																													
+		!ShmooOnly				Test	DFTL_SOC_DCSDDR_MDX00A_SOCTDF_CDB0_PL10_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV		50044060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DCSDDR_MDX00A_SOCTDF_CDB0_PL10_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV SOCTDF_VDDDCSDDR_Jump_11		50046060												F_Dummy																	
+						nop	Bin_initFlow_BinOut		50048060																													
+		!ShmooOnly				Test	DFTL_SOC_DCSDDR_MDX009_SOCTDF_CDB0_PL20_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV		50050060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DCSDDR_MDX009_SOCTDF_CDB0_PL20_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV SOCTDF_VDDDCSDDR_Jump_1		50052060												F_Dummy																	
+						nop	Bin_initFlow_BinOut		50054060																													
+		!ShmooOnly				Test	DFTL_SOC_DCSDDR_MDX00A_SOCTDF_CDB0_PL20_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV		50056060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DCSDDR_MDX00A_SOCTDF_CDB0_PL20_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV SOCTDF_VDDDCSDDR_Jump_11		50058060												F_Dummy																	
+						nop	Bin_initFlow_BinOut		50060060																													
+		!ShmooOnly				Test	DFTL_SOC_FIXED_MFX001_SOCTDF_CCI0_PL10_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV		50062060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_FIXED_MFX001_SOCTDF_CCI0_PL10_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV SOCTDF_VDDFIXEDALL_Jump_1		50064060												F_Dummy																	
+						nop	Bin_initFlow_BinOut		50066060																													
+		!ShmooOnly				Test	DFTL_SOC_FIXED_MFX001_SOCTDF_CCI0_PL20_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV		50068060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_FIXED_MFX001_SOCTDF_CCI0_PL20_SSC_X_X_SelsrmSSSSS_DFCM10M20M40M60M80_CZ_NV SOCTDF_VDDFIXEDALL_Jump_1		50070060												F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						print	"*print: SOC_Lvcc_Footer end*"																															
+						return																																

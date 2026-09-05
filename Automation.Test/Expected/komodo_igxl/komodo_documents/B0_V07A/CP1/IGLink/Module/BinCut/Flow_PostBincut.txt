@@ -1,0 +1,411 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow PostBincut Start"																															
+Instance_Bincut_PostBincut,Row2,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_SOC_MBIST_NRT_PBC_SOC_MBIST_NRT_PBC_outsidebincut_BV		71500000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row3,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_PBC_SRVC_SOC_MBIST_SRT_PBC_SRVC_outsidebincut_BV		71501000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						If	(!F_SOC_HARV_IS && !F_SOC_HARV_ED0 && !F_SOC_HARV_ED1 && !F_SOC_HARV_ID && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_SC) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row5,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_PBC_NoSRVC_SOC_MBIST_SRT_PBC_NoSRVC_outsidebincut_BV		71502000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row6,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOISP_SRT_NOISP_SRT_outsidebincut_BV		71503000																			Flag-true	F_SOC_BIST_IS									
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						If	(F_SOC_BIST_AT0||F_SOC_BIST_AT2) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row7,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOATC02_SRT_NOATC02_SRT_outsidebincut_BV		71504000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(F_SOC_BIST_AT1||F_SOC_BIST_AT3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row8,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOATC13_SRT_NOATC13_SRT_outsidebincut_BV		71505000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row9,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOED0_SRT_NOED0_SRT_outsidebincut_BV		71506000																			Flag-true	F_SOC_BIST_ED0									
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row10,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOED1_SRT_NOED1_SRT_outsidebincut_BV		71507000																			Flag-true	F_SOC_BIST_ED1									
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row11,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOID_SRT_NOID_SRT_outsidebincut_BV		71508000																			Flag-true	F_SOC_BIST_ID									
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row12,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOSC_SRT_NOSC_SRT_outsidebincut_BV		71509000																			Flag-true	F_SOC_BIST_SC									
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE_16_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row14,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_ANE0ALL_ANE0ALL_outsidebincut_BV		71510000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE0) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row15,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH1_NOANE0GH1_outsidebincut_BV		71511000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE2) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row16,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH2_NOANE0GH2_outsidebincut_BV		71512000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row17,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH3_NOANE0GH3_outsidebincut_BV		71513000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row18,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH4_NOANE0GH4_outsidebincut_BV		71514000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE4) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row19,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH5_NOANE0GH5_outsidebincut_BV		71515000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE6) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row20,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH6_NOANE0GH6_outsidebincut_BV		71516000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE5) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row21,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH7_NOANE0GH7_outsidebincut_BV		71517000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE7) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row22,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH8_NOANE0GH8_outsidebincut_BV		71518000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE8) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row23,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH9_NOANE0GH9_outsidebincut_BV		71519000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE10) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row24,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH10_NOANE0GH10_outsidebincut_BV		71520000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE9) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row25,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH11_NOANE0GH11_outsidebincut_BV		71521000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE11) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row26,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH12_NOANE0GH12_outsidebincut_BV		71522000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE12) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row27,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH13_NOANE0GH13_outsidebincut_BV		71523000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE14) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row28,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH14_NOANE0GH14_outsidebincut_BV		71524000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE13) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row29,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH15_NOANE0GH15_outsidebincut_BV		71525000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE15) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row30,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH16_NOANE0GH16_outsidebincut_BV		71526000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE16) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row31,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE0GH17_NOANE0GH17_outsidebincut_BV		71527000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE_16_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row32,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_ANE1ALL_ANE1ALL_outsidebincut_BV		71528000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE0) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row33,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH1_NOANE1GH1_outsidebincut_BV		71529000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE2) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row34,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH2_NOANE1GH2_outsidebincut_BV		71530000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row35,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH3_NOANE1GH3_outsidebincut_BV		71531000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row36,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH4_NOANE1GH4_outsidebincut_BV		71532000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE4) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row37,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH5_NOANE1GH5_outsidebincut_BV		71533000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE6) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row38,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH6_NOANE1GH6_outsidebincut_BV		71534000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE5) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row39,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH7_NOANE1GH7_outsidebincut_BV		71535000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE7) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row40,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH8_NOANE1GH8_outsidebincut_BV		71536000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE8) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row41,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH9_NOANE1GH9_outsidebincut_BV		71537000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE10) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row42,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH10_NOANE1GH10_outsidebincut_BV		71538000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE9) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row43,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH11_NOANE1GH11_outsidebincut_BV		71539000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE11) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row44,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH12_NOANE1GH12_outsidebincut_BV		71540000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE12) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row45,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH13_NOANE1GH13_outsidebincut_BV		71541000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE14) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row46,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH14_NOANE1GH14_outsidebincut_BV		71542000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE13) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row47,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH15_NOANE1GH15_outsidebincut_BV		71543000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE15) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row48,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH16_NOANE1GH16_outsidebincut_BV		71544000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE16) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row49,MSX001 BIST SRT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS001_SRT_PBC_MSX001_NOANE1GH17_NOANE1GH17_outsidebincut_BV		71545000																													
+						Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row51,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANEX_NOANEX_outsidebincut_BV		71546000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE_16_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row52,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_ANE0ALL_1_PBC_ANE0ALL_outsidebincut_BV		71547000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE0) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row53,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH1_1_PBC_NOANE0GH1_outsidebincut_BV		71548000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE2) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row54,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH2_1_PBC_NOANE0GH2_outsidebincut_BV		71549000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row55,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH3_1_PBC_NOANE0GH3_outsidebincut_BV		71550000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row56,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH4_1_PBC_NOANE0GH4_outsidebincut_BV		71551000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE4) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row57,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH5_1_PBC_NOANE0GH5_outsidebincut_BV		71552000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE6) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row58,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH6_1_PBC_NOANE0GH6_outsidebincut_BV		71553000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE5) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row59,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH7_1_PBC_NOANE0GH7_outsidebincut_BV		71554000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE7) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row60,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH8_1_PBC_NOANE0GH8_outsidebincut_BV		71555000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE8) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row61,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH9_1_PBC_NOANE0GH9_outsidebincut_BV		71556000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE10) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row62,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH10_1_PBC_NOANE0GH10_outsidebincut_BV		71557000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE9) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row63,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH11_1_PBC_NOANE0GH11_outsidebincut_BV		71558000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE11) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row64,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH12_1_PBC_NOANE0GH12_outsidebincut_BV		71559000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE12) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row65,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH13_1_PBC_NOANE0GH13_outsidebincut_BV		71560000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE14) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row66,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH14_1_PBC_NOANE0GH14_outsidebincut_BV		71561000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE13) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row67,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH15_1_PBC_NOANE0GH15_outsidebincut_BV		71562000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE15) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row68,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH16_1_PBC_NOANE0GH16_outsidebincut_BV		71563000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE0_BIST_ALL&&F_ANE0_BIST_CORE16) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row69,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE0GH17_1_PBC_NOANE0GH17_outsidebincut_BV		71564000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE_16_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row70,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_ANE1ALL_1_PBC_ANE1ALL_outsidebincut_BV		71565000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE0) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row71,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH1_1_PBC_NOANE1GH1_outsidebincut_BV		71566000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE2) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row72,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH2_1_PBC_NOANE1GH2_outsidebincut_BV		71567000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row73,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH3_1_PBC_NOANE1GH3_outsidebincut_BV		71568000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row74,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH4_1_PBC_NOANE1GH4_outsidebincut_BV		71569000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE4) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row75,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH5_1_PBC_NOANE1GH5_outsidebincut_BV		71570000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE6) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row76,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH6_1_PBC_NOANE1GH6_outsidebincut_BV		71571000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE5) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row77,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH7_1_PBC_NOANE1GH7_outsidebincut_BV		71572000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE7) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row78,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH8_1_PBC_NOANE1GH8_outsidebincut_BV		71573000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE8) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row79,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH9_1_PBC_NOANE1GH9_outsidebincut_BV		71574000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE10) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row80,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH10_1_PBC_NOANE1GH10_outsidebincut_BV		71575000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE9) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row81,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH11_1_PBC_NOANE1GH11_outsidebincut_BV		71576000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE11) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row82,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH12_1_PBC_NOANE1GH12_outsidebincut_BV		71577000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE12) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row83,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH13_1_PBC_NOANE1GH13_outsidebincut_BV		71578000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE14) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row84,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH14_1_PBC_NOANE1GH14_outsidebincut_BV		71579000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE13) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row85,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH15_1_PBC_NOANE1GH15_outsidebincut_BV		71580000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE15) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row86,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH16_1_PBC_NOANE1GH16_outsidebincut_BV		71581000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_ANE1_BIST_ALL&&F_ANE1_BIST_CORE16) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row87,MSX005 BIST SFT PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MS005_SFT_PBC_MSX005_NOANE1GH17_1_PBC_NOANE1GH17_outsidebincut_BV		71582000																													
+						Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row128,MSX001 CPU TD DOMAIN PBC,TD		FT1||FT2				Test	MS001_Domain_PBC_MSX001_CPU_MSX011_TD_CPU_DomainX_Post_CPU_MSP011_TD_CPU_DomainX_outsidebincut_BV		71583000																													
+						Bintable	Bin_TD_MS001_Domain_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row129,MSX005 CPU TD DOMAIN PBC,TD		FT1||FT2				Test	MS005_Domain_PBC_MSX005_CPU_MSX015_TD_CPU_DomainX_Post_CPU_MSX015_TD_CPU_DomainX_outsidebincut_BV		71584000																													
+						Bintable	Bin_TD_MS005_Domain_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row89,MPX00I BIST WUS PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	MP00I_WUS_PBC_MPX00I_MPX00I_BIST_WUS_PBC_MPX00I_BIST_WUS_PBC_outsidebincut_BV		71585000																													
+						Bintable	Bin_Mbist_MP00I_WUS_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row90,MPX00I BIST 24N PBC,Mbist		(FT2)&&(CP1||CP2||FT2)				Test	MP00I_24N_PBC_MPX00I_MPX00I_BIST_24N_PBC_MPX00I_BIST_24N_PBC_outsidebincut_BV		71586000																													
+						Bintable	Bin_Mbist_MP00I_24N_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row91,MPX00K BIST WUS PBC,Mbist		((FT1||FT2) && Enable_CPU_Turbo)&&(CP1)				Test	MP00J_WUS_PBC_MPX00K_MPX00I_BIST_WUS_PBC_MPX00K_BIST_WUS_PBC_CP1_outsidebincut_BV		71587000																			Flag-false	F_Cpu_Td_MPX00J_LV									
+						Bintable	Bin_Mbist_MP00J_WUS_PBC_outsidebincut_BV																															
+						If	(!F_Cpu_Td_MPX00J_LV && F_Enable_PCPU_Turbo) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row92,MPX00K BIST WUS PBC,Mbist		((FT1||FT2) && Enable_CPU_Turbo)&&(CP2)				Test	MP00J_WUS_PBC_MPX00K_MPX00I_BIST_WUS_PBC_MPX00K_BIST_WUS_PBC_CP2_outsidebincut_BV		71588000																													
+						Bintable	Bin_Mbist_MP00J_WUS_PBC_outsidebincut_BV																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row93,MPX00K BIST WUS PBC,Mbist		((FT1||FT2) && Enable_CPU_Turbo)&&(FT1||FT2)				Test	MP00J_WUS_PBC_MPX00K_MPX00I_BIST_WUS_PBC_MPX00K_BIST_WUS_PBC_FT_outsidebincut_BV		71589000																			Flag-true	F_Enable_PCPU_Turbo									
+						Bintable	Bin_Mbist_MP00J_WUS_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row94,MPX00K BIST 24N PBC,Mbist		(FT2 && Enable_CPU_Turbo)&&(CP1)				Test	MP00J_WUS_PBC_MPX00K_MPX00I_BIST_24N_PBC_MPX00K_BIST_24N_PBC_CP1_outsidebincut_BV		71590000																			Flag-false	F_Cpu_Td_MPX00J_LV									
+						Bintable	Bin_Mbist_MP00J_WUS_PBC_outsidebincut_BV																															
+						If	(!F_Cpu_Td_MPX00J_LV && F_Enable_PCPU_Turbo) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row95,MPX00K BIST 24N PBC,Mbist		(FT2 && Enable_CPU_Turbo)&&(CP2)				Test	MP00J_WUS_PBC_MPX00K_MPX00I_BIST_24N_PBC_MPX00K_BIST_24N_PBC_CP2_outsidebincut_BV		71591000																													
+						Bintable	Bin_Mbist_MP00J_WUS_PBC_outsidebincut_BV																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row96,MPX00K BIST 24N PBC,Mbist		(FT2 && Enable_CPU_Turbo)&&(FT1||FT2)				Test	MP00J_WUS_PBC_MPX00K_MPX00I_BIST_24N_PBC_MPX00K_BIST_24N_PBC_FT_outsidebincut_BV		71592000																			Flag-true	F_Enable_PCPU_Turbo									
+						Bintable	Bin_Mbist_MP00J_WUS_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row97,MEX009 BIST WUS PBC,Mbist		(FT1||FT2)&&(CP1||CP2||FT1||FT2)				Test	ME009_WUS_PBC_MEX009_MEX009_BIST_WUS_PBC_MEX009_BIST_WUS_PBC_outsidebincut_BV		71593000																													
+						Bintable	Bin_Mbist_ME009_WUS_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row98,MEX009 BIST 24N PBC,Mbist		(FT2)&&(CP1||CP2||FT2)				Test	ME009_24N_PBC_MEX009_MEX009_BIST_24N_PBC_MEX009_BIST_24N_PBC_outsidebincut_BV		71594000																													
+						Bintable	Bin_Mbist_ME009_24N_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row100,MSX001 SOC TD CXT PBC,TD		FT1||FT2				Test	MS001_CXT_PBC_MSX001_SOC_MSX001_SOCTD_CXTX_SOC_MSX001_SOCTD_CXTA_outsidebincut_BV		71595000																													
+						Bintable	Bin_TD_MS001_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row101,MSX001 SOC TD CXT PBC,TD		FT1||FT2				Test	MS001_CXT_PBC_MSX001_SOC_MSX001_SOCTD_CXTX_1_PBC_SOC_MSX001_SOCTD_CXTJ_outsidebincut_BV		71596000																													
+						Bintable	Bin_TD_MS001_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row102,MSX001 SOC TD CXT PBC,TD		FT1||FT2				Test	MS001_CXT_PBC_MSX001_SOC_MSX001_SOCTD_CXTX_2_PBC_SOC_MSX001_SOCTD_CXTC_outsidebincut_BV		71597000																													
+						Bintable	Bin_TD_MS001_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row103,MSX001 SOC TD CXT PBC,TD		FT1||FT2				Test	MS001_CXT_PBC_MSX001_SOC_MSX001_SOCTD_CXTX_3_PBC_SOC_MSX001_SOCTD_CXTG_outsidebincut_BV		71598000																													
+						Bintable	Bin_TD_MS001_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row104,MSX001 SOC TD CXT PBC,TD		FT1||FT2				Test	MS001_CXT_PBC_MSX001_SOC_MSX001_SOCTD_CXTX_4_PBC_SOC_MSX001_SOCTD_CXTX_outsidebincut_BV		71599000																													
+						Bintable	Bin_TD_MS001_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row105,MSX001 SOC TD CXT PBC,TD		FT1||FT2				Test	MS001_CXT_PBC_MSX001_SocTd_PP_KMDX0_S_XXXX_SC_CXXX_XXX_XXX_XXX_XXXXXX_DM_SOC_MSX001_SOCTD_CXTPQ_outsidebincut_BV		71600000																													
+						Bintable	Bin_TD_MS001_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row106,MSX005 SOC TD CXT PBC,TD		FT1||FT2				Test	MS005_CXT_PBC_MSX005_SOC_MSX005_SOCTD_CXTX_SOC_MSX005_SOCTD_CXTA_outsidebincut_BV		71601000																													
+						Bintable	Bin_TD_MS005_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row107,MSX005 SOC TD CXT PBC,TD		FT1||FT2				Test	MS005_CXT_PBC_MSX005_SOC_MSX005_SOCTD_CXTX_1_PBC_SOC_MSX005_SOCTD_CXTJ_outsidebincut_BV		71602000																													
+						Bintable	Bin_TD_MS005_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row108,MSX005 SOC TD CXT PBC,TD		FT1||FT2				Test	MS005_CXT_PBC_MSX005_SOC_MSX005_SOCTD_CXTX_2_PBC_SOC_MSX005_SOCTD_CXTC_outsidebincut_BV		71603000																													
+						Bintable	Bin_TD_MS005_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row109,MSX005 SOC TD CXT PBC,TD		FT1||FT2				Test	MS005_CXT_PBC_MSX005_SOC_MSX005_SOCTD_CXTX_3_PBC_SOC_MSX005_SOCTD_CXTG_outsidebincut_BV		71604000																													
+						Bintable	Bin_TD_MS005_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row110,MSX005 SOC TD CXT PBC,TD		FT1||FT2				Test	MS005_CXT_PBC_MSX005_SOC_MSX005_SOCTD_CXTX_4_PBC_SOC_MSX005_SOCTD_CXTX_outsidebincut_BV		71605000																													
+						Bintable	Bin_TD_MS005_CXT_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row111,MSX005 SOC TD CXT PBC,TD		FT1||FT2				Test	MS005_CXT_PBC_MSX005_SocTd_PP_KMDX0_S_XXXX_SC_CXXX_XXX_XXX_XXX_XXXXXX_DM_1_PBC_SOC_MSX005_SOCTD_CXTPQ_outsidebincut_BV		71606000																													
+						Bintable	Bin_TD_MS005_CXT_PBC_outsidebincut_BV																															
+						If	(!F_HCPU_TD_CORE0&&!F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row116,MPX001 TD CEXTEST PBC,TD		FT1||FT2				Test	MP001_CEXTEST_PBC_MPX001_PCPU_CEXTEST_MPX001_Post_PCPU_CEXTEST_MPX001_outsidebincut_BV		71607000																													
+						Bintable	Bin_TD_MP001_CEXTEST_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(F_HCPU_TD_CORE0&&!F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row117,MPX001 TD CEXTEST PBC,TD		FT1||FT2				Test	MP001_CEXTEST_PBC_MPX001_PCPU_CEXTEST_MPX001_CORE0HARVEST_Post_PCPU_CEXTEST_MPX001_CORE0HARVEST_outsidebincut_BV		71608000																													
+						Bintable	Bin_TD_MP001_CEXTEST_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_HCPU_TD_CORE0&&F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row118,MPX001 TD CEXTEST PBC,TD		FT1||FT2				Test	MP001_CEXTEST_PBC_MPX001_PCPU_CEXTEST_MPX001_CORE1HARVEST_Post_PCPU_CEXTEST_MPX001_CORE1HARVEST_outsidebincut_BV		71609000																													
+						Bintable	Bin_TD_MP001_CEXTEST_PBC_outsidebincut_BV																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row119,MPX001 TD CEXTEST PBC,TD		FT1||FT2				Test	MP001_CEXTEST_PBC_MPX001_MCPU_CEXTEST_MPX001_Post_MCPU_CEXTEST_MPX001_outsidebincut_BV		71610000																													
+						Bintable	Bin_TD_MP001_CEXTEST_PBC_outsidebincut_BV																															
+						If	(!F_HCPU_TD_CORE0&&!F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row120,MPX00G TD CEXTEST PBC,TD		FT1||FT2				Test	MP00I_CEXTEST_PBC_MPX00G_PCPU_CEXTEST_MPX00G_Post_PCPU_CEXTEST_MPX00G_outsidebincut_BV		71611000																													
+						Bintable	Bin_TD_MP00I_CEXTEST_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(!F_HCPU_TD_CORE0&&F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row121,MPX00G TD CEXTEST PBC,TD		FT1||FT2				Test	MP00I_CEXTEST_PBC_MPX00G_PCPU_CEXTEST_MPX00G_CORE1HARVEST_PCPU_CEXTEST_MPX00G_CORE1HARVEST_outsidebincut_BV		71612000																													
+						Bintable	Bin_TD_MP00I_CEXTEST_PBC_outsidebincut_BV																															
+						EndIf																																
+						If	(F_HCPU_TD_CORE0&&!F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row122,MPX00G TD CEXTEST PBC,TD		FT1||FT2				Test	MP00I_CEXTEST_PBC_MPX00G_PCPU_CEXTEST_MPX00G_CORE0HARVEST_PCPU_CEXTEST_MPX00G_CORE0HARVEST_outsidebincut_BV		71613000																													
+						Bintable	Bin_TD_MP00I_CEXTEST_PBC_outsidebincut_BV																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row123,MPX00G TD CEXTEST PBC,TD		FT1||FT2				Test	MP00I_CEXTEST_PBC_MPX00G_MCPU_CEXTEST_MPX00G_Post_MCPU_CEXTEST_MPX00G_outsidebincut_BV		71614000																													
+						Bintable	Bin_TD_MP00I_CEXTEST_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row125,MEX001 TD CEXTEST PBC,TD		FT1||FT2				Test	ME001_CEXTEST_PBC_MEX001_ECPU_CEXTEST_MEX001_Post_ECPU_CEXTEST_MEX001_outsidebincut_BV		71615000																													
+						Bintable	Bin_TD_ME001_CEXTEST_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row126,MEX008 TD CEXTEST PBC,TD		FT1||FT2				Test	ME009_CEXTEST_PBC_MEX008_ECPU_CEXTEST_MEX008_Post_ECPU_CEXTEST_MEX008_outsidebincut_BV		71616000																													
+						Bintable	Bin_TD_ME009_CEXTEST_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row113,MGX001 TD CMS PBC,TD		CP1				Test	MG001_CMS_PBC_MGX001_GPU_MGX001_TD_CMSX_SCAN_Post_GPU_MGX001_TD_CMSX_PBC_outsidebincut_BV		71617000																													
+						Bintable	Bin_TD_MG001_CMS_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row114,MGX00D TD CMS PBC,TD		CP1				Test	MG00D_CMS_PBC_MGX00D_GPU_MGX00D_TD_CMSX_SCAN_Post_GPU_MGX00D_TD_CMSX_PBC_outsidebincut_BV		71618000																													
+						Bintable	Bin_TD_MG00D_CMS_PBC_outsidebincut_BV																															
+						print	"Flow PostBincut Stop"																															
+						Return																																

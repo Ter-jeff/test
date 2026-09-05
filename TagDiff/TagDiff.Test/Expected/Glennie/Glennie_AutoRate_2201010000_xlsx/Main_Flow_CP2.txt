@@ -1,0 +1,178 @@
+Pass Rate	71.96%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	107	Pass Rows	77																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+M	Main_Flow_CP2.txt	Main_Flow_CP2.txt	5	5						set-alarm-bin										21 => 9		998																			
+M	Main_Flow_CP2.txt	Main_Flow_CP2.txt	6	6						set-error-bin										21 => 9		999																			
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	11	77						create-site-var	SEL_CASE_CNT																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	12	79						create-site-var	SEL_CASE_End																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	13	81						create-site-var	SelSrm_LP_Var																														
+MissingCompared	Main_Flow_CP2.txt		14							create-site-var	LPCount_End																														
+MissingCompared	Main_Flow_CP2.txt		15							create-integer	"SrcCodeIndx,SrcCodeIndx1,SrcCodeIndx2,SrcCodeIndx0,SrcCodeIndxZ,SrcCodeIndexV"																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	16	16						assign-integer	SrcCodeIndx 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	17	23						create-site-var	CFGChk_Var																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	18	24						assign-site-var	CFGChk_Var 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	19	25						create-site-var	ECIDChk_Var																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	20	26						assign-site-var	ECIDChk_Var 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	21	27						create-site-var	Efuse_config_Current																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	22	28						assign-site-var	Efuse_config_Current 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	23	29						create-site-var	Efuse_config_Early																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	24	30						assign-site-var	Efuse_config_Early 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	25	31						create-site-var	Efuse_config_Future																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	26	32						assign-site-var	Efuse_config_Future 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	27	33						create-site-var	Efuse_config_Previous																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	28	34						assign-site-var	Efuse_config_Previous 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	29	35						create-site-var	Efuse_ecid_Current																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	30	36						assign-site-var	Efuse_ecid_Current 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	31	37						create-site-var	Efuse_ecid_Future																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	32	38						assign-site-var	Efuse_ecid_Future 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	33	39						create-site-var	Efuse_ecid_Previous																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	34	40						assign-site-var	Efuse_ecid_Previous 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	35	61						create-site-var	Efuse_uid_Current																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	36	62						assign-site-var	Efuse_uid_Current 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	37	63						create-site-var	Efuse_uid_Future																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	38	64						assign-site-var	Efuse_uid_Future 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	39	65						create-site-var	Efuse_uid_Previous																														
+MissingCompared	Main_Flow_CP2.txt		40							assign-site-var	Efuse_uid_Previous 1																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	41	75						create-site-var	RSCR_Flow_Idx																														
+MissingCompared	Main_Flow_CP2.txt		42							assign-site-var	RSCR_Flow_Idx 1																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	43	71						create-site-var	MFP_flow_idx																														
+MissingCompared	Main_Flow_CP2.txt		44							assign-site-var	MFP_flow_idx 1																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	45	9						create-integer	EVS_INDEX																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	46	13						create-integer	Max_Step																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	47	14						assign-integer	Max_Step 1																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	48	67						create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	49	68						assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	50	69						create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	51	70						assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index 0																														
+MissingCompared	Main_Flow_CP2.txt		52							create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_CP1_Index																														
+MissingCompared	Main_Flow_CP2.txt		53							assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_CP1_Index 0																														
+MissingCompared	Main_Flow_CP2.txt		54							create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_CP1_Index																														
+MissingCompared	Main_Flow_CP2.txt		55							assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_CP1_Index 0																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	56	102						call	Flow_Table_Main_Init_EnableWd																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	58	101						call	Flow_HardIP_Init_Flag																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	59	103						call	Flow_Table_Main_Init_Flows																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	61	104						call	Flow_DC_Conti																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	62	105						Test	Relay_ON_Default																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	63	106						call	Flow_nWire_Default																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	64	107						Test	Relay_On_Conti																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	65	108						call	Flow_HARDIP_JTAG																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	66	109						call	Flow_HARDIP_IO																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	67	110						Test	Relay_Off_HardIP																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	117	148						Test	Relay_Off_HardIP																														Didn't specify in Flow_Main sheet(TestPlan)!
+MissingCompared	Main_Flow_CP2.txt		68						X	Test	ECID_Power_Pin_Resistance_VDDA_EFUSE0_NV		9700000												F_EFUSE_Pwr_Conti																
+MissingCompared	Main_Flow_CP2.txt		69						X	Test	CFG_Power_Pin_Resistance_VDDA_EFUSE1_NV		9710000												F_EFUSE_Pwr_Conti																
+MissingCompared	Main_Flow_CP2.txt		70						X	Bintable	Bin_EFUSE_Detect_Pwr_R																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	71	111		!Pgm2File				call	Flow_efuse_BankRead																														
+M	Main_Flow_CP2.txt	Main_Flow_CP2.txt	72	112		Pgm2File				Test	PseudoFuse_ReadFromFile														 => F_EFUSE_PseudoFuse_WriteToFile																
+M	Main_Flow_CP2.txt	Main_Flow_CP2.txt	73	113		!CP2 => 				Bintable	Bin_EFUSE_PseudoFuse_WriteToFile																														
+M	Main_Flow_CP2.txt	Main_Flow_CP2.txt	74	114		 => !BypRetestCheck				Test	GoodDie_Retest														 => F_FailDie																
+MissingCompared	Main_Flow_CP2.txt		75			!BypRetestCheck && !CP2				Bintable	Bin_EFUSE_FailDie																														
+M	Main_Flow_CP2.txt	Main_Flow_CP2.txt	77	117		!CP2 => 				Bintable	Bin_Other_BKM_Fail																														
+M	Main_Flow_CP2.txt	Main_Flow_CP2.txt	79	119		!CP2 => 				Bintable	Bin_Other_BKM_Fail																														
+M	Main_Flow_CP2.txt	Main_Flow_CP2.txt	78	118		!Disable_eFuse_BKM				Test	IEDA_BKM_Before_Fusing														 => F_Other_BKM_Fail																
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	80	120						call	Flow_DCTEST_IDS																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	92	121						Test	Enable_ATPG_Output_Format																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	118	126						Test	Enable_ATPG_Output_Format																														
+M		Main_Flow_CP2.txt		149						 => Test	 => Enable_ATPG_Output_Format																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	93	127						call	FLOW_SOC_SAA_CHAIN_LV																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	94	128						call	FLOW_SOC_SAA_LV																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	95	129						call	FLOW_SOC_SAA_CHAIN_HV																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	96	130						call	FLOW_SOC_SAA_HV																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	97	131						call	FLOW_SOC_TD_CPMF_LV																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	98	132						call	FLOW_SOC_TD_CPMF_HV																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	99	133						call	Flow_S_BI_PP_CP1_TE_BURST																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	100	135						call	Flow_DCTEST_IDS_POST																														
+MissingCompared	Main_Flow_CP2.txt		101							Bintable	Bin_EVS_SOC_SCAN_Alarm_Check																														
+MissingCompared	Main_Flow_CP2.txt		102							Bintable	Bin_EVS_SOC_MBIST_Alarm_Check																														
+MissingCompared	Main_Flow_CP2.txt		103							Bintable	Bin_EVS_SOC_MBIST_SBIST_Alarm_Check																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	104	123						Test	Disable_ATPG_Output_Format																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	123	134						Test	Disable_ATPG_Output_Format																														
+M		Main_Flow_CP2.txt		154						 => Test	 => Disable_ATPG_Output_Format																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	105	136						Test	Relay_On_HardIP																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	106	137						call	Flow_HARDIP_CPLL																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	107	138						call	Flow_HARDIP_ULPPLL																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	108	139						call	Flow_HARDIP_FLPPLL																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	110	141						call	Flow_HARDIP_MISC																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	111	142						call	Flow_HARDIP_USB																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	112	143						call	Flow_HARDIP_FRO																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	113	144						call	Flow_HARDIP_OSC60M																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	114	145						call	Flow_HARDIP_NTSE																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	115	146						call	Flow_HARDIP_MIDBIASLDO																														Didn't specify in Flow_Main sheet(TestPlan)!
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	119	150		!Disable_Sampling_Test				call	Flow_SamplingTest																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	120	151						call	Flow_Vddbinning																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	121	152						call	Flow_Vddbinning_HVCC																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	122	153						call	Flow_PostBincut																														
+MissingCompared	Main_Flow_CP2.txt		124							Test	IEDA_All_ECID																														
+MissingCompared	Main_Flow_CP2.txt		125							Test	IEDA_BKM_After_Fused																														
+MissingCompared	Main_Flow_CP2.txt		126							Test	IEDA_Efuse_Revision																														
+MissingCompared	Main_Flow_CP2.txt		127							Test	IEDA_Config_288Bits																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	128	156						call	Flow_Table_Main_EndFlow																														
+P	Main_Flow_CP2.txt	Main_Flow_CP2.txt	129	158						set-device									1		1		Pass																		
+MissingBase		Main_Flow_CP2.txt		7						create-integer	LPCount_End																														
+MissingBase		Main_Flow_CP2.txt		8						assign-integer	LPCount_End 0																														
+MissingBase		Main_Flow_CP2.txt		10						assign-integer	EVS_INDEX 0																														
+MissingBase		Main_Flow_CP2.txt		11						create-integer	EVS_MAX_Step																														
+MissingBase		Main_Flow_CP2.txt		12						assign-integer	EVS_MAX_Step 1																														
+MissingBase		Main_Flow_CP2.txt		15						create-integer	SrcCodeIndx																														
+MissingBase		Main_Flow_CP2.txt		17						create-integer	SrcCodeIndx0																														
+MissingBase		Main_Flow_CP2.txt		18						assign-integer	SrcCodeIndx0 0																														
+MissingBase		Main_Flow_CP2.txt		19						create-integer	SrcCodeIndx1																														
+MissingBase		Main_Flow_CP2.txt		20						assign-integer	SrcCodeIndx1 0																														
+MissingBase		Main_Flow_CP2.txt		21						create-integer	SrcCodeIndx2																														
+MissingBase		Main_Flow_CP2.txt		22						assign-integer	SrcCodeIndx2 0																														
+MissingBase		Main_Flow_CP2.txt		41						create-site-var	Efuse_mon_Current																														
+MissingBase		Main_Flow_CP2.txt		42						assign-site-var	Efuse_mon_Current 0																														
+MissingBase		Main_Flow_CP2.txt		43						create-site-var	Efuse_mon_Early																														
+MissingBase		Main_Flow_CP2.txt		44						assign-site-var	Efuse_mon_Early 0																														
+MissingBase		Main_Flow_CP2.txt		45						create-site-var	Efuse_mon_Future																														
+MissingBase		Main_Flow_CP2.txt		46						assign-site-var	Efuse_mon_Future 0																														
+MissingBase		Main_Flow_CP2.txt		47						create-site-var	Efuse_mon_Previous																														
+MissingBase		Main_Flow_CP2.txt		48						assign-site-var	Efuse_mon_Previous 0																														
+MissingBase		Main_Flow_CP2.txt		49						create-site-var	Efuse_udr_e_Current																														
+MissingBase		Main_Flow_CP2.txt		50						assign-site-var	Efuse_udr_e_Current 0																														
+MissingBase		Main_Flow_CP2.txt		51						create-site-var	Efuse_udr_e_Future																														
+MissingBase		Main_Flow_CP2.txt		52						assign-site-var	Efuse_udr_e_Future 0																														
+MissingBase		Main_Flow_CP2.txt		53						create-site-var	Efuse_udr_e_Previous																														
+MissingBase		Main_Flow_CP2.txt		54						assign-site-var	Efuse_udr_e_Previous 0																														
+MissingBase		Main_Flow_CP2.txt		55						create-site-var	Efuse_udr_p_Current																														
+MissingBase		Main_Flow_CP2.txt		56						assign-site-var	Efuse_udr_p_Current 0																														
+MissingBase		Main_Flow_CP2.txt		57						create-site-var	Efuse_udr_p_Future																														
+MissingBase		Main_Flow_CP2.txt		58						assign-site-var	Efuse_udr_p_Future 0																														
+MissingBase		Main_Flow_CP2.txt		59						create-site-var	Efuse_udr_p_Previous																														
+MissingBase		Main_Flow_CP2.txt		60						assign-site-var	Efuse_udr_p_Previous 0																														
+MissingBase		Main_Flow_CP2.txt		66						assign-site-var	Efuse_uid_Previous 0																														
+MissingBase		Main_Flow_CP2.txt		72						assign-site-var	MFP_flow_idx 0																														
+MissingBase		Main_Flow_CP2.txt		73						create-site-var	MONChk_Var																														
+MissingBase		Main_Flow_CP2.txt		74						assign-site-var	MONChk_Var 0																														
+MissingBase		Main_Flow_CP2.txt		76						assign-site-var	RSCR_Flow_Idx 0																														
+MissingBase		Main_Flow_CP2.txt		78						assign-site-var	SEL_CASE_CNT 0																														
+MissingBase		Main_Flow_CP2.txt		80						assign-site-var	SEL_CASE_End 0																														
+MissingBase		Main_Flow_CP2.txt		82						assign-site-var	SelSrm_LP_Var 0																														
+MissingBase		Main_Flow_CP2.txt		83						create-site-var	UDR_EChk_Var																														
+MissingBase		Main_Flow_CP2.txt		84						assign-site-var	UDR_EChk_Var 0																														
+MissingBase		Main_Flow_CP2.txt		85						create-site-var	UDR_PChk_Var																														
+MissingBase		Main_Flow_CP2.txt		86						assign-site-var	UDR_PChk_Var 0																														
+MissingBase		Main_Flow_CP2.txt		87						create-site-var	UIDChk_Var																														
+MissingBase		Main_Flow_CP2.txt		88						assign-site-var	UIDChk_Var 0																														
+MissingBase		Main_Flow_CP2.txt		89						create-site-var	Efuse_cmp_e_Current																														
+MissingBase		Main_Flow_CP2.txt		90						assign-site-var	Efuse_cmp_e_Current 0																														
+MissingBase		Main_Flow_CP2.txt		91						create-site-var	Efuse_cmp_e_Future																														
+MissingBase		Main_Flow_CP2.txt		92						assign-site-var	Efuse_cmp_e_Future 0																														
+MissingBase		Main_Flow_CP2.txt		93						create-site-var	Efuse_cmp_e_Previous																														
+MissingBase		Main_Flow_CP2.txt		94						assign-site-var	Efuse_cmp_e_Previous 0																														
+MissingBase		Main_Flow_CP2.txt		95						create-site-var	Efuse_cmp_p_Current																														
+MissingBase		Main_Flow_CP2.txt		96						assign-site-var	Efuse_cmp_p_Current 0																														
+MissingBase		Main_Flow_CP2.txt		97						create-site-var	Efuse_cmp_p_Future																														
+MissingBase		Main_Flow_CP2.txt		98						assign-site-var	Efuse_cmp_p_Future 0																														
+MissingBase		Main_Flow_CP2.txt		99						create-site-var	Efuse_cmp_p_Previous																														
+MissingBase		Main_Flow_CP2.txt		100						assign-site-var	Efuse_cmp_p_Previous 0																														
+MissingBase		Main_Flow_CP2.txt		115						Bintable	Bin_FailDie																														
+MissingBase		Main_Flow_CP2.txt		116		!Disable_eFuse_BKM				Test	BKM_CP														F_Other_BKM_Fail																
+MissingBase		Main_Flow_CP2.txt		122						call	Flow_EVS																														
+MissingBase		Main_Flow_CP2.txt		124						call	Flow_efuse_ECID																														
+MissingBase		Main_Flow_CP2.txt		125						call	Flow_DCTEST_IDS_CORR																														
+MissingBase		Main_Flow_CP2.txt		140						call	Flow_HARDIP_DSGRINGS																														
+MissingBase		Main_Flow_CP2.txt		147						call	Flow_HARDIP_CLKMON																														
+MissingBase		Main_Flow_CP2.txt		155						call	Flow_efuse_Post																														
+MissingBase		Main_Flow_CP2.txt		157						limits-all																															

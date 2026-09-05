@@ -1,0 +1,19 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"Flow HardIP_USB Start "																															
+		Enable_HF&&!ShmooOnly				Test	HFLH_X_VDDFIXEDUSB_HST06_eUSB_X_ILB_X_X_X_CZ_NV		22100000												F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_X_VDDFIXEDUSB_HST06_eUSB_X_ILB_X_X_X_CZ_NV EUSB_VDDFIXEDUSB_jump		22100050												F_Dummy																	
+						nop	Bin_initFlow_BinOut		22100100																													
+		Enable_HF&&!ShmooOnly				Test	HFLH_X_VDD12USB_HST06_eUSB_X_ILB_X_X_X_CZ_NV		22100150												F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_X_VDD12USB_HST06_eUSB_X_ILB_X_X_X_CZ_NV EUSB_VDDSRAMUSBDEBUG_jump		22100200												F_Dummy																	
+						nop	Bin_initFlow_BinOut		22100250																													
+		Enable_HF&&!ShmooOnly				Test	HFLH_X_VDDSRAMUSBDEBUG_HST06_eUSB_X_ILB_X_X_X_CZ_NV		22100300												F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_X_VDDSRAMUSBDEBUG_HST06_eUSB_X_ILB_X_X_X_CZ_NV EUSB_VDD12USB_jump		22100350												F_Dummy																	
+						nop	Bin_initFlow_BinOut		22100400																													
+		Enable_HF&&!ShmooOnly				Test	HFLH_X_VDD12USBDEBUG_HST06_eUSB_X_ILB_X_X_X_CZ_NV		22100450												F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_X_VDD12USBDEBUG_HST06_eUSB_X_ILB_X_X_X_CZ_NV EUSB_VDD12USBDEBUG_jump		22100500												F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						print	"Flow HardIP_USB Stop "																															
+						return																																

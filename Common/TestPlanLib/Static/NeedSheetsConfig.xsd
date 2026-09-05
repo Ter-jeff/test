@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NeedSheetsConfig"
+    targetNamespace="http://tempuri.org/NeedSheetsConfig.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/NeedSheetsConfig.xsd"
+    xmlns:mstns="http://tempuri.org/NeedSheetsConfig.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name ="NeedSheetItem">
+    <xs:complexType>
+      <xs:attribute name ="ItemName"/>
+      <xs:attribute name="SheetName"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name ="TestPlan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref ="NeedSheetItem" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Scgh">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref ="NeedSheetItem" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="BinCutWorkBook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref ="NeedSheetItem" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name ="IoMapping">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref ="NeedSheetItem" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name ="NeedSheetsConfig">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref ="TestPlan"/>
+        <xs:element ref ="Scgh"/>
+        <xs:element ref ="BinCutWorkBook"/>
+        <xs:element ref ="NwireRelay"/>
+        <xs:element ref ="IoMapping"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

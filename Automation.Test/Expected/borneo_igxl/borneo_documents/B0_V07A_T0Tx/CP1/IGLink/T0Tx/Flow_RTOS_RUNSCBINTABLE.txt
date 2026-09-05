@@ -1,0 +1,16 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow RTOS_RUNSCBINTABLE Start "																															
+		Rtos_NV||Prod_FT2||Prod_FT2				Test	RUNSCBINTABLE_RtosBoot														F_RUNSCBINTABLE_RtosBoot_Flag																	
+						Bintable	Bin_RUNSCBINTABLE_RtosBoot																															
+		Rtos_LV||Prod_FT2||Prod_FT2				Test	RUNSCBINTABLE_RtosBoot														F_RUNSCBINTABLE_RtosBoot_Flag																	
+						Bintable	Bin_RUNSCBINTABLE_RtosBoot																															
+		Rtos_HV||Prod_FT2||Prod_FT2				Test	RUNSCBINTABLE_RtosBoot														F_RUNSCBINTABLE_RtosBoot_Flag																	
+						Bintable	Bin_RUNSCBINTABLE_RtosBoot																															
+		Rtos_HV||Prod_FT2				flag-clear	F_Rtos_func_SC_SCCMD94																					flag-true	F_Rtos_func_SC_SCCMD94									
+		Rtos_HV||Prod_FT2				Test	Rtos_Rtos_RunScenario_pp_brna0_p_fulp_fu_s094_pff_rts_fun_allfv_si_bbqoff_3f2213218_HV														F_Rtos_func_SC_SCCMD94																	
+						Bintable	Bin_Rtos_func_SC_SCCMD94																															
+						print	"Flow RTOS_RUNSCBINTABLE Stop "																															
+						Return																																

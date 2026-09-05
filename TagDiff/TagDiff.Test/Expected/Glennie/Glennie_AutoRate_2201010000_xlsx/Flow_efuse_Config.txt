@@ -1,0 +1,25 @@
+Pass Rate	64.71%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	17	Pass Rows	11																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	5	5						print	"Flow Flow_efuse_Config Start"																														
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	6	6						flag-clear	F_Config_Enable																														
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	7	7		Enable_Flow_efuse_Config				flag-true	F_Config_Enable																														
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	8	8						If	F_Config_Enable																														
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	9	9		!CFG_Partial				Test	Config_Init0_NV		1380100												F_Config_PLL							site-var<	Efuse_config_Current 1								
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	10	10						Bintable	Bin_EFUSE_Config_PLL																														
+M	Flow_efuse_Config.txt	Flow_efuse_Config.txt	11	11		CFG_Partial => (CFG_Partial)&&(CP1||FT2)	CP1,FT2 => 			Test	Config_ReadRV_WR_Syntax_MR1_LV		1380200												F_Config_ReadRV							site-var<	Efuse_config_Current 1								
+M	Flow_efuse_Config.txt	Flow_efuse_Config.txt	12	12		 => CP1||FT2	CP1,FT2 => 			Bintable	Bin_EFUSE_Config_ReadRV																														
+M		Flow_efuse_Config.txt		14		 => CP2||FT1||FT2				 => Bintable	 => Bin_EFUSE_Config_ReadRV																														
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	15	15		!CFG_Partial				Test	Config_WriteDSSC		1380400												F_Config_Write							site-var<	Efuse_config_Current 1								
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	16	16						Bintable	Bin_EFUSE_Config_Write																														
+M	Flow_efuse_Config.txt	Flow_efuse_Config.txt	17	17		!CFG_Partial => (!CFG_Partial)&&(CP1||FT2)	CP1,FT2 => 			Test	Config_Read_WR_Syntax_MR1_LV		1380500												F_Config_Read							site-var<	Efuse_config_Current 1								
+M	Flow_efuse_Config.txt	Flow_efuse_Config.txt	18	18		 => CP1||FT2	CP1,FT2 => 			Bintable	Bin_EFUSE_Config_Read																														
+M		Flow_efuse_Config.txt		20		 => CP2||FT1||FT2				 => Bintable	 => Bin_EFUSE_Config_Read																														
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	21	23						EndIf																															
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	22	24						print	"Flow Flow_efuse_Config Stop"																														
+P	Flow_efuse_Config.txt	Flow_efuse_Config.txt	23	25						return																															
+MissingBase		Flow_efuse_Config.txt		13		(CFG_Partial)&&(CP2||FT1||FT2)				Test	Config_ReadRV_WR_Syntax_MR1_HV		1380300												F_Config_ReadRV							site-var<	Efuse_config_Current 1								
+MissingBase		Flow_efuse_Config.txt		19		(!CFG_Partial)&&(CP2||FT1||FT2)				Test	Config_Read_WR_Syntax_MR1_HV		1380600												F_Config_Read							site-var<	Efuse_config_Current 1								
+MissingBase		Flow_efuse_Config.txt		21		(!CFG_Partial)&&(CP1||FT2)				Test	Config_JTAGRead		1380700												F_Config_JTAGRead							site-var<	Efuse_config_Current 1								
+MissingBase		Flow_efuse_Config.txt		22		CP1||FT2				Bintable	Bin_EFUSE_Config_JTAGRead																														

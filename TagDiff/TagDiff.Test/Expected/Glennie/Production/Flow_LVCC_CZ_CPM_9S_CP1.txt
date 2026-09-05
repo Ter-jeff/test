@@ -1,0 +1,76 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"*print: CPM_LVCC_Header start*"																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_CPMMASK_X_X_SelsrmSSSSS_CZ_LV		12060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_CPMMASK_X_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S13_10_X_SelsrmSSSSS_CZ_LV		14060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S13_10_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S16_0C_X_SelsrmSSSSS_CZ_LV		16060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S16_0C_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S19_0B_X_SelsrmSSSSS_CZ_LV		18060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S19_0B_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_SR_11_X_SelsrmSSSSS_CZ_LV		20060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_SR_11_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L13_11_X_SelsrmSSSSS_CZ_LV		22060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L13_11_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L16_0D_X_SelsrmSSSSS_CZ_LV		24060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L16_0D_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L19_0B_X_SelsrmSSSSS_CZ_LV		26060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L19_0B_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL13_13_X_SelsrmSSSSS_CZ_LV		28060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL13_13_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL16_0E_X_SelsrmSSSSS_CZ_LV		30060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL16_0E_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL19_0D_X_SelsrmSSSSS_CZ_LV		32060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL19_0D_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LR_0F_X_SelsrmSSSSS_CZ_LV		34060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LR_0F_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S13_12_X_SelsrmSSSSS_CZ_LV		36060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S13_12_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S16_0E_X_SelsrmSSSSS_CZ_LV		38060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S16_0E_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S19_0D_X_SelsrmSSSSS_CZ_LV		40060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_S19_0D_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_SR_13_X_SelsrmSSSSS_CZ_LV		42060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_SR_13_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L13_13_X_SelsrmSSSSS_CZ_LV		44060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L13_13_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L16_0F_X_SelsrmSSSSS_CZ_LV		46060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L16_0F_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L19_0D_X_SelsrmSSSSS_CZ_LV		48060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_L19_0D_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL13_15_X_SelsrmSSSSS_CZ_LV		50060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL13_15_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL16_10_X_SelsrmSSSSS_CZ_LV		52060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL16_10_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL19_0F_X_SelsrmSSSSS_CZ_LV		54060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LLL19_0F_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LR_11_X_SelsrmSSSSS_CZ_LV		56060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRX001_TDF_CPMS_REFCLK9P6M_LR_11_X_SelsrmSSSSS_CZ_LV TDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						print	"*print: CPM_Lvcc_Footer end*"																															
+						return																																

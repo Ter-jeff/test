@@ -1,0 +1,19 @@
+Item	Value	Comment	
+CmnIDLength	7	
+ChainIDLength	2	
+SensorIDLength	4	
+RawDataLength	12	
+SensorNum	10	
+ConversionFormula	2	"(0:Hidra, 1:Komodo, 2:Dove and later project)"	
+TmpsA0	65.51661146	(for Hidra only)	
+TmpsA1	118.8803943	(for Hidra only)	
+TmpsA2	-4.7126558	(for Hidra only)	
+TmpsA3	0.20427371	(for Hidra only)	
+C0	25	(Dove and later project)	
+C1	333.28	(Dove and later project)	
+C2	-0.86	(Dove and later project)	
+C3	0	(Dove and later project)	
+ClkFrequency	24000000	
+Mode	Prod	
+StatisticSummaryDatalogging	enable	
+ProfileDatalogging	disable	

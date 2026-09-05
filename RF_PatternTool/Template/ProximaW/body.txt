@@ -1,0 +1,168 @@
+vm_vector body ($tset JTAG_TCK, JTAG_TDI, JTAG_TMS, JTAG_TRSTN,
+ JTAG_TDO, JTAG_SEL )
+ 
+{
+body:
+//
+//          J J J J J J
+//          T T T T T T
+//          A A A A A A
+//          G G G G G G
+//          _ _ _ _ _ _
+//          T T T T T S
+//          C D M R D E
+//          K I S S O L
+//                T    
+//                N    
+//                     
+
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;
+ > tsetJTAG 1 0 0 1 X 1 ;

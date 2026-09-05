@@ -1,0 +1,24 @@
+Category	Flow Enable Word	DRAM_Hynix_12GB_1a_16Gb_x16_10p7G	DRAM_Hynix_12GB_1a_16Gb_x16_9p6G	DRAM_Samsung_12GB_1bp_16Gb_x16_10p7G	DRAM_Samsung_12GB_1bp_16Gb_x16_9p6G	DRAM_Samsung_12GB_1b_16Gb_x16	DRAM_Micron_12GB_1c_16Gb_x16_10p7G	DRAM_Micron_12GB_1c_16Gb_x16_9p6G	DRAM_no_DRAM wMCM	Notes
+Descriptor	Process	1a	1a	1b+	1b+	1b	1c	1c		
+Descriptor	Prov_Code									
+Descriptor	Total_Size	12GB	12GB	12GB	12GB	12GB	12GB	12GB		
+Descriptor	Vendor	Hynix	Hynix	Samsung	Samsung	Samsung	Micron	Micron		
+Descriptor	die_Size	16Gb	16Gb	16Gb	16Gb	16Gb	16Gb	16Gb		
+MRR Results	MRR5	x6	x6	x1	x1	x1	xFF	xFF		
+MRR Results	MRR6	x8	x8	xA	xA	xA	x9	x9		
+MRR Results	MRR7	>=0x0	>=0x0	>=0x0	>=0x0	>=0x0	>=0x0	>=0x0		
+MRR Results	MRR8	0x1B	0x1A	0x1B	0x1B	0x1A	>=0x1A	>=0x1A		
+Fuse	d_config_21	b00110000	b00110000	b00110000	b00110000	b00110000	b00110000	b00110000	b00110000	bank_config[1991:1984]
+Fuse	d_config_8	x00000000	x00000000	x00000000	x00000000	x00000000	x00000000	x00000000	x00000000	bank_config[1983:1952]
+Fuse	d_config_22	b00110000	b00110000	b00110000	b00110000	b00110000	b00110000	b00110000	b00110000	bank_config[1999:1992]
+Fuse	d_config_23	b00	b00	b00	b00	b00	b00	b00	b00	bank_config[2145:2144]
+Fuse	d_config_4	b000000	b000000	b000000	b000000	b000000	b000000	b000000	b000000	bank_config[2088:2083]
+Fuse	d_config_1	b100	b100	b100	b100	b100	b100	b100	b100	bank_config[2094:2092]
+Fuse	d_config_2	b101	b101	b101	b101	b101	b101	b101	b101	bank_config[2097:2095]
+Fuse	d_config_0	b01	b01	b01	b01	b01	b01	b01	b01	bank_config[2091:2090]
+Fuse	d_config_26	b00001000	b00001000	b00001010	b00001010	b00001010	b00001001	b00001001	b00001001	bank_config[2138:2131]
+Fuse	d_config_27	b0000	b0000	b0000	b0000	b0000	b0000	b0000	b0000	bank_config[2142:2139]
+Fuse	d_config_28	b0	b0	b0	b0	b0	b0	b0	b0	bank_config[2143:2143]
+Fuse	d_config_3	b10	b10	b01	b01	b01	b11	b11	b11	bank_config[2070:2069]
+Fuse	d_config_5	b10	b01	b10	b01	b01	b10	b01	b10	bank_config[2068:2067]
+Fuse	d_config_29	b0	b0	b0	b0	b0	b0	b0	b0	bank_config[2071:2071]

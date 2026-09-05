@@ -1,0 +1,10 @@
+Hidra will allocate 4 bits for BKM information.			
+Fuse names is: bkm_process.			
+			
+Decimal	bkm_process	BKM	Comment
+0	b0000	not listed below	unknown
+1	b0001	BKM2.3	
+2	b0010	BKM2.4	
+3	b0011	BKM2.5	
+			
+			

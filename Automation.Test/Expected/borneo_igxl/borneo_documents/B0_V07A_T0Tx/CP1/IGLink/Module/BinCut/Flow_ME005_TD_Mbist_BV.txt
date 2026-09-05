@@ -1,0 +1,37 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow ME005_TD_Mbist_BV Start"																															
+Instance_Bincut_TDF_MEX,Row14,MEX005 CPU TD,TD		CP1||FT1				Test	ME005_MEX005_CpuTd_PP_BRNB0_C_PL10_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_4_ECPU_TDF_MEX005_DIV166_PL10_BV		1000592000																													
+						Bintable	Bin_ME005_TD_BV																															
+Instance_Bincut_TDF_MEX,Row15,MEX005 CPU TD,TD		CP1||FT1				Test	ME005_MEX005_CpuTd_PP_BRNB0_C_PL00_SC_E0XD_TDF_COM_AUT_MEXXXX_DM_DIV422_4_ECPU_TDF_MEX005_DIV422_PL00_BV		1000593000																													
+						Bintable	Bin_ME005_TD_BV																															
+Instance_Bincut_TDF_MEX,Row16,MEX005 CPU TD,TD		(CP1||FT1) && x				Test	ME005_MEX005_CpuTd_PP_BRNB0_C_PL00_SC_E0ED_TDF_COM_AUT_MEXXXX_DM_CEXTEST_4_ECPU_TDF_MEX005_CEXTEST_PL00_BV		1000594000																													
+						Bintable	Bin_ME005_TD_BV																															
+						If	(!F_ECPU_HARV_CORE0&& !F_ECPU_HARV_CORE1&& !F_ECPU_HARV_CORE2&&!F_ECPU_HARV_CORE3) || F_Debug_all																															
+Instance_Bincut_BIST_MEX,Row6,MEX005 CPU BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	ME005_MEX005_CpuMbist_PP_BRNA0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_LATR_BV		1000595000																													
+						Bintable	Bin_ME005_Mbist_BV																															
+						EndIf																																
+Instance_Bincut_BIST_MEX,Row15,MEX005 CPU BIST,Mbist		(CP1||FT1) && !BINCUT_WITH_BIST				Test	ME005_MEX005_CpuMbist_PP_BRNA0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_LATR_BIRA_BV		1000596000																													
+						Bintable	Bin_ME005_Mbist_BV																															
+Instance_Bincut_BIST_MEX,Row20,MEX005 CPU BIST,Mbist		(CP1||FT1) && !BINCUT_WITH_BIST				Test	ME005_MEX005_CpuMbist_PP_BRNA0_C_PLLP_BI_E0XX_BXX_JTG_59N_MEXXXX_SI_XXXX_59N_LATR_BIRA_BV		1000597000																													
+						Bintable	Bin_ME005_Mbist_BV																															
+						If	(!F_ECPU_HARV_CORE0&&!F_ECPU_HARV_CORE_3_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MEX,Row29,MEX005 CPU BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	ME005_MEX005_CpuMbist_PP_BRNX0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_LATR_CORE0_BV		1000598000																													
+						Bintable	Bin_ME005_Mbist_BV																															
+						EndIf																																
+						If	(!F_ECPU_HARV_CORE1&&!F_ECPU_HARV_CORE_3_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MEX,Row38,MEX005 CPU BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	ME005_MEX005_CpuMbist_PP_BRNX0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_1_LATR_CORE1_BV		1000599000																													
+						Bintable	Bin_ME005_Mbist_BV																															
+						EndIf																																
+						If	(!F_ECPU_HARV_CORE2&&!F_ECPU_HARV_CORE_3_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MEX,Row47,MEX005 CPU BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	ME005_MEX005_CpuMbist_PP_BRNX0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_2_LATR_CORE2_BV		1000600000																													
+						Bintable	Bin_ME005_Mbist_BV																															
+						EndIf																																
+						If	(!F_ECPU_HARV_CORE3&&!F_ECPU_HARV_CORE_3_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MEX,Row56,MEX005 CPU BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	ME005_MEX005_CpuMbist_PP_BRNX0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_3_LATR_CORE3_BV		1000601000																													
+						Bintable	Bin_ME005_Mbist_BV																															
+						EndIf																																
+						print	"Flow ME005_TD_Mbist_BV Stop"																															
+						Return																																

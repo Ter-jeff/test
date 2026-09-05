@@ -1,0 +1,103 @@
+﻿TTR,Test Item,Step,Description,Pattern,Force Condition,Register Assignment,Misc Info,Meas,"CP1 Lo Limit (H,L,N)","CP1 Hi Limit (H,L,N)","CP2 Lo Limit (H,L,N)","CP2 Hi Limit (H,L,N)","FT1 Lo Limit (H,L,N)","FT1 Hi Limit (H,L,N)","FT2 Lo Limit (H,L,N)","FT2 Hi Limit (H,L,N)","FT3 Lo Limit (H,L,N)","FT3 Hi Limit (H,L,N)","QA Lo Limit (H,L,N)","QA Hi Limit (H,L,N)","HTOL Lo Limit (H,L,N)","HTOL Hi Limit (H,L,N)",Comment
+,,,Global Loop,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"DCDMEAS_T1P1, V2, 2505160218, DigSrc bits: 5",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDMEAS_T1P1,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8",ACCP_ADCLK__CLKMON_CAL_CODE=00000;,SubBlock:DCDMEAS_T1P1;,,,,,,,,,,,,,,,,"Cycle count: 418065, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0]"
+,,1.1,Capture 10-bit data - ACCP_PL2B_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_PL2B_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,,"DCDMEAS_T1P2, V2, 2505160218, DigSrc bits: 5",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDMEAS_T1P2,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8",ACCP_ADCLK__CLKMON_CAL_CODE=00000;,SubBlock:DCDMEAS_T1P2;,,,,,,,,,,,,,,,,"Cycle count: 418065, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0]"
+,,1.1,Capture 10-bit data - ACCP_PL2B_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_PL2B_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,,"DCDCAL_T2P1, V2, 2505160218, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDCAL_T2P1,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8",,"SubBlock:DCDCAL_T2P1;
+Calc:MSBNegate;
+CalcArg:Dict_A;",,,,,,,,,,,,,,,,Cycle count: 667972
+,,1.1,Capture 5-bit data - ACCP_PL2B_CLKMON__CAL_CODE,,,,,"MeasC Pin = JTAG_TDO(Dict_A):5 ""ACCP_PL2B_CLKMON__CAL_CODE""",,,,,,,,,,,,,,,
+,,1.2,Capture 1-bit data - ACCP_PL2B_CLKMON__CAL_DONE,,,,,"MeasC Pin = JTAG_TDO:1 ""ACCP_PL2B_CLKMON__CAL_DONE""",,,,,,,,,,,,,,,
+,,,"DCDCAL_T2P2, V2, 2505160218, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDCAL_T2P2,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8",,"SubBlock:DCDCAL_T2P2;
+Calc:MSBNegate;
+CalcArg:Dict_B;",,,,,,,,,,,,,,,,Cycle count: 667972
+,,1.1,Capture 5-bit data - ACCP_PL2B_CLKMON__CAL_CODE,,,,,"MeasC Pin = JTAG_TDO(Dict_B):5 ""ACCP_PL2B_CLKMON__CAL_CODE""",,,,,,,,,,,,,,,
+,,1.2,Capture 1-bit data - ACCP_PL2B_CLKMON__CAL_DONE,,,,,"MeasC Pin = JTAG_TDO:1 ""ACCP_PL2B_CLKMON__CAL_DONE""",,,,,,,,,,,,,,,
+,,,"DCDMEAS_T1P1, V2, 2505160218, DigSrc bits: 5",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDMEAS_T1P1,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8",ACCP_ADCLK__CLKMON_CAL_CODE=Dict_A;,SubBlock:DCDMEAS_T1P1_Final;,,,,,,,,,,,,,,,,"Cycle count: 418065, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0]"
+,,1.1,Capture 10-bit data - ACCP_PL2B_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_PL2B_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,,"DCDMEAS_T1P2, V2, 2505160218, DigSrc bits: 5",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDMEAS_T1P2,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8",ACCP_ADCLK__CLKMON_CAL_CODE=Dict_B;,SubBlock:DCDMEAS_T1P2_Final;,,,,,,,,,,,,,,,,"Cycle count: 418065, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0]"
+,,1.1,Capture 10-bit data - ACCP_PL2B_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_PL2B_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,Local Loop,,,,,,,,,,,,,,,,,,,,
+,,,"DCDMEAS_T3P1, V2, 2505160218, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDMEAS_T3P1,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8","ACCP_ADCLK__CLKMON_CAL_CODE=00000;
+ACCP_CORE0__CLKDCC_TRIM=00001;
+ACCP_CORE1__CLKDCC_TRIM=00001;",SubBlock:DCDMEAS_T3P1_RAW;,,,,,,,,,,,,,,,,"Cycle count: 711144, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0], ACCP_CORE0__CLKDCC_TRIM[4:0], ACCP_CORE1__CLKDCC_TRIM[4:0]"
+,,1.1,Capture 10-bit data - ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,1.2,Capture 10-bit data - ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,,"DCDMEAS_T3P2, V2, 2505160218, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDMEAS_T3P2,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8","ACCP_ADCLK__CLKMON_CAL_CODE=00000;
+ACCP_CORE0__CLKDCC_TRIM=00001;
+ACCP_CORE1__CLKDCC_TRIM=00001;",SubBlock:DCDMEAS_T3P2_RAW;,,,,,,,,,,,,,,,,"Cycle count: 711144, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0], ACCP_CORE0__CLKDCC_TRIM[4:0], ACCP_CORE1__CLKDCC_TRIM[4:0]"
+,,1.1,Capture 10-bit data - ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,1.2,Capture 10-bit data - ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,,"DCDMEAS_T3P1, V2, 2505160218, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDMEAS_T3P1,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8","ACCP_ADCLK__CLKMON_CAL_CODE=Dict_A;
+ACCP_CORE0__CLKDCC_TRIM=00001;
+ACCP_CORE1__CLKDCC_TRIM=00001;",SubBlock:DCDMEAS_T3P1;,,,,,,,,,,,,,,,,"Cycle count: 711144, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0], ACCP_CORE0__CLKDCC_TRIM[4:0], ACCP_CORE1__CLKDCC_TRIM[4:0]"
+,,1.1,Capture 10-bit data - ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,1.2,Capture 10-bit data - ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,,"DCDMEAS_T3P2, V2, 2505160218, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDMEAS_T3P2,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8","ACCP_ADCLK__CLKMON_CAL_CODE=Dict_B;
+ACCP_CORE0__CLKDCC_TRIM=00001;
+ACCP_CORE1__CLKDCC_TRIM=00001;",SubBlock:DCDMEAS_T3P2;,,,,,,,,,,,,,,,,"Cycle count: 711144, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0], ACCP_CORE0__CLKDCC_TRIM[4:0], ACCP_CORE1__CLKDCC_TRIM[4:0]"
+,,1.1,Capture 10-bit data - ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,1.2,Capture 10-bit data - ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"DCDCAL_T4P1, V2, 2505160218, DigSrc bits: 5",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDCAL_T4P1,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8",ACCP_ADCLK__CLKMON_CAL_CODE=Dict_A;,"SubBlock:DCDCAL_T4P1;
+CalcArg:Dict_C;
+CalcArg:Dict_D;",,,,,,,,,,,,,,,,"Cycle count: 1211136, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0]"
+,,1.1,Capture 5-bit data - ACCP_DCM0_CLKMON__CAL_CODE,,,,,"MeasC Pin = JTAG_TDO(Dict_C):5 ""ACCP_DCM0_CLKMON__CAL_CODE""",,,,,,,,,,,,,,,
+,,1.2,Capture 1-bit data - ACCP_DCM0_CLKMON__CAL_DONE,,,,,"MeasC Pin = JTAG_TDO:1 ""ACCP_DCM0_CLKMON__CAL_DONE""",,,,,,,,,,,,,,,
+,,1.3,Capture 5-bit data - ACCP_DCM1_CLKMON__CAL_CODE,,,,,"MeasC Pin = JTAG_TDO(Dict_D):5 ""ACCP_DCM1_CLKMON__CAL_CODE""",,,,,,,,,,,,,,,
+,,1.4,Capture 1-bit data - ACCP_DCM1_CLKMON__CAL_DONE,,,,,"MeasC Pin = JTAG_TDO:1 ""ACCP_DCM1_CLKMON__CAL_DONE""",,,,,,,,,,,,,,,
+,,,"DCDCAL_T4P2, V2, 2505160218, DigSrc bits: 5",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDCAL_T4P2,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8",ACCP_ADCLK__CLKMON_CAL_CODE=Dict_B;,"SubBlock:DCDCAL_T4P2;
+CalcArg:Dict_E;
+CalcArg:Dict_F;",,,,,,,,,,,,,,,,"Cycle count: 1211136, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0]"
+,,1.1,Capture 5-bit data - ACCP_DCM0_CLKMON__CAL_CODE,,,,,"MeasC Pin = JTAG_TDO(Dict_E):5 ""ACCP_DCM0_CLKMON__CAL_CODE""",,,,,,,,,,,,,,,
+,,1.2,Capture 1-bit data - ACCP_DCM0_CLKMON__CAL_DONE,,,,,"MeasC Pin = JTAG_TDO:1 ""ACCP_DCM0_CLKMON__CAL_DONE""",,,,,,,,,,,,,,,
+,,1.3,Capture 5-bit data - ACCP_DCM1_CLKMON__CAL_CODE,,,,,"MeasC Pin = JTAG_TDO(Dict_F):5 ""ACCP_DCM1_CLKMON__CAL_CODE""",,,,,,,,,,,,,,,
+,,1.4,Capture 1-bit data - ACCP_DCM1_CLKMON__CAL_DONE,,,,,"MeasC Pin = JTAG_TDO:1 ""ACCP_DCM1_CLKMON__CAL_DONE""",,,,,,,,,,,,,,,
+,,,"DCDMEAS_T3P1, V2, 2505160218, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDMEAS_T3P1,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8","ACCP_ADCLK__CLKMON_CAL_CODE=Dict_A;
+ACCP_CORE0__CLKDCC_TRIM=Dict_C;
+ACCP_CORE1__CLKDCC_TRIM=Dict_D;",SubBlock:DCDMEAS_T3P1_Final;,,,,,,,,,,,,,,,,"Cycle count: 711144, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0], ACCP_CORE0__CLKDCC_TRIM[4:0], ACCP_CORE1__CLKDCC_TRIM[4:0]"
+,,1.1,Capture 10-bit data - ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,1.2,Capture 10-bit data - ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,,"DCDMEAS_T3P2, V2, 2505160218, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_AN_CM00_DLL_JTG_DYC_ALLFRV_SI_DCDMEAS_T3P2,"VDD_PCPU:V:1.075;
+VDD_FIXED_ALL:V:0.8","ACCP_ADCLK__CLKMON_CAL_CODE=Dict_B;
+ACCP_CORE0__CLKDCC_TRIM=Dict_E;
+ACCP_CORE1__CLKDCC_TRIM=Dict_F;",SubBlock:DCDMEAS_T3P2_Final;,,,,,,,,,,,,,,,,"Cycle count: 711144, DigSrc detail: ACCP_ADCLK__CLKMON_CAL_CODE[4:0], ACCP_CORE0__CLKDCC_TRIM[4:0], ACCP_CORE1__CLKDCC_TRIM[4:0]"
+,,1.1,Capture 10-bit data - ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM0_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,1.2,Capture 10-bit data - ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE,,,,,"MeasC Pin = JTAG_TDO:10 ""ACCP_DCM1_CLKMON__DCD_MEASUREMENT_CODE""",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,

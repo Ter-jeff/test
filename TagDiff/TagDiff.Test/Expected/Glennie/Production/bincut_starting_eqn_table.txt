@@ -1,0 +1,5 @@
+Mode	Start_EQN	PE Use Only	New Densist	Prev Densist	EQ change	MaxEqn	
+MD001	-1		-1	6		12		Notes	Start_EQN of -1 --> not provided	
+MD002	-1		-1	4		12		Highest Density provided for V05A	
+MRD001	1		1	1		1	
+MRD002	1		1	1		1	

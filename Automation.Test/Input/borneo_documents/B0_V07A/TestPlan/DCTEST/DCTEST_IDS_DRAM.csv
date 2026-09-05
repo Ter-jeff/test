@@ -1,0 +1,41 @@
+TTR,Test Item,Step,Description,Pattern,Force Condition,Register Assignment,Misc Info,Meas,"CP1 Lo Limit (H,L,N)","CP1 Hi Limit (H,L,N)","CP2 Lo Limit (H,L,N)","CP2 Hi Limit (H,L,N)","FT1 Lo Limit (H,L,N)","FT1 Hi Limit (H,L,N)","FT1_FQA Lo Limit (H,L,N)","FT1_FQA Hi Limit (H,L,N)","FT2 Lo Limit (H,L,N)","FT2 Hi Limit (H,L,N)","FT2_FQA Lo Limit (H,L,N)","FT2_FQA Hi Limit (H,L,N)","FT3 Lo Limit (H,L,N)","FT3 Hi Limit (H,L,N)","T0TX_ROOM Lo Limit (H,L,N)","T0TX_ROOM Hi Limit (H,L,N)","T0TX_HOT Lo Limit (H,L,N)","T0TX_HOT Hi Limit (H,L,N)",Comment
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,1,,Instance:IDS_PARSING_TABLE,,,Func:Parse_IDS_Mapping_Table,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,2,,Instance:Relay_ON_DCTEST_IDS,,,"Func:ControlRelay;
+relayOffPins:K59;
+waitTime:0.003;",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT3,,15,Run the pattern provided,PP_BRNA0_S_FULP_AN_DRAM_IDS_JTG_LP5_MDX001_SI_DRAM_IDSC,DC:IDS_X_X_X;,,"SubBlock:POPB;
+EnableWord:DRAM_POPB;
+Func:Meas_FreqVoltCurr_Universal_func;
+MeasI_PinS:VDD1,VDD2,VDDQL_DDR;
+Interpose_PreMeas:XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0;
+MeasI_Range:0.2;
+mainProgramCustomString:BypassAutorange;",,,,,,,,,,,,,,,,,,,,
+,,15.01,Measure current on pin - IDS,,,,POPB,"MeasI Pin = VDD1 ""DRAMPOWER_idd2n""",,,,,,,,,,,,,,,,,,,
+,,15.02,Measure current on pin - IDS,,,,POPB,"MeasI Pin = VDD2 ""DRAMPOWER_idd2n""",,,,,,,,,,,,,,,,,,,
+,,15.03,Measure current on pin - IDS,,,,POPB,"MeasI Pin = VDDQL_DDR ""DRAMPOWER_idd2n""",,,,,,,,,,,,,,,,,,,
+,,15.04,Measure current on pin - IDS,,,,POPB,"MeasI Pin = VDD1 ""DRAMPOWER_idd6""",,,,,,,,,,,,,,,,,,,
+,,15.05,Measure current on pin - IDS,,,,POPB,"MeasI Pin = VDD2 ""DRAMPOWER_idd6""",,,,,,,,,,,,,,,,,,,
+,,15.06,Measure current on pin - IDS,,,,POPB,"MeasI Pin = VDDQL_DDR ""DRAMPOWER_idd6""",,,,,,,,,,,,,,,,,,,
+,,15.07,Measure current on pin - IDS,,,,POPB,"MeasI Pin = VDD1 ""DRAMPOWER_ids""",,,,,,,,,,,,,,,,,,,
+,,15.08,Measure current on pin - IDS,,,,POPB,"MeasI Pin = VDD2 ""DRAMPOWER_ids""",,,,,,,,,,,,,,,,,,,
+,,15.09,Measure current on pin - IDS,,,,POPB,"MeasI Pin = VDDQL_DDR ""DRAMPOWER_ids""",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,16,Run the pattern provided,PP_BRNA0_S_FULP_AN_DRAM_IDS_JTG_LP5_MDX001_SI_DRAM_IDSC,DC:IDS_X_X_X;,,"SubBlock:DRAM12GB1bnmp12GbMicronx16;
+EnableWord:DRAM_12GB_1bnmp_12Gb_Micron_x16;
+Func:Meas_FreqVoltCurr_Universal_func;
+MeasI_PinS:VDD1,VDD2,VDDQL_DDR;
+Interpose_PreMeas:XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0;
+MeasI_Range:0.2;
+mainProgramCustomString:BypassAutorange;",,,,,,,,,,,,,,,,,,,,
+,,16.01,Measure current on pin - IDS,,,,DRAM_12GB_1bnmp_12Gb_Micron_x16,"MeasI Pin = VDD1 ""DRAMPOWER_idd2n""",,,,,,,,,,,,,,,,,,,
+,,16.02,Measure current on pin - IDS,,,,DRAM_12GB_1bnmp_12Gb_Micron_x16,"MeasI Pin = VDD2 ""DRAMPOWER_idd2n""",,,,,,,,,,,,,,,,,,,
+,,16.03,Measure current on pin - IDS,,,,DRAM_12GB_1bnmp_12Gb_Micron_x16,"MeasI Pin = VDDQL_DDR ""DRAMPOWER_idd2n""",,,,,,,,,,,,,,,,,,,
+,,16.04,Measure current on pin - IDS,,,,DRAM_12GB_1bnmp_12Gb_Micron_x16,"MeasI Pin = VDD1 ""DRAMPOWER_idd6""",,,,,,,,,,,,,,,,,,,
+,,16.05,Measure current on pin - IDS,,,,DRAM_12GB_1bnmp_12Gb_Micron_x16,"MeasI Pin = VDD2 ""DRAMPOWER_idd6""",,,,,,,,,,,,,,,,,,,
+,,16.06,Measure current on pin - IDS,,,,DRAM_12GB_1bnmp_12Gb_Micron_x16,"MeasI Pin = VDDQL_DDR ""DRAMPOWER_idd6""",,,,,,,,,,,,,,,,,,,
+,,16.07,Measure current on pin - IDS,,,,DRAM_12GB_1bnmp_12Gb_Micron_x16,"MeasI Pin = VDD1 ""DRAMPOWER_ids""",,,,,,,,,,,,,,,,,,,
+,,16.08,Measure current on pin - IDS,,,,DRAM_12GB_1bnmp_12Gb_Micron_x16,"MeasI Pin = VDD2 ""DRAMPOWER_ids""",,,,,,,,,,,,,,,,,,,
+,,16.09,Measure current on pin - IDS,,,,DRAM_12GB_1bnmp_12Gb_Micron_x16,"MeasI Pin = VDDQL_DDR ""DRAMPOWER_ids""",,,,,,,,,,,,,,,,,,,

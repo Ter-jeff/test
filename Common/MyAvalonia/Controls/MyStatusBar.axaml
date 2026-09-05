@@ -1,0 +1,28 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MyAvalonia.Controls.MyStatusBar"
+             Background="{DynamicResource MyPanelBackground}">
+  <Grid Margin="20,0">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="130" />
+      <ColumnDefinition Width="130" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Column="0"
+               VerticalAlignment="Center"
+               Foreground="{DynamicResource MyFontBrush}"
+               Text="{Binding StatusText}" />
+    <TextBlock Grid.Column="1"
+               VerticalAlignment="Center"
+               Margin="10,0"
+               HorizontalAlignment="Right"
+               Foreground="{DynamicResource MyFontBrush}"
+               Text="{Binding ProcessTimeText}" />
+    <!--FIX: Overrides the built-in 200px style template constraint-->
+    <ProgressBar Grid.Column="2" x:Name="MyProgressBar"
+                 VerticalAlignment="Stretch"
+                 Margin="0,6"
+                 MinWidth="0"
+                 Value="{Binding ProgressBarValue}" />
+  </Grid>
+</UserControl>

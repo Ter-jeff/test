@@ -1,0 +1,25 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow PCPU_TD_MP00J_EQN_LV Start"																															
+						If	(!F_HCPU_TD_CORE0 && !F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_OutsideBincut,Row82,FLOW_PCPU_TD_MP00J_EQN_LV		(Enable_CPU_Turbo)&&(CP1)				Test	CpuTd_Harvest_PCPU_MPX00K_Div133_1P_AllCore_PL10_EQN_LV														F_Cpu_Td_MPX00J_LV,F_CpuTd_Harvest_PCPU_MPX00K_Div133_1P_AllCore_PL10_EQN_LV																	
+						EndIf																																
+						If	(F_HCPU_TD_CORE0 && !F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_OutsideBincut,Row83,FLOW_PCPU_TD_MP00J_EQN_LV		(Enable_CPU_Turbo)&&(CP1)				Test	CpuTd_Harvest_PCPU_MPX00K_Div133_1P_HarvCore0_PL10_EQN_LV														F_Cpu_Td_MPX00J_LV,F_CpuTd_Harvest_PCPU_MPX00K_Div133_1P_HarvCore0_PL10_EQN_LV																	
+						EndIf																																
+						If	(!F_HCPU_TD_CORE0 && F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_OutsideBincut,Row84,FLOW_PCPU_TD_MP00J_EQN_LV		(Enable_CPU_Turbo)&&(CP1)				Test	CpuTd_Harvest_PCPU_MPX00K_Div133_1P_HarvCore1_PL10_EQN_LV														F_Cpu_Td_MPX00J_LV,F_CpuTd_Harvest_PCPU_MPX00K_Div133_1P_HarvCore1_PL10_EQN_LV																	
+						EndIf																																
+						If	(F_Enable_PCPU_Turbo && !F_HCPU_TD_CORE0 && !F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_OutsideBincut,Row85,FLOW_PCPU_TD_MP00J_EQN_LV		(Enable_CPU_Turbo)&&(CP2)				Test	CpuTd_Harvest_PCPU_MPX00K_Div133_1P_AllCore_PL10_EQN_LV														F_Cpu_Td_MPX00J_LV,F_CpuTd_Harvest_PCPU_MPX00K_Div133_1P_AllCore_PL10_EQN_LV																	
+						EndIf																																
+						If	(F_Enable_PCPU_Turbo && F_HCPU_TD_CORE0 && !F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_OutsideBincut,Row86,FLOW_PCPU_TD_MP00J_EQN_LV		(Enable_CPU_Turbo)&&(CP2)				Test	CpuTd_Harvest_PCPU_MPX00K_Div133_1P_HarvCore0_PL10_EQN_LV														F_Cpu_Td_MPX00J_LV,F_CpuTd_Harvest_PCPU_MPX00K_Div133_1P_HarvCore0_PL10_EQN_LV																	
+						EndIf																																
+						If	(F_Enable_PCPU_Turbo && !F_HCPU_TD_CORE0 && F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_OutsideBincut,Row87,FLOW_PCPU_TD_MP00J_EQN_LV		(Enable_CPU_Turbo)&&(CP2)				Test	CpuTd_Harvest_PCPU_MPX00K_Div133_1P_HarvCore1_PL10_EQN_LV														F_Cpu_Td_MPX00J_LV,F_CpuTd_Harvest_PCPU_MPX00K_Div133_1P_HarvCore1_PL10_EQN_LV																	
+						EndIf																																
+						print	"Flow PCPU_TD_MP00J_EQN_LV Stop"																															
+						Return																																

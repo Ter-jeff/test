@@ -1,0 +1,272 @@
+TTR,Test Item,Step,Description,Pattern,Force Condition,Register Assignment,Misc Info,Meas,"CP1 Lo Limit (H,L,N)","CP1 Hi Limit (H,L,N)","CP2 Lo Limit (H,L,N)","CP2 Hi Limit (H,L,N)","FT1 Lo Limit (H,L,N)","FT1 Hi Limit (H,L,N)","FT1_FQA Lo Limit (H,L,N)","FT1_FQA Hi Limit (H,L,N)","FT2 Lo Limit (H,L,N)","FT2 Hi Limit (H,L,N)","FT2_FQA Lo Limit (H,L,N)","FT2_FQA Hi Limit (H,L,N)","FT3 Lo Limit (H,L,N)","FT3 Hi Limit (H,L,N)","T0TX_ROOM Lo Limit (H,L,N)","T0TX_ROOM Hi Limit (H,L,N)","T0TX_HOT Lo Limit (H,L,N)","T0TX_HOT Hi Limit (H,L,N)",Comment
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,2,,Instance:Relay_ON_DCTEST_IDS,,,"Func:ControlRelay;
+relayOffPins:K59;
+waitTime:0.003;",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FT1;FT2;FT3,,3,Run the pattern provided,PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS,DC:IDS_X_X_X;,,"SubBlock:IDS_CP;
+Ignore_Patt_Comment;
+AutoRange_Pin:VDD_AVE,VDD_CPU_SRAM,VDD_DCS_DDR,VDD_DISP,VDD_ECPU,VDD_FIXED,VDD_GPU,VDD_LOW,VDD_PCPU,VDD_SOC,VDD_SRAM_GPU,VDD_SRAM_SOC,VDD_AMPH_DDR,VDD10_AMUX_FMON,VDD10_XTAL,VDDIO12_AOP,VDDIO12_AOP_2,VDDIO12_GRP,VDDQL_DDR;
+repeat_count:1;
+DictName:ON;
+FlowLimitForInitIRange:FALSE;
+FlagWait:TRUE;
+FlagPatFinishMeasure:FALSE;
+DisableClockPortName:XI0_Diff_PA:K73;
+DisconnectClock:TRUE;
+Fuse_Enable:""CP=TRUE;FT=FALSE"";
+EnableDisconnectPins:TRUE;",,,,,,,,,,,,,,,,,,,,
+,,3.01,"EFUSE: ids_vdd_ave (CP1),ids_vdd_ave_hot (CP2)",,,,,"MeasI Pin = VDD_AVE ""VDD_AVE""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.02,"EFUSE: ids_vdd_cpu_sram (CP1),ids_vdd_cpu_sram_hot (CP2)",,,,,"MeasI Pin = VDD_CPU_SRAM ""VDD_CPU_SRAM""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.03,"EFUSE: ids_vdd_dcs_ddr (CP1),ids_vdd_dcs_ddr_hot (CP2)",,,,,"MeasI Pin = VDD_DCS_DDR ""VDD_DCS_DDR""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.04,"EFUSE: ids_vdd_disp (CP1),ids_vdd_disp_hot (CP2)",,,,,"MeasI Pin = VDD_DISP ""VDD_DISP""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.05,"EFUSE: ids_vdd_ecpu (CP1),ids_vdd_ecpu_hot (CP2)",,,,,"MeasI Pin = VDD_ECPU ""VDD_ECPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.06,"EFUSE: ids_vdd_fixed (CP1),ids_vdd_fixed_hot (CP2)",,,,,"MeasI Pin = VDD_FIXED ""VDD_FIXED""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.07,"EFUSE: ids_vdd_gpu (CP1),ids_vdd_gpu_hot (CP2)",,,,,"MeasI Pin = VDD_GPU ""VDD_GPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.08,"EFUSE: ids_vdd_low (CP1),ids_vdd_low_hot (CP2)",,,,,"MeasI Pin = VDD_LOW ""VDD_LOW""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.09,"EFUSE: ids_vdd_pcpu (CP1),ids_vdd_pcpu_hot (CP2)",,,,,"MeasI Pin = VDD_PCPU ""VDD_PCPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.1,"EFUSE: ids_vdd_soc (CP1),ids_vdd_soc_hot (CP2)",,,,,"MeasI Pin = VDD_SOC ""VDD_SOC""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.11,"EFUSE: ids_vdd_sram_gpu (CP1),ids_vdd_sram_gpu_hot (CP2)",,,,,"MeasI Pin = VDD_SRAM_GPU ""VDD_SRAM_GPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.12,"EFUSE: ids_vdd_sram_soc (CP1),ids_vdd_sram_soc_hot (CP2)",,,,,"MeasI Pin = VDD_SRAM_SOC ""VDD_SRAM_SOC""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,,,,,,,,,,,,,,
+,,3.13,"EFUSE: ids_vdd_amph (CP1),ids_vdd_amph_hot (CP2)",,,,,"MeasI Pin = VDD_AMPH_DDR ""VDD_AMPH_DDR""",,0.0015,,0.0016,,,,,,,,,,,,,,,
+,,3.14,,,,,,"MeasI Pin = VDD10_AMUX_FMON ""VDD10_AMUX_FMON""",,0.000199,,0.0004975,,,,,,,,,,,,,,,
+,,3.15,,,,,,"MeasI Pin = VDD10_XTAL ""VDD10_XTAL""",,0.000294043,,0.0004975,,,,,,,,,,,,,,,
+,,3.16,,,,,,"MeasI Pin = VDDIO12_AOP ""VDDIO12_AOP""",,0.000348152,,0.0184475,,,,,,,,,,,,,,,
+,,3.17,,,,,,"MeasI Pin = VDDIO12_AOP_2 ""VDDIO12_AOP_2""",,0.000199,,0.018115,,,,,,,,,,,,,,,
+,,3.18,,,,,,"MeasI Pin = VDDIO12_GRP ""VDDIO12_GRP""",,0.000327548,,0.005,,,,,,,,,,,,,,,
+,,3.19,,,,,,"MeasI Pin = VDDQL_DDR ""VDDQL_DDR""",,0.01899797,,0.1,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2,,4,Run the pattern provided,PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS,DC:IDS_X_X_X;,,"SubBlock:IDS_FT;
+Ignore_Patt_Comment;
+AutoRange_Pin:VDD_AVE,VDD_CPU_SRAM,VDD_DCS_DDR,VDD_DISP,VDD_ECPU,VDD_FIXED,VDD_GPU,VDD_LOW,VDD_PCPU,VDD_SOC,VDD_SRAM_GPU,VDD_SRAM_SOC,VDD_AMPH_DDR,VDD10_AMUX_FMON,VDD10_XTAL,VDDIO12_AOP,VDDIO12_AOP_2,VDDIO12_GRP,VDDQL_DDR;
+repeat_count:1;
+DictName:ON;
+FlowLimitForInitIRange:FALSE;
+FlagWait:TRUE;
+FlagPatFinishMeasure:FALSE;
+DisableClockPortName:XI0_Diff_PA:K73;
+DisconnectClock:TRUE;
+Fuse_Enable:""CP=FALSE;FT=FALSE"";
+EnableDisconnectPins:TRUE;",,,,,,,,,,,,,,,,,,,,
+,,4.01,,,,,,"MeasI Pin = VDD_AVE ""VDD_AVE""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.02,,,,,,"MeasI Pin = VDD_CPU_SRAM ""VDD_CPU_SRAM""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.03,,,,,,"MeasI Pin = VDD_DCS_DDR ""VDD_DCS_DDR""",,,,,,0.05,,0.05,,0.05,,0.05,,,,0.05,,0.05,
+,,4.04,,,,,,"MeasI Pin = VDD_DISP ""VDD_DISP""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.05,,,,,,"MeasI Pin = VDD_ECPU ""VDD_ECPU""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.06,,,,,,"MeasI Pin = VDD_FIXED ""VDD_FIXED""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.07,,,,,,"MeasI Pin = VDD_GPU ""VDD_GPU""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.08,,,,,,"MeasI Pin = VDD_LOW ""VDD_LOW""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.09,,,,,,"MeasI Pin = VDD_PCPU ""VDD_PCPU""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.1,,,,,,"MeasI Pin = VDD_SOC ""VDD_SOC""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.11,,,,,,"MeasI Pin = VDD_SRAM_GPU ""VDD_SRAM_GPU""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.12,,,,,,"MeasI Pin = VDD_SRAM_SOC ""VDD_SRAM_SOC""",,,,,,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,4.13,,,,,,"MeasI Pin = VDD_AMPH_DDR ""VDD_AMPH_DDR""",,,,,,,,,,,,,,,,,,,
+,,4.14,,,,,,"MeasI Pin = VDD10_AMUX_FMON ""VDD10_AMUX_FMON""",,,,,,,,,,,,,,,,,,,
+,,4.15,,,,,,"MeasI Pin = VDD10_XTAL ""VDD10_XTAL""",,,,,,,,,,,,,,,,,,,
+,,4.16,,,,,,"MeasI Pin = VDDIO12_AOP ""VDDIO12_AOP""",,,,,,,,,,,,,,,,,,,
+,,4.17,,,,,,"MeasI Pin = VDDIO12_AOP_2 ""VDDIO12_AOP_2""",,,,,,,,,,,,,,,,,,,
+,,4.18,,,,,,"MeasI Pin = VDDIO12_GRP ""VDDIO12_GRP""",,,,,,,,,,,,,,,,,,,
+,,4.19,,,,,,"MeasI Pin = VDDQL_DDR ""VDDQL_DDR""",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;FT1;FT2;FT3,,7,Run the pattern provided,PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_OFF1,DC:Ids_X_X_X_Off;,,"SubBlock:IDS_OFF1;
+Ignore_Patt_Comment;
+AutoRange_Pin:VDD_PCPU,VDD_SOC,VDD_DCS_DDR,VDD_DISP,VDD_AVE;
+fixedRangePins:1:VDD_ECPU;
+DictName:OFF1;
+repeat_count:1;
+FlowLimitForInitIRange:FALSE;
+FlagWait:TRUE;
+FlagPatFinishMeasure:FALSE;
+DisableClockPortName:XI0_Diff_PA:K73;
+DisconnectClock:TRUE;
+EnableDisconnectPins:TRUE;",,,,,,,,,,,,,,,,,,,,
+,,7.01,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_PCPU ""VDD_PCPU""",,,,,,,,,,,,,,,,,,,
+,,7.02,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_ECPU ""VDD_ECPU""",,,,,,,,,,,,,,,,,,,
+,,7.03,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_SOC ""VDD_SOC""",,,,,,,,,,,,,,,,,,,
+,,7.04,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_DCS_DDR ""VDD_DCS_DDR""",,,,,,,,,,,,,,,,,,,
+,,7.05,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_DISP ""VDD_DISP""",,,,,,,,,,,,,,,,,,,
+,,7.07,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_AVE ""VDD_AVE""",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;FT1;FT2;FT3,,8,Run the pattern provided,PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_OFF3,DC:Ids_X_X_X_Off;,,"SubBlock:IDS_OFF3;
+Ignore_Patt_Comment;
+AutoRange_Pin:VDD_PCPU,VDD_SOC;
+fixedRangePins:""0.7:VDD_DISP;0.2:VDD_AVE,VDD_DCS_DDR;1:VDD_ECPU"";
+DictName:OFF3;
+repeat_count:1;
+FlowLimitForInitIRange:FALSE;
+FlagWait:TRUE;
+FlagPatFinishMeasure:FALSE;
+DisableClockPortName:XI0_Diff_PA:K73;
+DisconnectClock:TRUE;
+EnableDisconnectPins:TRUE;",,,,,,,,,,,,,,,,,,,,
+,,8.01,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_PCPU ""VDD_PCPU""",,,,,,,,,,,,,,,,,,,
+,,8.02,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_ECPU ""VDD_ECPU""",,,,,,,,,,,,,,,,,,,
+,,8.03,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_SOC ""VDD_SOC""",,,,,,,,,,,,,,,,,,,
+,,8.04,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_DCS_DDR ""VDD_DCS_DDR""",,,,,,,,,,,,,,,,,,,
+,,8.05,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_DISP ""VDD_DISP""",,,,,,,,,,,,,,,,,,,
+,,8.07,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_AVE ""VDD_AVE""",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;FT1;FT2;FT3,,9,,Instance:IDS_OFF3_DELTA_OFF1,,,"Func:IDS_Delta_calc;
+Current1_dic:OFF1;
+Current2_dic:OFF3;
+power_rail:VDD_PCPU,VDD_ECPU,VDD_SOC,VDD_DCS_DDR,VDD_DISP,VDD_AVE;",,,,,,,,,,,,,,,,,,,,
+,,9.01,,,,,VDD_PCPU(IDS_OFF3) - VDD_PCPU(IDS_OFF1),"Limits ""Idelta_VDD_PCPU""",,,,,,,,,,,,,,,,,,,
+,,9.02,,,,,VDD_ECPU(IDS_OFF3) - VDD_ECPU(IDS_OFF1),"Limits ""Idelta_VDD_ECPU""",,,,,,,,,,,,,,,,,,,
+,,9.03,,,,,VDD_SOC(IDS_OFF3) - VDD_SOC(IDS_OFF1),"Limits ""Idelta_VDD_SOC""",,,,,,,,,,,,,,,,,,,
+,,9.04,,,,,VDD_DCS_DDR(IDS_OFF3) - VDD_DCS_DDR(IDS_OFF1),"Limits ""Idelta_VDD_DCS_DDR""",,,,,,,,,,,,,,,,,,,
+,,9.05,,,,,VDD_DISP(IDS_OFF3) - VDD_DISP(IDS_OFF1),"Limits ""Idelta_VDD_DISP""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,9.07,,,,,VDD_AVE(IDS_OFF3) - VDD_AVE(IDS_OFF1),"Limits ""Idelta_VDD_AVE""",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;FT1;FT2;FT3,,10,Run the pattern provided,Instance:PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_RATIO_CP2_CP1,,,"SubBlock:IDS_CP2_CP1_ratio;
+Func:IDS_main_current_MathFunc;
+Calc_Pin:VDD_DCS_DDR,VDD_DISP,VDD_ECPU,VDD_FIXED,VDD_GPU,VDD_LOW,VDD_PCPU,VDD_SOC,VDD_SRAM_GPU,VDD_SRAM_SOC,VDD_CPU_SRAM,VDD_AVE,VDD_AMPH_DDR;
+FuseType:config;
+MathFunction:/;
+MathInverse:False;
+FusedStage:CP1;",,,,,,,,,,,,,,,,,,,,
+,,10.01,read EFUSE: ids_vdd_dcs_ddr(CP1),,,, VDD_DCS_DDR(IDS)@CP2 / VDD_DCS_DDR(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_DCS_DDR""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.02,read EFUSE: ids_vdd_disp(CP1),,,, VDD_DISP(IDS)@CP2 / VDD_DISp(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_DISP""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.03,read EFUSE: ids_vdd_ecpu(CP1),,,, VDD_ECPU(IDS)@CP2 / VDD_ECPU(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_ECPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.04,read EFUSE: ids_vdd_fixed(CP1),,,, VDD_FIXED(IDS)@CP2 / VDD_FIXED(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_FIXED""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.05,read EFUSE: ids_vdd_gpu(CP1),,,, VDD_GPU(IDS)@CP2 / VDD_GPU(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_GPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.06,read EFUSE: ids_vdd_low(CP1),,,, VDD_LOW(IDS)@CP2 / VDD_LOW(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_LOW""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.07,read EFUSE: ids_vdd_pcpu(CP1),,,, VDD_PCPU(IDS)@CP2 / VDD_PCPU(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_PCPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.08,read EFUSE: ids_vdd_soc(CP1),,,, VDD_SOC(IDS)@CP2 / VDD_SOC(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_SOC""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.09,read EFUSE: ids_vdd_sram_gpu(CP1),,,, VDD_SRAM_GPU(IDS)@CP2 / VDD_SRAM_GPU(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_SRAM_GPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.1,read EFUSE: ids_vdd_sram_soc(CP1),,,, VDD_SRAM_SOC(IDS)@CP2 / VDD_SRAM_SOC(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_SRAM_SOC""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.11,read EFUSE: ids_vdd_cpu_sram(CP1),,,, VDD_CPU_SRAM(IDS)@CP2 / VDD_CPU_SRAM(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_CPU_SRAM""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.12,read EFUSE: ids_vdd_ave(CP1),,,, VDD_AVE(IDS)@CP2 / VDD_AVE(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_AVE""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,10.12,read EFUSE: ids_VDD_AMPH_DDR(CP1),,,,VDD_AMPH_DDR(IDS)@CP2 / VDD_AMPH_DDR(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_AMPH_DDR""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT2;FT3,,11,Run the pattern provided,Instance:PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_RATIO_CP1_FT1,,,"SubBlock:IDS_FT1_CP1_ratio;
+Func:IDS_main_current_MathFunc;
+Calc_Pin:VDD_DCS_DDR,VDD_DISP,VDD_ECPU,VDD_FIXED,VDD_GPU,VDD_LOW,VDD_PCPU,VDD_SOC,VDD_SRAM_GPU,VDD_SRAM_SOC,VDD_CPU_SRAM,VDD_AVE,VDD_AMPH_DDR;
+FuseType:config;
+MathFunction:-;
+MathInverse:False;
+FusedStage:CP1;",,,,,,,,,,,,,,,,,,,,
+,,11.01,read EFUSE: ids_vdd_dcs_ddr(CP1),,,, VDD_DCS_DDR(IDS)@CP1 / VDD_DCS_DDR(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_DCS_DDR""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.02,read EFUSE: ids_vdd_disp(CP1),,,, VDD_DISP(IDS)@CP1 / VDD_DISp(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_DISP""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.03,read EFUSE: ids_vdd_ecpu(CP1),,,, VDD_ECPU(IDS)@CP1 / VDD_ECPU(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_ECPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.04,read EFUSE: ids_vdd_fixed(CP1),,,, VDD_FIXED(IDS)@CP1 / VDD_FIXED(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_FIXED""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.05,read EFUSE: ids_vdd_gpu(CP1),,,, VDD_GPU(IDS)@CP1 / VDD_GPU(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_GPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.06,read EFUSE: ids_vdd_low(CP1),,,, VDD_LOW(IDS)@CP1 / VDD_LOW(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_LOW""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.07,read EFUSE: ids_vdd_pcpu(CP1),,,, VDD_PCPU(IDS)@CP1 / VDD_PCPU(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_PCPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.08,read EFUSE: ids_vdd_soc(CP1),,,, VDD_SOC(IDS)@CP1 / VDD_SOC(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_SOC""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.09,read EFUSE: ids_vdd_sram_gpu(CP1),,,, VDD_SRAM_GPU(IDS)@CP1 / VDD_SRAM_GPU(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_SRAM_GPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.1,read EFUSE: ids_vdd_sram_soc(CP1),,,, VDD_SRAM_SOC(IDS)@CP1 / VDD_SRAM_SOC(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_SRAM_SOC""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.11,read EFUSE: ids_vdd_cpu_sram(CP1),,,, VDD_CPU_SRAM(IDS)@CP1 / VDD_CPU_SRAM(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_CPU_SRAM""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.12,read EFUSE: ids_vdd_ave(CP1),,,, VDD_AVE(IDS)@CP1 / VDD_AVE(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_AVE""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,11.13,read EFUSE: ids_VDD_AMPH_DDR(CP1),,,,VDD_AMPH_DDR(IDS)@CP1 / VDD_AMPH_DDR(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_AMPH_DDR""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT2;FT3,,12,Run the pattern provided,Instance:PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_RATIO_CP2_FT1,,,"SubBlock:IDS_CP2_FT1_ratio;
+Func:IDS_main_current_MathFunc;
+Calc_Pin:VDD_DCS_DDR,VDD_DISP,VDD_ECPU,VDD_FIXED,VDD_GPU,VDD_LOW,VDD_PCPU,VDD_SOC,VDD_SRAM_GPU,VDD_SRAM_SOC,VDD_CPU_SRAM,VDD_AVE,VDD_AMPH_DDR;
+FuseType:config;
+MathFunction:/;
+MathInverse:True;
+FusedStage:CP2;",,,,,,,,,,,,,,,,,,,,
+,,12.01,read EFUSE: ids_vdd_dcs_ddr(CP2),,,, VDD_DCS_DDR(IDS)@CP2 / VDD_DCS_DDR(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_DCS_DDR""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.02,read EFUSE: ids_vdd_disp(CP2),,,, VDD_DISP(IDS)@CP2 / VDD_DISp(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_DISP""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.03,read EFUSE: ids_vdd_ecpu(CP2),,,, VDD_ECPU(IDS)@CP2 / VDD_ECPU(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_ECPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.04,read EFUSE: ids_vdd_fixed(CP2),,,, VDD_FIXED(IDS)@CP2 / VDD_FIXED(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_FIXED""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.05,read EFUSE: ids_vdd_gpu(CP2),,,, VDD_GPU(IDS)@CP2 / VDD_GPU(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_GPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.06,read EFUSE: ids_vdd_low(CP2),,,, VDD_LOW(IDS)@CP2 / VDD_LOW(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_LOW""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.07,read EFUSE: ids_vdd_pcpu(CP2),,,, VDD_PCPU(IDS)@CP2 / VDD_PCPU(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_PCPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.08,read EFUSE: ids_vdd_soc(CP2),,,, VDD_SOC(IDS)@CP2 / VDD_SOC(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_SOC""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.09,read EFUSE: ids_vdd_sram_gpu(CP2),,,, VDD_SRAM_GPU(IDS)@CP2 / VDD_SRAM_GPU(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_SRAM_GPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.1,read EFUSE: ids_vdd_sram_soc(CP2),,,, VDD_SRAM_SOC(IDS)@CP2 / VDD_SRAM_SOC(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_SRAM_SOC""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.11,read EFUSE: ids_vdd_cpu_sram(CP2),,,, VDD_CPU_SRAM(IDS)@CP2 / VDD_CPU_SRAM(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_CPU_SRAM""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.12,read EFUSE: ids_vdd_ave(CP2),,,, VDD_AVE(IDS)@CP2 / VDD_AVE(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_AVE""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,12.13,read EFUSE: ids_VDD_AMPH_DDR(CP2),,,,VDD_AMPH_DDR(IDS)@CP2 / VDD_AMPH_DDR(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_AMPH_DDR""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT2;FT3,,13,Run the pattern provided,Instance:PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_DELTA_FT1_CP1,,,"SubBlock:IDS_FT1_CP1_delta;
+Func:IDS_main_current_MathFunc;
+Calc_Pin:VDD_DCS_DDR,VDD_DISP,VDD_ECPU,VDD_FIXED,VDD_GPU,VDD_LOW,VDD_PCPU,VDD_SOC,VDD_SRAM_GPU,VDD_SRAM_SOC,VDD_CPU_SRAM,VDD_AVE,VDD_AMPH_DDR;
+FuseType:config;
+MathFunction:-;
+MathInverse:False;
+FusedStage:CP1;",,,,,,,,,,,,,,,,,,,,
+,,13.01,read EFUSE: ids_vdd_dcs_ddr(CP1),,,, VDD_DCS_DDR(IDS)@FT1 - VDD_DCS_DDR(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_DCS_DDR""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.02,read EFUSE: ids_vdd_disp(CP1),,,, VDD_DISP(IDS)@FT1 - VDD_DISp(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_DISP""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.03,read EFUSE: ids_vdd_ecpu(CP1),,,, VDD_ECPU(IDS)@FT1 - VDD_ECPU(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_ECPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.04,read EFUSE: ids_vdd_fixed(CP1),,,, VDD_FIXED(IDS)@FT1 - VDD_FIXED(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_FIXED""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.05,read EFUSE: ids_vdd_gpu(CP1),,,, VDD_GPU(IDS)@FT1 - VDD_GPU(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_GPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.06,read EFUSE: ids_vdd_low(CP1),,,, VDD_LOW(IDS)@FT1 - VDD_LOW(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_LOW""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.07,read EFUSE: ids_vdd_pcpu(CP1),,,, VDD_PCPU(IDS)@FT1 - VDD_PCPU(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_PCPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.08,read EFUSE: ids_vdd_soc(CP1),,,, VDD_SOC(IDS)@FT1 - VDD_SOC(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_SOC""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.09,read EFUSE: ids_vdd_sram_gpu(CP1),,,, VDD_SRAM_GPU(IDS)@FT1 - VDD_SRAM_GPU(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_SRAM_GPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.1,read EFUSE: ids_vdd_sram_soc(CP1),,,, VDD_SRAM_SOC(IDS)@FT1 - VDD_SRAM_SOC(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_SRAM_SOC""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.11,read EFUSE: ids_vdd_cpu_sram(CP1),,,, VDD_CPU_SRAM(IDS)@FT1 - VDD_CPU_SRAM(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_CPU_SRAM""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.12,read EFUSE: ids_vdd_ave(CP1),,,, VDD_AVE(IDS)@FT1 - VDD_AVE(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_AVE""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,13.13,read EFUSE: ids_VDD_AMPH_DDR(CP1),,,,VDD_AMPH_DDR(IDS)@FT1 - VDD_AMPH_DDR(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_AMPH_DDR""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,14,Run the pattern provided,Instance:PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_DELTA_CP2_FT2,,,"SubBlock:IDS_FT2_CP2_delta;
+Func:IDS_main_current_MathFunc;
+Calc_Pin:VDD_DCS_DDR,VDD_DISP,VDD_ECPU,VDD_FIXED,VDD_GPU,VDD_LOW,VDD_PCPU,VDD_SOC,VDD_SRAM_GPU,VDD_SRAM_SOC,VDD_CPU_SRAM,VDD_AVE,VDD_AMPH_DDR;
+FuseType:config;
+MathFunction:-;
+MathInverse:False;
+FusedStage:CP2;",,,,,,,,,,,,,,,,,,,,
+,,14.01,read EFUSE: ids_vdd_dcs_ddr(CP2),,,, VDD_DCS_DDR(IDS)@FT2 - VDD_DCS_DDR(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_DCS_DDR""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.02,read EFUSE: ids_vdd_disp(CP2),,,, VDD_DISP(IDS)@FT2 - VDD_DISp(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_DISP""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.03,read EFUSE: ids_vdd_ecpu(CP2),,,, VDD_ECPU(IDS)@FT2 - VDD_ECPU(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_ECPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.04,read EFUSE: ids_vdd_fixed(CP2),,,, VDD_FIXED(IDS)@FT2 - VDD_FIXED(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_FIXED""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.05,read EFUSE: ids_vdd_gpu(CP2),,,, VDD_GPU(IDS)@FT2 - VDD_GPU(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_GPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.06,read EFUSE: ids_vdd_low(CP2),,,, VDD_LOW(IDS)@FT2 - VDD_LOW(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_LOW""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.07,read EFUSE: ids_vdd_pcpu(CP2),,,, VDD_PCPU(IDS)@FT2 - VDD_PCPU(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_PCPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.08,read EFUSE: ids_vdd_soc(CP2),,,, VDD_SOC(IDS)@FT2 - VDD_SOC(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_SOC""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.09,read EFUSE: ids_vdd_sram_gpu(CP2),,,, VDD_SRAM_GPU(IDS)@FT2 - VDD_SRAM_GPU(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_SRAM_GPU""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.1,read EFUSE: ids_vdd_sram_soc(CP2),,,, VDD_SRAM_SOC(IDS)@FT2 - VDD_SRAM_SOC(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_SRAM_SOC""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.11,read EFUSE: ids_vdd_cpu_sram(CP2),,,, VDD_CPU_SRAM(IDS)@FT2 - VDD_CPU_SRAM(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_CPU_SRAM""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.12,read EFUSE: ids_vdd_ave(CP2),,,, VDD_AVE(IDS)@FT2 - VDD_AVE(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_AVE""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,14.13,read EFUSE: ids_VDD_AMPH_DDR(CP2),,,,VDD_AMPH_DDR(IDS)@FT2 - VDD_AMPH_DDR(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_AMPH_DDR""",,,,,,,,,,,,,,,,,,,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_ave_IEDA,,,"Func:IedaSetting;
+registryName:TMPS1_Untrim;
+dataSourceBlock:Ids_ON;
+dataName:vdd_ave;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_cpu_sram_IEDA,,,"Func:IedaSetting;
+registryName:IDS_VDD_CPU_SRAM;
+dataSourceBlock:Ids_ON;
+dataName:vdd_cpu_sram;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_dcs_ddr_IEDA,,,"Func:IedaSetting;
+registryName:IDS_VDD_BACKUP1;
+dataSourceBlock:Ids_ON;
+dataName:vdd_dcs_ddr;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_disp_IEDA,,,"Func:IedaSetting;
+registryName:TMPS2_Untrim;
+dataSourceBlock:Ids_ON;
+dataName:vdd_disp;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_ecpu_IEDA,,,"Func:IedaSetting;
+registryName:IDS_VDD_BACKUP;
+dataSourceBlock:Ids_ON;
+dataName:vdd_ecpu;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_fixed_IEDA,,,"Func:IedaSetting;
+registryName:IDS_VDD_FIXED;
+dataSourceBlock:Ids_ON;
+dataName:vdd_fixed;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_gpu_IEDA,,,"Func:IedaSetting;
+registryName:IDS_VDD_GPU;
+dataSourceBlock:Ids_ON;
+dataName:vdd_gpu;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_low_IEDA,,,"Func:IedaSetting;
+registryName:IDS_VDD_LOW;
+dataSourceBlock:Ids_ON;
+dataName:vdd_low;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_pcpu_IEDA,,,"Func:IedaSetting;
+registryName:IDS_VDD_CPU;
+dataSourceBlock:Ids_ON;
+dataName:vdd_pcpu;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_soc_IEDA,,,"Func:IedaSetting;
+registryName:IDS_VDD_SOC;
+dataSourceBlock:Ids_ON;
+dataName:vdd_soc;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_sram_gpu_IEDA,,,"Func:IedaSetting;
+registryName:IDS_VDD_GPU_SRAM;
+dataSourceBlock:Ids_ON;
+dataName:vdd_sram_gpu;",,,,,,,,,,,,,,,,,,,,
+,,,,Instance:vdd_sram_soc_IEDA,,,"Func:IedaSetting;
+registryName:TMPS3_Untrim;
+dataSourceBlock:Ids_ON;
+dataName:vdd_sram_soc;",,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,13 @@
+srm_vector name ($tset JTAG_TCK, JTAG_TDI, JTAG_TMS, JTAG_TRSTN,
+ JTAG_TDO, JTAG_SEL )
+ 
+{
+global subr name:
+ > tsetJTAG - 0 - - X - ;  // start
+set_cpu_cond (cpuA_cond) > tsetJTAG - 0 - - X - ;  // set_cpu_cond
+branch_expr = (cpuA_cond) > tsetJTAG - 0 - - X - ;  // branch_expr = (cpuA_cond)
+meas_loop:
+ > tsetJTAG - 0 - - X - ;  // meas_loop start
+if (branch_expr) jump meas_loop > tsetJTAG - 0 - - X - ;  // meas_loop end
+return > tsetJTAG - 0 - - X - ;  // return
+}

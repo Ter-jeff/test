@@ -1,0 +1,25 @@
+DTTimesetBasicSheet,version=2.3:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Time Sets (Basic)
+	
+	Timing Mode:	Single		Master Timeset Name:
+	Time Domain:			Strobe Ref Setup Name:
+	
+		Cycle	Pin/Group			Data		Drive				Compare				Edge Resolution
+	Time Set	Period	Name	Clock Period	Setup	Src	Fmt	On	Data	Return	Off	Mode	Open	Close	Ref Offset	Mode	Comment
+	TS1	=1/_TCK_Freq_VAR	SPI_SSIN		i/o	PAT	NR		=1/_TCK_Freq_VAR*0.25		0	Off				Auto	
+	TS1	=1/_TCK_Freq_VAR	SPI_SCLK		i/o	PAT	RL		=1/_TCK_Freq_VAR*0.5	=1/_TCK_Freq_VAR	0	Off				Auto	
+	TS1	=1/_TCK_Freq_VAR	SPI_MOSI		i/o	PAT	NR		=1/_TCK_Freq_VAR*0.25		0	Off				Auto	
+	TS1	=1/_TCK_Freq_VAR	SPI_MISO		i/o	PAT	NR		0		0	Edge Capture	=1/_TCK_Freq_VAR*0.5			Auto	
+	TS1	=2.0834E-08	I2C_SCL		i/o	ALLHI	NR		0		0	Off				Auto	
+	TS1	=2.0834E-08	I2C_SDA		i/o	ALLHI	NR		0		0	Off				Auto	
+	AAAA_TS0	=1/_TCK_Freq_VAR	SPI_SSIN		i/o	PAT	STAY				0	Off				Auto	
+	AAAA_TS0	=1/_TCK_Freq_VAR	SPI_SCLK		i/o	PAT	STAY				0	Off				Auto	
+	AAAA_TS0	=1/_TCK_Freq_VAR	SPI_MOSI		i/o	PAT	STAY				0	Off				Auto	
+	AAAA_TS0	=1/_TCK_Freq_VAR	SPI_MISO		i/o	PAT	STAY				0	Edge Capture	=1/_TCK_Freq_VAR*0.5			Auto	
+	AAAA_TS0	=2.0834E-08	I2C_SCL		i/o	ALLHI	STAY				0	Off				Auto	
+	AAAA_TS0	=2.0834E-08	I2C_SDA		i/o	ALLHI	STAY				0	Off				Auto	
+	
+	
+	
+	
+	
+	

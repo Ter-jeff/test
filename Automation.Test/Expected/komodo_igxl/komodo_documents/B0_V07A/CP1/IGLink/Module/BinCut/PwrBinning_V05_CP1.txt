@@ -1,0 +1,3 @@
+INPUT: product_identifier	INPUT: harvesting_bin	PwrScreen_SJ91a	PwrScreen_G115	PASS: power_binning	FAIL action	Pass Flag	Comment			
+0	0	94.1	85.5	2	Next	F_PowerBinning1	low_power			
+0	0	150	150	4	Fail	F_PowerBinning2	all_power			

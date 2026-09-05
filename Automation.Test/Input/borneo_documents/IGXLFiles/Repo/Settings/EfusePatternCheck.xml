@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EfusePatternCheck>
+  <Block Name = "ECID">
+    <BlockSgmt>ECD</BlockSgmt>
+    <WRType Name ="Write">
+      <Sgmt>PRG</Sgmt>
+    </WRType>
+    <WRType Name ="Read">
+      <Sgmt>SNS</Sgmt>
+    </WRType>
+  </Block>
+
+  <Block Name = "CONFIG">
+    <BlockSgmt>CFG</BlockSgmt>
+    <WRType Name ="Write">
+      <Sgmt>PRG</Sgmt>
+    </WRType>
+    <WRType Name ="Read">
+      <Sgmt>SNS</Sgmt>
+    </WRType>
+  </Block>
+
+  <Block Name = "MON">
+    <BlockSgmt>SEF</BlockSgmt>
+    <WRType Name ="Write">
+      <Sgmt>PRG</Sgmt>
+    </WRType>
+    <WRType Name ="Read">
+      <Sgmt>SNS</Sgmt>
+    </WRType>
+  </Block>
+
+  <Block Name = "UDRP0">
+    <BlockSgmt>SRVP</BlockSgmt>
+    <WRType Name ="Write">
+      <Sgmt>USI</Sgmt>
+    </WRType>
+    <WRType Name ="Read">
+      <Sgmt>USO</Sgmt>
+    </WRType>
+  </Block>
+
+  <Block Name = "UDRP1">
+    <BlockSgmt>SRVP</BlockSgmt>
+    <WRType Name ="Write">
+      <Sgmt>USI</Sgmt>
+    </WRType>
+    <WRType Name ="Read">
+      <Sgmt>USO</Sgmt>
+    </WRType>
+  </Block>
+
+  <Block Name = "UDRE">
+    <BlockSgmt>SRVE</BlockSgmt>
+    <WRType Name ="Write">
+      <Sgmt>USI</Sgmt>
+    </WRType>
+    <WRType Name ="Read">
+      <Sgmt>USO</Sgmt>
+    </WRType>
+  </Block>
+
+  <Block Name = "CMPP0">
+    <BlockSgmt>SRVP</BlockSgmt>
+    
+    <WRType Name ="Read">
+      <Sgmt>USO</Sgmt>
+    </WRType>
+  </Block>
+
+  <Block Name = "CMPP1">
+    <BlockSgmt>SRVP1</BlockSgmt>
+
+    <WRType Name ="Read">
+      <Sgmt>USO</Sgmt>
+    </WRType>
+  </Block>
+
+  <Block Name = "CMPE">
+    <BlockSgmt>SRVE</BlockSgmt>
+
+    <WRType Name ="Read">
+      <Sgmt>USO</Sgmt>
+    </WRType>
+  </Block>
+
+</EfusePatternCheck>

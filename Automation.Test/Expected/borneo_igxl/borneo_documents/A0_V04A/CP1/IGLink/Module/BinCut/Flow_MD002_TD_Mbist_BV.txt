@@ -1,0 +1,19 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow MD002_TD_Mbist_BV Start"																															
+Instance_Bincut_TDF_MDX,Row4,MDX002 SOC TD,TD		CP1||FT1			MissPatternInCsv	Test	MD002_MDX002_SocTd_PP_BRNA0_S_PL10_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_1_SOC_TD_MDX002_CDA0_PL10_BV		1000077000																													
+					MissPatternInCsv	Bintable	Bin_MD002_TD_BV																															
+Instance_Bincut_TDF_MDX,Row5,MDX002 SOC TD,TD		CP1||FT1			MissPatternInCsv	Test	MD002_MDX002_SocTd_PP_BRNA0_S_PL10_SC_CDB0_TDF_SSC_AUT_MDXXXX_DM_1_SOC_TD_MDX002_CDB0_PL10_BV		1000078000																													
+					MissPatternInCsv	Bintable	Bin_MD002_TD_BV																															
+Instance_Bincut_BIST_MDX,Row3,MDX002 SOC BIST,Mbist		(CP1||FT1) && !BINCUT_WITH_BIST			MissPatternInCsv	Test	MD002_MDX002_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_2_NOHARV_BIRA_BV		1000079000																													
+					MissPatternInCsv	Bintable	Bin_MD002_Mbist_BV																															
+Instance_Bincut_BIST_MDX,Row14,MDX002 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST			MissPatternInCsv	Test	MD002_MDX002_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_2_NOHARV_BV		1000080000																													
+					MissPatternInCsv	Bintable	Bin_MD002_Mbist_BV																															
+Call NwireFlow from BMS		CP1||FT1||FT2				call	Flow_nWire_Default_Disable																															
+Relay instance from BMS		CP1||FT1||FT2				Test	Relay_On_HARDIP		1000081000																													
+Relay instance from BMS		CP1||FT1||FT2				Test	Relay_Off_HARDIP		1000082000																													
+Call NwireFlow from BMS		CP1||FT1||FT2				call	Flow_nWire_Default_Enable																															
+						print	"Flow MD002_TD_Mbist_BV Stop"																															
+						Return																																

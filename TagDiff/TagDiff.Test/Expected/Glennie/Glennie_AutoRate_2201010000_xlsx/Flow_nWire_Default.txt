@@ -1,0 +1,24 @@
+Pass Rate	25.00%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	16	Pass Rows	4																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+MissingCompared	Flow_nWire_Default.txt		5							Test	FreeRunClk_Disable_LP_CLK																														
+MissingCompared	Flow_nWire_Default.txt		6							Test	FreeRunClk_Disable_REFCLK																														
+MissingCompared	Flow_nWire_Default.txt		7							Test	FreeRunClk_Disable_MADI_TXCLK_IN																														
+MissingCompared	Flow_nWire_Default.txt		8							Test	FreeRunClk_Disable_SWD_TCK_OUT																														
+P	Flow_nWire_Default.txt	Flow_nWire_Default.txt	9	9						Test	StartSBClock																														
+MissingCompared	Flow_nWire_Default.txt		10							Test	FreeRunClk_Enable_LP_CLK														F_nWire_lock_check																
+P	Flow_nWire_Default.txt	Flow_nWire_Default.txt	11	11						Bintable	Bin_DC_nWire_lock_check																														
+P	Flow_nWire_Default.txt	Flow_nWire_Default.txt	13	13						Bintable	Bin_DC_nWire_lock_check																														
+M	Flow_nWire_Default.txt		15							Bintable => 	Bin_DC_nWire_lock_check => 																														
+M	Flow_nWire_Default.txt		17							Bintable => 	Bin_DC_nWire_lock_check => 																														
+MissingCompared	Flow_nWire_Default.txt		12							Test	FreeRunClk_Enable_REFCLK														F_nWire_lock_check																
+MissingCompared	Flow_nWire_Default.txt		14							Test	FreeRunClk_Enable_MADI_TXCLK_IN														F_nWire_lock_check																
+MissingCompared	Flow_nWire_Default.txt		16							Test	FreeRunClk_Enable_SWD_TCK_OUT														F_nWire_lock_check																
+P	Flow_nWire_Default.txt	Flow_nWire_Default.txt	18	14						return																															
+MissingBase		Flow_nWire_Default.txt		5						Test	FreeRunClk_Disable_LP_CLK_UF																														
+MissingBase		Flow_nWire_Default.txt		6						Test	FreeRunClk_Disable_REFCLK_UF																														
+MissingBase		Flow_nWire_Default.txt		7						Test	FreeRunClk_Disable_MADI_TXCLK_IN_UF																														
+MissingBase		Flow_nWire_Default.txt		8						Test	FreeRunClk_Disable_SWD_TCK_OUT_UF																														
+MissingBase		Flow_nWire_Default.txt		10						Test	FreeRunClk_Enable_LP_CLK_UF														F_nWire_lock_check																
+MissingBase		Flow_nWire_Default.txt		12						Test	FreeRunClk_Enable_REFCLK_UF														F_nWire_lock_check																

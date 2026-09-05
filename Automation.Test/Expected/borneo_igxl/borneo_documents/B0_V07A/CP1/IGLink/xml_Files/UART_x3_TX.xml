@@ -1,0 +1,52 @@
+﻿<protocol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" description="UART" version="1.0" defaultName="UART" controller="Tester" validFamilies="">
+	<function name="UART_TX" group="" type="Out" description="" />
+	<frame name="UART_Rcv" description="read" type="Read" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">\</cycle>
+			<cycle repeat="0">L</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">E</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">X</cycle>
+			<cycle repeat="0">H</cycle>
+		</data>
+		<field name="Data_out" description="" length="0" variableLength="false">
+			<bit function="UART_TX" cycle="24" />
+			<bit function="UART_TX" cycle="21" />
+			<bit function="UART_TX" cycle="18" />
+			<bit function="UART_TX" cycle="15" />
+			<bit function="UART_TX" cycle="12" />
+			<bit function="UART_TX" cycle="9" />
+			<bit function="UART_TX" cycle="6" />
+			<bit function="UART_TX" cycle="3" />
+		</field>
+	</frame>
+	<frame name="Idle" description="" type="Idle" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="3">X</cycle>
+		</data>
+	</frame>
+	<layer_map has_hardware_layering="false" />
+</protocol>

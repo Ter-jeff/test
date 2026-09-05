@@ -1,0 +1,34 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow_HARDIP_DAPS_CZ Start "																															
+		!ShmooOnly||Prod_CP1||Prod_CP2||Prod_FT1||Prod_FT2			MissPattInPattList	Test	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_NV																															DDMEGAPP4	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_NV	PP_4_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_NV	PP_4_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_NV	PP_4C_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_NV	PP_4C_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_NV	PP_4D_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_NV	PP_4D_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_NV	PP_4E_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_NV	PP_4E_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+		!ShmooOnly||Prod_CP1||Prod_CP2||Prod_FT1||Prod_FT2			MissPattInPattList	Test	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_LV																															DDMEGAPP4	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_LV	PP_4_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_LV	PP_4_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_LV	PP_4C_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_LV	PP_4C_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_LV	PP_4D_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_LV	PP_4D_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_LV	PP_4E_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_LV	PP_4E_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+		!ShmooOnly||Prod_CP1||Prod_CP2||Prod_FT1||Prod_FT2			MissPattInPattList	Test	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_HV																															DDMEGAPP4	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_HV	PP_4_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_HV	PP_4_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_HV	PP_4C_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_HV	PP_4C_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_HV	PP_4D_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_HV	PP_4D_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_HV	PP_4E_FCTRL		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_UID_MODE_L	
+						Use-Limit	DAPS_DDMEGAPP4_DD_BRNA0_C_FULP_AN_DAPS_DLL_JTG_COD_ALLFRV_SI_MEGA_PP4_HV	PP_4E_FQTZ		100000	10000000	K	Hz																								dd_brna0_c_fulp_an_daps_dll_jtg_cod_allfrv_si_mega_pp4_MeasF_GPIO17	
+						print	"Flow_HARDIP_DAPS_CZ Stop "																															
+						Return																																

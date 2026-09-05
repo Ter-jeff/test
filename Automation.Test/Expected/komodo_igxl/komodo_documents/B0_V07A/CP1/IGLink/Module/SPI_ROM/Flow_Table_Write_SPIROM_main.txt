@@ -1,0 +1,18 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	Relay_On_Default		600100																													
+						flag-clear	First_Time_ROM_RW																															
+		Write_SPIROM||Write_SPIROM_SectorErase				flag-true	First_Time_ROM_RW																															
+						If	First_Time_ROM_RW																															
+						Test	Relay_On_SPI_Conti		600120																													
+						Test	DC_Conti_SPIROM_Neg		600125												F_spirom_conti																	
+						Bintable	Bin_spirom_conti																															
+						Test	SPIROM_PowerShort		600132																													
+						Use-Limit	SPIROM_PowerShort	QSPI_PWR_1P2		-0.01	1.5E-05										F_spirom_conti																	
+						Bintable	Bin_spirom_conti																															
+						Test	SPIROM_Program		600160																													
+						Test	SPIROM_Validate		600165																													
+						EndIf																																
+						return																																

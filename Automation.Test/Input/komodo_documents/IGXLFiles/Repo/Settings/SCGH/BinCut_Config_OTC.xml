@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BinCutConfig>
+  <VddBiningMode>
+     <Cpu>Td,ATPG_Td</Cpu>
+     <Gfx>Td</Gfx>
+     <Soc>Td</Soc>
+  </VddBiningMode>
+  <TmpsPattern>pp_otca0_c_fulp_an_akxx_dll_jtg_t02_allfv_si_untr_t2</TmpsPattern>
+  <FlowGroupOption>0</FlowGroupOption>
+</BinCutConfig>

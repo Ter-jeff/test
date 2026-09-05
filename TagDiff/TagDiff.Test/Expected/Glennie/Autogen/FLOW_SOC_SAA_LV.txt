@@ -1,0 +1,10 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow SOC_SAA_LV Start"																															
+Instance_SA_SOC,Row4,FLOW_SOC_SAA_LV		CP1||CP2||FT1				Test	SocSa_PP_PP_MN_GLNA0_S_PL10_SC_CLA0_SAA_COM_AUT_MSRDXX_DM_LV														F_Soc_Sa_MSX000_LV																	
+						Bintable	Bin_Soc_Sa_MSX000_HLV																															
+						Bintable	Bin_Soc_Sa_MSX000_LV																															
+						print	"Flow SOC_SAA_LV Stop"																															
+						Return																																

@@ -1,0 +1,138 @@
+﻿TTR,Test Item,Step,Description,Pattern,Force Condition,Register Assignment,Misc Info,Meas,"CP1 Lo Limit (H,L,N)","CP1 Hi Limit (H,L,N)","CP2 Lo Limit (H,L,N)","CP2 Hi Limit (H,L,N)","FT1 Lo Limit (H,L,N)","FT1 Hi Limit (H,L,N)","FT2 Lo Limit (H,L,N)","FT2 Hi Limit (H,L,N)","FT3 Lo Limit (H,L,N)","FT3 Hi Limit (H,L,N)","QA Lo Limit (H,L,N)","QA Hi Limit (H,L,N)","HTOL Lo Limit (H,L,N)","HTOL Hi Limit (H,L,N)",Comment
+,,,"PWR_AONDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRAON_INIT,,,"SubBlock:PWR_DIGCSOC_H_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_DIGCSOC, V1, 2509230931, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_DIGCSOC,VDD_SOC:V:0.050;,,"SubBlock:PP_PWR_DIGCSOC_H;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,1.1,Capture 1-bit data - VDD_SOC,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_SOC""",1,1,1,1,1,1,1,1,,,,,,,
+ ,,,,,,,,,,,,,,,,,,,,,,,
+,,,"PWR_AONDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRAON_INIT,,,"SubBlock:PWR_ADIGCSOC_L_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_DIGCSOC, V1, 2509230931, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_DIGCSOC,VDD_SOC:V:0.500;,,"SubBlock:PP_PWR_DIGCSOC_L;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,1.1,Capture 1-bit data - VDD_SOC,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_SOC""",0,0,0,0,0,0,0,0,,,,,,,
+ ,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"PWR_AONDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRAON_INIT,,,"SubBlock:PWR_DIGCSRAM_H_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_DIGCSRAM, V1, 2509230931, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_DIGCSRAM,VDD_SRAM_DETECT:V:0.050;,,"SubBlock:PP_PWR_DIGCSRAM_H;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,1.1,Capture 1-bit data - VDD_SRAM,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_SRAM""",1,1,1,1,1,1,1,1,,,,,,,
+ ,,,,,,,,,,,,,,,,,,,,,,,
+,,,"PWR_AONDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRAON_INIT,,,"SubBlock:PWR_DIGCSRAM_L_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_DIGCSRAM, V1, 2509230931, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_DIGCSRAM,VDD_SRAM_DETECT:V:0.500;,,"SubBlock:PP_PWR_DIGCSRAM_L;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,1.1,Capture 1-bit data - VDD_SRAM,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_SRAM""",0,0,0,0,0,0,0,0,,,,,,,
+ ,,,,,,,,,,,,,,,,,,,,,,,
+,,,AON Domain,,,,,,,,,,,,,,,,,,,,
+,,,"PWR_AONDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,,"PWR_AONDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRAON_INIT,,,"SubBlock:PWR_EXPHSOC_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_EXPHSOC, V1, 2509230931, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_EXPHSOC,VDD_SOC:V:0.050;,,"SubBlock:PP_PWR_EXPHSOC;
+",,,,,,,,,,,,,,,,Cycle count: 159
+ ,,,,,,,,,,,,,,,,,,,,,,,
+,,,"PWR_AONDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRAON_INIT,,,"SubBlock:PWR_EXPHSRAM_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_EXPHSRAM, V1, 2509230931, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_EXPHSRAM,VDD_SRAM_DETECT:V:0.050;,,"SubBlock:PP_PWR_EXPHSRAM;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"PWR_AONDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRAON_INIT,,,"SubBlock:PWR_EXPLSOC_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_EXPLSOC, V1, 2509230931, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_EXPLSOC,VDD_SOC:V:0.500;,,"SubBlock:PP_PWR_EXPLSOC;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,,"PWR_AONDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRAON_INIT,,,"SubBlock:PWR_EXPLSRAM_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_EXPLSRAM, V1, 2509230931, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_EXPLSRAM,VDD_SRAM_DETECT:V:0.500;,,"SubBlock:PP_PWR_EXPLSRAM;
+",,,,,,,,,,,,,,,,Cycle count: 159
+ ,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,SOC Domain,,,,,,,,,,,,,,,,,,,,
+,,,"PWR_SOCDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRSOC_INIT ,,,"SubBlock:DIGCCPU_init_H;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_DIGCCPU, V1, 2510021137, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_DIGCCPU,VDD_CPU_SRAM:V:0.050;,,"SubBlock:PP_DIGCCPU_H;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,1.1,Capture 1-bit data - VDD_ECPU_SRAM,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_ECPU_SRAM""",1,1,1,1,1,1,1,1,,,,,,,
+,,1.2,Capture 1-bit data - VDD_PCPU_SRAM,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_PCPU_SRAM""",1,1,1,1,1,1,1,1,,,,,,,
+,,,"PWR_SOCDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRSOC_INIT ,,,"SubBlock:DIGCCPU_init_L;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_DIGCCPU, V1, 2510021137, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_DIGCCPU,VDD_CPU_SRAM:V:0.500;,,"SubBlock:PP_DIGCCPU_L;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,1.1,Capture 1-bit data - VDD_ECPU_SRAM,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_ECPU_SRAM""",0,0,0,0,0,0,0,0,,,,,,,
+,,1.2,Capture 1-bit data - VDD_PCPU_SRAM,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_PCPU_SRAM""",0,0,0,0,0,0,0,0,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"PWR_SOCDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRSOC_INIT ,,,"SubBlock:_DIGCREST_init_H;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_DIGCREST, V1, 2510021137, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_DIGCREST,"VDD_AVE, VDD_LOW_DETECT, VDD_DCS_DDR, VDD_DISP, VDD_FIXED, VDD_ECPU, VDD_PCPU:V:0.050;",,"SubBlock:PP_DIGCREST_H;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,1.1,Capture 1-bit data - VDD_AVE,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_AVE""",1,1,1,1,1,1,1,1,,,,,,,
+,,1.2,Capture 1-bit data - VDD_PCPU,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_PCPU""",1,1,1,1,1,1,1,1,,,,,,,
+,,1.3,Capture 1-bit data - VDD_ECPU,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_ECPU""",1,1,1,1,1,1,1,1,,,,,,,
+,,1.4,Capture 1-bit data - VDD_LOW,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_LOW""",1,1,1,1,1,1,1,1,,,,,,,
+,,1.5,Capture 1-bit data - VDD_DCS,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_DCS""",1,1,1,1,1,1,1,1,,,,,,,
+,,1.6,Capture 1-bit data - VDD_FIXED,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_FIXED""",1,1,1,1,1,1,1,1,,,,,,,
+,,1.7,Capture 1-bit data - VDD_DISP,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_DISP""",1,1,1,1,1,1,1,1,,,,,,,
+,,,"PWR_SOCDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRSOC_INIT ,,,"SubBlock:PWR_DIGCREST_init_L;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_DIGCREST, V1, 2510021137, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_DIGCREST,"VDD_AVE, VDD_LOW_DETECT, VDD_DCS_DDR, VDD_DISP, VDD_FIXED, VDD_ECPU, VDD_PCPU:V:0.500;",,"SubBlock:PP_PWR_DIGCREST_L;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,1.1,Capture 1-bit data - VDD_AVE,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_AVE""",0,0,0,0,0,0,0,0,,,,,,,
+,,1.2,Capture 1-bit data - VDD_PCPU,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_PCPU""",0,0,0,0,0,0,0,0,,,,,,,
+,,1.3,Capture 1-bit data - VDD_ECPU,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_ECPU""",0,0,0,0,0,0,0,0,,,,,,,
+,,1.4,Capture 1-bit data - VDD_LOW,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_LOW""",0,0,0,0,0,0,0,0,,,,,,,
+,,1.5,Capture 1-bit data - VDD_DCS,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_DCS""",0,0,0,0,0,0,0,0,,,,,,,
+,,1.6,Capture 1-bit data - VDD_FIXED,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_FIXED""",0,0,0,0,0,0,0,0,,,,,,,
+,,1.7,Capture 1-bit data - VDD_DISP,,,,,"MeasC Pin = JTAG_TDO:1 ""VDD_DISP""",0,0,0,0,0,0,0,0,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"PWR_SOCDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRSOC_INIT ,,,"SubBlock:PWR_EXPHCPU_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_EXPHCPU, V1, 2510021137, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_EXPHCPU,VDD_CPU_SRAM:V:0.050;,,"SubBlock:PP_PWR_EXPHCPU;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,,"PWR_SOCDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRSOC_INIT ,,,"SubBlock:PWR_EXPLCPU_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_EXPLCPU, V1, 2510021137, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_EXPLCPU,VDD_CPU_SRAM:V:0.500;,,"SubBlock:PP_PWR_EXPLCPU;
+",,,,,,,,,,,,,,,,Cycle count: 159
+ ,,,,,,,,,,,,,,,,,,,,,,,
+,,,"PWR_SOCDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRSOC_INIT ,,,"SubBlock:PWR_EXPHREST_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_EXPHREST, V1, 2510021137, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_EXPHREST,"VDD_AVE, VDD_LOW_DETECT, VDD_DCS_DDR, VDD_DISP, VDD_FIXED, VDD_ECPU, VDD_PCPU:V:0.050;",,"SubBlock:PP_PWR_EXPHREST;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,,"PWR_SOCDIGC, V1, 2504231626, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_S_IN00_PW_PTSX_XXX_XXX_PWR_ALLFRV_SI_PWRSOC_INIT ,,,"SubBlock:PWR_EXPLREST_INIT;
+",,,,,,,,,,,,,,,,Cycle count: 216724
+,,,"PWR_EXPLREST, V1, 2510021137, DigSrc bits: 0",,,,,,,,,,,,,,,,,,,,
+,,1.0,Run the pattern provided,PP_BRNA0_C_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWR_EXPLREST,"VDD_AVE, VDD_LOW_DETECT, VDD_DCS_DDR, VDD_DISP, VDD_FIXED, VDD_ECPU, VDD_PCPU:V:0.500;",,"SubBlock:PP_PWR_EXPLREST;
+",,,,,,,,,,,,,,,,Cycle count: 159
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,

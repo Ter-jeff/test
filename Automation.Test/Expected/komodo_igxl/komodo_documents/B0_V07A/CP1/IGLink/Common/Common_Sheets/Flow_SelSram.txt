@@ -1,0 +1,138 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	Initial_SRM_ParseChkList																															
+						print	"======== Start of SocScan DSSC SelSram Test ========"																															
+						Test	SocScan_SelSram_SetLoopCNT_DSSC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	SocScan_SelSram_DSSC																															
+						Test	SocScan_SelSram_Digcap_DSSC_LogicH_SramL_NV																															
+						Test	SocScan_SelSram_DSSC																															
+						Test	SocScan_SelSram_Digcap_DSSC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of SocScan DSSC SelSram Test ========"																															
+						print	"======== Start of SocMbist DSSC SelSram Test ========"																															
+						Test	SocMbist_SelSram_SetLoopCNT_DSSC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	SocMbist_SelSram_DSSC																															
+						Test	SocMbist_SelSram_Digcap_DSSC_LogicH_SramL_NV																															
+						Test	SocMbist_SelSram_DSSC																															
+						Test	SocMbist_SelSram_Digcap_DSSC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of SocMbist DSSC SelSram Test ========"																															
+						print	"======== Start of SocScan HC SelSram Test ========"																															
+						Test	SocScan_SelSram_SetLoopCNT_HC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	SocScan_SelSram_HC																															
+						Test	SocScan_SelSram_Digcap_HC_LogicH_SramL_NV																															
+						Test	SocScan_SelSram_HC																															
+						Test	SocScan_SelSram_Digcap_HC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of SocScan HC SelSram Test ========"																															
+						print	"======== Start of SocMbist HC SelSram Test ========"																															
+						Test	SocMbist_SelSram_SetLoopCNT_HC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	SocMbist_SelSram_HC																															
+						Test	SocMbist_SelSram_Digcap_HC_LogicH_SramL_NV																															
+						Test	SocMbist_SelSram_HC																															
+						Test	SocMbist_SelSram_Digcap_HC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of SocMbist HC SelSram Test ========"																															
+						print	"======== Start of CpuScan DSSC SelSram Test ========"																															
+						Test	CpuScan_SelSram_SetLoopCNT_DSSC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	CpuScan_SelSram_DSSC																															
+						Test	CpuScan_SelSram_Digcap_DSSC_LogicH_SramL_NV																															
+						Test	CpuScan_SelSram_DSSC																															
+						Test	CpuScan_SelSram_Digcap_DSSC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of CpuScan DSSC SelSram Test ========"																															
+						print	"======== Start of CpuMbist DSSC SelSram Test ========"																															
+						Test	CpuMbist_SelSram_SetLoopCNT_DSSC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	CpuMbist_SelSram_DSSC																															
+						Test	CpuMbist_SelSram_Digcap_DSSC_LogicH_SramL_NV																															
+						Test	CpuMbist_SelSram_DSSC																															
+						Test	CpuMbist_SelSram_Digcap_DSSC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of CpuMbist DSSC SelSram Test ========"																															
+						print	"======== Start of CpuScan HC SelSram Test ========"																															
+						Test	CpuScan_SelSram_SetLoopCNT_HC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	CpuScan_SelSram_HC																															
+						Test	CpuScan_SelSram_Digcap_HC_LogicH_SramL_NV																															
+						Test	CpuScan_SelSram_HC																															
+						Test	CpuScan_SelSram_Digcap_HC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of CpuScan HC SelSram Test ========"																															
+						print	"======== Start of CpuMbist HC SelSram Test ========"																															
+						Test	CpuMbist_SelSram_SetLoopCNT_HC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	CpuMbist_SelSram_HC																															
+						Test	CpuMbist_SelSram_Digcap_HC_LogicH_SramL_NV																															
+						Test	CpuMbist_SelSram_HC																															
+						Test	CpuMbist_SelSram_Digcap_HC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of CpuMbist HC SelSram Test ========"																															
+						print	"======== Start of GfxScan DSSC SelSram Test ========"																															
+						Test	GfxScan_SelSram_SetLoopCNT_DSSC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	GfxScan_SelSram_DSSC																															
+						Test	GfxScan_SelSram_Digcap_DSSC_LogicH_SramL_NV																															
+						Test	GfxScan_SelSram_DSSC																															
+						Test	GfxScan_SelSram_Digcap_DSSC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of GfxScan DSSC SelSram Test ========"																															
+						print	"======== Start of GfxMbist DSSC SelSram Test ========"																															
+						Test	GfxMbist_SelSram_SetLoopCNT_DSSC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	GfxMbist_SelSram_DSSC																															
+						Test	GfxMbist_SelSram_Digcap_DSSC_LogicH_SramL_NV																															
+						Test	GfxMbist_SelSram_DSSC																															
+						Test	GfxMbist_SelSram_Digcap_DSSC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of GfxMbist DSSC SelSram Test ========"																															
+						print	"======== Start of GfxScan HC SelSram Test ========"																															
+						Test	GfxScan_SelSram_SetLoopCNT_HC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	GfxScan_SelSram_HC																															
+						Test	GfxScan_SelSram_Digcap_HC_LogicH_SramL_NV																															
+						Test	GfxScan_SelSram_HC																															
+						Test	GfxScan_SelSram_Digcap_HC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of GfxScan HC SelSram Test ========"																															
+						print	"======== Start of GfxMbist HC SelSram Test ========"																															
+						Test	GfxMbist_SelSram_SetLoopCNT_HC_NV																															
+						For	SEL_CASE_CNT = 0; SEL_CASE_CNT < SEL_CASE_End; SEL_CASE_CNT++																															
+						For	SEL_PAT_CNT = 0; SEL_PAT_CNT < SEL_PAT_END; SEL_PAT_CNT++																															
+						Test	GfxMbist_SelSram_HC																															
+						Test	GfxMbist_SelSram_Digcap_HC_LogicH_SramL_NV																															
+						Test	GfxMbist_SelSram_HC																															
+						Test	GfxMbist_SelSram_Digcap_HC_LogicL_SramH_NV																															
+						Next																																
+						Next																																
+						print	"======== End of GfxMbist HC SelSram Test ========"																															
+						Return																																

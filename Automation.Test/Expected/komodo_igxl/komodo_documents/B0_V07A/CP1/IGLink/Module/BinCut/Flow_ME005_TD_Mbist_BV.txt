@@ -1,0 +1,21 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow ME005_TD_Mbist_BV Start"																															
+Instance_Bincut_ME,Row16,MEX005 CPU TD,TD		CP1				Test	ME005_MEX005_ECPU_DIV166_MEX005_TD_ECPU_DIV166_MEX005_TD_BV		56780000																													
+						Bintable	Bin_ME005_TD_BV																															
+Instance_Bincut_ME,Row17,MEX005 CPU TD,TD		CP1				Test	ME005_MEX005_ECPU_DIV422_MEX005_TD_ECPU_DIV422_MEX005_TD_BV		56781000																													
+						Bintable	Bin_ME005_TD_BV																															
+Instance_Bincut_ME,Row38,MEX005 CPU TD,TD		CP1 && Content_RMA				Test	ME005_MEX005_ECPU_CEXTEST_MEX005_ECPU_CEXTEST_MEX005_BV		56782000																													
+						Bintable	Bin_ME005_TD_BV																															
+Instance_Bincut_ME,Row48,MEX005 CPU TD,TD		(CP1 && Content_RMA)&&(FT1||FT2)				Test	ME005_MEX005_ECPU_DIV166_MEX005_TD_PL40_ECPU_DIV166_MEX005_TD_PL40_BV		56783000																													
+						Bintable	Bin_ME005_TD_BV																															
+Instance_Bincut_BIST,Row250,MEX005 CPU BIST,Mbist		CP1 && BINCUT_WITH_BIST				Test	ME005_MEX005_CpuMbist_PP_KMDA0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_LATR_BV		56784000																													
+						Bintable	Bin_ME005_Mbist_BV																															
+Instance_Bincut_BIST,Row1073,MEX005 CPU BIST,Mbist		CP1 && !BINCUT_WITH_BIST				Test	ME005_MEX005_CpuMbist_PP_KMDA0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_LATR_BIRA_BV		56785000																													
+						Bintable	Bin_ME005_Mbist_BV																															
+Instance_Bincut_BIST,Row1080,MEX005 CPU BIST,Mbist		CP1 && !BINCUT_WITH_BIST				Test	ME005_MEX005_CpuMbist_PP_KMDA0_C_PLLP_BI_E0XX_BXX_JTG_59N_MEXXXX_SI_XXXX_59N_LATR_BIRA_BV		56786000																													
+						Bintable	Bin_ME005_Mbist_BV																															
+						print	"Flow ME005_TD_Mbist_BV Stop"																															
+						Return																																

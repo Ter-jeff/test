@@ -1,0 +1,33 @@
+DFF 1.4	Time Sets (Basic)																
+																	
+	Timing Mode:	Single		Master Timeset Name:													
+	Time Domain:																
+																	
+		Cycle	Pin Group			Data		Drive				Compare			Edge Resolution		
+	Time Set	Period	Name	Clock Period	Setup	Src	Fmt	On	Data	Return	Off	Mode	Open	Close	Mode	Comment	
+	thtol1	=(1/_TCK_Freq_VAR)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	JTAG_TCK		i/o	PAT	RL	0	=(0.3984/_TCK_Freq_VAR)	=(0.8880/_TCK_Freq_VAR)		Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	CFSB_N1		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	CFSB_AON_1		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	CFSB_AON_2		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	AON_SLEEP1_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	DDR00_01_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	DDR02_03_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	DDR04_05_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	XO0		i/o	PAT	NR	0	0		0	Edge	=(0.7400/_TCK_Freq_VAR)		Auto		
+	thtol1	=(1/_TCK_Freq_VAR)	XI0	=(1/_XI0_Diff_Freq_VAR)	clock	PAT	RL	0	=(0.5/_XI0_Diff_Freq_VAR)	=(1/_XI0_Diff_Freq_VAR)		Off			Auto
+
+/* VAR Definitions */
+	TCK_Freq_VAR	=1000000
+	XI0_Diff_Freq_VAR	=24000000

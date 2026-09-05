@@ -1,0 +1,8 @@
+Instruction	Example
+Green = cell values are identical	
+Yellow = cells are different.
+  • ReferenceProgramValue => AutogenProgramValue	
+Red = in Reference program, but not in Autogen program.	
+Grey = in Autogen program, but not in Reference program.	
+no color = no tested	
+Output_hashes, ExecInfo, Versions will be excluded from the summary sheet.	

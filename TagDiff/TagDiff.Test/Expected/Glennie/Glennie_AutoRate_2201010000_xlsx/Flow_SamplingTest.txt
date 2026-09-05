@@ -1,0 +1,95 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table	=HYPERLINK("#'Data'!1:1","Return")																																				
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						flag-false	SamplingTest_TurnOnFlag_ByDie																															
+						flag-false	SamplingTest_TurnOnFlag_ByFlag																															
+					xxx	enable-flow-word	Enable_Vddbinning_Cooling																															
+To us WLFT porber XY as reference		STDC_ProberXY4WLFT				nop																																
+		Enable_DFTLHFC_Debug				nop																																
+		Debug_LVCC_VminBoundary				nop																																
+		Debug_HVCC_VminBoundary				nop																																
+						create-site-var	Flow_Shmoo_DevCharSetup																															
+						create-site-var	Flow_Shmoo_Y_Step																															
+						create-site-var	Flow_Shmoo_X_Step																															
+						create-site-var	Flow_Shmoo_Y																															
+						create-site-var	Flow_Shmoo_X																															
+						create-site-var	Function_Result																															
+						Test	Enable_Charz_mode																															
+			CP1			nop	Flow_Sampling_AS_CP1																															
+			CP2			nop	Flow_Sampling_AS_CP2																															
+			WLFT1			nop	Flow_Sampling_AS_WLFT1																															
+			FT2			nop	Flow_Sampling_AS_FT2																															
+						If	SubFlow_TurnOnFlag_ByDie																															
+						call	Flow_Sampling_9S_CP1																															
+			CP2			nop	Flow_Sampling_9S_CP2																															
+			WLFT1			nop	Flow_Sampling_9S_WLFT1																															
+			FT2			nop	Flow_Sampling_9S_FT2																															
+			CP1,CP2,WLFT1,WLFT2,FT2			nop	Flow_char																															
+						EndIf																																
+						If	SamplingTest_TurnOnFlag_ByFlag																															
+						EndIf																																
+						call	Flow_nWire_Default																															
+						Test	Disable_Charz_mode																															
+						return																																
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+						flag-false	SamplingTest_TurnOnFlag_ByDie																															
+						flag-false	SamplingTest_TurnOnFlag_ByFlag																															
+						enable-flow-word	Enable_Vddbinning_Cooling																															
+To us WLFT porber XY as reference		STDC_ProberXY4WLFT				nop																																
+		Enable_DFTLHFC_Debug				nop																																
+		Debug_LVCC_VminBoundary				nop																																
+		Debug_HVCC_VminBoundary				nop																																
+						create-site-var	Flow_Shmoo_DevCharSetup																															
+						create-site-var	Flow_Shmoo_Y_Step																															
+						create-site-var	Flow_Shmoo_X_Step																															
+						create-site-var	Flow_Shmoo_Y																															
+						create-site-var	Flow_Shmoo_X																															
+					X	Test	Datalog_Setup_Char																															
+					X	Test	ReadWaferData_Char																															
+						create-site-var	Function_Result																															
+						Test	Process_SubFlowFlag_ByDie																															
+					NoUse	Test	Process_SubFlowFlag_ByFlag																															
+						Test	SamplingTest_Header_1																															
+						call	Flow_TMPS																															
+						Test	Enable_Charz_mode																															
+A0						call	Flow_LVCC_ATPG_AllSite																															
+A0			CP1,WLFT1,FT2			Test	Relay_On_HARDIP																															
+A0			CP1			call	Flow_LVCC_CZ_AMP_EXTS_CP_ALLS																															
+A0			CP1,WLFT1			call	Flow_LVCC_CZ_AMP_INTS																															
+A0			WLFT1			call	Flow_LVCC_CZ_AMP_EXTS_FT																															
+A0			FT2			call	Flow_LVCC_CZ_LPDPRX_FT																															
+A0			CP1,WLFT1,FT2			Test	Relay_Off_HARDIP																															
+						Test	Enable_Charz_mode																															
+						If	SamplingTest_TurnOnFlag_ByDie																															
+A0			CP1			call	Flow_LVCC_CZ_SOC_CP1																															
+A0			CP1			call	Flow_LVCC_CZ_GPU_CP1																															
+A0			CP1			call	Flow_LVCC_CZ_CPU_CP1																															
+A0			CP2			call	Flow_LVCC_CZ_SOC_CP2																															
+A0			CP2			call	Flow_LVCC_CZ_GPU_CP2																															
+A0			CP2			call	Flow_LVCC_CZ_CPU_CP2																															
+A0			WLFT1			call	Flow_LVCC_CZ_SOC_FT1																															
+A0			WLFT1			call	Flow_LVCC_CZ_GPU_FT1																															
+A0			WLFT1			call	Flow_LVCC_CZ_CPU_FT1																															
+A0			FT2			call	Flow_LVCC_CZ_SOC_FT2																															
+A0			FT2			call	Flow_LVCC_CZ_GPU_FT2																															
+A0			FT2			call	Flow_LVCC_CZ_CPU_FT2																															
+A0			CP1			Test	Relay_On_HARDIP																															
+A0			CP1			call	Flow_LVCC_CZ_AMP_EXTS_CP_9S																															
+A0			CP1			Test	Relay_Off_HARDIP																															
+						EndIf																																
+						If	SamplingTest_TurnOnFlag_ByFlag																															
+						EndIf																																
+						call	Flow_nWire_Default																															
+						Test	Disable_Charz_mode																															
+						Test	SamplingTest_Footer_1																															
+						disable-flow-word	Enable_Vddbinning_Cooling																															
+						return																																

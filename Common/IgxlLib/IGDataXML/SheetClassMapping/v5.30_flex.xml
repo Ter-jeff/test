@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<IGXL xmlns="http://Teradyne.Oasis.IGData.Utilities/IGXL.xsd" version="5.30.00">
+  <SheetItemClass sheetname="Pin Map" sheetversion="1.0">
+    <InnerObj name="Pins" type="Pin" fullType="Teradyne.Oasis.IGData.Pin" isMultiRow="true">
+      <Property name="Name" indexInSheet="2" type="String" nameInSheet="Pin Name" isEmptyRowJudgeKey="true"/>
+      <Property name="PinType" indexInSheet="3" type="String" nameInSheet="Pin Type"/>
+      <Property name="Comment" indexInSheet="4" type="String" nameInSheet="Comment"/>
+    </InnerObj>
+    <InnerObj name="PinGroups" type="PinGroup" fullType="Teradyne.Oasis.IGData.PinGroup" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" type="String" nameInSheet="Group Name" isGroupKey="true"/>
+      <Property name="Type" indexInSheet="3" type="String" nameInSheet="Pin Type"/>
+      <InnerObjComplex name="Members" type="PinGroupArgs" fullType="Teradyne.Oasis.IGData.PinGroupArgs" isMultiRow="true">
+        <Property name="MemberName" indexInSheet="2" type="String" nameInSheet="Pin Name" isEmptyRowJudgeKey="true"/>
+        <Property name="Comment" indexInSheet="4" type="String" nameInSheet="Comment"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Global Specs" sheetversion="1.0">
+    <InnerObj name="Specs" type="GlobalSpec" fullType="Teradyne.Oasis.IGData.GlobalSpec" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" type="String" nameInSheet="Symbol" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <InnerObjComplex name="SpecRows" type="GlobalSpecRow" fullType="Teradyne.Oasis.IGData.GlobalSpecRow" isMultiRow="true">
+        <Property name="JobName" indexInSheet="2" type="String" nameInSheet="Job"/>
+        <Property name="Value" indexInSheet="3" type="String" nameInSheet="Value"/>
+        <Property name="Comment" indexInSheet="4" type="String" nameInSheet="Comment"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Test Instances" sheetversion="1.8">
+    <InnerObj name="TestInstanceGroups" type="FlexTestInstanceGroup" fullType="Teradyne.Oasis.IGData.Flex.FlexTestInstanceGroup" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Test Name" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <Property name="ProcedureType" indexInSheet="2" nameInSheet="Type" type="String"/>
+      <Property name="ProcedureName" indexInSheet="3" nameInSheet="Name" type="String"/>
+      <InnerObjComplex name="TestInstanceRows" type="FlexTestInstance" fullType="Teradyne.Oasis.IGData.Flex.FlexTestInstance" isMultiRow="true">
+        <Property name="TestName" indexInSheet="1" nameInSheet="Test Name" type="String"/>
+        <Property name="ProcedureType" indexInSheet="2" nameInSheet="Type" type="String"/>
+        <Property name="ProcedureName" indexInSheet="3" nameInSheet="Name" type="String"/>
+        <Property name="CalledAs" indexInSheet="4" nameInSheet="Test Name" type="String"/>
+        <Property name="TimeSetsField" indexInSheet="9" nameInSheet="Time Sets" type="String"/>
+        <Property name="EdgeSetsField" indexInSheet="10" nameInSheet="Edge Sets" type="String"/>
+        <Property name="LevelSheet" indexInSheet="11" nameInSheet="Pin Levels" type="String"/>
+        <Property name="MixedSignalSheetName" indexInSheet="12" nameInSheet="Mixed Signal Timing" type="String"/>
+        <Property name="Overlay" indexInSheet="13" nameInSheet="Overlay" type="String"/>
+        <Property name="Comment" indexInSheet="114" nameInSheet="Comment" type="String"/>
+        <InnerObjComplex name="Args" type="List" fullType="System.String">
+          <Property name="start" indexInSheet="14" nameInSheet="Arg0" type="String"/>
+          <Property name="end" indexInSheet="113" nameInSheet="Arg99" type="String"/>
+        </InnerObjComplex>
+        <InnerObjComplex name="DcContext" type="DcContext" fullType="Teradyne.Oasis.IGData.DcContext">
+          <Property name="Category" indexInSheet="5" nameInSheet="Category" type="String"/>
+          <Property name="Selector" indexInSheet="6" nameInSheet="Selector" type="String"/>
+        </InnerObjComplex>
+        <InnerObjComplex name="AcContext" type="AcContext" fullType="Teradyne.Oasis.IGData.AcContext">
+          <Property name="Category" indexInSheet="7" nameInSheet="Category" type="String"/>
+          <Property name="Selector" indexInSheet="8" nameInSheet="Selector" type="String"/>
+        </InnerObjComplex>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Flow Table" sheetversion="1.3">
+    <Field fieldName="FlowDomain" rowIndex="1" columnIndex="7"/>
+    <InnerObj name="FlowSteps" type="FlexFlowStep" fullType="Teradyne.Oasis.IGData.Flex.FlexFlowStep" isMultiRow="true">
+      <Property name="Label" indexInSheet="1" nameInSheet="Label" type="String"/>
+      <Property name="EnableField" indexInSheet="2" nameInSheet="Enable" type="String"/>
+      <Property name="GateJob" indexInSheet="3" nameInSheet="Job" type="List"/>
+      <Property name="GatePart" indexInSheet="4" nameInSheet="Part" type="List"/>
+      <Property name="GateEnv" indexInSheet="5" nameInSheet="Env" type="List"/>
+      <Property name="Opcode" indexInSheet="6" nameInSheet="Opcode" type="String" isEmptyRowJudgeKey="true"/>
+      <Property name="Parameter" indexInSheet="7" nameInSheet="Parameter" type="String"/>
+      <Property name="TName" indexInSheet="8" nameInSheet="TName" type="String"/>
+      <Property name="TNum" indexInSheet="9" nameInSheet="TNum" type="String"/>
+      <Property name="LoLim" indexInSheet="10" nameInSheet="LoLim" type="String"/>
+      <Property name="HiLim" indexInSheet="11" nameInSheet="HiLim" type="String"/>
+      <Property name="DatalogScale" indexInSheet="12" nameInSheet="Scale" type="String"/>
+      <Property name="DatalogUnits" indexInSheet="13" nameInSheet="Units" type="String"/>
+      <Property name="DatalogFormat" indexInSheet="14" nameInSheet="Format" type="String"/>
+      <Property name="HardBinPass" indexInSheet="15" nameInSheet="Pass" type="String"/>
+      <Property name="HardBinFail" indexInSheet="16" nameInSheet="Fail" type="String"/>
+      <Property name="SoftBinPass" indexInSheet="17" nameInSheet="Pass" type="String"/>
+      <Property name="SoftBinFail" indexInSheet="18" nameInSheet="Fail" type="String"/>
+      <Property name="Result" indexInSheet="19" nameInSheet="Result" type="String"/>
+      <Property name="PassAction" indexInSheet="20" nameInSheet="Pass" type="String"/>
+      <Property name="FailAction" indexInSheet="21" nameInSheet="Fail" type="String"/>
+      <Property name="State" indexInSheet="22" nameInSheet="State" type="String"/>
+      <Property name="GroupSpecifier" indexInSheet="23" nameInSheet="Specifier" type="String"/>
+      <Property name="GroupSense" indexInSheet="24" nameInSheet="Sense" type="String"/>
+      <Property name="GroupCondition" indexInSheet="25" nameInSheet="Condition" type="String"/>
+      <Property name="GroupName" indexInSheet="26" nameInSheet="Name" type="String"/>
+      <Property name="DeviceSense" indexInSheet="27" nameInSheet="Sense" type="String"/>
+      <Property name="DeviceCondition" indexInSheet="28" nameInSheet="Condition" type="String"/>
+      <Property name="DeviceName" indexInSheet="29" nameInSheet="Name" type="String"/>
+      <Property name="DebugAssume" indexInSheet="30" nameInSheet="Assume" type="String"/>
+      <Property name="DebugSites" indexInSheet="31" nameInSheet="Sites" type="String"/>
+      <Property name="Comment" indexInSheet="32" nameInSheet="Comment" type="String"/>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="AC Specs" sheetversion="1.0">
+    <InnerObj name="Specs" type="AcSpec" fullType="Teradyne.Oasis.IGData.AcSpec" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Symbol" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <InnerObjComplex name="Selectors" type="Selector" fullType="Teradyne.Oasis.IGData.Selector" isMultiRow="true">
+        <Property name="Name" indexInSheet="3" nameInSheet="Name" type="String"/>
+        <Property name="Value" indexInSheet="4" nameInSheet="Val" type="String"/>
+        <Property name="Comment" nameInSheet="Comment" isRelative="true" type="String" indexInSheet="1" relativePropertyName="CategoryValues"/>
+        <InnerObjComplex name="CategoryValues" type="CategoryValueSet" fullType="Teradyne.Oasis.IGData.CategoryValueSet" isVariant="true">
+          <Property name="Name" indexInSheet="5" nameInSheet="Name" type="String"/>
+          <Property name="Typ" indexInSheet="5" nameInSheet="Typ" type="String"/>
+          <Property name="Min" indexInSheet="6" nameInSheet="Min" type="String"/>
+          <Property name="Max" indexInSheet="7" nameInSheet="Max" type="String"/>
+        </InnerObjComplex>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Channel Map" sheetversion="1.1">
+    <Field fieldName="DIBID" nameInSheet="DIB ID:" rowIndex="2" columnIndex="2"/>
+    <Field fieldName="ViewMode" nameInSheet="View Mode:" rowIndex="2" columnIndex="5" defaultValue="Signal"/>
+    <InnerObj name="Channels" type="ChannelRecord" fullType="Teradyne.Oasis.IGData.ChannelRecord" isMultiRow="true">
+      <Property name="PinName" indexInSheet="1" nameInSheet="Pin Name" type="String" isEmptyRowJudgeKey="true"/>
+      <Property name="PackagePin" indexInSheet="2" nameInSheet="Package Pin" type="String"/>
+      <Property name="Type" indexInSheet="3" nameInSheet="Type" type="String" isEmptyRowJudgeKey="true"/>
+      <Property name="Comment" indexInSheet="1" nameInSheet="Comment" type="String" isRelative="true" relativePropertyName="Sites"/>
+      <InnerObjComplex name="Sites" type="Simple" fullType="System.String" isVariant="true">
+        <Property name="Site" indexInSheet="4" nameInSheet="Site" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Characterization" sheetversion="1.5">
+    <InnerObj name="CharSetups" type="FlexCharSetup" fullType="Teradyne.Oasis.IGData.Flex.FlexCharSetup" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Setup Name" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <InnerObjComplex name="CharSteps" type="FlexCharStep" fullType="Teradyne.Oasis.IGData.Flex.FlexCharStep" isMultiRow="true">
+        <Property name="RowName" indexInSheet="2" nameInSheet="Row Name" type="String"/>
+        <Property name="Mode" indexInSheet="3" nameInSheet="Mode" type="String"/>
+        <Property name="ParameterType" indexInSheet="4" nameInSheet="Type" type="String"/>
+        <Property name="ParameterName" indexInSheet="5" nameInSheet="Name" type="String"/>
+        <Property name="RangeFrom" indexInSheet="6" nameInSheet="From" type="String"/>
+        <Property name="RangeTo" indexInSheet="7" nameInSheet="To" type="String"/>
+        <Property name="RangeSteps" indexInSheet="8" nameInSheet="Steps" type="String"/>
+        <Property name="RangeStepSize" indexInSheet="9" nameInSheet="Step Size" type="String"/>
+        <Property name="RangePFFrom" indexInSheet="10" nameInSheet="P/F From" type="String"/>
+        <Property name="RangePFTo" indexInSheet="11" nameInSheet="P/F To" type="String"/>
+        <Property name="PointAlgorithm" indexInSheet="12" nameInSheet="Algorithm" type="String"/>
+        <Property name="PointTestMethod" indexInSheet="13" nameInSheet="Test Method" type="String"/>
+        <Property name="PointArguments" indexInSheet="14" nameInSheet="Arguments" type="String"/>
+        <Property name="ApplyToPinsGroups" indexInSheet="15" nameInSheet="Pins/Groups" type="String"/>
+        <Property name="ApplyToPinMethod" indexInSheet="16" nameInSheet="Pin Method" type="String"/>
+        <Property name="ApplyToTimeSets" indexInSheet="17" nameInSheet="Time Sets" type="String"/>
+        <Property name="AdjustSpecName" indexInSheet="18" nameInSheet="Spec Name" type="String"/>
+        <Property name="AdjustFromSetup" indexInSheet="19" nameInSheet="From Setup" type="String"/>
+        <Property name="OutputFile" indexInSheet="20" nameInSheet="File" type="String"/>
+        <Property name="OutputSheet" indexInSheet="21" nameInSheet="Sheet" type="String"/>
+        <Property name="InterposeStart" indexInSheet="22" nameInSheet="Start" type="String"/>
+        <Property name="StartArgs" indexInSheet="23" nameInSheet="Arguments" type="List"/>
+        <Property name="PrePoint" indexInSheet="24" nameInSheet="Pre Point" type="String"/>
+        <Property name="PrePointArgs" indexInSheet="25" nameInSheet="Arguments" type="List"/>
+        <Property name="PostPoint" indexInSheet="26" nameInSheet="Post Point" type="String"/>
+        <Property name="PostPointArgs" indexInSheet="27" nameInSheet="Arguments" type="List"/>
+        <Property name="End" indexInSheet="28" nameInSheet="End" type="String"/>
+        <Property name="EndArgs" indexInSheet="29" nameInSheet="Arguments" type="List"/>
+        <Property name="Comment" indexInSheet="30" nameInSheet="Comment" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="DC Specs" sheetversion="1.0">
+    <InnerObj name="Specs" type="DcSpec" fullType="Teradyne.Oasis.IGData.DcSpec" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Symbol" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <InnerObjComplex name="Selectors" type="Selector" fullType="Teradyne.Oasis.IGData.Selector" isMultiRow="true">
+        <Property name="Name" indexInSheet="3" nameInSheet="Name" type="String"/>
+        <Property name="Value" indexInSheet="4" nameInSheet="Val" type="String"/>
+        <Property name="Comment" nameInSheet="Comment" isRelative="true" type="String" indexInSheet="1" relativePropertyName="CategoryValues"/>
+        <InnerObjComplex name="CategoryValues" type="CategoryValueSet" fullType="Teradyne.Oasis.IGData.CategoryValueSet" isVariant="true">
+          <Property name="Name" indexInSheet="5" nameInSheet="Name" type="String"/>
+          <Property name="Typ" indexInSheet="5" nameInSheet="Typ" type="String"/>
+          <Property name="Min" indexInSheet="6" nameInSheet="Min" type="String"/>
+          <Property name="Max" indexInSheet="7" nameInSheet="Max" type="String"/>
+        </InnerObjComplex>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Edge Sets" sheetversion="1.1">
+    <Field fieldName="PatgenMode" nameInSheet="Timing Mode:" rowIndex="2" columnIndex="2" defaultValue="Single"/>
+    <InnerObj name="EdgeSets" type="EdgeSet" fullType="Teradyne.Oasis.IGData.EdgeSet" isMultiRow="true">
+      <Property name="Name" indexInSheet="2" nameInSheet="Edge Set" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <InnerObjComplex name="EdgeSetRows" type="FlexEdgeSetRow" fullType="Teradyne.Oasis.IGData.Flex.FlexEdgeSetRow" isMultiRow="true">
+        <Property name="PinName" indexInSheet="1" nameInSheet="Pin/Group" type="String"/>
+        <Property name="EdgeSetName" indexInSheet="2" nameInSheet="Edge Set" type="String"/>
+        <Property name="DataSrc" indexInSheet="3" nameInSheet="Src" type="String"/>
+        <Property name="DataFmt" indexInSheet="4" nameInSheet="Fmt" type="String"/>
+        <Property name="D0" indexInSheet="5" nameInSheet="On" type="String"/>
+        <Property name="D1" indexInSheet="6" nameInSheet="Data" type="String"/>
+        <Property name="D2" indexInSheet="7" nameInSheet="Return" type="String"/>
+        <Property name="D3" indexInSheet="8" nameInSheet="Off" type="String"/>
+        <Property name="CompMode" indexInSheet="9" nameInSheet="Mode" type="String"/>
+        <Property name="R1" indexInSheet="10" nameInSheet="Open" type="String"/>
+        <Property name="R2" indexInSheet="11" nameInSheet="Close" type="String"/>
+        <Property name="Comment" indexInSheet="12" nameInSheet="Comment" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Job List" sheetversion="1.4">
+    <InnerObj name="JobEntries" type="FlexJobSheetEntry" fullType="Teradyne.Oasis.IGData.Flex.FlexJobSheetEntry" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Job Name" type="String" isEmptyRowJudgeKey="true"/>
+      <Property name="PinMapSheetName" indexInSheet="2" nameInSheet="Pin Map" type="String"/>
+      <Property name="TestInstanceSheetNames" indexInSheet="3" nameInSheet="Test Instances" type="List"/>
+      <Property name="FlowTableSheetName" indexInSheet="4" nameInSheet="Flow Table" type="String"/>
+      <Property name="AcSheetnames" indexInSheet="5" nameInSheet="AC Specs" type="List"/>
+      <Property name="DcSheetNames" indexInSheet="6" nameInSheet="DC Specs" type="List"/>
+      <Property name="PatternSetSheetNames" indexInSheet="7" nameInSheet="Pattern Sets" type="List"/>
+      <Property name="PatternGroupSheetNames" indexInSheet="8" nameInSheet="Pattern Groups" type="List"/>
+      <Property name="BinTableSheetNames" indexInSheet="9" nameInSheet="Bin Table" type="List"/>
+      <Property name="CharacterizationSheetNames" indexInSheet="10" nameInSheet="Characterization" type="List"/>
+      <Property name="TestProcedureSheetNames" indexInSheet="11" nameInSheet="Test Procedures" type="List"/>
+      <Property name="MixedSignalSheetNames" indexInSheet="12" nameInSheet="Mixed Signal Timing" type="List"/>
+      <Property name="WaveDefinitionSheetNames" indexInSheet="13" nameInSheet="Wave Definitions" type="List"/>
+      <Property name="Comment" indexInSheet="14" nameInSheet="Comment" type="String"/>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="MTO Algorithm" sheetversion="1.0">
+    <InnerObj name="MTOAlgorithms" type="FlexMTOAlgorithm" fullType="Teradyne.Oasis.IGData.Flex.FlexMTOAlgorithm" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Algorithm" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <Property name="Type" indexInSheet="2" nameInSheet="Type" type="String"/>
+      <InnerObjComplex name="MTOAlgorithmEntries" type="FlexMTOAlgorithmEntry" fullType="Teradyne.Oasis.IGData.Flex.FlexMTOAlgorithmEntry" isMultiRow="true">
+        <Property name="Equation" indexInSheet="3" nameInSheet="Equation" type="String"/>
+        <Property name="Comment" indexInSheet="4" nameInSheet="Comment" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="MTO Data Generator" sheetversion="1.0">
+    <InnerObj name="MTODataGenerators" type="FlexMTODataGenerator" fullType="Teradyne.Oasis.IGData.Flex.FlexMTODataGenerator" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Setup Name" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <InnerObjComplex name="MTODataGeneratorEntries" type="FlexMTODataGeneratorEntry" fullType="Teradyne.Oasis.IGData.Flex.FlexMTODataGeneratorEntry" isMultiRow="true">
+        <Property name="DGroup" indexInSheet="2" nameInSheet="DGroup" type="String"/>
+        <Property name="DSet" indexInSheet="3" nameInSheet="DSet" type="String"/>
+        <Property name="SourceDGen0" indexInSheet="4" nameInSheet="DGen 0" type="String"/>
+        <Property name="SourceDGen1" indexInSheet="5" nameInSheet="DGen 1" type="String"/>
+        <Property name="LFG0XIn" indexInSheet="6" nameInSheet="X In" type="String"/>
+        <Property name="LFG0Opcode" indexInSheet="7" nameInSheet="Opcode" type="String"/>
+        <Property name="LFG0YIn" indexInSheet="8" nameInSheet="Y In" type="String"/>
+        <Property name="LFG1XIn" indexInSheet="9" nameInSheet="X In" type="String"/>
+        <Property name="LFG1Opcode" indexInSheet="10" nameInSheet="Opcode" type="String"/>
+        <Property name="LFG1YIn" indexInSheet="11" nameInSheet="Y In" type="String"/>
+        <Property name="Comment" indexInSheet="12" nameInSheet="Comment" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="MTO RAM Mapping" sheetversion="1.3">
+    <InnerObj name="MTORAMMappings" type="FlexMTORAMMapping" fullType="Teradyne.Oasis.IGData.Flex.FlexMTORAMMapping" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Map Name" type="String" isEmptyRowJudgeKey="true"/>
+      <Property name="Type" indexInSheet="2" nameInSheet="Type" type="String"/>
+      <Property name="Comment" indexInSheet="29" nameInSheet="Comment" type="String"/>
+      <InnerObjComplex name="MapMemoryInputs" type="List" fullType="System.String">
+        <Property name="start" indexInSheet="3" nameInSheet="0" type="String"/>
+        <Property name="end" indexInSheet="28" nameInSheet="25" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="MTO Resource Map" sheetversion="1.0">
+    <InnerObj name="MTOResourceMaps" type="FlexMTOResourceMap" fullType="Teradyne.Oasis.IGData.Flex.FlexMTOResourceMap" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Map Name" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <InnerObjComplex name="MTOResourceMapEntries" type="FlexMTOResourceMapEntry" fullType="Teradyne.Oasis.IGData.Flex.FlexMTOResourceMapEntry" isMultiRow="true">
+        <Property name="PinName" indexInSheet="2" nameInSheet="Pin Name" type="String"/>
+        <Property name="BusConfigSet0" indexInSheet="3" nameInSheet="Set 0" type="String"/>
+        <Property name="BusConfigSet1" indexInSheet="4" nameInSheet="Set 1" type="String"/>
+        <Property name="BusConfigSet2" indexInSheet="5" nameInSheet="Set 2" type="String"/>
+        <Property name="BusConfigSet3" indexInSheet="6" nameInSheet="Set 3" type="String"/>
+        <Property name="Capture" indexInSheet="7" nameInSheet="Capture" type="String"/>
+        <Property name="Comment" indexInSheet="8" nameInSheet="Comment" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Pattern Groups" sheetversion="1.0">
+    <InnerObj name="PatternGroup" type="FlexPatternGroup" fullType="Teradyne.Oasis.IGData.Flex.FlexPatternGroup" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Group Name" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <InnerObjComplex name="PatternEntries" type="FlexPatternGroupEntry" fullType="Teradyne.Oasis.IGData.Flex.FlexPatternGroupEntry" isMultiRow="true">
+        <Property name="Pattern" indexInSheet="2" nameInSheet="Pattern File" type="String"/>
+        <Property name="Comment" indexInSheet="3" nameInSheet="Comment" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Pattern Sets" sheetversion="1.1">
+    <InnerObj name="PatternSets" type="FlexPatternSet" fullType="Teradyne.Oasis.IGData.Flex.FlexPatternSet" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Pattern Set" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <InnerObjComplex name="PatternEntries" type="FlexPatternSetEntry" fullType="Teradyne.Oasis.IGData.Flex.FlexPatternSetEntry" isMultiRow="true">
+        <Property name="Pattern" indexInSheet="2" nameInSheet="File/Group Name" type="String"/>
+        <Property name="StartLabel" indexInSheet="3" nameInSheet="Start Label" type="String"/>
+        <Property name="StopLabel" indexInSheet="4" nameInSheet="Stop Label" type="String"/>
+        <Property name="Comment" indexInSheet="5" nameInSheet="Comment" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Pin Levels" sheetversion="1.3">
+    <InnerObj name="PinLevels" type="Level" fullType="Teradyne.Oasis.IGData.Level" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Pin/Group" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <Property name="Sequence" indexInSheet="2" nameInSheet="Seq." type="String"/>
+      <InnerObjComplex name="LevelRows" type="LevelRow" fullType="Teradyne.Oasis.IGData.LevelRow" isMultiRow="true">
+        <Property name="Parameter" indexInSheet="3" nameInSheet="Parameter" type="String"/>
+        <Property name="Value" indexInSheet="4" nameInSheet="Value" type="String"/>
+        <Property name="Comment" indexInSheet="5" nameInSheet="Comment" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Test Procedures" sheetversion="1.21">
+    <InnerObj name="TestProcedures" type="FlexTestProcedure" fullType="Teradyne.Oasis.IGData.Flex.FlexTestProcedure" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Procedure Name" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <InnerObjComplex name="TestProcedureComponents" type="FlexTestProcedureComponent" fullType="Teradyne.Oasis.IGData.Flex.FlexTestProcedureComponent" isMultiRow="true">
+        <Property name="ProcedureName" indexInSheet="1" nameInSheet="Procedure Name" type="String"/>
+        <Property name="Element" indexInSheet="2" nameInSheet="Element" type="String"/>
+        <Property name="ArgNamesList" indexInSheet="3" nameInSheet="ArgList" type="List"/>
+        <Property name="Version" indexInSheet="64" nameInSheet="Version" type="String"/>
+        <Property name="Nop" indexInSheet="65" nameInSheet="Nop" type="String"/>
+        <Property name="Comment" indexInSheet="66" nameInSheet="Comment" type="String"/>
+        <InnerObjComplex name="Args" type="List" fullType="System.String">
+          <Property name="start" indexInSheet="4" nameInSheet="Arg1" type="String"/>
+          <Property name="end" indexInSheet="63" nameInSheet="Arg60" type="String"/>
+        </InnerObjComplex>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Time Sets" sheetversion="1.1">
+    <Field fieldName="PatgenMode" rowIndex="2" columnIndex="2" defaultValue="Single"/>
+    <InnerObj name="TimeSets" type="FlexTimeSet" fullType="Teradyne.Oasis.IGData.Flex.FlexTimeSet" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Time Set" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <Property name="Period" indexInSheet="2" nameInSheet="Period" type="String"/>
+      <Property name="CycleCpp" indexInSheet="3" nameInSheet="CPP" type="String"/>
+      <InnerObjComplex name="TimeSetRows" type="FlexTimeSetRow" fullType="Teradyne.Oasis.IGData.Flex.FlexTimeSetRow" isMultiRow="true">
+        <Property name="PinName" indexInSheet="4" nameInSheet="Name" type="String"/>
+        <Property name="PinSetup" indexInSheet="5" nameInSheet="Setup" type="String"/>
+        <Property name="EdgeSet" indexInSheet="6" nameInSheet="Edge Set" type="String"/>
+        <Property name="Comment" indexInSheet="7" nameInSheet="Comment" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+  <SheetItemClass sheetname="Time Sets (Basic)" sheetversion="1.1">
+    <Field fieldName="PatgenMode" rowIndex="2" columnIndex="2" defaultValue="Single"/>
+    <InnerObj name="TimeSets" type="FlexTimeSetBasic" fullType="Teradyne.Oasis.IGData.Flex.FlexTimeSetBasic" isMultiRow="true">
+      <Property name="Name" indexInSheet="1" nameInSheet="Time Set" type="String" isEmptyRowJudgeKey="true" isGroupKey="true"/>
+      <Property name="Period" indexInSheet="2" nameInSheet="Period" type="String"/>
+      <Property name="CycleCpp" indexInSheet="3" nameInSheet="CPP" type="String"/>
+      <InnerObjComplex name="TSBRows" type="FlexTSBRow" fullType="Teradyne.Oasis.IGData.Flex.FlexTSBRow" isMultiRow="true">
+        <Property name="PinName" indexInSheet="4" nameInSheet="Name" type="String"/>
+        <Property name="PinSetup" indexInSheet="5" nameInSheet="Setup" type="String"/>
+        <Property name="DataSrc" indexInSheet="6" nameInSheet="Src" type="String"/>
+        <Property name="DataFmt" indexInSheet="7" nameInSheet="Fmt" type="String"/>
+        <Property name="D0" indexInSheet="8" nameInSheet="On" type="String"/>
+        <Property name="D1" indexInSheet="9" nameInSheet="Data" type="String"/>
+        <Property name="D2" indexInSheet="10" nameInSheet="Return" type="String"/>
+        <Property name="D3" indexInSheet="11" nameInSheet="Off" type="String"/>
+        <Property name="CompMode" indexInSheet="12" nameInSheet="Mode" type="String"/>
+        <Property name="R1" indexInSheet="13" nameInSheet="Open" type="String"/>
+        <Property name="R2" indexInSheet="14" nameInSheet="Close" type="String"/>
+        <Property name="Comment" indexInSheet="15" nameInSheet="Comment" type="String"/>
+      </InnerObjComplex>
+    </InnerObj>
+  </SheetItemClass>
+</IGXL>
+
