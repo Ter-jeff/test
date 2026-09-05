@@ -110,7 +110,7 @@ pipeline {
 
                 stage('Coverage') {
                     steps {
-                        sh "${env.TOOLS_DIR}/reportgenerator -reports:.devops/TestResults/**/coverage.cobertura.xml -targetdir:.devops/coverage_reports \"-reporttypes:Html;Cobertura\""
+                        sh "${env.TOOLS_DIR}/reportgenerator -reports:.devops/TestResults/**/coverage.cobertura.xml -targetdir:.devops/coverage_reports \"-reporttypes:Html;Cobertura\" \"-assemblyfilters:+*Automation*\""
                     }
                     post {
                         always {
