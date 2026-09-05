@@ -12,7 +12,7 @@ pipeline {
         SOLUTION = "Common.sln"
         TEST_PROJECT = "CommonLib.Test/CommonLib.Test.csproj"
         TOOLS_DIR = ".devops/dotnet-tools"
-        PATH = "/usr/local/share/dotnet:/opt/homebrew/bin:/Users/neko0824/.dotnet/tools:/usr/bin:/bin:/usr/sbin:/sbin:${env.PATH}"
+        PATH = "/usr/local/share/dotnet:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:${env.PATH}"
     }
 
     stages {
