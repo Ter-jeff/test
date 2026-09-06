@@ -20,8 +20,8 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Optional
 
-GITHUB_API = 'https://github.teradyne.com/api/v3'
-REPO = 'jeff-li/TrainingProgram'
+GITHUB_API = 'https://api.github.com'
+REPO = 'Ter-jeff/test'
 COVERAGE_CONTEXT = 'coverage/cobertura'
 PREVIOUS_COVERAGE_LOOKBACK = 15
 

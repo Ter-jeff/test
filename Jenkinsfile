@@ -3,7 +3,12 @@
 def config
 
 pipeline {
-    agent none
+    agent { label 'swarm' }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '30'))
+        timeout(time: 30, unit: 'MINUTES')
+    }
 
     environment
     {
@@ -12,13 +17,11 @@ pipeline {
         SOLUTION = "Common.sln"
         TEST_PROJECT = "CommonLib.Test/CommonLib.Test.csproj"
         TOOLS_DIR = ".devops/dotnet-tools"
-        PATH = "/usr/local/share/dotnet:/opt/homebrew/bin:/Users/neko0824/.dotnet/tools:/usr/bin:/bin:/usr/sbin:/sbin:${env.PATH}"
+        PATH = "/usr/local/share/dotnet:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:${env.PATH}"
     }
 
     stages {
-        stage('Load D4T Configuration') {
-            agent { label 'service-node' }
-
+        stage('Load Config') {
             steps {
                 script {
                     // config = loadConfiguration(configFile: "${CONFIG_FILE}")
@@ -42,8 +45,6 @@ pipeline {
         // }
 
         stage('Build') {
-            agent { label 'swarm' }
-
             environment {
                 GITHUB_PACKAGES_TOKEN = credentials('github-packages-pat')
             }
@@ -76,13 +77,12 @@ pipeline {
                 stage('Install DotNet Tools') {
                     steps {
                         sh "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11 --add-source https://api.nuget.org/v3/index.json"
+                        sh "dotnet tool update --tool-path ${env.TOOLS_DIR} slt-csharp-metrics --version 1.0.0"
+                        sh "dotnet tool update --tool-path ${env.TOOLS_DIR} csharp-duplicate-detector --version 1.0.0"
                     }
                 }
 
                 stage('Metrics') {
-                    when {
-                        expression { !isUnix() }
-                    }
                     steps {
                         dir('.devops') {
                             sh('python3 -m pip install --break-system-packages pip_system_certs lxml tabulate pyyaml')
@@ -99,7 +99,12 @@ pipeline {
                 stage('Unit Test') {
                     steps {
                         echo 'Running Unit Tests with Code Coverage...'
-                        sh "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --results-directory .devops/TestResults"
+                        sh "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --logger \"junit;LogFilePath=test-results.xml\" --results-directory .devops/TestResults"
+                    }
+                    post {
+                        always {
+                            junit testResults: '**/test-results.xml', allowEmptyResults: true
+                        }
                     }
                 }
 
@@ -110,6 +115,14 @@ pipeline {
                     post {
                         always {
                             archiveArtifacts artifacts: '.devops/coverage_reports/**, .devops/TestResults/**', allowEmptyArchive: true
+                            publishHTML(target: [
+                                reportDir: '.devops/coverage_reports',
+                                reportFiles: 'index.html',
+                                reportName: 'Coverage Report',
+                                keepAll: true,
+                                alwaysLinkToLastBuild: true,
+                                allowMissing: true,
+                            ])
                             script {
                                 publishCoverageStatus()
                             }
@@ -123,14 +136,12 @@ pipeline {
     post {
         always {
             script {
-                node('service-node') {
-                    // releaseAgent()
+                // releaseAgent()
 
-                    try {
-                        // sendBuildEmail(config)
-                    } finally {
-                        cleanWs()
-                    }
+                try {
+                    // sendBuildEmail(config)
+                } finally {
+                    cleanWs()
                 }
             }
         }
