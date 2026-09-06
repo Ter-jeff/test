@@ -1,0 +1,18 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	CPM_MARGIN_LVCC_Header_1																															
+						print	"Flow CPM_MARGIN_LVCC Start"																															
+			FT1			characterize	SocTd_CPM_Margin_LVCC CPM_LVCC																															
+Instance_CPM,Row8,Flow_CPM_Margin_LVCC			FT1		MissPatternInCsv	Test	SocTd_CPM_Margin_LVCC														F_Soc_Td_MRX001_LV,F_SocTd_CPM_Margin_LVCC																	
+Instance_CPM,Row8,Flow_CPM_Margin_LVCC						flag-true	ControlBin_Soc_Td_MRX001_LV																					Flag-true	F_SocTd_CPM_Margin_LVCC_LV									
+			FT1			Test	CPM_Margin_Create_Overlay																															
+			FT1			Use-Limit	CPM_Margin_Create_Overlay CPMS_Margin_Check_LVCC																															
+			FT1			Use-Limit	CPM_Margin_Create_Overlay CPMS_Margin_Check_Func																															
+						If	ControlBin_Soc_Td_MRX001_LV																															
+						Bintable	Bin_Soc_Td_MRX001_LV																															
+						EndIf																																
+						print	"Flow CPM_MARGIN_LVCC Stop"																															
+						Test	CPM_MARGIN_LVCC_Footer_1																															
+						Return																																

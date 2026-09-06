@@ -1,0 +1,3 @@
+Fab_Lot_ID	WaferID	X	Y	HW_Bin
+U9S536	4	1	7	10
+END	END	END	END	END

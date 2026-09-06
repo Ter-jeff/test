@@ -1,0 +1,20 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow PRESCREEN Start"																															
+Instance_PreScreen,Row2,Flow_PreScreen						Test	CpuSa_CpuSa_PCPU_SAA_PreScreen_LV_LV														F_CpuSa_CpuSa_PCPU_SAA_PreScreen_LV_LV																	
+Instance_PreScreen,Row2,Flow_PreScreen						flag-true	ControlBin_PCPU_SA_NonHarv																					Flag-true	F_CpuSa_CpuSa_PCPU_SAA_PreScreen_LV_LV									
+Instance_PreScreen,Row3,Flow_PreScreen						Test	CpuSa_CpuSa_PCPU_XTRCOV_SAA_PreScreen_LV_LV														F_CpuSa_CpuSa_PCPU_XTRCOV_SAA_PreScreen_LV_LV																	
+Instance_PreScreen,Row3,Flow_PreScreen						flag-true	ControlBin_PCPU_SA_NonHarv																					Flag-true	F_CpuSa_CpuSa_PCPU_XTRCOV_SAA_PreScreen_LV_LV									
+Instance_PreScreen,Row4,Flow_PreScreen						Test	SocSa_SocSa_CCE0_PL1X_PreScreen_LV_LV														F_SocSa_SocSa_CCE0_PL1X_PreScreen_LV_LV																	
+Instance_PreScreen,Row4,Flow_PreScreen						flag-true	ControlBin_SOC_SA_NonHarv																					Flag-true	F_SocSa_SocSa_CCE0_PL1X_PreScreen_LV_LV									
+						Bintable	Bin_SOC_SA_SSN_INIT_Fail																															
+						If	ControlBin_PCPU_SA_NonHarv																															
+						Bintable	Bin_PCPU_SA_NonHarv																															
+						EndIf																																
+						If	ControlBin_SOC_SA_NonHarv																															
+						Bintable	Bin_SOC_SA_NonHarv																															
+						EndIf																																
+						print	"Flow PRESCREEN Stop"																															
+						Return																																

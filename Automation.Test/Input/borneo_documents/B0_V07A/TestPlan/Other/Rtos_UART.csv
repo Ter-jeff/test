@@ -1,0 +1,28 @@
+TTR,Test Item,Step,Enable,SiteFlag,FailFlag,Description,Pattern,Force Condition,Misc Info,Comment
+,,,,,,,,,,
+,,,,F_ECPU_HARV_CORE_3_0_SUM_1 || F_ECPU_HARV_CORE_1_0_SUM_1,F_RTOS_boot_CPU_Harv,,DD_BRNA0_S_FULP_FU_DFUX_PFF_RTS_FUN_ALLFRV_SI,,"SubBlock:Rtos_Boot;
+Func:BootUp;
+bootUsingPattern:FALSE;
+bootPattern:DD_BRNA0_S_FULP_FU_DFUX_PFF_RTS_FUN_ALLFRV_SI;
+lowPins:RTOS_Boot_Low;
+highPins:RTOS_Boot_High;
+lowToHigh:RTOS_Boot_L2H;
+clockPin:QSPI0_SCLK;
+captureInfo:sgmt0_32;
+outputPin:UART_TX;
+outputPinVt:0;
+outputPinILoad:0.0000005;
+bootCaptureTime:5;",
+,,,,!(F_ECPU_HARV_CORE_3_0_SUM_1 || F_ECPU_HARV_CORE_1_0_SUM_1),F_RTOS_boot_NoneCPU_Harv,,DD_BRNA0_S_FULP_FU_DFUX_PFF_RTS_FUN_ALLFRV_SI,,"SubBlock:Rtos_Boot;
+Func:BootUp;
+bootUsingPattern:FALSE;
+bootPattern:DD_BRNA0_S_FULP_FU_DFUX_PFF_RTS_FUN_ALLFRV_SI;
+lowPins:RTOS_Boot_Low;
+highPins:RTOS_Boot_High;
+lowToHigh:RTOS_Boot_L2H;
+clockPin:QSPI0_SCLK;
+captureInfo:sgmt0_32;
+outputPin:UART_TX;
+outputPinVt:0;
+outputPinILoad:0.0000005;
+bootCaptureTime:5;",

@@ -1,0 +1,1 @@
+http://stdp-svn-m.tsmc:426/svn/VBT_Library/trunk/SPIROM

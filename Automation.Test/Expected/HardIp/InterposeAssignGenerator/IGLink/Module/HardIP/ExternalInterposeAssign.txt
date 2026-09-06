@@ -1,0 +1,4 @@
+SetupName	Interposes
+AssignA	INT1
+	INT2
+	INT3

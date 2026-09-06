@@ -1,0 +1,33 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow SOC_SAA_LV Start"																															
+Instance_SA_SOC,Row2,Flow_SOC_SAA_LV			CP1			Test	SocSa_CAL1_PL1X_LV														F_SocSa_CAL1_PL1X_LV																	
+Instance_SA_SOC,Row2,Flow_SOC_SAA_LV						flag-true	ControlBin_SOC_SA_NonHarv																					Flag-true	F_SocSa_CAL1_PL1X_LV									
+						Bintable	Bin_SOC_SA_SSN_INIT_Fail																															
+Instance_SA_SOC,Row3,Flow_SOC_SAA_LV			CP1			Test	SocSa_CAL2_PL1X_LV														F_Soc_Sa_MSX000_LV,F_SOC_SA_NonHarv,F_SocSa_CAL2_PL1X_LV																	
+Instance_SA_SOC,Row3,Flow_SOC_SAA_LV						flag-true	ControlBin_Soc_Sa_MSX000_HLV,ControlBin_Soc_Sa_MSX000_LV,ControlBin_SOC_SA_NonHarv																					Flag-true	F_SocSa_CAL2_PL1X_LV									
+Instance_SA_SOC,Row4,Flow_SOC_SAA_LV			CP1,FT2			Test	SocSa_CXSABCDEFG_LV														F_Soc_Sa_MSX000_LV,F_SOC_SA_NonHarv,F_SocSa_CXSABCDEFG_LV																	
+Instance_SA_SOC,Row4,Flow_SOC_SAA_LV						flag-true	ControlBin_Soc_Sa_MSX000_HLV,ControlBin_Soc_Sa_MSX000_LV,ControlBin_SOC_SA_NonHarv																					Flag-true	F_SocSa_CXSABCDEFG_LV									
+Instance_SA_SOC,Row5,Flow_SOC_SAA_LV			CP1,FT2			Test	SocSa_CUABC0_LV														F_Soc_Sa_MSX000_LV,F_SOC_SA_NonHarv,F_SocSa_CUABC0_LV																	
+Instance_SA_SOC,Row5,Flow_SOC_SAA_LV						flag-true	ControlBin_Soc_Sa_MSX000_HLV,ControlBin_Soc_Sa_MSX000_LV,ControlBin_SOC_SA_NonHarv																					Flag-true	F_SocSa_CUABC0_LV									
+Instance_SA_SOC,Row15,Flow_SOC_SAA_LV			FT2			Test	SocSa_CAL1_PL2X_RowNum15_LV														F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_LV,F_SocSa_CAL1_PL2X_RowNum15_LV																	
+Instance_SA_SOC,Row15,Flow_SOC_SAA_LV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_LV																					Flag-true	F_SocSa_CAL1_PL2X_RowNum15_LV									
+						Bintable	Bin_SOC_SA_SSN_INIT_Fail																															
+Instance_SA_SOC,Row16,Flow_SOC_SAA_LV			FT2			Test	SocSa_CAL2_PL2X_RowNum16_LV														F_Soc_Sa_MSX000_LV,F_SOC_SA_NonHarv,F_SocSa_CAL2_PL2X_RowNum16_LV																	
+Instance_SA_SOC,Row16,Flow_SOC_SAA_LV						flag-true	ControlBin_Soc_Sa_MSX000_HLV,ControlBin_Soc_Sa_MSX000_LV,ControlBin_SOC_SA_NonHarv																					Flag-true	F_SocSa_CAL2_PL2X_RowNum16_LV									
+						If	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_LV																															
+						Bintable	Bin_SOC_SA_NonHarv_Soc_Sa_MSX000_LV																															
+						EndIf																																
+						If	ControlBin_SOC_SA_NonHarv																															
+						Bintable	Bin_SOC_SA_NonHarv																															
+						EndIf																																
+						If	ControlBin_Soc_Sa_MSX000_HLV																															
+						Bintable	Bin_Soc_Sa_MSX000_HLV																															
+						EndIf																																
+						If	ControlBin_Soc_Sa_MSX000_LV																															
+						Bintable	Bin_Soc_Sa_MSX000_LV																															
+						EndIf																																
+						print	"Flow SOC_SAA_LV Stop"																															
+						Return																																

@@ -1,0 +1,11 @@
+DTPortMapSheet,version=2.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Port Map
+	
+		Protocol													Function
+	Port Name	Family	Type	Settings	Setting0	Setting1	Setting2	Setting3	Setting4	Setting5	Setting6	Setting7	Setting8	Setting9	Name	Pin	Properties	Property0	Property1	Property2	Property3	Property4	Property5	Property6	Property7	Property8	Property9	Comment
+	XI0_Diff_Port	nWire	Clock_Diff	IgnoreContextChanges=TRUE	True										ClockOut	XI0_PA												
+	XI0_Diff_Port	nWire	Clock_Diff	IgnoreContextChanges=TRUE	True										Refclk	REFCLK_XI0_XO0												
+	XI0_Diff_Port	nWire	Clock_Diff	IgnoreContextChanges=TRUE	True										ClockOut_2	XO0_PA												
+	RT_CLK32768_Port	nWire	Clock	IgnoreContextChanges=TRUE	True										ClockOut	RT_CLK32768_PA												
+	RT_CLK32768_Port	nWire	Clock	IgnoreContextChanges=TRUE	True										Refclk	REFCLK_RT_CLK32768												
+	UART_TX	nWire	UART_PA_TX												UART_TX	UART0_TXD												
+	UART_RX	nWire	UART_PA_RX												UART_RX	UART0_RXD												

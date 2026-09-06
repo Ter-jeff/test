@@ -1,0 +1,210 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);CA1820;CA1822;CA1502;CA1505;NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Automation.Test" />
+  </ItemGroup>
+
+  <!-- Build metadata -->
+  <Target Name="SetSourceRevisionId" BeforeTargets="InitializeSourceControlInformation">
+    <!-- Git commit hash, with dirty identifier -->
+    <Exec Command="git describe --long --always --dirty --abbrev=40" ConsoleToMSBuild="true" IgnoreExitCode="true">
+      <Output PropertyName="SourceRevisionId" TaskParameter="ConsoleOutput" />
+    </Exec>
+    <!-- Git commit tag, if one exists -->
+    <Exec Command="git tag --points-at HEAD" ConsoleToMSBuild="true" IgnoreExitCode="true">
+      <Output PropertyName="GitCommitTag" TaskParameter="ConsoleOutput" />
+    </Exec>
+    <!-- Git branch name -->
+    <Exec Command="git rev-parse --abbrev-ref HEAD" ConsoleToMSBuild="true" IgnoreExitCode="true">
+      <Output PropertyName="GitLocalBranch" TaskParameter="ConsoleOutput" />
+    </Exec>
+    <!-- Git commit comitter date, using ISO-8601 format -->
+    <Exec Command="git show -s --format=%%ci HEAD" ConsoleToMSBuild="true" IgnoreExitCode="true">
+      <Output PropertyName="GitCommitterDate" TaskParameter="ConsoleOutput" />
+    </Exec>
+    <!-- Git commit author date, using ISO-8601 format -->
+    <Exec Command="git show -s --format=%%ai HEAD" ConsoleToMSBuild="true" IgnoreExitCode="true">
+      <Output PropertyName="GitAuthorDate" TaskParameter="ConsoleOutput" />
+    </Exec>
+    <!-- Compilation timestamp, using ISO-8601 format -->
+    <!-- Windows can use the PowerShell Get-Date command, and macOS can use the Unix date command -->
+    <Exec Condition=" '$(OS)' == 'Windows_NT' " Command="powershell -Command &quot;$d = Get-Date; $tz = [System.TimeZoneInfo]::Local; if ($tz.IsDaylightSavingTime($d)) { $tzname = $tz.DaylightName } else { $tzname = $tz.StandardName }; $tzoffset = $d.ToString('zzz').Replace(':',''); $d = $d.ToString('yyyy-MM-dd HH:mm:ss ') + $tzoffset + ' (' + $tzname + ')'; echo $d&quot;" ConsoleToMSBuild="true" IgnoreExitCode="true">
+      <Output PropertyName="BuildDate" TaskParameter="ConsoleOutput" />
+    </Exec>
+    <Exec Condition=" '$(OS)' != 'Windows_NT' " Command="date '+%Y-%m-%d %H:%M:%S %z (%Z)'" ConsoleToMSBuild="true" IgnoreExitCode="true">
+      <Output PropertyName="BuildDate" TaskParameter="ConsoleOutput" />
+    </Exec>
+    <!-- Compilation machine hostname -->
+    <Exec Command="hostname" ConsoleToMSBuild="true" IgnoreExitCode="true">
+      <Output PropertyName="BuildHost" TaskParameter="ConsoleOutput" />
+    </Exec>
+
+    <!-- Embed build properties into the assembly metadata -->
+    <ItemGroup>
+      <!-- Output from commands above -->
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Git commit hash, with dirty identifier -->
+        <_Parameter1>GitCommitHash</_Parameter1>
+        <_Parameter2>$(SourceRevisionId)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Git commit tag, if one exists -->
+        <_Parameter1>GitCommitTag</_Parameter1>
+        <_Parameter2>$(GitCommitTag)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Git branch name -->
+        <_Parameter1>GitLocalBranch</_Parameter1>
+        <_Parameter2>$(GitLocalBranch)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Git commit committer date, using ISO-8601 format -->
+        <_Parameter1>GitCommitterDate</_Parameter1>
+        <_Parameter2>$(GitCommitterDate)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Git commit author date, using ISO-8601 format -->
+        <_Parameter1>GitAuthorDate</_Parameter1>
+        <_Parameter2>$(GitAuthorDate)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Compilation timestamp, using ISO-8601 format -->
+        <_Parameter1>BuildDate</_Parameter1>
+        <_Parameter2>$(BuildDate)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Compilation machine hostname -->
+        <_Parameter1>BuildHost</_Parameter1>
+        <_Parameter2>$(BuildHost)</_Parameter2>
+      </AssemblyAttribute>
+
+      <!-- Metadata from current environment variables -->
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Build configuration, either Debug or Release -->
+        <_Parameter1>BuildConfiguration</_Parameter1>
+        <_Parameter2>$(Configuration)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- .NET SDK used to build the project -->
+        <_Parameter1>DotnetSdk</_Parameter1>
+        <_Parameter2>$(NETCoreSdkVersion)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Git commit hash if in a Jenkins branch pipeline-->
+        <_Parameter1>JenkinsGitBranchHash</_Parameter1>
+        <_Parameter2>$(GITLAB_CHECKOUT_SHA)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Git branch if in a Jenkins branch pipeline-->
+        <_Parameter1>JenkinsGitBranch</_Parameter1>
+        <_Parameter2>$(BRANCH_NAME)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Git commit hash if in a Jenkins merge request pipeline -->
+        <_Parameter1>JenkinsMergeRequestHash</_Parameter1>
+        <_Parameter2>$(GITLAB_OA_LAST_COMMIT_ID)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Git branch if in a Jenkins merge request pipeline -->
+        <_Parameter1>JenkinsMergeRequestBranch</_Parameter1>
+        <_Parameter2>$(CHANGE_BRANCH)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Jenkins build URL -->
+        <_Parameter1>JenkinsBuildUrl</_Parameter1>
+        <_Parameter2>$(BUILD_URL)</_Parameter2>
+      </AssemblyAttribute>
+      <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+        <!-- Jenkins build number -->
+        <_Parameter1>JenkinsBuildNumber</_Parameter1>
+        <_Parameter2>$(BUILD_NUMBER)</_Parameter2>
+      </AssemblyAttribute>
+    </ItemGroup>
+  </Target>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.*" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--ignore severity vulnerability warning for log4net -->
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-2cwj-8chv-9pp9" />
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-4f7c-pmjv-c25w" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.3.2" />
+    <PackageReference Include="log4net" Version="1.2.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NLog" Version="5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Wire-format POCO shared with the Automation.IgxlPackaging side-car. -->
+    <Compile Include="..\Automation.IgxlPackaging\Contract\PackageRequest.cs" Link="GenerateIgxl\PostAction\GenIgxlProj\PackageRequest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Config\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Settings\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\CommonLib\CommonLib.csproj" />
+    <ProjectReference Include="..\Common\ECIDSortAutogen\ECIDSortAutogen.csproj" />
+    <ProjectReference Include="..\Common\IgxlLib\IgxlLib.csproj" />
+    <ProjectReference Include="..\Common\LogLib\LogLib.csproj" />
+    <ProjectReference Include="..\Common\ProjectConfigLib\ProjectConfigLib.csproj" />
+    <ProjectReference Include="..\Common\ScghLib\ScghLib.csproj" />
+    <ProjectReference Include="..\Common\TestPlanLib\TestPlanLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="GenerateIgxl\PostAction\Relay\Business\" />
+    <Folder Include="GenerateIgxl\Wireless\Basic\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,30 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	GFX_SCAN_HTOL_Header_1																															
+						print	"Flow GFX_SCAN_HTOL Start"																															
+Instance_HTOL,Row11,GFX_SCAN_HTOL		CurrentProfile				Test	GfxScan_HT_HIDB0_L_PL00_SC_CFXX_SAA_COM_HAR_ALLFRV_SI_HTOL_GFX_SAA_CFXX_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row11,GFX_SCAN_HTOL					MissPatternInCsv	Test	GfxScan_HT_HIDB0_L_PL00_SC_CFXX_SAA_COM_HAR_ALLFRV_SI_HTOL_GFX_SAA_CFXX_UnknowType														F_Gfx_UnknowType,F_GfxScan_HT_HIDB0_L_PL00_SC_CFXX_SAA_COM_HAR_ALLFRV_SI_HTOL_GFX_SAA_CFXX_UnknowType																	
+Instance_HTOL,Row11,GFX_SCAN_HTOL						flag-true	ControlBin_Gfx_UnknowType																					Flag-true	F_GfxScan_HT_HIDB0_L_PL00_SC_CFXX_SAA_COM_HAR_ALLFRV_SI_HTOL_GFX_SAA_CFXX_UnknowType									
+						endloop																																
+Instance_HTOL,Row11,GFX_SCAN_HTOL		CurrentProfile||VoltageProfile				Test	GfxScan_HT_HIDB0_L_PL00_SC_CFXX_SAA_COM_HAR_ALLFRV_SI_HTOL_GFX_SAA_CFXX_UnknowType_Profile_Plot																															
+Instance_HTOL,Row12,GFX_SCAN_HTOL		CurrentProfile				Test	GfxScan_HT_HIDB0_L_PL00_SC_CSO0_SAA_COM_AUT_ALLFRV_SI_HTOL_GFX_SAA_CSO0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row12,GFX_SCAN_HTOL					MissPatternInCsv	Test	GfxScan_HT_HIDB0_L_PL00_SC_CSO0_SAA_COM_AUT_ALLFRV_SI_HTOL_GFX_SAA_CSO0_UnknowType														F_Gfx_UnknowType,F_GfxScan_HT_HIDB0_L_PL00_SC_CSO0_SAA_COM_AUT_ALLFRV_SI_HTOL_GFX_SAA_CSO0_UnknowType																	
+Instance_HTOL,Row12,GFX_SCAN_HTOL						flag-true	ControlBin_Gfx_UnknowType																					Flag-true	F_GfxScan_HT_HIDB0_L_PL00_SC_CSO0_SAA_COM_AUT_ALLFRV_SI_HTOL_GFX_SAA_CSO0_UnknowType									
+						endloop																																
+Instance_HTOL,Row12,GFX_SCAN_HTOL		CurrentProfile||VoltageProfile				Test	GfxScan_HT_HIDB0_L_PL00_SC_CSO0_SAA_COM_AUT_ALLFRV_SI_HTOL_GFX_SAA_CSO0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row13,GFX_SCAN_HTOL		CurrentProfile				Test	GfxScan_HT_HIDB0_L_PL00_SC_CSOC_SAA_COM_AUT_ALLFRV_SI_HTOL_GFX_SAA_CSOC_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row13,GFX_SCAN_HTOL					MissPatternInCsv	Test	GfxScan_HT_HIDB0_L_PL00_SC_CSOC_SAA_COM_AUT_ALLFRV_SI_HTOL_GFX_SAA_CSOC_UnknowType														F_Gfx_UnknowType,F_GfxScan_HT_HIDB0_L_PL00_SC_CSOC_SAA_COM_AUT_ALLFRV_SI_HTOL_GFX_SAA_CSOC_UnknowType																	
+Instance_HTOL,Row13,GFX_SCAN_HTOL						flag-true	ControlBin_Gfx_UnknowType																					Flag-true	F_GfxScan_HT_HIDB0_L_PL00_SC_CSOC_SAA_COM_AUT_ALLFRV_SI_HTOL_GFX_SAA_CSOC_UnknowType									
+						endloop																																
+Instance_HTOL,Row13,GFX_SCAN_HTOL		CurrentProfile||VoltageProfile				Test	GfxScan_HT_HIDB0_L_PL00_SC_CSOC_SAA_COM_AUT_ALLFRV_SI_HTOL_GFX_SAA_CSOC_UnknowType_Profile_Plot																															
+						If	ControlBin_Gfx_UnknowType																															
+						Bintable	Bin_Gfx_UnknowType																															
+						EndIf																																
+						print	"Flow GFX_SCAN_HTOL Stop"																															
+						Test	GFX_SCAN_HTOL_Footer_1																															
+						Return																																

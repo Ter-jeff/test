@@ -1,0 +1,61 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"*print: FT_WAT_LVCC_Header start*"																															
+		!ShmooOnly				Test	DFTL_CPU_PCPU_MPX001_CPUTDFM166_H0MX_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV		452060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_PCPU_MPX001_CPUTDFM166_H0MX_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV CPUTDFM166_VDDPCPU_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_PCPU_MPX00G_CPUTDFM166_H0MX_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV		454060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_PCPU_MPX00G_CPUTDFM166_H0MX_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV CPUTDFM166_VDDPCPU_Jump_2														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!Char_TMPS				call	Flow_TMPS		454190												F_Dummy																	
+		!ShmooOnly				Test	DFTL_CPU_PCPU_MPX001_CPUTDFP166_H0PD_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV		456060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_PCPU_MPX001_CPUTDFP166_H0PD_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV CPUTDFP166_VDDPCPU_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_PCPU_MPX00G_CPUTDFP166_H0PD_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV		458060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_PCPU_MPX00G_CPUTDFP166_H0PD_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV CPUTDFP166_VDDPCPU_Jump_2														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!Char_TMPS				call	Flow_TMPS		458190												F_Dummy																	
+		!ShmooOnly				Test	DFTL_CPU_ECPU_MEX001_CPUTDF_E0ED_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV		460060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_ECPU_MEX001_CPUTDF_E0ED_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV CPUTDF_VDDECPU_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_ECPU_MEX008_CPUTDF_E0ED_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV		462060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_ECPU_MEX008_CPUTDF_E0ED_PL10_X_X_DIV166_SelsrmSSSS_FT_WAT_CZ_NV CPUTDF_VDDECPU_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DCSDDR_MDX001_SOCBST_GX01_X_X_SRVA_X_SelsrmSSSS_FT_WAT_CZ_NV		464060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DCSDDR_MDX001_SOCBST_GX01_X_X_SRVA_X_SelsrmSSSS_FT_WAT_CZ_NV SOCBST_VDDDCSDDR_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DCSDDR_MDX009_SOCBST_GX01_X_X_SRVA_X_SelsrmSSSS_FT_WAT_CZ_NV		466060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DCSDDR_MDX009_SOCBST_GX01_X_X_SRVA_X_SelsrmSSSS_FT_WAT_CZ_NV SOCBST_VDDDCSDDR_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DCSDDR_MDX001_SOCTDF_CDCS_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV		468060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DCSDDR_MDX001_SOCTDF_CDCS_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV SOCTDF_VDDDCSDDR_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DCSDDR_MDX009_SOCTDF_CDCS_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV		470060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DCSDDR_MDX009_SOCTDF_CDCS_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV SOCTDF_VDDDCSDDR_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DISP_MIX001_SOCTDF_CDSP_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV		472060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DISP_MIX001_SOCTDF_CDSP_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV SOCTDF_VDDDISP_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DISP_MIX004_SOCTDF_CDSP_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV		474060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DISP_MIX004_SOCTDF_CDSP_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV SOCTDF_VDDDISP_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_GPU_GPU_MGX001_GPUTDF_X12_PL10_X_X_11111110000000011111110000000010_SelsrmSSSS_FT_WAT_CZ_NV		476060												F_Dummy																	
+		!TestOnly				characterize	DFTL_GPU_GPU_MGX001_GPUTDF_X12_PL10_X_X_11111110000000011111110000000010_SelsrmSSSS_FT_WAT_CZ_NV GPUTDF_VDDGPU_Jump_2														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_GPU_GPU_MGX00D_GPUTDF_X12_PL10_X_X_11111110000000011111110000000010_SelsrmSSSS_FT_WAT_CZ_NV		478060												F_Dummy																	
+		!TestOnly				characterize	DFTL_GPU_GPU_MGX00D_GPUTDF_X12_PL10_X_X_11111110000000011111110000000010_SelsrmSSSS_FT_WAT_CZ_NV GPUTDF_VDDGPU_Jump_3														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!Char_TMPS				call	Flow_TMPS		478190												F_Dummy																	
+		!ShmooOnly				Test	DFTL_CPU_SOC_MSX001_CPUTDF_E0XD_PL00_X_X_DOMAIN2_SelsrmSSSS_FT_WAT_CZ_NV		480060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_SOC_MSX001_CPUTDF_E0XD_PL00_X_X_DOMAIN2_SelsrmSSSS_FT_WAT_CZ_NV CPUTDF_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MSX005_SOCTDF_CSA0_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV		482060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MSX005_SOCTDF_CSA0_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV SOCTDF_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MSX001_SOCTDF_CSC0_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV		484060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MSX001_SOCTDF_CSC0_PL10_SSC_X_X_SelsrmSSSS_FT_WAT_CZ_NV SOCTDF_VDDSOC_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						print	"*print: FT_WAT_Lvcc_Footer end*"																															
+						return																																

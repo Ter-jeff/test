@@ -1,0 +1,387 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow S_BI_PP_FT1 Start "																															
+						flag-clear	Control__00_TPV,Control_BIST_SETUP,Control_BIST_MSDP_SETUP_HV,Control_BIST_ALL_MDGO3_HV,Control_MXDX_SETUP_HV,Control_BIST_NOGO03_MSDX_HV,Control_BIST_GET_HARV_FLAG_HV,Control_BIST_HARV_MSDX_HV,Control_BIST_GET_F_BIST_AT0_HV,Control_BIST_HARV_AT0_STCK_HV,Control_BIST_GET_F_BIST_AT1_HV,Control_BIST_HARV_AT1_STCK_HV,Control_BIST_GET_F_BIST_AT2_HV,Control_BIST_HARV_AT2_STCK_HV,Control_BIST_GET_F_BIST_AT3_HV,Control_BIST_HARV_AT3_STCK_HV,Control_BIST_GET_F_BIST_IS_HV,Control_BIST_HARV_IS_STCK_HV,Control_BIST_GET_F_BIST_SC_HV,Control_BIST_HARV_SC_STCK_HV,Control_BIST_GET_F_BIST_ANE0_CNTR_HV,Control_BIST_HARV_ANE0_CNTR_STCK_HV,Control_BIST_GET_F_BIST_ANE1_CNTR_HV,Control_BIST_HARV_ANE1_CNTR_STCK_HV,Control_BIST_ANE0_SETP_HV,Control_BIST_GET_F_BIST_ANE0_HV,Control_BIST_ANE0_STCK_HV,Control_BIST_GET_F_BIST_ANE0_CNTR_2_HV,Control_BIST_HARVMP_ANE0_CNTR_STCK_HV,Control_BIST_GET_F_BIST_ANE000_HV,Control_BIST_HARVMP_ANE000_STCK_HV,Control_BIST_GET_F_BIST_ANE001_HV,Control_BIST_HARVMP_ANE001_STCK_HV,Control_BIST_GET_F_BIST_ANE002_HV,Control_BIST_HARVMP_ANE002_STCK_HV,Control_BIST_GET_F_BIST_ANE003_HV,Control_BIST_HARVMP_ANE003_STCK_HV,Control_BIST_GET_F_BIST_ANE004_HV,Control_BIST_HARVMP_ANE004_STCK_HV,Control_BIST_GET_F_BIST_ANE005_HV,Control_BIST_HARVMP_ANE005_STCK_HV,Control_BIST_GET_F_BIST_ANE006_HV,Control_BIST_HARVMP_ANE006_STCK_HV,Control_BIST_GET_F_BIST_ANE007_HV,Control_BIST_HARVMP_ANE007_STCK_HV,Control_BIST_GET_F_BIST_ANE008_HV,Control_BIST_HARVMP_ANE008_STCK_HV,Control_BIST_GET_F_BIST_ANE009_HV,Control_BIST_HARVMP_ANE009_STCK_HV,Control_BIST_GET_F_BIST_ANE010_HV,Control_BIST_HARVMP_ANE010_STCK_HV,Control_BIST_GET_F_BIST_ANE011_HV,Control_BIST_HARVMP_ANE011_STCK_HV,Control_BIST_GET_F_BIST_ANE012_HV,Control_BIST_HARVMP_ANE012_STCK_HV,Control_BIST_GET_F_BIST_ANE013_HV,Control_BIST_HARVMP_ANE013_STCK_HV,Control_BIST_GET_F_BIST_ANE014_HV,Control_BIST_HARVMP_ANE014_STCK_HV,Control_BIST_GET_F_BIST_ANE015_HV,Control_BIST_HARVMP_ANE015_STCK_HV,Control_BIST_GET_F_BIST_ANE016_HV,Control_BIST_HARVMP_ANE016_STCK_HV,Control_BIST_ANE1_SETP_HV,Control_BIST_GET_F_BIST_ANE1_HV,Control_BIST_ANE1_STCK_HV,Control_BIST_GET_F_BIST_ANE1_CNTR_2_HV,Control_BIST_HARVMP_ANE1_CNTR_STCK_HV,Control_BIST_GET_F_BIST_ANE100_HV,Control_BIST_HARVMP_ANE100_STCK_HV,Control_BIST_GET_F_BIST_ANE101_HV,Control_BIST_HARVMP_ANE101_STCK_HV,Control_BIST_GET_F_BIST_ANE102_HV,Control_BIST_HARVMP_ANE102_STCK_HV,Control_BIST_GET_F_BIST_ANE103_HV,Control_BIST_HARVMP_ANE103_STCK_HV,Control_BIST_GET_F_BIST_ANE104_HV,Control_BIST_HARVMP_ANE104_STCK_HV,Control_BIST_GET_F_BIST_ANE105_HV,Control_BIST_HARVMP_ANE105_STCK_HV,Control_BIST_GET_F_BIST_ANE106_HV,Control_BIST_HARVMP_ANE106_STCK_HV,Control_BIST_GET_F_BIST_ANE107_HV,Control_BIST_HARVMP_ANE107_STCK_HV,Control_BIST_GET_F_BIST_ANE108_HV,Control_BIST_HARVMP_ANE108_STCK_HV,Control_BIST_GET_F_BIST_ANE109_HV,Control_BIST_HARVMP_ANE109_STCK_HV,Control_BIST_GET_F_BIST_ANE110_HV,Control_BIST_HARVMP_ANE110_STCK_HV,Control_BIST_GET_F_BIST_ANE111_HV,Control_BIST_HARVMP_ANE111_STCK_HV,Control_BIST_GET_F_BIST_ANE112_HV,Control_BIST_HARVMP_ANE112_STCK_HV,Control_BIST_GET_F_BIST_ANE113_HV,Control_BIST_HARVMP_ANE113_STCK_HV,Control_BIST_GET_F_BIST_ANE114_HV,Control_BIST_HARVMP_ANE114_STCK_HV,Control_BIST_GET_F_BIST_ANE115_HV,Control_BIST_HARVMP_ANE115_STCK_HV,Control_BIST_GET_F_BIST_ANE116_HV,Control_BIST_HARVMP_ANE116_STCK_HV,Control_MIXX_SETUP_HV,Control_BIST_GET_HARV2_FLAG_HV,Control_BIST_ALL_MIXX_HV,Control_BIST_HARV_MIXX_SETP_HV,Control_BIST_GET_F_BIST_ED0_HV,Control_BIST_HARV_ED0_STCK_HV,Control_BIST_GET_F_BIST_ED1_HV,Control_BIST_HARV_ED1_STCK_HV,Control_BIST_GET_F_BIST_ID_HV,Control_BIST_HARV_ID_STCK_HV,Control_MRXX_SETUP_HV,Control_BIST_ALL_MRXX_HV,Control_BIST_FAIL,Control_PASS_BRANCH																															
+						flag-false	F_SOC_MBIST_BIST_MSDP_SETUP_HV_NV,F_SOC_MBIST_BIST_ALL_MDGO3_HV_HV,F_SOC_MBIST_MXDX_SETUP_HV_NV,F_SOC_MBIST_BIST_NOGO03_MSDX_HV_HV,F_SOC_MBIST_BIST_HARV_MSDX_HV_HV,F_SOC_MBIST_BIST_HARV_AT0_STCK_HV_HV,F_SOC_MBIST_BIST_HARV_AT1_STCK_HV_HV,F_SOC_MBIST_BIST_HARV_AT2_STCK_HV_HV,F_SOC_MBIST_BIST_HARV_AT3_STCK_HV_HV,F_SOC_MBIST_BIST_HARV_IS_STCK_HV_HV,F_SOC_MBIST_BIST_HARV_SC_STCK_HV_HV,F_SOC_MBIST_BIST_HARV_ANE0_CNTR_STCK_HV_HV,F_SOC_MBIST_BIST_HARV_ANE1_CNTR_STCK_HV_HV,F_SOC_MBIST_BIST_ANE0_SETP_HV_HV,F_SOC_MBIST_BIST_ANE0_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE0_CNTR_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE000_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE001_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE002_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE003_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE004_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE005_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE006_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE007_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE008_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE009_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE010_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE011_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE012_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE013_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE014_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE015_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE016_STCK_HV_HV,F_SOC_MBIST_BIST_ANE1_SETP_HV_HV,F_SOC_MBIST_BIST_ANE1_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE1_CNTR_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE100_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE101_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE102_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE103_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE104_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE105_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE106_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE107_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE108_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE109_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE110_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE111_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE112_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE113_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE114_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE115_STCK_HV_HV,F_SOC_MBIST_BIST_HARVMP_ANE116_STCK_HV_HV,F_SOC_MBIST_BIST_ALL_MIXX_HV_HV,F_SOC_MBIST_BIST_HARV_MIXX_SETP_HV_HV,F_SOC_MBIST_BIST_HARV_ED0_STCK_HV_HV,F_SOC_MBIST_BIST_HARV_ED1_STCK_HV_HV,F_SOC_MBIST_BIST_HARV_ID_STCK_HV_HV,F_SOC_MBIST_MRXX_SETUP_HV_NV,F_SOC_MBIST_BIST_ALL_MRXX_HV_HV																															
+_00_TPV						flag-true	Control_BIST_SETUP																															
+BIST_SETUP						Test	SocMbist_FT1_Mbist_Soc_Init_X_PatSet_BIST_SETUP_FT1_NV		41625000											Control_BIST_MSDP_SETUP_HV	Control_BIST_MSDP_SETUP_HV							flag-true	Control_BIST_SETUP									
+BIST_MSDP_SETUP_HV						Test	SocMbist_FT1_Mbist_Soc_Init_X_PatSet_BIST_MSDP_SETUP_HV_FT1_NV		41625500											Control_BIST_ALL_MDGO3_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_MSDP_SETUP_HV_NV							flag-true	Control_BIST_MSDP_SETUP_HV									
+BIST_ALL_MDGO3_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_ALL_MDGO3_HV_FT1_EQN_HV		41626000											Control_MXDX_SETUP_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_ALL_MDGO3_HV_HV							flag-true	Control_BIST_ALL_MDGO3_HV									
+MXDX_SETUP_HV						Test	SocMbist_FT1_Mbist_Soc_Init_X_PatSet_MXDX_SETUP_HV_FT1_NV		41626500											Control_BIST_NOGO03_MSDX_HV	Control_BIST_FAIL,F_SOC_MBIST_MXDX_SETUP_HV_NV							flag-true	Control_MXDX_SETUP_HV									
+BIST_NOGO03_MSDX_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_NOGO03_MSDX_HV_FT1_EQN_HV		41627000											Control_BIST_GET_HARV_FLAG_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_NOGO03_MSDX_HV_HV							flag-true	Control_BIST_NOGO03_MSDX_HV									
+BIST_GET_HARV_FLAG_HV						If	(F_SOC_BIST_AT0 || F_SOC_BIST_AT1 || F_SOC_BIST_AT2 || F_SOC_BIST_AT3 || F_SOC_BIST_IS || F_SOC_BIST_SC || F_ANE0_BIST_CNTR || F_ANE1_BIST_CNTR)																															
+BIST_GET_HARV_FLAG_HV						flag-true	Control_BIST_GET_F_BIST_AT0_HV																					flag-true	Control_BIST_GET_HARV_FLAG_HV									
+BIST_GET_HARV_FLAG_HV						Else																																
+BIST_GET_HARV_FLAG_HV						flag-true	Control_BIST_HARV_MSDX_HV																					flag-true	Control_BIST_GET_HARV_FLAG_HV									
+BIST_GET_HARV_FLAG_HV						EndIf																																
+BIST_HARV_MSDX_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_HARV_MSDX_HV_FT1_EQN_HV		41627500											Control_BIST_ANE0_SETP_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_MSDX_HV_HV							flag-true	Control_BIST_HARV_MSDX_HV									
+BIST_GET_F_BIST_AT0_HV						If	F_SOC_BIST_AT0																															
+BIST_GET_F_BIST_AT0_HV						flag-true	Control_BIST_GET_F_BIST_AT1_HV																					flag-true	Control_BIST_GET_F_BIST_AT0_HV									
+BIST_GET_F_BIST_AT0_HV						Else																																
+BIST_GET_F_BIST_AT0_HV						flag-true	Control_BIST_HARV_AT0_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_AT0_HV									
+BIST_GET_F_BIST_AT0_HV						EndIf																																
+BIST_HARV_AT0_STCK_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_HARV_AT0_STCK_HV_FT1_EQN_HV		41628000											Control_BIST_GET_F_BIST_AT1_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_AT0_STCK_HV_HV							flag-true	Control_BIST_HARV_AT0_STCK_HV									
+BIST_GET_F_BIST_AT1_HV						If	F_SOC_BIST_AT1																															
+BIST_GET_F_BIST_AT1_HV						flag-true	Control_BIST_GET_F_BIST_AT2_HV																					flag-true	Control_BIST_GET_F_BIST_AT1_HV									
+BIST_GET_F_BIST_AT1_HV						Else																																
+BIST_GET_F_BIST_AT1_HV						flag-true	Control_BIST_HARV_AT1_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_AT1_HV									
+BIST_GET_F_BIST_AT1_HV						EndIf																																
+BIST_HARV_AT1_STCK_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_HARV_AT1_STCK_HV_FT1_EQN_HV		41628500											Control_BIST_GET_F_BIST_AT2_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_AT1_STCK_HV_HV							flag-true	Control_BIST_HARV_AT1_STCK_HV									
+BIST_GET_F_BIST_AT2_HV						If	F_SOC_BIST_AT2																															
+BIST_GET_F_BIST_AT2_HV						flag-true	Control_BIST_GET_F_BIST_AT3_HV																					flag-true	Control_BIST_GET_F_BIST_AT2_HV									
+BIST_GET_F_BIST_AT2_HV						Else																																
+BIST_GET_F_BIST_AT2_HV						flag-true	Control_BIST_HARV_AT2_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_AT2_HV									
+BIST_GET_F_BIST_AT2_HV						EndIf																																
+BIST_HARV_AT2_STCK_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_HARV_AT2_STCK_HV_FT1_EQN_HV		41629000											Control_BIST_GET_F_BIST_AT3_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_AT2_STCK_HV_HV							flag-true	Control_BIST_HARV_AT2_STCK_HV									
+BIST_GET_F_BIST_AT3_HV						If	F_SOC_BIST_AT3																															
+BIST_GET_F_BIST_AT3_HV						flag-true	Control_BIST_GET_F_BIST_IS_HV																					flag-true	Control_BIST_GET_F_BIST_AT3_HV									
+BIST_GET_F_BIST_AT3_HV						Else																																
+BIST_GET_F_BIST_AT3_HV						flag-true	Control_BIST_HARV_AT3_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_AT3_HV									
+BIST_GET_F_BIST_AT3_HV						EndIf																																
+BIST_HARV_AT3_STCK_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_HARV_AT3_STCK_HV_FT1_EQN_HV		41629500											Control_BIST_GET_F_BIST_IS_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_AT3_STCK_HV_HV							flag-true	Control_BIST_HARV_AT3_STCK_HV									
+BIST_GET_F_BIST_IS_HV						If	F_SOC_BIST_IS																															
+BIST_GET_F_BIST_IS_HV						flag-true	Control_BIST_GET_F_BIST_SC_HV																					flag-true	Control_BIST_GET_F_BIST_IS_HV									
+BIST_GET_F_BIST_IS_HV						Else																																
+BIST_GET_F_BIST_IS_HV						flag-true	Control_BIST_HARV_IS_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_IS_HV									
+BIST_GET_F_BIST_IS_HV						EndIf																																
+BIST_HARV_IS_STCK_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_HARV_IS_STCK_HV_FT1_EQN_HV		41630000											Control_BIST_GET_F_BIST_SC_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_IS_STCK_HV_HV							flag-true	Control_BIST_HARV_IS_STCK_HV									
+BIST_GET_F_BIST_SC_HV						If	F_SOC_BIST_SC																															
+BIST_GET_F_BIST_SC_HV						flag-true	Control_BIST_GET_F_BIST_ANE0_CNTR_HV																					flag-true	Control_BIST_GET_F_BIST_SC_HV									
+BIST_GET_F_BIST_SC_HV						Else																																
+BIST_GET_F_BIST_SC_HV						flag-true	Control_BIST_HARV_SC_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_SC_HV									
+BIST_GET_F_BIST_SC_HV						EndIf																																
+BIST_HARV_SC_STCK_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_HARV_SC_STCK_HV_FT1_EQN_HV		41630500											Control_BIST_GET_F_BIST_ANE0_CNTR_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_SC_STCK_HV_HV							flag-true	Control_BIST_HARV_SC_STCK_HV									
+BIST_GET_F_BIST_ANE0_CNTR_HV						If	F_ANE0_BIST_CNTR																															
+BIST_GET_F_BIST_ANE0_CNTR_HV						flag-true	Control_BIST_GET_F_BIST_ANE1_CNTR_HV																					flag-true	Control_BIST_GET_F_BIST_ANE0_CNTR_HV									
+BIST_GET_F_BIST_ANE0_CNTR_HV						Else																																
+BIST_GET_F_BIST_ANE0_CNTR_HV						flag-true	Control_BIST_HARV_ANE0_CNTR_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE0_CNTR_HV									
+BIST_GET_F_BIST_ANE0_CNTR_HV						EndIf																																
+BIST_HARV_ANE0_CNTR_STCK_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_HARV_ANE0_CNTR_STCK_HV_FT1_EQN_HV		41631000											Control_BIST_GET_F_BIST_ANE1_CNTR_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_ANE0_CNTR_STCK_HV_HV							flag-true	Control_BIST_HARV_ANE0_CNTR_STCK_HV									
+BIST_GET_F_BIST_ANE1_CNTR_HV						If	F_ANE1_BIST_CNTR																															
+BIST_GET_F_BIST_ANE1_CNTR_HV						flag-true	Control_BIST_ANE0_SETP_HV																					flag-true	Control_BIST_GET_F_BIST_ANE1_CNTR_HV									
+BIST_GET_F_BIST_ANE1_CNTR_HV						Else																																
+BIST_GET_F_BIST_ANE1_CNTR_HV						flag-true	Control_BIST_HARV_ANE1_CNTR_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE1_CNTR_HV									
+BIST_GET_F_BIST_ANE1_CNTR_HV						EndIf																																
+BIST_HARV_ANE1_CNTR_STCK_HV						Test	SocMbist_FT1_MSX005_Mbist_Soc_BIST_MSX005_EQN_PatSet_BIST_HARV_ANE1_CNTR_STCK_HV_FT1_EQN_HV		41631500											Control_BIST_ANE0_SETP_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_ANE1_CNTR_STCK_HV_HV							flag-true	Control_BIST_HARV_ANE1_CNTR_STCK_HV									
+BIST_ANE0_SETP_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_ANE0_SETP_HV_FT1_EQN_HV		41632000											Control_BIST_GET_F_BIST_ANE0_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_ANE0_SETP_HV_HV							flag-true	Control_BIST_ANE0_SETP_HV									
+BIST_GET_F_BIST_ANE0_HV						If	(!F_ANE0_BIST_CORE_16_0_SUM_0 || F_ANE0_BIST_CNTR)																															
+BIST_GET_F_BIST_ANE0_HV						flag-true	Control_BIST_GET_F_BIST_ANE0_CNTR_2_HV																					flag-true	Control_BIST_GET_F_BIST_ANE0_HV									
+BIST_GET_F_BIST_ANE0_HV						Else																																
+BIST_GET_F_BIST_ANE0_HV						flag-true	Control_BIST_ANE0_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE0_HV									
+BIST_GET_F_BIST_ANE0_HV						EndIf																																
+BIST_ANE0_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_ANE0_STCK_HV_FT1_EQN_HV		41632500											Control_BIST_ANE1_SETP_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_ANE0_STCK_HV_HV							flag-true	Control_BIST_ANE0_STCK_HV									
+BIST_GET_F_BIST_ANE0_CNTR_2_HV						If	F_ANE0_BIST_CNTR																															
+BIST_GET_F_BIST_ANE0_CNTR_2_HV						flag-true	Control_BIST_GET_F_BIST_ANE000_HV																					flag-true	Control_BIST_GET_F_BIST_ANE0_CNTR_2_HV									
+BIST_GET_F_BIST_ANE0_CNTR_2_HV						Else																																
+BIST_GET_F_BIST_ANE0_CNTR_2_HV						flag-true	Control_BIST_HARVMP_ANE0_CNTR_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE0_CNTR_2_HV									
+BIST_GET_F_BIST_ANE0_CNTR_2_HV						EndIf																																
+BIST_HARVMP_ANE0_CNTR_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE0_CNTR_STCK_HV_FT1_EQN_HV		41633000											Control_BIST_GET_F_BIST_ANE000_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE0_CNTR_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE0_CNTR_STCK_HV									
+BIST_GET_F_BIST_ANE000_HV						If	F_ANE0_BIST_CORE0																															
+BIST_GET_F_BIST_ANE000_HV						flag-true	Control_BIST_GET_F_BIST_ANE001_HV																					flag-true	Control_BIST_GET_F_BIST_ANE000_HV									
+BIST_GET_F_BIST_ANE000_HV						Else																																
+BIST_GET_F_BIST_ANE000_HV						flag-true	Control_BIST_HARVMP_ANE000_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE000_HV									
+BIST_GET_F_BIST_ANE000_HV						EndIf																																
+BIST_HARVMP_ANE000_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE000_STCK_HV_FT1_EQN_HV		41633500											Control_BIST_GET_F_BIST_ANE001_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE000_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE000_STCK_HV									
+BIST_GET_F_BIST_ANE001_HV						If	F_ANE0_BIST_CORE1																															
+BIST_GET_F_BIST_ANE001_HV						flag-true	Control_BIST_GET_F_BIST_ANE002_HV																					flag-true	Control_BIST_GET_F_BIST_ANE001_HV									
+BIST_GET_F_BIST_ANE001_HV						Else																																
+BIST_GET_F_BIST_ANE001_HV						flag-true	Control_BIST_HARVMP_ANE001_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE001_HV									
+BIST_GET_F_BIST_ANE001_HV						EndIf																																
+BIST_HARVMP_ANE001_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE001_STCK_HV_FT1_EQN_HV		41634000											Control_BIST_GET_F_BIST_ANE002_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE001_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE001_STCK_HV									
+BIST_GET_F_BIST_ANE002_HV						If	F_ANE0_BIST_CORE2																															
+BIST_GET_F_BIST_ANE002_HV						flag-true	Control_BIST_GET_F_BIST_ANE003_HV																					flag-true	Control_BIST_GET_F_BIST_ANE002_HV									
+BIST_GET_F_BIST_ANE002_HV						Else																																
+BIST_GET_F_BIST_ANE002_HV						flag-true	Control_BIST_HARVMP_ANE002_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE002_HV									
+BIST_GET_F_BIST_ANE002_HV						EndIf																																
+BIST_HARVMP_ANE002_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE002_STCK_HV_FT1_EQN_HV		41634500											Control_BIST_GET_F_BIST_ANE003_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE002_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE002_STCK_HV									
+BIST_GET_F_BIST_ANE003_HV						If	F_ANE0_BIST_CORE3																															
+BIST_GET_F_BIST_ANE003_HV						flag-true	Control_BIST_GET_F_BIST_ANE004_HV																					flag-true	Control_BIST_GET_F_BIST_ANE003_HV									
+BIST_GET_F_BIST_ANE003_HV						Else																																
+BIST_GET_F_BIST_ANE003_HV						flag-true	Control_BIST_HARVMP_ANE003_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE003_HV									
+BIST_GET_F_BIST_ANE003_HV						EndIf																																
+BIST_HARVMP_ANE003_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE003_STCK_HV_FT1_EQN_HV		41635000											Control_BIST_GET_F_BIST_ANE004_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE003_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE003_STCK_HV									
+BIST_GET_F_BIST_ANE004_HV						If	F_ANE0_BIST_CORE4																															
+BIST_GET_F_BIST_ANE004_HV						flag-true	Control_BIST_GET_F_BIST_ANE005_HV																					flag-true	Control_BIST_GET_F_BIST_ANE004_HV									
+BIST_GET_F_BIST_ANE004_HV						Else																																
+BIST_GET_F_BIST_ANE004_HV						flag-true	Control_BIST_HARVMP_ANE004_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE004_HV									
+BIST_GET_F_BIST_ANE004_HV						EndIf																																
+BIST_HARVMP_ANE004_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE004_STCK_HV_FT1_EQN_HV		41635500											Control_BIST_GET_F_BIST_ANE005_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE004_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE004_STCK_HV									
+BIST_GET_F_BIST_ANE005_HV						If	F_ANE0_BIST_CORE5																															
+BIST_GET_F_BIST_ANE005_HV						flag-true	Control_BIST_GET_F_BIST_ANE006_HV																					flag-true	Control_BIST_GET_F_BIST_ANE005_HV									
+BIST_GET_F_BIST_ANE005_HV						Else																																
+BIST_GET_F_BIST_ANE005_HV						flag-true	Control_BIST_HARVMP_ANE005_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE005_HV									
+BIST_GET_F_BIST_ANE005_HV						EndIf																																
+BIST_HARVMP_ANE005_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE005_STCK_HV_FT1_EQN_HV		41636000											Control_BIST_GET_F_BIST_ANE006_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE005_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE005_STCK_HV									
+BIST_GET_F_BIST_ANE006_HV						If	F_ANE0_BIST_CORE6																															
+BIST_GET_F_BIST_ANE006_HV						flag-true	Control_BIST_GET_F_BIST_ANE007_HV																					flag-true	Control_BIST_GET_F_BIST_ANE006_HV									
+BIST_GET_F_BIST_ANE006_HV						Else																																
+BIST_GET_F_BIST_ANE006_HV						flag-true	Control_BIST_HARVMP_ANE006_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE006_HV									
+BIST_GET_F_BIST_ANE006_HV						EndIf																																
+BIST_HARVMP_ANE006_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE006_STCK_HV_FT1_EQN_HV		41636500											Control_BIST_GET_F_BIST_ANE007_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE006_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE006_STCK_HV									
+BIST_GET_F_BIST_ANE007_HV						If	F_ANE0_BIST_CORE7																															
+BIST_GET_F_BIST_ANE007_HV						flag-true	Control_BIST_GET_F_BIST_ANE008_HV																					flag-true	Control_BIST_GET_F_BIST_ANE007_HV									
+BIST_GET_F_BIST_ANE007_HV						Else																																
+BIST_GET_F_BIST_ANE007_HV						flag-true	Control_BIST_HARVMP_ANE007_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE007_HV									
+BIST_GET_F_BIST_ANE007_HV						EndIf																																
+BIST_HARVMP_ANE007_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE007_STCK_HV_FT1_EQN_HV		41637000											Control_BIST_GET_F_BIST_ANE008_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE007_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE007_STCK_HV									
+BIST_GET_F_BIST_ANE008_HV						If	F_ANE0_BIST_CORE8																															
+BIST_GET_F_BIST_ANE008_HV						flag-true	Control_BIST_GET_F_BIST_ANE009_HV																					flag-true	Control_BIST_GET_F_BIST_ANE008_HV									
+BIST_GET_F_BIST_ANE008_HV						Else																																
+BIST_GET_F_BIST_ANE008_HV						flag-true	Control_BIST_HARVMP_ANE008_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE008_HV									
+BIST_GET_F_BIST_ANE008_HV						EndIf																																
+BIST_HARVMP_ANE008_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE008_STCK_HV_FT1_EQN_HV		41637500											Control_BIST_GET_F_BIST_ANE009_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE008_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE008_STCK_HV									
+BIST_GET_F_BIST_ANE009_HV						If	F_ANE0_BIST_CORE9																															
+BIST_GET_F_BIST_ANE009_HV						flag-true	Control_BIST_GET_F_BIST_ANE010_HV																					flag-true	Control_BIST_GET_F_BIST_ANE009_HV									
+BIST_GET_F_BIST_ANE009_HV						Else																																
+BIST_GET_F_BIST_ANE009_HV						flag-true	Control_BIST_HARVMP_ANE009_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE009_HV									
+BIST_GET_F_BIST_ANE009_HV						EndIf																																
+BIST_HARVMP_ANE009_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE009_STCK_HV_FT1_EQN_HV		41638000											Control_BIST_GET_F_BIST_ANE010_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE009_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE009_STCK_HV									
+BIST_GET_F_BIST_ANE010_HV						If	F_ANE0_BIST_CORE10																															
+BIST_GET_F_BIST_ANE010_HV						flag-true	Control_BIST_GET_F_BIST_ANE011_HV																					flag-true	Control_BIST_GET_F_BIST_ANE010_HV									
+BIST_GET_F_BIST_ANE010_HV						Else																																
+BIST_GET_F_BIST_ANE010_HV						flag-true	Control_BIST_HARVMP_ANE010_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE010_HV									
+BIST_GET_F_BIST_ANE010_HV						EndIf																																
+BIST_HARVMP_ANE010_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE010_STCK_HV_FT1_EQN_HV		41638500											Control_BIST_GET_F_BIST_ANE011_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE010_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE010_STCK_HV									
+BIST_GET_F_BIST_ANE011_HV						If	F_ANE0_BIST_CORE11																															
+BIST_GET_F_BIST_ANE011_HV						flag-true	Control_BIST_GET_F_BIST_ANE012_HV																					flag-true	Control_BIST_GET_F_BIST_ANE011_HV									
+BIST_GET_F_BIST_ANE011_HV						Else																																
+BIST_GET_F_BIST_ANE011_HV						flag-true	Control_BIST_HARVMP_ANE011_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE011_HV									
+BIST_GET_F_BIST_ANE011_HV						EndIf																																
+BIST_HARVMP_ANE011_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE011_STCK_HV_FT1_EQN_HV		41639000											Control_BIST_GET_F_BIST_ANE012_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE011_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE011_STCK_HV									
+BIST_GET_F_BIST_ANE012_HV						If	F_ANE0_BIST_CORE12																															
+BIST_GET_F_BIST_ANE012_HV						flag-true	Control_BIST_GET_F_BIST_ANE013_HV																					flag-true	Control_BIST_GET_F_BIST_ANE012_HV									
+BIST_GET_F_BIST_ANE012_HV						Else																																
+BIST_GET_F_BIST_ANE012_HV						flag-true	Control_BIST_HARVMP_ANE012_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE012_HV									
+BIST_GET_F_BIST_ANE012_HV						EndIf																																
+BIST_HARVMP_ANE012_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE012_STCK_HV_FT1_EQN_HV		41639500											Control_BIST_GET_F_BIST_ANE013_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE012_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE012_STCK_HV									
+BIST_GET_F_BIST_ANE013_HV						If	F_ANE0_BIST_CORE13																															
+BIST_GET_F_BIST_ANE013_HV						flag-true	Control_BIST_GET_F_BIST_ANE014_HV																					flag-true	Control_BIST_GET_F_BIST_ANE013_HV									
+BIST_GET_F_BIST_ANE013_HV						Else																																
+BIST_GET_F_BIST_ANE013_HV						flag-true	Control_BIST_HARVMP_ANE013_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE013_HV									
+BIST_GET_F_BIST_ANE013_HV						EndIf																																
+BIST_HARVMP_ANE013_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE013_STCK_HV_FT1_EQN_HV		41640000											Control_BIST_GET_F_BIST_ANE014_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE013_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE013_STCK_HV									
+BIST_GET_F_BIST_ANE014_HV						If	F_ANE0_BIST_CORE14																															
+BIST_GET_F_BIST_ANE014_HV						flag-true	Control_BIST_GET_F_BIST_ANE015_HV																					flag-true	Control_BIST_GET_F_BIST_ANE014_HV									
+BIST_GET_F_BIST_ANE014_HV						Else																																
+BIST_GET_F_BIST_ANE014_HV						flag-true	Control_BIST_HARVMP_ANE014_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE014_HV									
+BIST_GET_F_BIST_ANE014_HV						EndIf																																
+BIST_HARVMP_ANE014_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE014_STCK_HV_FT1_EQN_HV		41640500											Control_BIST_GET_F_BIST_ANE015_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE014_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE014_STCK_HV									
+BIST_GET_F_BIST_ANE015_HV						If	F_ANE0_BIST_CORE15																															
+BIST_GET_F_BIST_ANE015_HV						flag-true	Control_BIST_GET_F_BIST_ANE016_HV																					flag-true	Control_BIST_GET_F_BIST_ANE015_HV									
+BIST_GET_F_BIST_ANE015_HV						Else																																
+BIST_GET_F_BIST_ANE015_HV						flag-true	Control_BIST_HARVMP_ANE015_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE015_HV									
+BIST_GET_F_BIST_ANE015_HV						EndIf																																
+BIST_HARVMP_ANE015_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE015_STCK_HV_FT1_EQN_HV		41641000											Control_BIST_GET_F_BIST_ANE016_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE015_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE015_STCK_HV									
+BIST_GET_F_BIST_ANE016_HV						If	F_ANE0_BIST_CORE16																															
+BIST_GET_F_BIST_ANE016_HV						flag-true	Control_BIST_ANE1_SETP_HV																					flag-true	Control_BIST_GET_F_BIST_ANE016_HV									
+BIST_GET_F_BIST_ANE016_HV						Else																																
+BIST_GET_F_BIST_ANE016_HV						flag-true	Control_BIST_HARVMP_ANE016_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE016_HV									
+BIST_GET_F_BIST_ANE016_HV						EndIf																																
+BIST_HARVMP_ANE016_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE016_STCK_HV_FT1_EQN_HV		41641500											Control_BIST_ANE1_SETP_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE016_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE016_STCK_HV									
+BIST_ANE1_SETP_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_ANE1_SETP_HV_FT1_EQN_HV		41642000											Control_BIST_GET_F_BIST_ANE1_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_ANE1_SETP_HV_HV							flag-true	Control_BIST_ANE1_SETP_HV									
+BIST_GET_F_BIST_ANE1_HV						If	(!F_ANE1_BIST_CORE_16_0_SUM_0 || F_ANE1_BIST_CNTR)																															
+BIST_GET_F_BIST_ANE1_HV						flag-true	Control_BIST_GET_F_BIST_ANE1_CNTR_2_HV																					flag-true	Control_BIST_GET_F_BIST_ANE1_HV									
+BIST_GET_F_BIST_ANE1_HV						Else																																
+BIST_GET_F_BIST_ANE1_HV						flag-true	Control_BIST_ANE1_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE1_HV									
+BIST_GET_F_BIST_ANE1_HV						EndIf																																
+BIST_ANE1_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_ANE1_STCK_HV_FT1_EQN_HV		41642500											Control_MIXX_SETUP_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_ANE1_STCK_HV_HV							flag-true	Control_BIST_ANE1_STCK_HV									
+BIST_GET_F_BIST_ANE1_CNTR_2_HV						If	F_ANE1_BIST_CNTR																															
+BIST_GET_F_BIST_ANE1_CNTR_2_HV						flag-true	Control_BIST_GET_F_BIST_ANE100_HV																					flag-true	Control_BIST_GET_F_BIST_ANE1_CNTR_2_HV									
+BIST_GET_F_BIST_ANE1_CNTR_2_HV						Else																																
+BIST_GET_F_BIST_ANE1_CNTR_2_HV						flag-true	Control_BIST_HARVMP_ANE1_CNTR_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE1_CNTR_2_HV									
+BIST_GET_F_BIST_ANE1_CNTR_2_HV						EndIf																																
+BIST_HARVMP_ANE1_CNTR_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE1_CNTR_STCK_HV_FT1_EQN_HV		41643000											Control_BIST_GET_F_BIST_ANE100_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE1_CNTR_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE1_CNTR_STCK_HV									
+BIST_GET_F_BIST_ANE100_HV						If	F_ANE1_BIST_CORE0																															
+BIST_GET_F_BIST_ANE100_HV						flag-true	Control_BIST_GET_F_BIST_ANE101_HV																					flag-true	Control_BIST_GET_F_BIST_ANE100_HV									
+BIST_GET_F_BIST_ANE100_HV						Else																																
+BIST_GET_F_BIST_ANE100_HV						flag-true	Control_BIST_HARVMP_ANE100_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE100_HV									
+BIST_GET_F_BIST_ANE100_HV						EndIf																																
+BIST_HARVMP_ANE100_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE100_STCK_HV_FT1_EQN_HV		41643500											Control_BIST_GET_F_BIST_ANE101_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE100_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE100_STCK_HV									
+BIST_GET_F_BIST_ANE101_HV						If	F_ANE1_BIST_CORE1																															
+BIST_GET_F_BIST_ANE101_HV						flag-true	Control_BIST_GET_F_BIST_ANE102_HV																					flag-true	Control_BIST_GET_F_BIST_ANE101_HV									
+BIST_GET_F_BIST_ANE101_HV						Else																																
+BIST_GET_F_BIST_ANE101_HV						flag-true	Control_BIST_HARVMP_ANE101_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE101_HV									
+BIST_GET_F_BIST_ANE101_HV						EndIf																																
+BIST_HARVMP_ANE101_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE101_STCK_HV_FT1_EQN_HV		41644000											Control_BIST_GET_F_BIST_ANE102_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE101_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE101_STCK_HV									
+BIST_GET_F_BIST_ANE102_HV						If	F_ANE1_BIST_CORE2																															
+BIST_GET_F_BIST_ANE102_HV						flag-true	Control_BIST_GET_F_BIST_ANE103_HV																					flag-true	Control_BIST_GET_F_BIST_ANE102_HV									
+BIST_GET_F_BIST_ANE102_HV						Else																																
+BIST_GET_F_BIST_ANE102_HV						flag-true	Control_BIST_HARVMP_ANE102_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE102_HV									
+BIST_GET_F_BIST_ANE102_HV						EndIf																																
+BIST_HARVMP_ANE102_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE102_STCK_HV_FT1_EQN_HV		41644500											Control_BIST_GET_F_BIST_ANE103_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE102_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE102_STCK_HV									
+BIST_GET_F_BIST_ANE103_HV						If	F_ANE1_BIST_CORE3																															
+BIST_GET_F_BIST_ANE103_HV						flag-true	Control_BIST_GET_F_BIST_ANE104_HV																					flag-true	Control_BIST_GET_F_BIST_ANE103_HV									
+BIST_GET_F_BIST_ANE103_HV						Else																																
+BIST_GET_F_BIST_ANE103_HV						flag-true	Control_BIST_HARVMP_ANE103_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE103_HV									
+BIST_GET_F_BIST_ANE103_HV						EndIf																																
+BIST_HARVMP_ANE103_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE103_STCK_HV_FT1_EQN_HV		41645000											Control_BIST_GET_F_BIST_ANE104_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE103_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE103_STCK_HV									
+BIST_GET_F_BIST_ANE104_HV						If	F_ANE1_BIST_CORE4																															
+BIST_GET_F_BIST_ANE104_HV						flag-true	Control_BIST_GET_F_BIST_ANE105_HV																					flag-true	Control_BIST_GET_F_BIST_ANE104_HV									
+BIST_GET_F_BIST_ANE104_HV						Else																																
+BIST_GET_F_BIST_ANE104_HV						flag-true	Control_BIST_HARVMP_ANE104_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE104_HV									
+BIST_GET_F_BIST_ANE104_HV						EndIf																																
+BIST_HARVMP_ANE104_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE104_STCK_HV_FT1_EQN_HV		41645500											Control_BIST_GET_F_BIST_ANE105_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE104_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE104_STCK_HV									
+BIST_GET_F_BIST_ANE105_HV						If	F_ANE1_BIST_CORE5																															
+BIST_GET_F_BIST_ANE105_HV						flag-true	Control_BIST_GET_F_BIST_ANE106_HV																					flag-true	Control_BIST_GET_F_BIST_ANE105_HV									
+BIST_GET_F_BIST_ANE105_HV						Else																																
+BIST_GET_F_BIST_ANE105_HV						flag-true	Control_BIST_HARVMP_ANE105_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE105_HV									
+BIST_GET_F_BIST_ANE105_HV						EndIf																																
+BIST_HARVMP_ANE105_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE105_STCK_HV_FT1_EQN_HV		41646000											Control_BIST_GET_F_BIST_ANE106_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE105_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE105_STCK_HV									
+BIST_GET_F_BIST_ANE106_HV						If	F_ANE1_BIST_CORE6																															
+BIST_GET_F_BIST_ANE106_HV						flag-true	Control_BIST_GET_F_BIST_ANE107_HV																					flag-true	Control_BIST_GET_F_BIST_ANE106_HV									
+BIST_GET_F_BIST_ANE106_HV						Else																																
+BIST_GET_F_BIST_ANE106_HV						flag-true	Control_BIST_HARVMP_ANE106_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE106_HV									
+BIST_GET_F_BIST_ANE106_HV						EndIf																																
+BIST_HARVMP_ANE106_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE106_STCK_HV_FT1_EQN_HV		41646500											Control_BIST_GET_F_BIST_ANE107_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE106_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE106_STCK_HV									
+BIST_GET_F_BIST_ANE107_HV						If	F_ANE1_BIST_CORE7																															
+BIST_GET_F_BIST_ANE107_HV						flag-true	Control_BIST_GET_F_BIST_ANE108_HV																					flag-true	Control_BIST_GET_F_BIST_ANE107_HV									
+BIST_GET_F_BIST_ANE107_HV						Else																																
+BIST_GET_F_BIST_ANE107_HV						flag-true	Control_BIST_HARVMP_ANE107_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE107_HV									
+BIST_GET_F_BIST_ANE107_HV						EndIf																																
+BIST_HARVMP_ANE107_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE107_STCK_HV_FT1_EQN_HV		41647000											Control_BIST_GET_F_BIST_ANE108_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE107_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE107_STCK_HV									
+BIST_GET_F_BIST_ANE108_HV						If	F_ANE1_BIST_CORE8																															
+BIST_GET_F_BIST_ANE108_HV						flag-true	Control_BIST_GET_F_BIST_ANE109_HV																					flag-true	Control_BIST_GET_F_BIST_ANE108_HV									
+BIST_GET_F_BIST_ANE108_HV						Else																																
+BIST_GET_F_BIST_ANE108_HV						flag-true	Control_BIST_HARVMP_ANE108_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE108_HV									
+BIST_GET_F_BIST_ANE108_HV						EndIf																																
+BIST_HARVMP_ANE108_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE108_STCK_HV_FT1_EQN_HV		41647500											Control_BIST_GET_F_BIST_ANE109_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE108_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE108_STCK_HV									
+BIST_GET_F_BIST_ANE109_HV						If	F_ANE1_BIST_CORE9																															
+BIST_GET_F_BIST_ANE109_HV						flag-true	Control_BIST_GET_F_BIST_ANE110_HV																					flag-true	Control_BIST_GET_F_BIST_ANE109_HV									
+BIST_GET_F_BIST_ANE109_HV						Else																																
+BIST_GET_F_BIST_ANE109_HV						flag-true	Control_BIST_HARVMP_ANE109_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE109_HV									
+BIST_GET_F_BIST_ANE109_HV						EndIf																																
+BIST_HARVMP_ANE109_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE109_STCK_HV_FT1_EQN_HV		41648000											Control_BIST_GET_F_BIST_ANE110_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE109_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE109_STCK_HV									
+BIST_GET_F_BIST_ANE110_HV						If	F_ANE1_BIST_CORE10																															
+BIST_GET_F_BIST_ANE110_HV						flag-true	Control_BIST_GET_F_BIST_ANE111_HV																					flag-true	Control_BIST_GET_F_BIST_ANE110_HV									
+BIST_GET_F_BIST_ANE110_HV						Else																																
+BIST_GET_F_BIST_ANE110_HV						flag-true	Control_BIST_HARVMP_ANE110_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE110_HV									
+BIST_GET_F_BIST_ANE110_HV						EndIf																																
+BIST_HARVMP_ANE110_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE110_STCK_HV_FT1_EQN_HV		41648500											Control_BIST_GET_F_BIST_ANE111_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE110_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE110_STCK_HV									
+BIST_GET_F_BIST_ANE111_HV						If	F_ANE1_BIST_CORE11																															
+BIST_GET_F_BIST_ANE111_HV						flag-true	Control_BIST_GET_F_BIST_ANE112_HV																					flag-true	Control_BIST_GET_F_BIST_ANE111_HV									
+BIST_GET_F_BIST_ANE111_HV						Else																																
+BIST_GET_F_BIST_ANE111_HV						flag-true	Control_BIST_HARVMP_ANE111_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE111_HV									
+BIST_GET_F_BIST_ANE111_HV						EndIf																																
+BIST_HARVMP_ANE111_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE111_STCK_HV_FT1_EQN_HV		41649000											Control_BIST_GET_F_BIST_ANE112_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE111_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE111_STCK_HV									
+BIST_GET_F_BIST_ANE112_HV						If	F_ANE1_BIST_CORE12																															
+BIST_GET_F_BIST_ANE112_HV						flag-true	Control_BIST_GET_F_BIST_ANE113_HV																					flag-true	Control_BIST_GET_F_BIST_ANE112_HV									
+BIST_GET_F_BIST_ANE112_HV						Else																																
+BIST_GET_F_BIST_ANE112_HV						flag-true	Control_BIST_HARVMP_ANE112_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE112_HV									
+BIST_GET_F_BIST_ANE112_HV						EndIf																																
+BIST_HARVMP_ANE112_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE112_STCK_HV_FT1_EQN_HV		41649500											Control_BIST_GET_F_BIST_ANE113_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE112_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE112_STCK_HV									
+BIST_GET_F_BIST_ANE113_HV						If	F_ANE1_BIST_CORE13																															
+BIST_GET_F_BIST_ANE113_HV						flag-true	Control_BIST_GET_F_BIST_ANE114_HV																					flag-true	Control_BIST_GET_F_BIST_ANE113_HV									
+BIST_GET_F_BIST_ANE113_HV						Else																																
+BIST_GET_F_BIST_ANE113_HV						flag-true	Control_BIST_HARVMP_ANE113_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE113_HV									
+BIST_GET_F_BIST_ANE113_HV						EndIf																																
+BIST_HARVMP_ANE113_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE113_STCK_HV_FT1_EQN_HV		41650000											Control_BIST_GET_F_BIST_ANE114_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE113_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE113_STCK_HV									
+BIST_GET_F_BIST_ANE114_HV						If	F_ANE1_BIST_CORE14																															
+BIST_GET_F_BIST_ANE114_HV						flag-true	Control_BIST_GET_F_BIST_ANE115_HV																					flag-true	Control_BIST_GET_F_BIST_ANE114_HV									
+BIST_GET_F_BIST_ANE114_HV						Else																																
+BIST_GET_F_BIST_ANE114_HV						flag-true	Control_BIST_HARVMP_ANE114_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE114_HV									
+BIST_GET_F_BIST_ANE114_HV						EndIf																																
+BIST_HARVMP_ANE114_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE114_STCK_HV_FT1_EQN_HV		41650500											Control_BIST_GET_F_BIST_ANE115_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE114_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE114_STCK_HV									
+BIST_GET_F_BIST_ANE115_HV						If	F_ANE1_BIST_CORE15																															
+BIST_GET_F_BIST_ANE115_HV						flag-true	Control_BIST_GET_F_BIST_ANE116_HV																					flag-true	Control_BIST_GET_F_BIST_ANE115_HV									
+BIST_GET_F_BIST_ANE115_HV						Else																																
+BIST_GET_F_BIST_ANE115_HV						flag-true	Control_BIST_HARVMP_ANE115_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE115_HV									
+BIST_GET_F_BIST_ANE115_HV						EndIf																																
+BIST_HARVMP_ANE115_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE115_STCK_HV_FT1_EQN_HV		41651000											Control_BIST_GET_F_BIST_ANE116_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE115_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE115_STCK_HV									
+BIST_GET_F_BIST_ANE116_HV						If	F_ANE1_BIST_CORE16																															
+BIST_GET_F_BIST_ANE116_HV						flag-true	Control_MIXX_SETUP_HV																					flag-true	Control_BIST_GET_F_BIST_ANE116_HV									
+BIST_GET_F_BIST_ANE116_HV						Else																																
+BIST_GET_F_BIST_ANE116_HV						flag-true	Control_BIST_HARVMP_ANE116_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ANE116_HV									
+BIST_GET_F_BIST_ANE116_HV						EndIf																																
+BIST_HARVMP_ANE116_STCK_HV						Test	SocMbist_FT1_MPX00D_Mbist_Soc_BIST_MPX00D_EQN_PatSet_BIST_HARVMP_ANE116_STCK_HV_FT1_EQN_HV		41651500											Control_MIXX_SETUP_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARVMP_ANE116_STCK_HV_HV							flag-true	Control_BIST_HARVMP_ANE116_STCK_HV									
+MIXX_SETUP_HV						Test	SocMbist_FT1_Mbist_Soc_Init_X_PatSet_MIXX_SETUP_HV_FT1_NV		41652000											Control_BIST_GET_HARV2_FLAG_HV	Control_BIST_GET_HARV2_FLAG_HV							flag-true	Control_MIXX_SETUP_HV									
+BIST_GET_HARV2_FLAG_HV						If	(F_SOC_BIST_ED0 || F_SOC_BIST_ED1 || F_SOC_BIST_ID)																															
+BIST_GET_HARV2_FLAG_HV						flag-true	Control_BIST_HARV_MIXX_SETP_HV																					flag-true	Control_BIST_GET_HARV2_FLAG_HV									
+BIST_GET_HARV2_FLAG_HV						Else																																
+BIST_GET_HARV2_FLAG_HV						flag-true	Control_BIST_ALL_MIXX_HV																					flag-true	Control_BIST_GET_HARV2_FLAG_HV									
+BIST_GET_HARV2_FLAG_HV						EndIf																																
+BIST_ALL_MIXX_HV						Test	SocMbist_FT1_MIX004_Mbist_Soc_BIST_MIX004_EQN_PatSet_BIST_ALL_MIXX_HV_FT1_EQN_HV		41652500											Control_MRXX_SETUP_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_ALL_MIXX_HV_HV							flag-true	Control_BIST_ALL_MIXX_HV									
+BIST_HARV_MIXX_SETP_HV						Test	SocMbist_FT1_MIX004_Mbist_Soc_BIST_MIX004_EQN_PatSet_BIST_HARV_MIXX_SETP_HV_FT1_EQN_HV		41653000											Control_BIST_GET_F_BIST_ED0_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_MIXX_SETP_HV_HV							flag-true	Control_BIST_HARV_MIXX_SETP_HV									
+BIST_GET_F_BIST_ED0_HV						If	F_SOC_BIST_ED0																															
+BIST_GET_F_BIST_ED0_HV						flag-true	Control_BIST_GET_F_BIST_ED1_HV																					flag-true	Control_BIST_GET_F_BIST_ED0_HV									
+BIST_GET_F_BIST_ED0_HV						Else																																
+BIST_GET_F_BIST_ED0_HV						flag-true	Control_BIST_HARV_ED0_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ED0_HV									
+BIST_GET_F_BIST_ED0_HV						EndIf																																
+BIST_HARV_ED0_STCK_HV						Test	SocMbist_FT1_MIX004_Mbist_Soc_BIST_MIX004_EQN_PatSet_BIST_HARV_ED0_STCK_HV_FT1_EQN_HV		41653500											Control_BIST_GET_F_BIST_ED1_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_ED0_STCK_HV_HV							flag-true	Control_BIST_HARV_ED0_STCK_HV									
+BIST_GET_F_BIST_ED1_HV						If	F_SOC_BIST_ED1																															
+BIST_GET_F_BIST_ED1_HV						flag-true	Control_BIST_GET_F_BIST_ID_HV																					flag-true	Control_BIST_GET_F_BIST_ED1_HV									
+BIST_GET_F_BIST_ED1_HV						Else																																
+BIST_GET_F_BIST_ED1_HV						flag-true	Control_BIST_HARV_ED1_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ED1_HV									
+BIST_GET_F_BIST_ED1_HV						EndIf																																
+BIST_HARV_ED1_STCK_HV						Test	SocMbist_FT1_MIX004_Mbist_Soc_BIST_MIX004_EQN_PatSet_BIST_HARV_ED1_STCK_HV_FT1_EQN_HV		41654000											Control_BIST_GET_F_BIST_ID_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_ED1_STCK_HV_HV							flag-true	Control_BIST_HARV_ED1_STCK_HV									
+BIST_GET_F_BIST_ID_HV						If	F_SOC_BIST_ID																															
+BIST_GET_F_BIST_ID_HV						flag-true	Control_MRXX_SETUP_HV																					flag-true	Control_BIST_GET_F_BIST_ID_HV									
+BIST_GET_F_BIST_ID_HV						Else																																
+BIST_GET_F_BIST_ID_HV						flag-true	Control_BIST_HARV_ID_STCK_HV																					flag-true	Control_BIST_GET_F_BIST_ID_HV									
+BIST_GET_F_BIST_ID_HV						EndIf																																
+BIST_HARV_ID_STCK_HV						Test	SocMbist_FT1_MIX004_Mbist_Soc_BIST_MIX004_EQN_PatSet_BIST_HARV_ID_STCK_HV_FT1_EQN_HV		41654500											Control_MRXX_SETUP_HV	Control_BIST_FAIL,F_SOC_MBIST_BIST_HARV_ID_STCK_HV_HV							flag-true	Control_BIST_HARV_ID_STCK_HV									
+MRXX_SETUP_HV						Test	SocMbist_FT1_Mbist_Soc_Init_X_PatSet_MRXX_SETUP_HV_FT1_NV		41655000											Control_BIST_ALL_MRXX_HV	Control_BIST_FAIL,F_SOC_MBIST_MRXX_SETUP_HV_NV							flag-true	Control_MRXX_SETUP_HV									
+BIST_ALL_MRXX_HV						Test	SocMbist_FT1_MRX001_Mbist_Soc_BIST_MRX001_PatSet_BIST_ALL_MRXX_HV_FT1_HV		41655500											Control_PASS_BRANCH	Control_BIST_FAIL,F_SOC_MBIST_BIST_ALL_MRXX_HV_HV							flag-true	Control_BIST_ALL_MRXX_HV									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_MSDP_SETUP_HV_NV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_ALL_MDGO3_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_MXDX_SETUP_HV_NV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_NOGO03_MSDX_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_MSDX_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_AT0_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_AT1_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_AT2_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_AT3_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_IS_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_SC_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_ANE0_CNTR_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_ANE1_CNTR_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_ANE0_SETP_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_ANE0_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE0_CNTR_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE000_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE001_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE002_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE003_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE004_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE005_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE006_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE007_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE008_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE009_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE010_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE011_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE012_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE013_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE014_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE015_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE016_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_ANE1_SETP_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_ANE1_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE1_CNTR_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE100_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE101_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE102_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE103_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE104_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE105_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE106_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE107_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE108_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE109_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE110_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE111_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE112_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE113_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE114_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE115_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARVMP_ANE116_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_ALL_MIXX_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_MIXX_SETP_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_ED0_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_ED1_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_HARV_ID_STCK_HV_HV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_MRXX_SETUP_HV_NV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_ALL_MRXX_HV_HV																					flag-true	Control_BIST_FAIL									
+						print	"Flow S_BI_PP_FT1 End "																															
+PASS_BRANCH						Return																																

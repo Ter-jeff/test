@@ -1,0 +1,58 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MyAvalonia.Controls;assembly=MyAvalonia">
+    <Styles.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="BackgroundDarkBrush"     Color="LightSkyBlue"/>
+                    <SolidColorBrush x:Key="BackgroundDarkDarkBrush"  Color="SkyBlue"/>
+                    <SolidColorBrush x:Key="MyBorderBrush"           Color="DarkGray"/>
+                    <SolidColorBrush x:Key="MyMouseOver"             Color="GhostWhite"/>
+                    <SolidColorBrush x:Key="MyDisableTextBrush"      Color="Gray"/>
+                    <SolidColorBrush x:Key="MyDisableBorderBrush"    Color="LightGray"/>
+                    <SolidColorBrush x:Key="MyDisabledBackground"    Color="LightGray"/>
+                    <SolidColorBrush x:Key="MyFontBrush"             Color="Black"/>
+                    <SolidColorBrush x:Key="MyPanelBackground"       Color="Gainsboro"/>
+                    <SolidColorBrush x:Key="MyContentBackground"     Color="White"/>
+                    <SolidColorBrush x:Key="MyWindowBorderBrush"     Color="LightGray"/>
+                    <SolidColorBrush x:Key="MyTitleBarBackground"    Color="White"/>
+                    <SolidColorBrush x:Key="MyTextBoxBorderBrush"    Color="DarkGray"/>
+                    <SolidColorBrush x:Key="MySplitterBrush"         Color="#E5E7EB"/>
+                    <SolidColorBrush x:Key="MyInfoBackground"        Color="#F0F9FF"/>
+                    <SolidColorBrush x:Key="MyInfoBorderBrush"       Color="#BAE6FD"/>
+                    <SolidColorBrush x:Key="MyAccentForeground"      Color="#0369A1"/>
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="BackgroundDarkBrush"     Color="Black"/>
+                    <SolidColorBrush x:Key="BackgroundDarkDarkBrush"  Color="#122B47"/>
+                    <SolidColorBrush x:Key="MyBorderBrush"           Color="#555555"/>
+                    <SolidColorBrush x:Key="MyMouseOver"             Color="#3A3A3A"/>
+                    <SolidColorBrush x:Key="MyDisableTextBrush"      Color="#888888"/>
+                    <SolidColorBrush x:Key="MyDisableBorderBrush"    Color="#444444"/>
+                    <SolidColorBrush x:Key="MyDisabledBackground"    Color="#666666"/>
+                    <SolidColorBrush x:Key="MyFontBrush"             Color="#E0E0E0"/>
+                    <SolidColorBrush x:Key="MyPanelBackground"       Color="#2B2B2B"/>
+                    <SolidColorBrush x:Key="MyContentBackground"     Color="#1E1E1E"/>
+                    <SolidColorBrush x:Key="MyWindowBorderBrush"     Color="#555555"/>
+                    <SolidColorBrush x:Key="MyTitleBarBackground"    Color="#2B2B2B"/>
+                    <SolidColorBrush x:Key="MyTextBoxBorderBrush"    Color="#6B6B6B"/>
+                    <SolidColorBrush x:Key="MySplitterBrush"         Color="#3A3A3A"/>
+                    <SolidColorBrush x:Key="MyInfoBackground"        Color="#1A2A3A"/>
+                    <SolidColorBrush x:Key="MyInfoBorderBrush"       Color="#2A4A6A"/>
+                    <SolidColorBrush x:Key="MyAccentForeground"      Color="#60AEFF"/>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+        <x:Double x:Key="SmallFontSize">9</x:Double>
+        <x:Double x:Key="NormalFontSize">12</x:Double>
+        <x:Double x:Key="MediumFontSize">14</x:Double>
+        <x:Double x:Key="LargeFontSize">16</x:Double>
+    </Styles.Resources>
+
+    <StyleInclude Source="avares://MyAvalonia/Styles/MyWindowTheme.axaml" />
+
+    <Style Selector="controls|MyTextBoxButton.StyleTextBoxButton">
+        <Setter Property="Margin" Value="0,10" />
+    </Style>
+</Styles>

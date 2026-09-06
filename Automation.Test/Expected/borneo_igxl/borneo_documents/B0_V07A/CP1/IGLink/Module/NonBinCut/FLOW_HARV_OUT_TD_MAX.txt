@@ -1,0 +1,117 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow HARV_OUT_TD_MAX Start"																															
+Instance_OutsideBincut,Row11,Flow_Harv_Out_TD_max						Test	GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_X7GR1_PL10_PL20_EQN_LV		940000000												F_GFX0_TD_Multi,F_GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_X7GR1_PL10_PL20_EQN_LV																	
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE0) || F_Debug_all																															
+Instance_OutsideBincut,Row12,Flow_Harv_Out_TD_max						Test	GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF00_PL10_PL20_EQN_LV		940001000												F_GFX0_TD_CORE0,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF00_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE1) || F_Debug_all																															
+Instance_OutsideBincut,Row13,Flow_Harv_Out_TD_max						Test	GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF01_PL10_PL20_EQN_LV		940002000												F_GFX0_TD_CORE1,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF01_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE2) || F_Debug_all																															
+Instance_OutsideBincut,Row14,Flow_Harv_Out_TD_max						Test	GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF02_PL10_PL20_EQN_LV		940003000												F_GFX0_TD_CORE2,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF02_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE3) || F_Debug_all																															
+Instance_OutsideBincut,Row15,Flow_Harv_Out_TD_max						Test	GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF03_PL10_PL20_EQN_LV		940004000												F_GFX0_TD_CORE3,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF03_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE4) || F_Debug_all																															
+Instance_OutsideBincut,Row16,Flow_Harv_Out_TD_max						Test	GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF04_PL10_PL20_EQN_LV		940005000												F_GFX0_TD_CORE4,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF04_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE5) || F_Debug_all																															
+Instance_OutsideBincut,Row17,Flow_Harv_Out_TD_max						Test	GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF05_PL10_PL20_EQN_LV		940006000												F_GFX0_TD_CORE5,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF05_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE6) || F_Debug_all																															
+Instance_OutsideBincut,Row18,Flow_Harv_Out_TD_max						Test	GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF06_PL10_PL20_EQN_LV		940007000												F_GFX0_TD_CORE6,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNB0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF06_PL10_PL20_EQN_LV																	
+						EndIf																																
+Instance_OutsideBincut,Row24,Flow_Harv_Out_TD_max						Test	CpuTd_PP_BRNB0_C_PL10_PL20_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_MEX007_DIV166_PL10_PL20_EQN_LV		940008000												F_Cpu_Td_MEX007_LV,F_CpuTd_PP_BRNB0_C_PL10_PL20_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_MEX007_DIV166_PL10_PL20_EQN_LV																	
+Instance_OutsideBincut,Row24,Flow_Harv_Out_TD_max						flag-true	ControlBin_ECPU_TD_NonHarv_Cpu_Td_MEX007_LV																					Flag-true	F_CpuTd_PP_BRNB0_C_PL10_PL20_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_MEX007_DIV166_PL10_PL20_EQN_LV									
+Instance_OutsideBincut,Row25,Flow_Harv_Out_TD_max						Test	CpuTd_PP_BRNB0_C_PL00_SC_E0XD_TDF_COM_AUT_MEXXXX_DM_DIV422_MEX007_DIV422_PL00_EQN_LV		940009000												F_ECPU_TD_NonHarv,F_Cpu_Td_MEX007_LV,F_CpuTd_PP_BRNB0_C_PL00_SC_E0XD_TDF_COM_AUT_MEXXXX_DM_DIV422_MEX007_DIV422_PL00_EQN_LV																	
+Instance_OutsideBincut,Row25,Flow_Harv_Out_TD_max						flag-true	ControlBin_ECPU_TD_NonHarv_Cpu_Td_MEX007_LV																					Flag-true	F_CpuTd_PP_BRNB0_C_PL00_SC_E0XD_TDF_COM_AUT_MEXXXX_DM_DIV422_MEX007_DIV422_PL00_EQN_LV									
+Instance_OutsideBincut,Row26,Flow_Harv_Out_TD_max						Test	CpuTd_PP_BRNB0_C_PL00_SC_E0ED_TDF_COM_AUT_MEXXXX_DM_CEXTEST_MEX007_CEXTEST_PL00_EQN_LV		940010000												F_ECPU_TD_NonHarv,F_Cpu_Td_MEX007_LV,F_CpuTd_PP_BRNB0_C_PL00_SC_E0ED_TDF_COM_AUT_MEXXXX_DM_CEXTEST_MEX007_CEXTEST_PL00_EQN_LV																	
+Instance_OutsideBincut,Row26,Flow_Harv_Out_TD_max						flag-true	ControlBin_ECPU_TD_NonHarv_Cpu_Td_MEX007_LV																					Flag-true	F_CpuTd_PP_BRNB0_C_PL00_SC_E0ED_TDF_COM_AUT_MEXXXX_DM_CEXTEST_MEX007_CEXTEST_PL00_EQN_LV									
+Instance_OutsideBincut,Row32,Flow_Harv_Out_TD_max						Test	CpuTd_PP_BRNB0_C_PL10_PL20_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_MPX00J_DIV166_PL10_EQN_LV		940011000												F_Cpu_Td_MPX00J_LV,F_CpuTd_PP_BRNB0_C_PL10_PL20_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_MPX00J_DIV166_PL10_EQN_LV																	
+Instance_OutsideBincut,Row32,Flow_Harv_Out_TD_max						flag-true	ControlBin_PCPU_TD_NonHarv_Cpu_Td_MPX00J_LV																					Flag-true	F_CpuTd_PP_BRNB0_C_PL10_PL20_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_MPX00J_DIV166_PL10_EQN_LV									
+Instance_OutsideBincut,Row33,Flow_Harv_Out_TD_max						Test	CpuTd_PP_BRNB0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_MPX00J_DIV422_PL00_EQN_LV		940012000												F_PCPU_TD_NonHarv,F_Cpu_Td_MPX00J_LV,F_CpuTd_PP_BRNB0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_MPX00J_DIV422_PL00_EQN_LV																	
+Instance_OutsideBincut,Row33,Flow_Harv_Out_TD_max						flag-true	ControlBin_PCPU_TD_NonHarv_Cpu_Td_MPX00J_LV																					Flag-true	F_CpuTd_PP_BRNB0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_MPX00J_DIV422_PL00_EQN_LV									
+Instance_OutsideBincut,Row34,Flow_Harv_Out_TD_max						Test	CpuTd_PP_BRNB0_C_PL00_SC_P0PD_TDF_COM_AUT_MPXXXX_DM_CEXTEST_MPX00J_CEXTEST_PL00_EQN_LV		940013000												F_PCPU_TD_NonHarv,F_Cpu_Td_MPX00J_LV,F_CpuTd_PP_BRNB0_C_PL00_SC_P0PD_TDF_COM_AUT_MPXXXX_DM_CEXTEST_MPX00J_CEXTEST_PL00_EQN_LV																	
+Instance_OutsideBincut,Row34,Flow_Harv_Out_TD_max						flag-true	ControlBin_PCPU_TD_NonHarv_Cpu_Td_MPX00J_LV																					Flag-true	F_CpuTd_PP_BRNB0_C_PL00_SC_P0PD_TDF_COM_AUT_MPXXXX_DM_CEXTEST_MPX00J_CEXTEST_PL00_EQN_LV									
+Instance_OutsideBincut,Row48,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_MSX004_CAF0_PL20_EQN_LV		940014000												F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_MSX004_CAF0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row48,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_MSX004_CAF0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row49,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CCB0_TDF_SSC_AUT_MSXXXX_DM_MSX004_CCB0_PL20_EQN_LV		940015000												F_SOC_TD_NonHarv,F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CCB0_TDF_SSC_AUT_MSXXXX_DM_MSX004_CCB0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row49,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CCB0_TDF_SSC_AUT_MSXXXX_DM_MSX004_CCB0_PL20_EQN_LV									
+Instance_OutsideBincut,Row50,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CCC0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCC0_PL20_EQN_LV		940016000												F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CCC0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCC0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row50,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CCC0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCC0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row51,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNA0_S_PL20_SC_CCD0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCD0_PL20_EQN_LV		940017000												F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCD0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCD0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row51,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCD0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCD0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row52,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CCE0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCE0_PL20_EQN_LV		940018000												F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CCE0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCE0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row52,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CCE0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCE0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row53,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CCF0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCF0_PL20_EQN_LV		940019000												F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CCF0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCF0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row53,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CCF0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCF0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row54,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CCI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CCI0_PL20_EQN_LV		940020000												F_SOC_TD_NonHarv,F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CCI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CCI0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row54,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CCI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CCI0_PL20_EQN_LV									
+Instance_OutsideBincut,Row55,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MSX004_CDA0_PL20_EQN_LV		940021000												F_SOC_TD_NonHarv,F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MSX004_CDA0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row55,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MSX004_CDA0_PL20_EQN_LV									
+Instance_OutsideBincut,Row56,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CHI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CHI0_PL20_EQN_LV		940022000												F_SOC_TD_NonHarv,F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CHI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CHI0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row56,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CHI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CHI0_PL20_EQN_LV									
+Instance_OutsideBincut,Row60,Flow_Harv_Out_TD_max						Test	GfxTd_PP_BRNB0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_DM_MSX004_CFND_PL20_EQN_LV		940023000												F_SOC_TD_NonHarv,F_Soc_Td_MSX004_LV,F_GfxTd_PP_BRNB0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_DM_MSX004_CFND_PL20_EQN_LV																	
+Instance_OutsideBincut,Row60,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																					Flag-true	F_GfxTd_PP_BRNB0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_DM_MSX004_CFND_PL20_EQN_LV									
+Instance_OutsideBincut,Row70,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CCG0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCG0_PL20_EQN_LV		940024000												F_Soc_Td_MIX005_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CCG0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCG0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row70,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MIX005_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CCG0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCG0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row71,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CCH0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCH0_PL20_EQN_LV		940025000												F_Soc_Td_MIX005_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CCH0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCH0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row71,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MIX005_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CCH0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCH0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row76,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MDX00A_CDA0_PL20_EQN_LV		940026000												F_SOC_TD_NonHarv,F_Soc_Td_MDX00A_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MDX00A_CDA0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row76,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MDX00A_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MDX00A_CDA0_PL20_EQN_LV									
+Instance_OutsideBincut,Row77,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CDB0_TDF_SSC_AUT_MDXXXX_DM_MDX00A_CDB0_PL20_EQN_LV		940027000												F_SOC_TD_NonHarv,F_Soc_Td_MDX00A_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CDB0_TDF_SSC_AUT_MDXXXX_DM_MDX00A_CDB0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row77,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MDX00A_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CDB0_TDF_SSC_AUT_MDXXXX_DM_MDX00A_CDB0_PL20_EQN_LV									
+Instance_OutsideBincut,Row81,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNA0_S_PL20_SC_CCJ0_TDF_SSC_AUT_MAXXXX_DM_MAX003_CCJ0_PL20_EQN_LV		940028000												F_SOC_TD_NonHarv,F_Soc_Td_MAX003_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCJ0_TDF_SSC_AUT_MAXXXX_DM_MAX003_CCJ0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row81,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MAX003_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCJ0_TDF_SSC_AUT_MAXXXX_DM_MAX003_CCJ0_PL20_EQN_LV									
+Instance_OutsideBincut,Row90,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNA0_S_PL20_SC_CAA0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAA0_PL20_EQN_LV		940029000												F_Soc_Td_MPX00G_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CAA0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAA0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row90,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MPX00G_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CAA0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAA0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row91,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNA0_S_PL20_SC_CAB0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAB0_PL20_EQN_LV		940030000												F_Soc_Td_MPX00G_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CAB0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAB0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row91,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MPX00G_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CAB0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAB0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row92,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNA0_S_PL20_SC_CAC0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAC0_PL20_EQN_LV		940031000												F_Soc_Td_MPX00G_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CAC0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAC0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row92,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MPX00G_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CAC0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAC0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row93,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNA0_S_PL20_SC_CAD0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAD0_PL20_EQN_LV		940032000												F_Soc_Td_MPX00G_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CAD0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAD0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row93,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MPX00G_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CAD0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAD0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row94,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNA0_S_PL20_SC_CAE0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAE0_PL20_EQN_LV		940033000												F_Soc_Td_MPX00G_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CAE0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAE0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row94,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MPX00G_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CAE0_TDF_SSC_HAR_MPXXXX_DM_MPX00G_CAE0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row95,Flow_Harv_Out_TD_max						Test	SocTd_PP_BRNB0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_MPX00G_CAF0_PL20_EQN_LV		940034000												F_Soc_Td_MPX00G_LV,F_SocTd_PP_BRNB0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_MPX00G_CAF0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row95,Flow_Harv_Out_TD_max						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MPX00G_LV																					Flag-true	F_SocTd_PP_BRNB0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_MPX00G_CAF0_PL20_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+						If	ControlBin_ECPU_TD_NonHarv_Cpu_Td_MEX007_LV																															
+						Bintable	Bin_ECPU_TD_NonHarv_Cpu_Td_MEX007_LV																															
+						EndIf																																
+						If	ControlBin_PCPU_TD_NonHarv_Cpu_Td_MPX00J_LV																															
+						Bintable	Bin_PCPU_TD_NonHarv_Cpu_Td_MPX00J_LV																															
+						EndIf																																
+						If	ControlBin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																															
+						Bintable	Bin_SOC_TD_NonHarv_Soc_Td_MSX004_LV																															
+						EndIf																																
+						If	ControlBin_SOC_TD_NonHarv_Soc_Td_MIX005_LV																															
+						Bintable	Bin_SOC_TD_NonHarv_Soc_Td_MIX005_LV																															
+						EndIf																																
+						If	ControlBin_SOC_TD_NonHarv_Soc_Td_MDX00A_LV																															
+						Bintable	Bin_SOC_TD_NonHarv_Soc_Td_MDX00A_LV																															
+						EndIf																																
+						If	ControlBin_SOC_TD_NonHarv_Soc_Td_MAX003_LV																															
+						Bintable	Bin_SOC_TD_NonHarv_Soc_Td_MAX003_LV																															
+						EndIf																																
+						If	ControlBin_SOC_TD_NonHarv_Soc_Td_MPX00G_LV																															
+						Bintable	Bin_SOC_TD_NonHarv_Soc_Td_MPX00G_LV																															
+						EndIf																																
+						print	"Flow HARV_OUT_TD_MAX Stop"																															
+						Return																																

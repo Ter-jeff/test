@@ -1,0 +1,19 @@
+Pass Rate	46.67%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	15	Pass Rows	7																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	5	5						print	"Flow Flow_efuse_Config_Early Start"																														
+P	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	6	6						flag-clear	F_Config_Early_Enable																														
+P	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	7	7		Enable_Flow_efuse_Config_Early				flag-true	F_Config_Early_Enable																														
+P	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	8	8						If	F_Config_Early_Enable																														
+M	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	9	9		 => CP1	CP1 => 			Test	Copy_Early_Fuse_For_Config_Bank_To_Cache														F_Config_Early_Fail							site-var=	Efuse_config_Early 0								
+M	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	10	10		 => CP1	CP1 => 			Bintable	Bin_EFUSE_Config_Early_Fail																														
+M	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	11	11		 => CP1	CP1 => 			Test	Config_Early_Init0_NV														F_Config_PLL							site-var=	Efuse_config_Early 0								
+M	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	12	12		 => CP1	CP1 => 			Bintable	Bin_EFUSE_Config_PLL																														
+M	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	13	13		!CFG_Partial => (!CFG_Partial)&&(CP1)	CP1 => 			Test	Config_WriteDSSC_Early														F_Config_WriteDSSC_Early							site-var=	Efuse_config_Early 0								
+M	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	14	14		 => CP1	CP1 => 			Bintable	Bin_EFUSE_Config_WriteDSSC_Early																														
+M	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	15	15		!CFG_Partial => (!CFG_Partial)&&(CP1)	CP1 => 			Test	Config_Early_Read_WR_Syntax_NV														F_Config_Check_Early							site-var=	Efuse_config_Early 0								
+M	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	16	16		 => CP1	CP1 => 			Bintable	Bin_EFUSE_Config_Check_Early																														
+P	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	17	17						EndIf																															
+P	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	18	18						print	"Flow Flow_efuse_Config_Early Stop"																														
+P	Flow_efuse_Config_Early.txt	Flow_efuse_Config_Early.txt	19	19						return																															

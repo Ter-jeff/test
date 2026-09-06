@@ -1,0 +1,18 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	TestNameWidth_Efuse																															
+		!CORR				call	Flow_efuse_Post																															
+						Test	TestNameWidth_RTOS																															
+			CP2			If	(F_HCPU_HARV_CORE_1_0_SUM_1 || F_HCPU_HARV_CORE_5_2_SUM_1 || F_ECPU_HARV_CORE_5_0_SUM_1 || F_SOC_HARV_ED_1_0_SUM_1 ||F_SOC_HARV_IS) || F_Debug_all																															
+		!Pgm2File	CP2			call	Flow_Rtos_UART																															
+			CP2			EndIf																																
+						Test	TestNameWidth_Tester																															
+		!CORR	CP1,CP2,FT1,FT2			Test	IEDA_All_ECID																															
+		!CORR	CP1,CP2,FT1,FT2			Test	IEDA_BKM_After_Fused																															
+		!CORR	CP1,CP2,FT1,FT2			Test	IEDA_Efuse_Revision																															
+		!CORR	CP1,CP2,FT1,FT2			Test	IEDA_Config_288Bits																															
+						Test	TestNameWidth_Basic																															
+						call	Flow_Table_Main_EndFlow																															
+						Return																																

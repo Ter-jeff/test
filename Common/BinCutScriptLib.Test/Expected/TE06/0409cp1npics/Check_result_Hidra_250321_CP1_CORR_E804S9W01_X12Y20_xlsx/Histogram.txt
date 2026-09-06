@@ -1,0 +1,615 @@
+EQ NO.					
+VDD_PCPU_MP001	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_PCPU_MP002	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	1	0	1	0	0
+BinCut1 EQ5	1	0	0	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+VDD_PCPU_MP003	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	1	0	1	0	0
+BinCut1 EQ6	1	0	0	0	1
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_PCPU_MP004	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	1	0	1	0	0
+BinCut1 EQ6	1	0	0	0	1
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_PCPU_MP005	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_PCPU_MP006	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+VDD_PCPU_MP007	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	1	0	1	0	0
+BinCut1 EQ6	1	0	0	0	1
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+VDD_PCPU_MP008	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	2	0	1	0	1
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+VDD_PCPU_MP009	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	1	0	1	0	0
+BinCut1 EQ7	1	0	0	0	1
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+VDD_PCPU_MP00A	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	2	0	1	0	1
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+VDD_PCPU_MP00B	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	2	0	1	0	1
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+VDD_PCPU_MP00C	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	2	0	1	0	1
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+VDD_PCPU_MP00D	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	2	0	1	0	1
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+BinCut1 EQ12	0	0	0	0	0
+VDD_PCPU_MP00E	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+BinCut1 EQ12	2	0	1	0	1
+VDD_PCPU_MP00F	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+BinCut1 EQ12	2	0	1	0	1
+VDD_PCPU_MP00G	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+BinCut1 EQ12	2	0	1	0	1
+VDD_PCPU_MP00H	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+BinCut1 EQ12	2	0	1	0	1
+VDD_PCPU_MP00I	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	1	0	1	0	0
+BinCut1 EQ8	1	0	0	0	1
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+VDD_PCPU_MP00J	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	2	0	1	0	1
+VDD_ECPU_ME001	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	1	0	1	0	0
+BinCut1 EQ4	1	0	0	0	1
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_ECPU_ME002	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	1	0	1	0	0
+BinCut1 EQ5	1	0	0	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_ECPU_ME003	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	1	0	1	0	0
+BinCut1 EQ5	1	0	0	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_ECPU_ME004	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_ECPU_ME005	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_ECPU_ME006	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_ECPU_ME007	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	1	0	1	0	0
+BinCut1 EQ6	1	0	0	0	1
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_ECPU_ME008	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	2	0	1	0	1
+VDD_ECPU_ME009	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	2	0	1	0	1
+VDD_GPU_MG001	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	1	0	1	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+VDD_GPU_MG002	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	1	0	1	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_GPU_MG003	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	1	0	1	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_GPU_MG004	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	2	0	1	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_GPU_MG005	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	1	0	1	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_GPU_MG006	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	1	0	1	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+VDD_GPU_MG007	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	1	0	1	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+VDD_GPU_MG008	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	1	0	1	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+VDD_GPU_MG009	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	1	0	1	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_GPU_MG00A	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	1	0	1	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_GPU_MG00B	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	1	0	1	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_GPU_MG00C	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	1	0	1	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_GPU_MG00D	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	1	0	1	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_GPU_MG00E	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	1	0	0	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	1	0	1	0	0
+BinCut1 EQ10	0	0	0	0	0
+BinCut1 EQ11	0	0	0	0	0
+VDD_SOC_MS001	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	2	0	1	0	1
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+VDD_SOC_MS002	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	2	0	1	0	1
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+VDD_SOC_MS003	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	2	0	1	0	1
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_SOC_MS004	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	1	0	0	0	1
+BinCut1 EQ5	1	0	1	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_SOC_MS005	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+BinCut1 EQ9	0	0	0	0	0
+VDD_DCS_DDR_MD001	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	2	0	1	0	1
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+VDD_DCS_DDR_MD002	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	2	0	1	0	1
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+VDD_DCS_DDR_MD003	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+VDD_DCS_DDR_MD004	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	2	0	1	0	1
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+VDD_DCS_DDR_MD005	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_DCS_DDR_MD006	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_DCS_DDR_MD007	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_DCS_DDR_MD008	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+BinCut1 EQ8	0	0	0	0	0
+VDD_DISP_MI001	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	2	0	1	0	1
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+VDD_DISP_MI002	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	1	0	0	0	1
+BinCut1 EQ5	1	0	1	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	0	0	0	0	0
+VDD_DISP_MI003	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+BinCut1 EQ2	0	0	0	0	0
+BinCut1 EQ3	0	0	0	0	0
+BinCut1 EQ4	0	0	0	0	0
+BinCut1 EQ5	0	0	0	0	0
+BinCut1 EQ6	0	0	0	0	0
+BinCut1 EQ7	2	0	1	0	1
+VDD_CPU_SRAM_MPS001	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS002	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS003	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS004	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS005	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS006	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS007	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS008	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS009	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS00A	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS00B	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS00C	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS00D	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS00E	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS00F	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS00G	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS00H	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS00I	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MPS00J	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MES001	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MES002	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MES003	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MES004	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MES005	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MES006	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MES007	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MES008	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0
+VDD_CPU_SRAM_MES009	Total	Site 0	Site 1	Site 2	Site 3
+BinCut1 EQ1	0	0	0	0	0

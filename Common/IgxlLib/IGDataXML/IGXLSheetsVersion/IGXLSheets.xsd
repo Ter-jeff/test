@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+ <xs:schema
+      targetNamespace="http://Teradyne.Oasis.IGData.Utilities/IGXLSheets.xsd"
+      elementFormDefault="qualified"
+      xmlns="http://Teradyne.Oasis.IGData.Utilities/IGXLSheets.xsd"
+      xmlns:mstns="http://Teradyne.Oasis.IGData.Utilities/IGXLSheets.xsd"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <!-- ComplexElement -->
+   <xs:complexType name="Field">
+     <xs:attribute name="fieldName" type="xs:string" use="required"/>
+     <xs:attribute name="rowIndex" use="required">
+       <xs:simpleType>
+         <xs:restriction base="xs:int">
+           <xs:minInclusive value="0"/>
+         </xs:restriction>
+       </xs:simpleType>
+     </xs:attribute>
+     <xs:attribute name="columnIndex" use="required">
+       <xs:simpleType>
+         <xs:restriction base="xs:int">
+           <xs:minInclusive value="0"/>
+         </xs:restriction>
+       </xs:simpleType>
+     </xs:attribute>
+   </xs:complexType>
+   
+  <xs:complexType name="Column">
+    <xs:sequence>
+      <xs:element name="Column" type="Column" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="variantName" type="xs:string"/>
+    <xs:attribute name="relativeColumn" type="xs:string"/>
+    <xs:attribute name="columnName" type="xs:string" use="required"/>
+    <xs:attribute name="isGroup" type="xs:boolean" use="optional" default="false"/>
+    <xs:attribute name="indexFrom" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:int">
+          <xs:minInclusive value="0"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="indexTo" default="1">
+      <xs:simpleType>
+        <xs:restriction base="xs:int">
+          <xs:minInclusive value="0"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="rowIndex" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:int">
+          <xs:minInclusive value="0"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="Columns">
+    <xs:sequence>
+      <xs:element name="Column" type="Column" maxOccurs="unbounded"/>
+      <xs:element name="Variant" type="Column" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="RelativeColumn" type="Column" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="RowCount" type="xs:int" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="SheetInfo">
+    <xs:sequence>
+      <xs:element name="Field" type="Field" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="Columns" type="Columns" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="sheetName" type="xs:string" use="required"/>
+    <xs:attribute name="sheetVersion" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="\d+\.\d+"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <!--<xs:attribute name="sheetType" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="DTPinMap"/>
+          <xs:enumeration value="DTTestInstancesSheet"/>
+          <xs:enumeration value="DTACSpecSheet"/>
+          <xs:enumeration value="DTFlowtableSheet"/>
+          <xs:enumeration value="DTGlobalSpecSheet"/>
+          <xs:enumeration value="DTLevelSheet"/>
+          <xs:enumeration value="DTEdgesetSheet"/>
+          <xs:enumeration value="DTMtodatageneratorSheet"/>
+          <xs:enumeration value="DTCharacterizationSheet"/>
+          <xs:enumeration value="DTBintablesSheet"/>
+          <xs:enumeration value="DTChanMap"/>
+          <xs:enumeration value="DTCTSequencesSheet"/>
+          <xs:enumeration value="DTDCSpecSheet"/>
+          <xs:enumeration value="DTGlobalSpecSheet"/>
+          <xs:enumeration value="DTFractionalBusSheet"/>
+          <xs:enumeration value="DTFrameDefinitionSheet"/>
+          <xs:enumeration value="DTJobListSheet"/>
+          <xs:enumeration value="DTMemoryTopologySheet"/>
+          <xs:enumeration value="DTMixedSignalTimingSheet"/>
+          <xs:enumeration value="DTMTOAlgorithmSheet"/>
+          <xs:enumeration value="DTMTOResourceMapSheet"/>
+          <xs:enumeration value="DTPatternSetSheet"/>
+          <xs:enumeration value="DTPatternSubroutineSheet"/>
+          <xs:enumeration value="DTPsetsSheet"/>
+          <xs:enumeration value="DTPortMapSheet"/>
+          
+          <xs:enumeration value="DTMemoryTopologySheet"/>
+          <xs:enumeration value="DTMixedSignalTimingSheet"/>
+          <xs:enumeration value="DTMTOAlgorithmSheet"/>
+          <xs:enumeration value="DTMTOResourceMapSheet"/>
+          <xs:enumeration value="DTPatternSetSheet"/>
+          <xs:enumeration value="DTPatternSubroutineSheet"/>
+          <xs:enumeration value="DTPsetsSheet"/>
+          <xs:enumeration value="DTPortMapSheet"/>
+          
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>-->
+  </xs:complexType>
+
+  <xs:complexType name="SheetsInfo">
+    <xs:sequence>
+      <xs:element name="Sheet" type="SheetInfo" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    
+  </xs:complexType>
+
+  
+  <xs:element name="IGXLVersion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Sheets" type="SheetsInfo" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+      <xs:attribute name="igxlVersion" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="\d+\.\d+\.\d+"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="igxlType" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Flex"/>
+            <xs:enumeration value="UltraFlex"/>
+            <xs:enumeration value="J750"/>
+            <xs:enumeration value="Generic"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

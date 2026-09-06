@@ -1,0 +1,57 @@
+"DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1"	Flow Table																																				
+						Flow Domain:																															
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data					
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	Flow_Flag_Initialize Start 																														
+						Flag-false	F_SOC_BIST_NonHarv																														
+						Flag-false	F_GFX0_BIST_NonHarv																														
+						Flag-false	F_ECPU_BIST_NonHarv																														
+						Flag-false	F_HCPU_BIST_NonHarv																														
+						Flag-false	F_SOC_BIST_AT0																														
+						Flag-false	F_SOC_BIST_AT1																														
+						Flag-false	F_SOC_BIST_AT2																														
+						Flag-false	F_SOC_BIST_AT3																														
+						Flag-false	F_SOC_BIST_ED0																														
+						Flag-false	F_SOC_BIST_ED1																														
+						Flag-false	F_SOC_BIST_IS																														
+						Flag-false	F_SOC_BIST_ID																														
+						Flag-false	F_SOC_BIST_NonHarv																														
+						Flag-false	F_SOC_BIST_LY																														
+						Flag-false	F_ANE0_BIST_CORE0																														
+						Flag-false	F_ANE0_BIST_CORE1																														
+						Flag-false	F_ANE0_BIST_CORE2																														
+						Flag-false	F_ANE0_BIST_CORE3																														
+						Flag-false	F_ANE0_BIST_CORE4																														
+						Flag-false	F_ANE0_BIST_CORE5																														
+						Flag-false	F_ANE0_BIST_CORE6																														
+						Flag-false	F_ANE0_BIST_CORE7																														
+						Flag-false	F_ANE0_BIST_CORE8																														
+						Flag-false	F_ANE0_BIST_CORE9																														
+						Flag-false	F_ANE0_BIST_CORE10																														
+						Flag-false	F_ANE0_BIST_CORE11																														
+						Flag-false	F_ANE0_BIST_CORE12																														
+						Flag-false	F_ANE0_BIST_CORE13																														
+						Flag-false	F_ANE0_BIST_CORE14																														
+						Flag-false	F_ANE0_BIST_CORE15																														
+						Flag-false	F_ANE0_BIST_CORE16																														
+						Flag-false	F_ANE0_BIST_CNTR																														
+						Flag-false	F_ANE1_BIST_CORE0																														
+						Flag-false	F_ANE1_BIST_CORE1																														
+						Flag-false	F_ANE1_BIST_CORE2																														
+						Flag-false	F_ANE1_BIST_CORE3																														
+						Flag-false	F_ANE1_BIST_CORE4																														
+						Flag-false	F_ANE1_BIST_CORE5																														
+						Flag-false	F_ANE1_BIST_CORE6																														
+						Flag-false	F_ANE1_BIST_CORE7																														
+						Flag-false	F_ANE1_BIST_CORE8																														
+						Flag-false	F_ANE1_BIST_CORE9																														
+						Flag-false	F_ANE1_BIST_CORE10																														
+						Flag-false	F_ANE1_BIST_CORE11																														
+						Flag-false	F_ANE1_BIST_CORE12																														
+						Flag-false	F_ANE1_BIST_CORE13																														
+						Flag-false	F_ANE1_BIST_CORE14																														
+						Flag-false	F_ANE1_BIST_CORE15																														
+						Flag-false	F_ANE1_BIST_CORE16																														
+						Flag-false	F_ANE1_BIST_CNTR																														
+						print	Flow_Flag_Initialize end 																														
+						return																															

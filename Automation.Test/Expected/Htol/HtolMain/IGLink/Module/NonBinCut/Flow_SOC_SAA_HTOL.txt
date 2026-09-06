@@ -1,0 +1,84 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	SOC_SAA_HTOL_Header_1																															
+						print	"Flow SOC_SAA_HTOL Start"																															
+Instance_HTOL,Row15,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_ht_hidb0_s_pl00_sc_call_saa_ssc_har_MSLIRX_SI_HTOL_HTOL_SOC_SA_CALL_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row15,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_ht_hidb0_s_pl00_sc_call_saa_ssc_har_MSLIRX_SI_HTOL_HTOL_SOC_SA_CALL_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_ht_hidb0_s_pl00_sc_call_saa_ssc_har_MSLIRX_SI_HTOL_HTOL_SOC_SA_CALL_UnknowType																	
+Instance_HTOL,Row15,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_ht_hidb0_s_pl00_sc_call_saa_ssc_har_MSLIRX_SI_HTOL_HTOL_SOC_SA_CALL_UnknowType									
+						endloop																																
+Instance_HTOL,Row15,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_ht_hidb0_s_pl00_sc_call_saa_ssc_har_MSLIRX_SI_HTOL_HTOL_SOC_SA_CALL_UnknowType_Profile_Plot																															
+Instance_HTOL,Row16,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_ht_hidb0_s_pl00_sc_cua0_saa_unc_aut_MSLFPX_SI_HTOL_HTOL_SOC_SA_CUA0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row16,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_ht_hidb0_s_pl00_sc_cua0_saa_unc_aut_MSLFPX_SI_HTOL_HTOL_SOC_SA_CUA0_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_ht_hidb0_s_pl00_sc_cua0_saa_unc_aut_MSLFPX_SI_HTOL_HTOL_SOC_SA_CUA0_UnknowType																	
+Instance_HTOL,Row16,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_ht_hidb0_s_pl00_sc_cua0_saa_unc_aut_MSLFPX_SI_HTOL_HTOL_SOC_SA_CUA0_UnknowType									
+						endloop																																
+Instance_HTOL,Row16,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_ht_hidb0_s_pl00_sc_cua0_saa_unc_aut_MSLFPX_SI_HTOL_HTOL_SOC_SA_CUA0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row17,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_ht_hidb0_s_pl00_sc_cub0_saa_unc_aut_MSCFXX_SI_HTOL_HTOL_SOC_SA_CUB0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row17,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_ht_hidb0_s_pl00_sc_cub0_saa_unc_aut_MSCFXX_SI_HTOL_HTOL_SOC_SA_CUB0_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_ht_hidb0_s_pl00_sc_cub0_saa_unc_aut_MSCFXX_SI_HTOL_HTOL_SOC_SA_CUB0_UnknowType																	
+Instance_HTOL,Row17,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_ht_hidb0_s_pl00_sc_cub0_saa_unc_aut_MSCFXX_SI_HTOL_HTOL_SOC_SA_CUB0_UnknowType									
+						endloop																																
+Instance_HTOL,Row17,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_ht_hidb0_s_pl00_sc_cub0_saa_unc_aut_MSCFXX_SI_HTOL_HTOL_SOC_SA_CUB0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row18,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_ht_hidb0_s_pl00_sc_cdd0_saa_ssc_aut_MSDXXX_SI_HTOL_HTOL_SOC_SA_CDD0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row18,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_ht_hidb0_s_pl00_sc_cdd0_saa_ssc_aut_MSDXXX_SI_HTOL_HTOL_SOC_SA_CDD0_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_ht_hidb0_s_pl00_sc_cdd0_saa_ssc_aut_MSDXXX_SI_HTOL_HTOL_SOC_SA_CDD0_UnknowType																	
+Instance_HTOL,Row18,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_ht_hidb0_s_pl00_sc_cdd0_saa_ssc_aut_MSDXXX_SI_HTOL_HTOL_SOC_SA_CDD0_UnknowType									
+						endloop																																
+Instance_HTOL,Row18,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_ht_hidb0_s_pl00_sc_cdd0_saa_ssc_aut_MSDXXX_SI_HTOL_HTOL_SOC_SA_CDD0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row19,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAA0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAA0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row19,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_HT_HIDA0_S_PL00_SC_CAA0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAA0_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_HT_HIDA0_S_PL00_SC_CAA0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAA0_UnknowType																	
+Instance_HTOL,Row19,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_HT_HIDA0_S_PL00_SC_CAA0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAA0_UnknowType									
+						endloop																																
+Instance_HTOL,Row19,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAA0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAA0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row20,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAB0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAB0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row20,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_HT_HIDA0_S_PL00_SC_CAB0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAB0_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_HT_HIDA0_S_PL00_SC_CAB0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAB0_UnknowType																	
+Instance_HTOL,Row20,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_HT_HIDA0_S_PL00_SC_CAB0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAB0_UnknowType									
+						endloop																																
+Instance_HTOL,Row20,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAB0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAB0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row21,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAC0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAC0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row21,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_HT_HIDA0_S_PL00_SC_CAC0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAC0_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_HT_HIDA0_S_PL00_SC_CAC0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAC0_UnknowType																	
+Instance_HTOL,Row21,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_HT_HIDA0_S_PL00_SC_CAC0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAC0_UnknowType									
+						endloop																																
+Instance_HTOL,Row21,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAC0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAC0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row22,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAD0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAD0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row22,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_HT_HIDA0_S_PL00_SC_CAD0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAD0_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_HT_HIDA0_S_PL00_SC_CAD0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAD0_UnknowType																	
+Instance_HTOL,Row22,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_HT_HIDA0_S_PL00_SC_CAD0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAD0_UnknowType									
+						endloop																																
+Instance_HTOL,Row22,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAD0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAD0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row23,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAE0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAE0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row23,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_HT_HIDA0_S_PL00_SC_CAE0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAE0_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_HT_HIDA0_S_PL00_SC_CAE0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAE0_UnknowType																	
+Instance_HTOL,Row23,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_HT_HIDA0_S_PL00_SC_CAE0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAE0_UnknowType									
+						endloop																																
+Instance_HTOL,Row23,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAE0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAE0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row24,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAF0_SAA_PRC_HAR_MSPXXX_SI_HTOL_HTOL_SOC_SA_CAF0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row24,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_HT_HIDA0_S_PL00_SC_CAF0_SAA_PRC_HAR_MSPXXX_SI_HTOL_HTOL_SOC_SA_CAF0_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_HT_HIDA0_S_PL00_SC_CAF0_SAA_PRC_HAR_MSPXXX_SI_HTOL_HTOL_SOC_SA_CAF0_UnknowType																	
+Instance_HTOL,Row24,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_HT_HIDA0_S_PL00_SC_CAF0_SAA_PRC_HAR_MSPXXX_SI_HTOL_HTOL_SOC_SA_CAF0_UnknowType									
+						endloop																																
+Instance_HTOL,Row24,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAF0_SAA_PRC_HAR_MSPXXX_SI_HTOL_HTOL_SOC_SA_CAF0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row25,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAG0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAG0_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row25,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_HT_HIDA0_S_PL00_SC_CAG0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAG0_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_HT_HIDA0_S_PL00_SC_CAG0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAG0_UnknowType																	
+Instance_HTOL,Row25,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_HT_HIDA0_S_PL00_SC_CAG0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAG0_UnknowType									
+						endloop																																
+Instance_HTOL,Row25,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CAG0_SAA_PRC_HAR_MPXXXX_SI_HTOL_HTOL_SOC_SA_CAG0_UnknowType_Profile_Plot																															
+Instance_HTOL,Row26,SOC_SAA_HTOL		CurrentProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CCB1_SAA_PRC_HAR_MSLXXX_SI_HTOL_HTOL_SOC_SA_CCB1_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row26,SOC_SAA_HTOL					MissPatternInCsv	Test	SocTd_HT_HIDA0_S_PL00_SC_CCB1_SAA_PRC_HAR_MSLXXX_SI_HTOL_HTOL_SOC_SA_CCB1_UnknowType														F_Soc_MSX000_UnknowType,F_SocTd_HT_HIDA0_S_PL00_SC_CCB1_SAA_PRC_HAR_MSLXXX_SI_HTOL_HTOL_SOC_SA_CCB1_UnknowType																	
+Instance_HTOL,Row26,SOC_SAA_HTOL						flag-true	ControlBin_Soc_MSX000_UnknowType																					Flag-true	F_SocTd_HT_HIDA0_S_PL00_SC_CCB1_SAA_PRC_HAR_MSLXXX_SI_HTOL_HTOL_SOC_SA_CCB1_UnknowType									
+						endloop																																
+Instance_HTOL,Row26,SOC_SAA_HTOL		CurrentProfile||VoltageProfile				Test	SocTd_HT_HIDA0_S_PL00_SC_CCB1_SAA_PRC_HAR_MSLXXX_SI_HTOL_HTOL_SOC_SA_CCB1_UnknowType_Profile_Plot																															
+						If	ControlBin_Soc_MSX000_UnknowType																															
+						Bintable	Bin_Soc_MSX000_UnknowType																															
+						EndIf																																
+						print	"Flow SOC_SAA_HTOL Stop"																															
+						Test	SOC_SAA_HTOL_Footer_1																															
+						Return																																

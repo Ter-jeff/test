@@ -1,0 +1,21 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"Flow VddBinning_HVCC Start"																															
+Instance_Bincut_SOC,Row10,MD002 SOC TD HBV,TD		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_SocTd_PP_GLNA0_S_PLXX_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD002_TD_CLA0_PL10_PL20_PL21_HBV		550000																													
+						Bintable	Bin_TD_MD002_HBV																															
+Instance_Bincut_Mbist,Row5,MD002 SOC BIST HBV,Mbist		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && !BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GO01_GO02_GX01_GX02_GR01_GR02_GR03_GR05_XXXX_GO01_GR04_BST_JTG_UNS_MSXXXX_SI_SRVASETP_HBV		550500																													
+						Bintable	Bin_Mbist_MD002_HBV																															
+Instance_Bincut_Mbist,Row10,MD002 SOC BIST HBV,Mbist		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR01_XXXX_GR01_BIR_JTG_UNS_MSXXXX_SI_SRVASETP_HBV		551000																													
+						Bintable	Bin_Mbist_MD002_HBV																															
+Instance_Bincut_Mbist,Row11,MD002 SOC BIST HBV,Mbist		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR02_XXXX_GR02_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_HBV		551500																													
+						Bintable	Bin_Mbist_MD002_HBV																															
+Instance_Bincut_Mbist,Row12,MD002 SOC BIST HBV,Mbist		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR03_XXXX_GR03_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_HBV		552000																													
+						Bintable	Bin_Mbist_MD002_HBV																															
+Instance_Bincut_Mbist,Row13,MD002 SOC BIST HBV,Mbist		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR04_XXXX_GR04_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_HBV		552500																													
+						Bintable	Bin_Mbist_MD002_HBV																															
+Instance_Bincut_Mbist,Row14,MD002 SOC BIST HBV,Mbist		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR05_XXXX_GR05_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_HBV		553000																													
+						Bintable	Bin_Mbist_MD002_HBV																															
+						print	"Flow VddBinning_HVCC Stop"																															
+						return																																

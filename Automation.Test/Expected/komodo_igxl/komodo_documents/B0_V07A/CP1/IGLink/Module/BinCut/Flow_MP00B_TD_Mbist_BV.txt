@@ -1,0 +1,45 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow MP00B_TD_Mbist_BV Start"																															
+Instance_Bincut_MP,Row68,MPX00B CPU TD,TD		CP1				Test	MP00B_MPX00B_PCPU_DIV166_MPX00B_TD_PCPU_DIV166_MPX00B_TD_BV		60530000																													
+						Bintable	Bin_MP00B_TD_BV																															
+Instance_Bincut_MP,Row70,MPX00B CPU TD,TD		CP1				Test	MP00B_MPX00B_MCPU_DIV166_MPX00B_TD_MCPU_DIV166_MPX00B_TD_BV		60531000																													
+						Bintable	Bin_MP00B_TD_BV																															
+Instance_Bincut_MP,Row72,MPX00B CPU TD,TD		CP1				Test	MP00B_MPX00B_HCPU_PCPU_DIV422_MPX00B_TD_HCPU_PCPU_DIV422_MPX00B_TD_BV		60532000																													
+						Bintable	Bin_MP00B_TD_BV																															
+						If	(!F_HCPU_TD_CORE0&&!F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_Bincut_MP,Row169,MPX00B CPU TD,TD		CP1 && Content_RMA				Test	MP00B_MPX00B_PCPU_CEXTEST_MPX00B_PCPU_CEXTEST_MPX00B_BV		60533000																													
+						Bintable	Bin_MP00B_TD_BV																															
+						EndIf																																
+						If	(F_HCPU_TD_CORE0&&!F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_Bincut_MP,Row189,MPX00B CPU TD,TD		CP1 && Content_RMA				Test	MP00B_MPX00B_PCPU_CEXTEST_MPX00B_CORE0HARVEST_PCPU_CEXTEST_MPX00B_CORE0HARVEST_BV		60534000																													
+						Bintable	Bin_MP00B_TD_BV																															
+						EndIf																																
+						If	(!F_HCPU_TD_CORE0&&F_HCPU_TD_CORE1) || F_Debug_all																															
+Instance_Bincut_MP,Row208,MPX00B CPU TD,TD		CP1 && Content_RMA				Test	MP00B_MPX00B_PCPU_CEXTEST_MPX00B_CORE1HARVEST_PCPU_CEXTEST_MPX00B_CORE1HARVEST_BV		60535000																													
+						Bintable	Bin_MP00B_TD_BV																															
+						EndIf																																
+Instance_Bincut_MP,Row227,MPX00B CPU TD,TD		CP1 && Content_RMA				Test	MP00B_MPX00B_MCPU_CEXTEST_MPX00B_MCPU_CEXTEST_MPX00B_BV		60536000																													
+						Bintable	Bin_MP00B_TD_BV																															
+Instance_Bincut_MP,Row341,MPX00B CPU TD,TD		(CP1 && Content_RMA)&&(FT1||FT2)				Test	MP00B_MPX00B_MCPU_DIV166_MPX00B_TD_PL40_MCPU_DIV166_MPX00B_TD_PL40_BV		60537000																													
+						Bintable	Bin_MP00B_TD_BV																															
+Instance_Bincut_MP,Row358,MPX00B CPU TD,TD		(CP1 && Content_RMA)&&(FT1||FT2)				Test	MP00B_MPX00B_PCPU_DIV166_MPX00B_TD_PL40_PCPU_DIV166_MPX00B_TD_PL40_BV		60538000																													
+						Bintable	Bin_MP00B_TD_BV																															
+Instance_Bincut_MP,Row315,MPX00B SOC TD,TD		CP1				Test	MP00B_MPX00B_SOC_MPX00B_TD_CAX0_PL10_SOC_MPX00B_TD_CAX0_PL10_BV		60539000																													
+						Bintable	Bin_MP00B_TD_BV																															
+Instance_Bincut_MP,Row317,MPX00B SOC TD,TD		CP1 && TD_PL99_SOC				Test	MP00B_MPX00B_SOC_MPX00B_TD_CAA0_PL99_SOC_MPX00B_TD_CAA0_PL99_BV		60540000																													
+						Bintable	Bin_MP00B_TD_BV																															
+Instance_Bincut_MP,Row318,MPX00B SOC TD,TD		CP1 && TD_PL99_SOC				Test	MP00B_MPX00B_SOC_MPX00B_TD_CAB0_PL99_SOC_MPX00B_TD_CAB0_PL99_BV		60541000																													
+						Bintable	Bin_MP00B_TD_BV																															
+Instance_Bincut_MP,Row319,MPX00B SOC TD,TD		CP1 && TD_PL99_SOC				Test	MP00B_MPX00B_SOC_MPX00B_TD_CAC0_PL99_SOC_MPX00B_TD_CAC0_PL99_BV		60542000																													
+						Bintable	Bin_MP00B_TD_BV																															
+Instance_Bincut_MP,Row320,MPX00B SOC TD,TD		CP1 && TD_PL99_SOC				Test	MP00B_MPX00B_SOC_MPX00B_TD_CAD0_PL99_SOC_MPX00B_TD_CAD0_PL99_BV		60543000																													
+						Bintable	Bin_MP00B_TD_BV																															
+Instance_Bincut_BIST,Row268,MPX00B CPU BIST,Mbist		CP1 && BINCUT_WITH_BIST				Test	MP00B_MPX00B_CpuMbist_PP_KMDA0_C_PLLP_BI_H0XX_BST_JTG_59N_MPXXXX_SI_LATR_LATR_BV		60544000																													
+						Bintable	Bin_MP00B_Mbist_BV																															
+Instance_Bincut_BIST,Row1097,MPX00B CPU BIST,Mbist		CP1 && !BINCUT_WITH_BIST				Test	MP00B_MPX00B_CpuMbist_PP_KMDA0_C_PLLP_BI_H0XX_BST_JTG_59N_MPXXXX_SI_LATR_LATR_BIRA_BV		60545000																													
+						Bintable	Bin_MP00B_Mbist_BV																															
+						print	"Flow MP00B_TD_Mbist_BV Stop"																															
+						Return																																

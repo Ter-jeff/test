@@ -1,0 +1,127 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	VddBinning_HVCC_Header_1																															
+						print	"Flow VddBinning_HVCC Start"																															
+Instance_Bincut_ME,Row28,MEX008 CPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	CP2,FT1,FT2		no_pattern	Test	ME009_MEX008_DIV166_SRM04_DIV166_HBV														F_TD_ME009_HBV																	
+					no_pattern	Bintable	Bin_TD_ME009_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_ME,Row29,MEX008 CPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	CP2,FT1,FT2		no_pattern	Test	ME009_MEX008_DIV422_SRM04_DIV422_HBV														F_TD_ME009_HBV																	
+					no_pattern	Bintable	Bin_TD_ME009_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row179,MEX007 CPU BIST LATR HBV,Mbist		CP1||FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	ME009_MEX007_LATR_LATR_HBV														F_Mbist_ME009_HBV																	
+					no_pattern	Bintable	Bin_Mbist_ME009_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_ME,Row32,MEX008 TD CEXTEST HBV,TD		CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	ME009_MEX008_DIV166_CEXTEST_SRM04_DIV166_CEXTEST_HBV														F_TD_ME009_HBV																	
+					no_pattern	Bintable	Bin_TD_ME009_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MP,Row79,MPX00F CPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	CP2,FT1,FT2		no_pattern	Test	MP00H_MPX00F_DIV166_DIV422_SRM04_DIV166_DIV422_HBV														F_TD_MP00H_HBV							Flag-false	F_Enable_CPU_Turbo									
+					no_pattern	Bintable	Bin_TD_MP00H_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						If	(!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row81,MPX00F TD CEXTEST HBV,TD		CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_MPX00F_DIV166_CEXTEST_SRM04_1_DIV166_CEXTEST_HBV														F_TD_MP00H_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00H_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row82,MPX00F TD CEXTEST HBV,TD		CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_MPX00F_DIV166_CEXTEST_CORE0HARVEST_SRM04_DIV166_CEXTEST_CORE0HARVEST_HBV														F_TD_MP00H_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00H_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_PCPU_TD_CORE0&&F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row83,MPX00F TD CEXTEST HBV,TD		CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_MPX00F_DIV166_CEXTEST_CORE1HARVEST_SRM04_DIV166_CEXTEST_CORE1HARVEST_HBV														F_TD_MP00H_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00H_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row84,MPX00F TD CEXTEST HBV,TD		CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_MPX00F_DIV166_CEXTEST_CORE2HARVEST_SRM04_DIV166_CEXTEST_CORE2HARVEST_HBV														F_TD_MP00H_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00H_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row85,MPX00F TD CEXTEST HBV,TD		CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_MPX00F_DIV166_CEXTEST_CORE3HARVEST_SRM04_DIV166_CEXTEST_CORE3HARVEST_HBV														F_TD_MP00H_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00H_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+Instance_Bincut_MP,Row93,MPX00D SOC TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	FT1,FT2		no_pattern	Test	MP00H_MPX00D_SOC_MPX00D_TD_CANX_PL00_PL10_PRC_FT_SRM04_SOC_MPX00D_TD_CANX_PL00_PL10_PRC_FT_HBV														F_TD_MP00H_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00H_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row87,MPX00I CPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00J_MPX00I_DIV133_1P_DIV422_SRM04_DIV133_1P_DIV422_HBV														F_TD_MP00J_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00J_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row88,MPX00I CPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00J_MPX00I_DIV133_1P_CORE0HARVEST_DIV422_SRM04_DIV133_1P_CORE0HARVEST_DIV422_HBV														F_TD_MP00J_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00J_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row89,MPX00I CPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00J_MPX00I_DIV133_1P_CORE1HARVEST_DIV422_SRM04_DIV133_1P_CORE1HARVEST_DIV422_HBV														F_TD_MP00J_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00J_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row90,MPX00I CPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00J_MPX00I_DIV133_1P_CORE2HARVEST_DIV422_SRM04_DIV133_1P_CORE2HARVEST_DIV422_HBV														F_TD_MP00J_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00J_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row91,MPX00I CPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00J_MPX00I_DIV133_1P_CORE3HARVEST_DIV422_SRM04_DIV133_1P_CORE3HARVEST_DIV422_HBV														F_TD_MP00J_HBV																	
+					no_pattern	Bintable	Bin_TD_MP00J_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	((CP1 || !F_Enable_GPU_Turbo) && !F_GFX0_X_GFXALL) || F_Debug_all																															
+Instance_Bincut_MG,Row30,MGX00C GPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	FT1,FT2		no_pattern	Test	MG00C_MGX00C_MultiFSTP_X10GR1_SRM0A_MultiFSTP_X10GR1_HBV														F_TD_MG00C_HBV																	
+					no_pattern	Bintable	Bin_TD_MG00C_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	((CP1 || !F_Enable_GPU_Turbo) && !F_GFX0_X_GFXALL) || F_Debug_all																															
+Instance_Bincut_MG,Row31,MGX00C GPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	FT1,FT2		no_pattern	Test	MG00C_MGX00C_CSO0_SRM0A_CSO0_HBV														F_TD_MG00C_HBV																	
+					no_pattern	Bintable	Bin_TD_MG00C_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	((CP1 || F_Enable_GPU_Turbo) && !F_GFX0_X_GFXALL) || F_Debug_all																															
+Instance_Bincut_MG,Row32,MGX00D GPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	FT1,FT2		no_pattern	Test	MG00D_MGX00D_MultiFSTP_X10GR1_SRM0A_1_MultiFSTP_X10GR1_HBV														F_TD_MG00D_HBV																	
+					no_pattern	Bintable	Bin_TD_MG00D_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	((CP1 || F_Enable_GPU_Turbo) && !F_GFX0_X_GFXALL) || F_Debug_all																															
+Instance_Bincut_MG,Row33,MGX00D GPU TD HBV,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	FT1,FT2		no_pattern	Test	MG00D_MGX00D_CSO0_SRM0A_1_CSO0_HBV														F_TD_MG00D_HBV																	
+					no_pattern	Bintable	Bin_TD_MG00D_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+Instance_Bincut_MS,Row54,MSX005 SOC TD HBV FT2,TD		FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	FT2		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_FT2_SRM04_SOC_MSX005_TD_CCX0_PL00_SSC_FT2_HBV														F_TD_MS005_HBV																	
+					no_pattern	Bintable	Bin_TD_MS005_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row55,MSX005 SOC TD HBV FT2,TD		FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	FT2		no_pattern	Test	MS005_MSX005_SOC_MIX003_TD_CIA0_PL00_GRAND_SSC_FT2_SRM04_SOC_MIX003_TD_CXA0_PL00_PL10_SSC_FT2_HBV														F_TD_MS005_HBV																	
+					no_pattern	Bintable	Bin_TD_MS005_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row56,MSX005 SOC TD HBV FT2,TD		FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	FT2		no_pattern	Test	MS005_MSX005_SOC_MDX008_TD_CDD0_PL00_PL10_SSC_FT2_SRM04_SOC_MDX008_TD_CDD0_PL00_PL10_SSC_FT2_HBV														F_TD_MS005_HBV																	
+					no_pattern	Bintable	Bin_TD_MS005_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row57,MSX005 SOC TD HBV FT2,TD		FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	FT2		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CCX0_PL00_PL10_PRC_FT2_SRM04_SOC_MSX005_TD_CCX0_PL00_PL10_PRC_FT2_HBV														F_TD_MS005_HBV																	
+					no_pattern	Bintable	Bin_TD_MS005_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row58,MSX005 SOC TD HBV FT2,TD		FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_SOC_MSX005_MSX001_TD_CUC_UNC_SRM04_SOC_MSX005_MSX001_TD_CUC0_CUD0_UNC_HBV														F_TD_MS005_HBV																	
+					no_pattern	Bintable	Bin_TD_MS005_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row59,MSX005 SOC TD HBV FT2,TD		FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_SOC_MSX005_MSX001_TD_CUE_UNC_SRM04_SOC_MSX005_MSX001_TD_CUE0_UNC_HBV														F_TD_MS005_HBV																	
+					no_pattern	Bintable	Bin_TD_MS005_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row60,MSX005 SOC TD HBV FT2,TD		FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	FT2		no_pattern	Test	MS005_MSX005_CFND_PL00_PL10_FT2_SRM04_CFND_PL00_PL10_FT2_HBV														F_TD_MS005_HBV							Flag-false	F_GFX0_X_GFXALL									
+					no_pattern	Bintable	Bin_TD_MS005_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row64,MDS058 SOC SBST HBV,TD		CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MDS058_SBST_MDS058_SBST_MDS058_HBV														F_TD_MS005_HBV																	
+					no_pattern	Bintable	Bin_TD_MS005_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row61,MSX005 CPU TD DOMAIN HBV,TD		CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_PCPU_DOMAINX_SRM04_PCPU_DOMAINX_HBV														F_TD_MS005_HBV																	
+					no_pattern	Bintable	Bin_TD_MS005_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row62,MSX005 CPU TD DOMAIN HBV,TD		CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_ECPU_DOMAINX_SRM04_ECPU_DOMAINX_HBV														F_TD_MS005_HBV																	
+					no_pattern	Bintable	Bin_TD_MS005_HBV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						print	"Flow VddBinning_HVCC Stop"																															
+						Test	VddBinning_HVCC_Footer_1																															
+						Return																																

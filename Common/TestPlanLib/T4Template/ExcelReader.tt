@@ -1,0 +1,166 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Collections.Generic" #>
+<# #>
+<# #>
+<# var ClassName = "RelayNew"; #>
+<# string header = "signals	circuit	signal name	 PN";#>
+<# #>
+<# #>
+<# Dictionary<string, string> UpperDic = new Dictionary<string, string>(); #>
+<# List<string> Properities = new List<string>(); #>
+<# List<string> Lowerlist = new List<string>(); #>
+<# List<string> Upperlist = new List<string>(); #>
+<# var headers = header.Split(new Char[] { ',', '.', ':', '\t' }); #>
+<# foreach (var word in headers) { #>
+<# string name = "";#>
+<# bool upperFlag = true;#>
+<# foreach (var item in word)#>
+<# {#>
+<#     if (upperFlag)#>
+<#         name += Char.ToUpperInvariant(item);#>
+<#     else#>
+<#         name += Char.ToLowerInvariant(item);#>
+<#     if (item == ' ' || item == '(' || item == ')' || item == '/' || item == '_')#>
+<#         upperFlag = true;#>
+<#     else#>
+<#         upperFlag = false;#>
+<# }#>
+<# name = name.Replace(" ","").Replace("(","").Replace(")","").Replace("/","").Replace("_",""); #>
+<# UpperDic.Add(Char.ToUpperInvariant(name[0]) + name.Substring(1), word); #>
+<# Upperlist.Add(Char.ToUpperInvariant(name[0]) + name.Substring(1)); #>
+<# Properities.Add(Char.ToUpperInvariant(name[0]) + name.Substring(1)); #>
+<# Lowerlist.Add(Char.ToLowerInvariant(name[0]) + name.Substring(1)); #>
+<# } #>
+<# var ClassNameToLower = Char.ToLowerInvariant(ClassName[0]) + ClassName.Substring(1); #>
+<# List<string> list = new List<string>(); #>
+<# for (int i = 0; i < UpperDic.Count; i++) { #>
+<# string flag =  "true"; #>
+<# var headerName = header.Split('\t'); #>
+<# list.Add(" { \"" + headerName[i] + "\", " + flag + " }"); #>
+<# } #>
+<# string headerOptionalDic = string.Join(",",list); #>
+using OfficeOpenXml;
+using System;
+using System.Collections.Generic;
+
+namespace TestPlanLib.T4Template
+{
+    public class <#= ClassName #>Reader : MySheetReader
+    {
+<# foreach (var item in UpperDic) { #>
+        private const string ConHeader<#= item.Key #> = "<#= item.Value #>";
+<# } #>
+
+<# foreach (var item in UpperDic) { #>
+        private int _index<#= item.Key #> = -1;
+<# } #>
+
+        public <#= ClassName #>Sheet ReadSheet(ExcelWorksheet worksheet)
+        {
+            var sheetName = worksheet.Name;
+
+    	    var <#= ClassNameToLower #>Sheet = new <#= ClassName #>Sheet(sheetName);
+
+            ExcelWorksheet = worksheet;
+
+            if (!GetDimensions()) return (<#= ClassName #>Sheet)<#= ClassNameToLower #>Sheet.DimensionError();
+
+            if (!GetFirstHeaderPosition()) return (<#= ClassName #>Sheet)<#= ClassNameToLower #>Sheet.FirstHeaderError(ConHeader<#=Char.ToUpperInvariant(Lowerlist[0][0]) + Lowerlist[0].Substring(1) #>);
+
+            GetHeaderIndex();
+
+            <#= ClassNameToLower #>Sheet = ReadSheet(sheetName);
+
+            return <#= ClassNameToLower #>Sheet;
+        }
+
+        private <#= ClassName #>Sheet ReadSheet(string sheetName)
+        {
+		    var <#= ClassNameToLower #>Sheet = new <#= ClassName #>Sheet(sheetName);
+            for (int i = StartRowNumber + 1; i <= EndRowNumber; i++)
+            {
+                var row = new <#= ClassName #>Row(sheetName);
+                row.RowNum = i;
+<# foreach (var item in UpperDic) { #>
+                if (_index<#= item.Key #> != -1)
+                    row.<#=  Char.ToUpperInvariant(item.Key[0]) + item.Key.Substring(1) #> = ExcelWorksheet.GetCellValue( i, _index<#= item.Key #>).Trim();
+<# } #>
+                <#= ClassNameToLower #>Sheet.Rows.Add(row);
+            }
+
+<# for (int i = 0; i < Properities.Count; i++){ #>
+            <#= ClassNameToLower #>Sheet.Index<#= Properities[i] #> = _index<#= Upperlist[i] #>;
+<# } #>
+
+            return <#= ClassNameToLower #>Sheet;
+        }
+
+        private void GetHeaderIndex()
+        {
+            for (int i = StartColNumber; i <= EndColNumber; i++)
+            {
+                string header = ExcelWorksheet.GetCellValue( StartRowNumber, i).Trim();
+<# for (int i = 0; i < Properities.Count - 1; i++){ #>
+                if (header.Equals(ConHeader<#= Properities[i] #>, StringComparison.OrdinalIgnoreCase))
+                {
+                    _index<#= Char.ToUpperInvariant(Properities[i][0]) + Properities[i].Substring(1) #> = i;
+                    continue;
+                }
+<# } #>
+                if (header.Equals(ConHeader<#= Properities[Properities.Count - 1] #>, StringComparison.OrdinalIgnoreCase))
+				{
+                    _index<#= Char.ToUpperInvariant(Properities[Properities.Count - 1][0]) + Properities[Properities.Count - 1].Substring(1) #> = i;
+                }
+            }
+        }
+
+        private bool GetFirstHeaderPosition()
+        {
+            int rowNum = EndRowNumber > 10 ? 10 : EndRowNumber;
+            int colNum = EndColNumber > 10 ? 10 : EndColNumber;
+            for (int i = 1; i <= rowNum; i++)
+                for (int j = 1; j <= colNum; j++)
+                {
+                    if (ExcelWorksheet.GetCellValue( i, j).Trim().Equals(ConHeader<#=Char.ToUpperInvariant(Lowerlist[0][0]) + Lowerlist[0].Substring(1) #>, StringComparison.OrdinalIgnoreCase))
+                    {
+                        StartRowNumber = i;
+                        return true;
+                    }
+                }
+            return false;
+        }
+    }
+
+	public class <#= ClassName #>Sheet : MySheet
+    {
+        public List<<#= ClassName #>Row> Rows { set; get; }
+
+<# for (int i = 0; i < Properities.Count; i++){ #>
+        public int Index<#= Properities[i] #> = -1;
+<# } #>
+
+        #region Constructor
+        public <#= ClassName #>Sheet(string sheetName)
+        {
+            SheetName = sheetName;
+            Rows = new List<<#= ClassName #>Row>();
+        }
+        #endregion
+    }
+
+	public class <#= ClassName #>Row : MyRow
+    {
+<# for (int i = 0; i < Properities.Count; i++){ #>
+        public string <#= Properities[i] #> { set; get; }
+<# } #>
+
+        #region Constructor
+        public <#= ClassName #>Row(string sheetName = "")
+        {
+            SheetName = sheetName;
+        }
+        #endregion
+    }
+}

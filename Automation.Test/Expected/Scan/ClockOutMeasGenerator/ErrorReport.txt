@@ -1,0 +1,4 @@
+SheetName	ErrorBehavior	ErrorTarget	Link	ErrorLevel	RowNum	ColNum	Message	Guidance	Comments
+	Missing	Setting	=HYPERLINK("#''!#REF!","Link")	Error	0	A	This instance does not have a matching entry in "Clock_Check" sheet.	Verify that each Sub Flow in the Instance_Clock_Check sheet exists as a Type/INIT sequence in Clock_Check sheet.	
+BinNumber	Invalid	Format	=HYPERLINK("#'BinNumber'!E50","Link")	Error	50	E	Can't parse BinLast in BinNumber:Row50, it should be a integer.	Please review the configuration and ensure all required values are specified using valid integer formats. Correct any invalid values and regenerate the output files.	
+BinNumber	Invalid	Format	=HYPERLINK("#'BinNumber'!E49","Link")	Error	49	E	Can't parse BinLast in BinNumber:Row49, it should be a integer.	Please review the configuration and ensure all required values are specified using valid integer formats. Correct any invalid values and regenerate the output files.	

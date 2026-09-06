@@ -1,0 +1,10 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Print	"*print: SOC_LVCC_Header start*"																															
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MSX001_SOCBST_GR10_X_X_SRVA_X_SelsrmSSSSS_CZ_NV		52060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MSX001_SOCBST_GR10_X_X_SRVA_X_SelsrmSSSSS_CZ_NV SOCBST_VDDSRAMSOC_VDDSOC_VDDDCSDDR_VDDAVE_VDDDISP_Jump														F_Dummy																	
+						BinTable	Bin_initFlow_BinOut																															
+						Print	"*print: SOC_Lvcc_Footer end*"																															
+						return																																

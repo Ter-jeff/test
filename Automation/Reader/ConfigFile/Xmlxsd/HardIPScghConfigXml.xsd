@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ScanConfigXmlContent"
+    targetNamespace="http://tempuri.org/ScanConfigXmlContent.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/ScanConfigXmlContent.xsd"
+    xmlns:mstns="http://tempuri.org/ScanConfigXmlContent.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  
+<xs:element name ="NamingBlock">
+  <xs:complexType >
+    <xs:sequence>
+      <xs:element name="NamingItem" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name ="name" type="xs:string" use ="required"/>
+          <xs:attribute name ="position" type="xs:string" use ="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name ="name" type="xs:string" use ="required"/>
+  </xs:complexType>  
+  </xs:element>
+
+  
+  <xs:element name ="NamingRule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref ="NamingBlock" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name ="Item">
+    <xs:complexType >
+      <xs:sequence>
+        <xs:element name="Conditions" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name ="Value" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name ="num" type ="xs:int"/>
+                  <xs:attribute name ="data" type ="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name ="name"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name ="key" type="xs:string" use ="required"/>
+      <xs:attribute name ="cat" type="xs:string" use ="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name ="PayloadType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref ="Item" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name ="SpecialFlagSetting">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name ="Payload" type ="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ScanConfigXmlContent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="NamingRule"/>
+        <xs:element ref="PayloadType"/>
+        <xs:element ref="SpecialFlagSetting"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

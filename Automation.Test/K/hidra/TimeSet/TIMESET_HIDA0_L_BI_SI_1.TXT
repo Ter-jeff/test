@@ -1,0 +1,197 @@
+DFF 1.4	Time Sets (Basic)																
+	Timing Mode:	Single		Master Timeset Name:													
+	Time Domain:			Strobe Ref Setup Name:														
+		Cycle	Pin Group			Data		Drive				Compare			Edge Resolution		
+	Time Set	Period	Name	Clock Period	Setup	Src	Fmt	On	Data	Return	Off	Mode	Open	Close	Mode	Comment	
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1/_htol_1mhz_rzFreq)*0.500		Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	JTAG_TCK		i/o	PAT	RL	0	=(1/_htol_1mhz_rzFreq)*0.400	=(1/_htol_1mhz_rzFreq)*0.900		Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	CFSB		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	CFSB_AON		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1/_htol_1mhz_rzFreq)*0.500		Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	XI0		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	NUB_SPMI1_SDATA		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	HOLD_RESET		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	UID_MODE_L		i/o	PAT	NR	0	0			Off			Auto		
+	htol_1mhz_rz	=(1/_htol_1mhz_rzFreq)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1/_mbist_10mhz_rzFreq)*0.500		Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	JTAG_TCK		i/o	PAT	RL	0	=(1/_mbist_10mhz_rzFreq)*0.400	=(1/_mbist_10mhz_rzFreq)*0.900		Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	CFSB		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	CFSB_AON		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1/_mbist_10mhz_rzFreq)*0.500		Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	XI0		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	NUB_SPMI1_SDATA		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	HOLD_RESET		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	UID_MODE_L		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_10mhz_rz	=(1/_mbist_10mhz_rzFreq)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1/_mbist_24mhz_rzFreq)*0.499		Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	JTAG_TCK		i/o	PAT	RL	0	=(1/_mbist_24mhz_rzFreq)*0.379	=(1/_mbist_24mhz_rzFreq)*0.881		Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	CFSB		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	CFSB_AON		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1/_mbist_24mhz_rzFreq)*0.499		Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	XI0		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	NUB_SPMI1_SDATA		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	HOLD_RESET		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	UID_MODE_L		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_24mhz_rz	=(1/_mbist_24mhz_rzFreq)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1/_mbist_48mhz_rzFreq)*0.499		Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	JTAG_TCK		i/o	PAT	RL	0	=(1/_mbist_48mhz_rzFreq)*0.355	=(1/_mbist_48mhz_rzFreq)*0.855		Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	CFSB		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	CFSB_AON		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1/_mbist_48mhz_rzFreq)*0.499		Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	XI0		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	NUB_SPMI1_SDATA		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	HOLD_RESET		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	UID_MODE_L		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_48mhz_rz	=(1/_mbist_48mhz_rzFreq)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1/_mbist_20mhz_rzFreq)*0.500		Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	JTAG_TCK		i/o	PAT	RL	0	=(1/_mbist_20mhz_rzFreq)*0.400	=(1/_mbist_20mhz_rzFreq)*0.900		Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	CFSB		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	CFSB_AON		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	RT_CLK32768		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1/_mbist_20mhz_rzFreq)*0.500		Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	XI0		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	NUB_SPMI1_SDATA		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	HOLD_RESET		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	UID_MODE_L		i/o	PAT	NR	0	0			Off			Auto		
+	mbist_20mhz_rz	=(1/_mbist_20mhz_rzFreq)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+
+/* VAR Definitions */
+	htol_1mhz_rzFreq	=1000000
+	htol_1mhz_rzPer	=1000.000*ns
+	mbist_10mhz_rzFreq	=10000000
+	mbist_10mhz_rzPer	=100.000*ns
+	mbist_24mhz_rzFreq	=24000000
+	mbist_24mhz_rzPer	=41.670*ns
+	mbist_48mhz_rzFreq	=48000000
+	mbist_48mhz_rzPer	=20.830*ns
+	mbist_20mhz_rzFreq	=20000000
+	mbist_20mhz_rzPer	=50.000*ns

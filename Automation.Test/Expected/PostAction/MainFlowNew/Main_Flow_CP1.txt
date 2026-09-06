@@ -1,0 +1,25 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						set-alarm-bin										21		998																				
+						set-error-bin										21		999																				
+		Force_EVS_On				flag-true	F_Force_EVS_On																															
+		Force_EVS_Off				flag-true	F_Force_EVS_Off																															
+						flag-true	F_EVS_No_Stress																															
+						If	((Efuse_ecid_Current=1 && (!F_Force_EVS_On)) || F_Force_EVS_Off) || F_Debug_all																															
+						flag-false	F_EVS_No_Stress																															
+						EndIf																																
+						Bintable	Bin_EVS_No_Stress																															
+						flag-false	SubFlow_TurnOnFlag_ByDie																															
+		Enable_Force_WAT				flag-true	SubFlow_TurnOnFlag_ByDie																															
+		Enable_Force_WAT				print	"Force Enable Flag: SubFlow_TurnOnFlag_ByDie "																															
+						If	SubFlow_TurnOnFlag_ByDie																															
+						enable-flow-word	Mon																															
+						EndIf																																
+						If	SubFlow_TurnOnFlag_ByDie																															
+						disable-flow-word	Mon																															
+						EndIf																																
+						disable-flow-word	DisableCoreMask																															
+						limits-all																																
+						set-device									1		1		Pass																			

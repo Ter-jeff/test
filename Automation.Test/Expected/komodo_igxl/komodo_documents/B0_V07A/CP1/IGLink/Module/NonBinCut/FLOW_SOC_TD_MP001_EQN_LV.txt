@@ -1,0 +1,21 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow SOC_TD_MP001_EQN_LV Start"																															
+Instance_OutsideBincut,Row98,FLOW_SOC_TD_MP001_EQN_LV						Test	SocTd_Harvest_SOC_MPX001_TD_CAX0_PL10_PL20_SRM0E_EQN_LV		31750000												F_Soc_Td_MPX001_LV,F_SocTd_Harvest_SOC_MPX001_TD_CAX0_PL10_PL20_SRM0E_EQN_LV																	
+Instance_OutsideBincut,Row98,FLOW_SOC_TD_MP001_EQN_LV						flag-true	ControlBin_SOC_TD_NonHarv_Soc_Td_MPX001_LV																					Flag-true	F_SocTd_Harvest_SOC_MPX001_TD_CAX0_PL10_PL20_SRM0E_EQN_LV									
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row99,FLOW_SOC_TD_MP001_EQN_LV		TD_PL99_SOC				Test	SocTd_NonHarv_SOC_MPX001_TD_CAA0_PL99_SRM0E_EQN_LV		31750500												F_Soc_Td_MPX001_LV,F_SocTd_NonHarv_SOC_MPX001_TD_CAA0_PL99_SRM0E_EQN_LV																	
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row100,FLOW_SOC_TD_MP001_EQN_LV		TD_PL99_SOC				Test	SocTd_NonHarv_SOC_MPX001_TD_CAB0_PL99_SRM0E_EQN_LV		31751000												F_Soc_Td_MPX001_LV,F_SocTd_NonHarv_SOC_MPX001_TD_CAB0_PL99_SRM0E_EQN_LV																	
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row101,FLOW_SOC_TD_MP001_EQN_LV		TD_PL99_SOC				Test	SocTd_NonHarv_SOC_MPX001_TD_CAC0_PL99_SRM0E_EQN_LV		31751500												F_Soc_Td_MPX001_LV,F_SocTd_NonHarv_SOC_MPX001_TD_CAC0_PL99_SRM0E_EQN_LV																	
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+Instance_OutsideBincut,Row102,FLOW_SOC_TD_MP001_EQN_LV		TD_PL99_SOC				Test	SocTd_NonHarv_SOC_MPX001_TD_CAD0_PL99_SRM0E_EQN_LV		31752000												F_Soc_Td_MPX001_LV,F_SocTd_NonHarv_SOC_MPX001_TD_CAD0_PL99_SRM0E_EQN_LV																	
+						Bintable	Bin_SOC_TD_SSN_INIT_Fail																															
+						If	ControlBin_SOC_TD_NonHarv_Soc_Td_MPX001_LV																															
+						Bintable	Bin_SOC_TD_NonHarv_Soc_Td_MPX001_LV																															
+						EndIf																																
+						print	"Flow SOC_TD_MP001_EQN_LV Stop"																															
+						Return																																

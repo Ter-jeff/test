@@ -1,0 +1,65 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow GFX_SAA_LV Start"																															
+Instance_SA_GFX,Row2,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CFXX_PL10_LV														F_GFX0_SA_Multi,F_GfxSa_CFXX_PL10_LV																	
+						If	(!F_GFX0_SA_Multi&&!F_GFX0_SA_CORE0) || F_Debug_all																															
+Instance_SA_GFX,Row3,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CF00_PL10_Chk_LV														F_GFX0_SA_Multi,F_GFX0_SA_CORE0,F_GFX0_SCAN_CORE0,F_GfxSa_CF00_PL10_Chk_LV																	
+						EndIf																																
+						If	(!F_GFX0_SA_Multi&&F_GFX0_SA_CORE0) || F_Debug_all																															
+Instance_SA_GFX,Row4,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CF01_PL10_Chk_LV														F_GFX0_SA_Multi,F_GFX0_SA_CORE1,F_GFX0_SCAN_CORE1,F_GfxSa_CF01_PL10_Chk_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE0) || F_Debug_all																															
+Instance_SA_GFX,Row5,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CF00_PL10_LV														F_GFX0_SA_CORE0,F_GFX0_SCAN_CORE0,F_GfxSa_CF00_PL10_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE1) || F_Debug_all																															
+Instance_SA_GFX,Row6,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CF01_PL10_LV														F_GFX0_SA_CORE1,F_GFX0_SCAN_CORE1,F_GfxSa_CF01_PL10_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE2) || F_Debug_all																															
+Instance_SA_GFX,Row7,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CF02_PL10_LV														F_GFX0_SA_CORE2,F_GFX0_SCAN_CORE2,F_GfxSa_CF02_PL10_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE3) || F_Debug_all																															
+Instance_SA_GFX,Row8,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CF03_PL10_LV														F_GFX0_SA_CORE3,F_GFX0_SCAN_CORE3,F_GfxSa_CF03_PL10_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE4) || F_Debug_all																															
+Instance_SA_GFX,Row9,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CF04_PL10_LV														F_GFX0_SA_CORE4,F_GFX0_SCAN_CORE4,F_GfxSa_CF04_PL10_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE5) || F_Debug_all																															
+Instance_SA_GFX,Row10,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CF05_PL10_LV														F_GFX0_SA_CORE5,F_GFX0_SCAN_CORE5,F_GfxSa_CF05_PL10_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE6) || F_Debug_all																															
+Instance_SA_GFX,Row11,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CF06_PL10_LV														F_GFX0_SA_CORE6,F_GFX0_SCAN_CORE6,F_GfxSa_CF06_PL10_LV																	
+						EndIf																																
+Instance_SA_GFX,Row24,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CSO0_PL10_LV														F_Gfx_Sa_LV,F_GfxSa_CSO0_PL10_LV																	
+Instance_SA_GFX,Row24,Flow_GFX_SAA_LV			CP1			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CSO0_PL10_LV									
+Instance_SA_GFX,Row25,Flow_GFX_SAA_LV			CP1			Test	GfxSa_CSOC_PL10_LV														F_Gfx_Sa_LV,F_GfxSa_CSOC_PL10_LV																	
+Instance_SA_GFX,Row25,Flow_GFX_SAA_LV			CP1			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CSOC_PL10_LV									
+Instance_SA_GFX,Row30,Flow_GFX_SAA_LV			FT2			Test	GfxSa_CFXX_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_CFXX_PL20_LV																	
+Instance_SA_GFX,Row30,Flow_GFX_SAA_LV			FT2			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CFXX_PL20_LV									
+Instance_SA_GFX,Row31,Flow_GFX_SAA_LV		GFX_SFSTP	FT2			Test	GfxSa_CF00_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_CF00_PL20_LV							Flag-false	F_GFX0_SA_CORE0									
+Instance_SA_GFX,Row31,Flow_GFX_SAA_LV			FT2			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CF00_PL20_LV									
+Instance_SA_GFX,Row32,Flow_GFX_SAA_LV		GFX_SFSTP	FT2			Test	GfxSa_CF01_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_CF01_PL20_LV							Flag-false	F_GFX0_SA_CORE1									
+Instance_SA_GFX,Row32,Flow_GFX_SAA_LV			FT2			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CF01_PL20_LV									
+Instance_SA_GFX,Row33,Flow_GFX_SAA_LV		GFX_SFSTP	FT2			Test	GfxSa_CF02_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_CF02_PL20_LV							Flag-false	F_GFX0_SA_CORE2									
+Instance_SA_GFX,Row33,Flow_GFX_SAA_LV			FT2			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CF02_PL20_LV									
+Instance_SA_GFX,Row34,Flow_GFX_SAA_LV		GFX_SFSTP	FT2			Test	GfxSa_CF03_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_CF03_PL20_LV							Flag-false	F_GFX0_SA_CORE3									
+Instance_SA_GFX,Row34,Flow_GFX_SAA_LV			FT2			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CF03_PL20_LV									
+Instance_SA_GFX,Row35,Flow_GFX_SAA_LV		GFX_SFSTP	FT2			Test	GfxSa_CF04_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_CF04_PL20_LV							Flag-false	F_GFX0_SA_CORE4									
+Instance_SA_GFX,Row35,Flow_GFX_SAA_LV			FT2			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CF04_PL20_LV									
+Instance_SA_GFX,Row36,Flow_GFX_SAA_LV		GFX_SFSTP	FT2			Test	GfxSa_CF05_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_CF05_PL20_LV							Flag-false	F_GFX0_SA_CORE5									
+Instance_SA_GFX,Row36,Flow_GFX_SAA_LV			FT2			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CF05_PL20_LV									
+Instance_SA_GFX,Row37,Flow_GFX_SAA_LV		GFX_SFSTP	FT2			Test	GfxSa_CF06_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_CF06_PL20_LV							Flag-false	F_GFX0_SA_CORE6									
+Instance_SA_GFX,Row37,Flow_GFX_SAA_LV			FT2			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CF06_PL20_LV									
+Instance_SA_GFX,Row48,Flow_GFX_SAA_LV			FT2			Test	GfxSa_CSO0_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_CSO0_PL20_LV																	
+Instance_SA_GFX,Row48,Flow_GFX_SAA_LV			FT2			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CSO0_PL20_LV									
+Instance_SA_GFX,Row49,Flow_GFX_SAA_LV			FT2			Test	GfxSa_CSOC_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_CSOC_PL20_LV																	
+Instance_SA_GFX,Row49,Flow_GFX_SAA_LV			FT2			flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_CSOC_PL20_LV									
+						If	ControlBin_Gfx_Sa_HLV																															
+						Bintable	Bin_Gfx_Sa_HLV																															
+						EndIf																																
+						If	ControlBin_Gfx_Sa_LV																															
+						Bintable	Bin_Gfx_Sa_LV																															
+						EndIf																																
+						print	"Flow GFX_SAA_LV Stop"																															
+						Return																																

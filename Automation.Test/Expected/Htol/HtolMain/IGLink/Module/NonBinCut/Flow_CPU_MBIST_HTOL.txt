@@ -1,0 +1,24 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	CPU_MBIST_HTOL_Header_1																															
+						print	"Flow CPU_MBIST_HTOL Start"																															
+Instance_HTOL,Row5,CPU_MBIST_HTOL		CurrentProfile				Test	CpuMbist_HT_HIDA0_C_FULP_BI_C303_BST_JTG_04N_MPXXXX_SI_REPNREP_HTOL_MPXXXX_REPNREP_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row5,CPU_MBIST_HTOL					MissPatternInCsv	Test	CpuMbist_HT_HIDA0_C_FULP_BI_C303_BST_JTG_04N_MPXXXX_SI_REPNREP_HTOL_MPXXXX_REPNREP_UnknowType														F_Cpu_UnknowType,F_CpuMbist_HT_HIDA0_C_FULP_BI_C303_BST_JTG_04N_MPXXXX_SI_REPNREP_HTOL_MPXXXX_REPNREP_UnknowType																	
+Instance_HTOL,Row5,CPU_MBIST_HTOL						flag-true	ControlBin_Cpu_UnknowType																					Flag-true	F_CpuMbist_HT_HIDA0_C_FULP_BI_C303_BST_JTG_04N_MPXXXX_SI_REPNREP_HTOL_MPXXXX_REPNREP_UnknowType									
+						endloop																																
+Instance_HTOL,Row5,CPU_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	CpuMbist_HT_HIDA0_C_FULP_BI_C303_BST_JTG_04N_MPXXXX_SI_REPNREP_HTOL_MPXXXX_REPNREP_UnknowType_Profile_Plot																															
+Instance_HTOL,Row6,CPU_MBIST_HTOL		CurrentProfile				Test	CpuMbist_HT_HIDA0_C_FULP_BI_C0FC_BST_JTG_04N_MEXXXX_SI_REPNREP_HTOL_MEXXXX_REPNREP_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row6,CPU_MBIST_HTOL					MissPatternInCsv	Test	CpuMbist_HT_HIDA0_C_FULP_BI_C0FC_BST_JTG_04N_MEXXXX_SI_REPNREP_HTOL_MEXXXX_REPNREP_UnknowType														F_Cpu_UnknowType,F_CpuMbist_HT_HIDA0_C_FULP_BI_C0FC_BST_JTG_04N_MEXXXX_SI_REPNREP_HTOL_MEXXXX_REPNREP_UnknowType																	
+Instance_HTOL,Row6,CPU_MBIST_HTOL						flag-true	ControlBin_Cpu_UnknowType																					Flag-true	F_CpuMbist_HT_HIDA0_C_FULP_BI_C0FC_BST_JTG_04N_MEXXXX_SI_REPNREP_HTOL_MEXXXX_REPNREP_UnknowType									
+						endloop																																
+Instance_HTOL,Row6,CPU_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	CpuMbist_HT_HIDA0_C_FULP_BI_C0FC_BST_JTG_04N_MEXXXX_SI_REPNREP_HTOL_MEXXXX_REPNREP_UnknowType_Profile_Plot																															
+						If	ControlBin_Cpu_UnknowType																															
+						Bintable	Bin_Cpu_UnknowType																															
+						EndIf																																
+						print	"Flow CPU_MBIST_HTOL Stop"																															
+						Test	CPU_MBIST_HTOL_Footer_1																															
+						Return																																

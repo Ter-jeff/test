@@ -1,0 +1,64 @@
+bank_name	fuse_name	evaluate	type	evaluate_min	evaluate_max	true value	false value
+bank_config	bkm_process		match	UNKNOWN		0	
+bank_config	bkm_process		match	BKM2.1		1	
+bank_config	bkm_process		match	BKM3.3		2	
+bank_config	bkm_process		match	BKM3.4		3	
+							
+bank_config	te_misc_cpm_trims	F_CPM_Default_Trim	bool			b01	b10
+bank_mon	MON_condition_134	F_CPM_Default_Trim	bool			x18	x1A
+bank_mon	MON_condition_135	F_CPM_Default_Trim	bool			x1C	x1E
+bank_mon	MON_condition_136	F_CPM_Default_Trim	bool			x12	x14
+bank_mon	MON_condition_137	F_CPM_Default_Trim	bool			x14	x16
+bank_mon	MON_condition_138	F_CPM_Default_Trim	bool			x16	x18
+bank_mon	MON_condition_139	F_CPM_Default_Trim	bool			x18	x1A
+bank_mon	MON_condition_140	F_CPM_Default_Trim	bool			x1A	x1C
+bank_mon	MON_condition_141	F_CPM_Default_Trim	bool			x1E	x1F
+bank_mon	MON_condition_142	F_CPM_Default_Trim	bool			x1A	x1A
+bank_mon	MON_condition_143	F_CPM_Default_Trim	bool			x16	x16
+bank_mon	MON_condition_144	F_CPM_Default_Trim	bool			x14	x14
+bank_mon	MON_condition_145	F_CPM_Default_Trim	bool			x16	x16
+bank_mon	MON_condition_146	F_CPM_Default_Trim	bool			x13	x13
+bank_mon	MON_condition_147	F_CPM_Default_Trim	bool			x18	x1A
+bank_mon	MON_condition_148	F_CPM_Default_Trim	bool			x1C	x1C
+bank_mon	MON_condition_149	F_CPM_Default_Trim	bool			x14	x14
+bank_mon	MON_condition_150	F_CPM_Default_Trim	bool			x1A	x1A
+bank_mon	MON_condition_151	F_CPM_Default_Trim	bool			x16	x16
+bank_mon	MON_condition_152	F_CPM_Default_Trim	bool			x14	x14
+							
+bank_mon	MON_condition_120	VDD_SRAM_SOC	range	-	805	26	
+bank_mon	MON_condition_120	VDD_SRAM_SOC	range	805	812.47	27	
+bank_mon	MON_condition_120	VDD_SRAM_SOC	range	812.47	819.93	28	
+bank_mon	MON_condition_120	VDD_SRAM_SOC	range	819.93	827.4	29	
+bank_mon	MON_condition_120	VDD_SRAM_SOC	range	827.4	834.87	30	
+bank_mon	MON_condition_120	VDD_SRAM_SOC	range	834.87	842.33	31	
+bank_mon	MON_condition_120	VDD_SRAM_SOC	range	842.33	909	47	
+bank_mon	MON_condition_120	VDD_SRAM_SOC	range	909	985.9	63	
+bank_mon	MON_condition_120	VDD_SRAM_SOC	range	985.9	-	-1	
+							
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	-	678	-1	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	678	685	0	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	685	691	1	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	691	697	2	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	697	703	3	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	703	710	4	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	710	716	5	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	716	722	6	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	722	728	7	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	728	734	8	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	734	741	9	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	741	747	10	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	747	753	11	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	753	759	12	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	759	766	13	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	766	772	14	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	772	778	15	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	778	784	16	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	784	790	17	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	790	797	18	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	797	803	19	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	803	809	20	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	809	815	21	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	815	822	22	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	822	828	23	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	828	834	24	
+bank_mon	MON_condition_121	VDD_SRAM_SOC	range	834	-	25	

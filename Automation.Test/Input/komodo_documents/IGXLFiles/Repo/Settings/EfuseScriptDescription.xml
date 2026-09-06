@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EfuseCheck>
+  <Block Name = "ECID">
+	<Type>CRC_calcBits</Type>	
+	<Bits>[63:0]</Bits>	
+  </Block>
+  <Block Name = "CONFIG">
+	<Type>CRC_IgnoreBits</Type>	
+	<Bits>[287:0],[1599:1568],[381:381],[389:388],[2047:2032]</Bits>	
+  </Block>
+  <Block Name = "MONITOR">
+	<Type>CRC_calcBits</Type>	
+	<Bits>[415:0]</Bits>	
+  </Block>
+  <Bin PassBin = "1,2,3,11"></Bin>
+  
+  <BASE_VOLTAGE>400</BASE_VOLTAGE>
+
+  <UDR REFBLOCK = "UDR_P" COMPAREBLOCK = "CMP_P"></UDR>
+  <UDR REFBLOCK = "UDR_E" COMPAREBLOCK = "CMP_E"></UDR>
+  <UDR REFBLOCK = "UDR" COMPAREBLOCK = "CMP"></UDR>
+
+<ProgStage JobMapping = "CP1:CP1"></ProgStage>
+<ProgStage JobMapping = "CP2:CP2"></ProgStage>
+<ProgStage JobMapping = "FT1:FT1"></ProgStage>
+<ProgStage JobMapping = "FT2:FT2"></ProgStage>
+<ProgStage JobMapping = "FT2:FT2_25C"></ProgStage>
+<ProgStage JobMapping = "FT2:FT2_85C"></ProgStage>
+<ProgStage JobMapping = "FT3:FT3"></ProgStage>
+
+  <AliasBlockName BDFBlock = "CMP" DataLogBlock = "UDRVer1"></AliasBlockName>
+  <DatalogBlockList>ECID,CONFIG,MONITOR,UDR,CMP,UID</DatalogBlockList>
+</EfuseCheck>

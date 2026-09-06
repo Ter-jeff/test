@@ -1,0 +1,3 @@
+bank_name	fuse_name	evaluate	type	evaluate_min	evaluate_max	true value	false value	
+bank_config	bkm_process		match	UNKNOWN		0		
+bank_config	bkm_process		match	BKM2.1		1		

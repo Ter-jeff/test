@@ -1,0 +1,64 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:model="clr-namespace:MyAvalonia.Model;assembly=MyAvalonia"
+        x:Class="MyAvalonia.Controls.HelpWindowFile"
+        Title="Help"
+        WindowStartupLocation="CenterOwner"
+        SizeToContent="Height"
+        MinHeight="300"
+        MaxHeight="600"
+        Width="500">
+  <Grid Background="{DynamicResource BackgroundDarkBrush}">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height="50" />
+    </Grid.RowDefinitions>
+
+    <ScrollViewer Grid.Row="0" Margin="10,10,10,0">
+      <ItemsControl x:Name="FileList" Background="{DynamicResource MyContentBackground}">
+        <ItemsControl.DataTemplates>
+          <DataTemplate DataType="{x:Type model:HelpGroupItem}">
+            <TextBlock Text="{Binding Name}"
+                       FontWeight="Bold"
+                       Margin="6,8,6,2"
+                       Foreground="{DynamicResource MyFontBrush}" />
+          </DataTemplate>
+          <DataTemplate DataType="{x:Type model:HelpFileRow}">
+            <CheckBox IsChecked="{Binding Select, Mode=TwoWay}"
+                      Margin="20,2,4,2"
+                      VerticalContentAlignment="Center"
+                      PointerPressed="CheckBox_PointerPressed">
+              <TextBlock Text="{Binding FileName}" VerticalAlignment="Center" Foreground="{DynamicResource MyFontBrush}" />
+            </CheckBox>
+          </DataTemplate>
+        </ItemsControl.DataTemplates>
+      </ItemsControl>
+    </ScrollViewer>
+
+    <StackPanel Grid.Row="1"
+                Orientation="Horizontal"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Stretch"
+                Margin="10,10">
+      <Button Content="Download"
+              Margin="0,0,10,0"
+              FontSize="12"
+              Width="80"
+              BorderBrush="{DynamicResource MyBorderBrush}"
+              Background="{DynamicResource MyPanelBackground}"
+              HorizontalContentAlignment="Center"
+              VerticalContentAlignment="Center"
+              VerticalAlignment="Stretch"
+              Click="DownloadButton_Click" />
+      <Button Content="Cancel"
+              FontSize="12"
+              Width="80"
+              BorderBrush="{DynamicResource MyBorderBrush}"
+              Background="{DynamicResource MyPanelBackground}"
+              HorizontalContentAlignment="Center"
+              VerticalContentAlignment="Center"
+              VerticalAlignment="Stretch"
+              Click="Cancel_Click"/>
+    </StackPanel>
+  </Grid>
+</Window>

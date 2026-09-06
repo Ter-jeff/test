@@ -1,0 +1,5 @@
+INPUT: product_identifier	PwrScreen_SJ	PwrScreen_G124	PwrScreen_CS100F	PASS: power_binning	FAIL	Comment			
+0	100	79.7	66.8	3	next	very_low_power			
+0	100	79.7	100	2	next	low_power			
+0	100	83.5	100	1	next	all_power			
+0	100	100	100	4	FAIL	other_power			

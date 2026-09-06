@@ -1,0 +1,2 @@
+Pattern	Pins	
+cz_brna0_c_fulp_an_aa00_dll_jtg_vix_allfrv_si_cpllds_t6pd	TX_P	TX_N

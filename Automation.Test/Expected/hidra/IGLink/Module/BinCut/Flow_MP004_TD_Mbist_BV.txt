@@ -1,0 +1,13 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	MP004_TD_Mbist_BV_Header_1																															
+						print	"Flow MP004_TD_Mbist_BV Start"																															
+Instance_Bincut_MP,Row36,MPX004 SOC TD,TD		CP1	CP1		no_pattern	Test	MP004_MPX004_SOC_MPX004_TD_CAX0_PL00_PRC_Limiter_SRM0E_SOC_MPX004_TD_CAX0_PL00_PRC_Limiter_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MP,Row37,MPX004 SOC TD,TD		CP1	CP1		no_pattern	Test	MP004_MPX004_SOC_MPX004_TD_CAX0_PL00_PRC_Rest_SRM0E_SOC_MPX004_TD_CAX0_PL00_PRC_Rest_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						print	"Flow MP004_TD_Mbist_BV Stop"																															
+						Test	MP004_TD_Mbist_BV_Footer_1																															
+						Return																																

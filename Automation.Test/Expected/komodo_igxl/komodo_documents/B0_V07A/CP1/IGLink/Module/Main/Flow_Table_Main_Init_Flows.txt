@@ -1,0 +1,18 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	CleanRegData_Init		86000000																													
+		CP&&Temp_25C				Test	ReadProberTemp_25C		86001000																													
+		CP&&Temp_85C				Test	ReadProberTemp_85C		86002000																													
+						Test	Print_Pgm_Information		86003000																													
+						Test	ReadWaferData		86004000												F_ecid_other																	
+						Bintable	Bin_EFUSE_ecid_other																															
+		Enable_2DID				Test	Read2DIDBarCode		86005000																													
+		OCRChk				Test	ReadHandlerOCRData		86006000												F_OCR_error																	
+		OCRChk				Bintable	Bin_OCR_error																															
+						Test	HIP_TTR_Enable_Control		86007000																													
+						Test	EnableWdGating		86008000												F_ecid_other																	
+						Bintable	Bin_EFUSE_ecid_other																															
+						return																																
+						Test	ATE_STR_Summary		86009000																													

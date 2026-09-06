@@ -1,0 +1,17 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						If	!Bin09 && !F_Gpu_Td_MGX00D_LV													F_Enable_GPU_Turbo	F_MGX00D																	
+						Test	VDD_GPU_MG00E_VoltageCheck																															
+						EndIf																																
+						If	Bin09 && !F_Gpu_Td_MGX00D_LV													F_Enable_GPU_Turbo	F_MGX00D																	
+						Test	VDD_GPU_MG00E_VoltageCheck_Bin09																															
+						EndIf																																
+						If	!Bin09 && !F_Cpu_Td_MPX00J_LV													F_Enable_PCPU_Turbo	F_MPX00J																	
+						Test	VDD_PCPU_MP00J_VoltageCheck																															
+						EndIf																																
+						If	Bin09 && !F_Cpu_Td_MPX00J_LV													F_Enable_PCPU_Turbo	F_MPX00J																	
+						Test	VDD_PCPU_MP00J_VoltageCheck_Bin09																															
+						EndIf																																
+						Return																																

@@ -1,0 +1,81 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow EnableWdSheet Start"																															
+		SA_PL99_SOC				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	SA_PL99_SOC																															
+		SA_PL99_GFX				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	SA_PL99_GFX																															
+		SA_PL99_CPU				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	SA_PL99_CPU																															
+		TD_PL99_SOC				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	TD_PL99_SOC																															
+		TD_PL99_GFX				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	TD_PL99_GFX																															
+		TD_PL99_CPU				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	TD_PL99_CPU																															
+		GPU_PL20_ALL				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	GPU_PL20_ALL																															
+		GPU_PL40_ALL				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	GPU_PL40_ALL																															
+		SA_Chain_SOC				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	SA_Chain_SOC																															
+		SOC_DISPAll				nop																																
+			FT1,FT2,FT1,FT2			enable-flow-word	SOC_DISPAll																															
+			FT3			disable-flow-word	SOC_DISPAll																															
+		SOC_DSPAllnCLow				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	SOC_DSPAllnCLow																															
+		SOC_TD_Extest				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	SOC_TD_Extest																															
+		SA_Chain_GPU				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	SA_Chain_GPU																															
+		GFX_MFSTP				nop																																
+			FT1,FT2,FT1,FT2,FT3			enable-flow-word	GFX_MFSTP																															
+		GFX_SFSTP				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	GFX_SFSTP																															
+		SA_Chain_CPU				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	SA_Chain_CPU																															
+		BINCUT_WITH_BIST				nop																																
+			FT1,FT2,FT1,FT2			enable-flow-word	BINCUT_WITH_BIST																															
+			FT3			disable-flow-word	BINCUT_WITH_BIST																															
+		Enable_CPU_Turbo				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	Enable_CPU_Turbo																															
+		Enable_GPU_Turbo				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	Enable_GPU_Turbo																															
+		DisableCoreMask				nop																																
+			FT1			enable-flow-word	DisableCoreMask																															
+			FT2,FT1,FT2,FT3			disable-flow-word	DisableCoreMask																															
+		SOC_SBST_TTR				nop																																
+			FT1,FT2,FT1,FT2			enable-flow-word	SOC_SBST_TTR																															
+			FT3			disable-flow-word	SOC_SBST_TTR																															
+		Debug_PCPU_Turbo_OutsideTD				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	Debug_PCPU_Turbo_OutsideTD																															
+		Debug_PCPU_1HotBlkC_OutsideTD				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	Debug_PCPU_1HotBlkC_OutsideTD																															
+		TD_Skip_CHIx				nop																																
+			FT1,FT2,FT1,FT2			enable-flow-word	TD_Skip_CHIx																															
+			FT3			disable-flow-word	TD_Skip_CHIx																															
+		Mon				nop																																
+			FT1,FT2,FT1,FT2			enable-flow-word	Mon																															
+			FT3			disable-flow-word	Mon																															
+		F_EVS_PreScreen				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	F_EVS_PreScreen																															
+		F_DCTEST_IDS_IDSCP_pp_kmda0_s_fulp_io_popx_nan_daa_dio_allfrv_si_ids_Flag				nop																																
+			FT1,FT2,FT1,FT2,FT3			disable-flow-word	F_DCTEST_IDS_IDSCP_pp_kmda0_s_fulp_io_popx_nan_daa_dio_allfrv_si_ids_Flag																															
+		Force_EVS_On				nop																																
+			FT1,FT2			enable-flow-word	Force_EVS_On																															
+			FT1,FT2,FT3			disable-flow-word	Force_EVS_On																															
+		Force_EVS_Off				nop																																
+			FT1,FT2,FT3			enable-flow-word	Force_EVS_Off																															
+			FT1,FT2			disable-flow-word	Force_EVS_Off																															
+		SOC_SA_CALL				nop																																
+			FT1,FT2,FT1,FT2,FT3			enable-flow-word	SOC_SA_CALL																															
+		Enable_FFC				nop																																
+			FT1,FT1			enable-flow-word	Enable_FFC																															
+			FT2,FT2,FT3			disable-flow-word	Enable_FFC																															
+		Enable_FFC_SFC				nop																																
+			FT1,FT1			enable-flow-word	Enable_FFC_SFC																															
+			FT2,FT2,FT3			disable-flow-word	Enable_FFC_SFC																															
+						print	"Flow EnableWdSheet Stop"																															
+						Return																																

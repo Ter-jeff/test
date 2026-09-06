@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IgxlWrapperAttributes</name>
+    </assembly>
+    <members>
+        <member name="T:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodArgument">
+            <summary>
+            Container class for test method argument
+            </summary>
+        </member>
+        <member name="F:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodArgument.ParameterName">
+            <summary>
+            Name of the method parameter
+            </summary>
+        </member>
+        <member name="F:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodArgument.ArgumentValue">
+            <summary>
+            Value of the method parameter for this instance
+            </summary>
+        </member>
+        <member name="F:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodArgument._parameterAttributes">
+            <summary>
+            List of fully qualified names of any attributes on this parameter
+            </summary>
+        </member>
+        <member name="M:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodArgument.#ctor(System.String,System.Object,System.String[])">
+            <inheritdoc cref="T:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodArgument" />
+        </member>
+        <member name="M:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodArgument.ParameterHasAttribute(System.Type)">
+            <summary>
+            Return if parameter has attribute of the given type
+            </summary>
+        </member>
+        <member name="T:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata">
+            <summary>
+            Container class for test method name and test method arguments
+            </summary>
+        </member>
+        <member name="F:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.SuccessReturnValue">
+            <summary>
+            Return value of PreBody and PostBody when the wrapper runs successfully
+            </summary>
+        </member>
+        <member name="F:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.Name">
+            <summary>
+            Fully qualified name of wrapped test method
+            </summary>
+        </member>
+        <member name="F:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.PreBodyReturnValue">
+            <summary>
+            Return value of the test method pre-body.
+            </summary>
+        </member>
+        <member name="M:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.#ctor(System.String,System.Func{Teradyne.Igxl.Interfaces.Public.IgxlTestMethodArgument[]},System.Func{System.String[]})">
+            <inheritdoc cref="T:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata" />
+        </member>
+        <member name="M:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.WithPreBodyReturnValue(System.Int32)">
+            <summary>
+            Get copy of this <see cref="T:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata"/> with the specified value for <see cref="F:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.PreBodyReturnValue"/>
+            </summary>
+        </member>
+        <member name="P:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.ArgumentsLength">
+            <summary>
+            Number of arguments
+            </summary>
+        </member>
+        <member name="M:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.ContainsParameter(System.String)">
+            <summary>
+            Check if test method has a parameter with the specified name
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.TryGetArgument(System.String,System.Object@)">
+            <summary>
+            Try to get the argument value for the given parameter name
+            </summary>
+        </member>
+        <member name="M:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.GetArgument(System.String)">
+            <summary>
+            Returns the argument value for the given parameter name
+            </summary>
+        </member>
+        <member name="P:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.Arguments">
+            <summary>
+            Enumerable of all argument values
+            </summary>
+        </member>
+        <member name="M:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.ContainsAttributeArgument(System.String)">
+            <summary>
+            Check if arguments to the wrapper attribute include the specified <paramref name="argument"/>
+            </summary>
+        </member>
+        <member name="P:Teradyne.Igxl.Interfaces.Public.IgxlTestMethodMetadata.AttributeArguments">
+            <summary>
+            Enumerable of all arguments to the wrapper attribute
+            </summary>
+        </member>
+        <member name="T:Teradyne.Igxl.Interfaces.Public.TestMethodPostBodyAttribute">
+            <summary>
+            Wrapper attribute for <see cref="T:Teradyne.Igxl.Interfaces.Public.TestClassAttribute"/>
+            </summary>
+        </member>
+        <member name="T:Teradyne.Igxl.Interfaces.Public.TestMethodPreBodyAttribute">
+            <summary>
+            Method to be called before the test method executes.
+            </summary>
+        </member>
+        <member name="T:Teradyne.Igxl.Interfaces.Public.TestMethodWrapperAttribute">
+            <summary>
+            Designates that a class contains the implementation for the wrapper of <see cref="T:Teradyne.Igxl.Interfaces.Public.TestMethodAttribute"/>.
+            The class should have a method with <see cref="T:Teradyne.Igxl.Interfaces.Public.TestMethodPreBodyAttribute"/> and a method with <see cref="T:Teradyne.Igxl.Interfaces.Public.TestMethodPostBodyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:Teradyne.Igxl.Interfaces.Public.TestMethodWrapperAttribute.NamespacePrefix">
+            <summary>
+            Prefix for the namespace of wrapped methods.
+            </summary>
+        </member>
+        <member name="M:Teradyne.Igxl.Interfaces.Public.TestMethodWrapperAttribute.#ctor(System.String)">
+            <inheritdoc cref="T:Teradyne.Igxl.Interfaces.Public.TestMethodWrapperAttribute"/>
+            <param name="namespacePrefix">Prefix for the namespace of wrapped methods.</param>
+        </member>
+        <member name="T:Teradyne.Igxl.Interfaces.Public.WrappedTestMethodAttribute">
+            <summary>
+            Wrapper attribute for <see cref="T:Teradyne.Igxl.Interfaces.Public.TestMethodAttribute"/>
+            </summary>
+        </member>
+        <member name="F:Teradyne.Igxl.Interfaces.Public.WrappedTestMethodAttribute.Arguments">
+            <summary>
+            Optional arguments
+            </summary>
+        </member>
+        <member name="M:Teradyne.Igxl.Interfaces.Public.WrappedTestMethodAttribute.#ctor(System.String[])">
+            <inheritdoc cref="T:Teradyne.Igxl.Interfaces.Public.WrappedTestMethodAttribute"/>
+            <param name="arguments">Optional arguments</param>
+        </member>
+    </members>
+</doc>

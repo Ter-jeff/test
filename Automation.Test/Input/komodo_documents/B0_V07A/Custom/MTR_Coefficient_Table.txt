@@ -1,0 +1,12 @@
+ICTS_N3EP			ICTS			NTSE			NTSR			ICTS			NTSE			NTSR			ICTS			NTSE			NTSR	
+BKM_Decimal	Default		BKM_Decimal	3		BKM_Decimal	3		BKM_Decimal	3		BKM_Decimal	2		BKM_Decimal	2		BKM_Decimal	2		BKM_Decimal	1		BKM_Decimal	1		BKM_Decimal	1	
+BKM_Version	Unknow		BKM_Version	3.4		BKM_Version	3.4		BKM_Version	3.4		BKM_Version	3.3		BKM_Version	3.3		BKM_Version	3.3		BKM_Version	2.1		BKM_Version	2.1		BKM_Version	2.1	
+a0	50.54691688		a0	50.54691688		a0_gold	24.3		a0_gold	24.29		a0	50.54691688		a0_gold	24.3		a0_gold	24.29		a0	50.54691688		a0_gold	24.3		a0_gold	24.29	
+a1	330.28711658		a1	330.28711658		a1_gold	0		a1_gold	-371.91		a1	330.28711658		a1_gold	0		a1_gold	-371.91		a1	330.28711658		a1_gold	0		a1_gold	-371.91	
+a2	-0.8643481		a2	-0.8643481		a2_gold	-100		a2_gold	111.72		a2	-0.8643481		a2_gold	-100		a2_gold	111.72		a2	-0.8643481		a2_gold	-100		a2_gold	111.72	
+k0	332.30411072		k0	332.30411072		ft1_Temp	25		Rcp1_gold	0.135		k0	332.30411072		ft1_Temp	25		Rcp1_gold	0.135		k0	332.30411072		ft1_Temp	25		Rcp1_gold	0.135	
+k1	31.84561679		k1	31.84561679		ft2_Temp	85		alpha_gold	-0.1		k1	31.84561679		ft2_Temp	85		alpha_gold	-0.1		k1	31.84561679		ft2_Temp	85		alpha_gold	-0.1	
+m0	332.42689018		m0	332.42689018								m0	332.42689018								m0	332.42689018	
+m1	16.25734739		m1	16.25734739								m1	16.25734739								m1	16.25734739	
+m2	-104.54463523		m2	-104.54463523								m2	-104.54463523								m2	-104.54463523	
+Tcp	25		Tcp	25								Tcp	25								Tcp	25	

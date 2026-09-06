@@ -1,0 +1,9 @@
+DTSerialJitterSheet,version=2.1:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Jitter Sheet
+	
+			Insertion			Measurement
+	Jitter Set	Pin/Group	Mode	Period	Amplitude in UI	Sample Type	Target Resolution	Target Pattern Reps	Bits Per Pattern	Min Pattern Skips	Bit Period	Comment
+	Setup0											
+	Setup1											
+	Setup2											
+	Setup3											
+	Setup4											

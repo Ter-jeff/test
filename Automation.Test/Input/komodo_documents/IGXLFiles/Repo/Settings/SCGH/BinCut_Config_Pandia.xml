@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BinCutConfig>
+  <PowerType>
+  </PowerType>
+   <IdsName>
+	 <IDS_VDD_CPU_SRAM>VDD_SRAM_CPU</IDS_VDD_CPU_SRAM>
+	 <IDS_VDD_GPU_SRAM>VDD_SRAM_GPU</IDS_VDD_GPU_SRAM>
+	 <IDS_VDD_SOC_SRAM>VDD_SRAM_SOC</IDS_VDD_SOC_SRAM>
+	 <IDS_VDD_ANE_SRAM>VDD_SRAM_ANE</IDS_VDD_ANE_SRAM>
+  </IdsName>
+   <DomainInOtherRail2Power>
+	 <SRAM_CPU>VDD_SRAM_CPU</SRAM_CPU>
+	 <SRAM_GPU>VDD_SRAM_GPU</SRAM_GPU>
+	 <SRAM_ANE>VDD_SRAM_ANE</SRAM_ANE>
+	 <SRAM_SOC>VDD_SRAM_SOC</SRAM_SOC>
+	 <FIXED>VDD_FIXED</FIXED>
+	 <LOW>VDD_LOW</LOW>
+  </DomainInOtherRail2Power>
+  <DSSC>
+     <VDD_DISP>1</VDD_DISP>
+     <VDD_AVE>2</VDD_AVE>
+     <VDD_GPU>3</VDD_GPU>
+     <VDD_ECPU>4</VDD_ECPU>
+     <VDD_PCPU>5</VDD_PCPU>
+     <VDD_DCS_DDR>6</VDD_DCS_DDR>
+     <VDD_SOC>7</VDD_SOC>
+  </DSSC>
+   <PowerBinningCP1ProductValue>
+     <VDD_DISP>Real</VDD_DISP>
+     <VDD_AVE>Real</VDD_AVE>
+     <VDD_GPU>Real</VDD_GPU>
+     <VDD_ECPU>Real</VDD_ECPU>
+     <VDD_PCPU>Real</VDD_PCPU>
+     <VDD_DCS_DDR>Real</VDD_DCS_DDR>
+     <VDD_SOC>Real</VDD_SOC>
+  </PowerBinningCP1ProductValue>
+</BinCutConfig>

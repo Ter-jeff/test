@@ -1,0 +1,25 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"*print: MBist_LVCC_Header start*"																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MRD001_BST_SRVA_GR01_CR_X_X_SelsrmSSSSS_CZ_NV		42060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MRD001_BST_SRVA_GR01_CR_X_X_SelsrmSSSSS_CZ_NV BST_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MRD002_BST_SRVA_GR01_CR_X_X_SelsrmSSSSS_CZ_NV		44060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MRD002_BST_SRVA_GR01_CR_X_X_SelsrmSSSSS_CZ_NV BST_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD001_BST_SRVA_GR04_CR_X_X_SelsrmSSSSS_CZ_NV		46060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD001_BST_SRVA_GR04_CR_X_X_SelsrmSSSSS_CZ_NV BST_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD002_BST_SRVA_GR04_CR_X_X_SelsrmSSSSS_CZ_NV		48060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD002_BST_SRVA_GR04_CR_X_X_SelsrmSSSSS_CZ_NV BST_VDDSRAM_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD001_BST_SRVA_GR02_CR_X_X_SelsrmSSSSS_CZ_NV		50060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD001_BST_SRVA_GR02_CR_X_X_SelsrmSSSSS_CZ_NV BST_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD002_BST_SRVA_GR02_CR_X_X_SelsrmSSSSS_CZ_NV		52060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD002_BST_SRVA_GR02_CR_X_X_SelsrmSSSSS_CZ_NV BST_VDDSRAM_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						print	"*print: MBist_Lvcc_Footer end*"																															
+						return																																

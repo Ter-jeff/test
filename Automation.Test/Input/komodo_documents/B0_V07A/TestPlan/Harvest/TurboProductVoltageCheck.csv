@@ -1,0 +1,22 @@
+﻿SubFlow,Spec Name,Spec Type,Site Flag (per site),Low Limit,Value,High Limit,Fail Action,Pass Action
+,vdd_gpu_mg00e,PV,!Bin09 && !F_Gpu_Td_MGX00E_LV,,,1112,F_MGX00E,F_Enable_GPU_Turbo
+,vdd_gpu_mg00e,PV,Bin09 && !F_Gpu_Td_MGX00E_LV,,,1202,F_MGX00E,F_Enable_GPU_Turbo
+,vdd_pcpu_mp00j,PV,!Bin09 && !F_Cpu_Td_MPX00J_LV,,,1202,F_MPX00J,F_Enable_CPU_Turbo
+,vdd_pcpu_mp00j,PV,Bin09 && !F_Cpu_Td_MPX00J_LV,,,1252,F_MPX00J,F_Enable_CPU_Turbo
+,F_Cpu_Td_MPX00J_LV,Flag,F_CP2,,,,F_Enable_CPU_Turbo,!F_Enable_CPU_Turbo
+,F_Gpu_Td_MGX00E_LV,Flag,F_CP2,,,,F_Enable_GPU_Turbo,!F_Enable_GPU_Turbo
+,,,,,,,,
+,,,,,,,,
+Demo1,"x_coord,y_coord",XY,,,"5,4",,F_bad_XY,
+Demo1,"x_coord,y_coord",XY,,,"12,13",,F_bad_XY,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Flow Main,,,,,,,,
+Source = Test Plan,,,,,,,,
+Module = ???,,,,,,,,
+SheetName = Assign a name,,,,,,,,
+SubFlow = Sheet Name SubFlow,,,,,,,,

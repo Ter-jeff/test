@@ -1,0 +1,205 @@
+﻿<protocol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" description="JTAG" version="1.0" defaultName="JTAG_master" controller="Tester" validFamilies="">
+	<function name="TCK" group="" type="Clock" description="Test Clock" />
+	<function name="TMS" group="" type="In" description="Test Mode Select" />
+	<function name="TDI" group="" type="In" description="Test Data In" />
+	<function name="TDO" group="" type="Out" description="Test Data Out" />
+	<frame name="Idle" description="" type="Idle" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="4">- 0 0 X</cycle>
+		</data>
+	</frame>
+	<frame name="Write" description="Writes" type="Write" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="8">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 1 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="2">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="2">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="5">- 0 0 X</cycle>
+			<cycle repeat="1">- 0 1 X</cycle>
+			<cycle repeat="15">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="1">- 0 0 X</cycle>
+			<cycle repeat="1">- 0 1 X</cycle>
+			<cycle repeat="0">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="22">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="8">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 1 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="2">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="2">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="5">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="0">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="5">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="7">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="1">- 0 0 X</cycle>
+			<cycle repeat="1">- 0 1 X</cycle>
+			<cycle repeat="0">- 0 0 X</cycle>
+			<cycle repeat="1">- 1 0 X</cycle>
+			<cycle repeat="22">- 0 0 X</cycle>
+			<cycle repeat="1">- 1 0 X</cycle>
+			<cycle repeat="8">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 1 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="2">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="3">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="5">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="7">- 0 D X</cycle>
+			<cycle repeat="0">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="6">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="1">- 0 0 X</cycle>
+			<cycle repeat="1">- 0 1 X</cycle>
+			<cycle repeat="0">- 0 0 X</cycle>
+			<cycle repeat="1">- 1 0 X</cycle>
+			<cycle repeat="22">- 0 0 X</cycle>
+			<cycle repeat="1">- 1 0 X</cycle>
+			<cycle repeat="8">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 1 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="2">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="33">- 0 0 X</cycle>
+			<cycle repeat="1">- 1 0 X</cycle>
+			<cycle repeat="202">- 0 0 X</cycle>
+			<cycle repeat="1">- 1 0 X</cycle>
+			<cycle repeat="8">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 1 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="2">- 0 0 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="2">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="5">- 0 0 X</cycle>
+			<cycle repeat="0">- 0 1 X</cycle>
+			<cycle repeat="22">- 0 D X</cycle>
+			<cycle repeat="0">- 1 D X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="21">- 0 0 X</cycle>
+		</data>
+		<field name="Mask" description="" length="0" variableLength="false">
+			<bit function="TDI" cycle="189" />
+			<bit function="TDI" cycle="188" />
+			<bit function="TDI" cycle="187" />
+			<bit function="TDI" cycle="186" />
+			<bit function="TDI" cycle="185" />
+			<bit function="TDI" cycle="184" />
+			<bit function="TDI" cycle="183" />
+			<bit function="TDI" cycle="182" />
+		</field>
+		<field name="Addr" description="" length="0" variableLength="false">
+			<bit function="TDI" cycle="537" />
+			<bit function="TDI" cycle="536" />
+			<bit function="TDI" cycle="535" />
+			<bit function="TDI" cycle="534" />
+			<bit function="TDI" cycle="533" />
+			<bit function="TDI" cycle="532" />
+			<bit function="TDI" cycle="531" />
+			<bit function="TDI" cycle="530" />
+			<bit function="TDI" cycle="529" />
+			<bit function="TDI" cycle="528" />
+			<bit function="TDI" cycle="527" />
+			<bit function="TDI" cycle="526" />
+			<bit function="TDI" cycle="525" />
+			<bit function="TDI" cycle="524" />
+			<bit function="TDI" cycle="523" />
+			<bit function="TDI" cycle="522" />
+		</field>
+		<field name="Data" description="" length="0" variableLength="false">
+			<bit function="TDI" cycle="521" />
+			<bit function="TDI" cycle="520" />
+			<bit function="TDI" cycle="519" />
+			<bit function="TDI" cycle="518" />
+			<bit function="TDI" cycle="517" />
+			<bit function="TDI" cycle="516" />
+			<bit function="TDI" cycle="515" />
+			<bit function="TDI" cycle="514" />
+		</field>
+	</frame>
+	<frame name="Read" description="" type="Read" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">+ 0 0 X</cycle>
+			<cycle repeat="204">+ 0 0 X</cycle>
+			<cycle repeat="0">+ 1 0 X</cycle>
+			<cycle repeat="0">+ 1 0 X</cycle>
+			<cycle repeat="8">+ 0 0 X</cycle>
+			<cycle repeat="0">+ 1 1 X</cycle>
+			<cycle repeat="0">+ 1 0 X</cycle>
+			<cycle repeat="2">+ 0 0 X</cycle>
+			<cycle repeat="0">+ 1 0 X</cycle>
+			<cycle repeat="1">+ 0 0 X</cycle>
+			<cycle repeat="7">+ 0 0 X</cycle>
+			<cycle repeat="0">+ 0 1 X</cycle>
+			<cycle repeat="7">+ 0 0 X</cycle>
+			<cycle repeat="14">+ 0 D X</cycle>
+			<cycle repeat="0">+ 1 D X</cycle>
+			<cycle repeat="0">+ 1 0 X</cycle>
+			<cycle repeat="22">+ 0 0 X</cycle>
+			<cycle repeat="0">+ 1 0 X</cycle>
+			<cycle repeat="0">+ 1 0 X</cycle>
+			<cycle repeat="8">+ 0 0 X</cycle>
+			<cycle repeat="0">- 1 1 X</cycle>
+			<cycle repeat="0">- 1 0 X</cycle>
+			<cycle repeat="0">- 0 0 X</cycle>
+			<cycle repeat="0">+ 0 0 X</cycle>
+			<cycle repeat="0">+ 0 0 X</cycle>
+			<cycle repeat="0">+ 1 0 X</cycle>
+			<cycle repeat="1">+ 0 0 X</cycle>
+			<cycle repeat="7">+ 0 0 X</cycle>
+			<cycle repeat="0">+ 0 1 X</cycle>
+			<cycle repeat="7">+ 0 0 E</cycle>
+			<cycle repeat="14">+ 0 0 X</cycle>
+			<cycle repeat="1">+ 1 0 X</cycle>
+			<cycle repeat="20">+ 0 0 X</cycle>
+			<cycle repeat="0">+ 0 0 X</cycle>
+		</data>
+		<field name="Addr" description="" length="0" variableLength="false">
+			<bit function="TDI" cycle="257" />
+			<bit function="TDI" cycle="256" />
+			<bit function="TDI" cycle="255" />
+			<bit function="TDI" cycle="254" />
+			<bit function="TDI" cycle="253" />
+			<bit function="TDI" cycle="252" />
+			<bit function="TDI" cycle="251" />
+			<bit function="TDI" cycle="250" />
+			<bit function="TDI" cycle="249" />
+			<bit function="TDI" cycle="248" />
+			<bit function="TDI" cycle="247" />
+			<bit function="TDI" cycle="246" />
+			<bit function="TDI" cycle="245" />
+			<bit function="TDI" cycle="244" />
+			<bit function="TDI" cycle="243" />
+			<bit function="TDI" cycle="242" />
+		</field>
+		<field name="Data" description="" length="0" variableLength="false">
+			<bit function="TDO" cycle="317" />
+			<bit function="TDO" cycle="316" />
+			<bit function="TDO" cycle="315" />
+			<bit function="TDO" cycle="314" />
+			<bit function="TDO" cycle="313" />
+			<bit function="TDO" cycle="312" />
+			<bit function="TDO" cycle="311" />
+			<bit function="TDO" cycle="310" />
+		</field>
+	</frame>
+	<layer_map has_hardware_layering="false" />
+</protocol>

@@ -1,0 +1,22 @@
+HS08 CP, FT1	.\PATTERN\SPIROM\ate-con_V01_official				
+HS08 FT2	.\PATTERN\SPIROM\ate-con_V01_official				
+					
+					
+					
+					
+			ateW0_20160425.bin		
+			ate_20160430.spi		
+			ate_debug_05042016.spi		
+					
+					
+					
+					
+			ateW0_core0_05072016.spi		
+					
+					
+					
+					
+					
+			HS08 CP, FT1	.\PATTERN\SPIROM\ate_debug_05042016.spi	
+			HS08 FT2	.\PATTERN\SPIROM\ateW0_20160425.bin	
+	.\PATTERN\SPIROM\ateW0_core0_05072016_autorun_3.spi				

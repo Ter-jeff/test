@@ -1,0 +1,29 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+		SPIROM_1_Write||SPIROM_2_Write				nop																																
+						Test	Relay_ON_Default		10																													
+						nop																																
+						flag-clear	First_Time_ROM_RW																															
+		Write_SPIROM||Write_SPIROM_SectorErase				flag-true	First_Time_ROM_RW																															
+						If	First_Time_ROM_RW																															
+						Test	SPIROM_Header_1		15																													
+						print	===== SPIROM Check Start =====																															
+						disable-flow-word	SPIROM_1_Write																															
+						disable-flow-word	SPIROM_2_Write																															
+		CP1||CP2||FT1				enable-flow-word	SPIROM_1_Write																															
+		FT2||FT3				enable-flow-word	SPIROM_2_Write																															
+						Test	Relay_ON_SPI_Conti		20																													
+						Test	DC_Conti_SPIROM_Neg		25												F_spirom_conti																	
+						Bintable	Bin_spirom_conti																															
+						Test	SPIROM_PowerShort		30																													
+						Use-Limit	SPIROM_PowerShort			-0.01	1.5E-05										F_spirom_conti																	
+						Bintable	Bin_spirom_conti																															
+						Test	SPIROM_ReadID		35											P_spirom_readID	F_spirom_readID																	
+						Bintable	Bin_spirom_readID																															
+						print	===== SPIROM Check End =====																															
+						call	Flow_Table_Write_SPIROM		40														all		flag-true	P_spirom_readID												
+						Test	SPIROM_Footer_1		70																													
+						EndIf																																
+						return																																

@@ -1,0 +1,122 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	HARV_OUT_TD_MAX_Header_1																															
+						print	"Flow HARV_OUT_TD_MAX Start"																															
+Instance_OutsideBincut,Row18,Flow_Harv_Out_TD_max		GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_X7GR1_PL10_PL20_EQN_LV														F_GFX0_TD_Multi,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_X7GR1_PL10_PL20_EQN_LV																	
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE0) || F_Debug_all																															
+Instance_OutsideBincut,Row19,Flow_Harv_Out_TD_max		GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF00_PL10_PL20_EQN_LV														F_GFX0_TD_CORE0,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF00_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE1) || F_Debug_all																															
+Instance_OutsideBincut,Row20,Flow_Harv_Out_TD_max		GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF01_PL10_PL20_EQN_LV														F_GFX0_TD_CORE1,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF01_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE2) || F_Debug_all																															
+Instance_OutsideBincut,Row21,Flow_Harv_Out_TD_max		GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF02_PL10_PL20_EQN_LV														F_GFX0_TD_CORE2,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF02_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE3) || F_Debug_all																															
+Instance_OutsideBincut,Row22,Flow_Harv_Out_TD_max		GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF03_PL10_PL20_EQN_LV														F_GFX0_TD_CORE3,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF03_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE4) || F_Debug_all																															
+Instance_OutsideBincut,Row23,Flow_Harv_Out_TD_max		GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF04_PL10_PL20_EQN_LV														F_GFX0_TD_CORE4,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF04_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE5) || F_Debug_all																															
+Instance_OutsideBincut,Row24,Flow_Harv_Out_TD_max		GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF05_PL10_PL20_EQN_LV														F_GFX0_TD_CORE5,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF05_PL10_PL20_EQN_LV																	
+						EndIf																																
+						If	(F_GFX0_TD_Multi&&!F_GFX0_SCAN_CORE6) || F_Debug_all																															
+Instance_OutsideBincut,Row25,Flow_Harv_Out_TD_max		GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF06_PL10_PL20_EQN_LV														F_GFX0_TD_CORE6,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF06_PL10_PL20_EQN_LV																	
+						EndIf																																
+Instance_OutsideBincut,Row26,Flow_Harv_Out_TD_max		!GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF00_PL10_PL20_SF_EQN_LV														F_GFX0_TD_CORE0,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF00_PL10_PL20_SF_EQN_LV							Flag-false	F_GFX0_SCAN_CORE0									
+Instance_OutsideBincut,Row27,Flow_Harv_Out_TD_max		!GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF01_PL10_PL20_SF_EQN_LV														F_GFX0_TD_CORE1,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF01_PL10_PL20_SF_EQN_LV							Flag-false	F_GFX0_SCAN_CORE1									
+Instance_OutsideBincut,Row28,Flow_Harv_Out_TD_max		!GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF02_PL10_PL20_SF_EQN_LV														F_GFX0_TD_CORE2,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF02_PL10_PL20_SF_EQN_LV							Flag-false	F_GFX0_SCAN_CORE2									
+Instance_OutsideBincut,Row29,Flow_Harv_Out_TD_max		!GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF03_PL10_PL20_SF_EQN_LV														F_GFX0_TD_CORE3,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF03_PL10_PL20_SF_EQN_LV							Flag-false	F_GFX0_SCAN_CORE3									
+Instance_OutsideBincut,Row30,Flow_Harv_Out_TD_max		!GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF04_PL10_PL20_SF_EQN_LV														F_GFX0_TD_CORE4,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF04_PL10_PL20_SF_EQN_LV							Flag-false	F_GFX0_SCAN_CORE4									
+Instance_OutsideBincut,Row31,Flow_Harv_Out_TD_max		!GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF05_PL10_PL20_SF_EQN_LV														F_GFX0_TD_CORE5,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF05_PL10_PL20_SF_EQN_LV							Flag-false	F_GFX0_SCAN_CORE5									
+Instance_OutsideBincut,Row32,Flow_Harv_Out_TD_max		!GFX_MFSTP			MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF06_PL10_PL20_SF_EQN_LV														F_GFX0_TD_CORE6,F_Gfx_Td_CFXX_MG00D_LV,F_GfxTd_PP_BRNA0_L_PL10_PL20_SC_CFXX_TDF_COM_HAR_ALLFRV_DM_MGX00D_CF06_PL10_PL20_SF_EQN_LV							Flag-false	F_GFX0_SCAN_CORE6									
+Instance_OutsideBincut,Row38,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	CpuTd_PP_BRNA0_C_PL10_PL20_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_MEX007_DIV166_PL10_PL20_EQN_LV														F_Cpu_Td_MEX007_LV,F_CpuTd_PP_BRNA0_C_PL10_PL20_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_MEX007_DIV166_PL10_PL20_EQN_LV																	
+Instance_OutsideBincut,Row38,Flow_Harv_Out_TD_max						flag-true	ControlBin_Cpu_Td_MEX007_HLV,ControlBin_Cpu_Td_MEX007_LV																					Flag-true	F_CpuTd_PP_BRNA0_C_PL10_PL20_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_MEX007_DIV166_PL10_PL20_EQN_LV									
+Instance_OutsideBincut,Row39,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	CpuTd_PP_BRNA0_C_PL00_SC_E0XD_TDF_COM_AUT_MEXXXX_DM_DIV422_MEX007_DIV422_PL00_EQN_LV														F_Cpu_Td_MEX007_LV,F_CpuTd_PP_BRNA0_C_PL00_SC_E0XD_TDF_COM_AUT_MEXXXX_DM_DIV422_MEX007_DIV422_PL00_EQN_LV																	
+Instance_OutsideBincut,Row39,Flow_Harv_Out_TD_max						flag-true	ControlBin_Cpu_Td_MEX007_HLV,ControlBin_Cpu_Td_MEX007_LV																					Flag-true	F_CpuTd_PP_BRNA0_C_PL00_SC_E0XD_TDF_COM_AUT_MEXXXX_DM_DIV422_MEX007_DIV422_PL00_EQN_LV									
+Instance_OutsideBincut,Row40,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	CpuTd_PP_BRNA0_C_PL00_SC_E0ED_TDF_COM_AUT_MEXXXX_DM_CEXTEST_MEX007_CEXTEST_PL00_EQN_LV														F_Cpu_Td_MEX007_LV,F_CpuTd_PP_BRNA0_C_PL00_SC_E0ED_TDF_COM_AUT_MEXXXX_DM_CEXTEST_MEX007_CEXTEST_PL00_EQN_LV																	
+Instance_OutsideBincut,Row40,Flow_Harv_Out_TD_max						flag-true	ControlBin_Cpu_Td_MEX007_HLV,ControlBin_Cpu_Td_MEX007_LV																					Flag-true	F_CpuTd_PP_BRNA0_C_PL00_SC_E0ED_TDF_COM_AUT_MEXXXX_DM_CEXTEST_MEX007_CEXTEST_PL00_EQN_LV									
+Instance_OutsideBincut,Row46,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	CpuTd_PP_BRNA0_C_PL10_PL20_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_MPX00J_DIV166_PL10_EQN_LV														F_Cpu_Td_LV,F_CpuTd_PP_BRNA0_C_PL10_PL20_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_MPX00J_DIV166_PL10_EQN_LV																	
+Instance_OutsideBincut,Row46,Flow_Harv_Out_TD_max						flag-true	ControlBin_Cpu_Td_HLV,ControlBin_Cpu_Td_LV																					Flag-true	F_CpuTd_PP_BRNA0_C_PL10_PL20_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_MPX00J_DIV166_PL10_EQN_LV									
+Instance_OutsideBincut,Row47,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	CpuTd_PP_BRNA0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_MPX00J_DIV422_PL00_EQN_LV														F_Cpu_Td_LV,F_CpuTd_PP_BRNA0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_MPX00J_DIV422_PL00_EQN_LV																	
+Instance_OutsideBincut,Row47,Flow_Harv_Out_TD_max						flag-true	ControlBin_Cpu_Td_HLV,ControlBin_Cpu_Td_LV																					Flag-true	F_CpuTd_PP_BRNA0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_MPX00J_DIV422_PL00_EQN_LV									
+Instance_OutsideBincut,Row48,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	CpuTd_PP_BRNA0_C_PL00_SC_P0PD_TDF_COM_AUT_MPXXXX_DM_CEXTEST_MPX00J_CEXTEST_PL00_EQN_LV														F_Cpu_Td_LV,F_CpuTd_PP_BRNA0_C_PL00_SC_P0PD_TDF_COM_AUT_MPXXXX_DM_CEXTEST_MPX00J_CEXTEST_PL00_EQN_LV																	
+Instance_OutsideBincut,Row48,Flow_Harv_Out_TD_max						flag-true	ControlBin_Cpu_Td_HLV,ControlBin_Cpu_Td_LV																					Flag-true	F_CpuTd_PP_BRNA0_C_PL00_SC_P0PD_TDF_COM_AUT_MPXXXX_DM_CEXTEST_MPX00J_CEXTEST_PL00_EQN_LV									
+Instance_OutsideBincut,Row61,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_MSX004_CAF0_PL20_EQN_LV														F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_MSX004_CAF0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row61,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MSX004_HLV,ControlBin_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_MSX004_CAF0_PL20_EQN_LV									
+Instance_OutsideBincut,Row62,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CCB0_TDF_SSC_AUT_MSXXXX_DM_MSX004_CCB0_PL20_EQN_LV														F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCB0_TDF_SSC_AUT_MSXXXX_DM_MSX004_CCB0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row62,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MSX004_HLV,ControlBin_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCB0_TDF_SSC_AUT_MSXXXX_DM_MSX004_CCB0_PL20_EQN_LV									
+Instance_OutsideBincut,Row63,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CCC0_TDF_SSC_AUT_MSXXXX_DM_MSX004_CCC0_PL20_EQN_LV														F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCC0_TDF_SSC_AUT_MSXXXX_DM_MSX004_CCC0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row63,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MSX004_HLV,ControlBin_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCC0_TDF_SSC_AUT_MSXXXX_DM_MSX004_CCC0_PL20_EQN_LV									
+Instance_OutsideBincut,Row64,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CCD0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCD0_PL20_EQN_LV														F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCD0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCD0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row64,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MSX004_HLV,ControlBin_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCD0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCD0_PL20_EQN_LV									
+Instance_OutsideBincut,Row65,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CCE0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCE0_PL20_EQN_LV														F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCE0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCE0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row65,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MSX004_HLV,ControlBin_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCE0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCE0_PL20_EQN_LV									
+Instance_OutsideBincut,Row66,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CCF0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCF0_PL20_EQN_LV														F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCF0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCF0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row66,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MSX004_HLV,ControlBin_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCF0_TDF_SSC_HAR_MSXXXX_DM_MSX004_CCF0_PL20_EQN_LV									
+Instance_OutsideBincut,Row67,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CCI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CCI0_PL20_EQN_LV														F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CCI0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row67,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MSX004_HLV,ControlBin_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CCI0_PL20_EQN_LV									
+Instance_OutsideBincut,Row68,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MSX004_CDA0_PL20_EQN_LV														F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MSX004_CDA0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row68,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MSX004_HLV,ControlBin_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MSX004_CDA0_PL20_EQN_LV									
+Instance_OutsideBincut,Row69,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CHI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CHI0_PL20_EQN_LV														F_Soc_Td_MSX004_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CHI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CHI0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row69,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MSX004_HLV,ControlBin_Soc_Td_MSX004_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CHI0_TDF_SSC_AUT_MSFXXX_DM_MSX004_CHI0_PL20_EQN_LV									
+Instance_OutsideBincut,Row71,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	GfxTd_PP_BRNA0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_DM_MSX004_CFND_PL20_EQN_LV														F_Gfx_Td_MGX001_LV,F_GfxTd_PP_BRNA0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_DM_MSX004_CFND_PL20_EQN_LV																	
+Instance_OutsideBincut,Row71,Flow_Harv_Out_TD_max						flag-true	ControlBin_Gfx_Td_MGX001_HLV,ControlBin_Gfx_Td_MGX001_LV																					Flag-true	F_GfxTd_PP_BRNA0_L_PL20_SC_CFND_TDF_COM_AUT_ALLFRV_DM_MSX004_CFND_PL20_EQN_LV									
+Instance_OutsideBincut,Row78,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CCG0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCG0_PL20_EQN_LV														F_Soc_Td_MIX005_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCG0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCG0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row78,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MIX005_HLV,ControlBin_Soc_Td_MIX005_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCG0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCG0_PL20_EQN_LV									
+Instance_OutsideBincut,Row79,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CCH0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCH0_PL20_EQN_LV														F_Soc_Td_MIX005_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCH0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCH0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row79,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MIX005_HLV,ControlBin_Soc_Td_MIX005_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCH0_TDF_SSC_HAR_MIXXXX_DM_MIX005_CCH0_PL20_EQN_LV									
+Instance_OutsideBincut,Row82,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CDB0_TDF_SSC_AUT_MDXXXX_DM_MDX009_CDB0_PL20_EQN_LV														F_Soc_Td_MDX009_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CDB0_TDF_SSC_AUT_MDXXXX_DM_MDX009_CDB0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row82,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MDX009_HLV,ControlBin_Soc_Td_MDX009_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CDB0_TDF_SSC_AUT_MDXXXX_DM_MDX009_CDB0_PL20_EQN_LV									
+Instance_OutsideBincut,Row84,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MDX009_CDA0_PL20_EQN_LV														F_Soc_Td_MDX009_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MDX009_CDA0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row84,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MDX009_HLV,ControlBin_Soc_Td_MDX009_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CDA0_TDF_SSC_AUT_MSDXXX_DM_MDX009_CDA0_PL20_EQN_LV									
+Instance_OutsideBincut,Row87,Flow_Harv_Out_TD_max					MissPatternInCsv	Test	SocTd_PP_BRNA0_S_PL20_SC_CCJ0_TDF_SSC_AUT_MAXXXX_DM_MAX003_CCJ0_PL20_EQN_LV														F_Soc_Td_MAX003_LV,F_SocTd_PP_BRNA0_S_PL20_SC_CCJ0_TDF_SSC_AUT_MAXXXX_DM_MAX003_CCJ0_PL20_EQN_LV																	
+Instance_OutsideBincut,Row87,Flow_Harv_Out_TD_max						flag-true	ControlBin_Soc_Td_MAX003_HLV,ControlBin_Soc_Td_MAX003_LV																					Flag-true	F_SocTd_PP_BRNA0_S_PL20_SC_CCJ0_TDF_SSC_AUT_MAXXXX_DM_MAX003_CCJ0_PL20_EQN_LV									
+						If	ControlBin_Cpu_Td_MEX007_HLV																															
+						Bintable	Bin_Cpu_Td_MEX007_HLV																															
+						EndIf																																
+						If	ControlBin_Cpu_Td_MEX007_LV																															
+						Bintable	Bin_Cpu_Td_MEX007_LV																															
+						EndIf																																
+						If	ControlBin_Cpu_Td_HLV																															
+						Bintable	Bin_Cpu_Td_HLV																															
+						EndIf																																
+						If	ControlBin_Cpu_Td_LV																															
+						Bintable	Bin_Cpu_Td_LV																															
+						EndIf																																
+						If	ControlBin_Soc_Td_MSX004_HLV																															
+						Bintable	Bin_Soc_Td_MSX004_HLV																															
+						EndIf																																
+						If	ControlBin_Soc_Td_MSX004_LV																															
+						Bintable	Bin_Soc_Td_MSX004_LV																															
+						EndIf																																
+						If	ControlBin_Gfx_Td_MGX001_HLV																															
+						Bintable	Bin_Gfx_Td_MGX001_HLV																															
+						EndIf																																
+						If	ControlBin_Gfx_Td_MGX001_LV																															
+						Bintable	Bin_Gfx_Td_MGX001_LV																															
+						EndIf																																
+						If	ControlBin_Soc_Td_MIX005_HLV																															
+						Bintable	Bin_Soc_Td_MIX005_HLV																															
+						EndIf																																
+						If	ControlBin_Soc_Td_MIX005_LV																															
+						Bintable	Bin_Soc_Td_MIX005_LV																															
+						EndIf																																
+						If	ControlBin_Soc_Td_MDX009_HLV																															
+						Bintable	Bin_Soc_Td_MDX009_HLV																															
+						EndIf																																
+						If	ControlBin_Soc_Td_MDX009_LV																															
+						Bintable	Bin_Soc_Td_MDX009_LV																															
+						EndIf																																
+						If	ControlBin_Soc_Td_MAX003_HLV																															
+						Bintable	Bin_Soc_Td_MAX003_HLV																															
+						EndIf																																
+						If	ControlBin_Soc_Td_MAX003_LV																															
+						Bintable	Bin_Soc_Td_MAX003_LV																															
+						EndIf																																
+						print	"Flow HARV_OUT_TD_MAX Stop"																															
+						Test	HARV_OUT_TD_MAX_Footer_1																															
+						Return																																

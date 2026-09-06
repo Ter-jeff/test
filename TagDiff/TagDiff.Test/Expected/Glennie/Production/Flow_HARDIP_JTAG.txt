@@ -1,0 +1,15 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"Flow HardIP_JTAG Start "																															
+		HardIP_NV||Prod_FT3				Test	JTAG_TAPBSD_PP_GLNA0_S_FULP_IO_BSCN_BSD_JIO_UNS_ALLFRV_SI_TAP_BSD_NV		50000												F_HardIP_JTAG_TAPBSD_pp_glna0_s_fulp_io_bscn_bsd_jio_uns_allfrv_si_tap_bsd_N_Flag																	TAPBSD	
+		HardIP_NV||Prod_FT3				Test	JTAG_DAPIDBYP_PP_GLNA0_S_FULP_FU_BSCN_PFF_JTG_JCC_ALLFRV_SI_DAP_IDBYP_NV		51000												F_HardIP_JTAG_DAPIDBYP_pp_glna0_s_fulp_fu_bscn_pff_jtg_jcc_allfrv_si_dap_idbyp_N_Flag																	DAPIDBYP	
+		(HardIP_LV||Prod_CP1||Prod_CP2)||Prod_FT3				Test	JTAG_TAPBSD_PP_GLNA0_S_FULP_IO_BSCN_BSD_JIO_UNS_ALLFRV_SI_TAP_BSD_LV		52000												F_HardIP_JTAG_TAPBSD_pp_glna0_s_fulp_io_bscn_bsd_jio_uns_allfrv_si_tap_bsd_L_Flag																	TAPBSD	
+		(HardIP_LV||Prod_CP1||Prod_CP2)||Prod_FT3				Test	JTAG_DAPIDBYP_PP_GLNA0_S_FULP_FU_BSCN_PFF_JTG_JCC_ALLFRV_SI_DAP_IDBYP_LV		53000												F_HardIP_JTAG_DAPIDBYP_pp_glna0_s_fulp_fu_bscn_pff_jtg_jcc_allfrv_si_dap_idbyp_L_Flag																	DAPIDBYP	
+		(HardIP_HV||Prod_CP1||Prod_CP2)||Prod_FT3				Test	JTAG_TAPBSD_PP_GLNA0_S_FULP_IO_BSCN_BSD_JIO_UNS_ALLFRV_SI_TAP_BSD_HV		54000												F_HardIP_JTAG_TAPBSD_pp_glna0_s_fulp_io_bscn_bsd_jio_uns_allfrv_si_tap_bsd_H_Flag																	TAPBSD	
+		(HardIP_HV||Prod_CP1||Prod_CP2)||Prod_FT3				Test	JTAG_DAPIDBYP_PP_GLNA0_S_FULP_FU_BSCN_PFF_JTG_JCC_ALLFRV_SI_DAP_IDBYP_HV		55000												F_HardIP_JTAG_DAPIDBYP_pp_glna0_s_fulp_fu_bscn_pff_jtg_jcc_allfrv_si_dap_idbyp_H_Flag																	DAPIDBYP	
+		HardIPBin				Bintable	Bin_HardIP_JTAG_TAPBSD_pp_glna0_s_fulp_io_bscn_bsd_jio_uns_allfrv_si_tap_bsd																															
+		HardIPBin				Bintable	Bin_HardIP_JTAG_DAPIDBYP_pp_glna0_s_fulp_fu_bscn_pff_jtg_jcc_allfrv_si_dap_idbyp																															
+						print	"Flow HardIP_JTAG Stop "																															
+						return																																

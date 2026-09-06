@@ -1,0 +1,87 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	MP002_TD_Mbist_BV_Header_1																															
+						print	"Flow MP002_TD_Mbist_BV Start"																															
+Instance_Bincut_MP,Row30,MPX002 CPU TD,TD		CP1	CP1		no_pattern	Test	MP002_MPX002_DIV166_DIV422_SRM0E_DIV166_DIV422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MP,Row28,MPX002 SOC TD,TD		CP1	CP1		no_pattern	Test	MP002_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MP,Row29,MPX002 SOC TD,TD		CP1	CP1		no_pattern	Test	MP002_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Rest_SRM0E_SOC_MPX002_TD_CAX0_PL00_PRC_Rest_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE_16_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST,Row223,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_ANE_BIST_HarvNONE_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE0) || F_Debug_all																															
+Instance_Bincut_BIST,Row224,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_1_ANE_BIST_HarvGH01_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE2) || F_Debug_all																															
+Instance_Bincut_BIST,Row225,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_2_ANE_BIST_HarvGH02_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE1) || F_Debug_all																															
+Instance_Bincut_BIST,Row226,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_3_ANE_BIST_HarvGH03_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE3) || F_Debug_all																															
+Instance_Bincut_BIST,Row227,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_4_ANE_BIST_HarvGH04_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE4) || F_Debug_all																															
+Instance_Bincut_BIST,Row228,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_5_ANE_BIST_HarvGH05_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE6) || F_Debug_all																															
+Instance_Bincut_BIST,Row229,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_6_ANE_BIST_HarvGH06_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE5) || F_Debug_all																															
+Instance_Bincut_BIST,Row230,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_7_ANE_BIST_HarvGH07_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE7) || F_Debug_all																															
+Instance_Bincut_BIST,Row231,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_8_ANE_BIST_HarvGH08_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE8) || F_Debug_all																															
+Instance_Bincut_BIST,Row232,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_9_ANE_BIST_HarvGH09_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE10) || F_Debug_all																															
+Instance_Bincut_BIST,Row233,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_10_ANE_BIST_HarvGH10_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE9) || F_Debug_all																															
+Instance_Bincut_BIST,Row234,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_11_ANE_BIST_HarvGH11_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE11) || F_Debug_all																															
+Instance_Bincut_BIST,Row235,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_12_ANE_BIST_HarvGH12_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE12) || F_Debug_all																															
+Instance_Bincut_BIST,Row236,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_13_ANE_BIST_HarvGH13_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE14) || F_Debug_all																															
+Instance_Bincut_BIST,Row237,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_14_ANE_BIST_HarvGH14_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE13) || F_Debug_all																															
+Instance_Bincut_BIST,Row238,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_15_ANE_BIST_HarvGH15_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE15) || F_Debug_all																															
+Instance_Bincut_BIST,Row239,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_16_ANE_BIST_HarvGH16_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE16) || F_Debug_all																															
+Instance_Bincut_BIST,Row240,MPX002 SOC BIST,Mbist		CP1			no_pattern	Test	MP002_MPX002_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_17_ANE_BIST_HarvGH17_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						print	"Flow MP002_TD_Mbist_BV Stop"																															
+						Test	MP002_TD_Mbist_BV_Footer_1																															
+						Return																																

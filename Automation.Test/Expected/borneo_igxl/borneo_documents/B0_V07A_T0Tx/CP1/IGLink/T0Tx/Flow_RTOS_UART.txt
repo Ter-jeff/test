@@ -1,0 +1,37 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow RTOS_UART Start "																															
+		Rtos_NV||Prod_FT2||Prod_FT2				If	(F_PCPU_HARV_5_0_SUM_0&&F_MCPU0_HARV_7_0_SUM_0&&F_MCPU1_HARV_7_0_SUM_0)																															
+						If	(F_ECPU_HARV_CORE_3_0_SUM_1 || F_ECPU_HARV_CORE_1_0_SUM_1) || F_Debug_all																															
+		Rtos_NV||Prod_FT2||Prod_FT2				Test	UART_RtosBoot														F_RTOS_boot_CPU_Harv																	
+						Bintable	Bin_RTOS_boot_CPU_Harv																															
+						EndIf																																
+						If	(!(F_ECPU_HARV_CORE_3_0_SUM_1 || F_ECPU_HARV_CORE_1_0_SUM_1)) || F_Debug_all																															
+		Rtos_NV||Prod_FT2||Prod_FT2				Test	UART_RtosBoot														F_RTOS_boot_NoneCPU_Harv																	
+						Bintable	Bin_RTOS_boot_NoneCPU_Harv																															
+						EndIf																																
+		Rtos_NV||Prod_FT2||Prod_FT2				EndIf																																
+		Rtos_LV||Prod_FT2||Prod_FT2				If	(F_PCPU_HARV_5_0_SUM_0&&F_MCPU0_HARV_7_0_SUM_0&&F_MCPU1_HARV_7_0_SUM_0)																															
+						If	(F_ECPU_HARV_CORE_3_0_SUM_1 || F_ECPU_HARV_CORE_1_0_SUM_1) || F_Debug_all																															
+		Rtos_LV||Prod_FT2||Prod_FT2				Test	UART_RtosBoot														F_RTOS_boot_CPU_Harv																	
+						Bintable	Bin_RTOS_boot_CPU_Harv																															
+						EndIf																																
+						If	(!(F_ECPU_HARV_CORE_3_0_SUM_1 || F_ECPU_HARV_CORE_1_0_SUM_1)) || F_Debug_all																															
+		Rtos_LV||Prod_FT2||Prod_FT2				Test	UART_RtosBoot														F_RTOS_boot_NoneCPU_Harv																	
+						Bintable	Bin_RTOS_boot_NoneCPU_Harv																															
+						EndIf																																
+		Rtos_LV||Prod_FT2||Prod_FT2				EndIf																																
+		Rtos_HV||Prod_FT2||Prod_FT2				If	(F_PCPU_HARV_5_0_SUM_0&&F_MCPU0_HARV_7_0_SUM_0&&F_MCPU1_HARV_7_0_SUM_0)																															
+						If	(F_ECPU_HARV_CORE_3_0_SUM_1 || F_ECPU_HARV_CORE_1_0_SUM_1) || F_Debug_all																															
+		Rtos_HV||Prod_FT2||Prod_FT2				Test	UART_RtosBoot														F_RTOS_boot_CPU_Harv																	
+						Bintable	Bin_RTOS_boot_CPU_Harv																															
+						EndIf																																
+						If	(!(F_ECPU_HARV_CORE_3_0_SUM_1 || F_ECPU_HARV_CORE_1_0_SUM_1)) || F_Debug_all																															
+		Rtos_HV||Prod_FT2||Prod_FT2				Test	UART_RtosBoot														F_RTOS_boot_NoneCPU_Harv																	
+						Bintable	Bin_RTOS_boot_NoneCPU_Harv																															
+						EndIf																																
+		Rtos_HV||Prod_FT2||Prod_FT2				EndIf																																
+						print	"Flow RTOS_UART Stop "																															
+						Return																																

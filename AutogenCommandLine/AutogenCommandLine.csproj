@@ -1,0 +1,91 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyTitle>AutogenCommandLine</AssemblyTitle>
+    <Product>AutogenCommandLine</Product>
+    <Authors>Autogen</Authors>
+    <PackageId>autogen-cli</PackageId>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>autogen-cli</ToolCommandName>
+    <PackageDescription>Autogen command line tool</PackageDescription>
+    <ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+
+    <!-- Include apphost to bundle AutogenCommandLine.exe in the nupkg -->
+    <TargetsForTfmSpecificContentInPackage>$(TargetsForTfmSpecificContentInPackage);_IncludeAppHostInToolPackage</TargetsForTfmSpecificContentInPackage>
+  </PropertyGroup>
+
+  <!-- Bundle AutogenCommandLine.exe inside nupkg -->
+  <Target Name="_IncludeAppHostInToolPackage"
+          DependsOnTargets="PackTool"
+          Returns="@(TfmSpecificPackageFile)">
+    <PropertyGroup>
+      <_ToolAppHostPath>$(PublishDir)$(AssemblyName)$(_NativeExecutableExtension)</_ToolAppHostPath>
+    </PropertyGroup>
+    <ItemGroup Condition="Exists('$(_ToolAppHostPath)')">
+      <TfmSpecificPackageFile Include="$(_ToolAppHostPath)">
+        <PackagePath>tools/$(TargetFramework)/any/</PackagePath>
+      </TfmSpecificPackageFile>
+    </ItemGroup>
+  </Target>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="1.9.4.205" />
+    <PackageReference Include="EPPlus" Version="4.5.3.2" />
+    <PackageReference Include="NLog" Version="5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Automation\Automation.csproj" />
+    <ProjectReference Include="..\Cautogen\Cautogen.csproj" />
+    <ProjectReference Include="..\Common\BinCutScriptLib\BinCutScriptLib.csproj" />
+    <ProjectReference Include="..\Common\EfuseCheckCmdLib\EfuseCheckCmdLib.csproj" />
+    <ProjectReference Include="..\Common\LcdLib\LcdLib.csproj" />
+    <ProjectReference Include="..\Common\MockLib\MockLib.csproj" />
+    <ProjectReference Include="..\Common\MyCommandLineLib\MyCommandLineLib.csproj" />
+    <ProjectReference Include="..\Common\RfLib\RfLib.csproj" />
+    <ProjectReference Include="..\TagDiff\TagDiff.Core\TagDiff.Core.csproj" />
+  </ItemGroup>
+
+  <!--
+    The IGXL packager (Automation.IgxlPackaging.csproj) targets net48 because IGLinkBase
+    depends on System.Windows.Forms. We deliberately do NOT add it as a ProjectReference:
+    NuGet restore would try to align the net8.0 host's TFM with the net48 child and fail
+    with NETSDK1005, even with SkipGetTargetFrameworkProperties/UndefineProperties.
+
+    Instead we build it via an explicit <MSBuild> task call (so AutogenCommandLine builds
+    work standalone) and register its outputs as Content so they propagate to the bin/ of
+    AutogenCommandLine and any project that ProjectReferences it (e.g. Automation.Test).
+    The sidecar is also in the solution, so dotnet build Automation.sln produces it
+    via the normal solution build graph.
+  -->
+  <Target Name="_BuildIgxlPackagerSidecar" BeforeTargets="ResolveProjectReferences">
+    <MSBuild Projects="..\Automation.IgxlPackaging\Automation.IgxlPackaging.csproj"
+             Targets="Restore" />
+    <MSBuild Projects="..\Automation.IgxlPackaging\Automation.IgxlPackaging.csproj"
+             Targets="Build"
+             Properties="Configuration=$(Configuration)" />
+  </Target>
+
+  <Target Name="_IncludeIgxlPackagerSidecarAsContent"
+          DependsOnTargets="_BuildIgxlPackagerSidecar"
+          BeforeTargets="AssignTargetPaths">
+    <ItemGroup>
+      <_IgxlPackagerSidecarFile Include="$(MSBuildProjectDirectory)\..\Automation.IgxlPackaging\bin\$(Configuration)\net48\**\*.*" />
+      <!-- Drop into an IgxlPackager/ subfolder so the net48 DLLs (especially
+           Newtonsoft.Json) can't shadow the .NET 8 host's copies and break
+           assembly resolution / the VSTest protocol negotiation. -->
+      <Content Include="@(_IgxlPackagerSidecarFile)">
+        <Link>IgxlPackager\%(RecursiveDir)%(Filename)%(Extension)</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+  </Target>
+
+  <ItemGroup>
+    <Content Include="Help\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,1276 @@
+MeasV_PinS				CUS_Str_DigCapData					CUS_Str_MainProgram			CUS_Str_DigCapData					Calc_Eqn						Calc_Eqn						Calc_Eqn						DigSrc_Equation		
+SubBlockName	Seq	Parametric0		SubBlockName	Bits	SgmName	DicName		SubBlockName	Parametric0		SubBlockName	Bits	SgmName	DicName		SubBlockName	Parametric0	Parametric1	Parametric2	Parametric3		SubBlockName	Parametric0	Parametric1	Parametric2	Parametric3		SubBlockName	Parametric0	Parametric1	Parametric2	Parametric3		SubBlockName	Equation	
+NTSEB0_MNNTSEREADT1P0	V	ANALOGMUX_OUT_NEG		NTSEB0_MNNTSEREADT1P0	DSSC_OUT				NTSEB0_NTSEREADT1P1CP1	'ConvertDAC:adc_ta00b__vref		NTSEB0_NTSEREADT1P1CP1	DSSC_OUT				NTSEB0_NTSEREADT1P1CP1	Alg		Calc_DSP_Dictionary_Process(ta00b__12b_32x:4:16+ta00b__12b_32x_cp1,ta00c__12b_32x:4:16+ta00c__12b_32x_cp1,ta00e__12b_32x:4:16+ta00e__12b_32x_cp1,ta00f__12b_32x:4:16+ta00f__12b_32x_cp1,ta00g__12b_32x:4:16+ta00g__12b_32x_cp1,ta00h__12b_32x:4:16+ta00h__12b_32x_cp1,ta01a__12b_32x:4:16+ta01a__12b_32x_cp1,ta01b__12b_32x:4:16+ta01b__12b_32x_cp1,ta01c__12b_32x:4:16+ta01c__12b_32x_cp1,ta01e__12b_32x:4:16+ta01e__12b_32x_cp1,ta01f__12b_32x:4:16+ta01f__12b_32x_cp1,ta01h__12b_32x:4:16+ta01h__12b_32x_cp1,tg007__12b_32x:4:16+tg007__12b_32x_cp1,tg008__12b_32x:4:16+tg008__12b_32x_cp1,tg009__12b_32x:4:16+tg009__12b_32x_cp1,tg00a__12b_32x:4:16+tg00a__12b_32x_cp1,tg00b__12b_32x:4:16+tg00b__12b_32x_cp1,tg00c__12b_32x:4:16+tg00c__12b_32x_cp1,tg00d__12b_32x:4:16+tg00d__12b_32x_cp1,tg01a__12b_32x:4:16+tg01a__12b_32x_cp1,tg01b__12b_32x:4:16+tg01b__12b_32x_cp1,tg01c__12b_32x:4:16+tg01c__12b_32x_cp1,tg01d__12b_32x:4:16+tg01d__12b_32x_cp1,tg01e__12b_32x:4:16+tg01e__12b_32x_cp1,tg01f__12b_32x:4:16+tg01f__12b_32x_cp1,tg01g__12b_32x:4:16+tg01g__12b_32x_cp1,tg01h__12b_32x:4:16+tg01h__12b_32x_cp1,te007__12b_32x:4:16+te007__12b_32x_cp1,te008__12b_32x:4:16+te008__12b_32x_cp1,te009__12b_32x:4:16+te009__12b_32x_cp1,te00e__12b_32x:4:16+te00e__12b_32x_cp1,te00h__12b_32x:4:16+te00h__12b_32x_cp1,te00i__12b_32x:4:16+te00i__12b_32x_cp1,tp005__12b_32x:4:16+tp005__12b_32x_cp1,tp007__12b_32x:4:16+tp007__12b_32x_cp1,tp009__12b_32x:4:16+tp009__12b_32x_cp1,tp00b__12b_32x:4:16+tp00b__12b_32x_cp1,tp00d__12b_32x:4:16+tp00d__12b_32x_cp1,tp00f__12b_32x:4:16+tp00f__12b_32x_cp1,tp00h__12b_32x:4:16+tp00h__12b_32x_cp1,tp00j__12b_32x:4:16+tp00j__12b_32x_cp1,tp00n__12b_32x:4:16+tp00n__12b_32x_cp1,tp00p__12b_32x:4:16+tp00p__12b_32x_cp1,tp00q__12b_32x:4:16+tp00q__12b_32x_cp1,tp00s__12b_32x:4:16+tp00s__12b_32x_cp1,tp00t__12b_32x:4:16+tp00t__12b_32x_cp1,tp00u__12b_32x:4:16+tp00u__12b_32x_cp1,tp00v__12b_32x:4:16+tp00v__12b_32x_cp1,tp00w__12b_32x:4:16+tp00w__12b_32x_cp1,tp00a__12b_32x:4:16+tp00a__12b_32x_cp1,tp00c__12b_32x:4:16+tp00c__12b_32x_cp1,tp00e__12b_32x:4:16+tp00e__12b_32x_cp1,tp00g__12b_32x:4:16+tp00g__12b_32x_cp1)			NTSEB0_NTSEREADT1P1FT1	Alg		Calc_nTSe_TempFuse(25+ta001_core0__icts_temp+ta001_core0__icts_temp_ft1+9,25+ta002_core0__icts_temp+ta002_core0__icts_temp_ft1+9,25+ta005_core0__icts_temp+ta005_core0__icts_temp_ft1+9,25+ta006_core0__icts_temp+ta006_core0__icts_temp_ft1+9,25+ta007_core0__icts_temp+ta007_core0__icts_temp_ft1+9,25+ta008_core0__icts_temp+ta008_core0__icts_temp_ft1+9,25+ta010_core0__icts_temp+ta010_core0__icts_temp_ft1+9,25+ta011_core0__icts_temp+ta011_core0__icts_temp_ft1+9,25+ta012_core0__icts_temp+ta012_core0__icts_temp_ft1+9,25+ta015_core0__icts_temp+ta015_core0__icts_temp_ft1+9,25+ta016_core0__icts_temp+ta016_core0__icts_temp_ft1+9,25+ta018_core0__icts_temp+ta018_core0__icts_temp_ft1+9,25+te001_core0__icts_temp+te001_core0__icts_temp_ft1+9,25+te002_core0__icts_temp+te002_core0__icts_temp_ft1+9,25+te003_core0__icts_temp+te003_core0__icts_temp_ft1+9,25+te00d_core0__icts_temp+te00d_core0__icts_temp_ft1+9,25+tg001_core0__icts_temp+tg001_core0__icts_temp_ft1+9,25+tg002_core0__icts_temp+tg002_core0__icts_temp_ft1+9,25+tg003_core0__icts_temp+tg003_core0__icts_temp_ft1+9,25+tg005_core0__icts_temp+tg005_core0__icts_temp_ft1+9,25+tg010_core0__icts_temp+tg010_core0__icts_temp_ft1+9,25+tg012_core0__icts_temp+tg012_core0__icts_temp_ft1+9,25+tg013_core0__icts_temp+tg013_core0__icts_temp_ft1+9,25+tg017_core0__icts_temp+tg017_core0__icts_temp_ft1+9,25+tg018_core0__icts_temp+tg018_core0__icts_temp_ft1+9,25+tp000_core0__icts_temp+tp000_core0__icts_temp_ft1+9,25+tp001_core0__icts_temp+tp001_core0__icts_temp_ft1+9,25+tp002_core0__icts_temp+tp002_core0__icts_temp_ft1+9,25+tp003_core0__icts_temp+tp003_core0__icts_temp_ft1+9,25+tp00l_core0__icts_temp+tp00l_core0__icts_temp_ft1+9,25+tp00m_core0__icts_temp+tp00m_core0__icts_temp_ft1+9,25+tp00x_core0__icts_temp+tp00x_core0__icts_temp_ft1+9,25+tp00y_core0__icts_temp+tp00y_core0__icts_temp_ft1+9)			NTSEB0_NTSEREADT1P1FT2	Alg		Calc_nTSe_VrefFT2(CALC_adc_ta00b__vref+CALC_adc_ta00b__vref_dig_cp1+CALC_adc_ta00b__vref_dig_ft2+9,CALC_adc_ta00c__vref+CALC_adc_ta00c__vref_dig_cp1+CALC_adc_ta00c__vref_dig_ft2+9,CALC_adc_ta00e__vref+CALC_adc_ta00e__vref_dig_cp1+CALC_adc_ta00e__vref_dig_ft2+9,CALC_adc_ta00f__vref+CALC_adc_ta00f__vref_dig_cp1+CALC_adc_ta00f__vref_dig_ft2+9,CALC_adc_ta00g__vref+CALC_adc_ta00g__vref_dig_cp1+CALC_adc_ta00g__vref_dig_ft2+9,CALC_adc_ta00h__vref+CALC_adc_ta00h__vref_dig_cp1+CALC_adc_ta00h__vref_dig_ft2+9,CALC_adc_ta01a__vref+CALC_adc_ta01a__vref_dig_cp1+CALC_adc_ta01a__vref_dig_ft2+9,CALC_adc_ta01b__vref+CALC_adc_ta01b__vref_dig_cp1+CALC_adc_ta01b__vref_dig_ft2+9,CALC_adc_ta01c__vref+CALC_adc_ta01c__vref_dig_cp1+CALC_adc_ta01c__vref_dig_ft2+9,CALC_adc_ta01e__vref+CALC_adc_ta01e__vref_dig_cp1+CALC_adc_ta01e__vref_dig_ft2+9,CALC_adc_ta01f__vref+CALC_adc_ta01f__vref_dig_cp1+CALC_adc_ta01f__vref_dig_ft2+9,CALC_adc_ta01h__vref+CALC_adc_ta01h__vref_dig_cp1+CALC_adc_ta01h__vref_dig_ft2+9,CALC_adc_tg007__vref+CALC_adc_tg007__vref_dig_cp1+CALC_adc_tg007__vref_dig_ft2+9,CALC_adc_tg008__vref+CALC_adc_tg008__vref_dig_cp1+CALC_adc_tg008__vref_dig_ft2+9,CALC_adc_tg009__vref+CALC_adc_tg009__vref_dig_cp1+CALC_adc_tg009__vref_dig_ft2+9,CALC_adc_tg00a__vref+CALC_adc_tg00a__vref_dig_cp1+CALC_adc_tg00a__vref_dig_ft2+9,CALC_adc_tg00b__vref+CALC_adc_tg00b__vref_dig_cp1+CALC_adc_tg00b__vref_dig_ft2+9,CALC_adc_tg00c__vref+CALC_adc_tg00c__vref_dig_cp1+CALC_adc_tg00c__vref_dig_ft2+9,CALC_adc_tg00d__vref+CALC_adc_tg00d__vref_dig_cp1+CALC_adc_tg00d__vref_dig_ft2+9,CALC_adc_tg01a__vref+CALC_adc_tg01a__vref_dig_cp1+CALC_adc_tg01a__vref_dig_ft2+9,CALC_adc_tg01b__vref+CALC_adc_tg01b__vref_dig_cp1+CALC_adc_tg01b__vref_dig_ft2+9,CALC_adc_tg01c__vref+CALC_adc_tg01c__vref_dig_cp1+CALC_adc_tg01c__vref_dig_ft2+9,CALC_adc_tg01d__vref+CALC_adc_tg01d__vref_dig_cp1+CALC_adc_tg01d__vref_dig_ft2+9,CALC_adc_tg01e__vref+CALC_adc_tg01e__vref_dig_cp1+CALC_adc_tg01e__vref_dig_ft2+9,CALC_adc_tg01f__vref+CALC_adc_tg01f__vref_dig_cp1+CALC_adc_tg01f__vref_dig_ft2+9,CALC_adc_tg01g__vref+CALC_adc_tg01g__vref_dig_cp1+CALC_adc_tg01g__vref_dig_ft2+9,CALC_adc_tg01h__vref+CALC_adc_tg01h__vref_dig_cp1+CALC_adc_tg01h__vref_dig_ft2+9,CALC_adc_te007__vref+CALC_adc_te007__vref_dig_cp1+CALC_adc_te007__vref_dig_ft2+9,CALC_adc_te008__vref+CALC_adc_te008__vref_dig_cp1+CALC_adc_te008__vref_dig_ft2+9,CALC_adc_te009__vref+CALC_adc_te009__vref_dig_cp1+CALC_adc_te009__vref_dig_ft2+9,CALC_adc_te00e__vref+CALC_adc_te00e__vref_dig_cp1+CALC_adc_te00e__vref_dig_ft2+9,CALC_adc_te00h__vref+CALC_adc_te00h__vref_dig_cp1+CALC_adc_te00h__vref_dig_ft2+9,CALC_adc_te00i__vref+CALC_adc_te00i__vref_dig_cp1+CALC_adc_te00i__vref_dig_ft2+9,CALC_adc_tp005__vref+CALC_adc_tp005__vref_dig_cp1+CALC_adc_tp005__vref_dig_ft2+9,CALC_adc_tp007__vref+CALC_adc_tp007__vref_dig_cp1+CALC_adc_tp007__vref_dig_ft2+9,CALC_adc_tp009__vref+CALC_adc_tp009__vref_dig_cp1+CALC_adc_tp009__vref_dig_ft2+9,CALC_adc_tp00b__vref+CALC_adc_tp00b__vref_dig_cp1+CALC_adc_tp00b__vref_dig_ft2+9,CALC_adc_tp00d__vref+CALC_adc_tp00d__vref_dig_cp1+CALC_adc_tp00d__vref_dig_ft2+9,CALC_adc_tp00f__vref+CALC_adc_tp00f__vref_dig_cp1+CALC_adc_tp00f__vref_dig_ft2+9,CALC_adc_tp00h__vref+CALC_adc_tp00h__vref_dig_cp1+CALC_adc_tp00h__vref_dig_ft2+9,CALC_adc_tp00j__vref+CALC_adc_tp00j__vref_dig_cp1+CALC_adc_tp00j__vref_dig_ft2+9,CALC_adc_tp00n__vref+CALC_adc_tp00n__vref_dig_cp1+CALC_adc_tp00n__vref_dig_ft2+9,CALC_adc_tp00p__vref+CALC_adc_tp00p__vref_dig_cp1+CALC_adc_tp00p__vref_dig_ft2+9,CALC_adc_tp00q__vref+CALC_adc_tp00q__vref_dig_cp1+CALC_adc_tp00q__vref_dig_ft2+9,CALC_adc_tp00s__vref+CALC_adc_tp00s__vref_dig_cp1+CALC_adc_tp00s__vref_dig_ft2+9,CALC_adc_tp00t__vref+CALC_adc_tp00t__vref_dig_cp1+CALC_adc_tp00t__vref_dig_ft2+9,CALC_adc_tp00u__vref+CALC_adc_tp00u__vref_dig_cp1+CALC_adc_tp00u__vref_dig_ft2+9,CALC_adc_tp00v__vref+CALC_adc_tp00v__vref_dig_cp1+CALC_adc_tp00v__vref_dig_ft2+9,CALC_adc_tp00w__vref+CALC_adc_tp00w__vref_dig_cp1+CALC_adc_tp00w__vref_dig_ft2+9,CALC_adc_tp00a__vref+CALC_adc_tp00a__vref_dig_cp1+CALC_adc_tp00a__vref_dig_ft2+9,CALC_adc_tp00c__vref+CALC_adc_tp00c__vref_dig_cp1+CALC_adc_tp00c__vref_dig_ft2+9,CALC_adc_tp00e__vref+CALC_adc_tp00e__vref_dig_cp1+CALC_adc_tp00e__vref_dig_ft2+9,CALC_adc_tp00g__vref+CALC_adc_tp00g__vref_dig_cp1+CALC_adc_tp00g__vref_dig_ft2+9)			NTSEB0_NTSEREADT2	'ta00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_32X_VREF				'adc_ta00b__vip_adc			12	ADC_Ta00b__VREF	calc_adc_ta00b__vref			Alg		Calc_nTSe_VrefCP1(CALC_adc_ta00b__vref+CALC_adc_ta00b__vref_dig_cp1+12,CALC_adc_ta00c__vref+CALC_adc_ta00c__vref_dig_cp1+12,CALC_adc_ta00e__vref+CALC_adc_ta00e__vref_dig_cp1+12,CALC_adc_ta00f__vref+CALC_adc_ta00f__vref_dig_cp1+12,CALC_adc_ta00g__vref+CALC_adc_ta00g__vref_dig_cp1+12,CALC_adc_ta00h__vref+CALC_adc_ta00h__vref_dig_cp1+12,CALC_adc_ta01a__vref+CALC_adc_ta01a__vref_dig_cp1+12,CALC_adc_ta01b__vref+CALC_adc_ta01b__vref_dig_cp1+12,CALC_adc_ta01c__vref+CALC_adc_ta01c__vref_dig_cp1+12,CALC_adc_ta01e__vref+CALC_adc_ta01e__vref_dig_cp1+12,CALC_adc_ta01f__vref+CALC_adc_ta01f__vref_dig_cp1+12,CALC_adc_ta01h__vref+CALC_adc_ta01h__vref_dig_cp1+12,CALC_adc_tg007__vref+CALC_adc_tg007__vref_dig_cp1+12,CALC_adc_tg008__vref+CALC_adc_tg008__vref_dig_cp1+12,CALC_adc_tg009__vref+CALC_adc_tg009__vref_dig_cp1+12,CALC_adc_tg00a__vref+CALC_adc_tg00a__vref_dig_cp1+12,CALC_adc_tg00b__vref+CALC_adc_tg00b__vref_dig_cp1+12,CALC_adc_tg00c__vref+CALC_adc_tg00c__vref_dig_cp1+12,CALC_adc_tg00d__vref+CALC_adc_tg00d__vref_dig_cp1+12,CALC_adc_tg01a__vref+CALC_adc_tg01a__vref_dig_cp1+12,CALC_adc_tg01b__vref+CALC_adc_tg01b__vref_dig_cp1+12,CALC_adc_tg01c__vref+CALC_adc_tg01c__vref_dig_cp1+12,CALC_adc_tg01d__vref+CALC_adc_tg01d__vref_dig_cp1+12,CALC_adc_tg01e__vref+CALC_adc_tg01e__vref_dig_cp1+12,CALC_adc_tg01f__vref+CALC_adc_tg01f__vref_dig_cp1+12,CALC_adc_tg01g__vref+CALC_adc_tg01g__vref_dig_cp1+12,CALC_adc_tg01h__vref+CALC_adc_tg01h__vref_dig_cp1+12,CALC_adc_te007__vref+CALC_adc_te007__vref_dig_cp1+12,CALC_adc_te008__vref+CALC_adc_te008__vref_dig_cp1+12,CALC_adc_te009__vref+CALC_adc_te009__vref_dig_cp1+12,CALC_adc_te00e__vref+CALC_adc_te00e__vref_dig_cp1+12,CALC_adc_te00h__vref+CALC_adc_te00h__vref_dig_cp1+12,CALC_adc_te00i__vref+CALC_adc_te00i__vref_dig_cp1+12,CALC_adc_tp005__vref+CALC_adc_tp005__vref_dig_cp1+12,CALC_adc_tp007__vref+CALC_adc_tp007__vref_dig_cp1+12,CALC_adc_tp009__vref+CALC_adc_tp009__vref_dig_cp1+12,CALC_adc_tp00b__vref+CALC_adc_tp00b__vref_dig_cp1+12,CALC_adc_tp00d__vref+CALC_adc_tp00d__vref_dig_cp1+12,CALC_adc_tp00f__vref+CALC_adc_tp00f__vref_dig_cp1+12,CALC_adc_tp00h__vref+CALC_adc_tp00h__vref_dig_cp1+12,CALC_adc_tp00j__vref+CALC_adc_tp00j__vref_dig_cp1+12,CALC_adc_tp00n__vref+CALC_adc_tp00n__vref_dig_cp1+12,CALC_adc_tp00p__vref+CALC_adc_tp00p__vref_dig_cp1+12,CALC_adc_tp00q__vref+CALC_adc_tp00q__vref_dig_cp1+12,CALC_adc_tp00s__vref+CALC_adc_tp00s__vref_dig_cp1+12,CALC_adc_tp00t__vref+CALC_adc_tp00t__vref_dig_cp1+12,CALC_adc_tp00u__vref+CALC_adc_tp00u__vref_dig_cp1+12,CALC_adc_tp00v__vref+CALC_adc_tp00v__vref_dig_cp1+12,CALC_adc_tp00w__vref+CALC_adc_tp00w__vref_dig_cp1+12,CALC_adc_tp00a__vref+CALC_adc_tp00a__vref_dig_cp1+12,CALC_adc_tp00c__vref+CALC_adc_tp00c__vref_dig_cp1+12,CALC_adc_tp00e__vref+CALC_adc_tp00e__vref_dig_cp1+12,CALC_adc_tp00g__vref+CALC_adc_tp00g__vref_dig_cp1+12)				Alg		Calc_DSP_Dictionary_Process(ta00b__12b_32x:1:16+ta00b__12b_32x_ft1,ta00c__12b_32x:1:16+ta00c__12b_32x_ft1,ta00e__12b_32x:1:16+ta00e__12b_32x_ft1,ta00f__12b_32x:1:16+ta00f__12b_32x_ft1,ta00g__12b_32x:1:16+ta00g__12b_32x_ft1,ta00h__12b_32x:1:16+ta00h__12b_32x_ft1,ta01a__12b_32x:1:16+ta01a__12b_32x_ft1,ta01b__12b_32x:1:16+ta01b__12b_32x_ft1,ta01c__12b_32x:1:16+ta01c__12b_32x_ft1,ta01e__12b_32x:1:16+ta01e__12b_32x_ft1,ta01f__12b_32x:1:16+ta01f__12b_32x_ft1,ta01h__12b_32x:1:16+ta01h__12b_32x_ft1,tg007__12b_32x:1:16+tg007__12b_32x_ft1,tg008__12b_32x:1:16+tg008__12b_32x_ft1,tg009__12b_32x:1:16+tg009__12b_32x_ft1,tg00a__12b_32x:1:16+tg00a__12b_32x_ft1,tg00b__12b_32x:1:16+tg00b__12b_32x_ft1,tg00c__12b_32x:1:16+tg00c__12b_32x_ft1,tg00d__12b_32x:1:16+tg00d__12b_32x_ft1,tg01a__12b_32x:1:16+tg01a__12b_32x_ft1,tg01b__12b_32x:1:16+tg01b__12b_32x_ft1,tg01c__12b_32x:1:16+tg01c__12b_32x_ft1,tg01d__12b_32x:1:16+tg01d__12b_32x_ft1,tg01e__12b_32x:1:16+tg01e__12b_32x_ft1,tg01f__12b_32x:1:16+tg01f__12b_32x_ft1,tg01g__12b_32x:1:16+tg01g__12b_32x_ft1,tg01h__12b_32x:1:16+tg01h__12b_32x_ft1,te007__12b_32x:1:16+te007__12b_32x_ft1,te008__12b_32x:1:16+te008__12b_32x_ft1,te009__12b_32x:1:16+te009__12b_32x_ft1,te00e__12b_32x:1:16+te00e__12b_32x_ft1,te00h__12b_32x:1:16+te00h__12b_32x_ft1,te00i__12b_32x:1:16+te00i__12b_32x_ft1,tp005__12b_32x:1:16+tp005__12b_32x_ft1,tp007__12b_32x:1:16+tp007__12b_32x_ft1,tp009__12b_32x:1:16+tp009__12b_32x_ft1,tp00b__12b_32x:1:16+tp00b__12b_32x_ft1,tp00d__12b_32x:1:16+tp00d__12b_32x_ft1,tp00f__12b_32x:1:16+tp00f__12b_32x_ft1,tp00h__12b_32x:1:16+tp00h__12b_32x_ft1,tp00j__12b_32x:1:16+tp00j__12b_32x_ft1,tp00n__12b_32x:1:16+tp00n__12b_32x_ft1,tp00p__12b_32x:1:16+tp00p__12b_32x_ft1,tp00q__12b_32x:1:16+tp00q__12b_32x_ft1,tp00s__12b_32x:1:16+tp00s__12b_32x_ft1,tp00t__12b_32x:1:16+tp00t__12b_32x_ft1,tp00u__12b_32x:1:16+tp00u__12b_32x_ft1,tp00v__12b_32x:1:16+tp00v__12b_32x_ft1,tp00w__12b_32x:1:16+tp00w__12b_32x_ft1,tp00a__12b_32x:1:16+tp00a__12b_32x_ft1,tp00c__12b_32x:1:16+tp00c__12b_32x_ft1,tp00e__12b_32x:1:16+tp00e__12b_32x_ft1,tp00g__12b_32x:1:16+tp00g__12b_32x_ft1,ta001_core0__icts_temp_ft1+ta00b_ntse_temp_ft1,ta002_core0__icts_temp_ft1+ta00c_ntse_temp_ft1,ta005_core0__icts_temp_ft1+ta00e_ntse_temp_ft1,ta006_core0__icts_temp_ft1+ta00f_ntse_temp_ft1,ta007_core0__icts_temp_ft1+ta00g_ntse_temp_ft1,ta008_core0__icts_temp_ft1+ta00h_ntse_temp_ft1,ta010_core0__icts_temp_ft1+ta01a_ntse_temp_ft1,ta011_core0__icts_temp_ft1+ta01b_ntse_temp_ft1,ta012_core0__icts_temp_ft1+ta01c_ntse_temp_ft1,ta015_core0__icts_temp_ft1+ta01e_ntse_temp_ft1,ta016_core0__icts_temp_ft1+ta01f_ntse_temp_ft1,ta018_core0__icts_temp_ft1+ta01h_ntse_temp_ft1,te001_core0__icts_temp_ft1+te007_ntse_temp_ft1,te002_core0__icts_temp_ft1+te008_ntse_temp_ft1,te003_core0__icts_temp_ft1+te009_ntse_temp_ft1,te00d_core0__icts_temp_ft1+te00e_ntse_temp_ft1,te00d_core0__icts_temp_ft1+te00h_ntse_temp_ft1,te00d_core0__icts_temp_ft1+te00i_ntse_temp_ft1,tg001_core0__icts_temp_ft1+tg007_ntse_temp_ft1,tg002_core0__icts_temp_ft1+tg008_ntse_temp_ft1,tg003_core0__icts_temp_ft1+tg009_ntse_temp_ft1,tg003_core0__icts_temp_ft1+tg00a_ntse_temp_ft1,tg005_core0__icts_temp_ft1+tg00b_ntse_temp_ft1,tg005_core0__icts_temp_ft1+tg00c_ntse_temp_ft1,tg005_core0__icts_temp_ft1+tg00d_ntse_temp_ft1,tg010_core0__icts_temp_ft1+tg01a_ntse_temp_ft1,tg012_core0__icts_temp_ft1+tg01b_ntse_temp_ft1,tg012_core0__icts_temp_ft1+tg01c_ntse_temp_ft1,tg013_core0__icts_temp_ft1+tg01d_ntse_temp_ft1,tg013_core0__icts_temp_ft1+tg01e_ntse_temp_ft1,tg017_core0__icts_temp_ft1+tg01f_ntse_temp_ft1,tg017_core0__icts_temp_ft1+tg01g_ntse_temp_ft1,tg018_core0__icts_temp_ft1+tg01h_ntse_temp_ft1,tp000_core0__icts_temp_ft1+tp005_ntse_temp_ft1,tp001_core0__icts_temp_ft1+tp007_ntse_temp_ft1,tp002_core0__icts_temp_ft1+tp009_ntse_temp_ft1,tp003_core0__icts_temp_ft1+tp00b_ntse_temp_ft1,tp000_core0__icts_temp_ft1+tp00d_ntse_temp_ft1,tp001_core0__icts_temp_ft1+tp00f_ntse_temp_ft1,tp002_core0__icts_temp_ft1+tp00h_ntse_temp_ft1,tp003_core0__icts_temp_ft1+tp00j_ntse_temp_ft1,tp00l_core0__icts_temp_ft1+tp00n_ntse_temp_ft1,tp00l_core0__icts_temp_ft1+tp00p_ntse_temp_ft1,tp00l_core0__icts_temp_ft1+tp00q_ntse_temp_ft1,tp00l_core0__icts_temp_ft1+tp00s_ntse_temp_ft1,tp00l_core0__icts_temp_ft1+tp00t_ntse_temp_ft1,tp00l_core0__icts_temp_ft1+tp00u_ntse_temp_ft1,tp00m_core0__icts_temp_ft1+tp00v_ntse_temp_ft1,tp00m_core0__icts_temp_ft1+tp00w_ntse_temp_ft1,tp00x_core0__icts_temp_ft1+tp00a_ntse_temp_ft1,tp00y_core0__icts_temp_ft1+tp00c_ntse_temp_ft1,tp00x_core0__icts_temp_ft1+tp00e_ntse_temp_ft1,tp00y_core0__icts_temp_ft1+tp00g_ntse_temp_ft1)				Alg		Calc_nTSe_TempFuse(85+ta001_core0__icts_temp+ta001_core0__icts_temp_ft2+10,85+ta002_core0__icts_temp+ta002_core0__icts_temp_ft2+10,85+ta005_core0__icts_temp+ta005_core0__icts_temp_ft2+10,85+ta006_core0__icts_temp+ta006_core0__icts_temp_ft2+10,85+ta007_core0__icts_temp+ta007_core0__icts_temp_ft2+10,85+ta008_core0__icts_temp+ta008_core0__icts_temp_ft2+10,85+ta010_core0__icts_temp+ta010_core0__icts_temp_ft2+10,85+ta011_core0__icts_temp+ta011_core0__icts_temp_ft2+10,85+ta012_core0__icts_temp+ta012_core0__icts_temp_ft2+10,85+ta015_core0__icts_temp+ta015_core0__icts_temp_ft2+10,85+ta016_core0__icts_temp+ta016_core0__icts_temp_ft2+10,85+ta018_core0__icts_temp+ta018_core0__icts_temp_ft2+10,85+te001_core0__icts_temp+te001_core0__icts_temp_ft2+10,85+te002_core0__icts_temp+te002_core0__icts_temp_ft2+10,85+te003_core0__icts_temp+te003_core0__icts_temp_ft2+10,85+te00d_core0__icts_temp+te00d_core0__icts_temp_ft2+10,85+tg001_core0__icts_temp+tg001_core0__icts_temp_ft2+10,85+tg002_core0__icts_temp+tg002_core0__icts_temp_ft2+10,85+tg003_core0__icts_temp+tg003_core0__icts_temp_ft2+10,85+tg005_core0__icts_temp+tg005_core0__icts_temp_ft2+10,85+tg010_core0__icts_temp+tg010_core0__icts_temp_ft2+10,85+tg012_core0__icts_temp+tg012_core0__icts_temp_ft2+10,85+tg013_core0__icts_temp+tg013_core0__icts_temp_ft2+10,85+tg017_core0__icts_temp+tg017_core0__icts_temp_ft2+10,85+tg018_core0__icts_temp+tg018_core0__icts_temp_ft2+10,85+tp000_core0__icts_temp+tp000_core0__icts_temp_ft2+10,85+tp001_core0__icts_temp+tp001_core0__icts_temp_ft2+10,85+tp002_core0__icts_temp+tp002_core0__icts_temp_ft2+10,85+tp003_core0__icts_temp+tp003_core0__icts_temp_ft2+10,85+tp00l_core0__icts_temp+tp00l_core0__icts_temp_ft2+10,85+tp00m_core0__icts_temp+tp00m_core0__icts_temp_ft2+10,85+tp00x_core0__icts_temp+tp00x_core0__icts_temp_ft2+10,85+tp00y_core0__icts_temp+tp00y_core0__icts_temp_ft2+10)				'ta00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_32X_VREF				'adc_ta00b__vin_adc			12	ADC_Ta00b__VIP_ADC	adc_ta00b__vip_adc			Alg		Calc_NTS_Statistics(CALC_adc_ta00b__vref@adc_ta00b__vip_adc+CALC_adc_ta00c__vref@adc_ta00c__vip_adc+CALC_adc_ta00e__vref@adc_ta00e__vip_adc+CALC_adc_ta00f__vref@adc_ta00f__vip_adc+CALC_adc_ta00g__vref@adc_ta00g__vip_adc+CALC_adc_ta00h__vref@adc_ta00h__vip_adc+CALC_adc_ta01a__vref@adc_ta01a__vip_adc+CALC_adc_ta01b__vref@adc_ta01b__vip_adc+CALC_adc_ta01c__vref@adc_ta01c__vip_adc+CALC_adc_ta01e__vref@adc_ta01e__vip_adc+CALC_adc_ta01f__vref@adc_ta01f__vip_adc+CALC_adc_ta01h__vref@adc_ta01h__vip_adc,CALC_adc_ta00b__vref+CALC_adc_ta00c__vref+CALC_adc_ta00e__vref+CALC_adc_ta00f__vref+CALC_adc_ta00g__vref+CALC_adc_ta00h__vref+CALC_adc_ta01a__vref+CALC_adc_ta01b__vref+CALC_adc_ta01c__vref+CALC_adc_ta01e__vref+CALC_adc_ta01f__vref+CALC_adc_ta01h__vref,adc_ta00b__vin_adc+adc_ta00c__vin_adc+adc_ta00e__vin_adc+adc_ta00f__vin_adc+adc_ta00g__vin_adc+adc_ta00h__vin_adc+adc_ta01a__vin_adc+adc_ta01b__vin_adc+adc_ta01c__vin_adc+adc_ta01e__vin_adc+adc_ta01f__vin_adc+adc_ta01h__vin_adc,ta00b__12b_1x+ta00c__12b_1x+ta00e__12b_1x+ta00f__12b_1x+ta00g__12b_1x+ta00h__12b_1x+ta01a__12b_1x+ta01b__12b_1x+ta01c__12b_1x+ta01e__12b_1x+ta01f__12b_1x+ta01h__12b_1x,ta00b__12b_1x_self_0p5+ta00c__12b_1x_self_0p5+ta00e__12b_1x_self_0p5+ta00f__12b_1x_self_0p5+ta00g__12b_1x_self_0p5+ta00h__12b_1x_self_0p5+ta01a__12b_1x_self_0p5+ta01b__12b_1x_self_0p5+ta01c__12b_1x_self_0p5+ta01e__12b_1x_self_0p5+ta01f__12b_1x_self_0p5+ta01h__12b_1x_self_0p5)										Alg		Calc_DSP_Dictionary_Process(ta00b__12b_32x:1:16+ta00b__12b_32x_ft2,ta00c__12b_32x:1:16+ta00c__12b_32x_ft2,ta00e__12b_32x:1:16+ta00e__12b_32x_ft2,ta00f__12b_32x:1:16+ta00f__12b_32x_ft2,ta00g__12b_32x:1:16+ta00g__12b_32x_ft2,ta00h__12b_32x:1:16+ta00h__12b_32x_ft2,ta01a__12b_32x:1:16+ta01a__12b_32x_ft2,ta01b__12b_32x:1:16+ta01b__12b_32x_ft2,ta01c__12b_32x:1:16+ta01c__12b_32x_ft2,ta01e__12b_32x:1:16+ta01e__12b_32x_ft2,ta01f__12b_32x:1:16+ta01f__12b_32x_ft2,ta01h__12b_32x:1:16+ta01h__12b_32x_ft2,tg007__12b_32x:1:16+tg007__12b_32x_ft2,tg008__12b_32x:1:16+tg008__12b_32x_ft2,tg009__12b_32x:1:16+tg009__12b_32x_ft2,tg00a__12b_32x:1:16+tg00a__12b_32x_ft2,tg00b__12b_32x:1:16+tg00b__12b_32x_ft2,tg00c__12b_32x:1:16+tg00c__12b_32x_ft2,tg00d__12b_32x:1:16+tg00d__12b_32x_ft2,tg01a__12b_32x:1:16+tg01a__12b_32x_ft2,tg01b__12b_32x:1:16+tg01b__12b_32x_ft2,tg01c__12b_32x:1:16+tg01c__12b_32x_ft2,tg01d__12b_32x:1:16+tg01d__12b_32x_ft2,tg01e__12b_32x:1:16+tg01e__12b_32x_ft2,tg01f__12b_32x:1:16+tg01f__12b_32x_ft2,tg01g__12b_32x:1:16+tg01g__12b_32x_ft2,tg01h__12b_32x:1:16+tg01h__12b_32x_ft2,te007__12b_32x:1:16+te007__12b_32x_ft2,te008__12b_32x:1:16+te008__12b_32x_ft2,te009__12b_32x:1:16+te009__12b_32x_ft2,te00e__12b_32x:1:16+te00e__12b_32x_ft2,te00h__12b_32x:1:16+te00h__12b_32x_ft2,te00i__12b_32x:1:16+te00i__12b_32x_ft2,tp005__12b_32x:1:16+tp005__12b_32x_ft2,tp007__12b_32x:1:16+tp007__12b_32x_ft2,tp009__12b_32x:1:16+tp009__12b_32x_ft2,tp00b__12b_32x:1:16+tp00b__12b_32x_ft2,tp00d__12b_32x:1:16+tp00d__12b_32x_ft2,tp00f__12b_32x:1:16+tp00f__12b_32x_ft2,tp00h__12b_32x:1:16+tp00h__12b_32x_ft2,tp00j__12b_32x:1:16+tp00j__12b_32x_ft2,tp00n__12b_32x:1:16+tp00n__12b_32x_ft2,tp00p__12b_32x:1:16+tp00p__12b_32x_ft2,tp00q__12b_32x:1:16+tp00q__12b_32x_ft2,tp00s__12b_32x:1:16+tp00s__12b_32x_ft2,tp00t__12b_32x:1:16+tp00t__12b_32x_ft2,tp00u__12b_32x:1:16+tp00u__12b_32x_ft2,tp00v__12b_32x:1:16+tp00v__12b_32x_ft2,tp00w__12b_32x:1:16+tp00w__12b_32x_ft2,tp00a__12b_32x:1:16+tp00a__12b_32x_ft2,tp00c__12b_32x:1:16+tp00c__12b_32x_ft2,tp00e__12b_32x:1:16+tp00e__12b_32x_ft2,tp00g__12b_32x:1:16+tp00g__12b_32x_ft2,ta001_core0__icts_temp_ft2+ta00b_ntse_temp_ft2,ta002_core0__icts_temp_ft2+ta00c_ntse_temp_ft2,ta005_core0__icts_temp_ft2+ta00e_ntse_temp_ft2,ta006_core0__icts_temp_ft2+ta00f_ntse_temp_ft2,ta007_core0__icts_temp_ft2+ta00g_ntse_temp_ft2,ta008_core0__icts_temp_ft2+ta00h_ntse_temp_ft2,ta010_core0__icts_temp_ft2+ta01a_ntse_temp_ft2,ta011_core0__icts_temp_ft2+ta01b_ntse_temp_ft2,ta012_core0__icts_temp_ft2+ta01c_ntse_temp_ft2,ta015_core0__icts_temp_ft2+ta01e_ntse_temp_ft2,ta016_core0__icts_temp_ft2+ta01f_ntse_temp_ft2,ta018_core0__icts_temp_ft2+ta01h_ntse_temp_ft2,te001_core0__icts_temp_ft2+te007_ntse_temp_ft2,te002_core0__icts_temp_ft2+te008_ntse_temp_ft2,te003_core0__icts_temp_ft2+te009_ntse_temp_ft2,te00d_core0__icts_temp_ft2+te00e_ntse_temp_ft2,te00d_core0__icts_temp_ft2+te00h_ntse_temp_ft2,te00d_core0__icts_temp_ft2+te00i_ntse_temp_ft2,tg001_core0__icts_temp_ft2+tg007_ntse_temp_ft2,tg002_core0__icts_temp_ft2+tg008_ntse_temp_ft2,tg003_core0__icts_temp_ft2+tg009_ntse_temp_ft2,tg003_core0__icts_temp_ft2+tg00a_ntse_temp_ft2,tg005_core0__icts_temp_ft2+tg00b_ntse_temp_ft2,tg005_core0__icts_temp_ft2+tg00c_ntse_temp_ft2,tg005_core0__icts_temp_ft2+tg00d_ntse_temp_ft2,tg010_core0__icts_temp_ft2+tg01a_ntse_temp_ft2,tg012_core0__icts_temp_ft2+tg01b_ntse_temp_ft2,tg012_core0__icts_temp_ft2+tg01c_ntse_temp_ft2,tg013_core0__icts_temp_ft2+tg01d_ntse_temp_ft2,tg013_core0__icts_temp_ft2+tg01e_ntse_temp_ft2,tg017_core0__icts_temp_ft2+tg01f_ntse_temp_ft2,tg017_core0__icts_temp_ft2+tg01g_ntse_temp_ft2,tg018_core0__icts_temp_ft2+tg01h_ntse_temp_ft2,tp000_core0__icts_temp_ft2+tp005_ntse_temp_ft2,tp001_core0__icts_temp_ft2+tp007_ntse_temp_ft2,tp002_core0__icts_temp_ft2+tp009_ntse_temp_ft2,tp003_core0__icts_temp_ft2+tp00b_ntse_temp_ft2,tp000_core0__icts_temp_ft2+tp00d_ntse_temp_ft2,tp001_core0__icts_temp_ft2+tp00f_ntse_temp_ft2,tp002_core0__icts_temp_ft2+tp00h_ntse_temp_ft2,tp003_core0__icts_temp_ft2+tp00j_ntse_temp_ft2,tp00l_core0__icts_temp_ft2+tp00n_ntse_temp_ft2,tp00l_core0__icts_temp_ft2+tp00p_ntse_temp_ft2,tp00l_core0__icts_temp_ft2+tp00q_ntse_temp_ft2,tp00l_core0__icts_temp_ft2+tp00s_ntse_temp_ft2,tp00l_core0__icts_temp_ft2+tp00t_ntse_temp_ft2,tp00l_core0__icts_temp_ft2+tp00u_ntse_temp_ft2,tp00m_core0__icts_temp_ft2+tp00v_ntse_temp_ft2,tp00m_core0__icts_temp_ft2+tp00w_ntse_temp_ft2,tp00x_core0__icts_temp_ft2+tp00a_ntse_temp_ft2,tp00y_core0__icts_temp_ft2+tp00c_ntse_temp_ft2,tp00x_core0__icts_temp_ft2+tp00e_ntse_temp_ft2,tp00y_core0__icts_temp_ft2+tp00g_ntse_temp_ft2)				'ta00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_32X_VREF_VREFH				'adc_ta00c__vref			12	ADC_Ta00b__VIN_ADC	adc_ta00b__vin_adc			Alg		Calc_NTS_Statistics(CALC_adc_tg007__vref@adc_tg007__vip_adc+CALC_adc_tg008__vref@adc_tg008__vip_adc+CALC_adc_tg009__vref@adc_tg009__vip_adc+CALC_adc_tg00a__vref@adc_tg00a__vip_adc+CALC_adc_tg00b__vref@adc_tg00b__vip_adc+CALC_adc_tg00c__vref@adc_tg00c__vip_adc+CALC_adc_tg00d__vref@adc_tg00d__vip_adc+CALC_adc_tg01a__vref@adc_tg01a__vip_adc+CALC_adc_tg01b__vref@adc_tg01b__vip_adc+CALC_adc_tg01c__vref@adc_tg01c__vip_adc+CALC_adc_tg01d__vref@adc_tg01d__vip_adc+CALC_adc_tg01e__vref@adc_tg01e__vip_adc+CALC_adc_tg01f__vref@adc_tg01f__vip_adc+CALC_adc_tg01g__vref@adc_tg01g__vip_adc+CALC_adc_tg01h__vref@adc_tg01h__vip_adc,CALC_adc_tg007__vref+CALC_adc_tg008__vref+CALC_adc_tg009__vref+CALC_adc_tg00a__vref+CALC_adc_tg00b__vref+CALC_adc_tg00c__vref+CALC_adc_tg00d__vref+CALC_adc_tg01a__vref+CALC_adc_tg01b__vref+CALC_adc_tg01c__vref+CALC_adc_tg01d__vref+CALC_adc_tg01e__vref+CALC_adc_tg01f__vref+CALC_adc_tg01g__vref+CALC_adc_tg01h__vref,adc_tg007__vin_adc+adc_tg008__vin_adc+adc_tg009__vin_adc+adc_tg00a__vin_adc+adc_tg00b__vin_adc+adc_tg00c__vin_adc+adc_tg00d__vin_adc+adc_tg01a__vin_adc+adc_tg01b__vin_adc+adc_tg01c__vin_adc+adc_tg01d__vin_adc+adc_tg01e__vin_adc+adc_tg01f__vin_adc+adc_tg01g__vin_adc+adc_tg01h__vin_adc,tg007__12b_1x+tg008__12b_1x+tg009__12b_1x+tg00a__12b_1x+tg00b__12b_1x+tg00c__12b_1x+tg00d__12b_1x+tg01a__12b_1x+tg01b__12b_1x+tg01c__12b_1x+tg01d__12b_1x+tg01e__12b_1x+tg01f__12b_1x+tg01g__12b_1x+tg01h__12b_1x,tg007__12b_1x_self_0p5+tg008__12b_1x_self_0p5+tg009__12b_1x_self_0p5+tg00a__12b_1x_self_0p5+tg00b__12b_1x_self_0p5+tg00c__12b_1x_self_0p5+tg00d__12b_1x_self_0p5+tg01a__12b_1x_self_0p5+tg01b__12b_1x_self_0p5+tg01c__12b_1x_self_0p5+tg01d__12b_1x_self_0p5+tg01e__12b_1x_self_0p5+tg01f__12b_1x_self_0p5+tg01g__12b_1x_self_0p5+tg01h__12b_1x_self_0p5)										Alg		Calc_Statistics(CALC_adc_ta00b__vref+CALC_adc_ta00c__vref+CALC_adc_ta00e__vref+CALC_adc_ta00f__vref+CALC_adc_ta00g__vref+CALC_adc_ta00h__vref+CALC_adc_ta01a__vref+CALC_adc_ta01b__vref+CALC_adc_ta01c__vref+CALC_adc_ta01e__vref+CALC_adc_ta01f__vref+CALC_adc_ta01h__vref)				'ta00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_32X_VREF_VREFH				'adc_ta00c__vip_adc			12	ADC_Ta00c__VREF	calc_adc_ta00c__vref			Alg		Calc_NTS_Statistics(CALC_adc_te007__vref@adc_te007__vip_adc+CALC_adc_te008__vref@adc_te008__vip_adc+CALC_adc_te009__vref@adc_te009__vip_adc+CALC_adc_te00e__vref@adc_te00e__vip_adc+CALC_adc_te00h__vref@adc_te00h__vip_adc+CALC_adc_te00i__vref@adc_te00i__vip_adc,CALC_adc_te007__vref+CALC_adc_te008__vref+CALC_adc_te009__vref+CALC_adc_te00e__vref+CALC_adc_te00h__vref+CALC_adc_te00i__vref,adc_te007__vin_adc+adc_te008__vin_adc+adc_te009__vin_adc+adc_te00e__vin_adc+adc_te00h__vin_adc+adc_te00i__vin_adc,te007__12b_1x+te008__12b_1x+te009__12b_1x+te00e__12b_1x+te00h__12b_1x+te00i__12b_1x,te007__12b_1x_self_0p5+te008__12b_1x_self_0p5+te009__12b_1x_self_0p5+te00e__12b_1x_self_0p5+te00h__12b_1x_self_0p5+te00i__12b_1x_self_0p5)										Alg		Calc_Statistics(CALC_adc_tg007__vref+CALC_adc_tg008__vref+CALC_adc_tg009__vref+CALC_adc_tg00a__vref+CALC_adc_tg00b__vref+CALC_adc_tg00c__vref+CALC_adc_tg00d__vref+CALC_adc_tg01a__vref+CALC_adc_tg01b__vref+CALC_adc_tg01c__vref+CALC_adc_tg01d__vref+CALC_adc_tg01e__vref+CALC_adc_tg01f__vref+CALC_adc_tg01g__vref+CALC_adc_tg01h__vref)				'ta00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_32X_VREF_TFE_PONLY				'adc_ta00c__vin_adc			12	ADC_Ta00c__VIP_ADC	adc_ta00c__vip_adc			Alg		Calc_NTS_Statistics(CALC_adc_tp005__vref@adc_tp005__vip_adc+CALC_adc_tp007__vref@adc_tp007__vip_adc+CALC_adc_tp009__vref@adc_tp009__vip_adc+CALC_adc_tp00b__vref@adc_tp00b__vip_adc+CALC_adc_tp00d__vref@adc_tp00d__vip_adc+CALC_adc_tp00f__vref@adc_tp00f__vip_adc+CALC_adc_tp00h__vref@adc_tp00h__vip_adc+CALC_adc_tp00j__vref@adc_tp00j__vip_adc+CALC_adc_tp00n__vref@adc_tp00n__vip_adc+CALC_adc_tp00p__vref@adc_tp00p__vip_adc+CALC_adc_tp00q__vref@adc_tp00q__vip_adc+CALC_adc_tp00s__vref@adc_tp00s__vip_adc+CALC_adc_tp00t__vref@adc_tp00t__vip_adc+CALC_adc_tp00u__vref@adc_tp00u__vip_adc+CALC_adc_tp00v__vref@adc_tp00v__vip_adc+CALC_adc_tp00w__vref@adc_tp00w__vip_adc+CALC_adc_tp00a__vref@adc_tp00a__vip_adc+CALC_adc_tp00c__vref@adc_tp00c__vip_adc+CALC_adc_tp00e__vref@adc_tp00e__vip_adc+CALC_adc_tp00g__vref@adc_tp00g__vip_adc,CALC_adc_tp005__vref+CALC_adc_tp007__vref+CALC_adc_tp009__vref+CALC_adc_tp00b__vref+CALC_adc_tp00d__vref+CALC_adc_tp00f__vref+CALC_adc_tp00h__vref+CALC_adc_tp00j__vref+CALC_adc_tp00n__vref+CALC_adc_tp00p__vref+CALC_adc_tp00q__vref+CALC_adc_tp00s__vref+CALC_adc_tp00t__vref+CALC_adc_tp00u__vref+CALC_adc_tp00v__vref+CALC_adc_tp00w__vref+CALC_adc_tp00a__vref+CALC_adc_tp00c__vref+CALC_adc_tp00e__vref+CALC_adc_tp00g__vref,adc_tp005__vin_adc+adc_tp007__vin_adc+adc_tp009__vin_adc+adc_tp00b__vin_adc+adc_tp00d__vin_adc+adc_tp00f__vin_adc+adc_tp00h__vin_adc+adc_tp00j__vin_adc+adc_tp00n__vin_adc+adc_tp00p__vin_adc+adc_tp00q__vin_adc+adc_tp00s__vin_adc+adc_tp00t__vin_adc+adc_tp00u__vin_adc+adc_tp00v__vin_adc+adc_tp00w__vin_adc+adc_tp00a__vin_adc+adc_tp00c__vin_adc+adc_tp00e__vin_adc+adc_tp00g__vin_adc,tp005__12b_1x+tp007__12b_1x+tp009__12b_1x+tp00b__12b_1x+tp00d__12b_1x+tp00f__12b_1x+tp00h__12b_1x+tp00j__12b_1x+tp00n__12b_1x+tp00p__12b_1x+tp00q__12b_1x+tp00s__12b_1x+tp00t__12b_1x+tp00u__12b_1x+tp00v__12b_1x+tp00w__12b_1x+tp00a__12b_1x+tp00c__12b_1x+tp00e__12b_1x+tp00g__12b_1x,tp005__12b_1x_self_0p5+tp007__12b_1x_self_0p5+tp009__12b_1x_self_0p5+tp00b__12b_1x_self_0p5+tp00d__12b_1x_self_0p5+tp00f__12b_1x_self_0p5+tp00h__12b_1x_self_0p5+tp00j__12b_1x_self_0p5+tp00n__12b_1x_self_0p5+tp00p__12b_1x_self_0p5+tp00q__12b_1x_self_0p5+tp00s__12b_1x_self_0p5+tp00t__12b_1x_self_0p5+tp00u__12b_1x_self_0p5+tp00v__12b_1x_self_0p5+tp00w__12b_1x_self_0p5+tp00a__12b_1x_self_0p5+tp00c__12b_1x_self_0p5+tp00e__12b_1x_self_0p5+tp00g__12b_1x_self_0p5)										Alg		Calc_Statistics(CALC_adc_te007__vref+CALC_adc_te008__vref+CALC_adc_te009__vref+CALC_adc_te00e__vref+CALC_adc_te00h__vref+CALC_adc_te00i__vref)				'ta00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_32X_VREF_TFE_PONLY				'adc_ta00e__vref			12	ADC_Ta00c__VIN_ADC	adc_ta00c__vin_adc															Alg		Calc_Statistics(CALC_adc_tp005__vref+CALC_adc_tp007__vref+CALC_adc_tp009__vref+CALC_adc_tp00b__vref+CALC_adc_tp00d__vref+CALC_adc_tp00f__vref+CALC_adc_tp00h__vref+CALC_adc_tp00j__vref+CALC_adc_tp00n__vref+CALC_adc_tp00p__vref+CALC_adc_tp00q__vref+CALC_adc_tp00s__vref+CALC_adc_tp00t__vref+CALC_adc_tp00u__vref+CALC_adc_tp00v__vref+CALC_adc_tp00w__vref+CALC_adc_tp00a__vref+CALC_adc_tp00c__vref+CALC_adc_tp00e__vref+CALC_adc_tp00g__vref)				'ta00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__10B_1X				'adc_ta00e__vip_adc			21	Ta00b__12B_1X	ta00b__12b_1x																					'ta00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__10B_1X				'adc_ta00e__vin_adc			21	Ta00c__12B_1X	ta00c__12b_1x																					'ta00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X				'adc_ta00f__vref			21	Ta00b__12B_32X	ta00b__12b_32x																					'ta00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X				'adc_ta00f__vip_adc			21	Ta00c__12B_32X	ta00c__12b_32x																					'ta00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_32X				'adc_ta00f__vin_adc			21	Ta00b__12B_1X_SELF_0P25																						'ta00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_32X				'adc_ta00g__vref			21	Ta00c__12B_1X_SELF_0P25																						'ta00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_32X_VREFH				'adc_ta00g__vip_adc			21	Ta00b__12B_1X_SELF_0P5	ta00b__12b_1x_self_0p5																					'ta00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_32X_VREFH				'adc_ta00g__vin_adc			21	Ta00c__12B_1X_SELF_0P5	ta00c__12b_1x_self_0p5																					'ta00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_32X_TFE_PONLY				'adc_ta00h__vref			21	Ta00b__12B_1X_SELF_0P75																						'ta00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_32X_TFE_PONLY				'adc_ta00h__vip_adc			21	Ta00c__12B_1X_SELF_0P75																						'ta00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_PONLY				'adc_ta00h__vin_adc			21	Ta00b__12B_1X_HALFCLK_CHOP_OFF0																						'ta00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_PONLY				'adc_ta01a__vref			21	Ta00c__12B_1X_HALFCLK_CHOP_OFF0																						'ta00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_NONLY				'adc_ta01a__vip_adc			12	ADC_Ta00e__VREF	calc_adc_ta00e__vref																					'ta00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_NONLY				'adc_ta01a__vin_adc			12	ADC_Ta00e__VIP_ADC	adc_ta00e__vip_adc																					'ta00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_PTAT_BIAS_LOW				'adc_ta01b__vref			12	ADC_Ta00e__VIN_ADC	adc_ta00e__vin_adc																					'ta00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_PTAT_BIAS_LOW				'adc_ta01b__vip_adc			12	ADC_Ta00f__VREF	calc_adc_ta00f__vref																					'ta00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_PTAT_BIAS_HIGH				'adc_ta01b__vin_adc			12	ADC_Ta00f__VIP_ADC	adc_ta00f__vip_adc																					'ta00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_PTAT_BIAS_HIGH				'adc_ta01c__vref			12	ADC_Ta00f__VIN_ADC	adc_ta00f__vin_adc																					'ta00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_IB3_HIGH				'adc_ta01c__vip_adc			12	ADC_Ta00g__VREF	calc_adc_ta00g__vref																					'ta00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_IB3_HIGH				'adc_ta01c__vin_adc			12	ADC_Ta00g__VIP_ADC	adc_ta00g__vip_adc																					'ta00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_BIASGEN_BIAS_LOW				'adc_ta01e__vref			12	ADC_Ta00g__VIN_ADC	adc_ta00g__vin_adc																					'ta00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_BIASGEN_BIAS_LOW				'adc_ta01e__vip_adc			12	ADC_Ta00h__VREF	calc_adc_ta00h__vref																					'ta00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_BIASGEN_BIAS_HIGH				'adc_ta01e__vin_adc			12	ADC_Ta00h__VIP_ADC	adc_ta00h__vip_adc																					'ta00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_BIASGEN_BIAS_HIGH				'adc_ta01f__vref			12	ADC_Ta00h__VIN_ADC	adc_ta00h__vin_adc																					'ta00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_ADC_BIAS_LOW				'adc_ta01f__vip_adc			21	Ta00e__12B_1X	ta00e__12b_1x																					'ta00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_ADC_BIAS_LOW				'adc_ta01f__vin_adc			21	Ta00f__12B_1X	ta00f__12b_1x																					'ta00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_ADC_BIAS_HIGH				'adc_ta01h__vref			21	Ta00g__12B_1X	ta00g__12b_1x																					'ta00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_ADC_BIAS_HIGH				'adc_ta01h__vip_adc			21	Ta00h__12B_1X	ta00h__12b_1x																					'ta00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_SELF_0P25				'adc_ta01h__vin_adc			21	Ta00e__12B_32X	ta00e__12b_32x																					'ta00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_SELF_0P25				'adc_tg007__vref			21	Ta00f__12B_32X	ta00f__12b_32x																					'ta00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_SELF_0P5				'adc_tg007__vip_adc			21	Ta00g__12B_32X	ta00g__12b_32x																					'ta00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_SELF_0P5				'adc_tg007__vin_adc			21	Ta00h__12B_32X	ta00h__12b_32x																					'ta00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_SELF_0P75				'adc_tg008__vref			21	Ta00e__12B_1X_SELF_0P25																						'ta00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_SELF_0P75				'adc_tg008__vip_adc			21	Ta00f__12B_1X_SELF_0P25																						'ta00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_RAW_HALFCLK				'adc_tg008__vin_adc			21	Ta00g__12B_1X_SELF_0P25																						'ta00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_RAW_HALFCLK				'adc_tg009__vref			21	Ta00h__12B_1X_SELF_0P25																						'ta00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_RO				'adc_tg009__vip_adc			21	Ta00e__12B_1X_SELF_0P5	ta00e__12b_1x_self_0p5																					'ta00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_RO				'adc_tg009__vin_adc			21	Ta00f__12B_1X_SELF_0P5	ta00f__12b_1x_self_0p5																					'ta00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_PR				'adc_tg00a__vref			21	Ta00g__12B_1X_SELF_0P5	ta00g__12b_1x_self_0p5																					'ta00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_PR				'adc_tg00a__vip_adc			21	Ta00h__12B_1X_SELF_0P5	ta00h__12b_1x_self_0p5																					'ta00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00b__12B_1X_poly_hardcoded				'adc_tg00a__vin_adc			21	Ta00e__12B_1X_SELF_0P75																						'ta00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00c__12B_1X_poly_hardcoded				'adc_tg00b__vref			21	Ta00f__12B_1X_SELF_0P75																						'ta00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_32X_VREF				'adc_tg00b__vip_adc			21	Ta00g__12B_1X_SELF_0P75																						'ta00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_32X_VREF				'adc_tg00b__vin_adc			21	Ta00h__12B_1X_SELF_0P75																						'ta00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_32X_VREF				'adc_tg00c__vref			21	Ta00e__12B_1X_HALFCLK_CHOP_OFF0																						'ta00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_32X_VREF				'adc_tg00c__vip_adc			21	Ta00f__12B_1X_HALFCLK_CHOP_OFF0																						'ta00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_32X_VREF_VREFH				'adc_tg00c__vin_adc			21	Ta00g__12B_1X_HALFCLK_CHOP_OFF0																						'ta00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_32X_VREF_VREFH				'adc_tg00d__vref			21	Ta00h__12B_1X_HALFCLK_CHOP_OFF0																						'ta00f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_32X_VREF_VREFH				'adc_tg00d__vip_adc			12	ADC_Ta01a__VREF	calc_adc_ta01a__vref																					'ta00f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_32X_VREF_VREFH				'adc_tg00d__vin_adc			12	ADC_Ta01a__VIP_ADC	adc_ta01a__vip_adc																					'ta00f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_32X_VREF_TFE_PONLY				'adc_tg01a__vref			12	ADC_Ta01a__VIN_ADC	adc_ta01a__vin_adc																					'ta00f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_32X_VREF_TFE_PONLY				'adc_tg01a__vip_adc			12	ADC_Ta01b__VREF	calc_adc_ta01b__vref																					'ta00f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_32X_VREF_TFE_PONLY				'adc_tg01a__vin_adc			12	ADC_Ta01b__VIP_ADC	adc_ta01b__vip_adc																					'ta00f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_32X_VREF_TFE_PONLY				'adc_tg01b__vref			12	ADC_Ta01b__VIN_ADC	adc_ta01b__vin_adc																					'ta00f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__10B_1X				'adc_tg01b__vip_adc			12	ADC_Ta01c__VREF	calc_adc_ta01c__vref																					'ta00f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__10B_1X				'adc_tg01b__vin_adc			12	ADC_Ta01c__VIP_ADC	adc_ta01c__vip_adc																					'ta00f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__10B_1X				'adc_tg01c__vref			12	ADC_Ta01c__VIN_ADC	adc_ta01c__vin_adc																					'ta00f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__10B_1X				'adc_tg01c__vip_adc			21	Ta01a__12B_1X	ta01a__12b_1x																					'ta00f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X				'adc_tg01c__vin_adc			21	Ta01b__12B_1X	ta01b__12b_1x																					'ta00f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X				'adc_tg01d__vref			21	Ta01c__12B_1X	ta01c__12b_1x																					'ta00f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X				'adc_tg01d__vip_adc			21	Ta01a__12B_32X	ta01a__12b_32x																					'ta00f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X				'adc_tg01d__vin_adc			21	Ta01b__12B_32X	ta01b__12b_32x																					'ta00f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_32X				'adc_tg01e__vref			21	Ta01c__12B_32X	ta01c__12b_32x																					'ta00f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_32X				'adc_tg01e__vip_adc			21	Ta01a__12B_1X_SELF_0P25																						'ta00f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_32X				'adc_tg01e__vin_adc			21	Ta01b__12B_1X_SELF_0P25																						'ta00f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_32X				'adc_tg01f__vref			21	Ta01c__12B_1X_SELF_0P25																						'ta00g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_32X_VREFH				'adc_tg01f__vip_adc			21	Ta01a__12B_1X_SELF_0P5	ta01a__12b_1x_self_0p5																					'ta00g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_32X_VREFH				'adc_tg01f__vin_adc			21	Ta01b__12B_1X_SELF_0P5	ta01b__12b_1x_self_0p5																					'ta00g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_32X_VREFH				'adc_tg01g__vref			21	Ta01c__12B_1X_SELF_0P5	ta01c__12b_1x_self_0p5																					'ta00g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_32X_VREFH				'adc_tg01g__vip_adc			21	Ta01a__12B_1X_SELF_0P75																						'ta00g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_32X_TFE_PONLY				'adc_tg01g__vin_adc			21	Ta01b__12B_1X_SELF_0P75																						'ta00g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_32X_TFE_PONLY				'adc_tg01h__vref			21	Ta01c__12B_1X_SELF_0P75																						'ta00g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_32X_TFE_PONLY				'adc_tg01h__vip_adc			21	Ta01a__12B_1X_HALFCLK_CHOP_OFF0																						'ta00g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_32X_TFE_PONLY				'adc_tg01h__vin_adc			21	Ta01b__12B_1X_HALFCLK_CHOP_OFF0																						'ta00g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_PONLY				'adc_te007__vref			21	Ta01c__12B_1X_HALFCLK_CHOP_OFF0																						'ta00g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_PONLY				'adc_te007__vip_adc			12	ADC_Ta01e__VREF	calc_adc_ta01e__vref																					'ta00g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_PONLY				'adc_te007__vin_adc			12	ADC_Ta01e__VIP_ADC	adc_ta01e__vip_adc																					'ta00g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_PONLY				'adc_te008__vref			12	ADC_Ta01e__VIN_ADC	adc_ta01e__vin_adc																					'ta00g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_NONLY				'adc_te008__vip_adc			12	ADC_Ta01f__VREF	calc_adc_ta01f__vref																					'ta00g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_NONLY				'adc_te008__vin_adc			12	ADC_Ta01f__VIP_ADC	adc_ta01f__vip_adc																					'ta00g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_NONLY				'adc_te009__vref			12	ADC_Ta01f__VIN_ADC	adc_ta01f__vin_adc																					'ta00g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_NONLY				'adc_te009__vip_adc			12	ADC_Ta01h__VREF	calc_adc_ta01h__vref																					'ta00g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_PTAT_BIAS_LOW				'adc_te009__vin_adc			12	ADC_Ta01h__VIP_ADC	adc_ta01h__vip_adc																					'ta00g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_PTAT_BIAS_LOW				'adc_te00e__vref			12	ADC_Ta01h__VIN_ADC	adc_ta01h__vin_adc																					'ta00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_PTAT_BIAS_LOW				'adc_te00e__vip_adc			21	Ta01e__12B_1X	ta01e__12b_1x																					'ta00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_PTAT_BIAS_LOW				'adc_te00e__vin_adc			21	Ta01f__12B_1X	ta01f__12b_1x																					'ta00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_PTAT_BIAS_HIGH				'adc_te00h__vref			21	Ta01h__12B_1X	ta01h__12b_1x																					'ta00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_PTAT_BIAS_HIGH				'adc_te00h__vip_adc			21	Ta01e__12B_32X	ta01e__12b_32x																					'ta00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_PTAT_BIAS_HIGH				'adc_te00h__vin_adc			21	Ta01f__12B_32X	ta01f__12b_32x																					'ta00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_PTAT_BIAS_HIGH				'adc_te00i__vref			21	Ta01h__12B_32X	ta01h__12b_32x																					'ta00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_IB3_HIGH				'adc_te00i__vip_adc			21	Ta01e__12B_1X_SELF_0P25																						'ta00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_IB3_HIGH				'adc_te00i__vin_adc			21	Ta01f__12B_1X_SELF_0P25																						'ta00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_IB3_HIGH				'adc_tp005__vref			21	Ta01h__12B_1X_SELF_0P25																						'ta00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_IB3_HIGH				'adc_tp005__vip_adc			21	Ta01e__12B_1X_SELF_0P5	ta01e__12b_1x_self_0p5																					'ta00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_BIASGEN_BIAS_LOW				'adc_tp005__vin_adc			21	Ta01f__12B_1X_SELF_0P5	ta01f__12b_1x_self_0p5																					'ta00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_BIASGEN_BIAS_LOW				'adc_tp007__vref			21	Ta01h__12B_1X_SELF_0P5	ta01h__12b_1x_self_0p5																					'ta00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_BIASGEN_BIAS_LOW				'adc_tp007__vip_adc			21	Ta01e__12B_1X_SELF_0P75																						'ta00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_BIASGEN_BIAS_LOW				'adc_tp007__vin_adc			21	Ta01f__12B_1X_SELF_0P75																						'ta00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_BIASGEN_BIAS_HIGH				'adc_tp009__vref			21	Ta01h__12B_1X_SELF_0P75																						'ta00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_BIASGEN_BIAS_HIGH				'adc_tp009__vip_adc			21	Ta01e__12B_1X_HALFCLK_CHOP_OFF0																						'ta00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_BIASGEN_BIAS_HIGH				'adc_tp009__vin_adc			21	Ta01f__12B_1X_HALFCLK_CHOP_OFF0																						'ta00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_BIASGEN_BIAS_HIGH				'adc_tp00b__vref			21	Ta01h__12B_1X_HALFCLK_CHOP_OFF0																						'ta01a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_ADC_BIAS_LOW				'adc_tp00b__vip_adc			12	ADC_Tg007__VREF	calc_adc_tg007__vref																					'ta01a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_ADC_BIAS_LOW				'adc_tp00b__vin_adc			12	ADC_Tg007__VIP_ADC	adc_tg007__vip_adc																					'ta01a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_ADC_BIAS_LOW				'adc_tp00d__vref			12	ADC_Tg007__VIN_ADC	adc_tg007__vin_adc																					'ta01a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_ADC_BIAS_LOW				'adc_tp00d__vip_adc			12	ADC_Tg008__VREF	calc_adc_tg008__vref																					'ta01a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_ADC_BIAS_HIGH				'adc_tp00d__vin_adc			12	ADC_Tg008__VIP_ADC	adc_tg008__vip_adc																					'ta01a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_ADC_BIAS_HIGH				'adc_tp00f__vref			12	ADC_Tg008__VIN_ADC	adc_tg008__vin_adc																					'ta01a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_ADC_BIAS_HIGH				'adc_tp00f__vip_adc			12	ADC_Tg009__VREF	calc_adc_tg009__vref																					'ta01a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_ADC_BIAS_HIGH				'adc_tp00f__vin_adc			12	ADC_Tg009__VIP_ADC	adc_tg009__vip_adc																					'ta01a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_SELF_0P25				'adc_tp00h__vref			12	ADC_Tg009__VIN_ADC	adc_tg009__vin_adc																					'ta01a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_SELF_0P25				'adc_tp00h__vip_adc			12	ADC_Tg00a__VREF	calc_adc_tg00a__vref																					'ta01a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_SELF_0P25				'adc_tp00h__vin_adc			12	ADC_Tg00a__VIP_ADC	adc_tg00a__vip_adc																					'ta01a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_SELF_0P25				'adc_tp00j__vref			12	ADC_Tg00a__VIN_ADC	adc_tg00a__vin_adc																					'ta01a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_SELF_0P5				'adc_tp00j__vip_adc			12	ADC_Tg00b__VREF	calc_adc_tg00b__vref																					'ta01a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_SELF_0P5				'adc_tp00j__vin_adc			12	ADC_Tg00b__VIP_ADC	adc_tg00b__vip_adc																					'ta01a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_SELF_0P5				'adc_tp00n__vref			12	ADC_Tg00b__VIN_ADC	adc_tg00b__vin_adc																					'ta01a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_SELF_0P5				'adc_tp00n__vip_adc			12	ADC_Tg00c__VREF	calc_adc_tg00c__vref																					'ta01a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_SELF_0P75				'adc_tp00n__vin_adc			12	ADC_Tg00c__VIP_ADC	adc_tg00c__vip_adc																					'ta01a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_SELF_0P75				'adc_tp00p__vref			12	ADC_Tg00c__VIN_ADC	adc_tg00c__vin_adc																					'ta01b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_SELF_0P75				'adc_tp00p__vip_adc			12	ADC_Tg00d__VREF	calc_adc_tg00d__vref																					'ta01b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_SELF_0P75				'adc_tp00p__vin_adc			12	ADC_Tg00d__VIP_ADC	adc_tg00d__vip_adc																					'ta01b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_RAW_HALFCLK				'adc_tp00q__vref			12	ADC_Tg00d__VIN_ADC	adc_tg00d__vin_adc																					'ta01b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_RAW_HALFCLK				'adc_tp00q__vip_adc			21	Tg007__12B_1X	tg007__12b_1x																					'ta01b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_RAW_HALFCLK				'adc_tp00q__vin_adc			21	Tg008__12B_1X	tg008__12b_1x																					'ta01b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_RAW_HALFCLK				'adc_tp00s__vref			21	Tg009__12B_1X	tg009__12b_1x																					'ta01b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_RO				'adc_tp00s__vip_adc			21	Tg00a__12B_1X	tg00a__12b_1x																					'ta01b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_RO				'adc_tp00s__vin_adc			21	Tg00b__12B_1X	tg00b__12b_1x																					'ta01b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_RO				'adc_tp00t__vref			21	Tg00c__12B_1X	tg00c__12b_1x																					'ta01b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_RO				'adc_tp00t__vip_adc			21	Tg00d__12B_1X	tg00d__12b_1x																					'ta01b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_PR				'adc_tp00t__vin_adc			21	Tg007__12B_32X	tg007__12b_32x																					'ta01b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_PR				'adc_tp00u__vref			21	Tg008__12B_32X	tg008__12b_32x																					'ta01b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_PR				'adc_tp00u__vip_adc			21	Tg009__12B_32X	tg009__12b_32x																					'ta01b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_PR				'adc_tp00u__vin_adc			21	Tg00a__12B_32X	tg00a__12b_32x																					'ta01b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00e__12B_1X_poly_hardcoded				'adc_tp00v__vref			21	Tg00b__12B_32X	tg00b__12b_32x																					'ta01b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta00f__12B_1X_poly_hardcoded				'adc_tp00v__vip_adc			21	Tg00c__12B_32X	tg00c__12b_32x																					'ta01b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta00g__12B_1X_poly_hardcoded				'adc_tp00v__vin_adc			21	Tg00d__12B_32X	tg00d__12b_32x																					'ta01b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta00h__12B_1X_poly_hardcoded				'adc_tp00w__vref			21	Tg007__12B_1X_SELF_0P25																						'ta01c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_32X_VREF				'adc_tp00w__vip_adc			21	Tg008__12B_1X_SELF_0P25																						'ta01c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_32X_VREF				'adc_tp00w__vin_adc			21	Tg009__12B_1X_SELF_0P25																						'ta01c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_32X_VREF				'adc_tp00a__vref			21	Tg00a__12B_1X_SELF_0P25																						'ta01c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_32X_VREF_VREFH				'adc_tp00a__vip_adc			21	Tg00b__12B_1X_SELF_0P25																						'ta01c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_32X_VREF_VREFH				'adc_tp00a__vin_adc			21	Tg00c__12B_1X_SELF_0P25																						'ta01c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_32X_VREF_VREFH				'adc_tp00c__vref			21	Tg00d__12B_1X_SELF_0P25																						'ta01c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_32X_VREF_TFE_PONLY				'adc_tp00c__vip_adc			21	Tg007__12B_1X_SELF_0P5	tg007__12b_1x_self_0p5																					'ta01c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_32X_VREF_TFE_PONLY				'adc_tp00c__vin_adc			21	Tg008__12B_1X_SELF_0P5	tg008__12b_1x_self_0p5																					'ta01c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_32X_VREF_TFE_PONLY				'adc_tp00e__vref			21	Tg009__12B_1X_SELF_0P5	tg009__12b_1x_self_0p5																					'ta01c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__10B_1X				'adc_tp00e__vip_adc			21	Tg00a__12B_1X_SELF_0P5	tg00a__12b_1x_self_0p5																					'ta01c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__10B_1X				'adc_tp00e__vin_adc			21	Tg00b__12B_1X_SELF_0P5	tg00b__12b_1x_self_0p5																					'ta01c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__10B_1X				'adc_tp00g__vref			21	Tg00c__12B_1X_SELF_0P5	tg00c__12b_1x_self_0p5																					'ta01c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X				'adc_tp00g__vip_adc			21	Tg00d__12B_1X_SELF_0P5	tg00d__12b_1x_self_0p5																					'ta01c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X				'adc_tp00g__vin_adc;ConvertDACParameter:4094			21	Tg007__12B_1X_SELF_0P75																						'ta01c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X				'1.116;TwosComplement:Ta00b__12B_1X			21	Tg008__12B_1X_SELF_0P75																						'ta01c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_32X				'Ta00c__12B_1X			21	Tg009__12B_1X_SELF_0P75																						'ta01c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_32X				'Ta00b__12B_32X			21	Tg00a__12B_1X_SELF_0P75																						'ta01c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_32X				'Ta00c__12B_32X			21	Tg00b__12B_1X_SELF_0P75																						'ta01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_32X_VREFH				'Ta00b__12B_1X_SELF_0P25			21	Tg00c__12B_1X_SELF_0P75																						'ta01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_32X_VREFH				'Ta00c__12B_1X_SELF_0P25			21	Tg00d__12B_1X_SELF_0P75																						'ta01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_32X_VREFH				'Ta00b__12B_1X_SELF_0P5			21	Tg007__12B_1X_HALFCLK_CHOP_OFF0																						'ta01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_32X_TFE_PONLY				'Ta00c__12B_1X_SELF_0P5			21	Tg008__12B_1X_HALFCLK_CHOP_OFF0																						'ta01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_32X_TFE_PONLY				'Ta00b__12B_1X_SELF_0P75			21	Tg009__12B_1X_HALFCLK_CHOP_OFF0																						'ta01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_32X_TFE_PONLY				'Ta00c__12B_1X_SELF_0P75			21	Tg00a__12B_1X_HALFCLK_CHOP_OFF0																						'ta01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_PONLY				'Ta00b__12B_1X_HALFCLK_CHOP_OFF0			21	Tg00b__12B_1X_HALFCLK_CHOP_OFF0																						'ta01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_PONLY				'Ta00c__12B_1X_HALFCLK_CHOP_OFF0			21	Tg00c__12B_1X_HALFCLK_CHOP_OFF0																						'ta01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_PONLY				'Ta00e__12B_1X			21	Tg00d__12B_1X_HALFCLK_CHOP_OFF0																						'ta01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_NONLY				'Ta00f__12B_1X			12	ADC_Tg01a__VREF	calc_adc_tg01a__vref																					'ta01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_NONLY				'Ta00g__12B_1X			12	ADC_Tg01a__VIP_ADC	adc_tg01a__vip_adc																					'ta01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_NONLY				'Ta00h__12B_1X			12	ADC_Tg01a__VIN_ADC	adc_tg01a__vin_adc																					'ta01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_PTAT_BIAS_LOW				'Ta00e__12B_32X			12	ADC_Tg01b__VREF	calc_adc_tg01b__vref																					'ta01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_PTAT_BIAS_LOW				'Ta00f__12B_32X			12	ADC_Tg01b__VIP_ADC	adc_tg01b__vip_adc																					'ta01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_PTAT_BIAS_LOW				'Ta00g__12B_32X			12	ADC_Tg01b__VIN_ADC	adc_tg01b__vin_adc																					'ta01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_PTAT_BIAS_HIGH				'Ta00h__12B_32X			12	ADC_Tg01c__VREF	calc_adc_tg01c__vref																					'ta01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_PTAT_BIAS_HIGH				'Ta00e__12B_1X_SELF_0P25			12	ADC_Tg01c__VIP_ADC	adc_tg01c__vip_adc																					'ta01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_PTAT_BIAS_HIGH				'Ta00f__12B_1X_SELF_0P25			12	ADC_Tg01c__VIN_ADC	adc_tg01c__vin_adc																					'ta01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_IB3_HIGH				'Ta00g__12B_1X_SELF_0P25			12	ADC_Tg01d__VREF	calc_adc_tg01d__vref																					'ta01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_IB3_HIGH				'Ta00h__12B_1X_SELF_0P25			12	ADC_Tg01d__VIP_ADC	adc_tg01d__vip_adc																					'ta01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_IB3_HIGH				'Ta00e__12B_1X_SELF_0P5			12	ADC_Tg01d__VIN_ADC	adc_tg01d__vin_adc																					'ta01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_BIASGEN_BIAS_LOW				'Ta00f__12B_1X_SELF_0P5			12	ADC_Tg01e__VREF	calc_adc_tg01e__vref																					'ta01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_BIASGEN_BIAS_LOW				'Ta00g__12B_1X_SELF_0P5			12	ADC_Tg01e__VIP_ADC	adc_tg01e__vip_adc																					'ta01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_BIASGEN_BIAS_LOW				'Ta00h__12B_1X_SELF_0P5			12	ADC_Tg01e__VIN_ADC	adc_tg01e__vin_adc																					'ta01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_BIASGEN_BIAS_HIGH				'Ta00e__12B_1X_SELF_0P75			12	ADC_Tg01f__VREF	calc_adc_tg01f__vref																					'ta01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_BIASGEN_BIAS_HIGH				'Ta00f__12B_1X_SELF_0P75			12	ADC_Tg01f__VIP_ADC	adc_tg01f__vip_adc																					'ta01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_BIASGEN_BIAS_HIGH				'Ta00g__12B_1X_SELF_0P75			12	ADC_Tg01f__VIN_ADC	adc_tg01f__vin_adc																					'ta01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_ADC_BIAS_LOW				'Ta00h__12B_1X_SELF_0P75			12	ADC_Tg01g__VREF	calc_adc_tg01g__vref																					'ta01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_ADC_BIAS_LOW				'Ta00e__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tg01g__VIP_ADC	adc_tg01g__vip_adc																					'ta01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_ADC_BIAS_LOW				'Ta00f__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tg01g__VIN_ADC	adc_tg01g__vin_adc																					'ta01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_ADC_BIAS_HIGH				'Ta00g__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tg01h__VREF	calc_adc_tg01h__vref																					'ta01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_ADC_BIAS_HIGH				'Ta00h__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tg01h__VIP_ADC	adc_tg01h__vip_adc																					'ta01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_ADC_BIAS_HIGH				'Ta01a__12B_1X			12	ADC_Tg01h__VIN_ADC	adc_tg01h__vin_adc																					'ta01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_SELF_0P25				'Ta01b__12B_1X			21	Tg01a__12B_1X	tg01a__12b_1x																					'ta01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_SELF_0P25				'Ta01c__12B_1X			21	Tg01b__12B_1X	tg01b__12b_1x																					'ta01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_SELF_0P25				'Ta01a__12B_32X			21	Tg01c__12B_1X	tg01c__12b_1x																					'ta01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_SELF_0P5				'Ta01b__12B_32X			21	Tg01d__12B_1X	tg01d__12b_1x																					'ta01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_SELF_0P5				'Ta01c__12B_32X			21	Tg01e__12B_1X	tg01e__12b_1x																					'ta01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_SELF_0P5				'Ta01a__12B_1X_SELF_0P25			21	Tg01f__12B_1X	tg01f__12b_1x																					'ta01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_SELF_0P75				'Ta01b__12B_1X_SELF_0P25			21	Tg01g__12B_1X	tg01g__12b_1x																					'ta01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_SELF_0P75				'Ta01c__12B_1X_SELF_0P25			21	Tg01h__12B_1X	tg01h__12b_1x																					'ta01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_SELF_0P75				'Ta01a__12B_1X_SELF_0P5			21	Tg01a__12B_32X	tg01a__12b_32x																					'ta01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_RAW_HALFCLK				'Ta01b__12B_1X_SELF_0P5			21	Tg01b__12B_32X	tg01b__12b_32x																					'ta01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_RAW_HALFCLK				'Ta01c__12B_1X_SELF_0P5			21	Tg01c__12B_32X	tg01c__12b_32x																					'ta01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_RAW_HALFCLK				'Ta01a__12B_1X_SELF_0P75			21	Tg01d__12B_32X	tg01d__12b_32x																					'ta01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_RO				'Ta01b__12B_1X_SELF_0P75			21	Tg01e__12B_32X	tg01e__12b_32x																					'ta01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_RO				'Ta01c__12B_1X_SELF_0P75			21	Tg01f__12B_32X	tg01f__12b_32x																					'ta01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_RO				'Ta01a__12B_1X_HALFCLK_CHOP_OFF0			21	Tg01g__12B_32X	tg01g__12b_32x																					'ta01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_PR				'Ta01b__12B_1X_HALFCLK_CHOP_OFF0			21	Tg01h__12B_32X	tg01h__12b_32x																					'ta01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_PR				'Ta01c__12B_1X_HALFCLK_CHOP_OFF0			21	Tg01a__12B_1X_SELF_0P25																						'ta01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_PR				'Ta01e__12B_1X			21	Tg01b__12B_1X_SELF_0P25																						'ta01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01a__12B_1X_poly_hardcoded				'Ta01f__12B_1X			21	Tg01c__12B_1X_SELF_0P25																						'ta01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01b__12B_1X_poly_hardcoded				'Ta01h__12B_1X			21	Tg01d__12B_1X_SELF_0P25																						'ta01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01c__12B_1X_poly_hardcoded				'Ta01e__12B_32X			21	Tg01e__12B_1X_SELF_0P25																						'tg007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_32X_VREF				'Ta01f__12B_32X			21	Tg01f__12B_1X_SELF_0P25																						'tg007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_32X_VREF				'Ta01h__12B_32X			21	Tg01g__12B_1X_SELF_0P25																						'tg007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_32X_VREF				'Ta01e__12B_1X_SELF_0P25			21	Tg01h__12B_1X_SELF_0P25																						'tg007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_32X_VREF_VREFH				'Ta01f__12B_1X_SELF_0P25			21	Tg01a__12B_1X_SELF_0P5	tg01a__12b_1x_self_0p5																					'tg007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_32X_VREF_VREFH				'Ta01h__12B_1X_SELF_0P25			21	Tg01b__12B_1X_SELF_0P5	tg01b__12b_1x_self_0p5																					'tg007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_32X_VREF_VREFH				'Ta01e__12B_1X_SELF_0P5			21	Tg01c__12B_1X_SELF_0P5	tg01c__12b_1x_self_0p5																					'tg007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_32X_VREF_TFE_PONLY				'Ta01f__12B_1X_SELF_0P5			21	Tg01d__12B_1X_SELF_0P5	tg01d__12b_1x_self_0p5																					'tg007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_32X_VREF_TFE_PONLY				'Ta01h__12B_1X_SELF_0P5			21	Tg01e__12B_1X_SELF_0P5	tg01e__12b_1x_self_0p5																					'tg007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_32X_VREF_TFE_PONLY				'Ta01e__12B_1X_SELF_0P75			21	Tg01f__12B_1X_SELF_0P5	tg01f__12b_1x_self_0p5																					'tg007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__10B_1X				'Ta01f__12B_1X_SELF_0P75			21	Tg01g__12B_1X_SELF_0P5	tg01g__12b_1x_self_0p5																					'tg007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__10B_1X				'Ta01h__12B_1X_SELF_0P75			21	Tg01h__12B_1X_SELF_0P5	tg01h__12b_1x_self_0p5																					'tg007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__10B_1X				'Ta01e__12B_1X_HALFCLK_CHOP_OFF0			21	Tg01a__12B_1X_SELF_0P75																						'tg007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X				'Ta01f__12B_1X_HALFCLK_CHOP_OFF0			21	Tg01b__12B_1X_SELF_0P75																						'tg007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X				'Ta01h__12B_1X_HALFCLK_CHOP_OFF0			21	Tg01c__12B_1X_SELF_0P75																						'tg007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X				'Tg007__12B_1X			21	Tg01d__12B_1X_SELF_0P75																						'tg007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_32X				'Tg008__12B_1X			21	Tg01e__12B_1X_SELF_0P75																						'tg007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_32X				'Tg009__12B_1X			21	Tg01f__12B_1X_SELF_0P75																						'tg007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_32X				'Tg00a__12B_1X			21	Tg01g__12B_1X_SELF_0P75																						'tg008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_32X_VREFH				'Tg00b__12B_1X			21	Tg01h__12B_1X_SELF_0P75																						'tg008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_32X_VREFH				'Tg00c__12B_1X			21	Tg01a__12B_1X_HALFCLK_CHOP_OFF0																						'tg008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_32X_VREFH				'Tg00d__12B_1X			21	Tg01b__12B_1X_HALFCLK_CHOP_OFF0																						'tg008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_32X_TFE_PONLY				'Tg007__12B_32X			21	Tg01c__12B_1X_HALFCLK_CHOP_OFF0																						'tg008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_32X_TFE_PONLY				'Tg008__12B_32X			21	Tg01d__12B_1X_HALFCLK_CHOP_OFF0																						'tg008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_32X_TFE_PONLY				'Tg009__12B_32X			21	Tg01e__12B_1X_HALFCLK_CHOP_OFF0																						'tg008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_PONLY				'Tg00a__12B_32X			21	Tg01f__12B_1X_HALFCLK_CHOP_OFF0																						'tg008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_PONLY				'Tg00b__12B_32X			21	Tg01g__12B_1X_HALFCLK_CHOP_OFF0																						'tg008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_PONLY				'Tg00c__12B_32X			21	Tg01h__12B_1X_HALFCLK_CHOP_OFF0																						'tg008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_NONLY				'Tg00d__12B_32X			12	ADC_Te007__VREF	calc_adc_te007__vref																					'tg008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_NONLY				'Tg007__12B_1X_SELF_0P25			12	ADC_Te007__VIP_ADC	adc_te007__vip_adc																					'tg008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_NONLY				'Tg008__12B_1X_SELF_0P25			12	ADC_Te007__VIN_ADC	adc_te007__vin_adc																					'tg008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_PTAT_BIAS_LOW				'Tg009__12B_1X_SELF_0P25			12	ADC_Te008__VREF	calc_adc_te008__vref																					'tg008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_PTAT_BIAS_LOW				'Tg00a__12B_1X_SELF_0P25			12	ADC_Te008__VIP_ADC	adc_te008__vip_adc																					'tg008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_PTAT_BIAS_LOW				'Tg00b__12B_1X_SELF_0P25			12	ADC_Te008__VIN_ADC	adc_te008__vin_adc																					'tg008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_PTAT_BIAS_HIGH				'Tg00c__12B_1X_SELF_0P25			12	ADC_Te009__VREF	calc_adc_te009__vref																					'tg008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_PTAT_BIAS_HIGH				'Tg00d__12B_1X_SELF_0P25			12	ADC_Te009__VIP_ADC	adc_te009__vip_adc																					'tg008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_PTAT_BIAS_HIGH				'Tg007__12B_1X_SELF_0P5			12	ADC_Te009__VIN_ADC	adc_te009__vin_adc																					'tg009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_IB3_HIGH				'Tg008__12B_1X_SELF_0P5			21	Te007__12B_1X	te007__12b_1x																					'tg009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_IB3_HIGH				'Tg009__12B_1X_SELF_0P5			21	Te008__12B_1X	te008__12b_1x																					'tg009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_IB3_HIGH				'Tg00a__12B_1X_SELF_0P5			21	Te009__12B_1X	te009__12b_1x																					'tg009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_BIASGEN_BIAS_LOW				'Tg00b__12B_1X_SELF_0P5			21	Te007__12B_32X	te007__12b_32x																					'tg009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_BIASGEN_BIAS_LOW				'Tg00c__12B_1X_SELF_0P5			21	Te008__12B_32X	te008__12b_32x																					'tg009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_BIASGEN_BIAS_LOW				'Tg00d__12B_1X_SELF_0P5			21	Te009__12B_32X	te009__12b_32x																					'tg009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_BIASGEN_BIAS_HIGH				'Tg007__12B_1X_SELF_0P75			21	Te007__12B_1X_SELF_0P25																						'tg009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_BIASGEN_BIAS_HIGH				'Tg008__12B_1X_SELF_0P75			21	Te008__12B_1X_SELF_0P25																						'tg009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_BIASGEN_BIAS_HIGH				'Tg009__12B_1X_SELF_0P75			21	Te009__12B_1X_SELF_0P25																						'tg009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_ADC_BIAS_LOW				'Tg00a__12B_1X_SELF_0P75			21	Te007__12B_1X_SELF_0P5	te007__12b_1x_self_0p5																					'tg009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_ADC_BIAS_LOW				'Tg00b__12B_1X_SELF_0P75			21	Te008__12B_1X_SELF_0P5	te008__12b_1x_self_0p5																					'tg009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_ADC_BIAS_LOW				'Tg00c__12B_1X_SELF_0P75			21	Te009__12B_1X_SELF_0P5	te009__12b_1x_self_0p5																					'tg009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_ADC_BIAS_HIGH				'Tg00d__12B_1X_SELF_0P75			21	Te007__12B_1X_SELF_0P75																						'tg009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_ADC_BIAS_HIGH				'Tg007__12B_1X_HALFCLK_CHOP_OFF0			21	Te008__12B_1X_SELF_0P75																						'tg009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_ADC_BIAS_HIGH				'Tg008__12B_1X_HALFCLK_CHOP_OFF0			21	Te009__12B_1X_SELF_0P75																						'tg009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_SELF_0P25				'Tg009__12B_1X_HALFCLK_CHOP_OFF0			21	Te007__12B_1X_HALFCLK_CHOP_OFF0																						'tg009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_SELF_0P25				'Tg00a__12B_1X_HALFCLK_CHOP_OFF0			21	Te008__12B_1X_HALFCLK_CHOP_OFF0																						'tg009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_SELF_0P25				'Tg00b__12B_1X_HALFCLK_CHOP_OFF0			21	Te009__12B_1X_HALFCLK_CHOP_OFF0																						'tg00a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_SELF_0P5				'Tg00c__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Te00e__VREF	calc_adc_te00e__vref																					'tg00a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_SELF_0P5				'Tg00d__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Te00e__VIP_ADC	adc_te00e__vip_adc																					'tg00a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_SELF_0P5				'Tg01a__12B_1X			12	ADC_Te00e__VIN_ADC	adc_te00e__vin_adc																					'tg00a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_SELF_0P75				'Tg01b__12B_1X			12	ADC_Te00h__VREF	calc_adc_te00h__vref																					'tg00a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_SELF_0P75				'Tg01c__12B_1X			12	ADC_Te00h__VIP_ADC	adc_te00h__vip_adc																					'tg00a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_SELF_0P75				'Tg01d__12B_1X			12	ADC_Te00h__VIN_ADC	adc_te00h__vin_adc																					'tg00a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_RAW_HALFCLK				'Tg01e__12B_1X			12	ADC_Te00i__VREF	calc_adc_te00i__vref																					'tg00a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_RAW_HALFCLK				'Tg01f__12B_1X			12	ADC_Te00i__VIP_ADC	adc_te00i__vip_adc																					'tg00a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_RAW_HALFCLK				'Tg01g__12B_1X			12	ADC_Te00i__VIN_ADC	adc_te00i__vin_adc																					'tg00a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_RO				'Tg01h__12B_1X			21	Te00e__12B_1X	te00e__12b_1x																					'tg00a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_RO				'Tg01a__12B_32X			21	Te00h__12B_1X	te00h__12b_1x																					'tg00a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_RO				'Tg01b__12B_32X			21	Te00i__12B_1X	te00i__12b_1x																					'tg00a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_PR				'Tg01c__12B_32X			21	Te00e__12B_32X	te00e__12b_32x																					'tg00a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_PR				'Tg01d__12B_32X			21	Te00h__12B_32X	te00h__12b_32x																					'tg00a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_PR				'Tg01e__12B_32X			21	Te00i__12B_32X	te00i__12b_32x																					'tg00a__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Ta01e__12B_1X_poly_hardcoded				'Tg01f__12B_32X			21	Te00e__12B_1X_SELF_0P25																						'tg00a__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Ta01f__12B_1X_poly_hardcoded				'Tg01g__12B_32X			21	Te00h__12B_1X_SELF_0P25																						'tg00a__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Ta01h__12B_1X_poly_hardcoded				'Tg01h__12B_32X			21	Te00i__12B_1X_SELF_0P25																						'tg00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_32X_VREF				'Tg01a__12B_1X_SELF_0P25			21	Te00e__12B_1X_SELF_0P5	te00e__12b_1x_self_0p5																					'tg00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_32X_VREF				'Tg01b__12B_1X_SELF_0P25			21	Te00h__12B_1X_SELF_0P5	te00h__12b_1x_self_0p5																					'tg00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_32X_VREF				'Tg01c__12B_1X_SELF_0P25			21	Te00i__12B_1X_SELF_0P5	te00i__12b_1x_self_0p5																					'tg00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_32X_VREF				'Tg01d__12B_1X_SELF_0P25			21	Te00e__12B_1X_SELF_0P75																						'tg00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_32X_VREF				'Tg01e__12B_1X_SELF_0P25			21	Te00h__12B_1X_SELF_0P75																						'tg00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_32X_VREF				'Tg01f__12B_1X_SELF_0P25			21	Te00i__12B_1X_SELF_0P75																						'tg00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_32X_VREF				'Tg01g__12B_1X_SELF_0P25			21	Te00e__12B_1X_HALFCLK_CHOP_OFF0																						'tg00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_32X_VREF_VREFH				'Tg01h__12B_1X_SELF_0P25			21	Te00h__12B_1X_HALFCLK_CHOP_OFF0																						'tg00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_32X_VREF_VREFH				'Tg01a__12B_1X_SELF_0P5			21	Te00i__12B_1X_HALFCLK_CHOP_OFF0																						'tg00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_32X_VREF_VREFH				'Tg01b__12B_1X_SELF_0P5			12	ADC_Tp005__VREF	calc_adc_tp005__vref																					'tg00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_32X_VREF_VREFH				'Tg01c__12B_1X_SELF_0P5			12	ADC_Tp005__VIP_ADC	adc_tp005__vip_adc																					'tg00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_32X_VREF_VREFH				'Tg01d__12B_1X_SELF_0P5			12	ADC_Tp005__VIN_ADC	adc_tp005__vin_adc																					'tg00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_32X_VREF_VREFH				'Tg01e__12B_1X_SELF_0P5			12	ADC_Tp007__VREF	calc_adc_tp007__vref																					'tg00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_32X_VREF_VREFH				'Tg01f__12B_1X_SELF_0P5			12	ADC_Tp007__VIP_ADC	adc_tp007__vip_adc																					'tg00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_32X_VREF_TFE_PONLY				'Tg01g__12B_1X_SELF_0P5			12	ADC_Tp007__VIN_ADC	adc_tp007__vin_adc																					'tg00b__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_32X_VREF_TFE_PONLY				'Tg01h__12B_1X_SELF_0P5			12	ADC_Tp009__VREF	calc_adc_tp009__vref																					'tg00b__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_32X_VREF_TFE_PONLY				'Tg01a__12B_1X_SELF_0P75			12	ADC_Tp009__VIP_ADC	adc_tp009__vip_adc																					'tg00b__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_32X_VREF_TFE_PONLY				'Tg01b__12B_1X_SELF_0P75			12	ADC_Tp009__VIN_ADC	adc_tp009__vin_adc																					'tg00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_32X_VREF_TFE_PONLY				'Tg01c__12B_1X_SELF_0P75			12	ADC_Tp00b__VREF	calc_adc_tp00b__vref																					'tg00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_32X_VREF_TFE_PONLY				'Tg01d__12B_1X_SELF_0P75			12	ADC_Tp00b__VIP_ADC	adc_tp00b__vip_adc																					'tg00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_32X_VREF_TFE_PONLY				'Tg01e__12B_1X_SELF_0P75			12	ADC_Tp00b__VIN_ADC	adc_tp00b__vin_adc																					'tg00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__10B_1X				'Tg01f__12B_1X_SELF_0P75			21	Tp005__12B_1X	tp005__12b_1x																					'tg00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__10B_1X				'Tg01g__12B_1X_SELF_0P75			21	Tp007__12B_1X	tp007__12b_1x																					'tg00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__10B_1X				'Tg01h__12B_1X_SELF_0P75			21	Tp009__12B_1X	tp009__12b_1x																					'tg00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__10B_1X				'Tg01a__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00b__12B_1X	tp00b__12b_1x																					'tg00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__10B_1X				'Tg01b__12B_1X_HALFCLK_CHOP_OFF0			21	Tp005__12B_32X	tp005__12b_32x																					'tg00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__10B_1X				'Tg01c__12B_1X_HALFCLK_CHOP_OFF0			21	Tp007__12B_32X	tp007__12b_32x																					'tg00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__10B_1X				'Tg01d__12B_1X_HALFCLK_CHOP_OFF0			21	Tp009__12B_32X	tp009__12b_32x																					'tg00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_1X				'Tg01e__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00b__12B_32X	tp00b__12b_32x																					'tg00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_1X				'Tg01f__12B_1X_HALFCLK_CHOP_OFF0			21	Tp005__12B_1X_SELF_0P25																						'tg00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_1X				'Tg01g__12B_1X_HALFCLK_CHOP_OFF0			21	Tp007__12B_1X_SELF_0P25																						'tg00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_1X				'Tg01h__12B_1X_HALFCLK_CHOP_OFF0			21	Tp009__12B_1X_SELF_0P25																						'tg00c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_1X				'Te007__12B_1X			21	Tp00b__12B_1X_SELF_0P25																						'tg00c__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_1X				'Te008__12B_1X			21	Tp005__12B_1X_SELF_0P5	tp005__12b_1x_self_0p5																					'tg00c__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_1X				'Te009__12B_1X			21	Tp007__12B_1X_SELF_0P5	tp007__12b_1x_self_0p5																					'tg00c__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_32X				'Te007__12B_32X			21	Tp009__12B_1X_SELF_0P5	tp009__12b_1x_self_0p5																					'tg00d__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_32X				'Te008__12B_32X			21	Tp00b__12B_1X_SELF_0P5	tp00b__12b_1x_self_0p5																					'tg00d__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg009__12B_32X				'Te009__12B_32X			21	Tp005__12B_1X_SELF_0P75																						'tg00d__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00a__12B_32X				'Te007__12B_1X_SELF_0P25			21	Tp007__12B_1X_SELF_0P75																						'tg00d__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00b__12B_32X				'Te008__12B_1X_SELF_0P25			21	Tp009__12B_1X_SELF_0P75																						'tg00d__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00c__12B_32X				'Te009__12B_1X_SELF_0P25			21	Tp00b__12B_1X_SELF_0P75																						'tg00d__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00d__12B_32X				'Te007__12B_1X_SELF_0P5			21	Tp005__12B_1X_HALFCLK_CHOP_OFF0																						'tg00d__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_32X_VREFH				'Te008__12B_1X_SELF_0P5			21	Tp007__12B_1X_HALFCLK_CHOP_OFF0																						'tg00d__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_32X_VREFH				'Te009__12B_1X_SELF_0P5			21	Tp009__12B_1X_HALFCLK_CHOP_OFF0																						'tg00d__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg009__12B_32X_VREFH				'Te007__12B_1X_SELF_0P75			21	Tp00b__12B_1X_HALFCLK_CHOP_OFF0																						'tg00d__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00a__12B_32X_VREFH				'Te008__12B_1X_SELF_0P75			12	ADC_Tp00d__VREF	calc_adc_tp00d__vref																					'tg00d__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00b__12B_32X_VREFH				'Te009__12B_1X_SELF_0P75			12	ADC_Tp00d__VIP_ADC	adc_tp00d__vip_adc																					'tg00d__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00c__12B_32X_VREFH				'Te007__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00d__VIN_ADC	adc_tp00d__vin_adc																					'tg00d__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00d__12B_32X_VREFH				'Te008__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00f__VREF	calc_adc_tp00f__vref																					'tg00d__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_32X_TFE_PONLY				'Te009__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00f__VIP_ADC	adc_tp00f__vip_adc																					'tg00d__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_32X_TFE_PONLY				'Te00e__12B_1X			12	ADC_Tp00f__VIN_ADC	adc_tp00f__vin_adc																					'tg00d__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg009__12B_32X_TFE_PONLY				'Te00h__12B_1X			12	ADC_Tp00h__VREF	calc_adc_tp00h__vref																					'tg00d__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00a__12B_32X_TFE_PONLY				'Te00i__12B_1X			12	ADC_Tp00h__VIP_ADC	adc_tp00h__vip_adc																					'tg00d__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00b__12B_32X_TFE_PONLY				'Te00e__12B_32X			12	ADC_Tp00h__VIN_ADC	adc_tp00h__vin_adc																					'tg01a__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00c__12B_32X_TFE_PONLY				'Te00h__12B_32X			12	ADC_Tp00j__VREF	calc_adc_tp00j__vref																					'tg01a__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00d__12B_32X_TFE_PONLY				'Te00i__12B_32X			12	ADC_Tp00j__VIP_ADC	adc_tp00j__vip_adc																					'tg01a__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_1X_PONLY				'Te00e__12B_1X_SELF_0P25			12	ADC_Tp00j__VIN_ADC	adc_tp00j__vin_adc																					'tg01a__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_1X_PONLY				'Te00h__12B_1X_SELF_0P25			21	Tp00d__12B_1X	tp00d__12b_1x																					'tg01a__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg009__12B_1X_PONLY				'Te00i__12B_1X_SELF_0P25			21	Tp00f__12B_1X	tp00f__12b_1x																					'tg01a__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00a__12B_1X_PONLY				'Te00e__12B_1X_SELF_0P5			21	Tp00h__12B_1X	tp00h__12b_1x																					'tg01a__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00b__12B_1X_PONLY				'Te00h__12B_1X_SELF_0P5			21	Tp00j__12B_1X	tp00j__12b_1x																					'tg01a__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00c__12B_1X_PONLY				'Te00i__12B_1X_SELF_0P5			21	Tp00d__12B_32X	tp00d__12b_32x																					'tg01a__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00d__12B_1X_PONLY				'Te00e__12B_1X_SELF_0P75			21	Tp00f__12B_32X	tp00f__12b_32x																					'tg01a__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_1X_NONLY				'Te00h__12B_1X_SELF_0P75			21	Tp00h__12B_32X	tp00h__12b_32x																					'tg01a__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_1X_NONLY				'Te00i__12B_1X_SELF_0P75			21	Tp00j__12B_32X	tp00j__12b_32x																					'tg01a__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg009__12B_1X_NONLY				'Te00e__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00d__12B_1X_SELF_0P25																						'tg01a__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00a__12B_1X_NONLY				'Te00h__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00f__12B_1X_SELF_0P25																						'tg01a__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00b__12B_1X_NONLY				'Te00i__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00h__12B_1X_SELF_0P25																						'tg01a__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00c__12B_1X_NONLY				'Tp005__12B_1X			21	Tp00j__12B_1X_SELF_0P25																						'tg01a__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00d__12B_1X_NONLY				'Tp007__12B_1X			21	Tp00d__12B_1X_SELF_0P5	tp00d__12b_1x_self_0p5																					'tg01a__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_1X_PTAT_BIAS_LOW				'Tp009__12B_1X			21	Tp00f__12B_1X_SELF_0P5	tp00f__12b_1x_self_0p5																					'tg01a__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_1X_PTAT_BIAS_LOW				'Tp00b__12B_1X			21	Tp00h__12B_1X_SELF_0P5	tp00h__12b_1x_self_0p5																					'tg01b__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg009__12B_1X_PTAT_BIAS_LOW				'Tp005__12B_32X			21	Tp00j__12B_1X_SELF_0P5	tp00j__12b_1x_self_0p5																					'tg01b__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00a__12B_1X_PTAT_BIAS_LOW				'Tp007__12B_32X			21	Tp00d__12B_1X_SELF_0P75																						'tg01b__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00b__12B_1X_PTAT_BIAS_LOW				'Tp009__12B_32X			21	Tp00f__12B_1X_SELF_0P75																						'tg01b__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00c__12B_1X_PTAT_BIAS_LOW				'Tp00b__12B_32X			21	Tp00h__12B_1X_SELF_0P75																						'tg01b__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00d__12B_1X_PTAT_BIAS_LOW				'Tp005__12B_1X_SELF_0P25			21	Tp00j__12B_1X_SELF_0P75																						'tg01b__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_1X_PTAT_BIAS_HIGH				'Tp007__12B_1X_SELF_0P25			21	Tp00d__12B_1X_HALFCLK_CHOP_OFF0																						'tg01b__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_1X_PTAT_BIAS_HIGH				'Tp009__12B_1X_SELF_0P25			21	Tp00f__12B_1X_HALFCLK_CHOP_OFF0																						'tg01b__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg009__12B_1X_PTAT_BIAS_HIGH				'Tp00b__12B_1X_SELF_0P25			21	Tp00h__12B_1X_HALFCLK_CHOP_OFF0																						'tg01b__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00a__12B_1X_PTAT_BIAS_HIGH				'Tp005__12B_1X_SELF_0P5			21	Tp00j__12B_1X_HALFCLK_CHOP_OFF0																						'tg01b__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00b__12B_1X_PTAT_BIAS_HIGH				'Tp007__12B_1X_SELF_0P5			12	ADC_Tp00n__VREF	calc_adc_tp00n__vref																					'tg01b__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00c__12B_1X_PTAT_BIAS_HIGH				'Tp009__12B_1X_SELF_0P5			12	ADC_Tp00n__VIP_ADC	adc_tp00n__vip_adc																					'tg01b__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00d__12B_1X_PTAT_BIAS_HIGH				'Tp00b__12B_1X_SELF_0P5			12	ADC_Tp00n__VIN_ADC	adc_tp00n__vin_adc																					'tg01b__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_1X_IB3_HIGH				'Tp005__12B_1X_SELF_0P75			12	ADC_Tp00p__VREF	calc_adc_tp00p__vref																					'tg01b__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_1X_IB3_HIGH				'Tp007__12B_1X_SELF_0P75			12	ADC_Tp00p__VIP_ADC	adc_tp00p__vip_adc																					'tg01b__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg009__12B_1X_IB3_HIGH				'Tp009__12B_1X_SELF_0P75			12	ADC_Tp00p__VIN_ADC	adc_tp00p__vin_adc																					'tg01b__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00a__12B_1X_IB3_HIGH				'Tp00b__12B_1X_SELF_0P75			12	ADC_Tp00q__VREF	calc_adc_tp00q__vref																					'tg01b__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00b__12B_1X_IB3_HIGH				'Tp005__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00q__VIP_ADC	adc_tp00q__vip_adc																					'tg01b__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00c__12B_1X_IB3_HIGH				'Tp007__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00q__VIN_ADC	adc_tp00q__vin_adc																					'tg01c__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00d__12B_1X_IB3_HIGH				'Tp009__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00s__VREF	calc_adc_tp00s__vref																					'tg01c__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_1X_BIASGEN_BIAS_LOW				'Tp00b__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00s__VIP_ADC	adc_tp00s__vip_adc																					'tg01c__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_1X_BIASGEN_BIAS_LOW				'Tp00d__12B_1X			12	ADC_Tp00s__VIN_ADC	adc_tp00s__vin_adc																					'tg01c__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg009__12B_1X_BIASGEN_BIAS_LOW				'Tp00f__12B_1X			12	ADC_Tp00t__VREF	calc_adc_tp00t__vref																					'tg01c__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00a__12B_1X_BIASGEN_BIAS_LOW				'Tp00h__12B_1X			12	ADC_Tp00t__VIP_ADC	adc_tp00t__vip_adc																					'tg01c__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00b__12B_1X_BIASGEN_BIAS_LOW				'Tp00j__12B_1X			12	ADC_Tp00t__VIN_ADC	adc_tp00t__vin_adc																					'tg01c__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00c__12B_1X_BIASGEN_BIAS_LOW				'Tp00d__12B_32X			12	ADC_Tp00u__VREF	calc_adc_tp00u__vref																					'tg01c__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00d__12B_1X_BIASGEN_BIAS_LOW				'Tp00f__12B_32X			12	ADC_Tp00u__VIP_ADC	adc_tp00u__vip_adc																					'tg01c__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_1X_BIASGEN_BIAS_HIGH				'Tp00h__12B_32X			12	ADC_Tp00u__VIN_ADC	adc_tp00u__vin_adc																					'tg01c__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_1X_BIASGEN_BIAS_HIGH				'Tp00j__12B_32X			12	ADC_Tp00v__VREF	calc_adc_tp00v__vref																					'tg01c__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg009__12B_1X_BIASGEN_BIAS_HIGH				'Tp00d__12B_1X_SELF_0P25			12	ADC_Tp00v__VIP_ADC	adc_tp00v__vip_adc																					'tg01c__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00a__12B_1X_BIASGEN_BIAS_HIGH				'Tp00f__12B_1X_SELF_0P25			12	ADC_Tp00v__VIN_ADC	adc_tp00v__vin_adc																					'tg01c__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg00b__12B_1X_BIASGEN_BIAS_HIGH				'Tp00h__12B_1X_SELF_0P25			12	ADC_Tp00w__VREF	calc_adc_tp00w__vref																					'tg01c__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg00c__12B_1X_BIASGEN_BIAS_HIGH				'Tp00j__12B_1X_SELF_0P25			12	ADC_Tp00w__VIP_ADC	adc_tp00w__vip_adc																					'tg01c__coeff0	
+	V	ANALOGMUX_OUT_POS			21	Tg00d__12B_1X_BIASGEN_BIAS_HIGH				'Tp00d__12B_1X_SELF_0P5			12	ADC_Tp00w__VIN_ADC	adc_tp00w__vin_adc																					'tg01c__coeff2	
+	V	ANALOGMUX_OUT_POS			21	Tg007__12B_1X_ADC_BIAS_LOW				'Tp00f__12B_1X_SELF_0P5			21	Tp00n__12B_1X	tp00n__12b_1x																					'tg01c__coeff1	
+	V	ANALOGMUX_OUT_POS			21	Tg008__12B_1X_ADC_BIAS_LOW				'Tp00h__12B_1X_SELF_0P5			21	Tp00p__12B_1X	tp00p__12b_1x																					'tg01c__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_1X_ADC_BIAS_LOW				'Tp00j__12B_1X_SELF_0P5			21	Tp00q__12B_1X	tp00q__12b_1x																					'tg01d__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_1X_ADC_BIAS_LOW				'Tp00d__12B_1X_SELF_0P75			21	Tp00s__12B_1X	tp00s__12b_1x																					'tg01d__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_1X_ADC_BIAS_LOW				'Tp00f__12B_1X_SELF_0P75			21	Tp00t__12B_1X	tp00t__12b_1x																					'tg01d__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_1X_ADC_BIAS_LOW				'Tp00h__12B_1X_SELF_0P75			21	Tp00u__12B_1X	tp00u__12b_1x																					'tg01d__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_1X_ADC_BIAS_LOW				'Tp00j__12B_1X_SELF_0P75			21	Tp00v__12B_1X	tp00v__12b_1x																					'tg01d__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_1X_ADC_BIAS_HIGH				'Tp00d__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00w__12B_1X	tp00w__12b_1x																					'tg01d__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_1X_ADC_BIAS_HIGH				'Tp00f__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00n__12B_32X	tp00n__12b_32x																					'tg01d__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_1X_ADC_BIAS_HIGH				'Tp00h__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00p__12B_32X	tp00p__12b_32x																					'tg01d__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_1X_ADC_BIAS_HIGH				'Tp00j__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00q__12B_32X	tp00q__12b_32x																					'tg01d__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_1X_ADC_BIAS_HIGH				'Tp00n__12B_1X			21	Tp00s__12B_32X	tp00s__12b_32x																					'tg01d__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_1X_ADC_BIAS_HIGH				'Tp00p__12B_1X			21	Tp00t__12B_32X	tp00t__12b_32x																					'tg01d__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_1X_ADC_BIAS_HIGH				'Tp00q__12B_1X			21	Tp00u__12B_32X	tp00u__12b_32x																					'tg01d__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_1X_SELF_0P25				'Tp00s__12B_1X			21	Tp00v__12B_32X	tp00v__12b_32x																					'tg01d__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_1X_SELF_0P25				'Tp00t__12B_1X			21	Tp00w__12B_32X	tp00w__12b_32x																					'tg01d__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_1X_SELF_0P25				'Tp00u__12B_1X			21	Tp00n__12B_1X_SELF_0P25																						'tg01d__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_1X_SELF_0P25				'Tp00v__12B_1X			21	Tp00p__12B_1X_SELF_0P25																						'tg01d__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_1X_SELF_0P25				'Tp00w__12B_1X			21	Tp00q__12B_1X_SELF_0P25																						'tg01d__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_1X_SELF_0P25				'Tp00n__12B_32X			21	Tp00s__12B_1X_SELF_0P25																						'tg01d__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_1X_SELF_0P25				'Tp00p__12B_32X			21	Tp00t__12B_1X_SELF_0P25																						'tg01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_1X_SELF_0P5				'Tp00q__12B_32X			21	Tp00u__12B_1X_SELF_0P25																						'tg01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_1X_SELF_0P5				'Tp00s__12B_32X			21	Tp00v__12B_1X_SELF_0P25																						'tg01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_1X_SELF_0P5				'Tp00t__12B_32X			21	Tp00w__12B_1X_SELF_0P25																						'tg01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_1X_SELF_0P5				'Tp00u__12B_32X			21	Tp00n__12B_1X_SELF_0P5	tp00n__12b_1x_self_0p5																					'tg01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_1X_SELF_0P5				'Tp00v__12B_32X			21	Tp00p__12B_1X_SELF_0P5	tp00p__12b_1x_self_0p5																					'tg01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_1X_SELF_0P5				'Tp00w__12B_32X			21	Tp00q__12B_1X_SELF_0P5	tp00q__12b_1x_self_0p5																					'tg01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_1X_SELF_0P5				'Tp00n__12B_1X_SELF_0P25			21	Tp00s__12B_1X_SELF_0P5	tp00s__12b_1x_self_0p5																					'tg01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_1X_SELF_0P75				'Tp00p__12B_1X_SELF_0P25			21	Tp00t__12B_1X_SELF_0P5	tp00t__12b_1x_self_0p5																					'tg01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_1X_SELF_0P75				'Tp00q__12B_1X_SELF_0P25			21	Tp00u__12B_1X_SELF_0P5	tp00u__12b_1x_self_0p5																					'tg01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_1X_SELF_0P75				'Tp00s__12B_1X_SELF_0P25			21	Tp00v__12B_1X_SELF_0P5	tp00v__12b_1x_self_0p5																					'tg01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_1X_SELF_0P75				'Tp00t__12B_1X_SELF_0P25			21	Tp00w__12B_1X_SELF_0P5	tp00w__12b_1x_self_0p5																					'tg01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_1X_SELF_0P75				'Tp00u__12B_1X_SELF_0P25			21	Tp00n__12B_1X_SELF_0P75																						'tg01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_1X_SELF_0P75				'Tp00v__12B_1X_SELF_0P25			21	Tp00p__12B_1X_SELF_0P75																						'tg01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_1X_SELF_0P75				'Tp00w__12B_1X_SELF_0P25			21	Tp00q__12B_1X_SELF_0P75																						'tg01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_1X_RAW_HALFCLK				'Tp00n__12B_1X_SELF_0P5			21	Tp00s__12B_1X_SELF_0P75																						'tg01e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_1X_RAW_HALFCLK				'Tp00p__12B_1X_SELF_0P5			21	Tp00t__12B_1X_SELF_0P75																						'tg01e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_1X_RAW_HALFCLK				'Tp00q__12B_1X_SELF_0P5			21	Tp00u__12B_1X_SELF_0P75																						'tg01e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_1X_RAW_HALFCLK				'Tp00s__12B_1X_SELF_0P5			21	Tp00v__12B_1X_SELF_0P75																						'tg01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_1X_RAW_HALFCLK				'Tp00t__12B_1X_SELF_0P5			21	Tp00w__12B_1X_SELF_0P75																						'tg01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_1X_RAW_HALFCLK				'Tp00u__12B_1X_SELF_0P5			21	Tp00n__12B_1X_HALFCLK_CHOP_OFF0																						'tg01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_1X_RAW_HALFCLK				'Tp00v__12B_1X_SELF_0P5			21	Tp00p__12B_1X_HALFCLK_CHOP_OFF0																						'tg01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_1X_RO				'Tp00w__12B_1X_SELF_0P5			21	Tp00q__12B_1X_HALFCLK_CHOP_OFF0																						'tg01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_1X_RO				'Tp00n__12B_1X_SELF_0P75			21	Tp00s__12B_1X_HALFCLK_CHOP_OFF0																						'tg01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_1X_RO				'Tp00p__12B_1X_SELF_0P75			21	Tp00t__12B_1X_HALFCLK_CHOP_OFF0																						'tg01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_1X_RO				'Tp00q__12B_1X_SELF_0P75			21	Tp00u__12B_1X_HALFCLK_CHOP_OFF0																						'tg01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_1X_RO				'Tp00s__12B_1X_SELF_0P75			21	Tp00v__12B_1X_HALFCLK_CHOP_OFF0																						'tg01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_1X_RO				'Tp00t__12B_1X_SELF_0P75			21	Tp00w__12B_1X_HALFCLK_CHOP_OFF0																						'tg01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_1X_RO				'Tp00u__12B_1X_SELF_0P75			12	ADC_Tp00A__VREF	calc_adc_tp00a__vref																					'tg01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_1X_PR				'Tp00v__12B_1X_SELF_0P75			12	ADC_Tp00A__VIP_ADC	adc_tp00a__vip_adc																					'tg01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_1X_PR				'Tp00w__12B_1X_SELF_0P75			12	ADC_Tp00A__VIN_ADC	adc_tp00a__vin_adc																					'tg01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_1X_PR				'Tp00n__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00C__VREF	calc_adc_tp00c__vref																					'tg01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_1X_PR				'Tp00p__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00C__VIP_ADC	adc_tp00c__vip_adc																					'tg01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_1X_PR				'Tp00q__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00C__VIN_ADC	adc_tp00c__vin_adc																					'tg01f__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_1X_PR				'Tp00s__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00A__12B_1X	tp00a__12b_1x																					'tg01f__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_1X_PR				'Tp00t__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00C__12B_1X	tp00c__12b_1x																					'tg01f__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg007__12B_1X_poly_hardcoded				'Tp00u__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00A__12B_32X	tp00a__12b_32x																					'tg01g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg008__12B_1X_poly_hardcoded				'Tp00v__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00C__12B_32X	tp00c__12b_32x																					'tg01g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg009__12B_1X_poly_hardcoded				'Tp00w__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00A__12B_1X_SELF_0P25																						'tg01g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00a__12B_1X_poly_hardcoded				'Tp00A__12B_1X			21	Tp00C__12B_1X_SELF_0P25																						'tg01g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg00b__12B_1X_poly_hardcoded				'Tp00C__12B_1X			21	Tp00A__12B_1X_SELF_0P5	tp00a__12b_1x_self_0p5																					'tg01g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg00c__12B_1X_poly_hardcoded				'Tp00A__12B_32X			21	Tp00C__12B_1X_SELF_0P5	tp00c__12b_1x_self_0p5																					'tg01g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg00d__12B_1X_poly_hardcoded				'Tp00C__12B_32X			21	Tp00A__12B_1X_SELF_0P75																						'tg01g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_32X_VREF				'Tp00A__12B_1X_SELF_0P25			21	Tp00C__12B_1X_SELF_0P75																						'tg01g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_32X_VREF				'Tp00C__12B_1X_SELF_0P25			21	Tp00A__12B_1X_HALFCLK_CHOP_OFF0																						'tg01g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_32X_VREF				'Tp00A__12B_1X_SELF_0P5			21	Tp00C__12B_1X_HALFCLK_CHOP_OFF0																						'tg01g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_32X_VREF				'Tp00C__12B_1X_SELF_0P5			12	ADC_Tp00E__VREF	calc_adc_tp00e__vref																					'tg01g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_32X_VREF				'Tp00A__12B_1X_SELF_0P75			12	ADC_Tp00E__VIP_ADC	adc_tp00e__vip_adc																					'tg01g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_32X_VREF				'Tp00C__12B_1X_SELF_0P75			12	ADC_Tp00E__VIN_ADC	adc_tp00e__vin_adc																					'tg01g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_32X_VREF				'Tp00A__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00G__VREF	calc_adc_tp00g__vref																					'tg01g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_32X_VREF				'Tp00C__12B_1X_HALFCLK_CHOP_OFF0			12	ADC_Tp00G__VIP_ADC	adc_tp00g__vip_adc																					'tg01g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_32X_VREF_VREFH				'Tp00E__12B_1X			12	ADC_Tp00G__VIN_ADC	adc_tp00g__vin_adc																					'tg01g__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_32X_VREF_VREFH				'Tp00G__12B_1X			21	Tp00E__12B_1X	tp00e__12b_1x																					'tg01g__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_32X_VREF_VREFH				'Tp00E__12B_32X			21	Tp00G__12B_1X	tp00g__12b_1x																					'tg01g__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_32X_VREF_VREFH				'Tp00G__12B_32X			21	Tp00E__12B_32X	tp00e__12b_32x																					'tg01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_32X_VREF_VREFH				'Tp00E__12B_1X_SELF_0P25			21	Tp00G__12B_32X	tp00g__12b_32x																					'tg01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_32X_VREF_VREFH				'Tp00G__12B_1X_SELF_0P25			21	Tp00E__12B_1X_SELF_0P25																						'tg01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_32X_VREF_VREFH				'Tp00E__12B_1X_SELF_0P5			21	Tp00G__12B_1X_SELF_0P25																						'tg01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_32X_VREF_VREFH				'Tp00G__12B_1X_SELF_0P5			21	Tp00E__12B_1X_SELF_0P5	tp00e__12b_1x_self_0p5																					'tg01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_32X_VREF_TFE_PONLY				'Tp00E__12B_1X_SELF_0P75			21	Tp00G__12B_1X_SELF_0P5	tp00g__12b_1x_self_0p5																					'tg01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_32X_VREF_TFE_PONLY				'Tp00G__12B_1X_SELF_0P75			21	Tp00E__12B_1X_SELF_0P75																						'tg01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_32X_VREF_TFE_PONLY				'Tp00E__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00G__12B_1X_SELF_0P75																						'tg01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_32X_VREF_TFE_PONLY				'Tp00G__12B_1X_HALFCLK_CHOP_OFF0			21	Tp00E__12B_1X_HALFCLK_CHOP_OFF0																						'tg01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_32X_VREF_TFE_PONLY							21	Tp00G__12B_1X_HALFCLK_CHOP_OFF0																						'tg01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_32X_VREF_TFE_PONLY																														'tg01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_32X_VREF_TFE_PONLY																														'tg01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_32X_VREF_TFE_PONLY																														'tg01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__10B_1X																														'tg01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__10B_1X																														'tg01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__10B_1X																														'tg01h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__10B_1X																														'tg01h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__10B_1X																														'tg01h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__10B_1X																														'te007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__10B_1X																														'te007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__10B_1X																														'te007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X																														'te007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X																														'te007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X																														'te007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X																														'te007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X																														'te007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X																														'te007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X																														'te007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X																														'te007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_32X																														'te007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_32X																														'te007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_32X																														'te007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_32X																														'te007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_32X																														'te007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_32X																														'te007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_32X																														'te007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_32X																														'te008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_32X_VREFH																														'te008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_32X_VREFH																														'te008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_32X_VREFH																														'te008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_32X_VREFH																														'te008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_32X_VREFH																														'te008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_32X_VREFH																														'te008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_32X_VREFH																														'te008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_32X_VREFH																														'te008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_32X_TFE_PONLY																														'te008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_32X_TFE_PONLY																														'te008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_32X_TFE_PONLY																														'te008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_32X_TFE_PONLY																														'te008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_32X_TFE_PONLY																														'te008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_32X_TFE_PONLY																														'te008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_32X_TFE_PONLY																														'te008__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_32X_TFE_PONLY																														'te008__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_PONLY																														'te008__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_PONLY																														'te009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_PONLY																														'te009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_PONLY																														'te009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_PONLY																														'te009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_PONLY																														'te009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_PONLY																														'te009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_PONLY																														'te009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_NONLY																														'te009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_NONLY																														'te009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_NONLY																														'te009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_NONLY																														'te009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_NONLY																														'te009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_NONLY																														'te009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_NONLY																														'te009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_NONLY																														'te009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_PTAT_BIAS_LOW																														'te009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_PTAT_BIAS_LOW																														'te009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_PTAT_BIAS_LOW																														'te009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_PTAT_BIAS_LOW																														'te00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_PTAT_BIAS_LOW																														'te00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_PTAT_BIAS_LOW																														'te00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_PTAT_BIAS_LOW																														'te00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_PTAT_BIAS_LOW																														'te00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_PTAT_BIAS_HIGH																														'te00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_PTAT_BIAS_HIGH																														'te00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_PTAT_BIAS_HIGH																														'te00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_PTAT_BIAS_HIGH																														'te00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_PTAT_BIAS_HIGH																														'te00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_PTAT_BIAS_HIGH																														'te00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_PTAT_BIAS_HIGH																														'te00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_PTAT_BIAS_HIGH																														'te00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_IB3_HIGH																														'te00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_IB3_HIGH																														'te00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_IB3_HIGH																														'te00e__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_IB3_HIGH																														'te00e__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_IB3_HIGH																														'te00e__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_IB3_HIGH																														'te00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_IB3_HIGH																														'te00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_IB3_HIGH																														'te00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_BIASGEN_BIAS_LOW																														'te00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_BIASGEN_BIAS_LOW																														'te00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_BIASGEN_BIAS_LOW																														'te00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_BIASGEN_BIAS_LOW																														'te00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_BIASGEN_BIAS_LOW																														'te00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_BIASGEN_BIAS_LOW																														'te00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_BIASGEN_BIAS_LOW																														'te00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_BIASGEN_BIAS_LOW																														'te00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_BIASGEN_BIAS_HIGH																														'te00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_BIASGEN_BIAS_HIGH																														'te00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_BIASGEN_BIAS_HIGH																														'te00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_BIASGEN_BIAS_HIGH																														'te00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_BIASGEN_BIAS_HIGH																														'te00h__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_BIASGEN_BIAS_HIGH																														'te00h__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_BIASGEN_BIAS_HIGH																														'te00h__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_BIASGEN_BIAS_HIGH																														'te00i__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_ADC_BIAS_LOW																														'te00i__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_ADC_BIAS_LOW																														'te00i__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_ADC_BIAS_LOW																														'te00i__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_ADC_BIAS_LOW																														'te00i__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_ADC_BIAS_LOW																														'te00i__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_ADC_BIAS_LOW																														'te00i__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_ADC_BIAS_LOW																														'te00i__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_ADC_BIAS_LOW																														'te00i__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_ADC_BIAS_HIGH																														'te00i__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_ADC_BIAS_HIGH																														'te00i__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_ADC_BIAS_HIGH																														'te00i__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_ADC_BIAS_HIGH																														'te00i__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_ADC_BIAS_HIGH																														'te00i__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_ADC_BIAS_HIGH																														'te00i__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_ADC_BIAS_HIGH																														'te00i__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_ADC_BIAS_HIGH																														'te00i__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_SELF_0P25																														'te00i__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_SELF_0P25																														'tp005__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_SELF_0P25																														'tp005__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_SELF_0P25																														'tp005__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_SELF_0P25																														'tp005__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_SELF_0P25																														'tp005__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_SELF_0P25																														'tp005__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_SELF_0P25																														'tp005__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_SELF_0P5																														'tp005__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_SELF_0P5																														'tp005__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_SELF_0P5																														'tp005__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_SELF_0P5																														'tp005__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_SELF_0P5																														'tp005__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_SELF_0P5																														'tp005__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_SELF_0P5																														'tp005__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_SELF_0P5																														'tp005__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_SELF_0P75																														'tp005__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_SELF_0P75																														'tp005__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_SELF_0P75																														'tp005__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_SELF_0P75																														'tp007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_SELF_0P75																														'tp007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_SELF_0P75																														'tp007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_SELF_0P75																														'tp007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_SELF_0P75																														'tp007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_RAW_HALFCLK																														'tp007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_RAW_HALFCLK																														'tp007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_RAW_HALFCLK																														'tp007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_RAW_HALFCLK																														'tp007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_RAW_HALFCLK																														'tp007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_RAW_HALFCLK																														'tp007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_RAW_HALFCLK																														'tp007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_RAW_HALFCLK																														'tp007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_RO																														'tp007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_RO																														'tp007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_RO																														'tp007__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01d__12B_1X_RO																														'tp007__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01e__12B_1X_RO																														'tp007__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01f__12B_1X_RO																														'tp009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01g__12B_1X_RO																														'tp009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01h__12B_1X_RO																														'tp009__coeff0	
+	V	ANALOGMUX_OUT_NEG			21	Tg01a__12B_1X_PR																														'tp009__coeff2	
+	V	ANALOGMUX_OUT_NEG			21	Tg01b__12B_1X_PR																														'tp009__coeff1	
+	V	ANALOGMUX_OUT_NEG			21	Tg01c__12B_1X_PR																														'tp009__coeff0	
+					21	Tg01d__12B_1X_PR																														'tp009__coeff2	
+					21	Tg01e__12B_1X_PR																														'tp009__coeff1	
+					21	Tg01f__12B_1X_PR																														'tp009__coeff0	
+					21	Tg01g__12B_1X_PR																														'tp009__coeff2	
+					21	Tg01h__12B_1X_PR																														'tp009__coeff1	
+					21	Tg01a__12B_1X_poly_hardcoded																														'tp009__coeff0	
+					21	Tg01b__12B_1X_poly_hardcoded																														'tp009__coeff2	
+					21	Tg01c__12B_1X_poly_hardcoded																														'tp009__coeff1	
+					21	Tg01d__12B_1X_poly_hardcoded																														'tp009__coeff0	
+					21	Tg01e__12B_1X_poly_hardcoded																														'tp009__coeff2	
+					21	Tg01f__12B_1X_poly_hardcoded																														'tp009__coeff1	
+					21	Tg01g__12B_1X_poly_hardcoded																														'tp009__coeff0	
+					21	Tg01h__12B_1X_poly_hardcoded																														'tp00b__coeff2	
+					21	Te007__12B_32X_VREF																														'tp00b__coeff1	
+					21	Te008__12B_32X_VREF																														'tp00b__coeff0	
+					21	Te009__12B_32X_VREF																														'tp00b__coeff2	
+					21	Te007__12B_32X_VREF_VREFH																														'tp00b__coeff1	
+					21	Te008__12B_32X_VREF_VREFH																														'tp00b__coeff0	
+					21	Te009__12B_32X_VREF_VREFH																														'tp00b__coeff2	
+					21	Te007__12B_32X_VREF_TFE_PONLY																														'tp00b__coeff1	
+					21	Te008__12B_32X_VREF_TFE_PONLY																														'tp00b__coeff0	
+					21	Te009__12B_32X_VREF_TFE_PONLY																														'tp00b__coeff2	
+					21	Te007__10B_1X																														'tp00b__coeff1	
+					21	Te008__10B_1X																														'tp00b__coeff0	
+					21	Te009__10B_1X																														'tp00b__coeff2	
+					21	Te007__12B_1X																														'tp00b__coeff1	
+					21	Te008__12B_1X																														'tp00b__coeff0	
+					21	Te009__12B_1X																														'tp00b__coeff2	
+					21	Te007__12B_32X																														'tp00b__coeff1	
+					21	Te008__12B_32X																														'tp00b__coeff0	
+					21	Te009__12B_32X																														'tp00d__coeff2	
+					21	Te007__12B_32X_VREFH																														'tp00d__coeff1	
+					21	Te008__12B_32X_VREFH																														'tp00d__coeff0	
+					21	Te009__12B_32X_VREFH																														'tp00d__coeff2	
+					21	Te007__12B_32X_TFE_PONLY																														'tp00d__coeff1	
+					21	Te008__12B_32X_TFE_PONLY																														'tp00d__coeff0	
+					21	Te009__12B_32X_TFE_PONLY																														'tp00d__coeff2	
+					21	Te007__12B_1X_PONLY																														'tp00d__coeff1	
+					21	Te008__12B_1X_PONLY																														'tp00d__coeff0	
+					21	Te009__12B_1X_PONLY																														'tp00d__coeff2	
+					21	Te007__12B_1X_NONLY																														'tp00d__coeff1	
+					21	Te008__12B_1X_NONLY																														'tp00d__coeff0	
+					21	Te009__12B_1X_NONLY																														'tp00d__coeff2	
+					21	Te007__12B_1X_PTAT_BIAS_LOW																														'tp00d__coeff1	
+					21	Te008__12B_1X_PTAT_BIAS_LOW																														'tp00d__coeff0	
+					21	Te009__12B_1X_PTAT_BIAS_LOW																														'tp00d__coeff2	
+					21	Te007__12B_1X_PTAT_BIAS_HIGH																														'tp00d__coeff1	
+					21	Te008__12B_1X_PTAT_BIAS_HIGH																														'tp00d__coeff0	
+					21	Te009__12B_1X_PTAT_BIAS_HIGH																														'tp00f__coeff2	
+					21	Te007__12B_1X_IB3_HIGH																														'tp00f__coeff1	
+					21	Te008__12B_1X_IB3_HIGH																														'tp00f__coeff0	
+					21	Te009__12B_1X_IB3_HIGH																														'tp00f__coeff2	
+					21	Te007__12B_1X_BIASGEN_BIAS_LOW																														'tp00f__coeff1	
+					21	Te008__12B_1X_BIASGEN_BIAS_LOW																														'tp00f__coeff0	
+					21	Te009__12B_1X_BIASGEN_BIAS_LOW																														'tp00f__coeff2	
+					21	Te007__12B_1X_BIASGEN_BIAS_HIGH																														'tp00f__coeff1	
+					21	Te008__12B_1X_BIASGEN_BIAS_HIGH																														'tp00f__coeff0	
+					21	Te009__12B_1X_BIASGEN_BIAS_HIGH																														'tp00f__coeff2	
+					21	Te007__12B_1X_ADC_BIAS_LOW																														'tp00f__coeff1	
+					21	Te008__12B_1X_ADC_BIAS_LOW																														'tp00f__coeff0	
+					21	Te009__12B_1X_ADC_BIAS_LOW																														'tp00f__coeff2	
+					21	Te007__12B_1X_ADC_BIAS_HIGH																														'tp00f__coeff1	
+					21	Te008__12B_1X_ADC_BIAS_HIGH																														'tp00f__coeff0	
+					21	Te009__12B_1X_ADC_BIAS_HIGH																														'tp00f__coeff2	
+					21	Te007__12B_1X_SELF_0P25																														'tp00f__coeff1	
+					21	Te008__12B_1X_SELF_0P25																														'tp00f__coeff0	
+					21	Te009__12B_1X_SELF_0P25																														'tp00h__coeff2	
+					21	Te007__12B_1X_SELF_0P5																														'tp00h__coeff1	
+					21	Te008__12B_1X_SELF_0P5																														'tp00h__coeff0	
+					21	Te009__12B_1X_SELF_0P5																														'tp00h__coeff2	
+					21	Te007__12B_1X_SELF_0P75																														'tp00h__coeff1	
+					21	Te008__12B_1X_SELF_0P75																														'tp00h__coeff0	
+					21	Te009__12B_1X_SELF_0P75																														'tp00h__coeff2	
+					21	Te007__12B_1X_RAW_HALFCLK																														'tp00h__coeff1	
+					21	Te008__12B_1X_RAW_HALFCLK																														'tp00h__coeff0	
+					21	Te009__12B_1X_RAW_HALFCLK																														'tp00h__coeff2	
+					21	Te007__12B_1X_RO																														'tp00h__coeff1	
+					21	Te008__12B_1X_RO																														'tp00h__coeff0	
+					21	Te009__12B_1X_RO																														'tp00h__coeff2	
+					21	Te007__12B_1X_PR																														'tp00h__coeff1	
+					21	Te008__12B_1X_PR																														'tp00h__coeff0	
+					21	Te009__12B_1X_PR																														'tp00h__coeff2	
+					21	Te007__12B_1X_poly_hardcoded																														'tp00h__coeff1	
+					21	Te008__12B_1X_poly_hardcoded																														'tp00h__coeff0	
+					21	Te009__12B_1X_poly_hardcoded																														'tp00j__coeff2	
+					21	Te00e__12B_32X_VREF																														'tp00j__coeff1	
+					21	Te00h__12B_32X_VREF																														'tp00j__coeff0	
+					21	Te00i__12B_32X_VREF																														'tp00j__coeff2	
+					21	Te00e__12B_32X_VREF_VREFH																														'tp00j__coeff1	
+					21	Te00h__12B_32X_VREF_VREFH																														'tp00j__coeff0	
+					21	Te00i__12B_32X_VREF_VREFH																														'tp00j__coeff2	
+					21	Te00e__12B_32X_VREF_TFE_PONLY																														'tp00j__coeff1	
+					21	Te00h__12B_32X_VREF_TFE_PONLY																														'tp00j__coeff0	
+					21	Te00i__12B_32X_VREF_TFE_PONLY																														'tp00j__coeff2	
+					21	Te00e__10B_1X																														'tp00j__coeff1	
+					21	Te00h__10B_1X																														'tp00j__coeff0	
+					21	Te00i__10B_1X																														'tp00j__coeff2	
+					21	Te00e__12B_1X																														'tp00j__coeff1	
+					21	Te00h__12B_1X																														'tp00j__coeff0	
+					21	Te00i__12B_1X																														'tp00j__coeff2	
+					21	Te00e__12B_32X																														'tp00j__coeff1	
+					21	Te00h__12B_32X																														'tp00j__coeff0	
+					21	Te00i__12B_32X																														'tp00n__coeff2	
+					21	Te00e__12B_32X_VREFH																														'tp00n__coeff1	
+					21	Te00h__12B_32X_VREFH																														'tp00n__coeff0	
+					21	Te00i__12B_32X_VREFH																														'tp00n__coeff2	
+					21	Te00e__12B_32X_TFE_PONLY																														'tp00n__coeff1	
+					21	Te00h__12B_32X_TFE_PONLY																														'tp00n__coeff0	
+					21	Te00i__12B_32X_TFE_PONLY																														'tp00n__coeff2	
+					21	Te00e__12B_1X_PONLY																														'tp00n__coeff1	
+					21	Te00h__12B_1X_PONLY																														'tp00n__coeff0	
+					21	Te00i__12B_1X_PONLY																														'tp00n__coeff2	
+					21	Te00e__12B_1X_NONLY																														'tp00n__coeff1	
+					21	Te00h__12B_1X_NONLY																														'tp00n__coeff0	
+					21	Te00i__12B_1X_NONLY																														'tp00n__coeff2	
+					21	Te00e__12B_1X_PTAT_BIAS_LOW																														'tp00n__coeff1	
+					21	Te00h__12B_1X_PTAT_BIAS_LOW																														'tp00n__coeff0	
+					21	Te00i__12B_1X_PTAT_BIAS_LOW																														'tp00n__coeff2	
+					21	Te00e__12B_1X_PTAT_BIAS_HIGH																														'tp00n__coeff1	
+					21	Te00h__12B_1X_PTAT_BIAS_HIGH																														'tp00n__coeff0	
+					21	Te00i__12B_1X_PTAT_BIAS_HIGH																														'tp00p__coeff2	
+					21	Te00e__12B_1X_IB3_HIGH																														'tp00p__coeff1	
+					21	Te00h__12B_1X_IB3_HIGH																														'tp00p__coeff0	
+					21	Te00i__12B_1X_IB3_HIGH																														'tp00p__coeff2	
+					21	Te00e__12B_1X_BIASGEN_BIAS_LOW																														'tp00p__coeff1	
+					21	Te00h__12B_1X_BIASGEN_BIAS_LOW																														'tp00p__coeff0	
+					21	Te00i__12B_1X_BIASGEN_BIAS_LOW																														'tp00p__coeff2	
+					21	Te00e__12B_1X_BIASGEN_BIAS_HIGH																														'tp00p__coeff1	
+					21	Te00h__12B_1X_BIASGEN_BIAS_HIGH																														'tp00p__coeff0	
+					21	Te00i__12B_1X_BIASGEN_BIAS_HIGH																														'tp00p__coeff2	
+					21	Te00e__12B_1X_ADC_BIAS_LOW																														'tp00p__coeff1	
+					21	Te00h__12B_1X_ADC_BIAS_LOW																														'tp00p__coeff0	
+					21	Te00i__12B_1X_ADC_BIAS_LOW																														'tp00p__coeff2	
+					21	Te00e__12B_1X_ADC_BIAS_HIGH																														'tp00p__coeff1	
+					21	Te00h__12B_1X_ADC_BIAS_HIGH																														'tp00p__coeff0	
+					21	Te00i__12B_1X_ADC_BIAS_HIGH																														'tp00p__coeff2	
+					21	Te00e__12B_1X_SELF_0P25																														'tp00p__coeff1	
+					21	Te00h__12B_1X_SELF_0P25																														'tp00p__coeff0	
+					21	Te00i__12B_1X_SELF_0P25																														'tp00q__coeff2	
+					21	Te00e__12B_1X_SELF_0P5																														'tp00q__coeff1	
+					21	Te00h__12B_1X_SELF_0P5																														'tp00q__coeff0	
+					21	Te00i__12B_1X_SELF_0P5																														'tp00q__coeff2	
+					21	Te00e__12B_1X_SELF_0P75																														'tp00q__coeff1	
+					21	Te00h__12B_1X_SELF_0P75																														'tp00q__coeff0	
+					21	Te00i__12B_1X_SELF_0P75																														'tp00q__coeff2	
+					21	Te00e__12B_1X_RAW_HALFCLK																														'tp00q__coeff1	
+					21	Te00h__12B_1X_RAW_HALFCLK																														'tp00q__coeff0	
+					21	Te00i__12B_1X_RAW_HALFCLK																														'tp00q__coeff2	
+					21	Te00e__12B_1X_RO																														'tp00q__coeff1	
+					21	Te00h__12B_1X_RO																														'tp00q__coeff0	
+					21	Te00i__12B_1X_RO																														'tp00q__coeff2	
+					21	Te00e__12B_1X_PR																														'tp00q__coeff1	
+					21	Te00h__12B_1X_PR																														'tp00q__coeff0	
+					21	Te00i__12B_1X_PR																														'tp00q__coeff2	
+					21	Te00e__12B_1X_poly_hardcoded																														'tp00q__coeff1	
+					21	Te00h__12B_1X_poly_hardcoded																														'tp00q__coeff0	
+					21	Te00i__12B_1X_poly_hardcoded																														'tp00s__coeff2	
+					21	Tp005__12B_32X_VREF																														'tp00s__coeff1	
+					21	Tp007__12B_32X_VREF																														'tp00s__coeff0	
+					21	Tp009__12B_32X_VREF																														'tp00s__coeff2	
+					21	Tp00b__12B_32X_VREF																														'tp00s__coeff1	
+					21	Tp005__12B_32X_VREF_VREFH																														'tp00s__coeff0	
+					21	Tp007__12B_32X_VREF_VREFH																														'tp00s__coeff2	
+					21	Tp009__12B_32X_VREF_VREFH																														'tp00s__coeff1	
+					21	Tp00b__12B_32X_VREF_VREFH																														'tp00s__coeff0	
+					21	Tp005__12B_32X_VREF_TFE_PONLY																														'tp00s__coeff2	
+					21	Tp007__12B_32X_VREF_TFE_PONLY																														'tp00s__coeff1	
+					21	Tp009__12B_32X_VREF_TFE_PONLY																														'tp00s__coeff0	
+					21	Tp00b__12B_32X_VREF_TFE_PONLY																														'tp00s__coeff2	
+					21	Tp005__10B_1X																														'tp00s__coeff1	
+					21	Tp007__10B_1X																														'tp00s__coeff0	
+					21	Tp009__10B_1X																														'tp00s__coeff2	
+					21	Tp00b__10B_1X																														'tp00s__coeff1	
+					21	Tp005__12B_1X																														'tp00s__coeff0	
+					21	Tp007__12B_1X																														'tp00t__coeff2	
+					21	Tp009__12B_1X																														'tp00t__coeff1	
+					21	Tp00b__12B_1X																														'tp00t__coeff0	
+					21	Tp005__12B_32X																														'tp00t__coeff2	
+					21	Tp007__12B_32X																														'tp00t__coeff1	
+					21	Tp009__12B_32X																														'tp00t__coeff0	
+					21	Tp00b__12B_32X																														'tp00t__coeff2	
+					21	Tp005__12B_32X_VREFH																														'tp00t__coeff1	
+					21	Tp007__12B_32X_VREFH																														'tp00t__coeff0	
+					21	Tp009__12B_32X_VREFH																														'tp00t__coeff2	
+					21	Tp00b__12B_32X_VREFH																														'tp00t__coeff1	
+					21	Tp005__12B_32X_TFE_PONLY																														'tp00t__coeff0	
+					21	Tp007__12B_32X_TFE_PONLY																														'tp00t__coeff2	
+					21	Tp009__12B_32X_TFE_PONLY																														'tp00t__coeff1	
+					21	Tp00b__12B_32X_TFE_PONLY																														'tp00t__coeff0	
+					21	Tp005__12B_1X_PONLY																														'tp00t__coeff2	
+					21	Tp007__12B_1X_PONLY																														'tp00t__coeff1	
+					21	Tp009__12B_1X_PONLY																														'tp00t__coeff0	
+					21	Tp00b__12B_1X_PONLY																														'tp00u__coeff2	
+					21	Tp005__12B_1X_NONLY																														'tp00u__coeff1	
+					21	Tp007__12B_1X_NONLY																														'tp00u__coeff0	
+					21	Tp009__12B_1X_NONLY																														'tp00u__coeff2	
+					21	Tp00b__12B_1X_NONLY																														'tp00u__coeff1	
+					21	Tp005__12B_1X_PTAT_BIAS_LOW																														'tp00u__coeff0	
+					21	Tp007__12B_1X_PTAT_BIAS_LOW																														'tp00u__coeff2	
+					21	Tp009__12B_1X_PTAT_BIAS_LOW																														'tp00u__coeff1	
+					21	Tp00b__12B_1X_PTAT_BIAS_LOW																														'tp00u__coeff0	
+					21	Tp005__12B_1X_PTAT_BIAS_HIGH																														'tp00u__coeff2	
+					21	Tp007__12B_1X_PTAT_BIAS_HIGH																														'tp00u__coeff1	
+					21	Tp009__12B_1X_PTAT_BIAS_HIGH																														'tp00u__coeff0	
+					21	Tp00b__12B_1X_PTAT_BIAS_HIGH																														'tp00u__coeff2	
+					21	Tp005__12B_1X_IB3_HIGH																														'tp00u__coeff1	
+					21	Tp007__12B_1X_IB3_HIGH																														'tp00u__coeff0	
+					21	Tp009__12B_1X_IB3_HIGH																														'tp00u__coeff2	
+					21	Tp00b__12B_1X_IB3_HIGH																														'tp00u__coeff1	
+					21	Tp005__12B_1X_BIASGEN_BIAS_LOW																														'tp00u__coeff0	
+					21	Tp007__12B_1X_BIASGEN_BIAS_LOW																														'tp00v__coeff2	
+					21	Tp009__12B_1X_BIASGEN_BIAS_LOW																														'tp00v__coeff1	
+					21	Tp00b__12B_1X_BIASGEN_BIAS_LOW																														'tp00v__coeff0	
+					21	Tp005__12B_1X_BIASGEN_BIAS_HIGH																														'tp00v__coeff2	
+					21	Tp007__12B_1X_BIASGEN_BIAS_HIGH																														'tp00v__coeff1	
+					21	Tp009__12B_1X_BIASGEN_BIAS_HIGH																														'tp00v__coeff0	
+					21	Tp00b__12B_1X_BIASGEN_BIAS_HIGH																														'tp00v__coeff2	
+					21	Tp005__12B_1X_ADC_BIAS_LOW																														'tp00v__coeff1	
+					21	Tp007__12B_1X_ADC_BIAS_LOW																														'tp00v__coeff0	
+					21	Tp009__12B_1X_ADC_BIAS_LOW																														'tp00v__coeff2	
+					21	Tp00b__12B_1X_ADC_BIAS_LOW																														'tp00v__coeff1	
+					21	Tp005__12B_1X_ADC_BIAS_HIGH																														'tp00v__coeff0	
+					21	Tp007__12B_1X_ADC_BIAS_HIGH																														'tp00v__coeff2	
+					21	Tp009__12B_1X_ADC_BIAS_HIGH																														'tp00v__coeff1	
+					21	Tp00b__12B_1X_ADC_BIAS_HIGH																														'tp00v__coeff0	
+					21	Tp005__12B_1X_SELF_0P25																														'tp00v__coeff2	
+					21	Tp007__12B_1X_SELF_0P25																														'tp00v__coeff1	
+					21	Tp009__12B_1X_SELF_0P25																														'tp00v__coeff0	
+					21	Tp00b__12B_1X_SELF_0P25																														'tp00w__coeff2	
+					21	Tp005__12B_1X_SELF_0P5																														'tp00w__coeff1	
+					21	Tp007__12B_1X_SELF_0P5																														'tp00w__coeff0	
+					21	Tp009__12B_1X_SELF_0P5																														'tp00w__coeff2	
+					21	Tp00b__12B_1X_SELF_0P5																														'tp00w__coeff1	
+					21	Tp005__12B_1X_SELF_0P75																														'tp00w__coeff0	
+					21	Tp007__12B_1X_SELF_0P75																														'tp00w__coeff2	
+					21	Tp009__12B_1X_SELF_0P75																														'tp00w__coeff1	
+					21	Tp00b__12B_1X_SELF_0P75																														'tp00w__coeff0	
+					21	Tp005__12B_1X_RAW_HALFCLK																														'tp00w__coeff2	
+					21	Tp007__12B_1X_RAW_HALFCLK																														'tp00w__coeff1	
+					21	Tp009__12B_1X_RAW_HALFCLK																														'tp00w__coeff0	
+					21	Tp00b__12B_1X_RAW_HALFCLK																														'tp00w__coeff2	
+					21	Tp005__12B_1X_RO																														'tp00w__coeff1	
+					21	Tp007__12B_1X_RO																														'tp00w__coeff0	
+					21	Tp009__12B_1X_RO																														'tp00w__coeff2	
+					21	Tp00b__12B_1X_RO																														'tp00w__coeff1	
+					21	Tp005__12B_1X_PR																														'tp00w__coeff0	
+					21	Tp007__12B_1X_PR																														'tp00a__coeff2	
+					21	Tp009__12B_1X_PR																														'tp00a__coeff1	
+					21	Tp00b__12B_1X_PR																														'tp00a__coeff0	
+					21	Tp005__12B_1X_poly_hardcoded																														'tp00a__coeff2	
+					21	Tp007__12B_1X_poly_hardcoded																														'tp00a__coeff1	
+					21	Tp009__12B_1X_poly_hardcoded																														'tp00a__coeff0	
+					21	Tp00b__12B_1X_poly_hardcoded																														'tp00a__coeff2	
+					21	Tp00d__12B_32X_VREF																														'tp00a__coeff1	
+					21	Tp00f__12B_32X_VREF																														'tp00a__coeff0	
+					21	Tp00h__12B_32X_VREF																														'tp00a__coeff2	
+					21	Tp00j__12B_32X_VREF																														'tp00a__coeff1	
+					21	Tp00d__12B_32X_VREF_VREFH																														'tp00a__coeff0	
+					21	Tp00f__12B_32X_VREF_VREFH																														'tp00a__coeff2	
+					21	Tp00h__12B_32X_VREF_VREFH																														'tp00a__coeff1	
+					21	Tp00j__12B_32X_VREF_VREFH																														'tp00a__coeff0	
+					21	Tp00d__12B_32X_VREF_TFE_PONLY																														'tp00a__coeff2	
+					21	Tp00f__12B_32X_VREF_TFE_PONLY																														'tp00a__coeff1	
+					21	Tp00h__12B_32X_VREF_TFE_PONLY																														'tp00a__coeff0	
+					21	Tp00j__12B_32X_VREF_TFE_PONLY																														'tp00c__coeff2	
+					21	Tp00d__10B_1X																														'tp00c__coeff1	
+					21	Tp00f__10B_1X																														'tp00c__coeff0	
+					21	Tp00h__10B_1X																														'tp00c__coeff2	
+					21	Tp00j__10B_1X																														'tp00c__coeff1	
+					21	Tp00d__12B_1X																														'tp00c__coeff0	
+					21	Tp00f__12B_1X																														'tp00c__coeff2	
+					21	Tp00h__12B_1X																														'tp00c__coeff1	
+					21	Tp00j__12B_1X																														'tp00c__coeff0	
+					21	Tp00d__12B_32X																														'tp00c__coeff2	
+					21	Tp00f__12B_32X																														'tp00c__coeff1	
+					21	Tp00h__12B_32X																														'tp00c__coeff0	
+					21	Tp00j__12B_32X																														'tp00c__coeff2	
+					21	Tp00d__12B_32X_VREFH																														'tp00c__coeff1	
+					21	Tp00f__12B_32X_VREFH																														'tp00c__coeff0	
+					21	Tp00h__12B_32X_VREFH																														'tp00c__coeff2	
+					21	Tp00j__12B_32X_VREFH																														'tp00c__coeff1	
+					21	Tp00d__12B_32X_TFE_PONLY																														'tp00c__coeff0	
+					21	Tp00f__12B_32X_TFE_PONLY																														'tp00e__coeff2	
+					21	Tp00h__12B_32X_TFE_PONLY																														'tp00e__coeff1	
+					21	Tp00j__12B_32X_TFE_PONLY																														'tp00e__coeff0	
+					21	Tp00d__12B_1X_PONLY																														'tp00e__coeff2	
+					21	Tp00f__12B_1X_PONLY																														'tp00e__coeff1	
+					21	Tp00h__12B_1X_PONLY																														'tp00e__coeff0	
+					21	Tp00j__12B_1X_PONLY																														'tp00e__coeff2	
+					21	Tp00d__12B_1X_NONLY																														'tp00e__coeff1	
+					21	Tp00f__12B_1X_NONLY																														'tp00e__coeff0	
+					21	Tp00h__12B_1X_NONLY																														'tp00e__coeff2	
+					21	Tp00j__12B_1X_NONLY																														'tp00e__coeff1	
+					21	Tp00d__12B_1X_PTAT_BIAS_LOW																														'tp00e__coeff0	
+					21	Tp00f__12B_1X_PTAT_BIAS_LOW																														'tp00e__coeff2	
+					21	Tp00h__12B_1X_PTAT_BIAS_LOW																														'tp00e__coeff1	
+					21	Tp00j__12B_1X_PTAT_BIAS_LOW																														'tp00e__coeff0	
+					21	Tp00d__12B_1X_PTAT_BIAS_HIGH																														'tp00e__coeff2	
+					21	Tp00f__12B_1X_PTAT_BIAS_HIGH																														'tp00e__coeff1	
+					21	Tp00h__12B_1X_PTAT_BIAS_HIGH																														'tp00e__coeff0	
+					21	Tp00j__12B_1X_PTAT_BIAS_HIGH																														'tp00g__coeff2	
+					21	Tp00d__12B_1X_IB3_HIGH																														'tp00g__coeff1	
+					21	Tp00f__12B_1X_IB3_HIGH																														'tp00g__coeff0	
+					21	Tp00h__12B_1X_IB3_HIGH																														'tp00g__coeff2	
+					21	Tp00j__12B_1X_IB3_HIGH																														'tp00g__coeff1	
+					21	Tp00d__12B_1X_BIASGEN_BIAS_LOW																														'tp00g__coeff0	
+					21	Tp00f__12B_1X_BIASGEN_BIAS_LOW																														'tp00g__coeff2	
+					21	Tp00h__12B_1X_BIASGEN_BIAS_LOW																														'tp00g__coeff1	
+					21	Tp00j__12B_1X_BIASGEN_BIAS_LOW																														'tp00g__coeff0	
+					21	Tp00d__12B_1X_BIASGEN_BIAS_HIGH																														'tp00g__coeff2	
+					21	Tp00f__12B_1X_BIASGEN_BIAS_HIGH																														'tp00g__coeff1	
+					21	Tp00h__12B_1X_BIASGEN_BIAS_HIGH																														'tp00g__coeff0	
+					21	Tp00j__12B_1X_BIASGEN_BIAS_HIGH																														'tp00g__coeff2	
+					21	Tp00d__12B_1X_ADC_BIAS_LOW																														'tp00g__coeff1	
+					21	Tp00f__12B_1X_ADC_BIAS_LOW																														'tp00g__coeff0	
+					21	Tp00h__12B_1X_ADC_BIAS_LOW																														'tp00g__coeff2	
+					21	Tp00j__12B_1X_ADC_BIAS_LOW																														'tp00g__coeff1	
+					21	Tp00d__12B_1X_ADC_BIAS_HIGH																														'tp00g__coeff0	
+					21	Tp00f__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00h__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00j__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00d__12B_1X_SELF_0P25																															
+					21	Tp00f__12B_1X_SELF_0P25																															
+					21	Tp00h__12B_1X_SELF_0P25																															
+					21	Tp00j__12B_1X_SELF_0P25																															
+					21	Tp00d__12B_1X_SELF_0P5																															
+					21	Tp00f__12B_1X_SELF_0P5																															
+					21	Tp00h__12B_1X_SELF_0P5																															
+					21	Tp00j__12B_1X_SELF_0P5																															
+					21	Tp00d__12B_1X_SELF_0P75																															
+					21	Tp00f__12B_1X_SELF_0P75																															
+					21	Tp00h__12B_1X_SELF_0P75																															
+					21	Tp00j__12B_1X_SELF_0P75																															
+					21	Tp00d__12B_1X_RAW_HALFCLK																															
+					21	Tp00f__12B_1X_RAW_HALFCLK																															
+					21	Tp00h__12B_1X_RAW_HALFCLK																															
+					21	Tp00j__12B_1X_RAW_HALFCLK																															
+					21	Tp00d__12B_1X_RO																															
+					21	Tp00f__12B_1X_RO																															
+					21	Tp00h__12B_1X_RO																															
+					21	Tp00j__12B_1X_RO																															
+					21	Tp00d__12B_1X_PR																															
+					21	Tp00f__12B_1X_PR																															
+					21	Tp00h__12B_1X_PR																															
+					21	Tp00j__12B_1X_PR																															
+					21	Tp00d__12B_1X_poly_hardcoded																															
+					21	Tp00f__12B_1X_poly_hardcoded																															
+					21	Tp00h__12B_1X_poly_hardcoded																															
+					21	Tp00j__12B_1X_poly_hardcoded																															
+					21	Tp00n__12B_32X_VREF																															
+					21	Tp00p__12B_32X_VREF																															
+					21	Tp00q__12B_32X_VREF																															
+					21	Tp00s__12B_32X_VREF																															
+					21	Tp00t__12B_32X_VREF																															
+					21	Tp00u__12B_32X_VREF																															
+					21	Tp00v__12B_32X_VREF																															
+					21	Tp00w__12B_32X_VREF																															
+					21	Tp00n__12B_32X_VREF_VREFH																															
+					21	Tp00p__12B_32X_VREF_VREFH																															
+					21	Tp00q__12B_32X_VREF_VREFH																															
+					21	Tp00s__12B_32X_VREF_VREFH																															
+					21	Tp00t__12B_32X_VREF_VREFH																															
+					21	Tp00u__12B_32X_VREF_VREFH																															
+					21	Tp00v__12B_32X_VREF_VREFH																															
+					21	Tp00w__12B_32X_VREF_VREFH																															
+					21	Tp00n__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00p__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00q__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00s__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00t__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00u__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00v__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00w__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00n__10B_1X																															
+					21	Tp00p__10B_1X																															
+					21	Tp00q__10B_1X																															
+					21	Tp00s__10B_1X																															
+					21	Tp00t__10B_1X																															
+					21	Tp00u__10B_1X																															
+					21	Tp00v__10B_1X																															
+					21	Tp00w__10B_1X																															
+					21	Tp00n__12B_1X																															
+					21	Tp00p__12B_1X																															
+					21	Tp00q__12B_1X																															
+					21	Tp00s__12B_1X																															
+					21	Tp00t__12B_1X																															
+					21	Tp00u__12B_1X																															
+					21	Tp00v__12B_1X																															
+					21	Tp00w__12B_1X																															
+					21	Tp00n__12B_32X																															
+					21	Tp00p__12B_32X																															
+					21	Tp00q__12B_32X																															
+					21	Tp00s__12B_32X																															
+					21	Tp00t__12B_32X																															
+					21	Tp00u__12B_32X																															
+					21	Tp00v__12B_32X																															
+					21	Tp00w__12B_32X																															
+					21	Tp00n__12B_32X_VREFH																															
+					21	Tp00p__12B_32X_VREFH																															
+					21	Tp00q__12B_32X_VREFH																															
+					21	Tp00s__12B_32X_VREFH																															
+					21	Tp00t__12B_32X_VREFH																															
+					21	Tp00u__12B_32X_VREFH																															
+					21	Tp00v__12B_32X_VREFH																															
+					21	Tp00w__12B_32X_VREFH																															
+					21	Tp00n__12B_32X_TFE_PONLY																															
+					21	Tp00p__12B_32X_TFE_PONLY																															
+					21	Tp00q__12B_32X_TFE_PONLY																															
+					21	Tp00s__12B_32X_TFE_PONLY																															
+					21	Tp00t__12B_32X_TFE_PONLY																															
+					21	Tp00u__12B_32X_TFE_PONLY																															
+					21	Tp00v__12B_32X_TFE_PONLY																															
+					21	Tp00w__12B_32X_TFE_PONLY																															
+					21	Tp00n__12B_1X_PONLY																															
+					21	Tp00p__12B_1X_PONLY																															
+					21	Tp00q__12B_1X_PONLY																															
+					21	Tp00s__12B_1X_PONLY																															
+					21	Tp00t__12B_1X_PONLY																															
+					21	Tp00u__12B_1X_PONLY																															
+					21	Tp00v__12B_1X_PONLY																															
+					21	Tp00w__12B_1X_PONLY																															
+					21	Tp00n__12B_1X_NONLY																															
+					21	Tp00p__12B_1X_NONLY																															
+					21	Tp00q__12B_1X_NONLY																															
+					21	Tp00s__12B_1X_NONLY																															
+					21	Tp00t__12B_1X_NONLY																															
+					21	Tp00u__12B_1X_NONLY																															
+					21	Tp00v__12B_1X_NONLY																															
+					21	Tp00w__12B_1X_NONLY																															
+					21	Tp00n__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00p__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00q__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00s__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00t__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00u__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00v__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00w__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00n__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00p__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00q__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00s__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00t__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00u__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00v__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00w__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00n__12B_1X_IB3_HIGH																															
+					21	Tp00p__12B_1X_IB3_HIGH																															
+					21	Tp00q__12B_1X_IB3_HIGH																															
+					21	Tp00s__12B_1X_IB3_HIGH																															
+					21	Tp00t__12B_1X_IB3_HIGH																															
+					21	Tp00u__12B_1X_IB3_HIGH																															
+					21	Tp00v__12B_1X_IB3_HIGH																															
+					21	Tp00w__12B_1X_IB3_HIGH																															
+					21	Tp00n__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00p__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00q__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00s__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00t__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00u__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00v__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00w__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00n__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00p__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00q__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00s__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00t__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00u__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00v__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00w__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00n__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00p__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00q__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00s__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00t__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00u__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00v__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00w__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00n__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00p__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00q__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00s__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00t__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00u__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00v__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00w__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00n__12B_1X_SELF_0P25																															
+					21	Tp00p__12B_1X_SELF_0P25																															
+					21	Tp00q__12B_1X_SELF_0P25																															
+					21	Tp00s__12B_1X_SELF_0P25																															
+					21	Tp00t__12B_1X_SELF_0P25																															
+					21	Tp00u__12B_1X_SELF_0P25																															
+					21	Tp00v__12B_1X_SELF_0P25																															
+					21	Tp00w__12B_1X_SELF_0P25																															
+					21	Tp00n__12B_1X_SELF_0P5																															
+					21	Tp00p__12B_1X_SELF_0P5																															
+					21	Tp00q__12B_1X_SELF_0P5																															
+					21	Tp00s__12B_1X_SELF_0P5																															
+					21	Tp00t__12B_1X_SELF_0P5																															
+					21	Tp00u__12B_1X_SELF_0P5																															
+					21	Tp00v__12B_1X_SELF_0P5																															
+					21	Tp00w__12B_1X_SELF_0P5																															
+					21	Tp00n__12B_1X_SELF_0P75																															
+					21	Tp00p__12B_1X_SELF_0P75																															
+					21	Tp00q__12B_1X_SELF_0P75																															
+					21	Tp00s__12B_1X_SELF_0P75																															
+					21	Tp00t__12B_1X_SELF_0P75																															
+					21	Tp00u__12B_1X_SELF_0P75																															
+					21	Tp00v__12B_1X_SELF_0P75																															
+					21	Tp00w__12B_1X_SELF_0P75																															
+					21	Tp00n__12B_1X_RAW_HALFCLK																															
+					21	Tp00p__12B_1X_RAW_HALFCLK																															
+					21	Tp00q__12B_1X_RAW_HALFCLK																															
+					21	Tp00s__12B_1X_RAW_HALFCLK																															
+					21	Tp00t__12B_1X_RAW_HALFCLK																															
+					21	Tp00u__12B_1X_RAW_HALFCLK																															
+					21	Tp00v__12B_1X_RAW_HALFCLK																															
+					21	Tp00w__12B_1X_RAW_HALFCLK																															
+					21	Tp00n__12B_1X_RO																															
+					21	Tp00p__12B_1X_RO																															
+					21	Tp00q__12B_1X_RO																															
+					21	Tp00s__12B_1X_RO																															
+					21	Tp00t__12B_1X_RO																															
+					21	Tp00u__12B_1X_RO																															
+					21	Tp00v__12B_1X_RO																															
+					21	Tp00w__12B_1X_RO																															
+					21	Tp00n__12B_1X_PR																															
+					21	Tp00p__12B_1X_PR																															
+					21	Tp00q__12B_1X_PR																															
+					21	Tp00s__12B_1X_PR																															
+					21	Tp00t__12B_1X_PR																															
+					21	Tp00u__12B_1X_PR																															
+					21	Tp00v__12B_1X_PR																															
+					21	Tp00w__12B_1X_PR																															
+					21	Tp00n__12B_1X_poly_hardcoded																															
+					21	Tp00p__12B_1X_poly_hardcoded																															
+					21	Tp00q__12B_1X_poly_hardcoded																															
+					21	Tp00s__12B_1X_poly_hardcoded																															
+					21	Tp00t__12B_1X_poly_hardcoded																															
+					21	Tp00u__12B_1X_poly_hardcoded																															
+					21	Tp00v__12B_1X_poly_hardcoded																															
+					21	Tp00w__12B_1X_poly_hardcoded																															
+					21	Tp00A__12B_32X_VREF																															
+					21	Tp00C__12B_32X_VREF																															
+					21	Tp00A__12B_32X_VREF_VREFH																															
+					21	Tp00C__12B_32X_VREF_VREFH																															
+					21	Tp00A__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00C__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00A__10B_1X																															
+					21	Tp00C__10B_1X																															
+					21	Tp00A__12B_1X																															
+					21	Tp00C__12B_1X																															
+					21	Tp00A__12B_32X																															
+					21	Tp00C__12B_32X																															
+					21	Tp00A__12B_32X_VREFH																															
+					21	Tp00C__12B_32X_VREFH																															
+					21	Tp00A__12B_32X_TFE_PONLY																															
+					21	Tp00C__12B_32X_TFE_PONLY																															
+					21	Tp00A__12B_1X_PONLY																															
+					21	Tp00C__12B_1X_PONLY																															
+					21	Tp00A__12B_1X_NONLY																															
+					21	Tp00C__12B_1X_NONLY																															
+					21	Tp00A__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00C__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00A__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00C__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00A__12B_1X_IB3_HIGH																															
+					21	Tp00C__12B_1X_IB3_HIGH																															
+					21	Tp00A__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00C__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00A__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00C__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00A__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00C__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00A__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00C__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00A__12B_1X_SELF_0P25																															
+					21	Tp00C__12B_1X_SELF_0P25																															
+					21	Tp00A__12B_1X_SELF_0P5																															
+					21	Tp00C__12B_1X_SELF_0P5																															
+					21	Tp00A__12B_1X_SELF_0P75																															
+					21	Tp00C__12B_1X_SELF_0P75																															
+					21	Tp00A__12B_1X_RAW_HALFCLK																															
+					21	Tp00C__12B_1X_RAW_HALFCLK																															
+					21	Tp00A__12B_1X_RO																															
+					21	Tp00C__12B_1X_RO																															
+					21	Tp00A__12B_1X_PR																															
+					21	Tp00C__12B_1X_PR																															
+					21	Tp00A__12B_1X_poly_hardcoded																															
+					21	Tp00C__12B_1X_poly_hardcoded																															
+					21	Tp00E__12B_32X_VREF																															
+					21	Tp00G__12B_32X_VREF																															
+					21	Tp00E__12B_32X_VREF_VREFH																															
+					21	Tp00G__12B_32X_VREF_VREFH																															
+					21	Tp00E__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00G__12B_32X_VREF_TFE_PONLY																															
+					21	Tp00E__10B_1X																															
+					21	Tp00G__10B_1X																															
+					21	Tp00E__12B_1X																															
+					21	Tp00G__12B_1X																															
+					21	Tp00E__12B_32X																															
+					21	Tp00G__12B_32X																															
+					21	Tp00E__12B_32X_VREFH																															
+					21	Tp00G__12B_32X_VREFH																															
+					21	Tp00E__12B_32X_TFE_PONLY																															
+					21	Tp00G__12B_32X_TFE_PONLY																															
+					21	Tp00E__12B_1X_PONLY																															
+					21	Tp00G__12B_1X_PONLY																															
+					21	Tp00E__12B_1X_NONLY																															
+					21	Tp00G__12B_1X_NONLY																															
+					21	Tp00E__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00G__12B_1X_PTAT_BIAS_LOW																															
+					21	Tp00E__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00G__12B_1X_PTAT_BIAS_HIGH																															
+					21	Tp00E__12B_1X_IB3_HIGH																															
+					21	Tp00G__12B_1X_IB3_HIGH																															
+					21	Tp00E__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00G__12B_1X_BIASGEN_BIAS_LOW																															
+					21	Tp00E__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00G__12B_1X_BIASGEN_BIAS_HIGH																															
+					21	Tp00E__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00G__12B_1X_ADC_BIAS_LOW																															
+					21	Tp00E__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00G__12B_1X_ADC_BIAS_HIGH																															
+					21	Tp00E__12B_1X_SELF_0P25																															
+					21	Tp00G__12B_1X_SELF_0P25																															
+					21	Tp00E__12B_1X_SELF_0P5																															
+					21	Tp00G__12B_1X_SELF_0P5																															
+					21	Tp00E__12B_1X_SELF_0P75																															
+					21	Tp00G__12B_1X_SELF_0P75																															
+					21	Tp00E__12B_1X_RAW_HALFCLK																															
+					21	Tp00G__12B_1X_RAW_HALFCLK																															
+					21	Tp00E__12B_1X_RO																															
+					21	Tp00G__12B_1X_RO																															
+					21	Tp00E__12B_1X_PR																															
+					21	Tp00G__12B_1X_PR																															
+					21	Tp00E__12B_1X_poly_hardcoded																															
+					21	Tp00G__12B_1X_poly_hardcoded																															
+																																					

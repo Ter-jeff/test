@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<MbistInfoCfg xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PP>true</PP>
+  <DD>true</DD>
+  <FA>true</FA>
+  <CZ>true</CZ>
+  <SocOffset>0</SocOffset>
+  <CpuOffset>0</CpuOffset>
+  <GfxOffset>0</GfxOffset>
+  <SocMoreThan1Block>true</SocMoreThan1Block>
+  <CpuMoreThan1Block>false</CpuMoreThan1Block>
+  <GfxMoreThan1Block>false</GfxMoreThan1Block>
+  <IgnoreDontCare>true</IgnoreDontCare>
+</MbistInfoCfg>

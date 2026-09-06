@@ -1,0 +1,1012 @@
+Fail line:160651 & 160640         X:4 Y:12         Site:0
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 0100(C)
+       Datalog  :[INFO]  [Site 0] 0101(C)
+
+Fail line:160652 & 160641         X:4 Y:9         Site:1
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 0100(C)
+       Datalog  :[INFO]  [Site 1] 0101(C)
+
+Fail line:160653 & 160642         X:7 Y:12         Site:2
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 2] 0100(C)
+       Datalog  :[INFO]  [Site 2] 0101(C)
+
+Fail line:160654 & 160643         X:7 Y:9         Site:3
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 0100(C)
+       Datalog  :[INFO]  [Site 3] 0101(C)
+
+Fail line:160694 & 160683         X:4 Y:12         Site:0
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 0100(C)
+       Datalog  :[INFO]  [Site 0] 0101(C)
+
+Fail line:160695 & 160684         X:4 Y:9         Site:1
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 0100(C)
+       Datalog  :[INFO]  [Site 1] 0101(C)
+
+Fail line:160696 & 160685         X:7 Y:12         Site:2
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 2] 0100(C)
+       Datalog  :[INFO]  [Site 2] 0101(C)
+
+Fail line:160697 & 160686         X:7 Y:9         Site:3
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 0100(C)
+       Datalog  :[INFO]  [Site 3] 0101(C)
+
+Fail line:160734 & 160723         X:4 Y:12         Site:0
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 0100(C)
+       Datalog  :[INFO]  [Site 0] 0101(C)
+
+Fail line:160735 & 160724         X:4 Y:9         Site:1
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 0100(C)
+       Datalog  :[INFO]  [Site 1] 0101(C)
+
+Fail line:160736 & 160725         X:7 Y:12         Site:2
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 2] 0100(C)
+       Datalog  :[INFO]  [Site 2] 0101(C)
+
+Fail line:160737 & 160726         X:7 Y:9         Site:3
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 0100(C)
+       Datalog  :[INFO]  [Site 3] 0101(C)
+
+Fail line:161746 & 161735         X:4 Y:12         Site:0
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 0100(C)
+       Datalog  :[INFO]  [Site 0] 0101(C)
+
+Fail line:161747 & 161736         X:4 Y:9         Site:1
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 0100(C)
+       Datalog  :[INFO]  [Site 1] 0101(C)
+
+Fail line:161748 & 161737         X:7 Y:12         Site:2
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 2] 0100(C)
+       Datalog  :[INFO]  [Site 2] 0101(C)
+
+Fail line:161749 & 161738         X:7 Y:9         Site:3
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 0100(C)
+       Datalog  :[INFO]  [Site 3] 0101(C)
+
+Fail line:161809 & 161798         X:4 Y:12         Site:0
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 0100(C)
+       Datalog  :[INFO]  [Site 0] 0101(C)
+
+Fail line:161810 & 161799         X:4 Y:9         Site:1
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 0100(C)
+       Datalog  :[INFO]  [Site 1] 0101(C)
+
+Fail line:163105         X:4 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_EXTSMD1DQWPI_PP_HIDB0_S_FULP_AN_DDIO_ELB_JTG_LP5_MDX001_SI_EXTS_MD1DQWPI_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 0] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:163106         X:4 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_EXTSMD1DQWPI_PP_HIDB0_S_FULP_AN_DDIO_ELB_JTG_LP5_MDX001_SI_EXTS_MD1DQWPI_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 1] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:163107         X:7 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_EXTSMD1DQWPI_PP_HIDB0_S_FULP_AN_DDIO_ELB_JTG_LP5_MDX001_SI_EXTS_MD1DQWPI_BV_CS>
+Datalog       = [INFO]  [Site 2] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 2] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:163108         X:7 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_EXTSMD1DQWPI_PP_HIDB0_S_FULP_AN_DDIO_ELB_JTG_LP5_MDX001_SI_EXTS_MD1DQWPI_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 3] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:163468         X:4 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_EXTSMD1DQRPI_PP_HIDB0_S_FULP_AN_DDIO_ELB_JTG_LP5_MDX001_SI_EXTS_MD1DQRPI_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 0] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:163469         X:4 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_EXTSMD1DQRPI_PP_HIDB0_S_FULP_AN_DDIO_ELB_JTG_LP5_MDX001_SI_EXTS_MD1DQRPI_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 1] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:163470         X:7 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_EXTSMD1DQRPI_PP_HIDB0_S_FULP_AN_DDIO_ELB_JTG_LP5_MDX001_SI_EXTS_MD1DQRPI_BV_CS>
+Datalog       = [INFO]  [Site 2] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 2] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:163471         X:7 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_EXTSMD1DQRPI_PP_HIDB0_S_FULP_AN_DDIO_ELB_JTG_LP5_MDX001_SI_EXTS_MD1DQRPI_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 3] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:163856 & 163845         X:4 Y:12         Site:0
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 1100(C)
+       Datalog  :[INFO]  [Site 0] 1110(C)
+
+Fail line:163857 & 163846         X:4 Y:9         Site:1
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 1100(C)
+       Datalog  :[INFO]  [Site 1] 1110(C)
+
+Fail line:163858 & 163847         X:7 Y:12         Site:2
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 2] 1100(C)
+       Datalog  :[INFO]  [Site 2] 1110(C)
+
+Fail line:163859 & 163848         X:7 Y:9         Site:3
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 1100(C)
+       Datalog  :[INFO]  [Site 3] 1110(C)
+
+Fail line:163903 & 163892         X:4 Y:12         Site:0
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 1100(C)
+       Datalog  :[INFO]  [Site 0] 1110(C)
+
+Fail line:163904 & 163893         X:4 Y:9         Site:1
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 1100(C)
+       Datalog  :[INFO]  [Site 1] 1110(C)
+
+Fail line:163905 & 163894         X:7 Y:12         Site:2
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 2] 1100(C)
+       Datalog  :[INFO]  [Site 2] 1110(C)
+
+Fail line:163906 & 163895         X:7 Y:9         Site:3
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 1100(C)
+       Datalog  :[INFO]  [Site 3] 1110(C)
+
+Fail line:163943 & 163934         X:7 Y:12         Site:2
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 2] 1100(C)
+       Datalog  :[INFO]  [Site 2] 1110(C)
+
+Fail line:163944 & 163935         X:7 Y:9         Site:3
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 1100(C)
+       Datalog  :[INFO]  [Site 3] 1110(C)
+
+Fail line:164325         X:4 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8DQW_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 0] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:164326         X:4 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8DQW_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 1] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:164327         X:7 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8DQW_BV_CS>
+Datalog       = [INFO]  [Site 2] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 2] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:164328         X:7 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8DQW_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 3] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:165143         X:4 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD2DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX002_SI_INTS_MD2DQW_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 0] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:165144         X:4 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD2DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX002_SI_INTS_MD2DQW_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 1] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:165145         X:7 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD2DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX002_SI_INTS_MD2DQW_BV_CS>
+Datalog       = [INFO]  [Site 2] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 2] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:165146         X:7 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD2DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX002_SI_INTS_MD2DQW_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 3] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:165528 & 165517         X:4 Y:12         Site:0
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 1100(C)
+       Datalog  :[INFO]  [Site 0] 1110(C)
+
+Fail line:165529 & 165518         X:4 Y:9         Site:1
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 1100(C)
+       Datalog  :[INFO]  [Site 1] 1110(C)
+
+Fail line:165530 & 165519         X:7 Y:12         Site:2
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 2] 1100(C)
+       Datalog  :[INFO]  [Site 2] 1110(C)
+
+Fail line:165531 & 165520         X:7 Y:9         Site:3
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 1100(C)
+       Datalog  :[INFO]  [Site 3] 1110(C)
+
+Fail line:165571 & 165560         X:4 Y:12         Site:0
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 1100(C)
+       Datalog  :[INFO]  [Site 0] 1110(C)
+
+Fail line:165572 & 165561         X:4 Y:9         Site:1
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 1100(C)
+       Datalog  :[INFO]  [Site 1] 1110(C)
+
+Fail line:165985         X:4 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD5DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX005_SI_INTS_MD5DQW_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 0] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:165986         X:4 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD5DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX005_SI_INTS_MD5DQW_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 1] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:165987         X:7 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD5DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX005_SI_INTS_MD5DQW_BV_CS>
+Datalog       = [INFO]  [Site 2] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 2] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:165988         X:7 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD5DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX005_SI_INTS_MD5DQW_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut safe voltage: vdd_cio:0.791, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.73, vdd_fixed_ecpu:0.73, vdd_fixed_ecpu_mtr:0.73, vdd_fixed_grp:0.737, vdd_fixed_lpdp_rx:0.73, vdd_fixed_lpdp_tx:0.73, vdd_fixed_mipic:0.73, vdd_fixed_pcie:0.73, vdd_fixed_pcie_refbuf:0.73, vdd_fixed_pcie5:0.73, vdd_fixed_pcpu:0.73, vdd_fixed_pll_ane_gpu:0.73, vdd_fixed_pll_dcs:0.73, vdd_fixed_pll_soc:0.73, vdd_fixed_xtal:0.73, vdd_gpu:0.78, vdd_low:0.671, vdd_low_detect:0.685, vdd_low_flppll:0.685, vdd_low_ulppll:0.685, vdd_low_usb_debug:0.685, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 3] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.745,vdd_fixed_ecpu:0.745,vdd_fixed_ecpu_mtr:0.745,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.745,vdd_fixed_lpdp_tx:0.745,vdd_fixed_mipic:0.745,vdd_fixed_pcie:0.745,vdd_fixed_pcie_refbuf:0.745,vdd_fixed_pcie5:0.745,vdd_fixed_pcpu:0.745,vdd_fixed_pll_ane_gpu:0.745,vdd_fixed_pll_dcs:0.745,vdd_fixed_pll_soc:0.745,vdd_fixed_xtal:0.745,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.694,vdd_low_flppll:0.694,vdd_low_ulppll:0.694,vdd_low_usb_debug:0.694,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:167585         X:4 Y:12          Touch Down Index = 0
+Instance name = <MG00D_GpuTd_MGX00D_MultiFSTP_X10GR1_SRM0A_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.68,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.6,VDD_FIXED_ALL:0.73,VDD_GPU:0.925,VDD_LOW_ALL:0.8,VDD_PCPU:0.625,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.68,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.6,VDD_FIXED_ALL:0.73,VDD_GPU:0.94,VDD_LOW_ALL:0.8,VDD_PCPU:0.625,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:167586         X:4 Y:9          Touch Down Index = 0
+Instance name = <MG00D_GpuTd_MGX00D_MultiFSTP_X10GR1_SRM0A_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.68,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.605,VDD_FIXED_ALL:0.73,VDD_GPU:0.925,VDD_LOW_ALL:0.8,VDD_PCPU:0.625,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.68,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.605,VDD_FIXED_ALL:0.73,VDD_GPU:0.94,VDD_LOW_ALL:0.8,VDD_PCPU:0.625,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:168435 & 168425         X:4 Y:12         Site:0
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 1010(C)
+       Datalog  :[INFO]  [Site 0] 1110(C)
+
+Fail line:168436 & 168426         X:4 Y:9         Site:1
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 1010(C)
+       Datalog  :[INFO]  [Site 1] 1110(C)
+
+Fail line:168437 & 168427         X:7 Y:9         Site:3
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 1010(C)
+       Datalog  :[INFO]  [Site 3] 1110(C)
+
+Fail line:168485 & 168475         X:4 Y:12         Site:0
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 1010(C)
+       Datalog  :[INFO]  [Site 0] 1110(C)
+
+Fail line:168486 & 168476         X:4 Y:9         Site:1
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 1010(C)
+       Datalog  :[INFO]  [Site 1] 1110(C)
+
+Fail line:168487 & 168477         X:7 Y:9         Site:3
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 1010(C)
+       Datalog  :[INFO]  [Site 3] 1110(C)
+
+Fail line:171946         X:7 Y:12         Site:2
+MP00I_CpuTd_MPX00L_DIV133_1P_Rest_SRM0E_BV_CS
+EQN:
+            Expected : 0
+            Datalog  : 7
+
+Fail line:171963         X:7 Y:12          Touch Down Index = 0
+Instance name = <MP00I_CpuMbist_MPX00L_59N_SP1_SP4_SP5_LATRNAMX_BV_CS>
+Datalog       = [INFO]  [Site 2] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:1.02,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.515,VDD_FIXED_ALL:0.73,VDD_GPU:0.595,VDD_LOW_ALL:0.8,VDD_PCPU:0.945,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 2] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:1.02,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.515,VDD_FIXED_ALL:0.73,VDD_GPU:0.595,VDD_LOW_ALL:0.8,VDD_PCPU:0.975,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172037         X:7 Y:12         Site:2
+MP00I_CpuMbist_MPX00L_59N_SP1_SP4_SP5_LATRNAMX_BV_CS
+EQN:
+            Expected : 5
+            Datalog  : 7
+
+Fail line:172054         X:7 Y:12          Touch Down Index = 0
+Instance name = <MP00I_CpuMbist_MPX00L_SP3_BV_CS>
+Datalog       = [INFO]  [Site 2] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:1.02,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.515,VDD_FIXED_ALL:0.73,VDD_GPU:0.595,VDD_LOW_ALL:0.8,VDD_PCPU:0.945,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 2] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:1.02,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.515,VDD_FIXED_ALL:0.73,VDD_GPU:0.595,VDD_LOW_ALL:0.8,VDD_PCPU:0.975,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172100         X:7 Y:12         Site:2
+MP00I_CpuMbist_MPX00L_SP3_BV_CS
+EQN:
+            Expected : 5
+            Datalog  : 7
+
+Fail line:172160         X:4 Y:12          Touch Down Index = 0
+Instance name = <MP002_CpuTd_MPX002_DIV166_DIV422_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.57,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.585,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172161         X:4 Y:9          Touch Down Index = 0
+Instance name = <MP002_CpuTd_MPX002_DIV166_DIV422_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.57,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.585,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172162         X:7 Y:9          Touch Down Index = 0
+Instance name = <MP002_CpuTd_MPX002_DIV166_DIV422_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.56,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.575,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172190         X:4 Y:12          Touch Down Index = 0
+Instance name = <MP002_CpuTd_MPX002_DIV166_DIV422_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.555,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.585,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172191         X:4 Y:9          Touch Down Index = 0
+Instance name = <MP002_CpuTd_MPX002_DIV166_DIV422_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.555,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.585,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172192         X:7 Y:9          Touch Down Index = 0
+Instance name = <MP002_CpuTd_MPX002_DIV166_DIV422_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.545,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.575,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172223         X:4 Y:12         Site:0
+MP002_CpuTd_MPX002_DIV166_DIV422_SRM0E_BV_CS
+EQN:
+            Expected : 5
+            Datalog  : 7
+
+Fail line:172224         X:4 Y:9         Site:1
+MP002_CpuTd_MPX002_DIV166_DIV422_SRM0E_BV_CS
+EQN:
+            Expected : 0
+            Datalog  : 6
+
+Fail line:172226         X:7 Y:9         Site:3
+MP002_CpuTd_MPX002_DIV166_DIV422_SRM0E_BV_CS
+EQN:
+            Expected : 0
+            Datalog  : 6
+
+Fail line:172240         X:4 Y:12          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.555,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.585,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172241         X:4 Y:9          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.57,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.6,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172243         X:7 Y:9          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.56,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.59,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172290         X:4 Y:12          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.57,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.6,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172291         X:4 Y:9          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.585,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.615,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172292         X:7 Y:9          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.575,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.605,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172326         X:4 Y:12          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.585,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.615,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172327         X:4 Y:9          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.6,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.63,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172328         X:7 Y:9          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.59,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.62,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172360         X:4 Y:12          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.6,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.63,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172377         X:4 Y:12         Site:0
+MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS
+EQN:
+            Expected : 2
+            Datalog  : 4
+
+Fail line:172378         X:4 Y:9         Site:1
+MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS
+EQN:
+            Expected : 2
+            Datalog  : 4
+
+Fail line:172380         X:7 Y:9         Site:3
+MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Limiter_SRM0E_BV_CS
+EQN:
+            Expected : 2
+            Datalog  : 4
+
+Fail line:172394         X:4 Y:12          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Rest_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.6,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.63,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172395         X:4 Y:9          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Rest_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.6,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.63,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172397         X:7 Y:9          Touch Down Index = 0
+Instance name = <MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Rest_SRM0E_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.59,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.62,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172507         X:4 Y:12         Site:0
+MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Rest_SRM0E_BV_CS
+EQN:
+            Expected : 2
+            Datalog  : 4
+
+Fail line:172508         X:4 Y:9         Site:1
+MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Rest_SRM0E_BV_CS
+EQN:
+            Expected : 2
+            Datalog  : 4
+
+Fail line:172510         X:7 Y:9         Site:3
+MP002_SocTd_MPX002_SOC_MPX002_TD_CAX0_PL00_PRC_Rest_SRM0E_BV_CS
+EQN:
+            Expected : 2
+            Datalog  : 4
+
+Fail line:172524         X:4 Y:12          Touch Down Index = 0
+Instance name = <MP002_SocMbist_MPX002_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_ANE_BIST_HarvNONE_BV_CS>
+Datalog       = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.6,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 0] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.585,VDD_ECPU:0.525,VDD_FIXED_ALL:0.73,VDD_GPU:0.52,VDD_LOW_ALL:0.8,VDD_PCPU:0.63,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172525         X:4 Y:9          Touch Down Index = 0
+Instance name = <MP002_SocMbist_MPX002_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_ANE_BIST_HarvNONE_BV_CS>
+Datalog       = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.6,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 1] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.595,VDD_DISP:0.575,VDD_ECPU:0.53,VDD_FIXED_ALL:0.73,VDD_GPU:0.535,VDD_LOW_ALL:0.8,VDD_PCPU:0.63,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172527         X:7 Y:9          Touch Down Index = 0
+Instance name = <MP002_SocMbist_MPX002_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_ANE_BIST_HarvNONE_BV_CS>
+Datalog       = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.59,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+LV(Test Plan) = [INFO]  [Site 3] Bincut payload voltage: VDD_CIO:0.76,VDD_CPU_SRAM:0.695,VDD_DCS_DDR:0.59,VDD_DISP:0.565,VDD_ECPU:0.55,VDD_FIXED_ALL:0.73,VDD_GPU:0.54,VDD_LOW_ALL:0.8,VDD_PCPU:0.62,VDD_SOC:0.95,VDD_SRAM_GPU:0.685,VDD_SRAM_SOC:0.685
+
+Fail line:172910         X:4 Y:12         Site:0
+MP002_SocMbist_MPX002_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_ANE_BIST_HarvNONE_BV_CS
+EQN:
+            Expected : 2
+            Datalog  : 4
+
+Fail line:172911         X:4 Y:9         Site:1
+MP002_SocMbist_MPX002_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_ANE_BIST_HarvNONE_BV_CS
+EQN:
+            Expected : 2
+            Datalog  : 4
+
+Fail line:172913         X:7 Y:9         Site:3
+MP002_SocMbist_MPX002_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_ANE_BIST_HarvNONE_BV_CS
+EQN:
+            Expected : 2
+            Datalog  : 4
+
+Fail line:180554         X:4 Y:12         Site:0
+VDD_PCPU_MP002_Vbin:
+            Expected : 705.0000
+            Datalog  : 675.0000
+
+Fail line:180555         X:4 Y:9         Site:1
+VDD_PCPU_MP002_Vbin:
+            Expected : 705.0000
+            Datalog  : 675.0000
+
+Fail line:180557         X:7 Y:9         Site:3
+VDD_PCPU_MP002_Vbin:
+            Expected : 695.0000
+            Datalog  : 665.0000
+
+Fail line:180562         X:4 Y:12         Site:0
+VDD_PCPU_MP002_P_binned:
+            Expected : 0.0642
+            Datalog  : 0.0582
+
+Fail line:180563         X:4 Y:9         Site:1
+VDD_PCPU_MP002_P_binned:
+            Expected : 0.0640
+            Datalog  : 0.0580
+
+Fail line:180565         X:7 Y:9         Site:3
+VDD_PCPU_MP002_P_binned:
+            Expected : 0.0646
+            Datalog  : 0.0585
+
+Fail line:180811         X:4 Y:9         Site:1
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:180812         X:7 Y:12         Site:2
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1135.0000
+            Datalog  : 1105.0000
+
+Fail line:180827         X:4 Y:9         Site:1
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:180828         X:7 Y:12         Site:2
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1135.0000
+            Datalog  : 1105.0000
+
+Fail line:181019         X:4 Y:9         Site:1
+VDD_GPU_MG003_Vbin:
+            Expected : 675.0000
+            Datalog  : 690.0000
+
+Fail line:181021         X:7 Y:9         Site:3
+VDD_GPU_MG003_Vbin:
+            Expected : 675.0000
+            Datalog  : 690.0000
+
+Fail line:181027         X:4 Y:9         Site:1
+VDD_GPU_MG003_P_binned:
+            Expected : 0.6252
+            Datalog  : 0.6542
+
+Fail line:181029         X:7 Y:9         Site:3
+VDD_GPU_MG003_P_binned:
+            Expected : 0.7068
+            Datalog  : 0.7390
+
+Fail line:181037         X:7 Y:9         Site:3
+VDD_GPU_MG004_Vbin:
+            Expected : 695.0000
+            Datalog  : 710.0000
+
+Fail line:181045         X:7 Y:9         Site:3
+VDD_GPU_MG004_P_binned:
+            Expected : 0.2609
+            Datalog  : 0.2726
+
+Fail line:182422         X:4 Y:12         Site:0
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:182422         X:4 Y:12         Site:0
+P_total:
+            Expected : 63.2989
+            Datalog  : 63.2929
+
+Fail line:182423         X:4 Y:9         Site:1
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:182423         X:4 Y:9         Site:1
+P_total:
+            Expected : 62.8481
+            Datalog  : 62.8711
+
+Fail line:182424         X:7 Y:12         Site:2
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:182425         X:7 Y:9         Site:3
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:182425         X:7 Y:9         Site:3
+P_total:
+            Expected : 66.3124
+            Datalog  : 66.3502
+
+Fail line:182449         X:4 Y:12         Site:0
+VDD_PCPU_MP002_Vbin:
+            Expected : 705.0000
+            Datalog  : 675.0000
+
+Fail line:182450         X:4 Y:9         Site:1
+VDD_PCPU_MP002_Vbin:
+            Expected : 705.0000
+            Datalog  : 675.0000
+
+Fail line:182452         X:7 Y:9         Site:3
+VDD_PCPU_MP002_Vbin:
+            Expected : 695.0000
+            Datalog  : 665.0000
+
+Fail line:182706         X:4 Y:9         Site:1
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:182707         X:7 Y:12         Site:2
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1135.0000
+            Datalog  : 1105.0000
+
+Fail line:182722         X:4 Y:9         Site:1
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:182723         X:7 Y:12         Site:2
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1135.0000
+            Datalog  : 1105.0000
+
+Fail line:182914         X:4 Y:9         Site:1
+VDD_GPU_MG003_Vbin:
+            Expected : 675.0000
+            Datalog  : 690.0000
+
+Fail line:182916         X:7 Y:9         Site:3
+VDD_GPU_MG003_Vbin:
+            Expected : 675.0000
+            Datalog  : 690.0000
+
+Fail line:182932         X:7 Y:9         Site:3
+VDD_GPU_MG004_Vbin:
+            Expected : 695.0000
+            Datalog  : 710.0000
+
+Fail line:182940         X:7 Y:9         Site:3
+VDD_GPU_MG004_P_binned:
+            Expected : 27.3327
+            Datalog  : 28.6401
+
+Fail line:184317         X:4 Y:12         Site:0
+Spec:
+            Expected : 75.8000
+            Datalog  : 0.0000
+
+Fail line:184318         X:4 Y:9         Site:1
+Spec:
+            Expected : 75.8000
+            Datalog  : 0.0000
+
+Fail line:184319         X:7 Y:12         Site:2
+Spec:
+            Expected : 75.8000
+            Datalog  : 0.0000
+
+Fail line:184320         X:7 Y:9         Site:3
+Spec:
+            Expected : 75.8000
+            Datalog  : 0.0000
+
+Fail line:184320         X:7 Y:9         Site:3
+P_total:
+            Expected : 73.5560
+            Datalog  : 74.8634
+
+Fail line:184344         X:4 Y:12         Site:0
+VDD_PCPU_MP002_Vbin:
+            Expected : 705.0000
+            Datalog  : 675.0000
+
+Fail line:184345         X:4 Y:9         Site:1
+VDD_PCPU_MP002_Vbin:
+            Expected : 705.0000
+            Datalog  : 675.0000
+
+Fail line:184347         X:7 Y:9         Site:3
+VDD_PCPU_MP002_Vbin:
+            Expected : 695.0000
+            Datalog  : 665.0000
+
+Fail line:184352         X:4 Y:12         Site:0
+VDD_PCPU_MP002_P_binned:
+            Expected : 0.8726
+            Datalog  : 0.7895
+
+Fail line:184353         X:4 Y:9         Site:1
+VDD_PCPU_MP002_P_binned:
+            Expected : 0.8713
+            Datalog  : 0.7882
+
+Fail line:184355         X:7 Y:9         Site:3
+VDD_PCPU_MP002_P_binned:
+            Expected : 0.8596
+            Datalog  : 0.7768
+
+Fail line:184601         X:4 Y:9         Site:1
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:184602         X:7 Y:12         Site:2
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1135.0000
+            Datalog  : 1105.0000
+
+Fail line:184609         X:4 Y:9         Site:1
+VDD_PCPU_MP00I_P_binned:
+            Expected : 1.0387
+            Datalog  : 1.0698
+
+Fail line:184610         X:7 Y:12         Site:2
+VDD_PCPU_MP00I_P_binned:
+            Expected : 1.0594
+            Datalog  : 0.9974
+
+Fail line:184617         X:4 Y:9         Site:1
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:184618         X:7 Y:12         Site:2
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1135.0000
+            Datalog  : 1105.0000
+
+Fail line:184625         X:4 Y:9         Site:1
+VDD_PCPU_MP00J_P_binned:
+            Expected : 5.6300
+            Datalog  : 5.7987
+
+Fail line:184626         X:7 Y:12         Site:2
+VDD_PCPU_MP00J_P_binned:
+            Expected : 5.7402
+            Datalog  : 5.4044
+
+Fail line:184809         X:4 Y:9         Site:1
+VDD_GPU_MG003_Vbin:
+            Expected : 675.0000
+            Datalog  : 690.0000
+
+Fail line:184811         X:7 Y:9         Site:3
+VDD_GPU_MG003_Vbin:
+            Expected : 675.0000
+            Datalog  : 690.0000
+
+Fail line:184817         X:4 Y:9         Site:1
+VDD_GPU_MG003_P_binned:
+            Expected : 0.0245
+            Datalog  : 0.0257
+
+Fail line:184819         X:7 Y:9         Site:3
+VDD_GPU_MG003_P_binned:
+            Expected : 0.0254
+            Datalog  : 0.0267
+
+Fail line:184827         X:7 Y:9         Site:3
+VDD_GPU_MG004_Vbin:
+            Expected : 695.0000
+            Datalog  : 710.0000
+
+Fail line:184835         X:7 Y:9         Site:3
+VDD_GPU_MG004_P_binned:
+            Expected : 0.0678
+            Datalog  : 0.0711
+
+Fail line:186212         X:4 Y:12         Site:0
+Spec:
+            Expected : 81.3000
+            Datalog  : 0.0000
+
+Fail line:186212         X:4 Y:12         Site:0
+P_total:
+            Expected : 79.0014
+            Datalog  : 78.9182
+
+Fail line:186213         X:4 Y:9         Site:1
+Spec:
+            Expected : 81.3000
+            Datalog  : 0.0000
+
+Fail line:186213         X:4 Y:9         Site:1
+P_total:
+            Expected : 79.2893
+            Datalog  : 79.4073
+
+Fail line:186214         X:7 Y:12         Site:2
+Spec:
+            Expected : 81.3000
+            Datalog  : 0.0000
+
+Fail line:186214         X:7 Y:12         Site:2
+P_total:
+            Expected : 81.2100
+            Datalog  : 80.8121
+
+Fail line:186215         X:7 Y:9         Site:3
+Spec:
+            Expected : 81.3000
+            Datalog  : 0.0000
+
+Fail line:186215         X:7 Y:9         Site:3
+P_total:
+            Expected : 80.0980
+            Datalog  : 80.0197
+
+Fail line:186219         X:4 Y:12         Site:0
+[INFO]  [Site 0] power_binning = 3, spec_name = F_PowerBinning2
+power_binning:
+            Expected : 1.0000
+            Datalog  : 3
+
+Fail line:186220         X:4 Y:9         Site:1
+[INFO]  [Site 1] power_binning = 3, spec_name = F_PowerBinning2
+power_binning:
+            Expected : 1.0000
+            Datalog  : 3
+
+Fail line:186221         X:7 Y:12         Site:2
+[INFO]  [Site 2] power_binning = 4, spec_name = F_PowerBinning3
+power_binning:
+            Expected : 1.0000
+            Datalog  : 4
+
+Fail line:186222         X:7 Y:9         Site:3
+[INFO]  [Site 3] power_binning = 2, spec_name = F_PowerBinning1
+power_binning:
+            Expected : 1.0000
+            Datalog  : 2
+
+Fail line:186236         X:4 Y:12          Touch Down Index = 0
+Instance name = <ME009_CpuMbist_MEX007_LATR_HBV_CS>
+Datalog       = [INFO]  [Site 0] Bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.805, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825, vdd_low_flppll:0.825, vdd_low_ulppll:0.825, vdd_low_usb_debug:0.825, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 0] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186237         X:4 Y:9          Touch Down Index = 0
+Instance name = <ME009_CpuMbist_MEX007_LATR_HBV_CS>
+Datalog       = [INFO]  [Site 1] Bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.805, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825, vdd_low_flppll:0.825, vdd_low_ulppll:0.825, vdd_low_usb_debug:0.825, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 1] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186238         X:7 Y:12          Touch Down Index = 0
+Instance name = <ME009_CpuMbist_MEX007_LATR_HBV_CS>
+Datalog       = [INFO]  [Site 2] Bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.805, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825, vdd_low_flppll:0.825, vdd_low_ulppll:0.825, vdd_low_usb_debug:0.825, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 2] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186239         X:7 Y:9          Touch Down Index = 0
+Instance name = <ME009_CpuMbist_MEX007_LATR_HBV_CS>
+Datalog       = [INFO]  [Site 3] Bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.805, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825, vdd_low_flppll:0.825, vdd_low_ulppll:0.825, vdd_low_usb_debug:0.825, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 3] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186251 & 186240         X:4 Y:12         Site:0
+<ME009_CpuMbist_MEX007_LATR_HBV_CS>
+Selsram:
+       Expected :[INFO]  [Site 0] 0100(C)
+       Datalog  :[INFO]  [Site 0] 1110(C)
+
+Fail line:186252 & 186241         X:4 Y:9         Site:1
+<ME009_CpuMbist_MEX007_LATR_HBV_CS>
+Selsram:
+       Expected :[INFO]  [Site 1] 0100(C)
+       Datalog  :[INFO]  [Site 1] 1110(C)
+
+Fail line:186253 & 186242         X:7 Y:12         Site:2
+<ME009_CpuMbist_MEX007_LATR_HBV_CS>
+Selsram:
+       Expected :[INFO]  [Site 2] 0100(C)
+       Datalog  :[INFO]  [Site 2] 1110(C)
+
+Fail line:186254 & 186243         X:7 Y:9         Site:3
+<ME009_CpuMbist_MEX007_LATR_HBV_CS>
+Selsram:
+       Expected :[INFO]  [Site 3] 0100(C)
+       Datalog  :[INFO]  [Site 3] 1110(C)
+
+Fail line:186284         X:4 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8CA_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8CA_HBV_CS>
+Datalog       = [INFO]  [Site 0] Bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.805, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825, vdd_low_flppll:0.825, vdd_low_ulppll:0.825, vdd_low_usb_debug:0.825, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 0] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186285         X:4 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8CA_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8CA_HBV_CS>
+Datalog       = [INFO]  [Site 1] Bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.805, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825, vdd_low_flppll:0.825, vdd_low_ulppll:0.825, vdd_low_usb_debug:0.825, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 1] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186286         X:7 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8CA_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8CA_HBV_CS>
+Datalog       = [INFO]  [Site 2] Bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.805, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825, vdd_low_flppll:0.825, vdd_low_ulppll:0.825, vdd_low_usb_debug:0.825, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 2] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186287         X:7 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8CA_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8CA_HBV_CS>
+Datalog       = [INFO]  [Site 3] Bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.805, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825, vdd_low_flppll:0.825, vdd_low_ulppll:0.825, vdd_low_usb_debug:0.825, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 3] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186504         X:4 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8DQW_HBV_CS>
+Datalog       = [INFO]  [Site 0] Bincut safe voltage: vdd_cio:0.941, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.885, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.798, vdd_low_detect:0.814, vdd_low_flppll:0.814, vdd_low_ulppll:0.814, vdd_low_usb_debug:0.814, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 0] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186505         X:4 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8DQW_HBV_CS>
+Datalog       = [INFO]  [Site 1] Bincut safe voltage: vdd_cio:0.941, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.885, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.798, vdd_low_detect:0.814, vdd_low_flppll:0.814, vdd_low_ulppll:0.814, vdd_low_usb_debug:0.814, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 1] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186506         X:7 Y:12          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8DQW_HBV_CS>
+Datalog       = [INFO]  [Site 2] Bincut safe voltage: vdd_cio:0.941, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.885, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.798, vdd_low_detect:0.814, vdd_low_flppll:0.814, vdd_low_ulppll:0.814, vdd_low_usb_debug:0.814, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 2] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Fail line:186507         X:7 Y:9          Touch Down Index = 0
+Instance name = <AMPLP5X_INTSMD8DQW_PP_HIDA0_S_FULP_AN_DDIO_ILB_JTG_LP5_MDX008_SI_INTS_MD8DQW_HBV_CS>
+Datalog       = [INFO]  [Site 3] Bincut safe voltage: vdd_cio:0.941, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.885, vdd_fixed_ecpu:0.885, vdd_fixed_ecpu_mtr:0.885, vdd_fixed_grp:0.885, vdd_fixed_lpdp_rx:0.885, vdd_fixed_lpdp_tx:0.885, vdd_fixed_mipic:0.885, vdd_fixed_pcie:0.885, vdd_fixed_pcie_refbuf:0.885, vdd_fixed_pcie5:0.885, vdd_fixed_pcpu:0.885, vdd_fixed_pll_ane_gpu:0.885, vdd_fixed_pll_dcs:0.885, vdd_fixed_pll_soc:0.885, vdd_fixed_xtal:0.885, vdd_gpu:0.78, vdd_low:0.798, vdd_low_detect:0.814, vdd_low_flppll:0.814, vdd_low_ulppll:0.814, vdd_low_usb_debug:0.814, vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.78
+NV(Test Plan) = [info]  [site 3] bincut safe voltage: vdd_cio:0.85, vdd_cpu_sram:0.78, vdd_dcs_ddr:0.78, vdd_disp:0.78, vdd_ecpu:0.78, vdd_fixed_amux:0.886,vdd_fixed_ecpu:0.886,vdd_fixed_ecpu_mtr:0.886,vdd_fixed_grp:0.805,vdd_fixed_lpdp_rx:0.886,vdd_fixed_lpdp_tx:0.886,vdd_fixed_mipic:0.886,vdd_fixed_pcie:0.886,vdd_fixed_pcie_refbuf:0.886,vdd_fixed_pcie5:0.886,vdd_fixed_pcpu:0.886,vdd_fixed_pll_ane_gpu:0.886,vdd_fixed_pll_dcs:0.886,vdd_fixed_pll_soc:0.886,vdd_fixed_xtal:0.886,vdd_gpu:0.78, vdd_low:0.75, vdd_low_detect:0.825,vdd_low_flppll:0.825,vdd_low_ulppll:0.825,vdd_low_usb_debug:0.825,vdd_pcpu:0.78, vdd_soc:0.78, vdd_sram_gpu:0.78, vdd_sram_soc:0.780
+
+Miss to check line 186419: [INFO]  [Site 0] 0(disp_sram_rail),1(gpu_sram_rail),0(dcs_sram_rail),0(soc_sram_rail),010(ddr0__lpddr6pll_biasadj_efuse),010(ddr1__lpddr6pll_biasadj_efuse),010(ddr2__lpddr6pll_biasadj_efuse),110(ddr3__lpddr6pll_biasadj_efuse),010(ddr4__lpddr6pll_biasadj_efuse),010(ddr5__lpddr6pll_biasadj_efuse),110(ddr6__lpddr6pll_biasadj_efuse),110(ddr7__lpddr6pll_biasadj_efuse)
+Miss to check line 186420: [INFO]  [Site 1] 0(disp_sram_rail),1(gpu_sram_rail),0(dcs_sram_rail),0(soc_sram_rail),110(ddr0__lpddr6pll_biasadj_efuse),110(ddr1__lpddr6pll_biasadj_efuse),010(ddr2__lpddr6pll_biasadj_efuse),110(ddr3__lpddr6pll_biasadj_efuse),110(ddr4__lpddr6pll_biasadj_efuse),010(ddr5__lpddr6pll_biasadj_efuse),010(ddr6__lpddr6pll_biasadj_efuse),010(ddr7__lpddr6pll_biasadj_efuse)
+Miss to check line 186421: [INFO]  [Site 2] 0(disp_sram_rail),1(gpu_sram_rail),0(dcs_sram_rail),0(soc_sram_rail),010(ddr0__lpddr6pll_biasadj_efuse),010(ddr1__lpddr6pll_biasadj_efuse),010(ddr2__lpddr6pll_biasadj_efuse),110(ddr3__lpddr6pll_biasadj_efuse),010(ddr4__lpddr6pll_biasadj_efuse),010(ddr5__lpddr6pll_biasadj_efuse),010(ddr6__lpddr6pll_biasadj_efuse),010(ddr7__lpddr6pll_biasadj_efuse)
+Miss to check line 186422: [INFO]  [Site 3] 0(disp_sram_rail),1(gpu_sram_rail),0(dcs_sram_rail),0(soc_sram_rail),010(ddr0__lpddr6pll_biasadj_efuse),010(ddr1__lpddr6pll_biasadj_efuse),010(ddr2__lpddr6pll_biasadj_efuse),010(ddr3__lpddr6pll_biasadj_efuse),010(ddr4__lpddr6pll_biasadj_efuse),110(ddr5__lpddr6pll_biasadj_efuse),010(ddr6__lpddr6pll_biasadj_efuse),100(ddr7__lpddr6pll_biasadj_efuse)
+Miss to check line 186639: [INFO]  [Site 0] 0(disp_sram_rail),1(gpu_sram_rail),0(dcs_sram_rail),0(soc_sram_rail),010(ddr0__lpddr6pll_biasadj_efuse),010(ddr1__lpddr6pll_biasadj_efuse),010(ddr2__lpddr6pll_biasadj_efuse),110(ddr3__lpddr6pll_biasadj_efuse),010(ddr4__lpddr6pll_biasadj_efuse),010(ddr5__lpddr6pll_biasadj_efuse),110(ddr6__lpddr6pll_biasadj_efuse),110(ddr7__lpddr6pll_biasadj_efuse),11111110(ddr0__lp5x_dlgbias_dq0_vtrim_val),01011110(ddr1__lp5x_dlgbias_dq0_vtrim_val),10111110(ddr2__lp5x_dlgbias_dq0_vtrim_val),10111110(ddr3__lp5x_dlgbias_dq0_vtrim_val),00111110(ddr4__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr5__lp5x_dlgbias_dq0_vtrim_val),00011110(ddr6__lp5x_dlgbias_dq0_vtrim_val),10011110(ddr7__lp5x_dlgbias_dq0_vtrim_val),11111110(ddr0__lp5x_dlgbias_dq0_vtrim_val),01011110(ddr1__lp5x_dlgbias_dq0_vtrim_val),10111110(ddr2__lp5x_dlgbias_dq0_vtrim_val),10111110(ddr3__lp5x_dlgbias_dq0_vtrim_val),00111110(ddr4__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr5__lp5x_dlgbias_dq0_vtrim_val),00011110(ddr6__lp5x_dlgbias_dq0_vtrim_val),10011110(ddr7__lp5x_dlgbias_dq0_vtrim_val),10111110(ddr0__lp5x_dlgbias_dq1_vtrim_val),01011110(ddr1__lp5x_dlgbias_dq1_vtrim_val),11011110(ddr2__lp5x_dlgbias_dq1_vtrim_val),01111110(ddr3__lp5x_dlgbias_dq1_vtrim_val),11011110(ddr4__lp5x_dlgbias_dq1_vtrim_val),01111110(ddr5__lp5x_dlgbias_dq1_vtrim_val),00111110(ddr6__lp5x_dlgbias_dq1_vtrim_val),00011110(ddr7__lp5x_dlgbias_dq1_vtrim_val),10111110(ddr0__lp5x_dlgbias_dq1_vtrim_val),01011110(ddr1__lp5x_dlgbias_dq1_vtrim_val),11011110(ddr2__lp5x_dlgbias_dq1_vtrim_val),01111110(ddr3__lp5x_dlgbias_dq1_vtrim_val),11011110(ddr4__lp5x_dlgbias_dq1_vtrim_val),01111110(ddr5__lp5x_dlgbias_dq1_vtrim_val),00111110(ddr6__lp5x_dlgbias_dq1_vtrim_val),00011110(ddr7__lp5x_dlgbias_dq1_vtrim_val)
+Miss to check line 186640: [INFO]  [Site 1] 0(disp_sram_rail),1(gpu_sram_rail),0(dcs_sram_rail),0(soc_sram_rail),110(ddr0__lpddr6pll_biasadj_efuse),110(ddr1__lpddr6pll_biasadj_efuse),010(ddr2__lpddr6pll_biasadj_efuse),110(ddr3__lpddr6pll_biasadj_efuse),110(ddr4__lpddr6pll_biasadj_efuse),010(ddr5__lpddr6pll_biasadj_efuse),010(ddr6__lpddr6pll_biasadj_efuse),010(ddr7__lpddr6pll_biasadj_efuse),10011110(ddr0__lp5x_dlgbias_dq0_vtrim_val),11101110(ddr1__lp5x_dlgbias_dq0_vtrim_val),00011110(ddr2__lp5x_dlgbias_dq0_vtrim_val),11000001(ddr3__lp5x_dlgbias_dq0_vtrim_val),10111110(ddr4__lp5x_dlgbias_dq0_vtrim_val),01000001(ddr5__lp5x_dlgbias_dq0_vtrim_val),11101110(ddr6__lp5x_dlgbias_dq0_vtrim_val),11111110(ddr7__lp5x_dlgbias_dq0_vtrim_val),10011110(ddr0__lp5x_dlgbias_dq0_vtrim_val),11101110(ddr1__lp5x_dlgbias_dq0_vtrim_val),00011110(ddr2__lp5x_dlgbias_dq0_vtrim_val),11000001(ddr3__lp5x_dlgbias_dq0_vtrim_val),10111110(ddr4__lp5x_dlgbias_dq0_vtrim_val),01000001(ddr5__lp5x_dlgbias_dq0_vtrim_val),11101110(ddr6__lp5x_dlgbias_dq0_vtrim_val),11111110(ddr7__lp5x_dlgbias_dq0_vtrim_val),00011110(ddr0__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr1__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr2__lp5x_dlgbias_dq1_vtrim_val),01111110(ddr3__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr4__lp5x_dlgbias_dq1_vtrim_val),01111110(ddr5__lp5x_dlgbias_dq1_vtrim_val),01011110(ddr6__lp5x_dlgbias_dq1_vtrim_val),10111110(ddr7__lp5x_dlgbias_dq1_vtrim_val),00011110(ddr0__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr1__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr2__lp5x_dlgbias_dq1_vtrim_val),01111110(ddr3__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr4__lp5x_dlgbias_dq1_vtrim_val),01111110(ddr5__lp5x_dlgbias_dq1_vtrim_val),01011110(ddr6__lp5x_dlgbias_dq1_vtrim_val),10111110(ddr7__lp5x_dlgbias_dq1_vtrim_val)
+Miss to check line 186641: [INFO]  [Site 2] 0(disp_sram_rail),1(gpu_sram_rail),0(dcs_sram_rail),0(soc_sram_rail),010(ddr0__lpddr6pll_biasadj_efuse),010(ddr1__lpddr6pll_biasadj_efuse),010(ddr2__lpddr6pll_biasadj_efuse),110(ddr3__lpddr6pll_biasadj_efuse),010(ddr4__lpddr6pll_biasadj_efuse),010(ddr5__lpddr6pll_biasadj_efuse),010(ddr6__lpddr6pll_biasadj_efuse),010(ddr7__lpddr6pll_biasadj_efuse),00011110(ddr0__lp5x_dlgbias_dq0_vtrim_val),00111110(ddr1__lp5x_dlgbias_dq0_vtrim_val),11111110(ddr2__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr3__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr4__lp5x_dlgbias_dq0_vtrim_val),10111110(ddr5__lp5x_dlgbias_dq0_vtrim_val),11011110(ddr6__lp5x_dlgbias_dq0_vtrim_val),00111110(ddr7__lp5x_dlgbias_dq0_vtrim_val),00011110(ddr0__lp5x_dlgbias_dq0_vtrim_val),00111110(ddr1__lp5x_dlgbias_dq0_vtrim_val),11111110(ddr2__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr3__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr4__lp5x_dlgbias_dq0_vtrim_val),10111110(ddr5__lp5x_dlgbias_dq0_vtrim_val),11011110(ddr6__lp5x_dlgbias_dq0_vtrim_val),00111110(ddr7__lp5x_dlgbias_dq0_vtrim_val),11111110(ddr0__lp5x_dlgbias_dq1_vtrim_val),00101110(ddr1__lp5x_dlgbias_dq1_vtrim_val),00111110(ddr2__lp5x_dlgbias_dq1_vtrim_val),11111110(ddr3__lp5x_dlgbias_dq1_vtrim_val),00011110(ddr4__lp5x_dlgbias_dq1_vtrim_val),00111110(ddr5__lp5x_dlgbias_dq1_vtrim_val),01011110(ddr6__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr7__lp5x_dlgbias_dq1_vtrim_val),11111110(ddr0__lp5x_dlgbias_dq1_vtrim_val),00101110(ddr1__lp5x_dlgbias_dq1_vtrim_val),00111110(ddr2__lp5x_dlgbias_dq1_vtrim_val),11111110(ddr3__lp5x_dlgbias_dq1_vtrim_val),00011110(ddr4__lp5x_dlgbias_dq1_vtrim_val),00111110(ddr5__lp5x_dlgbias_dq1_vtrim_val),01011110(ddr6__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr7__lp5x_dlgbias_dq1_vtrim_val)
+Miss to check line 186642: [INFO]  [Site 3] 0(disp_sram_rail),1(gpu_sram_rail),0(dcs_sram_rail),0(soc_sram_rail),010(ddr0__lpddr6pll_biasadj_efuse),010(ddr1__lpddr6pll_biasadj_efuse),010(ddr2__lpddr6pll_biasadj_efuse),010(ddr3__lpddr6pll_biasadj_efuse),010(ddr4__lpddr6pll_biasadj_efuse),110(ddr5__lpddr6pll_biasadj_efuse),010(ddr6__lpddr6pll_biasadj_efuse),100(ddr7__lpddr6pll_biasadj_efuse),01111110(ddr0__lp5x_dlgbias_dq0_vtrim_val),00111110(ddr1__lp5x_dlgbias_dq0_vtrim_val),11011110(ddr2__lp5x_dlgbias_dq0_vtrim_val),10000001(ddr3__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr4__lp5x_dlgbias_dq0_vtrim_val),11000001(ddr5__lp5x_dlgbias_dq0_vtrim_val),11011110(ddr6__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr7__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr0__lp5x_dlgbias_dq0_vtrim_val),00111110(ddr1__lp5x_dlgbias_dq0_vtrim_val),11011110(ddr2__lp5x_dlgbias_dq0_vtrim_val),10000001(ddr3__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr4__lp5x_dlgbias_dq0_vtrim_val),11000001(ddr5__lp5x_dlgbias_dq0_vtrim_val),11011110(ddr6__lp5x_dlgbias_dq0_vtrim_val),01111110(ddr7__lp5x_dlgbias_dq0_vtrim_val),01011110(ddr0__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr1__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr2__lp5x_dlgbias_dq1_vtrim_val),10111110(ddr3__lp5x_dlgbias_dq1_vtrim_val),10111110(ddr4__lp5x_dlgbias_dq1_vtrim_val),11111110(ddr5__lp5x_dlgbias_dq1_vtrim_val),01011110(ddr6__lp5x_dlgbias_dq1_vtrim_val),11011110(ddr7__lp5x_dlgbias_dq1_vtrim_val),01011110(ddr0__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr1__lp5x_dlgbias_dq1_vtrim_val),10011110(ddr2__lp5x_dlgbias_dq1_vtrim_val),10111110(ddr3__lp5x_dlgbias_dq1_vtrim_val),10111110(ddr4__lp5x_dlgbias_dq1_vtrim_val),11111110(ddr5__lp5x_dlgbias_dq1_vtrim_val),01011110(ddr6__lp5x_dlgbias_dq1_vtrim_val),11011110(ddr7__lp5x_dlgbias_dq1_vtrim_val)
+

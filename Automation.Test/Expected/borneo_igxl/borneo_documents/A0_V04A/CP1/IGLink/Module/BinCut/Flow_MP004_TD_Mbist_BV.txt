@@ -1,0 +1,33 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow MP004_TD_Mbist_BV Start"																															
+Instance_Bincut_TDF_MPX,Row29,MPX004 CPU TD,TD		CP1||FT1			MissPatternInCsv	Test	MP004_MPX004_CpuTd_PP_BRNA0_C_PL10_SC_P0PD_TDF_COM_HAR_MPXXXX_DM_DIV166_3_PCPU_TDF_MPX004_DIV166_PL10_BV		1000656000																													
+					MissPatternInCsv	Bintable	Bin_MP004_TD_BV																															
+Instance_Bincut_TDF_MPX,Row30,MPX004 CPU TD,TD		CP1||FT1			MissPatternInCsv	Test	MP004_MPX004_CpuTd_PP_BRNA0_C_PL00_SC_P0XD_TDF_COM_AUT_MPXXXX_DM_DIV422_3_PCPU_TDF_MPX004_DIV422_PL00_BV		1000657000																													
+					MissPatternInCsv	Bintable	Bin_MP004_TD_BV																															
+Instance_Bincut_TDF_MPX,Row31,MPX004 CPU TD,TD		CP1||FT1			MissPatternInCsv	Test	MP004_MPX004_CpuTd_PP_BRNA0_C_PL00_SC_P0PD_TDF_COM_AUT_MPXXXX_DM_CEXTEST_3_PCPU_TDF_MPX004_CEXTEST_PL00_BV		1000658000																													
+					MissPatternInCsv	Bintable	Bin_MP004_TD_BV																															
+Instance_Bincut_TDF_MPX,Row32,MPX004 SOC TD,TD		CP1||FT1			MissPatternInCsv	Test	MP004_MPX004_SocTd_PP_BRNA0_S_PL10_SC_CAA0_TDF_SSC_HAR_MPXXXX_DM_3_SOC_TD_MPX004_CAA0_PL10_BV		1000659000																													
+					MissPatternInCsv	Bintable	Bin_MP004_TD_BV																															
+Instance_Bincut_TDF_MPX,Row33,MPX004 SOC TD,TD		CP1||FT1			MissPatternInCsv	Test	MP004_MPX004_SocTd_PP_BRNA0_S_PL10_SC_CAB0_TDF_SSC_HAR_MPXXXX_DM_3_SOC_TD_MPX004_CAB0_PL10_BV		1000660000																													
+					MissPatternInCsv	Bintable	Bin_MP004_TD_BV																															
+Instance_Bincut_TDF_MPX,Row34,MPX004 SOC TD,TD		CP1||FT1			MissPatternInCsv	Test	MP004_MPX004_SocTd_PP_BRNA0_S_PL10_SC_CAC0_TDF_SSC_HAR_MPXXXX_DM_3_SOC_TD_MPX004_CAC0_PL10_BV		1000661000																													
+					MissPatternInCsv	Bintable	Bin_MP004_TD_BV																															
+Instance_Bincut_TDF_MPX,Row35,MPX004 SOC TD,TD		CP1||FT1			MissPatternInCsv	Test	MP004_MPX004_SocTd_PP_BRNA0_S_PL10_SC_CAD0_TDF_SSC_HAR_MPXXXX_DM_3_SOC_TD_MPX004_CAD0_PL10_BV		1000662000																													
+					MissPatternInCsv	Bintable	Bin_MP004_TD_BV																															
+Instance_Bincut_TDF_MPX,Row36,MPX004 SOC TD,TD		CP1||FT1			MissPatternInCsv	Test	MP004_MPX004_SocTd_PP_BRNA0_S_PL10_SC_CAE0_TDF_SSC_HAR_MPXXXX_DM_3_SOC_TD_MPX004_CAE0_PL10_BV		1000663000																													
+					MissPatternInCsv	Bintable	Bin_MP004_TD_BV																															
+Instance_Bincut_TDF_MPX,Row37,MPX004 SOC TD,TD		CP1||FT1			MissPatternInCsv	Test	MP004_MPX004_SocTd_PP_BRNA0_S_PL10_SC_CAF0_TDF_SSC_HAR_MSPXXX_DM_3_SOC_TD_MPX004_CAF0_PL10_BV		1000664000																													
+					MissPatternInCsv	Bintable	Bin_MP004_TD_BV																															
+Instance_Bincut_BIST_MPX_CPU,Row5,MPX004 CPU BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST			MissPatternInCsv	Test	MP004_MPX004_CpuMbist_PP_BRNA0_C_PLLP_BI_P0XX_BST_JTG_59N_MPXXXX_SI_LATR_LATR_BV		1000665000																													
+					MissPatternInCsv	Bintable	Bin_MP004_Mbist_BV																															
+Instance_Bincut_BIST_MPX_CPU,Row27,MPX004 CPU BIST,Mbist		(CP1||FT1) && !BINCUT_WITH_BIST			MissPatternInCsv	Test	MP004_MPX004_CpuMbist_PP_BRNA0_C_PLLP_BI_P0XX_BST_JTG_59N_MPXXXX_SI_LATR_LATR_BIRA_BV		1000666000																													
+					MissPatternInCsv	Bintable	Bin_MP004_Mbist_BV																															
+Instance_Bincut_BIST_MPX_SOC,Row5,MPX004 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST			MissPatternInCsv	Test	MP004_MPX004_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_2_NOHARV_BV		1000667000																													
+					MissPatternInCsv	Bintable	Bin_MP004_Mbist_BV																															
+Instance_Bincut_BIST_MPX_SOC,Row23,MPX004 SOC BIST,Mbist		(CP1||FT1) && !BINCUT_WITH_BIST			MissPatternInCsv	Test	MP004_MPX004_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_3_NOHARV_BIRA_BV		1000668000																													
+					MissPatternInCsv	Bintable	Bin_MP004_Mbist_BV																															
+						print	"Flow MP004_TD_Mbist_BV Stop"																															
+						Return																																

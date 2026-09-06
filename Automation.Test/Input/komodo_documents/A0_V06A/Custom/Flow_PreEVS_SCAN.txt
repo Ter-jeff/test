@@ -1,0 +1,11 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+Instance_SA_CPU,Row38,Flow_CPU_SAA_EQN_LV						Test	CpuSa_NonHarv_ECPU_CEXTEST_SAA_NoHarv_SRM0F_EQN_LV		26050000												F_CPU_SA_PreScreen																	
+Instance_SA_CPU,Row40,Flow_CPU_SAA_EQN_LV						Test	CpuSa_NonHarv_MCPU_CEXTEST_SAA_NoHarv_SRM0F_EQN_LV		26050100												F_CPU_SA_PreScreen																	
+Instance_OutsideBincut,Row104,FLOW_PCPU_TD_MP001_EQN_LV						Test	CpuTd_NonHarv_HCPU_MPX001_DIV422_PL10_SRM0E_EQN_LV		26050200												F_CPU_TD_PreScreen																	
+Instance_OutsideBincut,Row107,FLOW_PCPU_TD_MP00F_EQN_LV						Test	CpuTd_NonHarv_HCPU_MPX00F_DIV422_PL10_SRM0E_EQN_LV		26050300												F_CPU_TD_PreScreen																	
+						Bintable	Bin_CPU_SA_PreScreen																															
+						Bintable	Bin_CPU_TD_PreScreen																															
+						return																																

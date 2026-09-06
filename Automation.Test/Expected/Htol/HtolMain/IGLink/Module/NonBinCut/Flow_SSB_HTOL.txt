@@ -1,0 +1,20 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	SSB_HTOL_Header_1																															
+						print	"Flow SSB_HTOL Start"																															
+Instance_HTOL,Row28,SSB_HTOL		CurrentProfile				Test	HIP_HT_HIDA0_S_PL01_FU_GS01_PFF_BST_FUN_MSDXXX_SI_SBST_MAXXTATS_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row28,SSB_HTOL					MissPatternInCsv	Test	HIP_HT_HIDA0_S_IN01_FU_XXXX_XXX_JTG_XXX_MSDXXX_SI_SBST_HTOL														F_Soc_UnknowType,F_HIP_HT_HIDA0_S_IN01_FU_XXXX_XXX_JTG_XXX_MSDXXX_SI_SBST_HTOL																	
+Instance_HTOL,Row28,SSB_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_HIP_HT_HIDA0_S_IN01_FU_XXXX_XXX_JTG_XXX_MSDXXX_SI_SBST_HTOL									
+Instance_HTOL,Row28,SSB_HTOL					MissPatternInCsv	Test	HIP_HT_HIDA0_S_PL01_FU_GS01_PFF_BST_FUN_MSDXXX_SI_SBST_MAXXTATS														F_Soc_UnknowType,F_HIP_HT_HIDA0_S_PL01_FU_GS01_PFF_BST_FUN_MSDXXX_SI_SBST_MAXXTATS																	
+Instance_HTOL,Row28,SSB_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_HIP_HT_HIDA0_S_PL01_FU_GS01_PFF_BST_FUN_MSDXXX_SI_SBST_MAXXTATS									
+						endloop																																
+Instance_HTOL,Row28,SSB_HTOL		CurrentProfile||VoltageProfile				Test	HIP_HT_HIDA0_S_PL01_FU_GS01_PFF_BST_FUN_MSDXXX_SI_SBST_MAXXTATS_Profile_Plot																															
+						If	ControlBin_Soc_UnknowType																															
+						Bintable	Bin_Soc_UnknowType																															
+						EndIf																																
+						print	"Flow SSB_HTOL Stop"																															
+						Test	SSB_HTOL_Footer_1																															
+						Return																																

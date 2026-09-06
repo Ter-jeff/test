@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HardIpConfigXml"
+    targetNamespace="http://tempuri.org/HardIpConfigXml.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/HardIpConfigXml.xsd"
+    xmlns:mstns="http://tempuri.org/HardIpConfigXml.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name ="NamingMappingItem">
+    <xs:complexType>
+      <xs:attribute name ="StdName"/>
+      <xs:attribute name ="AliasName"/>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name ="LeakeageSetting">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SettingItem" maxOccurs ="unbounded">
+          <xs:complexType>
+            <xs:attribute name="keyword"/>              
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="VbtNamingMapping">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref ="NamingMappingItem" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ParaNamingMapping">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref ="NamingMappingItem" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
