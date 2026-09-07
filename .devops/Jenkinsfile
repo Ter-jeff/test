@@ -113,11 +113,11 @@ pipeline {
                         dir('.devops') {
                             script {
                                 if (isUnix()) {
-                                    sh 'python3 -m pip install pip_system_certs lxml tabulate pyyaml'
-                                    sh 'python3 metrics_calculate.py ./metrics_config.yaml ./metrics_reports'
+                                    sh 'py -m pip install pip_system_certs lxml tabulate pyyaml'
+                                    sh 'py metrics_calculate.py ./metrics_config.yaml ./metrics_reports'
                                 } else {
-                                    powershell 'python -m pip install pip_system_certs lxml tabulate pyyaml'
-                                    powershell 'python metrics_calculate.py ./metrics_config.yaml ./metrics_reports'
+                                    powershell 'py -m pip install pip_system_certs lxml tabulate pyyaml'
+                                    powershell 'py metrics_calculate.py ./metrics_config.yaml ./metrics_reports'
                                 }
                             }
                         }
