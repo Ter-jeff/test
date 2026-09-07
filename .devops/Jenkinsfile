@@ -52,15 +52,28 @@ pipeline {
                 stage('Clean and Restore') {
                     steps {
                         echo 'Cleaning and Restoring NuGet Packages...'
-                        powershell "dotnet clean ${env.SOLUTION}"
-                        powershell "dotnet restore ${env.SOLUTION}"
+                        script {
+                            if (isUnix()) {
+                                sh "dotnet clean ${env.SOLUTION}"
+                                sh "dotnet restore ${env.SOLUTION}"
+                            } else {
+                                powershell "dotnet clean ${env.SOLUTION}"
+                                powershell "dotnet restore ${env.SOLUTION}"
+                            }
+                        }
                     }
                 }
 
                 stage('Compile') {
                     steps {
                         echo 'Building Common.sln...'
-                        powershell "dotnet build ${env.SOLUTION} --configuration Release"
+                        script {
+                            if (isUnix()) {
+                                sh "dotnet build ${env.SOLUTION} --configuration Release"
+                            } else {
+                                powershell "dotnet build ${env.SOLUTION} --configuration Release"
+                            }
+                        }
                     }
                 }
 
@@ -69,15 +82,29 @@ pipeline {
                         timeout(time: 5, unit: 'MINUTES')
                     }
                     steps {
-                        powershell "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
+                        script {
+                            if (isUnix()) {
+                                sh "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
+                            } else {
+                                powershell "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
+                            }
+                        }
                     }
                 }
 
                 stage('Install DotNet Tools') {
                     steps {
-                        powershell "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11 --add-source https://api.nuget.org/v3/index.json"
-                        powershell "dotnet tool update --tool-path ${env.TOOLS_DIR} slt-csharp-metrics --version 1.0.0"
-                        powershell "dotnet tool update --tool-path ${env.TOOLS_DIR} csharp-duplicate-detector --version 1.0.0"
+                        script {
+                            if (isUnix()) {
+                                sh "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11 --add-source https://api.nuget.org/v3/index.json"
+                                sh "dotnet tool update --tool-path ${env.TOOLS_DIR} slt-csharp-metrics --version 1.0.0"
+                                sh "dotnet tool update --tool-path ${env.TOOLS_DIR} csharp-duplicate-detector --version 1.0.0"
+                            } else {
+                                powershell "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11 --add-source https://api.nuget.org/v3/index.json"
+                                powershell "dotnet tool update --tool-path ${env.TOOLS_DIR} slt-csharp-metrics --version 1.0.0"
+                                powershell "dotnet tool update --tool-path ${env.TOOLS_DIR} csharp-duplicate-detector --version 1.0.0"
+                            }
+                        }
                     }
                 }
 
@@ -105,7 +132,13 @@ pipeline {
                 stage('Unit Test') {
                     steps {
                         echo 'Running Unit Tests with Code Coverage...'
-                        powershell "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --logger \"junit;LogFilePath=test-results.xml\" --results-directory .devops/TestResults"
+                        script {
+                            if (isUnix()) {
+                                sh "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --logger \"junit;LogFilePath=test-results.xml\" --results-directory .devops/TestResults"
+                            } else {
+                                powershell "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --logger \"junit;LogFilePath=test-results.xml\" --results-directory .devops/TestResults"
+                            }
+                        }
                     }
                     post {
                         always {
@@ -116,7 +149,13 @@ pipeline {
 
                 stage('Coverage') {
                     steps {
-                        powershell "${env.TOOLS_DIR}/reportgenerator.exe -reports:.devops/TestResults/**/coverage.cobertura.xml -targetdir:.devops/coverage_reports \"-reporttypes:Html;Cobertura\""
+                        script {
+                            if (isUnix()) {
+                                sh "${env.TOOLS_DIR}/reportgenerator -reports:.devops/TestResults/**/coverage.cobertura.xml -targetdir:.devops/coverage_reports \"-reporttypes:Html;Cobertura\""
+                            } else {
+                                powershell "${env.TOOLS_DIR}/reportgenerator.exe -reports:.devops/TestResults/**/coverage.cobertura.xml -targetdir:.devops/coverage_reports \"-reporttypes:Html;Cobertura\""
+                            }
+                        }
                     }
                     post {
                         always {
