@@ -6,6 +6,7 @@ pipeline {
     agent { label 'swarm' }
 
     options {
+        disableConcurrentBuilds()
         buildDiscarder(logRotator(numToKeepStr: '30'))
         timeout(time: 30, unit: 'MINUTES')
     }
