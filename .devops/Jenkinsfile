@@ -17,7 +17,6 @@ pipeline {
         SOLUTION = "Common.sln"
         TEST_PROJECT = "CommonLib.Test/CommonLib.Test.csproj"
         TOOLS_DIR = ".devops/dotnet-tools"
-        PATH = "/usr/local/share/dotnet:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:${env.PATH}"
     }
 
     stages {
@@ -53,15 +52,15 @@ pipeline {
                 stage('Clean and Restore') {
                     steps {
                         echo 'Cleaning and Restoring NuGet Packages...'
-                        sh "dotnet clean ${env.SOLUTION}"
-                        sh "dotnet restore ${env.SOLUTION}"
+                        powershell "dotnet clean ${env.SOLUTION}"
+                        powershell "dotnet restore ${env.SOLUTION}"
                     }
                 }
 
                 stage('Compile') {
                     steps {
                         echo 'Building Common.sln...'
-                        sh "dotnet build ${env.SOLUTION} --configuration Release"
+                        powershell "dotnet build ${env.SOLUTION} --configuration Release"
                     }
                 }
 
@@ -70,23 +69,23 @@ pipeline {
                         timeout(time: 5, unit: 'MINUTES')
                     }
                     steps {
-                        sh "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
+                        powershell "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
                     }
                 }
 
                 stage('Install DotNet Tools') {
                     steps {
-                        sh "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11 --add-source https://api.nuget.org/v3/index.json"
-                        sh "dotnet tool update --tool-path ${env.TOOLS_DIR} slt-csharp-metrics --version 1.0.0"
-                        sh "dotnet tool update --tool-path ${env.TOOLS_DIR} csharp-duplicate-detector --version 1.0.0"
+                        powershell "dotnet tool update --tool-path ${env.TOOLS_DIR} dotnet-reportgenerator-globaltool --version 5.3.11 --add-source https://api.nuget.org/v3/index.json"
+                        powershell "dotnet tool update --tool-path ${env.TOOLS_DIR} slt-csharp-metrics --version 1.0.0"
+                        powershell "dotnet tool update --tool-path ${env.TOOLS_DIR} csharp-duplicate-detector --version 1.0.0"
                     }
                 }
 
                 stage('Metrics') {
                     steps {
                         dir('.devops') {
-                            sh('python3 -m pip install --break-system-packages pip_system_certs lxml tabulate pyyaml')
-                            sh('python3 metrics_calculate.py ./metrics_config.yaml ./metrics_reports')
+                            powershell('python -m pip install pip_system_certs lxml tabulate pyyaml')
+                            powershell('python metrics_calculate.py ./metrics_config.yaml ./metrics_reports')
                         }
                     }
                     post {
@@ -99,7 +98,7 @@ pipeline {
                 stage('Unit Test') {
                     steps {
                         echo 'Running Unit Tests with Code Coverage...'
-                        sh "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --logger \"junit;LogFilePath=test-results.xml\" --results-directory .devops/TestResults"
+                        powershell "dotnet test ${env.TEST_PROJECT} --configuration Release --no-build --collect:\"XPlat Code Coverage\" --logger \"junit;LogFilePath=test-results.xml\" --results-directory .devops/TestResults"
                     }
                     post {
                         always {
@@ -110,7 +109,7 @@ pipeline {
 
                 stage('Coverage') {
                     steps {
-                        sh "${env.TOOLS_DIR}/reportgenerator -reports:.devops/TestResults/**/coverage.cobertura.xml -targetdir:.devops/coverage_reports \"-reporttypes:Html;Cobertura\""
+                        powershell "${env.TOOLS_DIR}/reportgenerator.exe -reports:.devops/TestResults/**/coverage.cobertura.xml -targetdir:.devops/coverage_reports \"-reporttypes:Html;Cobertura\""
                     }
                     post {
                         always {
