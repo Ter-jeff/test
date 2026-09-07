@@ -1,0 +1,129 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						set-alarm-bin										21		998																				
+						set-error-bin										21		999																				
+		!Disable_EEPROM_R				nop	Read_EEPROM_proberTemp_compare														F_EEPROM_Check																	
+		!Disable_EEPROM_R				nop	Bin_EEPROM_check																															
+		DIBC				nop	DIBChecker_VBT_CP								1	7	1	7																				
+		DIBC				nop									7	7	7	7	Pass																			
+						create-site-var	SEL_CASE_CNT																															
+						create-site-var	SEL_CASE_End																															
+						create-site-var	SelSrm_LP_Var																															
+						create-site-var	LPCount_End																															
+						create-integer	"SrcCodeIndx,SrcCodeIndx1,SrcCodeIndx2,SrcCodeIndx0,SrcCodeIndxZ,SrcCodeIndexV"																															
+						assign-integer	SrcCodeIndx 0																															
+						create-site-var	CFGChk_Var																															
+						assign-site-var	CFGChk_Var 0																															
+						create-site-var	ECIDChk_Var																															
+						assign-site-var	ECIDChk_Var 0																															
+						create-site-var	Efuse_config_Current																															
+						assign-site-var	Efuse_config_Current 0																															
+						create-site-var	Efuse_config_Early																															
+						assign-site-var	Efuse_config_Early 0																															
+						create-site-var	Efuse_config_Future																															
+						assign-site-var	Efuse_config_Future 0																															
+						create-site-var	Efuse_config_Previous																															
+						assign-site-var	Efuse_config_Previous 0																															
+						create-site-var	Efuse_ecid_Current																															
+						assign-site-var	Efuse_ecid_Current 0																															
+						create-site-var	Efuse_ecid_Future																															
+						assign-site-var	Efuse_ecid_Future 0																															
+						create-site-var	Efuse_ecid_Previous																															
+						assign-site-var	Efuse_ecid_Previous 0																															
+						create-site-var	Efuse_uid_Current																															
+						assign-site-var	Efuse_uid_Current 0																															
+						create-site-var	Efuse_uid_Future																															
+						assign-site-var	Efuse_uid_Future 0																															
+						create-site-var	Efuse_uid_Previous																															
+						assign-site-var	Efuse_uid_Previous 1																															
+						create-site-var	RSCR_Flow_Idx																															
+						assign-site-var	RSCR_Flow_Idx 1																															
+						create-site-var	MFP_flow_idx																															
+						assign-site-var	MFP_flow_idx 1																															
+						create-integer	EVS_INDEX																															
+						create-integer	Max_Step																															
+						assign-integer	Max_Step 1																															
+						create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_CP1_Index																															
+						assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_CP1_Index 0																															
+						create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_CP1_Index																															
+						assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_CP1_Index 0																															
+						call	Flow_Table_Main_Init_EnableWd																															
+						nop	Flow_Table_Main_Init_Flag																															
+						call	Flow_HardIP_Init_Flag																															
+						call	Flow_Table_Main_Init_Flows																															
+		(CP2&&!AutoZOnly)				nop	Flow_Table_Write_SPIROM_main																															
+						call	Flow_DC_Conti																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						Test	Relay_ON_Default																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_nWire_Default																															
+						Test	Relay_On_Conti																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_JTAG																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_IO																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						Test	Relay_Off_HardIP																														Didn't specify in Flow_Main sheet(TestPlan)!	
+efuse					X	Test	ECID_Power_Pin_Resistance_VDDA_EFUSE0_NV		9700000												F_EFUSE_Pwr_Conti																	
+efuse					X	Test	CFG_Power_Pin_Resistance_VDDA_EFUSE1_NV		9710000												F_EFUSE_Pwr_Conti																	
+efuse					X	Bintable	Bin_EFUSE_Detect_Pwr_R																															
+		!Pgm2File				call	Flow_efuse_BankRead																															
+		Pgm2File				Test	PseudoFuse_ReadFromFile																															
+		!CP2				Bintable	Bin_EFUSE_PseudoFuse_WriteToFile																															
+						Test	GoodDie_Retest																															
+		!BypRetestCheck && !CP2				Bintable	Bin_EFUSE_FailDie																															
+		!Disable_eFuse_BKM				nop	BKM_CP																															
+		!CP2				Bintable	Bin_Other_BKM_Fail																															
+		!Disable_eFuse_BKM				Test	IEDA_BKM_Before_Fusing																															
+		!CP2				Bintable	Bin_Other_BKM_Fail																															
+						call	Flow_DCTEST_IDS																														Didn't specify in Flow_Main sheet(TestPlan)!	
+evs		Force_EVS_On			flag-true	nop	F_Force_EVS_On																															
+evs		Force_EVS_Off			flag-true	nop	F_Force_EVS_Off																															
+evs					If	nop	(Efuse_ecid_Current=0 || F_Force_EVS_On) && !F_Force_EVS_Off																															
+					Test	nop	Enable_ATPG_Output_Format																															
+					call	nop	Flow_EVS																															
+					Test	nop	Disable_ATPG_Output_Format																															
+evs					ElseIf	nop	Efuse_ecid_Current=1																															
+evs					flag-true	nop	F_EVS_Conduct																															
+evs					EndIf	nop																																
+					call	nop	Flow_eFuse_ECID																															
+					call	nop	Flow_DCTEST_IDS_CORR																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						Test	Enable_ATPG_Output_Format																															
+						call	FLOW_SOC_SAA_CHAIN_LV																															
+						call	FLOW_SOC_SAA_LV																															
+						call	FLOW_SOC_SAA_CHAIN_HV																															
+						call	FLOW_SOC_SAA_HV																															
+						call	FLOW_SOC_TD_CPMF_LV																															
+						call	FLOW_SOC_TD_CPMF_HV																															
+						call	Flow_S_BI_PP_CP1_TE_BURST																															
+						call	Flow_DCTEST_IDS_POST																															
+						Bintable	Bin_EVS_SOC_SCAN_Alarm_Check																															
+						Bintable	Bin_EVS_SOC_MBIST_Alarm_Check																															
+						Bintable	Bin_EVS_SOC_MBIST_SBIST_Alarm_Check																															
+						Test	Disable_ATPG_Output_Format																															
+						Test	Relay_On_HardIP																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_CPLL																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_ULPPLL																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_FLPPLL																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						nop	Flow_HARDIP_DSGRINGS																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_MISC																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_USB																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_FRO																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_OSC60M																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_NTSE																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_HARDIP_MIDBIASLDO																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						nop	Flow_HARDIP_CLKMON																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						Test	Relay_Off_HardIP																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						Test	Enable_ATPG_Output_Format																															
+		!Disable_Sampling_Test				call	Flow_SamplingTest																															
+						call	Flow_Vddbinning																															
+						call	Flow_Vddbinning_HVCC																															
+						call	Flow_PostBincut																															
+						Test	Disable_ATPG_Output_Format																															
+						Test	IEDA_All_ECID																															
+						Test	IEDA_BKM_After_Fused																															
+						Test	IEDA_Efuse_Revision																															
+						Test	IEDA_Config_288Bits																															
+						call	Flow_Table_Main_EndFlow																															
+						set-device									1		1		Pass																			

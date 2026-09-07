@@ -1,0 +1,335 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow_DC_Conti Start"																															
+						flag-clear	F_open																															
+						flag-clear	F_short																															
+						flag-clear	F_powershort																															
+						flag-clear	F_powersense																															
+						flag-clear	F_groundsense																															
+						flag-clear	F_CRES																															
+						flag-clear	F_PowerUp_Alarm																															
+						Test	SetPPMU_Clamp_Conti																															
+						Test	SetPOWER_Alarm																															
+		AutoZOnly				Test	DC_Continuity_IONeg_AUTOZ																															
+		AutoZOnly				Bintable	Bin_DC_open_short																															
+		AutoZOnly				Bintable	Bin_DC_open																															
+		AutoZOnly				Bintable	Bin_DC_short																															
+		AutoZOnly				set-device										9		9997	Fail-Stop																			
+		CP1				Test	DC_Continuity_PPMU_CP1																															
+		CP2				Test	DC_Continuity_PPMU_CP2																															
+		FT1				Test	DC_Continuity_PPMU_FT1																															
+		FT2				Test	DC_Continuity_PPMU_FT2																															
+						Bintable	Bin_DC_open_short																															
+						Bintable	Bin_DC_open																															
+						Bintable	Bin_DC_short																															
+		CP1				Test	DC_Continuity_UVI80_CP1																															
+		CP2				Test	DC_Continuity_UVI80_CP2																															
+		FT1				Test	DC_Continuity_UVI80_FT1																															
+		FT2				Test	DC_Continuity_UVI80_FT2																															
+						Bintable	Bin_DC_open_short																															
+						Bintable	Bin_DC_open																															
+						Bintable	Bin_DC_short																															
+		AutoZOnly				set-device										9		9997	Fail-Stop																			
+		CP1&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Neg_Diff_P_CP1														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Neg_Diff_P_CP1																	
+		CP2&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Neg_Diff_P_CP2														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Neg_Diff_P_CP2																	
+		FT1&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Neg_Diff_P_FT1														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Neg_Diff_P_FT1																	
+		FT2&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Neg_Diff_P_FT2														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Neg_Diff_P_FT2																	
+		CP1&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Pos_Diff_P_CP1														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Pos_Diff_P_CP1																	
+		CP2&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Pos_Diff_P_CP2														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Pos_Diff_P_CP2																	
+		FT1&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Pos_Diff_P_FT1														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Pos_Diff_P_FT1																	
+		FT2&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Pos_Diff_P_FT2														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Pos_Diff_P_FT2																	
+		CP1&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Neg_Diff_N_CP1														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Neg_Diff_N_CP1																	
+		CP2&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Neg_Diff_N_CP2														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Neg_Diff_N_CP2																	
+		FT1&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Neg_Diff_N_FT1														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Neg_Diff_N_FT1																	
+		FT2&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Neg_Diff_N_FT2														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Neg_Diff_N_FT2																	
+		CP1&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Pos_Diff_N_CP1														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Pos_Diff_N_CP1																	
+		CP2&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Pos_Diff_N_CP2														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Pos_Diff_N_CP2																	
+		FT1&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Pos_Diff_N_FT1														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Pos_Diff_N_FT1																	
+		FT2&&WalkingZ				Test	DC_Continuity_WalkingZ_Continuity_Pos_Diff_N_FT2														F_WalkingZ_DC_Continuity_WalkingZ_Continuity_Pos_Diff_N_FT2																	
+		CP1				Test	DC_Continuity_Power_Short_Serial_5mv_CP1														F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_GPU		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_PCPU		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_SOC		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_DISP		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_ECPU		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_DCS_DDR		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_CPU_SRAM		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDIO12_AOP		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDIO12_AOP_4		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_SRAM_SOC		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDQL_DDR		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_LOW		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_SRAM_GPU		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDIO12_GRP		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_CIO		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_MEMLP5_DDR		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_LPDP_RX		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_LPDP_RX		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_LPDP_TX		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_PCIE		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_GRP		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_LPDP_TX		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_PCIE		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_PLL_DDR		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDA_EFUSE0		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDA_EFUSE1		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDA_EFUSE2		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDA_EFUSE3		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDA_EFUSE4		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDA_EFUSE5		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDA_EFUSE6		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_PCIE_REFBUF		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_AMUX		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_PCIE_REFBUF		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_PLL_SOC		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_XTAL		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_ECPU		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_ECPU_MTR		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_MIPIC		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_PCIE5		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_PCPU		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_PLL_ANE_GPU		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_PLL_DCS		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_LOW_DETECT		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_LOW_FLPPLL		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_LOW_ULPPLL		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_LOW_USB_DEBUG		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_ADC_SOC		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_AMUX		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_FMON		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_HSCDFT		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_MIPIC		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_PLL_GRP		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_PLL_DCS		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_PLL_SOC		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_TSADC_CPU		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_ULPPLL_FLPPLL		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_USB_DEBUG		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_CIO		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_TD_BIAS		-0.001	0.05	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD12_XTAL		-0.001	0.05	m	A								F_powershort																	
+		CP2				Test	DC_Continuity_Power_Short_Serial_5mv_CP2														F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_GPU		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_PCPU		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_SOC		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_DISP		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_ECPU		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_DCS_DDR		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_CPU_SRAM		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDIO12_AOP		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDIO12_AOP_4		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_SRAM_SOC		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDQL_DDR		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_LOW		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_SRAM_GPU		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDIO12_GRP		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_CIO		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_MEMLP5_DDR		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_LPDP_RX		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_LPDP_RX		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_LPDP_TX		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_PCIE		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_GRP		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_LPDP_TX		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_PCIE		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_PLL_DDR		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDA_EFUSE0		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDA_EFUSE1		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDA_EFUSE2		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDA_EFUSE3		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDA_EFUSE4		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDA_EFUSE5		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDDA_EFUSE6		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_PCIE_REFBUF		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_AMUX		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_PCIE_REFBUF		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_PLL_SOC		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_XTAL		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_ECPU		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_ECPU_MTR		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_MIPIC		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_PCIE5		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_PCPU		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_PLL_ANE_GPU		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_FIXED_PLL_DCS		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_LOW_DETECT		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_LOW_FLPPLL		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_LOW_ULPPLL		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD_LOW_USB_DEBUG		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_ADC_SOC		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_AMUX		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_FMON		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_HSCDFT		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_MIPIC		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_PLL_GRP		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_PLL_DCS		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_PLL_SOC		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_TSADC_CPU		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_ULPPLL_FLPPLL		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_USB_DEBUG		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_CIO		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_TD_BIAS		-0.001	0.15	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP2	VDD12_XTAL		-0.001	0.15	m	A								F_powershort																	
+						Bintable	Bin_DC_powershort																															
+						Bintable	Bin_DC_poweropen																															
+		CP1				Test	DC_Continuity_PowerShortLogicPowerParallel_CP1														F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_DCS_DDR		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_DISP		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_ECPU		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_GPU		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_PCPU		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_SOC		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_CIO		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_AMUX		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_GRP		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_LPDP_RX		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_LPDP_TX		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_MIPI		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_PCIE		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_PCIE_REFBUF		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_PCPU_MTR		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_PLL		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_PLL_DCSCLKGEN		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_PLL_DDR		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_PLL_SOC		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_FIXED_XTAL		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_LOW		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_LOW_FLPPLL		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_LOW_ULPPLL		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP1	VDD_LOW_USB_DEBUG		-0.001	0.5	m	A								F_powershort																	
+		CP2				Test	DC_Continuity_PowerShortLogicPowerParallel_CP2														F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_DCS_DDR		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_DISP		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_ECPU		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_GPU		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_PCPU		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_SOC		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_CIO		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_AMUX		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_GRP		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_LPDP_RX		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_LPDP_TX		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_MIPI		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_PCIE		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_PCIE_REFBUF		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_PCPU_MTR		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_PLL		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_PLL_DCSCLKGEN		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_PLL_DDR		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_PLL_SOC		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_FIXED_XTAL		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_LOW		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_LOW_FLPPLL		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_LOW_ULPPLL		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortLogicPowerParallel_CP2	VDD_LOW_USB_DEBUG		-0.001	0.5	m	A								F_powershort																	
+						Bintable	Bin_DC_powershort																															
+						Bintable	Bin_DC_poweropen																															
+		CP1				Test	DC_Continuity_PowerShortAll_SRAMPowerParallel_CP1														F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_SRAMPowerParallel_CP1	VDD_CPU_SRAM		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_SRAMPowerParallel_CP1	VDD_SRAM_GPU		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_SRAMPowerParallel_CP1	VDD_SRAM_SOC		-0.001	0.5	m	A								F_powershort																	
+		CP2				Test	DC_Continuity_PowerShortAll_SRAMPowerParallel_CP2														F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_SRAMPowerParallel_CP2	VDD_CPU_SRAM		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_SRAMPowerParallel_CP2	VDD_SRAM_GPU		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_SRAMPowerParallel_CP2	VDD_SRAM_SOC		-0.001	0.5	m	A								F_powershort																	
+						Bintable	Bin_DC_powershort																															
+						Bintable	Bin_DC_poweropen																															
+		CP1				Test	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1														F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDDIO12_AOP		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDDIO12_AOP_4		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDDQL_DDR		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDDIO12_GRP		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD_MEMLP5_DDR		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_LPDP_RX		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_LPDP_TX		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_PCIE		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_CIO_S2		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_PLL_DDR		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_EFUSE0		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_EFUSE1		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_EFUSE2		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_EFUSE3		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_EFUSE4		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_EFUSE5		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_PCIE_REFBUF		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_ADC_SOC		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_AMUX		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_FMON		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_HSCDFT		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_MIPIC		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_PLL_GRP		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_PLL_DCS		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_PLL_SOC		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_TSADC_CPU		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_ULPPLL_FLPPLL		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_USB_DEBUG		-0.001	0.5	m	A								F_powershort																	
+		CP1	CP1			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP1	VDD12_XTAL		-0.001	0.5	m	A								F_powershort																	
+		CP2				Test	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2														F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDDIO12_AOP		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDDIO12_AOP_4		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDDQL_DDR		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDDIO12_GRP		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD_MEMLP5_DDR		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_LPDP_RX		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_LPDP_TX		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_PCIE		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_CIO_S2		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_PLL_DDR		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_EFUSE0		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_EFUSE1		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_EFUSE2		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_EFUSE3		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_EFUSE4		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_EFUSE5		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_PCIE_REFBUF		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_ADC_SOC		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_AMUX		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_FMON		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_HSCDFT		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_MIPIC		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_PLL_GRP		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_PLL_DCS		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_PLL_SOC		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_TSADC_CPU		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_ULPPLL_FLPPLL		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_USB_DEBUG		-0.001	0.5	m	A								F_powershort																	
+		CP2	CP2			Use-Limit	DC_Continuity_PowerShortAll_NonCorePowerParallel_CP2	VDD12_XTAL		-0.001	0.5	m	A								F_powershort																	
+						Bintable	Bin_DC_powershort																															
+						Bintable	Bin_DC_poweropen																															
+		FT1				Test	DC_Continuity_PowerShortALL_DRAMParallel_FT1														F_powershort																	
+		FT1	FT1			Use-Limit	DC_Continuity_PowerShortALL_DRAMParallel_FT1	VDD2H		-0.001	0.5	m	A								F_powershort																	
+		FT1	FT1			Use-Limit	DC_Continuity_PowerShortALL_DRAMParallel_FT1	VDD18		-0.001	0.5	m	A								F_powershort																	
+		FT2				Test	DC_Continuity_PowerShortALL_DRAMParallel_FT2														F_powershort																	
+		FT2	FT2			Use-Limit	DC_Continuity_PowerShortALL_DRAMParallel_FT2	VDD2H		-0.001	0.5	m	A								F_powershort																	
+		FT2	FT2			Use-Limit	DC_Continuity_PowerShortALL_DRAMParallel_FT2	VDD18		-0.001	0.5	m	A								F_powershort																	
+						Bintable	Bin_DC_powershort																															
+						Bintable	Bin_DC_poweropen																															
+		CP1				Test	DC_Continuity_PowerSense_CP1														F_powersense																	
+		CP2				Test	DC_Continuity_PowerSense_CP2														F_powersense																	
+		FT1				Test	DC_Continuity_PowerSense_FT1														F_powersense																	
+		FT2				Test	DC_Continuity_PowerSense_FT2														F_powersense																	
+		FT1				Test	DC_Continuity_PowerSense_VDD2HSENSE1_FT1														F_powersense																	
+		FT2				Test	DC_Continuity_PowerSense_VDD2HSENSE2_FT2														F_powersense																	
+		CP1				Test	DC_Continuity_GroundSense_CP1														F_powersense																	
+		CP2				Test	DC_Continuity_GroundSense_CP2														F_powersense																	
+		FT1				Test	DC_Continuity_GroundSense_POP_FT1														F_powersense																	
+		FT2				Test	DC_Continuity_GroundSense_POP_FT2														F_powersense																	
+		CP1				Test	DC_Continuity_PowerImpedance_CP1														F_powersense																	
+		CP2				Test	DC_Continuity_PowerImpedance_CP2														F_powersense																	
+		FT1				Test	DC_Continuity_PowerImpedance_FT1														F_powersense																	
+		FT2				Test	DC_Continuity_PowerImpedance_FT2														F_powersense																	
+		FT1				Test	DC_Continuity_PowerImpedance_FT_POP_FT1														F_powersense																	
+		FT2				Test	DC_Continuity_PowerImpedance_FT_POP_FT2														F_powersense																	
+		CP1				Test	DC_Continuity_GroundImpedance_CP1														F_powersense																	
+		CP2				Test	DC_Continuity_GroundImpedance_CP2														F_powersense																	
+		FT1				Test	DC_Continuity_GroundImpedance_FT1														F_powersense																	
+		FT2				Test	DC_Continuity_GroundImpedance_FT2														F_powersense																	
+						Bintable	Bin_DC_powersense																															
+						Bintable	Bin_DC_GND_sense																															
+						Bintable	Bin_DC_powerResistance																															
+						Test	PowerUp														F_PowerUp_Alarm																	
+						Bintable	Bin_PowerUp_Alarm																															
+						print	"Flow_DC_Conti End"																															
+						Return																																

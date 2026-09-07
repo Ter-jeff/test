@@ -1,0 +1,813 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IgxlLintAnalyzer</name>
+    </assembly>
+    <members>
+        <member name="T:Fuji.IgxlLintAnalyzer.CommentAnalyzer">
+            <summary>
+            Custom Roslyn analyzer
+            </summary>
+        </member>
+        <member name="P:Fuji.IgxlLintAnalyzer.CommentAnalyzer.SupportedDiagnostics">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.CommentAnalyzer.Initialize(Microsoft.CodeAnalysis.Diagnostics.AnalysisContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.CommentRules">
+            <summary>
+            Diagnostic descriptors for ATE analyzer rules with the prefix FujiLint
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.CommentRules.TrailingComment">
+            <summary>
+            Single line comment should go above the line it is commenting
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.CommentRules.DeadCode">
+            <summary>
+            Comment contains dead code and should be removed
+            </summary>
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.FileIoAnalyzer">
+            <summary>
+            Custom Roslyn analyzer for IGXL API usage
+            </summary>
+        </member>
+        <member name="P:Fuji.IgxlLintAnalyzer.FileIoAnalyzer.SupportedDiagnostics">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.FileIoAnalyzer.Initialize(Microsoft.CodeAnalysis.Diagnostics.AnalysisContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.FileIoRules">
+            <summary>
+            Diagnostic descriptors for ATE analyzer rules with the IGLint prefix
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.FileIoRules.AccessFileIo">
+            <summary>
+            Direct access to File I/O
+            </summary>
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.IgxlApiAnalyzer">
+            <summary>
+            Custom Roslyn analyzer for IGXL API usage
+            </summary>
+        </member>
+        <member name="P:Fuji.IgxlLintAnalyzer.IgxlApiAnalyzer.SupportedDiagnostics">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlApiAnalyzer.Initialize(Microsoft.CodeAnalysis.Diagnostics.AnalysisContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.IgxlApiRules">
+            <summary>
+            Diagnostic descriptors for ATE analyzer rules with the IGLint prefix
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.AccessTheHdw">
+            <summary>
+            Direct access to TheHdw should be replaced with a TesterAPI call
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.AccessTheProgramTestData">
+            <summary>
+            Direct access to TheProgram.TestData should be replaced with a TesterAPI or PlatformInterfacesLibrary call
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.AccessTheExec">
+            <summary>
+            Direct access to TheExec should be replaced with a TesterAPI call
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.DatalogWriteComment">
+            <summary>
+            Direct usage of TheExec.Datalog.WriteComment should be replaced with a call to the Datalogger class
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.TheExecTestLimit">
+            <summary>
+            Direct usage of TheExec.Flow.TestLimit should be replaced with a call to Datalogger.TestLimit
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.InheritTestCodeBase">
+            <summary>
+            Class should directly access to static members and methods of TestCodeBase instead of inheriting TestCodeBase
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.NonSerializableTestProgramData">
+            <summary>
+            Non-serializable type nested within job data
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.ForEachSiteLoop">
+            <summary>
+            Iteration over TheExec.Sites should be replaced with ForEachSite call
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.TheExecLotId">
+            <summary>
+            Direct usage of TheExec.Datalog.Setup.LotSetup.LotID should be replaced with PlatformFactory.Platform.Datalog.LotId
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.TheExecWaferId">
+            <summary>
+            Direct usage of TheExec.Datalog.Setup.WaferSetup.Id should be replaced with PlatformFactory.Platform.Datalog.WaferId
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.TheExecDecomposePinList">
+            <summary>
+            Direct usage of TheExec.DataManager.DecomposePinList should be replaced with PlatformFactory.Platform.DataManager.DecomposePinList
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.RunDspUsage">
+            <summary>
+            Usage of the RunDsp namespace should be replaced with the type-safe DspWrapper namespace instead
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.TheExecEnableWord">
+            <summary>
+            Direct usage of TheExec.EnableWord should be replaced with FrameworkFactory.Instance.TestAPI.EnableWord
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.TheExecWaferSetXCoord">
+            <summary>
+            Direct usage of TheExec.Datalog.Setup.WaferSetup.SetXCoord() should be replaced with PlatformFactory.Platform.Datalog.SetWaferCoordinates()
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiRules.TheExecWaferSetYCoord">
+            <summary>
+            Direct usage of TheExec.Datalog.Setup.WaferSetup.SetYCoord() should be replaced with PlatformFactory.Platform.Datalog.SetWaferCoordinates()
+            </summary>
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.IgxlAttributeAnalyzer">
+            <summary>
+            Analyzer for validating IGXL test classes and methods
+            </summary>
+        </member>
+        <member name="P:Fuji.IgxlLintAnalyzer.IgxlAttributeAnalyzer.SupportedDiagnostics">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlAttributeAnalyzer.Initialize(Microsoft.CodeAnalysis.Diagnostics.AnalysisContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.IgxlAttributeRules">
+            <summary>
+            Diagnostic descriptors for IGXL attribute analyzer rules
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.RawTestMethod">
+            <summary>
+            Raw IGXL test method attribute
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.NonPublicTestClass">
+            <summary>
+            IGXL test class is not public
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.NonPublicIgxlMethod">
+            <summary>
+            IGXL test or interpose method is not public
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.TestMethodRefParameter">
+            <summary>
+            IGXL test method parameter is ref parameter
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.TestMethodOutParameter">
+            <summary>
+            IGXL test method parameter is out parameter
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.TestClassWithoutDefaultConstructor">
+            <summary>
+            IGXL test class does not have a default constructor
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.TestClassWithoutIgxlMethods">
+            <summary>
+            IGXL test class is expected to have at least one test or interpose method
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.InvalidInterposeMethodSignature">
+            <summary>
+            IGXL interpose method has invalid signature
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.NonStaticInterposeMethod">
+            <summary>
+            IGXL interpose method needs to be static
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.BothTestAndInterposeMethod">
+            <summary>
+            Method should not be both a test method and interpose method
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.IgxlMethodOutsideTestClass">
+            <summary>
+            IGXL test or interpose method is not in an IGXL test class
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.StaticTestClass">
+            <summary>
+            IGXL test class is static
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlAttributeRules.NonStaticTestMethod">
+            <summary>
+            IGXL test method is not static
+            </summary>  
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.RuleConstants.RulePrefix">
+            <summary>
+            Prefix for diagnostic IDs
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.RuleConstants.UsageWarning">
+            <summary>
+            Diagnostic category for a warning related to API usage
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.RuleConstants.BuildError">
+            <summary>
+            Diagnostic category for an error that should cause the build to fail
+            </summary>
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.StringAnalyzer">
+            <summary>
+            Custom Roslyn analyzer for IGXL API usage
+            </summary>
+        </member>
+        <member name="P:Fuji.IgxlLintAnalyzer.StringAnalyzer.SupportedDiagnostics">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.StringAnalyzer.Initialize(Microsoft.CodeAnalysis.Diagnostics.AnalysisContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.StringRules">
+            <summary>
+            Diagnostic descriptors for string comparison rules
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.StringRules.StringEqualsCaseSensitive">
+            <summary>
+            Usage of case-sensitive string.Equals()
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.StringRules.StringEqualsCaseInsensitive">
+            <summary>
+            Usage of case-insensitive string.Equals()
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.StringRules.EqualsCaseSensitive">
+            <summary>
+            Usage of case-sensitive .Equals()
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.StringRules.EqualsCaseInsensitive">
+            <summary>
+            Usage of case-insensitive .Equals()
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.StringRules.ToUpperToLowerComparison">
+            <summary>
+            Usage of ToUpper()/ToLower() in string comparison using Equals(), Contains(), StartsWith(), or EndsWith()
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.StringRules.ToUpperToLowerEqualityOperator">
+            <summary>
+            Usage of ToUpper()/ToLower() in string comparison using == or !=
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.StringRules.StringComparerUsage">
+            <summary>
+            Direct usage of StringComparer
+            </summary>
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.IgxlApiTypes">
+            <summary>
+            Names of IGXL built-in types to be analyzed
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiTypes.TestCodeBaseType">
+            <summary>
+            Fully qualified type name of TestCodeBase
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiTypes.TheHdwType">
+            <summary>
+            Fully qualified type name of TestCodeBase.TheHdw
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiTypes.TheProgramTestDataType">
+            <summary>
+            Fully qualified type name of TestCodeBase.TheProgram.TestData
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiTypes.TheExecType">
+            <summary>
+            Fully qualified type name of TestCodeBase.TheExec
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiTypes.LotIdProperty">
+            <summary>
+            Fully qualified type name of the property TheExec.Datalog.Setup.LotSetup.LotID
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiTypes.WaferIdProperty">
+            <summary>
+            Fully qualified type name of the property TheExec.Datalog.Setup.WaferSetup.Id
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.IgxlApiTypes.EnableWordProperty">
+            <summary>
+            Fully qualified type name of the property TheExec.EnableWord
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlApiTypes.InheritsTestCodeBase(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Check if class inherits TestCodeBase or any derived class of TestCodeBase
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlApiTypes.IsDatalogWriteComment(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is TheExec.Datalog.WriteComment
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlApiTypes.IsDatalogSetXCoord(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is TheExec.Datalog.Setup.WaferSetup.SetXCoord
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlApiTypes.IsDatalogSetYCoord(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is TheExec.Datalog.Setup.WaferSetup.SetYCoord
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlApiTypes.IsDecomposePinList(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is TheExec.Datalog.WriteComment
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlApiTypes.IsFlowTestLimit(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is TheExec.Flow.TestLimit
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlApiTypes.IsIgxlPublicApi(Microsoft.CodeAnalysis.ITypeSymbol)">
+            <summary>
+            Check if type is within the IGXL Public API namespace
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlApiTypes.IsSitesReference(Microsoft.CodeAnalysis.ITypeSymbol)">
+            <summary>
+            Check if type is that of TheExec.Sites (or one of Sites.Active, Sites.Selected, Sites.Existing)
+            </summary>
+            <param name="typeSymbol"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.IgxlApiTypes.IsRunDspCall(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is a RunDsp auto-generated method
+            </summary>
+        </member>
+        <member name="T:Fuji.IgxlLintAnalyzer.Utilities.SerializableChecker">
+            <summary>
+            Helper class to check if nested types within TestProgramData are serializable
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.Utilities.SerializableChecker.SerializableType">
+            <summary>
+            Fully qualified type name of Serializable attribute
+            </summary>
+        </member>
+        <member name="F:Fuji.IgxlLintAnalyzer.Utilities.SerializableChecker.TestProgramDataType">
+            <summary>
+            Fully qualified type name of TestProgramData
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.Utilities.SerializableChecker.#ctor(Microsoft.CodeAnalysis.Diagnostics.CompilationAnalysisContext,Microsoft.CodeAnalysis.DiagnosticDescriptor)">
+            <summary>
+            Helper class to check if nested types within TestProgramData are serializable
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.Utilities.SerializableChecker.GetNestedType(Microsoft.CodeAnalysis.ITypeSymbol)">
+            <summary>
+            Get names of nested types
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.Utilities.SerializableChecker.IsSystemType(Microsoft.CodeAnalysis.ITypeSymbol)">
+            <summary>
+            Check if a type is a .NET built-in System type
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.Utilities.SerializableChecker.IsExternalType(Microsoft.CodeAnalysis.ITypeSymbol)">
+            <summary>
+            Check if a type is defined in an external assembly
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.Utilities.SerializableChecker.IsSerializable(Microsoft.CodeAnalysis.ITypeSymbol)">
+            <summary>
+            Check if a type is marked as serializable
+            </summary>
+        </member>
+        <member name="M:Fuji.IgxlLintAnalyzer.Utilities.SerializableChecker.AnalyzeTestProgramData">
+            <summary>
+            Analyze nested types within TestProgramData
+            </summary>
+        </member>
+        <member name="T:Fuji.RoslynUtilities.CustomTypeNames">
+            <summary>
+            Fully-qualified names of custom types
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.CustomTypeNames.TestMethodWrapper">
+            <summary>
+            Fully qualified type name of the custom [TestMethodWrapper] attribute class
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.CustomTypeNames.TestMethodPreBody">
+            <summary>
+            Fully qualified type name of the custom [TestMethodPreBody] attribute class
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.CustomTypeNames.TestMethodPostBody">
+            <summary>
+            Fully qualified type name of the custom [TestMethodPostBody] attribute class
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.CustomTypeNames.WrappedTestMethod">
+            <summary>
+            Fully qualified type name of the custom [WrappedTestMethod] attribute class
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.CustomTypeNames.IgxlTestMethodMetadata">
+            <summary>
+            Fully qualified type name of the custom IgxlTestMethodMetadata class passed into PreBody and PostBody methods
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.CustomTypeNames.DspPerSiteParameter">
+            <summary>
+            Fully qualified type name of the attribute used to specify which DSP method parameters are site-specific
+            </summary>
+        </member>
+        <member name="T:Fuji.RoslynUtilities.IgxlTypeNames">
+            <summary>
+            Fully-qualified names of IGXL built-in attribute types
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.IgxlTypeNames.IgxlPrefix">
+            <summary>
+            Prefix of fully qualified names of IGXL types
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.IgxlTypeNames.TestClass">
+            <summary>
+            Fully qualified name of the IGXL [TestClass] attribute
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.IgxlTypeNames.RawTestMethod">
+            <summary>
+            Fully qualified name of the IGXL [TestMethod] attribute
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.IgxlTypeNames.InterposeMethod">
+            <summary>
+            Fully qualified name of the IGXL [InterposeMethod] attribute
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.IgxlTypeNames.DspClass">
+            <summary>
+            Fully qualified type name of the [DspClass] attribute
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.IgxlTypeNames.DspMethod">
+            <summary>
+            Fully qualified type name of the [DspMethod] attribute
+            </summary>
+        </member>
+        <member name="F:Fuji.RoslynUtilities.IgxlTypeNames.ExecInterposeAttributes">
+            <summary>
+            Fully qualified type names of the [ExecInterpose_] attributes
+            </summary>
+        </member>
+        <member name="T:Fuji.RoslynUtilities.EquatableArray`1">
+            <summary>
+            Array that can be compared element-wise using <see cref="M:System.Linq.Enumerable.SequenceEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableArray`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <inheritdoc cref="T:Fuji.RoslynUtilities.EquatableArray`1"/>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableArray`1.Equals(Fuji.RoslynUtilities.EquatableArray{`0})">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableArray`1.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableArray`1.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableArray`1.op_Equality(Fuji.RoslynUtilities.EquatableArray{`0},Fuji.RoslynUtilities.EquatableArray{`0})">
+            <summary>
+            Return equality of two <see cref="T:Fuji.RoslynUtilities.EquatableArray`1"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableArray`1.op_Inequality(Fuji.RoslynUtilities.EquatableArray{`0},Fuji.RoslynUtilities.EquatableArray{`0})">
+            <summary>
+            Return inequality of two <see cref="T:Fuji.RoslynUtilities.EquatableArray`1"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableArray`1.GetEnumerator">
+            <inheritdoc />
+        </member>
+        <member name="P:Fuji.RoslynUtilities.EquatableArray`1.Count">
+            <inheritdoc />
+        </member>
+        <member name="P:Fuji.RoslynUtilities.EquatableArray`1.Length">
+            <inheritdoc cref="P:Fuji.RoslynUtilities.EquatableArray`1.Count" />
+        </member>
+        <member name="P:Fuji.RoslynUtilities.EquatableArray`1.Item(System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="T:Fuji.RoslynUtilities.EquatableDictionary`2">
+            <summary>
+            Dictionary that can be compared for equality
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableDictionary`2.#ctor(System.Collections.Generic.IReadOnlyDictionary{`0,`1})">
+            <inheritdoc cref="T:Fuji.RoslynUtilities.EquatableDictionary`2"/>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableDictionary`2.Equals(Fuji.RoslynUtilities.EquatableDictionary{`0,`1})">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableDictionary`2.GetEnumerator">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableDictionary`2.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableDictionary`2.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableDictionary`2.op_Equality(Fuji.RoslynUtilities.EquatableDictionary{`0,`1},Fuji.RoslynUtilities.EquatableDictionary{`0,`1})">
+            <summary>
+            Return equality of two <see cref="T:Fuji.RoslynUtilities.EquatableDictionary`2"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableDictionary`2.op_Inequality(Fuji.RoslynUtilities.EquatableDictionary{`0,`1},Fuji.RoslynUtilities.EquatableDictionary{`0,`1})">
+            <summary>
+            Return inequality of two <see cref="T:Fuji.RoslynUtilities.EquatableDictionary`2"/>
+            </summary>
+        </member>
+        <member name="P:Fuji.RoslynUtilities.EquatableDictionary`2.Count">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableDictionary`2.ContainsKey(`0)">
+            <inheritdoc />
+        </member>
+        <member name="M:Fuji.RoslynUtilities.EquatableDictionary`2.TryGetValue(`0,`1@)">
+            <inheritdoc />
+        </member>
+        <member name="P:Fuji.RoslynUtilities.EquatableDictionary`2.Item(`0)">
+            <inheritdoc />
+        </member>
+        <member name="P:Fuji.RoslynUtilities.EquatableDictionary`2.Keys">
+            <inheritdoc />
+        </member>
+        <member name="P:Fuji.RoslynUtilities.EquatableDictionary`2.Values">
+            <inheritdoc />
+        </member>
+        <member name="T:Fuji.RoslynUtilities.AttributeDataExtensions">
+            <summary>
+            Extension methods for <see cref="T:Microsoft.CodeAnalysis.AttributeData"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.AttributeDataExtensions.GetArgumentsCount(Microsoft.CodeAnalysis.AttributeData)">
+            <summary>
+            Get number of arguments passed to instance of an attribute
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.AttributeDataExtensions.GetArguments(Microsoft.CodeAnalysis.AttributeData)">
+            <summary>
+            Get arguments passed to instance of an attribute
+            </summary>
+        </member>
+        <member name="T:Fuji.RoslynUtilities.ContextExtensions">
+            <summary>
+            Extension class for Roslyn contexts, such as <see cref="T:Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.ContextExtensions.GetClassesWithAttribute``1(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext,System.String,System.Func{Microsoft.CodeAnalysis.INamedTypeSymbol,``0})">
+            <summary>
+            Get <see cref="T:Microsoft.CodeAnalysis.IncrementalValuesProvider`1"/> for classes with the given attribute
+            </summary>
+        </member>
+        <member name="T:Fuji.RoslynUtilities.LinqExtensions">
+            <summary>
+            Array that can be compared element-wise using <see cref="M:System.Linq.Enumerable.SequenceEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.LinqExtensions.ToEquatableArray``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Convert <see cref="T:System.Collections.Generic.IEnumerable`1" /> to <see cref="T:Fuji.RoslynUtilities.EquatableArray`1"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.LinqExtensions.ToEquatableDictionary``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1})">
+            <summary>
+            Convert <see cref="T:System.Collections.Generic.IReadOnlyDictionary`2" /> to <see cref="T:Fuji.RoslynUtilities.EquatableDictionary`2"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.SymbolExtensions.GetXmlDocumentation(Microsoft.CodeAnalysis.ISymbol)">
+            <summary>
+            Get the text content of a symbol's XML documentation
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.SymbolExtensions.IsPartial(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Check if class is partial
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.SymbolExtensions.GetMethods(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Get enumerable of methods within a class or interface
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.SymbolExtensions.GetClasses(Microsoft.CodeAnalysis.INamespaceSymbol)">
+            <summary>
+            Get enumerable of classes and interfaces within a namespace
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.SymbolExtensions.HasAttribute(Microsoft.CodeAnalysis.ISymbol,System.String)">
+            <summary>
+            Check if a symbol has a certain attribute
+            </summary>
+            <param name="symbol">Symbol</param>
+            <param name="attributeClass">Fully qualified name of attribute type</param>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.SymbolExtensions.HasBaseAttribute(Microsoft.CodeAnalysis.ISymbol,System.String)">
+            <summary>
+            Check if a symbol has any attributes that directly inherit from the specified base attribute
+            </summary>
+            <param name="symbol">Symbol</param>
+            <param name="attributeClass">Fully qualified name of attribute type</param>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.SymbolExtensions.HasAttributeImplementing(Microsoft.CodeAnalysis.ISymbol,System.String)">
+            <summary>
+            Check if a symbol has any attributes that implement the specified interface
+            </summary>
+            <param name="symbol">Symbol</param>
+            <param name="attributeInterface">Fully qualified name of attribute interface type</param>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.SymbolExtensions.GetAttributeImplementing(Microsoft.CodeAnalysis.ISymbol,System.String)">
+            <summary>
+            Get the attribute data on a symbol for the attribute implementing the specified interface.
+            </summary>
+            <param name="symbol">Symbol</param>
+            <param name="attributeInterface">Fully qualified name of attribute interface type</param>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.SymbolExtensions.GetAttributeData(Microsoft.CodeAnalysis.ISymbol,System.String)">
+            <summary>
+            Get the attribute data on a symbol for the attribute with the specified class name
+            (or the attribute derived from the specified class)
+            </summary>
+            <param name="symbol">Symbol</param>
+            <param name="attributeClass">Fully qualified name of attribute class type</param>
+        </member>
+        <member name="T:Fuji.RoslynUtilities.CodeFormatter">
+            <summary>
+            Utility for formatting code
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CodeFormatter.FormatXmlComments(System.String,System.String)">
+            <summary>
+            Format XML string for class or method comment
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CodeFormatter.FormatAttributes(Fuji.RoslynUtilities.EquatableArray{System.String},System.String)">
+            <summary>
+            Format attributes for class or method
+            </summary>
+        </member>
+        <member name="T:Fuji.RoslynUtilities.CustomTypeUtility">
+            <summary>
+            Utility class depending on <see cref="T:Fuji.RoslynUtilities.CustomTypeNames"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CustomTypeUtility.IsTestMethodWrapper(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Check if a class has the [TestMethodWrapper] attribute
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CustomTypeUtility.IsTestMethodPreBody(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method has the [TestMethodPreBody] attribute
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CustomTypeUtility.IsTestMethodPostBody(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method has the [TestMethodPostBody] attribute
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CustomTypeUtility.GetTestMethodWrapperAttribute(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Get attribute data for the [TestMethodWrapper] attribute
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CustomTypeUtility.GetPreBodyMethods(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Get methods in a class with the [TestMethodPreBody] attribute
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CustomTypeUtility.GetPostBodyMethods(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Get methods in a class with the [TestMethodPostBody] attribute
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CustomTypeUtility.IsWrappedTestMethod(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is a [IgxlTestMethod]
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CustomTypeUtility.GetWrappedTestMethods(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Get enumerable of IGXL test methods in a class
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.CustomTypeUtility.HasWrappedTestMethods(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Check if class has IGXL test methods
+            </summary>
+        </member>
+        <member name="T:Fuji.RoslynUtilities.IgxlTypeUtility">
+            <summary>
+            Utility class depending on <see cref="T:Fuji.RoslynUtilities.IgxlTypeNames"/>
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.IsDspMethod(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is a [DspMethod]
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.IsExecInterposeMethod(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is a [ExecInterpose_] method
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.IsRawTestMethod(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is a [TestMethod]
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.GetRawTestMethods(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Get enumerable of IGXL test methods in a class
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.IsInterposeMethod(Microsoft.CodeAnalysis.IMethodSymbol)">
+            <summary>
+            Check if a method is a [InterposeMethod]
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.IsTestClass(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Check if a class is a [TestClass]
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.IsDspClass(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Check if a class is a [DspClass]
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.GetDspMethods(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Get enumerable of DSP methods in a class
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.GetDspClasses(Microsoft.CodeAnalysis.INamespaceSymbol)">
+            <summary>
+            Get enumerable of DSP methods in a class
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.HasInterposeMethods(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Check if class has interpose methods
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.HasExecInterposeMethods(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Check if class has exec interpose methods
+            </summary>
+        </member>
+        <member name="M:Fuji.RoslynUtilities.IgxlTypeUtility.HasRawTestMethods(Microsoft.CodeAnalysis.INamedTypeSymbol)">
+            <summary>
+            Check if class has raw test methods
+            </summary>
+        </member>
+    </members>
+</doc>

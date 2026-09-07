@@ -1,11 +1,31 @@
-solution: '../Common.sln'
+solution: '../01_Code/ProjectAutomation/Automation.sln'
 
 # Global ignores — applied to all metrics
 ignore_projects:
   - '(.*?).Test.csproj'
+  - Automation.Test.csproj
+  - IgxlData.Test.csproj
+  - BinCutScriptLib.Test.csproj
   - CommonLib.Test.csproj
+  - ScghLib.Test.csproj
+  - RfLibLib.Test.csproj
+  - IgxlLogLib.Test.csproj
+  - TerLintAnalyzer.Test.csproj
 ignore_directories:
+  - Automation.Test
+  - Common/IgxlData.Test
+  - Common/BinCutScriptLib.Test
+  - Common/CommonLib.Test
+  - Common/ScghLib.Test
+  - Common/RfLib.Test
+  - Common/IgxlLogLib.Test
+  - IgxlData.Test
+  - BinCutScriptLib.Test
   - CommonLib.Test
+  - ScghLib.Test
+  - RfLib.Test
+  - IgxlLogLib.Test
+  - TerLintAnalyzer.Test
 ignore_classes: []
 ignore_methods: []
 
@@ -59,6 +79,7 @@ class_coupling:
   # Regex patterns for types to exclude from coupling count
   exclude_types:
     - System.(.*?)
+    - Teradyne.Igxl.Interfaces.Public.(.*?)
     - OfficeOpenXml.(.*?)
 
 class_cohesion:

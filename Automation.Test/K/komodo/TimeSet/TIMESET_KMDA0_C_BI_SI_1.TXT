@@ -1,0 +1,229 @@
+DFF 1.4	Time Sets (Basic)																
+																	
+	Timing Mode:	Single		Master Timeset Name:													
+	Time Domain:			Strobe Ref Setup Name:														
+																	
+		Cycle	Pin Group			Data		Drive				Compare			Edge Resolution		
+	Time Set	Period	Name	Clock Period	Setup	Src	Fmt	On	Data	Return	Off	Mode	Open	Close	Mode	Comment	
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR0_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR1_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR2_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR3_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR4_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR5_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR6_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR7_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	XI0		i/o	PAT	RL	0	=(1/_tsetJTAGFreq)*0.500	=(1/_tsetJTAGFreq)*1.000		Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1/_tsetJTAGFreq)*0.000		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	DBG_PROBE_VALID		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	NUB_SCM_IO1		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	NUB_SCM_IO7		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	NUB_SCM_IO0		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	ISP_SPMI0_SDATA		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	SSD_BFH		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	SSD_RESET0_L		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	BOARD_ID2		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	JTAG_TCK		i/o	PAT	RL	0	=(1/_tsetJTAGFreq)*0.500	=(1/_tsetJTAGFreq)*1.000		Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tsetJTAG	=(1/_tsetJTAGFreq)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1/_tsetJTAGFreq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR0_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR1_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR2_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR3_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR4_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR5_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR6_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR7_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	XI0		i/o	PAT	RL	0	=(1/_tsetMBIST48Freq)*0.500	=(1/_tsetMBIST48Freq)*1.000		Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1/_tsetMBIST48Freq)*0.000		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	DBG_PROBE_VALID		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	NUB_SCM_IO1		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	NUB_SCM_IO7		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	NUB_SCM_IO0		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	ISP_SPMI0_SDATA		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	SSD_BFH		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	SSD_RESET0_L		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	BOARD_ID2		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	JTAG_TCK		i/o	PAT	RL	0	=(1/_tsetMBIST48Freq)*0.500	=(1/_tsetMBIST48Freq)*1.000		Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST48	=(1/_tsetMBIST48Freq)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1/_tsetMBIST48Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR0_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR1_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR2_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR3_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR4_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR5_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR6_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR7_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	XI0		i/o	PAT	RL	0	=(1/_tsetMBIST24Freq)*0.500	=(1/_tsetMBIST24Freq)*1.000		Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1/_tsetMBIST24Freq)*0.000		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	DBG_PROBE_VALID		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	NUB_SCM_IO1		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	NUB_SCM_IO7		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	NUB_SCM_IO0		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	ISP_SPMI0_SDATA		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	SSD_BFH		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	SSD_RESET0_L		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	BOARD_ID2		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	JTAG_TCK		i/o	PAT	RL	0	=(1/_tsetMBIST24Freq)*0.500	=(1/_tsetMBIST24Freq)*1.000		Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST24	=(1/_tsetMBIST24Freq)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1/_tsetMBIST24Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR0_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR1_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR2_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR3_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR4_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR5_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR6_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR7_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	XI0		i/o	PAT	RL	0	=(1/_tsetMBIST12Freq)*0.500	=(1/_tsetMBIST12Freq)*1.000		Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1/_tsetMBIST12Freq)*0.000		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	DBG_PROBE_VALID		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	NUB_SCM_IO1		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	NUB_SCM_IO7		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	NUB_SCM_IO0		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	ISP_SPMI0_SDATA		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	SSD_BFH		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	SSD_RESET0_L		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	BOARD_ID2		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	JTAG_TCK		i/o	PAT	RL	0	=(1/_tsetMBIST12Freq)*0.500	=(1/_tsetMBIST12Freq)*1.000		Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBIST12	=(1/_tsetMBIST12Freq)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1/_tsetMBIST12Freq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR0_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR1_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR2_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR3_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR4_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR5_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR6_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR7_RETN		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	XI0		i/o	PAT	RL	0	=(1/_tsetMBISTHTOLFreq)*0.500	=(1/_tsetMBISTHTOLFreq)*1.000		Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	XO0		i/o	PAT	NR	0	0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.000		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	DBG_PROBE_VALID		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	NUB_SCM_IO1		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	NUB_SCM_IO7		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	NUB_SCM_IO0		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	ISP_SPMI0_SDATA		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	SSD_BFH		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	SSD_RESET0_L		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	BOARD_ID2		i/o	PAT	NR	0	0.0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	CFSB_W1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	CFSB_E1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	CFSB_E2		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	CFSB_AON_A1		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	CFSB_AON_A2		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	JTAG_TCK		i/o	PAT	RL	0	=(1/_tsetMBISTHTOLFreq)*0.500	=(1/_tsetMBISTHTOLFreq)*1.000		Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	tsetMBISTHTOL	=(1/_tsetMBISTHTOLFreq)	JTAG_TDO		i/o	PAT	NR	0	0		0	Edge	=(1/_tsetMBISTHTOLFreq)*0.400		Auto		
+
+/* VAR Definitions */
+	tsetJTAGFreq	=48000768
+	tsetJTAGPer	=20.833*ns
+	tsetMBIST48Freq	=48000768
+	tsetMBIST48Per	=20.833*ns
+	tsetMBIST24Freq	=23999808
+	tsetMBIST24Per	=41.667*ns
+	tsetMBIST12Freq	=12000048
+	tsetMBIST12Per	=83.333*ns
+	tsetMBISTHTOLFreq	=1000000
+	tsetMBISTHTOLPer	=1000.000*ns

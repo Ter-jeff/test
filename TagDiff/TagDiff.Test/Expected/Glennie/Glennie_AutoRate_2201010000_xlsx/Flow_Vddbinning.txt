@@ -1,0 +1,28 @@
+Pass Rate	91.67%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	24	Pass Rows	22																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	5	5						print	"print: Flow_Vddbinning start"																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	6	6						call	Flow_T0TX_PreCall																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	7	7						flag-clear	F_Vddbinning_Fail_Stop																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	8	8						Test	Print_BinCut_Config		500000																												
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	9	9						print	"print: Judge_stored_IDS start"																														
+M	Flow_Vddbinning.txt	Flow_Vddbinning.txt	10	10		CP1				Test	Judge_stored_IDS		500500												F_Vddbinning_IDS_fail => 																
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	11	11						print	"print: Judge_stored_IDS end"																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	12	12						Bintable	Bin_Vddbinning_IDS_fail																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	13	13						call	Flow_MD001_TD_Mbist_BV																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	14	14						call	Flow_MD002_TD_Mbist_BV																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	15	15		CP1				Test	Set_VBinResult_without_Test		501000																												
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	16	16						print	"print: Vddbinning_PrintOutVddBinning start"																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	17	17						Test	PrintOutVddBinning		501500												F_Vddbinning_Fail_Stop																
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	18	18						Bintable	Vddbinning_Fail_Stop																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	22	22						Bintable	Vddbinning_Fail_Stop																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	19	19						print	"print: Vddbinning_PrintOutVddBinning end"																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	20	20						print	"print: Vddbinning_Adjust_VddBinning start"																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	21	21		CP1				Test	Adjust_VddBinning		502000												F_Vddbinning_Fail_Stop																
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	23	23						print	"print: Vddbinning_Adjust_VddBinning end"																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	24	24						print	"print: Flow_Vddbinning end"																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	25	25						Test	FuseBinnedProductVoltages		502500																												
+M	Flow_Vddbinning.txt	Flow_Vddbinning.txt	26	26		CP1			V02ARemove => 	Test	Power_Binning		503000																												
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	27	27						Bintable	Vddbinning_Power_Binning_Fail_Stop																														
+P	Flow_Vddbinning.txt	Flow_Vddbinning.txt	28	28						return																															

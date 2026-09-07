@@ -1,0 +1,68 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"*print: CPM_LVCC_Header start*"																															
+						nop	Relay_ON_Default																															
+						nop	Flow_nWire_24MHz																															
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_S13_16_X_SelsrmSSSSS_CZ_LV		20100100												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_S13_16_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20100150												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20100200																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_S16_18_X_SelsrmSSSSS_CZ_LV		20100250												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_S16_18_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20100300												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20100350																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_S19_11_X_SelsrmSSSSS_CZ_LV		20100400												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_S19_11_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20100450												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20100500																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_SR_13_X_SelsrmSSSSS_CZ_LV		20100550												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_SR_13_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20100600												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20100650																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_L13_15_X_SelsrmSSSSS_CZ_LV		20100700												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_L13_15_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20100750												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20100800																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_L16_17_X_SelsrmSSSSS_CZ_LV		20100850												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_L16_17_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20100900												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20100950																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_L19_19_X_SelsrmSSSSS_CZ_LV		20101000												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_L19_19_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20101050												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20101100																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_LR_1C_X_SelsrmSSSSS_CZ_LV		20101150												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_LR_1C_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20101200												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20101250																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_LLL13_17_X_SelsrmSSSSS_CZ_LV		20101300												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_LLL13_17_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20101350												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20101400																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_LLL16_19_X_SelsrmSSSSS_CZ_LV		20101450												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_LLL16_19_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20101500												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20101550																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_LLL19_14_X_SelsrmSSSSS_CZ_LV		20101600												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_LLL19_14_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20101650												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20101700																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_U13_1A_X_SelsrmSSSSS_CZ_LV		20101750												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_U13_1A_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20101800												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20101850																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_U16_16_X_SelsrmSSSSS_CZ_LV		20101900												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_U16_16_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20101950												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20102000																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_U19_14_X_SelsrmSSSSS_CZ_LV		20102050												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_U19_14_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20102100												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20102150																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_UR_16_X_SelsrmSSSSS_CZ_LV		20102200												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_UR_16_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20102250												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20102300																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_ULL13_1A_X_SelsrmSSSSS_CZ_LV		20102350												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_ULL13_1A_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20102400												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20102450																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_ULL16_16_X_SelsrmSSSSS_CZ_LV		20102500												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_ULL16_16_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20102550												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20102600																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_ULL19_14_X_SelsrmSSSSS_CZ_LV		20102650												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPMS_XIO24M_ULL19_14_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20102700												F_Dummy																	
+						nop	Bin_initFlow_BinOut		20102750																													
+		!ShmooOnly				Test	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPME_XIO24M_SLL_13_X_SelsrmSSSSS_CZ_LV		20102800												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAMSOC_MRX001_SOCTDF_CPME_XIO24M_SLL_13_X_SelsrmSSSSS_CZ_LV SOCTDF_VDDSRAMSOC_Jump		20102850												F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						nop	Relay_ON_Default																															
+						nop	Flow_nWire_Default																															
+						print	"*print: CPM_Lvcc_Footer end*"																															
+						return																																

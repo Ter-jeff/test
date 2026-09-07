@@ -1,0 +1,87 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"print: Flow_Vddbinning start"																															
+TNum 1000000000 - 1000009000						call	Flow_T0TX_PreCall																															
+						Flag-Clear	F_Vddbinning_Fail_Stop																															
+						test	Print_BinCut_Config		1000009000																													
+						print	"print: Judge_stored_IDS start"																															
+		FT1||FT1				test	Judge_stored_IDS		1000010000																													
+						print	"print: Judge_stored_IDS end"																															
+						BinTable	Bin_Vddbinning_IDS_fail																															
+TNum 1000011000 - 1000028000						call	Flow_MS001_TD_Mbist_BV																															
+TNum 1000028000 - 1000045000						call	Flow_MS004_TD_Mbist_BV																															
+TNum 1000045000 - 1000061000						call	Flow_MS002_TD_Mbist_BV																															
+TNum 1000061000 - 1000077000						call	Flow_MS003_TD_Mbist_BV																															
+TNum 1000077000 - 1000085000						call	Flow_MD001_TD_Mbist_BV																															
+TNum 1000085000 - 1000094000						call	Flow_MD00A_TD_Mbist_BV																															
+TNum 1000094000 - 1000102000						call	Flow_MD002_TD_Mbist_BV																															
+TNum 1000102000 - 1000110000						call	Flow_MD003_TD_Mbist_BV																															
+TNum 1000110000 - 1000118000						call	Flow_MD004_TD_Mbist_BV																															
+TNum 1000118000 - 1000126000						call	Flow_MD005_TD_Mbist_BV																															
+TNum 1000126000 - 1000134000						call	Flow_MD006_TD_Mbist_BV																															
+TNum 1000134000 - 1000142000						call	Flow_MD007_TD_Mbist_BV																															
+TNum 1000142000 - 1000150000						call	Flow_MD008_TD_Mbist_BV																															
+TNum 1000150000 - 1000158000						call	Flow_MD009_TD_Mbist_BV																															
+TNum 1000158000 - 1000161000						call	Flow_MA001_TD_Mbist_BV																															
+TNum 1000161000 - 1000164000						call	Flow_MA003_TD_Mbist_BV																															
+TNum 1000164000 - 1000167000						call	Flow_MA002_TD_Mbist_BV																															
+TNum 1000167000 - 1000173000						call	Flow_MI001_TD_Mbist_BV																															
+TNum 1000173000 - 1000179000						call	Flow_MI005_TD_Mbist_BV																															
+TNum 1000179000 - 1000184000						call	Flow_MI002_TD_Mbist_BV																															
+TNum 1000184000 - 1000189000						call	Flow_MI003_TD_Mbist_BV																															
+TNum 1000189000 - 1000195000						call	Flow_MI004_TD_Mbist_BV																															
+TNum 1000195000 - 1000199000						call	Flow_ML001_TD_Mbist_BV																															
+TNum 1000199000 - 1000222000						call	Flow_MG001_TD_Mbist_BV																															
+TNum 1000222000 - 1000245000						call	Flow_MG00D_TD_Mbist_BV																															
+TNum 1000245000 - 1000268000						call	Flow_MG00E_TD_Mbist_BV																															
+TNum 1000268000 - 1000291000						call	Flow_MG00F_TD_Mbist_BV																															
+TNum 1000291000 - 1000314000						call	Flow_MG002_TD_Mbist_BV																															
+TNum 1000314000 - 1000337000						call	Flow_MG003_TD_Mbist_BV																															
+TNum 1000337000 - 1000360000						call	Flow_MG004_TD_Mbist_BV																															
+TNum 1000360000 - 1000383000						call	Flow_MG005_TD_Mbist_BV																															
+TNum 1000383000 - 1000406000						call	Flow_MG006_TD_Mbist_BV																															
+TNum 1000406000 - 1000429000						call	Flow_MG007_TD_Mbist_BV																															
+TNum 1000429000 - 1000452000						call	Flow_MG008_TD_Mbist_BV																															
+TNum 1000452000 - 1000475000						call	Flow_MG009_TD_Mbist_BV																															
+TNum 1000475000 - 1000498000						call	Flow_MG00A_TD_Mbist_BV																															
+TNum 1000498000 - 1000521000						call	Flow_MG00B_TD_Mbist_BV																															
+TNum 1000521000 - 1000544000						call	Flow_MG00C_TD_Mbist_BV																															
+TNum 1000544000 - 1000553000						call	Flow_ME001_TD_Mbist_BV																															
+TNum 1000553000 - 1000562000						call	Flow_ME007_TD_Mbist_BV																															
+TNum 1000562000 - 1000572000						call	Flow_ME002_TD_Mbist_BV																															
+TNum 1000572000 - 1000582000						call	Flow_ME003_TD_Mbist_BV																															
+TNum 1000582000 - 1000592000						call	Flow_ME004_TD_Mbist_BV																															
+TNum 1000592000 - 1000602000						call	Flow_ME005_TD_Mbist_BV																															
+TNum 1000602000 - 1000612000						call	Flow_ME006_TD_Mbist_BV																															
+TNum 1000612000 - 1000662000						call	Flow_MP001_TD_Mbist_BV																															
+TNum 1000662000 - 1000715000						call	Flow_MP00G_TD_Mbist_BV																															
+TNum 1000715000 - 1000765000						call	Flow_MP002_TD_Mbist_BV																															
+TNum 1000765000 - 1000815000						call	Flow_MP003_TD_Mbist_BV																															
+TNum 1000815000 - 1000865000						call	Flow_MP004_TD_Mbist_BV																															
+TNum 1000865000 - 1000915000						call	Flow_MP005_TD_Mbist_BV																															
+TNum 1000915000 - 1000965000						call	Flow_MP006_TD_Mbist_BV																															
+TNum 1000965000 - 1001015000						call	Flow_MP007_TD_Mbist_BV																															
+TNum 1001015000 - 1001065000						call	Flow_MP008_TD_Mbist_BV																															
+TNum 1001065000 - 1001115000						call	Flow_MP009_TD_Mbist_BV																															
+TNum 1001115000 - 1001165000						call	Flow_MP00A_TD_Mbist_BV																															
+TNum 1001165000 - 1001215000						call	Flow_MP00B_TD_Mbist_BV																															
+TNum 1001215000 - 1001265000						call	Flow_MP00C_TD_Mbist_BV																															
+TNum 1001265000 - 1001315000						call	Flow_MP00D_TD_Mbist_BV																															
+TNum 1001315000 - 1001365000						call	Flow_MP00E_TD_Mbist_BV																															
+TNum 1001365000 - 1001415000						call	Flow_MP00F_TD_Mbist_BV																															
+		FT1||FT1				test	Set_VBinResult_without_Test		1001415000																													
+						print	"print: Vddbinning_PrintOutVddBinning start"																															
+						test	PrintOutVddBinning		1001416000												F_Vddbinning_Fail_Stop																	
+						BinTable	Vddbinning_Fail_Stop																															
+						print	"print: Vddbinning_PrintOutVddBinning end"																															
+						print	"print: Vddbinning_Adjust_VddBinning start"																															
+		FT1||FT1				test	Adjust_VddBinning		1001417000												F_Vddbinning_Fail_Stop																	
+						BinTable	Vddbinning_Fail_Stop																															
+						print	"print: Vddbinning_Adjust_VddBinning end"																															
+						print	"print: Flow_Vddbinning end"																															
+						test	FuseBinnedProductVoltages		1001418000																													
+		FT1||FT1				test	Power_Binning		1001419000																													
+						BinTable	Vddbinning_Power_Binning_Fail_Stop																															
+						Return																																

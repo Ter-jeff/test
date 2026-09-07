@@ -1,0 +1,96 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MyAvalonia.Controls.MyWindowCommandBar"
+             Height="36"
+             Padding="0,0,5,5"
+             Margin="0">
+  <Grid x:Name="MyGrid" HorizontalAlignment="Stretch">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+
+    <StackPanel x:Name="MySettingBar"
+                Grid.Column="0"
+                Margin="3"
+                Orientation="Horizontal" />
+
+    <TextBlock Grid.Column="1"
+               Margin="5,0,0,0"
+               FontSize="12"
+               HorizontalAlignment="{Binding TitleHorizontalAlignment}"
+               VerticalAlignment="Center"
+               Foreground="{DynamicResource MyFontBrush}"
+               Text="{Binding Title}" />
+
+    <!-- Help -->
+    <Button Grid.Column="2"
+            x:Name="HelpButton"
+            IsVisible="{Binding ShowHelp}"
+            Padding="4"
+            Background="Transparent"
+            BorderThickness="0"
+            ToolTip.Tip="Help"
+            Click="HelpButton_Click">
+      <Viewbox Width="16" Height="16">
+        <Canvas Width="16" Height="16">
+          <Path Stroke="{DynamicResource MyFontBrush}" StrokeThickness="1.5"
+                StrokeLineCap="Round"
+                Data="M5,5 C5,3 11,3 11,6 C11,8 8,8 8,10 M8,13 L8,13.5"/>
+        </Canvas>
+      </Viewbox>
+    </Button>
+
+    <!-- Minimize -->
+    <Button Grid.Column="3"
+            Padding="4"
+            Background="Transparent"
+            BorderThickness="0"
+            ToolTip.Tip="Minimize"
+            Click="MinimizeButton_Click">
+      <Viewbox Width="16" Height="16">
+        <Canvas Width="16" Height="16">
+          <Path Stroke="{DynamicResource MyFontBrush}" StrokeThickness="1.5"
+                StrokeLineCap="Round"
+                Data="M3,10 L13,10"/>
+        </Canvas>
+      </Viewbox>
+    </Button>
+
+    <!-- Maximize -->
+    <Button Grid.Column="4"
+            Padding="4"
+            Background="Transparent"
+            BorderThickness="0"
+            ToolTip.Tip="Maximize"
+            Click="MaximizeButton_Click">
+      <Viewbox Width="16" Height="16">
+        <Canvas Width="16" Height="16">
+          <Path Stroke="{DynamicResource MyFontBrush}" StrokeThickness="1.5"
+                StrokeLineCap="Round"
+                Data="M3,3 L13,3 L13,13 L3,13 Z"/>
+        </Canvas>
+      </Viewbox>
+    </Button>
+
+    <!-- Close -->
+    <Button Grid.Column="5"
+            Padding="4"
+            Background="Transparent"
+            BorderThickness="0"
+            ToolTip.Tip="Close"
+            Click="CloseButton_Click">
+      <Viewbox Width="16" Height="16">
+        <Canvas Width="16" Height="16">
+          <Path Stroke="{DynamicResource MyFontBrush}" StrokeThickness="1.5"
+                StrokeLineCap="Round"
+                Data="M3,3 L13,13 M13,3 L3,13"/>
+        </Canvas>
+      </Viewbox>
+    </Button>
+  </Grid>
+</UserControl>

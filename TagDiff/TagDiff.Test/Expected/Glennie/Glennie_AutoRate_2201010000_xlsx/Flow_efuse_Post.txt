@@ -1,0 +1,17 @@
+Pass Rate	84.62%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	13	Pass Rows	11																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	5	5						print	"Flow Flow_efuse_Post Start"																														
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	6	6						flag-clear	F_Post_Enable																														
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	7	7		Enable_Flow_efuse_Post				flag-true	F_Post_Enable																														
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	8	8						If	F_Post_Enable																														
+MissingCompared	Flow_efuse_Post.txt		9							Test	BinNumber_PreCheck		1370000												F_RT_PreWrite_Fail																
+MissingCompared	Flow_efuse_Post.txt		10							Bintable	Bin_EFUSE_RT_PreWrite																														
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	11	9						call	Flow_efuse_PreWrite																														
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	12	10						call	Flow_efuse_Config																														
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	13	11		Pgm2File				Test	PseudoFuse_WriteToFile														F_PseudoFuse_WriteToFile																
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	14	12						Bintable	Bin_EFUSE_PseudoFuse_WriteToFile																														
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	15	13						EndIf																															
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	16	14						print	"Flow Flow_efuse_Post Stop"																														
+P	Flow_efuse_Post.txt	Flow_efuse_Post.txt	17	15						return																															

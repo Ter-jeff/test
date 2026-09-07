@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<OutputType>Library</OutputType>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Nullable>enable</Nullable>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TerLintAnalyzer\TerLintAnalyzer.csproj" PrivateAssets="all" ReferenceOutputAssembly="false" OutputItemType="Analyzer" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\IgxlLib\IgxlLib.csproj" />
+		<ProjectReference Include="..\LogLib\LogLib.csproj" />
+	</ItemGroup>
+
+</Project>

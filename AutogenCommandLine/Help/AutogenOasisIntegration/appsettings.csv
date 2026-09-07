@@ -1,0 +1,5 @@
+SettingGroup,Key,Value
+autogen,cliPath,D:\Example\tools\autogen-cli.5.1.1-dev\tools\net8.0\any\AutogenCommandLine.exe
+autogen,inputInfoPath,D:\Example\InputInfo.csv
+oasis,addinClientPath,C:\Program Files (x86)\Teradyne\oasis\OasisAddInClient.exe
+oasis,projectFolder,D:\Example\TP\

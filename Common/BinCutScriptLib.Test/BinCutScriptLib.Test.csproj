@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <TestProjectType>UnitTest</TestProjectType>
+    <IsTestProject>true</IsTestProject>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest" Version="3.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Input\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Expected\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BinCutScriptLib\BinCutScriptLib.csproj" />
+    <ProjectReference Include="..\FileDiffLib\FileDiffLib.csproj" />
+  </ItemGroup>
+
+</Project>

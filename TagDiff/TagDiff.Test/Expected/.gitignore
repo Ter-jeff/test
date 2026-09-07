@@ -1,0 +1,9 @@
+# including bin
+!bin
+*.igxl
+*.xls
+*.xlsx
+*.xlsm
+*.dll
+*.log
+ElapsedTime.json

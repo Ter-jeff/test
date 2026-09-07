@@ -1,0 +1,20 @@
+﻿<protocol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" description="Clock from 100Mhz Ref to PLL, to 26Mhz DUT Clock" version="1.0" defaultName="Clock" controller="Dut" validFamilies="">
+	<function name="ClockOut" group="" type="Clock" description="Clock Out to DUT" />
+	<function name="RefClk" group="" type="DutClock" description="RefClk from DUT" />
+	<function name="ClockOut_2" group="" type="Clock" description="" />
+	<setting name="IgnoreContextChanges" defaultValue="True" validOptions="True,False" />
+	<frame name="RunFreeClock" description="Writes" type="Write" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">- -</cycle>
+			<cycle repeat="0">- -</cycle>
+			<cycle repeat="0">- -</cycle>
+			<cycle repeat="28">- -</cycle>
+		</data>
+	</frame>
+	<frame name="Idle" description="" type="Idle" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="7">- -</cycle>
+		</data>
+	</frame>
+	<layer_map has_hardware_layering="false" />
+</protocol>

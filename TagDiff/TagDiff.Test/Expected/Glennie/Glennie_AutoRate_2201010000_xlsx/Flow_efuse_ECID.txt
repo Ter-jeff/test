@@ -1,0 +1,25 @@
+Pass Rate	35.00%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	20	Pass Rows	7																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	5	5						print	"Flow Flow_efuse_ECID Start"																														
+P	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	6	6						flag-clear	F_ECID_Enable																														
+P	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	7	7		Enable_Flow_efuse_ECID				flag-true	F_ECID_Enable																														
+P	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	8	8						If	F_ECID_Enable																														
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	9	9			CP1 => 			Test	Copy_Default_Fuse_For_ECID_Bank_To_Cache		1530100												F_ECID_Fail							site-var=	Efuse_ecid_Current 0								
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	10	10			CP1 => 			Bintable	Bin_EFUSE_ECID_Fail																														
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	12	12			CP1 => 			Bintable	Bin_EFUSE_ECID_Fail																														
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	11	11			CP1 => 			Test	Set_Ecid_Values		1530200												F_ECID_Fail							site-var=	Efuse_ecid_Current 0								
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	13	13			CP1 => 			Test	ECID_Init0_NV		1530300												F_ECID_PLL							site-var=	Efuse_ecid_Current 0								
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	14	14			CP1 => 			Bintable	Bin_EFUSE_ECID_PLL																														
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	15	15		 => CP1	CP1 => 			Test	ECID_WriteDSSC		1530400												F_ECID_WriteDSSC							site-var=	Efuse_ecid_Current 0								
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	16	16		 => CP1	CP1 => 			Bintable	Bin_EFUSE_ECID_WriteDSSC																														
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	17	17		 => CP1||FT2	CP1,FT2 => 			Test	ECID_Read_WR_Syntax_MR1_LV		1530500												F_ECID_Read							site-var=	Efuse_ecid_Current 0								
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	18	18		 => CP1||FT2	CP1,FT2 => 			Bintable	Bin_EFUSE_ECID_Read																														
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	22	20		 => CP2||FT1||FT2				Bintable	Bin_EFUSE_ECID_Read																														
+M		Flow_efuse_ECID.txt		22						 => Bintable	 => Bin_EFUSE_ECID_Read																														
+M	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	21	21						Test	ECID_JTAGRead		1530700												F_ECID_Read							site-var> => site-var=	Efuse_ecid_Current 0								
+P	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	23	23						EndIf																															
+P	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	24	24						print	"Flow Flow_efuse_ECID Stop"																														
+P	Flow_efuse_ECID.txt	Flow_efuse_ECID.txt	25	25						return																															
+MissingBase		Flow_efuse_ECID.txt		19		CP2||FT1||FT2				Test	ECID_Read_WR_Syntax_MR1_HV		1530600												F_ECID_Read							site-var=	Efuse_ecid_Current 0								

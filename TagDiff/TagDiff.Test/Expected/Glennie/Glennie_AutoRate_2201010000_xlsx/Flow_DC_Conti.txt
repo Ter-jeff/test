@@ -1,0 +1,109 @@
+Pass Rate	66.67%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	105	Pass Rows	70																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	5	5						print	"Flow_DC_Conti Start"																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	6	6						flag-clear	F_open																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	7	7						flag-clear	F_short																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	8	8						flag-clear	F_powershort																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	9	9						flag-clear	F_powersense																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	10	10						flag-clear	F_groundsense																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	11	11						flag-clear	F_CRES																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	12	12						flag-clear	F_PowerUp_Alarm																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	13	13						Test	SetPPMU_Clamp_Conti		100																												
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	14	14						Test	SetPOWER_Alarm		199																												
+MissingCompared	Flow_DC_Conti.txt		15							Test	Relay_On_Conti_nWire																														
+MissingCompared	Flow_DC_Conti.txt		16							Test	WalkingZ_DC_nWireContinuity_Pos		201												F_WalkingZ_DC_Continuity_nWireContiPos_Pos																
+MissingCompared	Flow_DC_Conti.txt		17							Test	WalkingZ_DC_nWireContinuity_Neg		202												F_WalkingZ_DC_Continuity_nWireContiPos_Pos																
+MissingCompared	Flow_DC_Conti.txt		18			CP1				Test	DC_Continuity_PPMU_CONTINUITY_NWIRE_NEG_CP1		205																			flag-true	F_WalkingZ_DC_Continuity_nWireContiPos_Pos								
+MissingCompared	Flow_DC_Conti.txt		19			CP2				Test	DC_Continuity_PPMU_CONTINUITY_NWIRE_NEG_CP2		220																			flag-true	F_WalkingZ_DC_Continuity_nWireContiPos_Pos								
+MissingCompared	Flow_DC_Conti.txt		20			FT1				Test	DC_Continuity_PPMU_CONTINUITY_NWIRE_NEG_FT1		235																			flag-true	F_WalkingZ_DC_Continuity_nWireContiPos_Pos								
+MissingCompared	Flow_DC_Conti.txt		21			FT2				Test	DC_Continuity_PPMU_CONTINUITY_NWIRE_NEG_FT2		235																			flag-true	F_WalkingZ_DC_Continuity_nWireContiPos_Pos								
+MissingCompared	Flow_DC_Conti.txt		22			CP1				Test	DC_Continuity_PPMU_CONTINUITY_NWIRE_POS_CP1		250																			flag-true	F_WalkingZ_DC_Continuity_nWireContiPos_Pos								
+MissingCompared	Flow_DC_Conti.txt		23			CP2				Test	DC_Continuity_PPMU_CONTINUITY_NWIRE_POS_CP2		265																			flag-true	F_WalkingZ_DC_Continuity_nWireContiPos_Pos								
+MissingCompared	Flow_DC_Conti.txt		24			FT1				Test	DC_Continuity_PPMU_CONTINUITY_NWIRE_POS_FT1		280																			flag-true	F_WalkingZ_DC_Continuity_nWireContiPos_Pos								
+MissingCompared	Flow_DC_Conti.txt		25			FT2				Test	DC_Continuity_PPMU_CONTINUITY_NWIRE_POS_FT2		280																			flag-true	F_WalkingZ_DC_Continuity_nWireContiPos_Pos								
+MissingCompared	Flow_DC_Conti.txt		26							Test	Relay_On_Conti																														
+MissingCompared	Flow_DC_Conti.txt		27							Test	WalkingZ_DC_Continuity_Pos		290												F_WalkingZ_DC_Continuity_Pos_25C																
+MissingCompared	Flow_DC_Conti.txt		28							Test	WalkingZ_DC_Continuity_Neg		291												F_WalkingZ_DC_Continuity_Pos_25C																
+MissingCompared	Flow_DC_Conti.txt		29							Test	WalkingZ_DC_Continuity_DIFF_P_Pos		292												F_WalkingZ_DC_Continuity_Pos_25C																
+MissingCompared	Flow_DC_Conti.txt		30							Test	WalkingZ_DC_Continuity_DIFF_N_Pos		293												F_WalkingZ_DC_Continuity_Pos_25C																
+MissingCompared	Flow_DC_Conti.txt		31							Test	WalkingZ_DC_Continuity_DIFF_P_Neg		294												F_WalkingZ_DC_Continuity_Pos_25C																
+MissingCompared	Flow_DC_Conti.txt		32							Test	WalkingZ_DC_Continuity_DIFF_N_Neg		295												F_WalkingZ_DC_Continuity_Pos_25C																
+M	Flow_DC_Conti.txt	Flow_DC_Conti.txt	33	15		CP1				Test	DC_Continuity_PPMU_CONTINUITY_NEG_CP1		298																			flag-true => 	F_WalkingZ_DC_Continuity_Pos_25C => 								
+M	Flow_DC_Conti.txt	Flow_DC_Conti.txt	34	16		CP2				Test	DC_Continuity_PPMU_CONTINUITY_NEG_CP2		397																			flag-true => 	F_WalkingZ_DC_Continuity_Pos_25C => 								
+M	Flow_DC_Conti.txt	Flow_DC_Conti.txt	35	17		FT1				Test	DC_Continuity_PPMU_CONTINUITY_NEG_FT1		496																			flag-true => 	F_WalkingZ_DC_Continuity_Pos_25C => 								
+MissingCompared	Flow_DC_Conti.txt		36			FT2				Test	DC_Continuity_PPMU_CONTINUITY_NEG_FT2		496																			flag-true	F_WalkingZ_DC_Continuity_Pos_25C								
+M	Flow_DC_Conti.txt	Flow_DC_Conti.txt	37	18		CP1				Test	DC_Continuity_PPMU_CONTINUITY_POS_CP1		595																			flag-true => 	F_WalkingZ_DC_Continuity_Pos_25C => 								
+M	Flow_DC_Conti.txt	Flow_DC_Conti.txt	38	19		CP2				Test	DC_Continuity_PPMU_CONTINUITY_POS_CP2		694																			flag-true => 	F_WalkingZ_DC_Continuity_Pos_25C => 								
+M	Flow_DC_Conti.txt	Flow_DC_Conti.txt	39	20		FT1				Test	DC_Continuity_PPMU_CONTINUITY_POS_FT1		793																			flag-true => 	F_WalkingZ_DC_Continuity_Pos_25C => 								
+MissingCompared	Flow_DC_Conti.txt		40			FT2				Test	DC_Continuity_PPMU_CONTINUITY_POS_FT2		793																			flag-true	F_WalkingZ_DC_Continuity_Pos_25C								
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	41	21		CP1				Test	DC_Continuity_UVI80_Continuity_All_DCVI_Pos_CP1		892																												
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	42	22		CP2				Test	DC_Continuity_UVI80_Continuity_All_DCVI_Pos_CP2		991																												
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	43	23		FT1				Test	DC_Continuity_UVI80_Continuity_All_DCVI_Pos_FT1		1090																												
+MissingCompared	Flow_DC_Conti.txt		44			FT2				Test	DC_Continuity_UVI80_Continuity_All_DCVI_Pos_FT2		1090																												
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	45	27		CP1				Test	DC_Continuity_UVI80_Continuity_All_DCVI_Neg_CP1		1189																												
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	46	28		CP2				Test	DC_Continuity_UVI80_Continuity_All_DCVI_Neg_CP2		1288																												
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	47	29		FT1				Test	DC_Continuity_UVI80_Continuity_All_DCVI_Neg_FT1		1387																												
+MissingCompared	Flow_DC_Conti.txt		48			FT2				Test	DC_Continuity_UVI80_Continuity_All_DCVI_Neg_FT2		1387																												
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	49	24						Bintable	Bin_DC_open_short																														
+M		Flow_DC_Conti.txt		30						 => Bintable	 => Bin_DC_open_short																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	50	25						Bintable	Bin_DC_open																														
+M		Flow_DC_Conti.txt		31						 => Bintable	 => Bin_DC_open																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	51	26						Bintable	Bin_DC_short																														
+M		Flow_DC_Conti.txt		32						 => Bintable	 => Bin_DC_short																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	52	33		AutoZOnly				set-device										9		9997	Fail-stop																		
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	53	34		CP1				Test	DC_Continuity_Power_Short_Serial_5mv_CP1		1486												F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	54	35		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDIO12_GRP1		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	55	36		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDIO12_GRP2		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	56	37		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDIO12_GRP3		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	57	38		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDIO10_ULPPLL_FLPPLL		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	58	39		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDIO10_AMUX		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	59	40		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_DIG		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	60	41		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_SOC		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	61	42		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDIO12_EUSB		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	62	43		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_ULPPLL_FLPPLL		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	63	44		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_OSC60M		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	64	45		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_FIXED_EUSB		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	65	46		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDD_SRAM		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	66	47		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDA_EFUSE2		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	67	48		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDA_EFUSE1		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	68	49		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_5mv_CP1	VDDA_EFUSE0		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	69	50		CP2				Test	DC_Continuity_Power_Short_Serial_5mv_CP2		1585												F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	85	66		FT1				Test	DC_Continuity_Power_Short_Serial_5mv_FT1		1684												F_powershort																
+MissingCompared	Flow_DC_Conti.txt		100			FT2				Test	DC_Continuity_Power_Short_Serial_5mv_FT2		1684												F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	115	81		CP1				Test	DC_Continuity_Power_Short_Serial_CP1		1783												F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	116	82		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDDIO12_GRP1		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	117	83		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDDIO12_GRP2		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	118	84		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDDIO12_GRP3		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	119	85		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDDIO10_ULPPLL_FLPPLL		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	120	86		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDDIO10_AMUX		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	121	87		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDD_DIG		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	122	88		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDD_SOC		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	123	89		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDDIO12_EUSB		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	124	90		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDD_FIXED_ULPPLL_FLPPLL		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	125	91		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDD_FIXED_OSC60M		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	126	92		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDD_FIXED_EUSB		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	127	93		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDD_SRAM		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	128	94		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDDA_EFUSE2		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	129	95		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDDA_EFUSE1		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	130	96		CP1	CP1			Use-Limit	DC_Continuity_Power_Short_Serial_CP1	VDDA_EFUSE0		-0.001	0.05	m	A								F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	131	97		CP2				Test	DC_Continuity_Power_Short_Serial_CP2		1882												F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	147	113		FT1				Test	DC_Continuity_Power_Short_Serial_FT1		1981												F_powershort																
+MissingCompared	Flow_DC_Conti.txt		162			FT2				Test	DC_Continuity_Power_Short_Serial_FT2		1981												F_powershort																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	177	128		CP1				Test	DC_Continuity_PowerSense_CP1		2080												F_powersense																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	178	129		CP2				Test	DC_Continuity_PowerSense_CP2		2179												F_powersense																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	179	130		CP1				Test	DC_Continuity_PowerImpedance_CP1		2278												F_powersense																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	180	131		CP2				Test	DC_Continuity_PowerImpedance_CP2		2377												F_powersense																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	181	132		FT1				Test	DC_Continuity_GroundImpedance_FT1		2476												F_powersense																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	182	133		FT2				Test	DC_Continuity_GroundImpedance_FT2		2575												F_powersense																
+MissingCompared	Flow_DC_Conti.txt		183							Test	DC_Continuity_eFuse_PowerPin_CRES		2585												F_powershort																
+MissingCompared	Flow_DC_Conti.txt		184							Bintable	Bin_DC_powershort																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	185	134						Bintable	Bin_DC_powersense																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	186	135						Bintable	Bin_DC_GND_sense																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	187	136						Bintable	Bin_DC_powerResistance																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	188	137						Test	StartSBClock		2674																												
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	189	138						Test	PowerUp		2773												F_PowerUp_Alarm																
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	190	139						Bintable	Bin_PowerUp_Alarm																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	191	140						print	"Flow_DC_Conti End"																														
+P	Flow_DC_Conti.txt	Flow_DC_Conti.txt	192	141						return																															

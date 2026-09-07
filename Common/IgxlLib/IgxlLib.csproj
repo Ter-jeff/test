@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="IgxlLib.Test" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\TerLintAnalyzer\TerLintAnalyzer.csproj" PrivateAssets="all" ReferenceOutputAssembly="false" OutputItemType="Analyzer" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Packaging" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="IGDataXML\IGXLSheetsVersion\IGXLSheets.cs">
+      <DependentUpon>IGXLSheets.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="IGDataXML\SheetClassMapping\IGXL.cs">
+      <DependentUpon>IGXL.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IGDataXML\IGXLSheetsVersion\IGXLSheets.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IGDataXML\IGXLSheetsVersion\v3.60_j750.xml" />
+    <None Include="IGDataXML\IGXLSheetsVersion\v5.30_flex.xml" />
+    <None Include="IGDataXML\IGXLSheetsVersion\v8.10_ultraflex.xml" />
+    <None Include="IGDataXML\IGXLSheetsVersion\v8.20_ultraflex.xml" />
+    <EmbeddedResource Include="IGDataXML\IGXLSheetsVersion\v8.30_ultraflex.xml" />
+    <EmbeddedResource Include="IGDataXML\IGXLSheetsVersion\v9.00_ultraflex.xml" />
+    <None Include="IGDataXML\SheetClassMapping\IGXL.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IGDataXML\SheetClassMapping\v3.60_j750.xml" />
+    <None Include="IGDataXML\SheetClassMapping\v5.30_flex.xml" />
+    <None Include="IGDataXML\SheetClassMapping\v8.10_ultraflex.xml" />
+    <None Include="IGDataXML\SheetClassMapping\v8.20_ultraflex.xml" />
+    <None Include="IGDataXML\SheetClassMapping\v8.30_ultraflex.xml" />
+    <EmbeddedResource Include="IGDataXML\SheetClassMapping\v9.00_ultraflex.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IGDataXML\IGXLSheetsVersion\v10.00_ultraflex.xml" />
+    <EmbeddedResource Include="IGDataXML\IGXLSheetsVersion\v10.10_ultraflex.xml" />
+    <EmbeddedResource Include="IGDataXML\SheetClassMapping\v10.00_ultraflex.xml" />
+    <EmbeddedResource Include="IGDataXML\SheetClassMapping\v10.10_ultraflex.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IGDataXML\IGXLSheetsVersion\v10.20_ultraflex.xml" />
+    <EmbeddedResource Include="IGDataXML\SheetClassMapping\v10.20_ultraflex.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommonLib\CommonLib.csproj" />
+  </ItemGroup>
+
+</Project>

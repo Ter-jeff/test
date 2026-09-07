@@ -1,0 +1,20 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow S_BI_PP_FT_ERT Start "																															
+						flag-clear	Control__00_TPV,Control_BIST_SETUP,Control_BIST_ERT_1WD,Control_BIST_ERT_1WD_S5,Control_BIST_ERT_1WD_P1000,Control_BIST_ERT_1RD,Control_BIST_ERT_1WB,Control_BIST_ERT_1WB_S5,Control_BIST_ERT_1WB_P1000,Control_BIST_ERT_1RB,Control_BIST_FAIL,Control_PASS_BRANCH																															
+						flag-false	F_SOC_MBIST_BIST_ERT_1RD_NV,F_SOC_MBIST_BIST_ERT_1RB_NV																															
+_00_TPV						flag-true	Control_BIST_SETUP																															
+BIST_SETUP						Test	SocMbist_ERT_Mbist_Soc_Init_X_PatSet_BIST_SETUP_ERT_NV													Control_BIST_ERT_1WD	Control_BIST_ERT_1WD							flag-true	Control_BIST_SETUP									
+BIST_ERT_1WD						Test	SocMbist_ERT_Mbist_Soc_Init_X_PatSet_BIST_ERT_1WD_ERT_NV													Control_BIST_ERT_1WD_P1000	Control_BIST_ERT_1WD_P1000							flag-true	Control_BIST_ERT_1WD									
+BIST_ERT_1WD_P1000						Test	SocMbist_S_BI_PP_FT_ERT_Mbist_Soc_ERTBIST_Retention_Wait1000mS_STEP5													Control_BIST_ERT_1RD	Control_BIST_ERT_1RD							flag-true	Control_BIST_ERT_1WD_P1000									
+BIST_ERT_1RD						Test	SocMbist_ERT_Mbist_Soc_Init_X_PatSet_BIST_ERT_1RD_ERT_NV														Control_BIST_FAIL,F_SOC_MBIST_BIST_ERT_1RD_NV							flag-true	Control_BIST_ERT_1RD									
+BIST_ERT_1RD						flag-false	Control_BIST_ERT_1RD																					flag-true	Control_BIST_FAIL									
+BIST_ERT_1WB						Test	SocMbist_ERT_Mbist_Soc_Init_X_PatSet_BIST_ERT_1WB_ERT_NV													Control_BIST_ERT_1WB_P1000	Control_BIST_ERT_1WB_P1000							flag-true	Control_BIST_ERT_1WB									
+BIST_ERT_1WB_P1000						Test	SocMbist_S_BI_PP_FT_ERT_Mbist_Soc_ERTBIST_Retention_Wait1000mS_STEP5													Control_BIST_ERT_1RB	Control_BIST_ERT_1RB							flag-true	Control_BIST_ERT_1WB_P1000									
+BIST_ERT_1RB						Test	SocMbist_ERT_Mbist_Soc_Init_X_PatSet_BIST_ERT_1RB_ERT_NV													Control_PASS_BRANCH	Control_BIST_FAIL,F_SOC_MBIST_BIST_ERT_1RB_NV							flag-true	Control_BIST_ERT_1RB									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_ERT_1RD_NV																					flag-true	Control_BIST_FAIL									
+BIST_FAIL						Bintable	Bin_SOC_MBIST_BIST_ERT_1RB_NV																					flag-true	Control_BIST_FAIL									
+						print	"Flow S_BI_PP_FT_ERT End "																															
+PASS_BRANCH						Return																																

@@ -1,0 +1,24 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MyAvalonia.Controls"
+             x:Class="MyAvalonia.Controls.MyMessageOutput">
+  <ScrollViewer x:Name="Scroller"
+                Background="{DynamicResource MyContentBackground}"
+                VerticalScrollBarVisibility="Auto"
+                HorizontalScrollBarVisibility="Disabled">
+    <ItemsControl x:Name="MessageList"
+                  ItemsSource="{Binding Messages}">
+      <ItemsControl.ItemTemplate>
+        <DataTemplate DataType="{x:Type local:MessageItem}">
+          <SelectableTextBlock  Text="{Binding Text}"
+                                Foreground="{Binding Foreground}"
+                                FontSize="{Binding FontSize}"
+                                FontWeight="{Binding FontWeight}"
+                                FontFamily="{Binding FontFamily}"
+                                TextWrapping="Wrap"
+                                Margin="5,2" />
+        </DataTemplate>
+      </ItemsControl.ItemTemplate>
+    </ItemsControl>
+  </ScrollViewer>
+</UserControl>

@@ -1,0 +1,13 @@
+Type	Instance Name	Pattern Name	Capture Size	Print Size Per Site	Memory type	
+SFC	SOCSA.*	.*_S_PL.*	512	512	HRAM	
+SFC	SOCTD.*	.*_S_PL.*	512	512	HRAM	
+SFC	CPUSA.*	.*_C_PL.*	1	1	HRAM	
+SFC	GFXSA.*	.*_L_PL.*	1	1	HRAM	
+DFC	DFTX_XXXX		512	512	HRAM	
+FFC	.*_BV		128	1	HRAM	
+FingerPrint	.*SOCMbist.*	.*_S_PL01.*	512	512	HRAM	
+FingerPrint	.*CPUMbist.*	.*_C_PLLP.*	512	512	HRAM	
+FingerPrint	.*GfxMbist.*	.*_L_PLLP.*	512	512	HRAM	
+RSCR	.*SOCMbist.*	.*_RPI_.*	2048	2048	CMEM	
+RSCR	.*CPUMbist.*	.*_RPI_.*	2048	2048	CMEM	
+RSCR	.*GfxMbist.*	.*_RPI_.*	2048	2048	CMEM	

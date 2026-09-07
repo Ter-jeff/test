@@ -1,0 +1,23 @@
+DTPatternSetSheet,version=2.3:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Pattern Sets								
+									
+	Pattern Set	Time Domain	Enable	File/Group Name	Burst	Start Label	Stop Label	Comment	
+	DSSC_SPIROM_ReadData			.\Pattern\SPIROM\SPIROM_Read_DSSC.pat	no				
+	DSSC_SPIROM_Erase			.\Pattern\SPIROM\SPIROM_ChipEraseAddrNCheckWIP.pat	no				
+	DSSC_SPIROM_SectorErase			.\Pattern\SPIROM\SPIROM_SectorEraseNCheckWIP.pat	no				
+	DSSC_SPIROM_Program			.\Pattern\SPIROM\SPIROM_PageProgram.pat	no				
+	DSSC_SPIROM_ReadID			.\Pattern\SPIROM\SPIROM_ReadID.pat	no				
+	DSSC_SPIROM_Addr_ReadData			.\Pattern\SPIROM\SPIROM_Read_Addr_DSSC.pat	no				
+	RTOS_Boot_Pattern_DFU			.\Pattern\SPIROM\DD_GLNA0_S_FULP_FU_DFUX_PFF_RTS_FUN_ALLFRV_SI_4_A0_2504280445.pat:DD_GLNA0_S_FULP_FU_DFUX_PFF_RTS_FUN_ALLFRV_SI_4_A0_2504280445	no				
+	RTOS_Boot_Pattern_DFU_BOOT			.\Pattern\SPIROM\DD_GLNA0_S_FULP_FU_DFUX_PFF_RTS_FUN_ALLFRV_SI_DFU_BOOT_2_A0_2504171559.pat:DD_GLNA0_S_FULP_FU_DFUX_PFF_RTS_FUN_ALLFRV_SI_DFU_BOOT_2_A0_2504171559	no				
+									
+									
+	DSSC_SPIROM_Addr_ReadData								
+									
+									
+									
+									
+									
+									
+				:DD_GLNA0_S_FULP_FU_DFUX_PFF_RTS_FUN_ALLFRV_SI_2_A0_2504171559.pat					
+									
+				DD_GLNA0_S_FULP_FU_DFUX_PFF_RTS_FUN_ALLFRV_SI_2_A0_2504171559.pat					

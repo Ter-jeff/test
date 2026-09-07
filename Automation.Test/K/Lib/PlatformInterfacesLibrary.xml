@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PlatformInterfacesLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:PlatformInterfacesLibrary.BurstType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.BurstType.Unknown">
+            <summary>
+            Unknown
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.BurstType.Burst">
+            <summary>
+            Yes burst
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.BurstType.NoBurst">
+            <summary>
+            No burst
+            </summary>
+        </member>
+        <member name="T:PlatformInterfacesLibrary.CaptureSetupMemType">
+            <summary>
+            To pickup the type of Hardware in where to do the capture
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.CaptureSetupMemType.Unknown">
+            <summary>
+            Unknown
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.CaptureSetupMemType.Hram">
+            <summary>
+            HRAM
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.CaptureSetupMemType.Cmem">
+            <summary>
+            CMEM
+            </summary>
+        </member>
+        <member name="T:PlatformInterfacesLibrary.DatalogSetups.DatalogSetups">
+            <summary>
+            Datalog setup FTR and PTR.
+            The numbers are coming from the experience based on multiple projects.
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.DatalogSetups.DatalogSetups.PtrTestNameWidth">
+            <summary>
+            The PTR test name width
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.DatalogSetups.DatalogSetups.PtrMeasureWidth">
+            <summary>
+            The PTR measure width
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.DatalogSetups.DatalogSetups.PtrNumberWidth">
+            <summary>
+            The PTR number width
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.DatalogSetups.DatalogSetups.PtrPinWidthth">
+            <summary>
+            The PTR pin width
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.DatalogSetups.DatalogSetups.FtrTestNameWidth">
+            <summary>
+            The FTR test name width
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.DatalogSetups.DatalogSetups.FtrPatternWidth">
+            <summary>
+            The FTR pattern width
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.DatalogSetups.DatalogSetups.FtrNumberWidth">
+            <summary>
+            The FTR number width
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.DatalogSetups.DatalogSetups.FtrCycleWidth">
+            <summary>
+            The FTR cycle width
+            </summary>
+        </member>
+        <member name="T:PlatformInterfacesLibrary.ICaptureSetupIO">
+            <summary>
+            Interface to program HW capture setups
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.ICaptureSetupIO.SetCaptureConfig(PlatformInterfacesLibrary.CaptureSetupMemType,System.Int32)">
+            <summary>
+            Sets the capture configuration.
+            </summary>
+            <param name="memType">Enum that defines the type of Hardware to use.</param>
+            <param name="captureSize">Size of the capture.</param>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.ICaptureSetupIO.StopCapture(PlatformInterfacesLibrary.CaptureSetupMemType)">
+            <summary>
+            ' This function turns off central capture
+            </summary>
+            <param name="memType">Type of the memory.</param>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.ICaptureSetupIO.SsnCmemSetup(System.Int32)">
+            <summary>
+            SSNs the cmem setup.
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.ICaptureSetupIO.SsnCmemReset">
+            <summary>
+            SSNs the cmem reset.
+            </summary>
+        </member>
+        <member name="T:PlatformInterfacesLibrary.IDatalogManager">
+            <summary>
+            Interface for managing datalog configuration
+            </summary>    
+        </member>
+        <member name="P:PlatformInterfacesLibrary.IDatalogManager.LotId">
+            <summary>
+            Get the lot ID
+            </summary>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.IDatalogManager.WaferId">
+            <summary>
+            Get the wafer ID
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDatalogManager.SetWaferCoordinates(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Set wafer X and Y coordinates for a given site
+            </summary>
+            <param name="siteNumber">Site number</param>
+            <param name="xCoordinate">X coordinate</param>
+            <param name="yCoordinate">Y coordinate</param>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDatalogManager.ClearWaferCoordinates">
+            <summary>
+            Clear any wafer coordinates that have been set
+            </summary>
+        </member>
+        <member name="T:PlatformInterfacesLibrary.IDataManager">
+            <summary>
+            datamanager interface
+            </summary>    
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.DecomposePinList(System.String)">
+            <summary>
+            Decomposes the pin list.
+            </summary>
+            <param name="pinList">The pin list.</param>
+            <returns>The pins in the pin list.</returns>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.IsPinValid(System.String)">
+            <summary>
+            Check if pin is a valid pin name
+            </summary>
+            <param name="pin"></param>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.SsnDatalogSetup(System.Int32)">
+            <summary>
+            SSNs the datalog setup.
+            </summary>
+            <param name="captureLimit">The capture limit.</param>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.GetEnableFlags(System.String[]@)">
+            <summary>
+            Get all enable words
+            </summary>
+            <param name="flags"> return all enables as string with ","</param>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.GetSoftwareVerion">
+            <summary>
+            Return software version
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.GetSoftwareBuildVerion">
+            <summary>
+            Return software build version
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.GetRunOptionsDoAll">
+            <summary>
+            Return if enable DoAll
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.GetRunOptionsOverrideFailStop">
+            <summary>
+            Return if enable override fail stop
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.GetRunOptionsAssume">
+            <summary>
+            Return if enable assume
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.GetRunOptionsAssumeSiteDisable">
+            <summary>
+            Return if enable AssumeSiteDisable
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.SetDatalogDefaultSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+             <summary>
+             Default datalog format settings
+             PartResult                : Part result data consists of bin and sort numbers for each site.
+             XYCoordinates             : gets or sets whether to include X/Y coordinates in part results.
+             DisableChannelNumberInPTR : use a channel number in a Parametric Test Record
+             OutputWidth               : gets or sets the maximum number of characters to be displayed per line
+             DisableInstanceNameInPTR  : use of a test instance name in a Parametric Test Record (PTR) in datalogging
+             DisablePinNameInPTR       : use of a pin name in a Parametric Test Record (PTR) in datalogging
+             PTR_InstanceNameIsTINameOnly :  gets or sets which test name to use in a Parametric Test Record (PTR) test text
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.SetDatalogParametricColumnsSettings(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Parametric columns settings
+            </summary>
+            <param name="ptrTestNameWid">Parametric TestName Width</param>
+            <param name="ptrMeasureWid">Parametric Measured Width</param>
+            <param name="ptrNumberWid">Parametric Number Width</param>
+            <param name="ptrPinWid">Parametric Pin Width</param>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IDataManager.SetDatalogFunctionalColumnsSettings(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Functional columns settings
+            </summary>
+            <param name="ftrTestNameWid">Functional TestName Width</param>
+            <param name="ftrPatternWid">Functional Pattern Width</param>
+            <param name="ftrNumberWid">Functional Number Width</param>
+            <param name="ftrCycleWid">Parametric Cycle Width</param>
+        </member>
+        <member name="T:PlatformInterfacesLibrary.IPatternsTesterIO">
+            <summary>
+            Patterns tester IO interface
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IPatternsTesterIO.PatternSetToArray(System.String,System.Boolean,System.String[]@)">
+            <summary>
+            Patterns the set to array.
+            </summary>
+            <param name="testPattern">The test pattern.</param>
+            <param name="decompose">if set to <c>true</c> [decompose].</param>
+            <param name="patternSet">The pattern set.</param>
+        </member>
+        <member name="T:PlatformInterfacesLibrary.IPlatformTesterIO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.IPlatformTesterIO.PatternsTesterIO">
+            <summary>
+            Gets the patterns io.
+            </summary>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.IPlatformTesterIO.CaptureSetupIO">
+            <summary>
+            Gets the capture setup io.
+            </summary>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.IPlatformTesterIO.DataManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.IPlatformTesterIO.SheetManager">
+            <inheritdoc cref="T:PlatformInterfacesLibrary.ISheetManager"/>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.IPlatformTesterIO.Datalog">
+            <inheritdoc cref="T:PlatformInterfacesLibrary.IDatalogManager"/>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.IPlatformTesterIO.SiteManager">
+            <summary>
+            Site related operation.
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.IPlatformTesterIO.GetProgramPath">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PlatformInterfacesLibrary.ISheetManager">
+            <summary>
+            Interface for interacting with sheets and file system
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.ISheetManager.ReadCustomSheets">
+            <summary>
+            Reads all non-IGXL sheets
+            </summary>
+            <returns>Dictionary mapping sheet name to 2D string array [row, col]</returns>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.ISheetManager.ChannelMap">
+            <summary>
+            Channel Map
+            </summary>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.ISheetManager.DC">
+            <summary>
+            All DC spec sheet
+            </summary>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.ISheetManager.PatSetAll">
+            <summary>
+            All Patset sheet
+            </summary>
+        </member>
+        <member name="P:PlatformInterfacesLibrary.ISheetManager.BinTables">
+            <summary>
+            All Patset sheet
+            </summary>
+        </member>
+        <member name="T:PlatformInterfacesLibrary.ISiteManager">
+            <summary>
+            Defines site related operation, like reading/setting site flag state.
+            </summary>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.ISiteManager.GetFlagState(System.Int32,System.String)">
+            <summary>
+            Get flag state by specifying the site and flag.
+            </summary>
+            <param name="site"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.ISiteManager.SetFlagState(System.Int32,System.String,Teradyne.Igxl.Interfaces.Public.tlLogicState)">
+            <summary>
+            Set flag state by specifying the site and flag.
+            </summary>
+            <param name="site"></param>
+            <param name="flag"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.ISiteManager.CountTrueInFlags(System.Int32,System.Collections.Generic.List{System.String})">
+            <summary>
+            Sum up flag count which equals to true.
+            </summary>
+            <param name="site"></param>
+            <param name="flags"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.ISiteManager.CountFalseInFlags(System.Int32,System.Collections.Generic.List{System.String})">
+            <summary>
+            Sum up flag count which equals to true.
+            </summary>
+            <param name="site"></param>
+            <param name="flags"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlatformInterfacesLibrary.ISiteManager.GetActiveSiteValue">
+            <summary>
+            Get active site value.
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PlatformInterfacesLibrary.ISiteManager.GetSelectedSiteValue" -->
+        <member name="M:PlatformInterfacesLibrary.ISiteManager.SetSelectedSiteValue(Teradyne.Igxl.Interfaces.Public.Site{System.Boolean})">
+            <summary>
+            Set up site selected value.
+            </summary>
+            <param name="siteValue"></param>
+        </member>
+        <member name="T:PlatformInterfacesLibrary.PlatformType">
+            <summary>
+            Enum that defines platform types
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.PlatformType.Unknown">
+            <summary>
+            Unknown
+            </summary>
+        </member>
+        <member name="F:PlatformInterfacesLibrary.PlatformType.UltraFlex">
+            <summary>
+            The ultra flex
+            </summary>
+            
+        </member>
+        <member name="F:PlatformInterfacesLibrary.PlatformType.UltraFlexPlus">
+            <summary>
+            The ultra flex plus
+            </summary>
+        </member>
+    </members>
+</doc>

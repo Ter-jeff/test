@@ -1,0 +1,37 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	TestNameWidth_MBIST																															
+			CP1			call	Flow_S_BI_PP_CP1_BURST																															
+			CP2			call	Flow_S_BI_PP_CP2_BURST																															
+			CP1			call	Flow_L_BI_PP_CP1_BURST																															
+			CP2			call	Flow_L_BI_PP_CP2_BURST																															
+			CP1			call	Flow_C_BI_PP_CP1_BURST																															
+			CP2			call	Flow_C_BI_PP_CP2_BURST																															
+						Test	TestNameWidth_Tester																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_GFX0_HARV_CORE_0to11														F_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to11																	
+			CP1,CP2			Bintable	Bin_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to11																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_GFX0_HARV_CORE_0to5														F_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to5																	
+			CP1,CP2			Bintable	Bin_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to5																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_GFX0_HARV_CORE_6to11														F_GFX_MBIST_CoreOver_GFX0_HARV_CORE_6to11																	
+			CP1,CP2			Bintable	Bin_GFX_MBIST_CoreOver_GFX0_HARV_CORE_6to11																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_HCPU_HARV_CORE_0to1														F_CPU_MBIST_CoreOver_HCPU_HARV_CORE_0to1																	
+			CP1,CP2			Bintable	Bin_CPU_MBIST_CoreOver_HCPU_HARV_CORE_0to1																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_HCPU_HARV_CORE_2to5														F_CPU_MBIST_CoreOver_HCPU_HARV_CORE_2to5																	
+			CP1,CP2			Bintable	Bin_CPU_MBIST_CoreOver_HCPU_HARV_CORE_2to5																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_ECPU_HARV_CORE_0to5														F_CPU_MBIST_CoreOver_ECPU_HARV_CORE_0to5																	
+			CP1,CP2			Bintable	Bin_CPU_MBIST_CoreOver_ECPU_HARV_CORE_0to5																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_SOC_HARV_IS														F_SOC_MBIST_CoreOver_SOC_HARV_IS																	
+			CP1,CP2			Bintable	Bin_SOC_MBIST_CoreOver_SOC_HARV_IS																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_SOC_HARV_ED_0to1														F_SOC_MBIST_CoreOver_SOC_HARV_ED_0to1																	
+			CP1,CP2			Bintable	Bin_SOC_MBIST_CoreOver_SOC_HARV_ED_0to1																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_ANE0_HARV_CORE_0to16														F_SOC_MBIST_CoreOver_ANE0_HARV_CORE_0to16																	
+			CP1,CP2			Bintable	Bin_SOC_MBIST_CoreOver_ANE0_HARV_CORE_0to16																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_ANE1_HARV_CORE_0to16														F_SOC_MBIST_CoreOver_ANE1_HARV_CORE_0to16																	
+			CP1,CP2			Bintable	Bin_SOC_MBIST_CoreOver_ANE1_HARV_CORE_0to16																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_ANE0_HARV_CNTR														F_SOC_MBIST_CoreOver_ANE0_HARV_CNTR																	
+			CP1,CP2			Bintable	Bin_SOC_MBIST_CoreOver_ANE0_HARV_CNTR																															
+			CP1,CP2			Test	Harvest_Flag_Status_BIST_ANE1_HARV_CNTR														F_SOC_MBIST_CoreOver_ANE1_HARV_CNTR																	
+			CP1,CP2			Bintable	Bin_SOC_MBIST_CoreOver_ANE1_HARV_CNTR																															
+						Return																																

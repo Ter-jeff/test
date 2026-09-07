@@ -1,0 +1,146 @@
+Source,Module,SheetName,SubFlow,Enable (all sites),SiteFlag (per site),FailFlag,CP1,CP2,FT1,FT2,FT3,Comment,Include
+T-Autogen,Basic,Initialize,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE
+Custom,IGXL,Flow_Flag_Initialize,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE
+T-Autogen,SPIROM,Flow_Table_Write_SPIROM_Main,,!Pgm2File,,,,TRUE,,,,,TRUE
+TestPlan,Basic,Relay,Relay_On_Conti,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE
+TestPlan,DC,DCTEST_Continuity,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE
+TestPlan,Basic,Relay,Relay_On_HARDIP,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Tester,UF_Instance,ACIPHY_L5L4_SELECT,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+T-Autogen,Basic,Flow_nWire_Default_Disable,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,HardIP,HardIP_IO_JTAG,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+T-Autogen,Basic,Flow_nWire_Default_Enable,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Basic,Relay,Relay_Off_HARDIP,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE
+EFUSE,Efuse,Instance_EFUSE,Flow_efuse_BankRead,,,,TRUE,,TRUE,,,,TRUE
+EFUSE,Efuse,Instance_EFUSE,Flow_efuse_BankRead,!Pgm2File,,,,TRUE,,TRUE,TRUE,,TRUE
+EFUSE,Efuse,Instance_EFUSE,Flow_efuse_BankRead_ECID_only,Pgm2File,,,,,,TRUE,TRUE,,
+TestPlan,Tester,UF_Instance,PseudoFuse_ReadFromFile,Pgm2File,,F_EFUSE_PseudoFuse_WriteToFile,,TRUE,,TRUE,TRUE,,TRUE
+TestPlan,Tester,UF_Instance,GoodDie_Retest,!BypRetestCheck,,F_Efuse_FailDie,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE
+TestPlan,Tester,UF_Instance,BKM_CP,!Disable_eFuse_BKM,,F_Other_BKM_Fail,,,,,,removed,
+TestPlan,Tester,UF_Instance,IEDA_BKM_Before_Fusing,!Disable_eFuse_BKM,,F_Other_BKM_Fail,,,,,,removed,
+T-Autogen,Harvest,Flow_Harvest_eFuse_Read,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE
+TestPlan,Harvest,HarvestingTruthTable_RD,,,,,,TRUE,TRUE,TRUE,TRUE,,TRUE
+TestPlan,Basic,Relay,Relay_On_HARDIP,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+T-Autogen,Basic,Flow_nWire_Default_Disable,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,HardIP,HardIP_ADCDFT,,,,,,,,,,Key not found in dictionary,
+TestPlan,HardIP,HardIP_MTRICTS,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_nTSe,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_nTSr,,,,,,,,,,ERROR in datalog,
+T-Autogen,Basic,Flow_nWire_Default_Enable,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Basic,Relay,Relay_Off_HARDIP,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,IDS,DCTEST_IDS,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+T-Autogen,Opcode,flag-true,F_Force_EVS_On,Force_EVS_On,,,TRUE,,,,,,TRUE
+T-Autogen,Opcode,flag-true,F_Force_EVS_Off,Force_EVS_Off,,,TRUE,,,,,,TRUE
+T-Autogen,EVS,Instance_EVS,,,(Efuse_ecid_Current=0 || F_Force_EVS_On) && !F_Force_EVS_Off && !F_DCTEST_IDS_IDSCP_PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_Flag && !F_EVS_PreScreen,,TRUE,,,,,,TRUE
+T-Autogen,EVS,Instance_EVS,,!Force_EVS_Off,!F_DCTEST_IDS_IDSCP_PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_Flag && !F_EVS_PreScreen,,,TRUE,,,,,TRUE
+T-Autogen,Opcode,flag-false,F_EVS_No_Stress,,(Efuse_ecid_Current=1 && (!F_Force_EVS_On)) || F_Force_EVS_Off,F_EVS_No_Stress,TRUE,,,,,,TRUE
+T-Autogen,Opcode,flag-false,,Force_EVS_Off,F_Force_EVS_Off,F_EVS_No_Stress,,TRUE,,,,,TRUE
+EFUSE,Efuse,Instance_EFUSE,Flow_efuse_ECID,!CORR,,,,,,,,,TRUE
+TestPlan,IDS,DCTEST_IDS_CORR,,,,,TRUE,,,,,,TRUE
+TestPlan,Scan,Instance_SA_SOC,Flow_SOC_SAA_LV,,,,TRUE,,,,,,TRUE
+TestPlan,Scan,Instance_SA_SOC,Flow_SOC_SAA_EQN_HV,,,,,TRUE,,,,,TRUE
+TestPlan,Scan,Instance_SA_GFX,Flow_GFX_SAA_LV,,,,TRUE,,,,,,TRUE
+TestPlan,Scan,Instance_SA_GFX,Flow_GFX_SAA_EQN_HV,,,,,TRUE,,,,,TRUE
+TestPlan,Scan,Instance_SA_CPU,Flow_CPU_SAA_LV,,,,TRUE,,,,,,TRUE
+TestPlan,Scan,Instance_SA_CPU,Flow_CPU_SAA_EQN_HV,,,,,TRUE,,,,,TRUE
+TestPlan,Tester,UF_Instance,Harvest_Flag_Status_SA_GFX0_HARV_CORE_0to6,,,F_GFX_SA_CoreOver_GFX0_HARV_CORE_0to6,TRUE,TRUE,,,,,TRUE
+T-Autogen,Tester,FLOW_SOF_SA,,,,,TRUE,TRUE,,,,,TRUE
+SCGH,MBIST,S_BI_PP_CP1_BURST,,,,,TRUE,,,,,,TRUE
+SCGH,MBIST,L_BI_PP_CP1_BURST,,,,,TRUE,,,,,,TRUE
+SCGH,MBIST,C_BI_PP_CP1_BURST,,,,,TRUE,,,,,,TRUE
+SCGH,MBIST,S_BI_PP_CP2,,,,,,TRUE,,,,,TRUE
+SCGH,MBIST,L_BI_PP_CP2,,,,,,TRUE,,,,,TRUE
+SCGH,MBIST,C_BI_PP_CP2,,,,,,TRUE,,,,,TRUE
+TestPlan,Tester,UF_Instance,Harvest_Flag_Status_BIST_GFX0_HARV_CORE_0to6,,,F_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to6,TRUE,TRUE,,,,,TRUE
+TestPlan,Scan,Instance_OutsideBincut,Flow_Harv_Out_TD_min,,,,TRUE,,,,,,TRUE
+TestPlan,Scan,Instance_OutsideBincut,Flow_Harv_Out_TD_max,,,,TRUE,,,,,,TRUE
+TestPlan,Tester,UF_Instance,Harvest_Flag_Status_TD_GFX0_HARV_CORE_0to6,,,F_GFX_TD_CoreOver_GFX0_HARV_CORE_0to6,TRUE,TRUE,,,,,TRUE
+T-Autogen,Tester,FLOW_SOF_TD,,,,,TRUE,TRUE,,,,,TRUE
+TestPlan,Tester,ATE_STR_Summary,,,,,TRUE,TRUE,,,,,TRUE
+TestPlan,Harvest,HarvestingTruthTable_OB,,,,,TRUE,TRUE,,,,,TRUE
+T-Autogen,Basic,Flow_nWire_Default_Disable,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Basic,Relay,Relay_On_HARDIP,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,HardIP,HardIP_ADCDFT,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_MISC,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_FRO,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_CPLL,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_ADCLK,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_LAPLL,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_PCIEREFGEN,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_PCIE5CMN,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_ACIPHYCMN,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_ACIOPHYCMN,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_LPDPTXCMN,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_AMPCMN,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_PCIEREFPLL,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_PCIEPLL,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_CIOCIOPLL,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_CIODPPLL,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_LPDPDPPLL,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_LPDDRPLL,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,HardIP,HardIP_HSCSAROSC,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_ULPPLL,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_FLPPLL,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_SEPVMC,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_SEPF2M,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_MIDBIASLDO,,,,,,,,,,,
+TestPlan,HardIP,HardIP_VMADC,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_ACIOPHY,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_ACIPHY,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_LPDPTX,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_PCIE5,,,,,,,,,,ERROR in datalog,
+TestPlan,HardIP,HardIP_nTSx,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,HardIP,HardIP_PCIEREFBUF,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_eUSB,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+TestPlan,HardIP,HardIP_AMP_PreBinCut,,,,,TRUE,TRUE,TRUE,TRUE,,returned 7/1,TRUE
+T-Autogen,Basic,Flow_nWire_Default_Enable,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+T-Autogen,Opcode,enable-flow-word,Mon,,SubFlow_TurnOnFlag_ByDie,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,DIGIP,HardIP_DSGRINGS,,,,,TRUE,,,,,,TRUE
+TestPlan,DIGIP,HardIP_NPMS,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Basic,Relay,Relay_On_DAPS,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,DIGIP,HardIP_DAPS,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Basic,Relay,Relay_Off_DAPS,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,DIGIP,HardIP_NCKM,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,DIGIP,HardIP_LLPS_MN,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,DIGIP,HardIP_ABSMIN,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,DIGIP,HardIP_IVDM,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Basic,Relay,Relay_On_DSGVTHSENSOR,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,DIGIP,HardIP_DSGVTHSENSER,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Basic,Relay,Relay_Off_DSGVTHSENSOR,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,DIGIP,HardIP_PWRDET,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,DIGIP,HardIP_CLKMON,,,,,TRUE,,,,,,TRUE
+TestPlan,DIGIP,HardIP_DRAM,,,,,,,,TRUE,,,TRUE
+TestPlan,Basic,Relay,Relay_Off_HARDIP,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+T-Autogen,Opcode,disable-flow-word,Mon,,SubFlow_TurnOnFlag_ByDie,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+T-Autogen,Opcode,disable-flow-word,DisableCoreMask,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+BMS,Bincut,Flow_Vddbinning,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+BMS,Bincut,Flow_Vddbinning_HVCC,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+PBC,Bincut,Flow_PostBincut,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+T-Autogen,Basic,Flow_nWire_Default_Disable,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Basic,Relay,Relay_On_HARDIP,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,HardIP,HardIP_AMP,,,,,,,,,,ERROR in datalog,
+TestPlan,Basic,Relay,Relay_Off_HARDIP,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+T-Autogen,Basic,Flow_nWire_Default_Enable,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Scan,Instance_CPM,,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,Scan,Instance_SA_SOC,Flow_SOC_SAA_EQN_HV,,,,,,TRUE,,,,TRUE
+TestPlan,Scan,Instance_SA_SOC,Flow_SOC_SAA_LV,,,,,,,TRUE,,,TRUE
+TestPlan,Scan,Instance_SA_GFX,Flow_GFX_SAA_EQN_HV,,,,,,TRUE,,,,TRUE
+TestPlan,Scan,Instance_SA_GFX,Flow_GFX_SAA_LV,,,,,,,TRUE,,,TRUE
+TestPlan,Scan,Instance_SA_CPU,Flow_CPU_SAA_EQN_HV,,,,,,TRUE,,,,TRUE
+TestPlan,Scan,Instance_SA_CPU,Flow_CPU_SAA_LV,,,,,,,TRUE,,,TRUE
+T-Autogen,Tester,FLOW_SOF_SA,,,,,,,TRUE,TRUE,,,TRUE
+SCGH,MBIST,S_BI_PP_FT1,,,,,,,TRUE,,,,TRUE
+SCGH,MBIST,L_BI_PP_FT1,,,,,,,TRUE,,,,TRUE
+SCGH,MBIST,C_BI_PP_FT1,,,,,,,TRUE,,,,TRUE
+SCGH,MBIST,S_BI_PP_FT2,,,,,,,,TRUE,,,TRUE
+SCGH,MBIST,L_BI_PP_FT2,,,,,,,,TRUE,,,TRUE
+SCGH,MBIST,C_BI_PP_FT2,,,,,,,,TRUE,,,TRUE
+TestPlan,Tester,UF_Instance,Harvest_Summary_After_Harvesting_Decision_BC_Bin01,,,,TRUE,TRUE,TRUE,TRUE,,,TRUE
+TestPlan,RTOS,RTOS_UART,,!Pgm2File,,,,TRUE,,,,,TRUE
+TestPlan,Basic,Relay,Relay_On_Default,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE
+EFUSE,Efuse,Instance_EFUSE,Flow_efuse_Post,!CORR,,,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE
+EFUSE,Efuse,FuseCheckTable,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE
+TestPlan,Tester,UF_Instance,IEDA_All_ECID,!CORR,,,,,,,,removed,
+TestPlan,Tester,UF_Instance,IEDA_BKM_After_Fused,!CORR,,,,,,,,removed,
+TestPlan,Tester,UF_Instance,IEDA_Efuse_Revision,!CORR,,,,,,,,removed,
+TestPlan,Tester,UF_Instance,IEDA_Config_288Bits,!CORR,,,,,,,,removed,
+TestPlan,Basic,END,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE

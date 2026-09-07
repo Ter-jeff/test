@@ -1,0 +1,540 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	SOC_MBIST_HTOL_Header_1																															
+						print	"Flow SOC_MBIST_HTOL Start"																															
+Instance_HTOL,Row66,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDB0_S_PL01_BI_GO01_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row66,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDB0_S_PL01_BI_GO01_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDB0_S_PL01_BI_GO01_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO01_UnknowType																	
+Instance_HTOL,Row66,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDB0_S_PL01_BI_GO01_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO01_UnknowType									
+						endloop																																
+Instance_HTOL,Row66,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDB0_S_PL01_BI_GO01_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row67,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDB0_S_PL01_BI_GO02_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO02_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row67,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDB0_S_PL01_BI_GO02_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO02_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDB0_S_PL01_BI_GO02_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO02_UnknowType																	
+Instance_HTOL,Row67,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDB0_S_PL01_BI_GO02_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO02_UnknowType									
+						endloop																																
+Instance_HTOL,Row67,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDB0_S_PL01_BI_GO02_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO02_UnknowType_Profile_Plot																															
+Instance_HTOL,Row68,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDB0_S_PL01_BI_GO03_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO03_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row68,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDB0_S_PL01_BI_GO03_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO03_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDB0_S_PL01_BI_GO03_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO03_UnknowType																	
+Instance_HTOL,Row68,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDB0_S_PL01_BI_GO03_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO03_UnknowType									
+						endloop																																
+Instance_HTOL,Row68,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDB0_S_PL01_BI_GO03_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GO03_UnknowType_Profile_Plot																															
+Instance_HTOL,Row69,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row69,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX01_UnknowType																	
+Instance_HTOL,Row69,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX01_UnknowType									
+						endloop																																
+Instance_HTOL,Row69,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row70,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX02_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX02_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row70,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GX02_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX02_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GX02_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX02_UnknowType																	
+Instance_HTOL,Row70,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GX02_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX02_UnknowType									
+						endloop																																
+Instance_HTOL,Row70,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX02_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX02_UnknowType_Profile_Plot																															
+Instance_HTOL,Row71,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX03_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX03_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row71,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GX03_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX03_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GX03_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX03_UnknowType																	
+Instance_HTOL,Row71,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GX03_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX03_UnknowType									
+						endloop																																
+Instance_HTOL,Row71,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX03_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX03_UnknowType_Profile_Plot																															
+Instance_HTOL,Row72,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX04_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX04_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row72,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GX04_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX04_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GX04_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX04_UnknowType																	
+Instance_HTOL,Row72,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GX04_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX04_UnknowType									
+						endloop																																
+Instance_HTOL,Row72,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX04_BST_JTG_UNS_MDXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GX04_UnknowType_Profile_Plot																															
+Instance_HTOL,Row73,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MLXXXX_SI_SRVA_SG01_HTOL_SOC_MBIST_SRVA_GR01_SG01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row73,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MLXXXX_SI_SRVA_SG01_HTOL_SOC_MBIST_SRVA_GR01_SG01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MLXXXX_SI_SRVA_SG01_HTOL_SOC_MBIST_SRVA_GR01_SG01_UnknowType																	
+Instance_HTOL,Row73,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MLXXXX_SI_SRVA_SG01_HTOL_SOC_MBIST_SRVA_GR01_SG01_UnknowType									
+						endloop																																
+Instance_HTOL,Row73,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MLXXXX_SI_SRVA_SG01_HTOL_SOC_MBIST_SRVA_GR01_SG01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row74,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MLXXXX_SI_SRVA_SG02_HTOL_SOC_MBIST_SRVA_GR01_SG02_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row74,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MLXXXX_SI_SRVA_SG02_HTOL_SOC_MBIST_SRVA_GR01_SG02_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MLXXXX_SI_SRVA_SG02_HTOL_SOC_MBIST_SRVA_GR01_SG02_UnknowType																	
+Instance_HTOL,Row74,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MLXXXX_SI_SRVA_SG02_HTOL_SOC_MBIST_SRVA_GR01_SG02_UnknowType									
+						endloop																																
+Instance_HTOL,Row74,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MLXXXX_SI_SRVA_SG02_HTOL_SOC_MBIST_SRVA_GR01_SG02_UnknowType_Profile_Plot																															
+Instance_HTOL,Row75,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR02_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR02_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row75,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR02_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR02_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR02_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR02_UnknowType																	
+Instance_HTOL,Row75,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR02_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR02_UnknowType									
+						endloop																																
+Instance_HTOL,Row75,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR02_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR02_UnknowType_Profile_Plot																															
+Instance_HTOL,Row76,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR03_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR03_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row76,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR03_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR03_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR03_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR03_UnknowType																	
+Instance_HTOL,Row76,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR03_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR03_UnknowType									
+						endloop																																
+Instance_HTOL,Row76,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR03_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR03_UnknowType_Profile_Plot																															
+Instance_HTOL,Row77,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR04_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR04_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row77,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR04_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR04_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR04_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR04_UnknowType																	
+Instance_HTOL,Row77,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR04_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR04_UnknowType									
+						endloop																																
+Instance_HTOL,Row77,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR04_BST_JTG_UNS_MLXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR04_UnknowType_Profile_Plot																															
+Instance_HTOL,Row78,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR05_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR05_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row78,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR05_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR05_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR05_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR05_UnknowType																	
+Instance_HTOL,Row78,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR05_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR05_UnknowType									
+						endloop																																
+Instance_HTOL,Row78,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR05_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR05_UnknowType_Profile_Plot																															
+Instance_HTOL,Row79,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDB0_S_PL01_BI_GR06_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR06_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row79,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDB0_S_PL01_BI_GR06_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR06_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDB0_S_PL01_BI_GR06_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR06_UnknowType																	
+Instance_HTOL,Row79,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDB0_S_PL01_BI_GR06_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR06_UnknowType									
+						endloop																																
+Instance_HTOL,Row79,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDB0_S_PL01_BI_GR06_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR06_UnknowType_Profile_Plot																															
+Instance_HTOL,Row80,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR07_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR07_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row80,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR07_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR07_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR07_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR07_UnknowType																	
+Instance_HTOL,Row80,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR07_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR07_UnknowType									
+						endloop																																
+Instance_HTOL,Row80,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR07_BST_JTG_UNS_MSXXXX_SI_SRVA_HTOL_SOC_MBIST_SRVA_GR07_UnknowType_Profile_Plot																															
+Instance_HTOL,Row81,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P001_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row81,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P001_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P001_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR01_UnknowType																	
+Instance_HTOL,Row81,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P001_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row81,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P001_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row82,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P002_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR02_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row82,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P002_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR02_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P002_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR02_UnknowType																	
+Instance_HTOL,Row82,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P002_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR02_UnknowType									
+						endloop																																
+Instance_HTOL,Row82,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P002_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR02_UnknowType_Profile_Plot																															
+Instance_HTOL,Row83,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P003_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR03_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row83,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P003_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR03_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P003_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR03_UnknowType																	
+Instance_HTOL,Row83,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P003_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR03_UnknowType									
+						endloop																																
+Instance_HTOL,Row83,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P003_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR03_UnknowType_Profile_Plot																															
+Instance_HTOL,Row84,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P004_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR04_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row84,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P004_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR04_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P004_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR04_UnknowType																	
+Instance_HTOL,Row84,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P004_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR04_UnknowType									
+						endloop																																
+Instance_HTOL,Row84,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P004_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR04_UnknowType_Profile_Plot																															
+Instance_HTOL,Row85,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P005_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR05_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row85,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P005_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR05_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P005_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR05_UnknowType																	
+Instance_HTOL,Row85,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P005_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR05_UnknowType									
+						endloop																																
+Instance_HTOL,Row85,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P005_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR05_UnknowType_Profile_Plot																															
+Instance_HTOL,Row86,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P006_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR06_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row86,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P006_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR06_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P006_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR06_UnknowType																	
+Instance_HTOL,Row86,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P006_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR06_UnknowType									
+						endloop																																
+Instance_HTOL,Row86,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P006_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR06_UnknowType_Profile_Plot																															
+Instance_HTOL,Row87,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P007_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR07_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row87,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P007_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR07_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P007_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR07_UnknowType																	
+Instance_HTOL,Row87,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P007_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR07_UnknowType									
+						endloop																																
+Instance_HTOL,Row87,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P007_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR07_UnknowType_Profile_Plot																															
+Instance_HTOL,Row88,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P008_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR08_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row88,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P008_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR08_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P008_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR08_UnknowType																	
+Instance_HTOL,Row88,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P008_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR08_UnknowType									
+						endloop																																
+Instance_HTOL,Row88,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P008_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR08_UnknowType_Profile_Plot																															
+Instance_HTOL,Row89,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P009_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR09_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row89,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P009_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR09_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P009_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR09_UnknowType																	
+Instance_HTOL,Row89,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P009_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR09_UnknowType									
+						endloop																																
+Instance_HTOL,Row89,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P009_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR09_UnknowType_Profile_Plot																															
+Instance_HTOL,Row90,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P010_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR10_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row90,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P010_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR10_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P010_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR10_UnknowType																	
+Instance_HTOL,Row90,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P010_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR10_UnknowType									
+						endloop																																
+Instance_HTOL,Row90,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P010_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR10_UnknowType_Profile_Plot																															
+Instance_HTOL,Row91,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P011_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR11_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row91,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P011_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR11_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P011_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR11_UnknowType																	
+Instance_HTOL,Row91,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P011_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR11_UnknowType									
+						endloop																																
+Instance_HTOL,Row91,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P011_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR11_UnknowType_Profile_Plot																															
+Instance_HTOL,Row92,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P012_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR12_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row92,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P012_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR12_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P012_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR12_UnknowType																	
+Instance_HTOL,Row92,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P012_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR12_UnknowType									
+						endloop																																
+Instance_HTOL,Row92,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P012_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR12_UnknowType_Profile_Plot																															
+Instance_HTOL,Row93,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P013_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR13_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row93,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P013_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR13_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P013_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR13_UnknowType																	
+Instance_HTOL,Row93,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P013_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR13_UnknowType									
+						endloop																																
+Instance_HTOL,Row93,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P013_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR13_UnknowType_Profile_Plot																															
+Instance_HTOL,Row94,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P014_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR14_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row94,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P014_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR14_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P014_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR14_UnknowType																	
+Instance_HTOL,Row94,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P014_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR14_UnknowType									
+						endloop																																
+Instance_HTOL,Row94,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P014_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR14_UnknowType_Profile_Plot																															
+Instance_HTOL,Row95,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P015_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR15_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row95,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P015_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR15_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P015_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR15_UnknowType																	
+Instance_HTOL,Row95,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P015_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR15_UnknowType									
+						endloop																																
+Instance_HTOL,Row95,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P015_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR15_UnknowType_Profile_Plot																															
+Instance_HTOL,Row96,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P016_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR16_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row96,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P016_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR16_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P016_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR16_UnknowType																	
+Instance_HTOL,Row96,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P016_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR16_UnknowType									
+						endloop																																
+Instance_HTOL,Row96,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P016_BST_JTG_UNS_MSXXXX_SI_SRVC_HTOL_SOC_MBIST_SRVC_PR16_UnknowType_Profile_Plot																															
+Instance_HTOL,Row97,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row97,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GR01_UnknowType																	
+Instance_HTOL,Row97,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row97,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row98,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GX01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row98,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GX01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GX01_UnknowType																	
+Instance_HTOL,Row98,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GX01_UnknowType									
+						endloop																																
+Instance_HTOL,Row98,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GX01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row99,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX02_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GX02_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row99,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GX02_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GX02_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GX02_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GX02_UnknowType																	
+Instance_HTOL,Row99,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GX02_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GX02_UnknowType									
+						endloop																																
+Instance_HTOL,Row99,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX02_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GX02_UnknowType_Profile_Plot																															
+Instance_HTOL,Row100,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row100,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH01_UnknowType																	
+Instance_HTOL,Row100,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH01_UnknowType									
+						endloop																																
+Instance_HTOL,Row100,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row101,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH02_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH02_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row101,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH02_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH02_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH02_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH02_UnknowType																	
+Instance_HTOL,Row101,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH02_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH02_UnknowType									
+						endloop																																
+Instance_HTOL,Row101,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH02_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH02_UnknowType_Profile_Plot																															
+Instance_HTOL,Row102,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH03_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH03_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row102,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH03_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH03_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH03_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH03_UnknowType																	
+Instance_HTOL,Row102,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH03_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH03_UnknowType									
+						endloop																																
+Instance_HTOL,Row102,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH03_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH03_UnknowType_Profile_Plot																															
+Instance_HTOL,Row103,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH04_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH04_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row103,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH04_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH04_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH04_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH04_UnknowType																	
+Instance_HTOL,Row103,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH04_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH04_UnknowType									
+						endloop																																
+Instance_HTOL,Row103,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH04_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH04_UnknowType_Profile_Plot																															
+Instance_HTOL,Row104,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH05_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH05_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row104,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH05_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH05_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH05_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH05_UnknowType																	
+Instance_HTOL,Row104,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH05_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH05_UnknowType									
+						endloop																																
+Instance_HTOL,Row104,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH05_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH05_UnknowType_Profile_Plot																															
+Instance_HTOL,Row105,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH06_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH06_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row105,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH06_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH06_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH06_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH06_UnknowType																	
+Instance_HTOL,Row105,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH06_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH06_UnknowType									
+						endloop																																
+Instance_HTOL,Row105,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH06_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH06_UnknowType_Profile_Plot																															
+Instance_HTOL,Row106,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH07_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH07_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row106,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH07_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH07_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH07_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH07_UnknowType																	
+Instance_HTOL,Row106,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH07_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH07_UnknowType									
+						endloop																																
+Instance_HTOL,Row106,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH07_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH07_UnknowType_Profile_Plot																															
+Instance_HTOL,Row107,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH08_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH08_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row107,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH08_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH08_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH08_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH08_UnknowType																	
+Instance_HTOL,Row107,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH08_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH08_UnknowType									
+						endloop																																
+Instance_HTOL,Row107,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH08_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH08_UnknowType_Profile_Plot																															
+Instance_HTOL,Row108,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH09_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH09_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row108,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH09_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH09_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH09_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH09_UnknowType																	
+Instance_HTOL,Row108,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH09_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH09_UnknowType									
+						endloop																																
+Instance_HTOL,Row108,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH09_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH09_UnknowType_Profile_Plot																															
+Instance_HTOL,Row109,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH10_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH10_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row109,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH10_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH10_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH10_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH10_UnknowType																	
+Instance_HTOL,Row109,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH10_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH10_UnknowType									
+						endloop																																
+Instance_HTOL,Row109,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH10_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH10_UnknowType_Profile_Plot																															
+Instance_HTOL,Row110,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH11_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH11_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row110,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH11_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH11_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH11_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH11_UnknowType																	
+Instance_HTOL,Row110,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH11_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH11_UnknowType									
+						endloop																																
+Instance_HTOL,Row110,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH11_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH11_UnknowType_Profile_Plot																															
+Instance_HTOL,Row111,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH12_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH12_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row111,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH12_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH12_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH12_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH12_UnknowType																	
+Instance_HTOL,Row111,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH12_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH12_UnknowType									
+						endloop																																
+Instance_HTOL,Row111,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH12_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH12_UnknowType_Profile_Plot																															
+Instance_HTOL,Row112,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH13_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH13_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row112,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH13_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH13_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH13_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH13_UnknowType																	
+Instance_HTOL,Row112,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH13_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH13_UnknowType									
+						endloop																																
+Instance_HTOL,Row112,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH13_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH13_UnknowType_Profile_Plot																															
+Instance_HTOL,Row113,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH14_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH14_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row113,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH14_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH14_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH14_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH14_UnknowType																	
+Instance_HTOL,Row113,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH14_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH14_UnknowType									
+						endloop																																
+Instance_HTOL,Row113,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH14_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH14_UnknowType_Profile_Plot																															
+Instance_HTOL,Row114,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH15_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH15_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row114,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH15_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH15_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH15_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH15_UnknowType																	
+Instance_HTOL,Row114,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH15_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH15_UnknowType									
+						endloop																																
+Instance_HTOL,Row114,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH15_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH15_UnknowType_Profile_Plot																															
+Instance_HTOL,Row115,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH16_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH16_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row115,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH16_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH16_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH16_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH16_UnknowType																	
+Instance_HTOL,Row115,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH16_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH16_UnknowType									
+						endloop																																
+Instance_HTOL,Row115,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH16_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH16_UnknowType_Profile_Plot																															
+Instance_HTOL,Row116,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH17_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH17_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row116,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH17_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH17_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH17_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH17_UnknowType																	
+Instance_HTOL,Row116,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH17_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH17_UnknowType									
+						endloop																																
+Instance_HTOL,Row116,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH17_BST_JTG_UNS_MPXXXX_SI_SRVD_HTOL_SOC_MBIST_SRVD_GH17_UnknowType_Profile_Plot																															
+Instance_HTOL,Row117,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVE_HTOL_SOC_MBIST_SRVE_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row117,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVE_HTOL_SOC_MBIST_SRVE_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVE_HTOL_SOC_MBIST_SRVE_GR01_UnknowType																	
+Instance_HTOL,Row117,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVE_HTOL_SOC_MBIST_SRVE_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row117,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVE_HTOL_SOC_MBIST_SRVE_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row118,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVJ_HTOL_SOC_MBIST_SRVJ_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row118,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVJ_HTOL_SOC_MBIST_SRVJ_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVJ_HTOL_SOC_MBIST_SRVJ_GR01_UnknowType																	
+Instance_HTOL,Row118,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVJ_HTOL_SOC_MBIST_SRVJ_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row118,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVJ_HTOL_SOC_MBIST_SRVJ_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row119,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVK_HTOL_SOC_MBIST_SRVK_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row119,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVK_HTOL_SOC_MBIST_SRVK_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVK_HTOL_SOC_MBIST_SRVK_GR01_UnknowType																	
+Instance_HTOL,Row119,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVK_HTOL_SOC_MBIST_SRVK_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row119,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVK_HTOL_SOC_MBIST_SRVK_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row120,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVL_HTOL_SOC_MBIST_SRVL_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row120,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVL_HTOL_SOC_MBIST_SRVL_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVL_HTOL_SOC_MBIST_SRVL_GR01_UnknowType																	
+Instance_HTOL,Row120,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVL_HTOL_SOC_MBIST_SRVL_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row120,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVL_HTOL_SOC_MBIST_SRVL_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row121,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR02_BST_JTG_UNS_MIXXXX_SI_SRVL_HTOL_SOC_MBIST_SRVL_GR02_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row121,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR02_BST_JTG_UNS_MIXXXX_SI_SRVL_HTOL_SOC_MBIST_SRVL_GR02_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR02_BST_JTG_UNS_MIXXXX_SI_SRVL_HTOL_SOC_MBIST_SRVL_GR02_UnknowType																	
+Instance_HTOL,Row121,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR02_BST_JTG_UNS_MIXXXX_SI_SRVL_HTOL_SOC_MBIST_SRVL_GR02_UnknowType									
+						endloop																																
+Instance_HTOL,Row121,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR02_BST_JTG_UNS_MIXXXX_SI_SRVL_HTOL_SOC_MBIST_SRVL_GR02_UnknowType_Profile_Plot																															
+Instance_HTOL,Row122,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVM_HTOL_SOC_MBIST_SRVM_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row122,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVM_HTOL_SOC_MBIST_SRVM_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVM_HTOL_SOC_MBIST_SRVM_GR01_UnknowType																	
+Instance_HTOL,Row122,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVM_HTOL_SOC_MBIST_SRVM_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row122,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVM_HTOL_SOC_MBIST_SRVM_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row123,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVN_HTOL_SOC_MBIST_SRVN_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row123,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVN_HTOL_SOC_MBIST_SRVN_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVN_HTOL_SOC_MBIST_SRVN_GR01_UnknowType																	
+Instance_HTOL,Row123,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVN_HTOL_SOC_MBIST_SRVN_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row123,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MIXXXX_SI_SRVN_HTOL_SOC_MBIST_SRVN_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row124,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVF_HTOL_SOC_MBIST_SRVF_GX01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row124,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVF_HTOL_SOC_MBIST_SRVF_GX01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVF_HTOL_SOC_MBIST_SRVF_GX01_UnknowType																	
+Instance_HTOL,Row124,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVF_HTOL_SOC_MBIST_SRVF_GX01_UnknowType									
+						endloop																																
+Instance_HTOL,Row124,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVF_HTOL_SOC_MBIST_SRVF_GX01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row125,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVF_HTOL_SOC_MBIST_SRVF_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row125,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVF_HTOL_SOC_MBIST_SRVF_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVF_HTOL_SOC_MBIST_SRVF_GR01_UnknowType																	
+Instance_HTOL,Row125,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVF_HTOL_SOC_MBIST_SRVF_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row125,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVF_HTOL_SOC_MBIST_SRVF_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row126,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVG_HTOL_SOC_MBIST_SRVG_GX01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row126,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVG_HTOL_SOC_MBIST_SRVG_GX01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVG_HTOL_SOC_MBIST_SRVG_GX01_UnknowType																	
+Instance_HTOL,Row126,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVG_HTOL_SOC_MBIST_SRVG_GX01_UnknowType									
+						endloop																																
+Instance_HTOL,Row126,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVG_HTOL_SOC_MBIST_SRVG_GX01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row127,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVG_HTOL_SOC_MBIST_SRVG_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row127,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVG_HTOL_SOC_MBIST_SRVG_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVG_HTOL_SOC_MBIST_SRVG_GR01_UnknowType																	
+Instance_HTOL,Row127,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVG_HTOL_SOC_MBIST_SRVG_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row127,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVG_HTOL_SOC_MBIST_SRVG_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row128,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVH_HTOL_SOC_MBIST_SRVH_GX01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row128,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVH_HTOL_SOC_MBIST_SRVH_GX01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVH_HTOL_SOC_MBIST_SRVH_GX01_UnknowType																	
+Instance_HTOL,Row128,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVH_HTOL_SOC_MBIST_SRVH_GX01_UnknowType									
+						endloop																																
+Instance_HTOL,Row128,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVH_HTOL_SOC_MBIST_SRVH_GX01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row129,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVH_HTOL_SOC_MBIST_SRVH_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row129,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVH_HTOL_SOC_MBIST_SRVH_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVH_HTOL_SOC_MBIST_SRVH_GR01_UnknowType																	
+Instance_HTOL,Row129,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVH_HTOL_SOC_MBIST_SRVH_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row129,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVH_HTOL_SOC_MBIST_SRVH_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row130,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVI_HTOL_SOC_MBIST_SRVI_GX01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row130,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVI_HTOL_SOC_MBIST_SRVI_GX01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVI_HTOL_SOC_MBIST_SRVI_GX01_UnknowType																	
+Instance_HTOL,Row130,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVI_HTOL_SOC_MBIST_SRVI_GX01_UnknowType									
+						endloop																																
+Instance_HTOL,Row130,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GX01_BST_JTG_UNS_MCXXXX_SI_SRVI_HTOL_SOC_MBIST_SRVI_GX01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row131,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVI_HTOL_SOC_MBIST_SRVI_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row131,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVI_HTOL_SOC_MBIST_SRVI_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVI_HTOL_SOC_MBIST_SRVI_GR01_UnknowType																	
+Instance_HTOL,Row131,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVI_HTOL_SOC_MBIST_SRVI_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row131,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVI_HTOL_SOC_MBIST_SRVI_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row132,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVO_HTOL_SOC_MBIST_SRVO_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row132,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVO_HTOL_SOC_MBIST_SRVO_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVO_HTOL_SOC_MBIST_SRVO_GR01_UnknowType																	
+Instance_HTOL,Row132,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVO_HTOL_SOC_MBIST_SRVO_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row132,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVO_HTOL_SOC_MBIST_SRVO_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row133,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MSXXXX_SI_SRVO_HTOL_SOC_MBIST_SRVO_GH01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row133,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MSXXXX_SI_SRVO_HTOL_SOC_MBIST_SRVO_GH01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MSXXXX_SI_SRVO_HTOL_SOC_MBIST_SRVO_GH01_UnknowType																	
+Instance_HTOL,Row133,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MSXXXX_SI_SRVO_HTOL_SOC_MBIST_SRVO_GH01_UnknowType									
+						endloop																																
+Instance_HTOL,Row133,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MSXXXX_SI_SRVO_HTOL_SOC_MBIST_SRVO_GH01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row134,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVP_HTOL_SOC_MBIST_SRVP_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row134,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVP_HTOL_SOC_MBIST_SRVP_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVP_HTOL_SOC_MBIST_SRVP_GR01_UnknowType																	
+Instance_HTOL,Row134,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVP_HTOL_SOC_MBIST_SRVP_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row134,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVP_HTOL_SOC_MBIST_SRVP_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row135,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MSXXXX_SI_SRVP_HTOL_SOC_MBIST_SRVP_GH01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row135,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MSXXXX_SI_SRVP_HTOL_SOC_MBIST_SRVP_GH01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MSXXXX_SI_SRVP_HTOL_SOC_MBIST_SRVP_GH01_UnknowType																	
+Instance_HTOL,Row135,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MSXXXX_SI_SRVP_HTOL_SOC_MBIST_SRVP_GH01_UnknowType									
+						endloop																																
+Instance_HTOL,Row135,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_BST_JTG_UNS_MSXXXX_SI_SRVP_HTOL_SOC_MBIST_SRVP_GH01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row136,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVB_HTOL_SOC_MBIST_SRVB_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row136,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVB_HTOL_SOC_MBIST_SRVB_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVB_HTOL_SOC_MBIST_SRVB_GR01_UnknowType																	
+Instance_HTOL,Row136,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVB_HTOL_SOC_MBIST_SRVB_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row136,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVB_HTOL_SOC_MBIST_SRVB_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row137,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVQ_HTOL_SOC_MBIST_SRVQ_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row137,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVQ_HTOL_SOC_MBIST_SRVQ_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVQ_HTOL_SOC_MBIST_SRVQ_GR01_UnknowType																	
+Instance_HTOL,Row137,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVQ_HTOL_SOC_MBIST_SRVQ_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row137,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MSXXXX_SI_SRVQ_HTOL_SOC_MBIST_SRVQ_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row138,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDB0_S_PL01_BI_GO01_BST_JTG_UNS_MRXXXX_SI_SRVS_HTOL_SOC_MBIST_SRVS_GO01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row138,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDB0_S_PL01_BI_GO01_BST_JTG_UNS_MRXXXX_SI_SRVS_HTOL_SOC_MBIST_SRVS_GO01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDB0_S_PL01_BI_GO01_BST_JTG_UNS_MRXXXX_SI_SRVS_HTOL_SOC_MBIST_SRVS_GO01_UnknowType																	
+Instance_HTOL,Row138,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDB0_S_PL01_BI_GO01_BST_JTG_UNS_MRXXXX_SI_SRVS_HTOL_SOC_MBIST_SRVS_GO01_UnknowType									
+						endloop																																
+Instance_HTOL,Row138,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDB0_S_PL01_BI_GO01_BST_JTG_UNS_MRXXXX_SI_SRVS_HTOL_SOC_MBIST_SRVS_GO01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row139,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MRXXXX_SI_SRVS_HTOL_SOC_MBIST_SRVS_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row139,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MRXXXX_SI_SRVS_HTOL_SOC_MBIST_SRVS_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MRXXXX_SI_SRVS_HTOL_SOC_MBIST_SRVS_GR01_UnknowType																	
+Instance_HTOL,Row139,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MRXXXX_SI_SRVS_HTOL_SOC_MBIST_SRVS_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row139,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_BST_JTG_UNS_MRXXXX_SI_SRVS_HTOL_SOC_MBIST_SRVS_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row140,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P001_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P001_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row140,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P001_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P001_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P001_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P001_UnknowType																	
+Instance_HTOL,Row140,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P001_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P001_UnknowType									
+						endloop																																
+Instance_HTOL,Row140,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P001_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P001_UnknowType_Profile_Plot																															
+Instance_HTOL,Row141,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P002_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P002_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row141,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P002_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P002_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P002_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P002_UnknowType																	
+Instance_HTOL,Row141,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P002_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P002_UnknowType									
+						endloop																																
+Instance_HTOL,Row141,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P002_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P002_UnknowType_Profile_Plot																															
+Instance_HTOL,Row142,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P003_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P003_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row142,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P003_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P003_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P003_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P003_UnknowType																	
+Instance_HTOL,Row142,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P003_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P003_UnknowType									
+						endloop																																
+Instance_HTOL,Row142,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P003_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P003_UnknowType_Profile_Plot																															
+Instance_HTOL,Row143,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P004_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P004_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row143,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P004_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P004_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P004_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P004_UnknowType																	
+Instance_HTOL,Row143,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P004_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P004_UnknowType									
+						endloop																																
+Instance_HTOL,Row143,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P004_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P004_UnknowType_Profile_Plot																															
+Instance_HTOL,Row144,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P005_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P005_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row144,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P005_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P005_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P005_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P005_UnknowType																	
+Instance_HTOL,Row144,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P005_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P005_UnknowType									
+						endloop																																
+Instance_HTOL,Row144,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P005_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P005_UnknowType_Profile_Plot																															
+Instance_HTOL,Row145,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P006_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P006_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row145,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P006_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P006_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P006_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P006_UnknowType																	
+Instance_HTOL,Row145,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P006_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P006_UnknowType									
+						endloop																																
+Instance_HTOL,Row145,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P006_BST_JTG_UNS_MPXXXX_SI_SRVT_HTOL_SOC_MBIST_SRVT_P006_UnknowType_Profile_Plot																															
+Instance_HTOL,Row146,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P007_GXXX_BST_JTG_UNS_1WD_MPXXXX_SI_SRVT_SRVD_SBIST_HTOL_SOC_MBIST_SRVT_P007_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row146,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P007_GXXX_BST_JTG_UNS_1WD_MPXXXX_SI_SRVT_SRVD_SBIST_HTOL_SOC_MBIST_SRVT_P007_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P007_GXXX_BST_JTG_UNS_1WD_MPXXXX_SI_SRVT_SRVD_SBIST_HTOL_SOC_MBIST_SRVT_P007_UnknowType																	
+Instance_HTOL,Row146,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P007_GXXX_BST_JTG_UNS_1WD_MPXXXX_SI_SRVT_SRVD_SBIST_HTOL_SOC_MBIST_SRVT_P007_UnknowType									
+						endloop																																
+Instance_HTOL,Row146,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P007_GXXX_BST_JTG_UNS_1WD_MPXXXX_SI_SRVT_SRVD_SBIST_HTOL_SOC_MBIST_SRVT_P007_UnknowType_Profile_Plot																															
+Instance_HTOL,Row147,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P008_GXXX_BST_JTG_UNS_1WD_MPXXXX_MSXXXX_SI_SRVT_SRVO_SBIST_HTOL_SOC_MBIST_SRVT_P008_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row147,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_P008_GXXX_BST_JTG_UNS_1WD_MPXXXX_MSXXXX_SI_SRVT_SRVO_SBIST_HTOL_SOC_MBIST_SRVT_P008_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_P008_GXXX_BST_JTG_UNS_1WD_MPXXXX_MSXXXX_SI_SRVT_SRVO_SBIST_HTOL_SOC_MBIST_SRVT_P008_UnknowType																	
+Instance_HTOL,Row147,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_P008_GXXX_BST_JTG_UNS_1WD_MPXXXX_MSXXXX_SI_SRVT_SRVO_SBIST_HTOL_SOC_MBIST_SRVT_P008_UnknowType									
+						endloop																																
+Instance_HTOL,Row147,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_P008_GXXX_BST_JTG_UNS_1WD_MPXXXX_MSXXXX_SI_SRVT_SRVO_SBIST_HTOL_SOC_MBIST_SRVT_P008_UnknowType_Profile_Plot																															
+Instance_HTOL,Row148,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_GXXX_BST_JTG_UNS_1WD_MSXXXX_SI_SRVR_SRVP_SBIST_HTOL_SOC_MBIST_SRVR_GR01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row148,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_GXXX_BST_JTG_UNS_1WD_MSXXXX_SI_SRVR_SRVP_SBIST_HTOL_SOC_MBIST_SRVR_GR01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_GXXX_BST_JTG_UNS_1WD_MSXXXX_SI_SRVR_SRVP_SBIST_HTOL_SOC_MBIST_SRVR_GR01_UnknowType																	
+Instance_HTOL,Row148,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GR01_GXXX_BST_JTG_UNS_1WD_MSXXXX_SI_SRVR_SRVP_SBIST_HTOL_SOC_MBIST_SRVR_GR01_UnknowType									
+						endloop																																
+Instance_HTOL,Row148,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GR01_GXXX_BST_JTG_UNS_1WD_MSXXXX_SI_SRVR_SRVP_SBIST_HTOL_SOC_MBIST_SRVR_GR01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row149,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_GXXX_BST_JTG_UNS_1RD_MSXXXX_SI_SRVR_SRVQ_SBIST_HTOL_SOC_MBIST_SRVR_GH01_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row149,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_GXXX_BST_JTG_UNS_1RD_MSXXXX_SI_SRVR_SRVQ_SBIST_HTOL_SOC_MBIST_SRVR_GH01_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GH01_GXXX_BST_JTG_UNS_1RD_MSXXXX_SI_SRVR_SRVQ_SBIST_HTOL_SOC_MBIST_SRVR_GH01_UnknowType																	
+Instance_HTOL,Row149,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GH01_GXXX_BST_JTG_UNS_1RD_MSXXXX_SI_SRVR_SRVQ_SBIST_HTOL_SOC_MBIST_SRVR_GH01_UnknowType									
+						endloop																																
+Instance_HTOL,Row149,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GH01_GXXX_BST_JTG_UNS_1RD_MSXXXX_SI_SRVR_SRVQ_SBIST_HTOL_SOC_MBIST_SRVR_GH01_UnknowType_Profile_Plot																															
+Instance_HTOL,Row150,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MPXXXX_SI_SRVD_SBIST_HTOL_SOC_MBIST_SRVD_SBIST_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row150,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MPXXXX_SI_SRVD_SBIST_HTOL_SOC_MBIST_SRVD_SBIST_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MPXXXX_SI_SRVD_SBIST_HTOL_SOC_MBIST_SRVD_SBIST_UnknowType																	
+Instance_HTOL,Row150,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MPXXXX_SI_SRVD_SBIST_HTOL_SOC_MBIST_SRVD_SBIST_UnknowType									
+						endloop																																
+Instance_HTOL,Row150,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MPXXXX_SI_SRVD_SBIST_HTOL_SOC_MBIST_SRVD_SBIST_UnknowType_Profile_Plot																															
+Instance_HTOL,Row151,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MSXXXX_SI_SRVO_SBIST_HTOL_SOC_MBIST_SRVO_SBIST_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row151,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MSXXXX_SI_SRVO_SBIST_HTOL_SOC_MBIST_SRVO_SBIST_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MSXXXX_SI_SRVO_SBIST_HTOL_SOC_MBIST_SRVO_SBIST_UnknowType																	
+Instance_HTOL,Row151,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MSXXXX_SI_SRVO_SBIST_HTOL_SOC_MBIST_SRVO_SBIST_UnknowType									
+						endloop																																
+Instance_HTOL,Row151,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MSXXXX_SI_SRVO_SBIST_HTOL_SOC_MBIST_SRVO_SBIST_UnknowType_Profile_Plot																															
+Instance_HTOL,Row152,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MSXXXX_SI_SRVP_SBIST_HTOL_SOC_MBIST_SRVP_SBIST_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row152,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MSXXXX_SI_SRVP_SBIST_HTOL_SOC_MBIST_SRVP_SBIST_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MSXXXX_SI_SRVP_SBIST_HTOL_SOC_MBIST_SRVP_SBIST_UnknowType																	
+Instance_HTOL,Row152,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MSXXXX_SI_SRVP_SBIST_HTOL_SOC_MBIST_SRVP_SBIST_UnknowType									
+						endloop																																
+Instance_HTOL,Row152,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1WD_1RD_MSXXXX_SI_SRVP_SBIST_HTOL_SOC_MBIST_SRVP_SBIST_UnknowType_Profile_Plot																															
+Instance_HTOL,Row153,SOC_MBIST_HTOL		CurrentProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1RD_1WD_MSXXXX_SI_SRVQ_SBIST_HTOL_SOC_MBIST_SRVQ_SBIST_UnknowType_Current_Profile_Start																															
+						loop	10																															
+Instance_HTOL,Row153,SOC_MBIST_HTOL					MissPatternInCsv	Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1RD_1WD_MSXXXX_SI_SRVQ_SBIST_HTOL_SOC_MBIST_SRVQ_SBIST_UnknowType														F_Soc_UnknowType,F_SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1RD_1WD_MSXXXX_SI_SRVQ_SBIST_HTOL_SOC_MBIST_SRVQ_SBIST_UnknowType																	
+Instance_HTOL,Row153,SOC_MBIST_HTOL						flag-true	ControlBin_Soc_UnknowType																					Flag-true	F_SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1RD_1WD_MSXXXX_SI_SRVQ_SBIST_HTOL_SOC_MBIST_SRVQ_SBIST_UnknowType									
+						endloop																																
+Instance_HTOL,Row153,SOC_MBIST_HTOL		CurrentProfile||VoltageProfile				Test	SocMbist_HT_HIDA0_S_PL01_BI_GXXX_BST_JTG_1RD_1WD_MSXXXX_SI_SRVQ_SBIST_HTOL_SOC_MBIST_SRVQ_SBIST_UnknowType_Profile_Plot																															
+						If	ControlBin_Soc_UnknowType																															
+						Bintable	Bin_Soc_UnknowType																															
+						EndIf																																
+						print	"Flow SOC_MBIST_HTOL Stop"																															
+						Test	SOC_MBIST_HTOL_Footer_1																															
+						Return																																

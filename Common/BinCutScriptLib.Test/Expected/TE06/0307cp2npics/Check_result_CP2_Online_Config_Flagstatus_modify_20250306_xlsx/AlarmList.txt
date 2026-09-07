@@ -1,0 +1,3 @@
+Line_No	Alarm_Message	IsBeforeBV
+80072	ERROR FLO:0020 : Instance info for ATE_STR_Summary is not loaded	True
+80073	ERROR Error encountered in Exec Interpose Function (ExecInterpose_OnPreShutDownSite) Function Name: OnPreShutDownSite	True

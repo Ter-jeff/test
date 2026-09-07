@@ -1,0 +1,9 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"*print: LVCC_CZ_CP1_WAT_Header start*"																															
+		!ShmooOnly				Test	DFTLH_SOC_FIXED_MFX001_SOCTDF_CHI3_PL10_UNC_X_X_SelsrmSSSS_CZ_NV		42150												F_Dummy																	
+		!TestOnly				characterize	DFTLH_SOC_FIXED_MFX001_SOCTDF_CHI3_PL10_UNC_X_X_SelsrmSSSS_CZ_NV SOCTDF_VDDFIXEDALL_Jump		42150												F_Dummy																	
+						print	"*print: LVCC_CZ_CP1_WAT_Footer end*"																															
+						return																																

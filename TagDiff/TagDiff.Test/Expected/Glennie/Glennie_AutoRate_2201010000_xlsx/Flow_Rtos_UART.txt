@@ -1,0 +1,28 @@
+Pass Rate	22.22%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	9	Pass Rows	2																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+MissingCompared	Flow_Rtos_UART.txt		5			Enable_Reload_UART				Test	ReloadUARTModules																														
+MissingCompared	Flow_Rtos_UART.txt		6							print	Flow_RTOS_UART_Start																														
+MissingCompared	Flow_Rtos_UART.txt		7							Test	Relay_Off_HardIP		18020500																												
+MissingCompared	Flow_Rtos_UART.txt		11							Test	Relay_Off_HardIP		18020500																												
+MissingCompared	Flow_Rtos_UART.txt		8							Test	Relay_On_BOOT																														
+MissingCompared	Flow_Rtos_UART.txt		9							Test	RTOS_Boot_CS		49909												F_RTOS_boot																
+P	Flow_Rtos_UART.txt	Flow_Rtos_UART.txt	12	7						Bintable	Bin_RTOS_boot																														
+MissingCompared	Flow_Rtos_UART.txt		13							print	Flow_RTOS_UART_End																														
+P	Flow_Rtos_UART.txt	Flow_Rtos_UART.txt	14	21						return																															
+MissingBase		Flow_Rtos_UART.txt		5						print	Flow_Rtos_Start																														
+MissingBase		Flow_Rtos_UART.txt		6						Test	RTOS_Boot														F_RTOS_boot																
+MissingBase		Flow_Rtos_UART.txt		9		RunScenario_LV				Test	RTOS_Boot																					flag-true	F_Rtos_func_SC_SCCMD								
+MissingBase		Flow_Rtos_UART.txt		12		RunScenario_LV				Test	RTOS_Boot																					flag-true	F_Rtos_func_SC_SCCMD								
+MissingBase		Flow_Rtos_UART.txt		15		RunScenario_HV				Test	RTOS_Boot																					flag-true	F_Rtos_func_SC_SCCMD								
+MissingBase		Flow_Rtos_UART.txt		18		RunScenario_HV				Test	RTOS_Boot																					flag-true	F_Rtos_func_SC_SCCMD								
+MissingBase		Flow_Rtos_UART.txt		8		RunScenario_LV				Test	Rtos_PP_GLNA0_P_FULP_FU_BOOT_PFF_RTS_FUN_ALLFV_SI_LV														F_Rtos_func_SC_SCCMD																
+MissingBase		Flow_Rtos_UART.txt		10		RunScenario_LV				flag-clear	F_Rtos_func_SC_SCCMD																					flag-true	F_Rtos_func_SC_SCCMD								
+MissingBase		Flow_Rtos_UART.txt		13		RunScenario_LV				flag-clear	F_Rtos_func_SC_SCCMD																					flag-true	F_Rtos_func_SC_SCCMD								
+MissingBase		Flow_Rtos_UART.txt		16		RunScenario_HV				flag-clear	F_Rtos_func_SC_SCCMD																					flag-true	F_Rtos_func_SC_SCCMD								
+MissingBase		Flow_Rtos_UART.txt		19		RunScenario_HV				flag-clear	F_Rtos_func_SC_SCCMD																					flag-true	F_Rtos_func_SC_SCCMD								
+MissingBase		Flow_Rtos_UART.txt		11		RunScenario_LV				Test	Rtos_PP_GLNA0_P_FULP_FU_UID_PROG_PFF_RTS_FUN_ALLFV_SI_LV														F_Rtos_func_SC_SCCMD																
+MissingBase		Flow_Rtos_UART.txt		14		RunScenario_HV				Test	Rtos_PP_GLNA0_P_FULP_FU_BOOT_PFF_RTS_FUN_ALLFV_SI_HV														F_Rtos_func_SC_SCCMD																
+MissingBase		Flow_Rtos_UART.txt		17		RunScenario_HV				Test	Rtos_PP_GLNA0_P_FULP_FU_UID_PROG_PFF_RTS_FUN_ALLFV_SI_HV														F_Rtos_func_SC_SCCMD																
+MissingBase		Flow_Rtos_UART.txt		20						print	Flow_Rtos_End																														

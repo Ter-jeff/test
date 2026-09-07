@@ -1,0 +1,19 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow ME004_TD_Mbist_BV Start"																															
+Instance_Bincut_TDF_MEX,Row11,MEX004 CPU TD,TD		CP1||FT1			MissPatternInCsv	Test	ME004_MEX004_CpuTd_PP_BRNA0_C_PL10_SC_E0ED_TDF_COM_HAR_MEXXXX_DM_DIV166_3_ECPU_TDF_MEX004_DIV166_PL10_BV		1000585000																													
+					MissPatternInCsv	Bintable	Bin_ME004_TD_BV																															
+Instance_Bincut_TDF_MEX,Row12,MEX004 CPU TD,TD		CP1||FT1			MissPatternInCsv	Test	ME004_MEX004_CpuTd_PP_BRNA0_C_PL00_SC_E0XD_TDF_COM_AUT_MEXXXX_DM_DIV422_3_ECPU_TDF_MEX004_DIV422_PL00_BV		1000586000																													
+					MissPatternInCsv	Bintable	Bin_ME004_TD_BV																															
+Instance_Bincut_TDF_MEX,Row13,MEX004 CPU TD,TD		CP1||FT1			MissPatternInCsv	Test	ME004_MEX004_CpuTd_PP_BRNA0_C_PL00_SC_E0ED_TDF_COM_AUT_MEXXXX_DM_CEXTEST_3_ECPU_TDF_MEX004_CEXTEST_PL00_BV		1000587000																													
+					MissPatternInCsv	Bintable	Bin_ME004_TD_BV																															
+Instance_Bincut_BIST_MEX,Row5,MEX004 CPU BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST			MissPatternInCsv	Test	ME004_MEX004_CpuMbist_PP_BRNA0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_LATR_BV		1000588000																													
+					MissPatternInCsv	Bintable	Bin_ME004_Mbist_BV																															
+Instance_Bincut_BIST_MEX,Row14,MEX004 CPU BIST,Mbist		(CP1||FT1) && !BINCUT_WITH_BIST			MissPatternInCsv	Test	ME004_MEX004_CpuMbist_PP_BRNA0_C_PLLP_BI_E0XX_BST_JTG_59N_MEXXXX_SI_LATR_LATR_BIRA_BV		1000589000																													
+					MissPatternInCsv	Bintable	Bin_ME004_Mbist_BV																															
+Instance_Bincut_BIST_MEX,Row19,MEX004 CPU BIST,Mbist		(CP1||FT1) && !BINCUT_WITH_BIST			MissPatternInCsv	Test	ME004_MEX004_CpuMbist_PP_BRNA0_C_PLLP_BI_E0XX_BXX_JTG_59N_MEXXXX_SI_XXXX_59N_LATR_BIRA_BV		1000590000																													
+					MissPatternInCsv	Bintable	Bin_ME004_Mbist_BV																															
+						print	"Flow ME004_TD_Mbist_BV Stop"																															
+						Return																																

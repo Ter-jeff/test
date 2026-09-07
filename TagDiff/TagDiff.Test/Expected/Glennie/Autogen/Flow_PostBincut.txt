@@ -1,0 +1,19 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow PostBincut Start"																															
+Instance_Bincut_PostBincut,Row2,MD001 SOC TD PBC,TD		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD001_TD_PBC_SocTd_PP_GLNA0_S_PL21_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD001_TD_CLA0_PL21_outsidebincut_BV																															
+						Bintable	Bin_TD_MD001_TD_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row5,MD001 SOC HAMMER MBIST,Mbist		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD001_HAMMER_PBC_SocMbist_PP_GLNA0_S_PL01_BI_GRXX_BST_JTG_UNS_MRDXXX_SI_SRVA_9X_MRD001_SOC_HAMMER_outsidebincut_BV																															
+						Bintable	Bin_Mbist_MD001_HAMMER_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row6,MD001 SOC LG01 MBIST,Mbist		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD001_LG01_PBC_SocMbist_PP_GLNA0_S_PL01_BI_GX0X_BST_JTG_UNS_MXXXXX_SI_SRVA_L01DB_MRD001_SOC_LG01_outsidebincut_BV																															
+						Bintable	Bin_Mbist_MD001_LG01_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row3,MD002 SOC TD PBC,TD		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_TD_PBC_SocTd_PP_GLNA0_S_PL21_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD002_TD_CLA0_PL21_outsidebincut_BV																															
+						Bintable	Bin_TD_MD002_TD_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row7,MD002 SOC HAMMER MBIST,Mbist		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_HAMMER_PBC_SocMbist_PP_GLNA0_S_PL01_BI_GRXX_BST_JTG_UNS_MRDXXX_SI_SRVA_9X_MRD002_SOC_HAMMER_outsidebincut_BV																															
+						Bintable	Bin_Mbist_MD002_HAMMER_PBC_outsidebincut_BV																															
+Instance_Bincut_PostBincut,Row8,MD002 SOC LG01 MBIST,Mbist		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_LG01_PBC_SocMbist_PP_GLNA0_S_PL01_BI_GX0X_BST_JTG_UNS_MXXXXX_SI_SRVA_L01DB_MRD002_SOC_LG01_outsidebincut_BV																															
+						Bintable	Bin_Mbist_MD002_LG01_PBC_outsidebincut_BV																															
+						print	"Flow PostBincut Stop"																															
+						Return																																

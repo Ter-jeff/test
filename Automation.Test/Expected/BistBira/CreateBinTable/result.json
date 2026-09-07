@@ -1,0 +1,39 @@
+[
+  {
+    "Name": "binName",
+    "ItemList": "flag,F_EVS_Defer",
+    "Op": "AND",
+    "Sort": "203",
+    "Bin": "999",
+    "ExtraBinDictionary": {},
+    "Result": "Fail",
+    "Comment": "",
+    "Items": [
+      "T",
+      "T"
+    ],
+    "ItemsWithIndex": {},
+    "IsBackup": false,
+    "ColumnA": null,
+    "SheetName": null,
+    "RowNum": 0
+  },
+  {
+    "Name": "binName",
+    "ItemList": "",
+    "Op": "AND",
+    "Sort": "2",
+    "Bin": "999",
+    "ExtraBinDictionary": {},
+    "Result": "Fail",
+    "Comment": "",
+    "Items": [
+      "T"
+    ],
+    "ItemsWithIndex": {},
+    "IsBackup": false,
+    "ColumnA": null,
+    "SheetName": null,
+    "RowNum": 0
+  }
+]

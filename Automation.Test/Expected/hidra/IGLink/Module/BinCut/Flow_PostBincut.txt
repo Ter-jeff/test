@@ -1,0 +1,270 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	PostBincut_Header_1																															
+						print	"Flow PostBincut Start"																															
+						If	(!F_SOC_TD_AD && !F_SOC_TD_ID && !F_SOC_TD_ED0 && !F_SOC_TD_ED1 && !F_SOC_TD_MS) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row2,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVXNoD_NoHarv_SOC_MBIST_SRT_SRVXNoD_NoHarv_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row3,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVXNoD_HarvAD_SOC_MBIST_SRT_SRVXNoD_HarvAD_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV							Flag-true	F_SOC_TD_AD									
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row4,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVXNoD_HarvID_SOC_MBIST_SRT_SRVXNoD_HarvID_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV							Flag-true	F_SOC_TD_ID									
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row5,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVXNoD_HarvED0_SOC_MBIST_SRT_SRVXNoD_HarvED0_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV							Flag-true	F_SOC_TD_ED0									
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row6,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVXNoD_HarvED1_SOC_MBIST_SRT_SRVXNoD_HarvED1_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV							Flag-true	F_SOC_TD_ED1									
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row7,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVXNoD_HarvMS_SOC_MBIST_SRT_SRVXNoD_HarvMS_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV							Flag-true	F_SOC_TD_MS									
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE_16_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row9,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_NoHarv_SOC_MBIST_SRT_SRVD_NoHarv_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE0) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row10,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH01_SOC_MBIST_SRT_SRVD_HarvGH01_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE2) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row11,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH02_SOC_MBIST_SRT_SRVD_HarvGH02_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row12,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH03_SOC_MBIST_SRT_SRVD_HarvGH03_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row13,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH04_SOC_MBIST_SRT_SRVD_HarvGH04_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE4) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row14,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH05_SOC_MBIST_SRT_SRVD_HarvGH05_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE6) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row15,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH06_SOC_MBIST_SRT_SRVD_HarvGH06_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE5) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row16,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH07_SOC_MBIST_SRT_SRVD_HarvGH07_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE7) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row17,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH08_SOC_MBIST_SRT_SRVD_HarvGH08_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE8) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row18,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH09_SOC_MBIST_SRT_SRVD_HarvGH09_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE10) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row19,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH10_SOC_MBIST_SRT_SRVD_HarvGH10_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE9) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row20,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH11_SOC_MBIST_SRT_SRVD_HarvGH11_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE11) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row21,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH12_SOC_MBIST_SRT_SRVD_HarvGH12_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE12) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row22,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH13_SOC_MBIST_SRT_SRVD_HarvGH13_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE14) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row23,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH14_SOC_MBIST_SRT_SRVD_HarvGH14_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE13) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row24,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH15_SOC_MBIST_SRT_SRVD_HarvGH15_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE15) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row25,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH16_SOC_MBIST_SRT_SRVD_HarvGH16_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_X_ANEALL && F_SOC_BIST_ANE16) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row26,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVD_HarvGH17_SOC_MBIST_SRT_SRVD_HarvGH17_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row28,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_SRT_SRVC_SOC_MBIST_SRT_SRVC_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						If	(!F_SOC_TD_AT && !F_SOC_TD_ID && !F_SOC_TD_ED0 && !F_SOC_TD_ED1) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row30,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_NRT_NoHarv_SOC_MBIST_NRT_NoHarv_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row31,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_NRT_HarvAT_SOC_MBIST_NRT_HarvAT_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV							Flag-true	F_SOC_TD_AT									
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row32,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_NRT_HarvID_SOC_MBIST_NRT_HarvID_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV							Flag-true	F_SOC_TD_ID									
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row33,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_NRT_HarvED0_SOC_MBIST_NRT_HarvED0_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV							Flag-true	F_SOC_TD_ED0									
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row34,MSX001 BIST SRT PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SRT_PBC_MSX001_SOC_MBIST_NRT_HarvED1_SOC_MBIST_NRT_HarvED1_outsidebincut_BV														F_Mbist_MS001_SRT_PBC_outsidebincut_BV							Flag-true	F_SOC_TD_ED1									
+					no_pattern	Bintable	Bin_Mbist_MS001_SRT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row44,MSX005 BIST SFT PBC,Mbist		T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_SFT_PBC_MSX005_SOC_MBIST_SFT_SOC_MBIST_SFT_outsidebincut_BV														F_Mbist_MS005_SFT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_MS005_SFT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row75,MSX001 CPU TD DOMAIN PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_Domain_PBC_MSX001_PCPU_DOMAINX_PCPU_DOMAINX_outsidebincut_BV														F_TD_MS001_Domain_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS001_Domain_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row75,MSX001 CPU TD DOMAIN PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_Domain_PBC_MSX001_PCPU_DOMAINX_ArgsValue_PCPU_DOMAINX_outsidebincut_BV														F_TD_MS001_Domain_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS001_Domain_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row76,MSX001 CPU TD DOMAIN PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_Domain_PBC_MSX001_ECPU_DOMAINX_ECPU_DOMAINX_outsidebincut_BV														F_TD_MS001_Domain_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS001_Domain_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row76,MSX001 CPU TD DOMAIN PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_Domain_PBC_MSX001_ECPU_DOMAINX_ArgsValue_ECPU_DOMAINX_outsidebincut_BV														F_TD_MS001_Domain_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS001_Domain_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row78,MSX005 CPU TD DOMAIN PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_Domain_PBC_MSX005_PCPU_DOMAINX_1_PBC_PCPU_DOMAINX_outsidebincut_BV														F_TD_MS005_Domain_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS005_Domain_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row78,MSX005 CPU TD DOMAIN PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_Domain_PBC_MSX005_PCPU_DOMAINX_1_PBC_ArgsValue_PCPU_DOMAINX_outsidebincut_BV														F_TD_MS005_Domain_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS005_Domain_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row79,MSX005 CPU TD DOMAIN PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_Domain_PBC_MSX005_ECPU_DOMAINX_1_PBC_ECPU_DOMAINX_outsidebincut_BV														F_TD_MS005_Domain_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS005_Domain_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row79,MSX005 CPU TD DOMAIN PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_Domain_PBC_MSX005_ECPU_DOMAINX_1_PBC_ArgsValue_ECPU_DOMAINX_outsidebincut_BV														F_TD_MS005_Domain_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS005_Domain_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row45,MPX00H BIST WUS PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_WUS_PBC_MPX00H_PCPU_MBIST_WUS_PCPU_MBIST_WUS_outsidebincut_BV														F_Mbist_MP00H_WUS_PBC_outsidebincut_BV							Flag-false	F_Enable_CPU_Turbo									
+					no_pattern	Bintable	Bin_Mbist_MP00H_WUS_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row50,MPX00H BIST 24N PBC,Mbist		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_24N_PBC_MPX00H_PCPU_MBIST_24N_PCPU_MBIST_24N_outsidebincut_BV														F_Mbist_MP00H_24N_PBC_outsidebincut_BV							Flag-false	F_Enable_CPU_Turbo									
+					no_pattern	Bintable	Bin_Mbist_MP00H_24N_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row46,MPX00L BIST WUS PBC,Mbist		FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00J_WUS_PBC_MPX00L_PCPU_MBIST_WUS_PCPU_MBIST_WUS_outsidebincut_BV														F_Mbist_MP00J_WUS_PBC_outsidebincut_BV							Flag-true	F_Enable_CPU_Turbo									
+					no_pattern	Bintable	Bin_Mbist_MP00J_WUS_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row51,MPX00L BIST 24N PBC,Mbist		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00J_24N_PBC_MPX00L_PCPU_MBIST_24N_PCPU_MBIST_24N_outsidebincut_BV														F_Mbist_MP00J_24N_PBC_outsidebincut_BV							Flag-true	F_Enable_CPU_Turbo									
+					no_pattern	Bintable	Bin_Mbist_MP00J_24N_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+		T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			BlankInstance	Test	ME009_WUS_PBC_Mbist_ME009_WUS_PBC_MEX009_BIST_WUS_PBC_outsidebincut_BV														F_Mbist_ME009_WUS_PBC_outsidebincut_BV																	
+					BlankInstance	Bintable	Bin_Mbist_ME009_WUS_PBC_outsidebincut_BV																															
+					BlankInstance	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row49,MEX009 BIST 24N PBC,Mbist		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	ME009_24N_PBC_MEX009_ECPU_MBIST_24N_ECPU_MBIST_24N_outsidebincut_BV														F_Mbist_ME009_24N_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_Mbist_ME009_24N_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row81,MDX001 SOC SBST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS001_SSBI_PBC_MDX001_SBST_SBST_outsidebincut_BV														F_TD_MS001_SSBI_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS001_SSBI_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row95,MSX001 SOC TD CUX PBC,TD		CP1||FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_TD_PBC_MSX001_SOC_MSX001_TD_CUC0_CUD0_UNC_PL10_SOC_MSX001_TD_CUC0_CUD0_UNC_PL10_outsidebincut_BV														F_TD_MS005_TD_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS005_TD_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row96,MSX001 SOC TD CUX PBC,TD		CP1||FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_TD_PBC_MSX001_SOC_MSX001_TD_CUE0_UNC_PL10_SOC_MSX001_TD_CUE0_UNC_PL10_outsidebincut_BV														F_TD_MS005_TD_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS005_TD_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row97,MSX001 SOC TD CUX PBC,TD		(CP1||FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && RMA			no_pattern	Test	MS005_TD_PBC_MSX001_SOC_MSX001_TD_CUX_UNC_PL40_SOC_MSX001_TD_CUX_UNC_PL40_outsidebincut_BV														F_TD_MS005_TD_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS005_TD_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row83,MDS058 SOC SBST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MD008_SSBI_PBC_MDS058_SBST_MDS058_Post_SBST_MDS058_outsidebincut_BV														F_TD_MD008_SSBI_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MD008_SSBI_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row82,MDX008 SOC SBST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MD008_SSBI_PBC_MDX008_SBST_1_PBC_SBST_outsidebincut_BV														F_TD_MD008_SSBI_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MD008_SSBI_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row36,MSX001 SOC TD CXT PBC,TD		CP1||CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	CP1,CP2,FT1,FT2		no_pattern	Test	MS001_CXT_PBC_MSX001_SOC_MSX001_SOCTD_CXTF_CXTK_SOC_MSX001_SOCTD_CXTF_CXTK_outsidebincut_BV														F_TD_MS001_CXT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS001_CXT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row37,MSX001 SOC TD CXT PBC,TD		CP1||CP2||FT1||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	CP1,CP2,FT1,FT2		no_pattern	Test	MS001_CXT_PBC_MSX001_SOC_MSX001_SOCTD_CXT_Rest_SOC_MSX001_SOCTD_CXT_Rest_outsidebincut_BV														F_TD_MS001_CXT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS001_CXT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row39,MSX005 SOC TD CXT PBC,TD		CP1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	CP1,CP2,FT1,FT2		no_pattern	Test	MS005_CXT_PBC_MSX005_SOC_MSX005_SOCTD_CXTF_CXTK_SOC_MSX005_SOCTD_CXTF_CXTK_outsidebincut_BV														F_TD_MS005_CXT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS005_CXT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row40,MSX005 SOC TD CXT PBC,TD		CP1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT	CP1,CP2,FT1,FT2		no_pattern	Test	MS005_CXT_PBC_MSX005_SOC_MSX005_SOCTD_CXT_Rest_SOC_MSX005_SOCTD_CXT_Rest_outsidebincut_BV														F_TD_MS005_CXT_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MS005_CXT_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						If	(!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row53,MPX001 TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP001_CEXTEST_PBC_MPX001_DIV166_CEXTEST_MPX001 DIV166_CEXTEST_outsidebincut_BV														F_TD_MP001_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MP001_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row54,MPX001 TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP001_CEXTEST_PBC_MPX001_DIV166_CEXTEST_CORE0HARVEST_DIV166_CEXTEST_CORE0HARVEST_outsidebincut_BV														F_TD_MP001_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MP001_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_PCPU_TD_CORE0&&F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row55,MPX001 TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP001_CEXTEST_PBC_MPX001_DIV166_CEXTEST_CORE1HARVEST_DIV166_CEXTEST_CORE1HARVEST_outsidebincut_BV														F_TD_MP001_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MP001_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row56,MPX001 TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP001_CEXTEST_PBC_MPX001_DIV166_CEXTEST_CORE2HARVEST_DIV166_CEXTEST_CORE2HARVEST_outsidebincut_BV														F_TD_MP001_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MP001_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row57,MPX001 TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP001_CEXTEST_PBC_MPX001_DIV166_CEXTEST_CORE3HARVEST_DIV166_CEXTEST_CORE3HARVEST_outsidebincut_BV														F_TD_MP001_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MP001_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row59,MPX00F TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_CEXTEST_PBC_MPX00F_DIV166_CEXTEST_1_PBC_DIV166_CEXTEST_outsidebincut_BV														F_TD_MP00H_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MP00H_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row60,MPX00F TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_CEXTEST_PBC_MPX00F_DIV166_CEXTEST_CORE0HARVEST_1_PBC_DIV166_CEXTEST_CORE0HARVEST_outsidebincut_BV														F_TD_MP00H_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MP00H_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_PCPU_TD_CORE0&&F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row61,MPX00F TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_CEXTEST_PBC_MPX00F_DIV166_CEXTEST_CORE1HARVEST_1_PBC_DIV166_CEXTEST_CORE1HARVEST_outsidebincut_BV														F_TD_MP00H_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MP00H_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row62,MPX00F TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_CEXTEST_PBC_MPX00F_DIV166_CEXTEST_CORE2HARVEST_1_PBC_DIV166_CEXTEST_CORE2HARVEST_outsidebincut_BV														F_TD_MP00H_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MP00H_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_PostBincut,Row63,MPX00F TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00H_CEXTEST_PBC_MPX00F_DIV166_CEXTEST_CORE3HARVEST_1_PBC_DIV166_CEXTEST_CORE3HARVEST_outsidebincut_BV														F_TD_MP00H_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_MP00H_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+Instance_Bincut_PostBincut,Row72,MEX001 TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	ME001_CEXTEST_PBC_MEX001_DIV166_CEXTEST_2_PBC_MEX001_DIV166_CEXTEST_outsidebincut_BV														F_TD_ME001_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_ME001_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_PostBincut,Row73,MEX008 TD CEXTEST PBC,TD		FT1||FT2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT			no_pattern	Test	ME009_CEXTEST_PBC_MEX008_DIV166_CEXTEST_3_PBC_MEX008_DIV166_CEXTEST_outsidebincut_BV														F_TD_ME009_CEXTEST_PBC_outsidebincut_BV																	
+					no_pattern	Bintable	Bin_TD_ME009_CEXTEST_PBC_outsidebincut_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						print	"Flow PostBincut Stop"																															
+						Test	PostBincut_Footer_1																															
+						Return																																

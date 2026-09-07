@@ -1,0 +1,754 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow L_BI_PP_CP2 Start "																															
+						flag-clear	Control_C1_START,Control_C1_SOC_INIT_1,Control_C1_F_SOC_INIT_1,Control_C1_GFX_INIT_1,Control_C1_F_GFX_INIT_1,Control_C1_EMA_CHECKER_1,Control_C1_F_EMA_CHECKER_1,Control_C1_PLL_MGSXXX_1,Control_C1_F_PLL_MGSXXX_1,Control_C1_SMS_RESET_1,Control_C1_EFUSE_PRIME_1,Control_C1_SMART_REPAIR_1,Control_C1_F_SMART_REPAIR_1,Control_C1_MRR_TO_INBR_1,Control_C1_F_MRR_TO_INBR_1,Control_C1_BIRA_PARALLEL,Control_C1_PLL_MGSXXX_2,Control_C1_F_PLL_MGSXXX_2,Control_C1_SRM1F_1,Control_C1_BIRA_PALL_1,Control_C1_SRM00_1,Control_C1_BIRA_PALL_2,Control_C1_SET_F_pe_misc_bira1_gfx_mlv_0,Control_C1_SET_F_pe_misc_bira1_gfx_mhv_0,Control_C2_START,Control_C2_SOC_INIT_1,Control_C2_F_SOC_INIT_1,Control_C2_GFX_INIT_1,Control_C2_F_GFX_INIT_1,Control_C2_EMA_CHECKER_1,Control_C2_F_EMA_CHECKER_1,Control_C2_PLL_MGSXXX_1,Control_C2_F_PLL_MGSXXX_1,Control_C2_SMS_RESET_1,Control_C2_EFUSE_PRIME_1,Control_C2_SMART_REPAIR_1,Control_C2_F_SMART_REPAIR_1,Control_C2_MRR_TO_INBR_1,Control_C2_F_MRR_TO_INBR_1,Control_C2_BIRA_PARALLEL,Control_C2_PLL_MGSXXX_2,Control_C2_F_PLL_MGSXXX_2,Control_C2_SRM1F_1,Control_C2_BIRA_PALL_1,Control_C2_SRM00_1,Control_C2_BIRA_PALL_2,Control_C2_SET_F_pe_misc_bira1_gfx_mlv_0,Control_C2_SET_F_pe_misc_bira1_gfx_mhv_1,Control_C3_START,Control_C3_SOC_INIT_1,Control_C3_F_SOC_INIT_1,Control_C3_GFX_INIT_1,Control_C3_F_GFX_INIT_1,Control_C3_EMA_CHECKER_1,Control_C3_F_EMA_CHECKER_1,Control_C3_PLL_MGSXXX_1,Control_C3_F_PLL_MGSXXX_1,Control_C3_SMS_RESET_1,Control_C3_EFUSE_PRIME_1,Control_C3_SMART_REPAIR_1,Control_C3_F_SMART_REPAIR_1,Control_C3_MRR_TO_INBR_1,Control_C3_F_MRR_TO_INBR_1,Control_C3_BIRA_PARALLEL,Control_C3_PLL_MGSXXX_2,Control_C3_F_PLL_MGSXXX_2,Control_C3_SRM1F_1,Control_C3_BIRA_PALL_1,Control_C3_SRM00_1,Control_C3_BIRA_PALL_2,Control_C3_SET_F_pe_misc_bira1_gfx_mlv_1,Control_C3_SET_F_pe_misc_bira1_gfx_mhv_0,Control_C4_START,Control_C4_SOC_INIT_1,Control_C4_F_SOC_INIT_1,Control_C4_GFX_INIT_1,Control_C4_F_GFX_INIT_1,Control_C4_EMA_CHECKER_1,Control_C4_F_EMA_CHECKER_1,Control_C4_PLL_MGSXXX_1,Control_C4_F_PLL_MGSXXX_1,Control_C4_SMS_RESET_1,Control_C4_EFUSE_PRIME_1,Control_C4_SMART_REPAIR_1,Control_C4_F_SMART_REPAIR_1,Control_C4_MRR_TO_INBR_1,Control_C4_F_MRR_TO_INBR_1,Control_C4_BIRA_PARALLEL,Control_C4_PLL_MGSXXX_2,Control_C4_F_PLL_MGSXXX_2,Control_C4_SRM1F_1,Control_C4_BIRA_PALL_1,Control_C4_SRM00_1,Control_C4_BIRA_PALL_2,Control_C4_SET_F_pe_misc_bira1_gfx_mlv_1,Control_C4_SET_F_pe_misc_bira1_gfx_mhv_1,Control_SRM1F_2,Control_BIRA_ERT_1WD_1,Control_RETENTION_VDD_STEP5_1,Control_RETENTION_PAUSE_20_1,Control_BIRA_ERT_1RD_1,Control_BIRA_ERT_1WB_1,Control_RETENTION_VDD_STEP5_2,Control_RETENTION_PAUSE_20_2,Control_BIRA_ERT_1RB_1,Control_PLL_MSX001_1,Control_F_PLL_MSX001_1,Control_SRM1F_3,Control_BIST_PSOC_1,Control_F_BIST_PSOC_1,Control_PLL_MGX001_1,Control_F_PLL_MGX001_1,Control_SRM1F_4,Control_BIRA_PGPU_1,Control_PLL_MSX004_1,Control_F_PLL_MSX004_1,Control_SRM00_2,Control_BIST_PSOC_2,Control_F_BIST_PSOC_2,Control_PLL_MGX00D_1,Control_F_PLL_MGX00D_1,Control_SRM00_3,Control_BIRA_PGPU_2,Control_BISR_1,Control_F_BISR_1,Control_FLOAD_SETUP_1,Control_F_FLOAD_SETUP_1,Control_FLOAD_PRIME_1,Control_BIRA_SERIAL,Control_SOC_INIT_2,Control_F_SOC_INIT_2,Control_GFX_INIT_2,Control_F_GFX_INIT_2,Control_EMA_CHECKER_2,Control_F_EMA_CHECKER_2,Control_PLL_MGSXXX_3,Control_F_PLL_MGSXXX_3,Control_SMS_RESET_2,Control_EFUSE_PRIME_2,Control_SMART_REPAIR_2,Control_F_SMART_REPAIR_2,Control_MRR_TO_INBR_2,Control_F_MRR_TO_INBR_2,Control_Vmargin3_BIRA_NOHARV,Control_PLL_MGSXXX_4,Control_F_PLL_MGSXXX_4,Control_SRM1F_5,Control_BIST_PSOC_3,Control_F_BIST_PSOC_3,Control_BIRA_CS_1,Control_F_BIRA_CS_1,Control_Vmargin3_BIRA_GPU0_FSTP0,Control_BIRA_PGPU0_FSTP0_1,Control_SET_F_GFX0_BIST_FSTP0_1_1,Control_Vmargin3_BIRA_GPU0_FSTP1,Control_BIRA_PGPU0_FSTP1_1,Control_SET_F_GFX0_BIST_FSTP1_1_1,Control_Vmargin3_BIRA_GPU0_FSTP2,Control_BIRA_PGPU0_FSTP2_1,Control_SET_F_GFX0_BIST_FSTP2_1_1,Control_Vmargin3_BIRA_GPU0_FSTP3,Control_BIRA_PGPU0_FSTP3_1,Control_SET_F_GFX0_BIST_FSTP3_1_1,Control_Vmargin3_BIRA_GPU0_FSTP4																															
+						flag-clear	Control_BIRA_PGPU0_FSTP4_1,Control_SET_F_GFX0_BIST_FSTP4_1_1,Control_Vmargin3_BIRA_GPU0_FSTP5,Control_BIRA_PGPU0_FSTP5_1,Control_SET_F_GFX0_BIST_FSTP5_1_1,Control_Vmargin3_BIRA_GPU0_FSTP6,Control_BIRA_PGPU0_FSTP6_1,Control_SET_F_GFX0_BIST_FSTP6_1_1,Control_Vmargin1_BIRA_NOHARV,Control_SRM00_4,Control_BIST_PSOC_4,Control_F_BIST_PSOC_4,Control_BIRA_CS_2,Control_F_BIRA_CS_2,Control_Vmargin1_BIRA_GPU0_FSTP0,Control_BIRA_PGPU0_FSTP0_2,Control_SET_F_GFX0_BIST_FSTP0_1_2,Control_Vmargin1_BIRA_GPU0_FSTP1,Control_BIRA_PGPU0_FSTP1_2,Control_SET_F_GFX0_BIST_FSTP1_1_2,Control_Vmargin1_BIRA_GPU0_FSTP2,Control_BIRA_PGPU0_FSTP2_2,Control_SET_F_GFX0_BIST_FSTP2_1_2,Control_Vmargin1_BIRA_GPU0_FSTP3,Control_BIRA_PGPU0_FSTP3_2,Control_SET_F_GFX0_BIST_FSTP3_1_2,Control_Vmargin1_BIRA_GPU0_FSTP4,Control_BIRA_PGPU0_FSTP4_2,Control_SET_F_GFX0_BIST_FSTP4_1_2,Control_Vmargin1_BIRA_GPU0_FSTP5,Control_BIRA_PGPU0_FSTP5_2,Control_SET_F_GFX0_BIST_FSTP5_1_2,Control_Vmargin1_BIRA_GPU0_FSTP6,Control_BIRA_PGPU0_FSTP6_2,Control_SET_F_GFX0_BIST_FSTP6_1_2,Control_SERIAL_F_PE_MISC_BIRA1_MLV,Control_SERIAL_F_PE_MISC_BIRA1_MHV,Control_NV_BIRA_ERT_1WD_NOHARV,Control_PLL_MGSXXX_5,Control_F_PLL_MGSXXX_5,Control_SRM1F_6,Control_BIST_ERT_1WD_PSOC_1,Control_F_BIST_ERT_1WD_PSOC_1,Control_BIRA_ERT_1WD_CS_1,Control_F_BIRA_ERT_1WD_CS_1,Control_NV_BIRA_ERT_1WD_GPU0_FSTP0,Control_BIRA_ERT_1WD_GPU0_FSTP0_1,Control_SET_F_GFX0_BIST_FSTP0_1_3,Control_NV_BIRA_ERT_1WD_GPU0_FSTP1,Control_BIRA_ERT_1WD_GPU0_FSTP1_1,Control_SET_F_GFX0_BIST_FSTP1_1_3,Control_NV_BIRA_ERT_1WD_GPU0_FSTP2,Control_BIRA_ERT_1WD_GPU0_FSTP2_1,Control_SET_F_GFX0_BIST_FSTP2_1_3,Control_NV_BIRA_ERT_1WD_GPU0_FSTP3,Control_BIRA_ERT_1WD_GPU0_FSTP3_1,Control_SET_F_GFX0_BIST_FSTP3_1_3,Control_NV_BIRA_ERT_1WD_GPU0_FSTP4,Control_BIRA_ERT_1WD_GPU0_FSTP4_1,Control_SET_F_GFX0_BIST_FSTP4_1_3,Control_NV_BIRA_ERT_1WD_GPU0_FSTP5,Control_BIRA_ERT_1WD_GPU0_FSTP5_1,Control_SET_F_GFX0_BIST_FSTP5_1_3,Control_NV_BIRA_ERT_1WD_GPU0_FSTP6,Control_BIRA_ERT_1WD_GPU0_FSTP6_1,Control_SET_F_GFX0_BIST_FSTP6_1_3,Control_ENTER_BIRA_1WD_RETENTION,Control_RETENTION_VDD_STEP5_3,Control_RETENTION_PAUSE_20_3,Control_NV_BIRA_ERT_1RD_NOHARV,Control_BIST_ERT_1RD_PSOC_1,Control_F_BIST_ERT_1RD_PSOC_1,Control_BIRA_ERT_1RD_CS_1,Control_F_BIRA_ERT_1RD_CS_1,Control_NV_BIRA_ERT_1RD_GPU0_FSTP0,Control_BIRA_ERT_1RD_GPU0_FSTP0_1,Control_SET_F_GFX0_BIST_FSTP0_1_4,Control_NV_BIRA_ERT_1RD_GPU0_FSTP1,Control_BIRA_ERT_1RD_GPU0_FSTP1_1,Control_SET_F_GFX0_BIST_FSTP1_1_4,Control_NV_BIRA_ERT_1RD_GPU0_FSTP2,Control_BIRA_ERT_1RD_GPU0_FSTP2_1,Control_SET_F_GFX0_BIST_FSTP2_1_4,Control_NV_BIRA_ERT_1RD_GPU0_FSTP3,Control_BIRA_ERT_1RD_GPU0_FSTP3_1,Control_SET_F_GFX0_BIST_FSTP3_1_4,Control_NV_BIRA_ERT_1RD_GPU0_FSTP4,Control_BIRA_ERT_1RD_GPU0_FSTP4_1,Control_SET_F_GFX0_BIST_FSTP4_1_4,Control_NV_BIRA_ERT_1RD_GPU0_FSTP5,Control_BIRA_ERT_1RD_GPU0_FSTP5_1,Control_SET_F_GFX0_BIST_FSTP5_1_4,Control_NV_BIRA_ERT_1RD_GPU0_FSTP6,Control_BIRA_ERT_1RD_GPU0_FSTP6_1,Control_SET_F_GFX0_BIST_FSTP6_1_4,Control_NV_BIRA_ERT_1WB_NOHARV,Control_BIST_ERT_1WB_PSOC_1,Control_F_BIST_ERT_1WB_PSOC_1,Control_BIRA_ERT_1WB_CS_1,Control_F_BIRA_ERT_1WB_CS_1,Control_NV_BIRA_ERT_1WB_GPU0_FSTP0,Control_BIRA_ERT_1WB_GPU0_FSTP0_1,Control_SET_F_GFX0_BIST_FSTP0_1_5,Control_NV_BIRA_ERT_1WB_GPU0_FSTP1,Control_BIRA_ERT_1WB_GPU0_FSTP1_1,Control_SET_F_GFX0_BIST_FSTP1_1_5,Control_NV_BIRA_ERT_1WB_GPU0_FSTP2,Control_BIRA_ERT_1WB_GPU0_FSTP2_1,Control_SET_F_GFX0_BIST_FSTP2_1_5,Control_NV_BIRA_ERT_1WB_GPU0_FSTP3,Control_BIRA_ERT_1WB_GPU0_FSTP3_1,Control_SET_F_GFX0_BIST_FSTP3_1_5,Control_NV_BIRA_ERT_1WB_GPU0_FSTP4,Control_BIRA_ERT_1WB_GPU0_FSTP4_1,Control_SET_F_GFX0_BIST_FSTP4_1_5,Control_NV_BIRA_ERT_1WB_GPU0_FSTP5,Control_BIRA_ERT_1WB_GPU0_FSTP5_1,Control_SET_F_GFX0_BIST_FSTP5_1_5,Control_NV_BIRA_ERT_1WB_GPU0_FSTP6,Control_BIRA_ERT_1WB_GPU0_FSTP6_1,Control_SET_F_GFX0_BIST_FSTP6_1_5,Control_ENTER_BIRA_1WB_RETENTION,Control_RETENTION_VDD_STEP5_4,Control_RETENTION_PAUSE_20_4,Control_NV_BIRA_ERT_1RB_NOHARV,Control_BIST_ERT_1RB_PSOC_1,Control_F_BIST_ERT_1RB_PSOC_1																															
+						flag-clear	Control_BIRA_ERT_1RB_CS_1,Control_F_BIRA_ERT_1RB_CS_1,Control_NV_BIRA_ERT_1RB_GPU0_FSTP0,Control_BIRA_ERT_1RB_GPU0_FSTP0_1,Control_SET_F_GFX0_BIST_FSTP0_1_6,Control_NV_BIRA_ERT_1RB_GPU0_FSTP1,Control_BIRA_ERT_1RB_GPU0_FSTP1_1,Control_SET_F_GFX0_BIST_FSTP1_1_6,Control_NV_BIRA_ERT_1RB_GPU0_FSTP2,Control_BIRA_ERT_1RB_GPU0_FSTP2_1,Control_SET_F_GFX0_BIST_FSTP2_1_6,Control_NV_BIRA_ERT_1RB_GPU0_FSTP3,Control_BIRA_ERT_1RB_GPU0_FSTP3_1,Control_SET_F_GFX0_BIST_FSTP3_1_6,Control_NV_BIRA_ERT_1RB_GPU0_FSTP4,Control_BIRA_ERT_1RB_GPU0_FSTP4_1,Control_SET_F_GFX0_BIST_FSTP4_1_6,Control_NV_BIRA_ERT_1RB_GPU0_FSTP5,Control_BIRA_ERT_1RB_GPU0_FSTP5_1,Control_SET_F_GFX0_BIST_FSTP5_1_6,Control_NV_BIRA_ERT_1RB_GPU0_FSTP6,Control_BIRA_ERT_1RB_GPU0_FSTP6_1,Control_SET_F_GFX0_BIST_FSTP6_1_6,Control_LV_BIRA_NOHARV,Control_PLL_MSX001_2,Control_F_PLL_MSX001_2,Control_SRM1F_7,Control_BIST_PSOC_5,Control_F_BIST_PSOC_5,Control_PLL_MGX001_2,Control_F_PLL_MGX001_2,Control_SRM1F_8,Control_BIRA_CS_3,Control_F_BIRA_CS_3,Control_LV_BIRA_GPU0_FSTP0,Control_BIRA_PGPU0_FSTP0_3,Control_SET_F_GFX0_BIST_FSTP0_1_7,Control_LV_BIRA_GPU0_FSTP1,Control_BIRA_PGPU0_FSTP1_3,Control_SET_F_GFX0_BIST_FSTP1_1_7,Control_LV_BIRA_GPU0_FSTP2,Control_BIRA_PGPU0_FSTP2_3,Control_SET_F_GFX0_BIST_FSTP2_1_7,Control_LV_BIRA_GPU0_FSTP3,Control_BIRA_PGPU0_FSTP3_3,Control_SET_F_GFX0_BIST_FSTP3_1_7,Control_LV_BIRA_GPU0_FSTP4,Control_BIRA_PGPU0_FSTP4_3,Control_SET_F_GFX0_BIST_FSTP4_1_7,Control_LV_BIRA_GPU0_FSTP5,Control_BIRA_PGPU0_FSTP5_3,Control_SET_F_GFX0_BIST_FSTP5_1_7,Control_LV_BIRA_GPU0_FSTP6,Control_BIRA_PGPU0_FSTP6_3,Control_SET_F_GFX0_BIST_FSTP6_1_7,Control_HV_BIRA_NOHARV,Control_PLL_MSX004_2,Control_F_PLL_MSX004_2,Control_SRM00_5,Control_BIST_PSOC_6,Control_F_BIST_PSOC_6,Control_PLL_MGX00D_2,Control_F_PLL_MGX00D_2,Control_SRM00_6,Control_BIRA_CS_4,Control_F_BIRA_CS_4,Control_HV_BIRA_GPU0_FSTP0,Control_BIRA_PGPU0_FSTP0_4,Control_SET_F_GFX0_BIST_FSTP0_1_8,Control_HV_BIRA_GPU0_FSTP1,Control_BIRA_PGPU0_FSTP1_4,Control_SET_F_GFX0_BIST_FSTP1_1_8,Control_HV_BIRA_GPU0_FSTP2,Control_BIRA_PGPU0_FSTP2_4,Control_SET_F_GFX0_BIST_FSTP2_1_8,Control_HV_BIRA_GPU0_FSTP3,Control_BIRA_PGPU0_FSTP3_4,Control_SET_F_GFX0_BIST_FSTP3_1_8,Control_HV_BIRA_GPU0_FSTP4,Control_BIRA_PGPU0_FSTP4_4,Control_SET_F_GFX0_BIST_FSTP4_1_8,Control_HV_BIRA_GPU0_FSTP5,Control_BIRA_PGPU0_FSTP5_4,Control_SET_F_GFX0_BIST_FSTP5_1_8,Control_HV_BIRA_GPU0_FSTP6,Control_BIRA_PGPU0_FSTP6_4,Control_SET_F_GFX0_BIST_FSTP6_1_8,Control_CHECK_FOR_VALID_REPAIR,Control_BISR_2,Control_F_BISR_2,Control_NV_REP_CLR_GPU0_FSTP0,Control_GET_F_GFX0_BIST_FSTP0_1,Control_RSCR_CLEAR_GPU0_FSTP0_1,Control_F_RSCR_CLEAR_GPU0_FSTP0_1,Control_NV_REP_CLR_GPU0_FSTP1,Control_GET_F_GFX0_BIST_FSTP1_1,Control_RSCR_CLEAR_GPU0_FSTP1_1,Control_F_RSCR_CLEAR_GPU0_FSTP1_1,Control_NV_REP_CLR_GPU0_FSTP2,Control_GET_F_GFX0_BIST_FSTP2_1,Control_RSCR_CLEAR_GPU0_FSTP2_1,Control_F_RSCR_CLEAR_GPU0_FSTP2_1,Control_NV_REP_CLR_GPU0_FSTP3,Control_GET_F_GFX0_BIST_FSTP3_1,Control_RSCR_CLEAR_GPU0_FSTP3_1,Control_F_RSCR_CLEAR_GPU0_FSTP3_1,Control_NV_REP_CLR_GPU0_FSTP4,Control_GET_F_GFX0_BIST_FSTP4_1,Control_RSCR_CLEAR_GPU0_FSTP4_1,Control_F_RSCR_CLEAR_GPU0_FSTP4_1,Control_NV_REP_CLR_GPU0_FSTP5,Control_GET_F_GFX0_BIST_FSTP5_1,Control_RSCR_CLEAR_GPU0_FSTP5_1,Control_F_RSCR_CLEAR_GPU0_FSTP5_1,Control_NV_REP_CLR_GPU0_FSTP6,Control_GET_F_GFX0_BIST_FSTP6_1,Control_RSCR_CLEAR_GPU0_FSTP6_1,Control_F_RSCR_CLEAR_GPU0_FSTP6_1,Control_NV_FLS,Control_FLOAD_SETUP_2,Control_F_FLOAD_SETUP_2,Control_CHECK_FOR_PRIME_DIE,Control_FLOAD_PRIME_2,Control_SET_F_GFX_BIST_CHECK,Control_EFUSE_PGM,Control_EFUSE_PROGRAM_1,Control_F_EFUSE_PROGRAM_1,Control_SET_MR_1_1,Control_SRM00_7,Control_EFUSE_COMPARE_1,Control_F_EFUSE_COMPARE_1,Control_SRM1F_9,Control_EFUSE_COMPARE_2,Control_F_EFUSE_COMPARE_2,Control_SET_MR_0_1,Control_BIST_SERIAL,Control_SOC_INIT_3,Control_F_SOC_INIT_3,Control_GFX_INIT_3,Control_F_GFX_INIT_3,Control_EMA_CHECKER_3,Control_F_EMA_CHECKER_3,Control_SMART_REPAIR_3,Control_F_SMART_REPAIR_3,Control_Vmargin3_BIST_NOHARV																															
+						flag-clear	Control_PLL_MGSXXX_6,Control_F_PLL_MGSXXX_6,Control_SRM1F_10,Control_BIST_PSOC_7,Control_F_BIST_PSOC_7,Control_BIST_CS_1,Control_F_BIST_CS_1,Control_Vmargin3_BIST_GPU0_FSTP0,Control_BIST_PGPU0_FSTP0_1,Control_SET_F_GFX0_BIST_FSTP0_1_9,Control_Vmargin3_BIST_GPU0_FSTP1,Control_BIST_PGPU0_FSTP1_1,Control_SET_F_GFX0_BIST_FSTP1_1_9,Control_Vmargin3_BIST_GPU0_FSTP2,Control_BIST_PGPU0_FSTP2_1,Control_SET_F_GFX0_BIST_FSTP2_1_9,Control_Vmargin3_BIST_GPU0_FSTP3,Control_BIST_PGPU0_FSTP3_1,Control_SET_F_GFX0_BIST_FSTP3_1_9,Control_Vmargin3_BIST_GPU0_FSTP4,Control_BIST_PGPU0_FSTP4_1,Control_SET_F_GFX0_BIST_FSTP4_1_9,Control_Vmargin3_BIST_GPU0_FSTP5,Control_BIST_PGPU0_FSTP5_1,Control_SET_F_GFX0_BIST_FSTP5_1_9,Control_Vmargin3_BIST_GPU0_FSTP6,Control_BIST_PGPU0_FSTP6_1,Control_SET_F_GFX0_BIST_FSTP6_1_9,Control_Vmargin1_BIST_NOHARV,Control_SRM00_8,Control_BIST_PSOC_8,Control_F_BIST_PSOC_8,Control_BIST_CS_2,Control_F_BIST_CS_2,Control_Vmargin1_BIST_GPU0_FSTP0,Control_BIST_PGPU0_FSTP0_2,Control_SET_F_GFX0_BIST_FSTP0_1_10,Control_Vmargin1_BIST_GPU0_FSTP1,Control_BIST_PGPU0_FSTP1_2,Control_SET_F_GFX0_BIST_FSTP1_1_10,Control_Vmargin1_BIST_GPU0_FSTP2,Control_BIST_PGPU0_FSTP2_2,Control_SET_F_GFX0_BIST_FSTP2_1_10,Control_Vmargin1_BIST_GPU0_FSTP3,Control_BIST_PGPU0_FSTP3_2,Control_SET_F_GFX0_BIST_FSTP3_1_10,Control_Vmargin1_BIST_GPU0_FSTP4,Control_BIST_PGPU0_FSTP4_2,Control_SET_F_GFX0_BIST_FSTP4_1_10,Control_Vmargin1_BIST_GPU0_FSTP5,Control_BIST_PGPU0_FSTP5_2,Control_SET_F_GFX0_BIST_FSTP5_1_10,Control_Vmargin1_BIST_GPU0_FSTP6,Control_BIST_PGPU0_FSTP6_2,Control_SET_F_GFX0_BIST_FSTP6_1_10,Control_NV_BIST_ERT_1WD_NOHARV,Control_PLL_MGSXXX_7,Control_F_PLL_MGSXXX_7,Control_SRM1F_11,Control_BIST_ERT_1WD_PSOC_2,Control_F_BIST_ERT_1WD_PSOC_2,Control_BIST_ERT_1WD_CS_1,Control_F_BIST_ERT_1WD_CS_1,Control_NV_BIST_ERT_1WD_GPU0_FSTP0,Control_BIST_ERT_1WD_GPU0_FSTP0_1,Control_SET_F_GFX0_BIST_FSTP0_1_11,Control_NV_BIST_ERT_1WD_GPU0_FSTP1,Control_BIST_ERT_1WD_GPU0_FSTP1_1,Control_SET_F_GFX0_BIST_FSTP1_1_11,Control_NV_BIST_ERT_1WD_GPU0_FSTP2,Control_BIST_ERT_1WD_GPU0_FSTP2_1,Control_SET_F_GFX0_BIST_FSTP2_1_11,Control_NV_BIST_ERT_1WD_GPU0_FSTP3,Control_BIST_ERT_1WD_GPU0_FSTP3_1,Control_SET_F_GFX0_BIST_FSTP3_1_11,Control_NV_BIST_ERT_1WD_GPU0_FSTP4,Control_BIST_ERT_1WD_GPU0_FSTP4_1,Control_SET_F_GFX0_BIST_FSTP4_1_11,Control_NV_BIST_ERT_1WD_GPU0_FSTP5,Control_BIST_ERT_1WD_GPU0_FSTP5_1,Control_SET_F_GFX0_BIST_FSTP5_1_11,Control_NV_BIST_ERT_1WD_GPU0_FSTP6,Control_BIST_ERT_1WD_GPU0_FSTP6_1,Control_SET_F_GFX0_BIST_FSTP6_1_11,Control_ENTER_BIST_1WD_RETENTION,Control_RETENTION_VDD_STEP5_5,Control_RETENTION_PAUSE_20_5,Control_NV_BIST_ERT_1RD_NOHARV,Control_BIST_ERT_1RD_PSOC_2,Control_F_BIST_ERT_1RD_PSOC_2,Control_BIST_ERT_1RD_CS_1,Control_F_BIST_ERT_1RD_CS_1,Control_NV_BIST_ERT_1RD_GPU0_FSTP0,Control_BIST_ERT_1RD_GPU0_FSTP0_1,Control_SET_F_GFX0_BIST_FSTP0_1_12,Control_NV_BIST_ERT_1RD_GPU0_FSTP1,Control_BIST_ERT_1RD_GPU0_FSTP1_1,Control_SET_F_GFX0_BIST_FSTP1_1_12,Control_NV_BIST_ERT_1RD_GPU0_FSTP2,Control_BIST_ERT_1RD_GPU0_FSTP2_1,Control_SET_F_GFX0_BIST_FSTP2_1_12,Control_NV_BIST_ERT_1RD_GPU0_FSTP3,Control_BIST_ERT_1RD_GPU0_FSTP3_1,Control_SET_F_GFX0_BIST_FSTP3_1_12,Control_NV_BIST_ERT_1RD_GPU0_FSTP4,Control_BIST_ERT_1RD_GPU0_FSTP4_1,Control_SET_F_GFX0_BIST_FSTP4_1_12,Control_NV_BIST_ERT_1RD_GPU0_FSTP5,Control_BIST_ERT_1RD_GPU0_FSTP5_1,Control_SET_F_GFX0_BIST_FSTP5_1_12,Control_NV_BIST_ERT_1RD_GPU0_FSTP6,Control_BIST_ERT_1RD_GPU0_FSTP6_1,Control_SET_F_GFX0_BIST_FSTP6_1_12,Control_NV_BIST_ERT_1WB_NOHARV,Control_BIST_ERT_1WB_PSOC_2,Control_F_BIST_ERT_1WB_PSOC_2,Control_BIST_ERT_1WB_CS_1,Control_F_BIST_ERT_1WB_CS_1,Control_NV_BIST_ERT_1WB_GPU0_FSTP0,Control_BIST_ERT_1WB_GPU0_FSTP0_1,Control_SET_F_GFX0_BIST_FSTP0_1_13,Control_NV_BIST_ERT_1WB_GPU0_FSTP1,Control_BIST_ERT_1WB_GPU0_FSTP1_1,Control_SET_F_GFX0_BIST_FSTP1_1_13,Control_NV_BIST_ERT_1WB_GPU0_FSTP2,Control_BIST_ERT_1WB_GPU0_FSTP2_1,Control_SET_F_GFX0_BIST_FSTP2_1_13,Control_NV_BIST_ERT_1WB_GPU0_FSTP3,Control_BIST_ERT_1WB_GPU0_FSTP3_1																															
+						flag-clear	Control_SET_F_GFX0_BIST_FSTP3_1_13,Control_NV_BIST_ERT_1WB_GPU0_FSTP4,Control_BIST_ERT_1WB_GPU0_FSTP4_1,Control_SET_F_GFX0_BIST_FSTP4_1_13,Control_NV_BIST_ERT_1WB_GPU0_FSTP5,Control_BIST_ERT_1WB_GPU0_FSTP5_1,Control_SET_F_GFX0_BIST_FSTP5_1_13,Control_NV_BIST_ERT_1WB_GPU0_FSTP6,Control_BIST_ERT_1WB_GPU0_FSTP6_1,Control_SET_F_GFX0_BIST_FSTP6_1_13,Control_ENTER_BIST_1WB_RETENTION,Control_RETENTION_VDD_STEP5_6,Control_RETENTION_PAUSE_20_6,Control_NV_BIST_ERT_1RB_NOHARV,Control_BIST_ERT_1RB_PSOC_2,Control_F_BIST_ERT_1RB_PSOC_2,Control_BIST_ERT_1RB_CS_1,Control_F_BIST_ERT_1RB_CS_1,Control_NV_BIST_ERT_1RB_GPU0_FSTP0,Control_BIST_ERT_1RB_GPU0_FSTP0_1,Control_SET_F_GFX0_BIST_FSTP0_1_14,Control_NV_BIST_ERT_1RB_GPU0_FSTP1,Control_BIST_ERT_1RB_GPU0_FSTP1_1,Control_SET_F_GFX0_BIST_FSTP1_1_14,Control_NV_BIST_ERT_1RB_GPU0_FSTP2,Control_BIST_ERT_1RB_GPU0_FSTP2_1,Control_SET_F_GFX0_BIST_FSTP2_1_14,Control_NV_BIST_ERT_1RB_GPU0_FSTP3,Control_BIST_ERT_1RB_GPU0_FSTP3_1,Control_SET_F_GFX0_BIST_FSTP3_1_14,Control_NV_BIST_ERT_1RB_GPU0_FSTP4,Control_BIST_ERT_1RB_GPU0_FSTP4_1,Control_SET_F_GFX0_BIST_FSTP4_1_14,Control_NV_BIST_ERT_1RB_GPU0_FSTP5,Control_BIST_ERT_1RB_GPU0_FSTP5_1,Control_SET_F_GFX0_BIST_FSTP5_1_14,Control_NV_BIST_ERT_1RB_GPU0_FSTP6,Control_BIST_ERT_1RB_GPU0_FSTP6_1,Control_SET_F_GFX0_BIST_FSTP6_1_14,Control_CHECK_REPAIR_INFO,Control_REPAIR_INFO_RSCR_1,Control_PASS_BIN																															
+						flag-false	F_GFX_MBIST_C1_SOC_INIT_1_NV,F_GFX_MBIST_C1_GFX_INIT_1_NV,F_GFX_MBIST_C1_EMA_CHECKER_1_NV,F_GFX_MBIST_C1_PLL_MGSXXX_1_NV,F_GFX_MBIST_C1_EFUSE_PRIME_1_NV,F_GFX_MBIST_C1_SMART_REPAIR_1_NV,F_GFX_MBIST_C1_MRR_TO_INBR_1_NV,F_GFX_MBIST_C1_PLL_MGSXXX_2_NV,F_GFX_MBIST_C2_SOC_INIT_1_NV,F_GFX_MBIST_C2_GFX_INIT_1_NV,F_GFX_MBIST_C2_EMA_CHECKER_1_NV,F_GFX_MBIST_C2_PLL_MGSXXX_1_NV,F_GFX_MBIST_C2_EFUSE_PRIME_1_NV,F_GFX_MBIST_C2_SMART_REPAIR_1_NV,F_GFX_MBIST_C2_MRR_TO_INBR_1_NV,F_GFX_MBIST_C2_PLL_MGSXXX_2_NV,F_GFX_MBIST_C3_SOC_INIT_1_NV,F_GFX_MBIST_C3_GFX_INIT_1_NV,F_GFX_MBIST_C3_EMA_CHECKER_1_NV,F_GFX_MBIST_C3_PLL_MGSXXX_1_NV,F_GFX_MBIST_C3_EFUSE_PRIME_1_NV,F_GFX_MBIST_C3_SMART_REPAIR_1_NV,F_GFX_MBIST_C3_MRR_TO_INBR_1_NV,F_GFX_MBIST_C3_PLL_MGSXXX_2_NV,F_GFX_MBIST_C4_SOC_INIT_1_NV,F_GFX_MBIST_C4_GFX_INIT_1_NV,F_GFX_MBIST_C4_EMA_CHECKER_1_NV,F_GFX_MBIST_C4_PLL_MGSXXX_1_NV,F_GFX_MBIST_C4_EFUSE_PRIME_1_NV,F_GFX_MBIST_C4_SMART_REPAIR_1_NV,F_GFX_MBIST_C4_MRR_TO_INBR_1_NV,F_GFX_MBIST_C4_PLL_MGSXXX_2_NV,F_GFX_MBIST_PLL_MSX001_1_NV,F_GFX_MBIST_BIST_PSOC_1_LV,F_GFX_MBIST_PLL_MGX001_1_NV,F_GFX_MBIST_PLL_MSX004_1_NV,F_GFX_MBIST_BIST_PSOC_2_HV,F_GFX_MBIST_PLL_MGX00D_1_NV,F_GFX_MBIST_BISR_1_NV,F_GFX_MBIST_FLOAD_SETUP_1_NV,F_GFX_MBIST_FLOAD_PRIME_1_NV,F_GFX_MBIST_SOC_INIT_2_NV,F_GFX_MBIST_GFX_INIT_2_NV,F_GFX_MBIST_EMA_CHECKER_2_NV,F_GFX_MBIST_PLL_MGSXXX_3_NV,F_GFX_MBIST_EFUSE_PRIME_2_NV,F_GFX_MBIST_SMART_REPAIR_2_NV,F_GFX_MBIST_MRR_TO_INBR_2_NV,F_GFX_MBIST_PLL_MGSXXX_4_NV,F_GFX_MBIST_BIST_PSOC_3_MLV,F_GFX_MBIST_BIRA_CS_1_MLV,F_GFX_MBIST_BIST_PSOC_4_MHV,F_GFX_MBIST_BIRA_CS_2_MHV,F_GFX_MBIST_PLL_MGSXXX_5_NV,F_GFX_MBIST_BIST_ERT_1WD_PSOC_1_HV,F_GFX_MBIST_BIRA_ERT_1WD_CS_1_HV,F_GFX_MBIST_BIST_ERT_1RD_PSOC_1_HV,F_GFX_MBIST_BIRA_ERT_1RD_CS_1_HV,F_GFX_MBIST_BIST_ERT_1WB_PSOC_1_HV,F_GFX_MBIST_BIRA_ERT_1WB_CS_1_HV,F_GFX_MBIST_BIST_ERT_1RB_PSOC_1_HV,F_GFX_MBIST_BIRA_ERT_1RB_CS_1_HV,F_GFX_MBIST_PLL_MSX001_2_NV,F_GFX_MBIST_BIST_PSOC_5_LV,F_GFX_MBIST_PLL_MGX001_2_NV,F_GFX_MBIST_BIRA_CS_3_LV,F_GFX_MBIST_PLL_MSX004_2_NV,F_GFX_MBIST_BIST_PSOC_6_HV,F_GFX_MBIST_PLL_MGX00D_2_NV,F_GFX_MBIST_BIRA_CS_4_HV,F_GFX_MBIST_BISR_2_NV,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP0_1_NV,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP1_1_NV,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP2_1_NV,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP3_1_NV,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP4_1_NV,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP5_1_NV,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP6_1_NV,F_GFX_MBIST_FLOAD_SETUP_2_NV,F_GFX_MBIST_FLOAD_PRIME_2_NV,F_GFX_MBIST_EFUSE_PROGRAM_1_NV,F_GFX_MBIST_EFUSE_COMPARE_1_HV,F_GFX_MBIST_EFUSE_COMPARE_2_LV,F_GFX_MBIST_SOC_INIT_3_NV,F_GFX_MBIST_GFX_INIT_3_NV,F_GFX_MBIST_EMA_CHECKER_3_NV,F_GFX_MBIST_SMART_REPAIR_3_NV,F_GFX_MBIST_PLL_MGSXXX_6_NV,F_GFX_MBIST_BIST_PSOC_7_MLV,F_GFX_MBIST_BIST_CS_1_MLV,F_GFX_MBIST_BIST_PSOC_8_MHV,F_GFX_MBIST_BIST_CS_2_MHV,F_GFX_MBIST_PLL_MGSXXX_7_NV,F_GFX_MBIST_BIST_ERT_1WD_PSOC_2_HV,F_GFX_MBIST_BIST_ERT_1WD_CS_1_HV,F_GFX_MBIST_BIST_ERT_1RD_PSOC_2_HV,F_GFX_MBIST_BIST_ERT_1RD_CS_1_HV,F_GFX_MBIST_BIST_ERT_1WB_PSOC_2_HV,F_GFX_MBIST_BIST_ERT_1WB_CS_1_HV,F_GFX_MBIST_BIST_ERT_1RB_PSOC_2_HV,F_GFX_MBIST_BIST_ERT_1RB_CS_1_HV																															
+C1_START						flag-true	Control_C1_SOC_INIT_1																															
+C1_SOC_INIT_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_SOC_INIT_1_CP2_NV													Control_C1_GFX_INIT_1	Control_C1_F_SOC_INIT_1,F_GFX_MBIST_C1_SOC_INIT_1_NV							flag-true	Control_C1_SOC_INIT_1									
+C1_F_SOC_INIT_1						Bintable	Bin_GFX_MBIST_C1_SOC_INIT_1_NV																					flag-true	Control_C1_F_SOC_INIT_1									
+C1_GFX_INIT_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_GFX_INIT_1_CP2_NV													Control_C1_EMA_CHECKER_1	Control_C1_F_GFX_INIT_1,F_GFX_MBIST_C1_GFX_INIT_1_NV							flag-true	Control_C1_GFX_INIT_1									
+C1_F_GFX_INIT_1						Bintable	Bin_GFX_MBIST_C1_GFX_INIT_1_NV																					flag-true	Control_C1_F_GFX_INIT_1									
+C1_EMA_CHECKER_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_EMA_CHECKER_1_CP2_NV													Control_C1_PLL_MGSXXX_1	Control_C1_F_EMA_CHECKER_1,F_GFX_MBIST_C1_EMA_CHECKER_1_NV							flag-true	Control_C1_EMA_CHECKER_1									
+C1_F_EMA_CHECKER_1						Bintable	Bin_GFX_MBIST_C1_EMA_CHECKER_1_NV																					flag-true	Control_C1_F_EMA_CHECKER_1									
+C1_PLL_MGSXXX_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_PLL_MGSXXX_1_CP2_NV													Control_C1_SMS_RESET_1	Control_C1_F_PLL_MGSXXX_1,F_GFX_MBIST_C1_PLL_MGSXXX_1_NV							flag-true	Control_C1_PLL_MGSXXX_1									
+C1_F_PLL_MGSXXX_1						Bintable	Bin_GFX_MBIST_C1_PLL_MGSXXX_1_NV																					flag-true	Control_C1_F_PLL_MGSXXX_1									
+C1_SMS_RESET_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_SMS_RESET_1_CP2_NV													Control_C1_EFUSE_PRIME_1	Control_C1_EFUSE_PRIME_1							flag-true	Control_C1_SMS_RESET_1									
+C1_EFUSE_PRIME_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_EFUSE_PRIME_1_CP2_NV													Control_C1_BIRA_PARALLEL	Control_C1_SMART_REPAIR_1,F_GFX_MBIST_C1_EFUSE_PRIME_1_NV							flag-true	Control_C1_EFUSE_PRIME_1									
+C1_SMART_REPAIR_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_SMART_REPAIR_1_CP2_NV													Control_C1_MRR_TO_INBR_1	Control_C1_F_SMART_REPAIR_1,F_GFX_MBIST_C1_SMART_REPAIR_1_NV							flag-true	Control_C1_SMART_REPAIR_1									
+C1_F_SMART_REPAIR_1						Bintable	Bin_GFX_MBIST_C1_SMART_REPAIR_1_NV																					flag-true	Control_C1_F_SMART_REPAIR_1									
+C1_MRR_TO_INBR_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_MRR_TO_INBR_1_CP2_NV													Control_C1_BIRA_PARALLEL	Control_C1_F_MRR_TO_INBR_1,F_GFX_MBIST_C1_MRR_TO_INBR_1_NV							flag-true	Control_C1_MRR_TO_INBR_1									
+C1_F_MRR_TO_INBR_1						Bintable	Bin_GFX_MBIST_C1_MRR_TO_INBR_1_NV																					flag-true	Control_C1_F_MRR_TO_INBR_1									
+C1_BIRA_PARALLEL						flag-true	Control_C1_PLL_MGSXXX_2																					flag-true	Control_C1_BIRA_PARALLEL									
+C1_PLL_MGSXXX_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_PLL_MGSXXX_2_CP2_NV													Control_C1_SRM1F_1	Control_C1_F_PLL_MGSXXX_2,F_GFX_MBIST_C1_PLL_MGSXXX_2_NV							flag-true	Control_C1_PLL_MGSXXX_2									
+C1_F_PLL_MGSXXX_2						Bintable	Bin_GFX_MBIST_C1_PLL_MGSXXX_2_NV																					flag-true	Control_C1_F_PLL_MGSXXX_2									
+C1_SRM1F_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_SRM1F_1_CP2_NV													Control_C1_BIRA_PALL_1	Control_C1_BIRA_PALL_1							flag-true	Control_C1_SRM1F_1									
+C1_BIRA_PALL_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA_Vmargin3_PatSet__BIRA_C1_BIRA_PALL_1_CP2_MLV													Control_C1_SRM00_1	Control_C3_START							flag-true	Control_C1_BIRA_PALL_1									
+C1_SRM00_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C1_SRM00_1_CP2_NV													Control_C1_BIRA_PALL_2	Control_C1_BIRA_PALL_2							flag-true	Control_C1_SRM00_1									
+C1_BIRA_PALL_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA_Vmargin1_PatSet__BIRA_C1_BIRA_PALL_2_CP2_MHV													Control_C1_SET_F_pe_misc_bira1_gfx_mlv_0	Control_C2_START							flag-true	Control_C1_BIRA_PALL_2									
+C1_SET_F_pe_misc_bira1_gfx_mlv_0						flag-false	F_PE_MISC_BIRA1_GFX_MLV																					flag-true	Control_C1_SET_F_pe_misc_bira1_gfx_mlv_0									
+C1_SET_F_pe_misc_bira1_gfx_mlv_0						flag-true	Control_C1_SET_F_pe_misc_bira1_gfx_mhv_0																					flag-true	Control_C1_SET_F_pe_misc_bira1_gfx_mlv_0									
+C1_SET_F_pe_misc_bira1_gfx_mhv_0						flag-false	F_PE_MISC_BIRA1_GFX_MHV																					flag-true	Control_C1_SET_F_pe_misc_bira1_gfx_mhv_0									
+C1_SET_F_pe_misc_bira1_gfx_mhv_0						flag-true	Control_SRM1F_2																					flag-true	Control_C1_SET_F_pe_misc_bira1_gfx_mhv_0									
+C2_START						flag-true	Control_C2_SOC_INIT_1																					flag-true	Control_C2_START									
+C2_SOC_INIT_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_SOC_INIT_1_CP2_NV													Control_C2_GFX_INIT_1	Control_C2_F_SOC_INIT_1,F_GFX_MBIST_C2_SOC_INIT_1_NV							flag-true	Control_C2_SOC_INIT_1									
+C2_F_SOC_INIT_1						Bintable	Bin_GFX_MBIST_C2_SOC_INIT_1_NV																					flag-true	Control_C2_F_SOC_INIT_1									
+C2_GFX_INIT_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_GFX_INIT_1_CP2_NV													Control_C2_EMA_CHECKER_1	Control_C2_F_GFX_INIT_1,F_GFX_MBIST_C2_GFX_INIT_1_NV							flag-true	Control_C2_GFX_INIT_1									
+C2_F_GFX_INIT_1						Bintable	Bin_GFX_MBIST_C2_GFX_INIT_1_NV																					flag-true	Control_C2_F_GFX_INIT_1									
+C2_EMA_CHECKER_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_EMA_CHECKER_1_CP2_NV													Control_C2_PLL_MGSXXX_1	Control_C2_F_EMA_CHECKER_1,F_GFX_MBIST_C2_EMA_CHECKER_1_NV							flag-true	Control_C2_EMA_CHECKER_1									
+C2_F_EMA_CHECKER_1						Bintable	Bin_GFX_MBIST_C2_EMA_CHECKER_1_NV																					flag-true	Control_C2_F_EMA_CHECKER_1									
+C2_PLL_MGSXXX_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_PLL_MGSXXX_1_CP2_NV													Control_C2_SMS_RESET_1	Control_C2_F_PLL_MGSXXX_1,F_GFX_MBIST_C2_PLL_MGSXXX_1_NV							flag-true	Control_C2_PLL_MGSXXX_1									
+C2_F_PLL_MGSXXX_1						Bintable	Bin_GFX_MBIST_C2_PLL_MGSXXX_1_NV																					flag-true	Control_C2_F_PLL_MGSXXX_1									
+C2_SMS_RESET_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_SMS_RESET_1_CP2_NV													Control_C2_EFUSE_PRIME_1	Control_C2_EFUSE_PRIME_1							flag-true	Control_C2_SMS_RESET_1									
+C2_EFUSE_PRIME_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_EFUSE_PRIME_1_CP2_NV													Control_C2_BIRA_PARALLEL	Control_C2_SMART_REPAIR_1,F_GFX_MBIST_C2_EFUSE_PRIME_1_NV							flag-true	Control_C2_EFUSE_PRIME_1									
+C2_SMART_REPAIR_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_SMART_REPAIR_1_CP2_NV													Control_C2_MRR_TO_INBR_1	Control_C2_F_SMART_REPAIR_1,F_GFX_MBIST_C2_SMART_REPAIR_1_NV							flag-true	Control_C2_SMART_REPAIR_1									
+C2_F_SMART_REPAIR_1						Bintable	Bin_GFX_MBIST_C2_SMART_REPAIR_1_NV																					flag-true	Control_C2_F_SMART_REPAIR_1									
+C2_MRR_TO_INBR_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_MRR_TO_INBR_1_CP2_NV													Control_C2_BIRA_PARALLEL	Control_C2_F_MRR_TO_INBR_1,F_GFX_MBIST_C2_MRR_TO_INBR_1_NV							flag-true	Control_C2_MRR_TO_INBR_1									
+C2_F_MRR_TO_INBR_1						Bintable	Bin_GFX_MBIST_C2_MRR_TO_INBR_1_NV																					flag-true	Control_C2_F_MRR_TO_INBR_1									
+C2_BIRA_PARALLEL						flag-true	Control_C2_PLL_MGSXXX_2																					flag-true	Control_C2_BIRA_PARALLEL									
+C2_PLL_MGSXXX_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_PLL_MGSXXX_2_CP2_NV													Control_C2_SRM1F_1	Control_C2_F_PLL_MGSXXX_2,F_GFX_MBIST_C2_PLL_MGSXXX_2_NV							flag-true	Control_C2_PLL_MGSXXX_2									
+C2_F_PLL_MGSXXX_2						Bintable	Bin_GFX_MBIST_C2_PLL_MGSXXX_2_NV																					flag-true	Control_C2_F_PLL_MGSXXX_2									
+C2_SRM1F_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_SRM1F_1_CP2_NV													Control_C2_BIRA_PALL_1	Control_C2_BIRA_PALL_1							flag-true	Control_C2_SRM1F_1									
+C2_BIRA_PALL_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA_Vmargin3_PatSet__BIRA_C2_BIRA_PALL_1_CP2_MLV													Control_C2_SRM00_1	Control_C3_START							flag-true	Control_C2_BIRA_PALL_1									
+C2_SRM00_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C2_SRM00_1_CP2_NV													Control_C2_BIRA_PALL_2	Control_C2_BIRA_PALL_2							flag-true	Control_C2_SRM00_1									
+C2_BIRA_PALL_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet__BIRA_C2_BIRA_PALL_2_CP2_MHV													Control_C2_SET_F_pe_misc_bira1_gfx_mlv_0	Control_C4_START							flag-true	Control_C2_BIRA_PALL_2									
+C2_SET_F_pe_misc_bira1_gfx_mlv_0						flag-false	F_PE_MISC_BIRA1_GFX_MLV																					flag-true	Control_C2_SET_F_pe_misc_bira1_gfx_mlv_0									
+C2_SET_F_pe_misc_bira1_gfx_mlv_0						flag-true	Control_C2_SET_F_pe_misc_bira1_gfx_mhv_1																					flag-true	Control_C2_SET_F_pe_misc_bira1_gfx_mlv_0									
+C2_SET_F_pe_misc_bira1_gfx_mhv_1						flag-true	F_PE_MISC_BIRA1_GFX_MHV																					flag-true	Control_C2_SET_F_pe_misc_bira1_gfx_mhv_1									
+C2_SET_F_pe_misc_bira1_gfx_mhv_1						flag-true	Control_SRM1F_2																					flag-true	Control_C2_SET_F_pe_misc_bira1_gfx_mhv_1									
+C3_START						flag-true	Control_C3_SOC_INIT_1																					flag-true	Control_C3_START									
+C3_SOC_INIT_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_SOC_INIT_1_CP2_NV													Control_C3_GFX_INIT_1	Control_C3_F_SOC_INIT_1,F_GFX_MBIST_C3_SOC_INIT_1_NV							flag-true	Control_C3_SOC_INIT_1									
+C3_F_SOC_INIT_1						Bintable	Bin_GFX_MBIST_C3_SOC_INIT_1_NV																					flag-true	Control_C3_F_SOC_INIT_1									
+C3_GFX_INIT_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_GFX_INIT_1_CP2_NV													Control_C3_EMA_CHECKER_1	Control_C3_F_GFX_INIT_1,F_GFX_MBIST_C3_GFX_INIT_1_NV							flag-true	Control_C3_GFX_INIT_1									
+C3_F_GFX_INIT_1						Bintable	Bin_GFX_MBIST_C3_GFX_INIT_1_NV																					flag-true	Control_C3_F_GFX_INIT_1									
+C3_EMA_CHECKER_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_EMA_CHECKER_1_CP2_NV													Control_C3_PLL_MGSXXX_1	Control_C3_F_EMA_CHECKER_1,F_GFX_MBIST_C3_EMA_CHECKER_1_NV							flag-true	Control_C3_EMA_CHECKER_1									
+C3_F_EMA_CHECKER_1						Bintable	Bin_GFX_MBIST_C3_EMA_CHECKER_1_NV																					flag-true	Control_C3_F_EMA_CHECKER_1									
+C3_PLL_MGSXXX_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_PLL_MGSXXX_1_CP2_NV													Control_C3_SMS_RESET_1	Control_C3_F_PLL_MGSXXX_1,F_GFX_MBIST_C3_PLL_MGSXXX_1_NV							flag-true	Control_C3_PLL_MGSXXX_1									
+C3_F_PLL_MGSXXX_1						Bintable	Bin_GFX_MBIST_C3_PLL_MGSXXX_1_NV																					flag-true	Control_C3_F_PLL_MGSXXX_1									
+C3_SMS_RESET_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_SMS_RESET_1_CP2_NV													Control_C3_EFUSE_PRIME_1	Control_C3_EFUSE_PRIME_1							flag-true	Control_C3_SMS_RESET_1									
+C3_EFUSE_PRIME_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_EFUSE_PRIME_1_CP2_NV													Control_C3_BIRA_PARALLEL	Control_C3_SMART_REPAIR_1,F_GFX_MBIST_C3_EFUSE_PRIME_1_NV							flag-true	Control_C3_EFUSE_PRIME_1									
+C3_SMART_REPAIR_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_SMART_REPAIR_1_CP2_NV													Control_C3_MRR_TO_INBR_1	Control_C3_F_SMART_REPAIR_1,F_GFX_MBIST_C3_SMART_REPAIR_1_NV							flag-true	Control_C3_SMART_REPAIR_1									
+C3_F_SMART_REPAIR_1						Bintable	Bin_GFX_MBIST_C3_SMART_REPAIR_1_NV																					flag-true	Control_C3_F_SMART_REPAIR_1									
+C3_MRR_TO_INBR_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_MRR_TO_INBR_1_CP2_NV													Control_C3_BIRA_PARALLEL	Control_C3_F_MRR_TO_INBR_1,F_GFX_MBIST_C3_MRR_TO_INBR_1_NV							flag-true	Control_C3_MRR_TO_INBR_1									
+C3_F_MRR_TO_INBR_1						Bintable	Bin_GFX_MBIST_C3_MRR_TO_INBR_1_NV																					flag-true	Control_C3_F_MRR_TO_INBR_1									
+C3_BIRA_PARALLEL						flag-true	Control_C3_PLL_MGSXXX_2																					flag-true	Control_C3_BIRA_PARALLEL									
+C3_PLL_MGSXXX_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_PLL_MGSXXX_2_CP2_NV													Control_C3_SRM1F_1	Control_C3_F_PLL_MGSXXX_2,F_GFX_MBIST_C3_PLL_MGSXXX_2_NV							flag-true	Control_C3_PLL_MGSXXX_2									
+C3_F_PLL_MGSXXX_2						Bintable	Bin_GFX_MBIST_C3_PLL_MGSXXX_2_NV																					flag-true	Control_C3_F_PLL_MGSXXX_2									
+C3_SRM1F_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_SRM1F_1_CP2_NV													Control_C3_BIRA_PALL_1	Control_C3_BIRA_PALL_1							flag-true	Control_C3_SRM1F_1									
+C3_BIRA_PALL_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet__BIRA_C3_BIRA_PALL_1_CP2_MLV													Control_C3_SRM00_1	Control_C4_START							flag-true	Control_C3_BIRA_PALL_1									
+C3_SRM00_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C3_SRM00_1_CP2_NV													Control_C3_BIRA_PALL_2	Control_C3_BIRA_PALL_2							flag-true	Control_C3_SRM00_1									
+C3_BIRA_PALL_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA_Vmargin1_PatSet__BIRA_C3_BIRA_PALL_2_CP2_MHV													Control_C3_SET_F_pe_misc_bira1_gfx_mlv_1	Control_C4_START							flag-true	Control_C3_BIRA_PALL_2									
+C3_SET_F_pe_misc_bira1_gfx_mlv_1						flag-true	F_PE_MISC_BIRA1_GFX_MLV																					flag-true	Control_C3_SET_F_pe_misc_bira1_gfx_mlv_1									
+C3_SET_F_pe_misc_bira1_gfx_mlv_1						flag-true	Control_C3_SET_F_pe_misc_bira1_gfx_mhv_0																					flag-true	Control_C3_SET_F_pe_misc_bira1_gfx_mlv_1									
+C3_SET_F_pe_misc_bira1_gfx_mhv_0						flag-false	F_PE_MISC_BIRA1_GFX_MHV																					flag-true	Control_C3_SET_F_pe_misc_bira1_gfx_mhv_0									
+C3_SET_F_pe_misc_bira1_gfx_mhv_0						flag-true	Control_SRM1F_2																					flag-true	Control_C3_SET_F_pe_misc_bira1_gfx_mhv_0									
+C4_START						flag-true	Control_C4_SOC_INIT_1																					flag-true	Control_C4_START									
+C4_SOC_INIT_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_SOC_INIT_1_CP2_NV													Control_C4_GFX_INIT_1	Control_C4_F_SOC_INIT_1,F_GFX_MBIST_C4_SOC_INIT_1_NV							flag-true	Control_C4_SOC_INIT_1									
+C4_F_SOC_INIT_1						Bintable	Bin_GFX_MBIST_C4_SOC_INIT_1_NV																					flag-true	Control_C4_F_SOC_INIT_1									
+C4_GFX_INIT_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_GFX_INIT_1_CP2_NV													Control_C4_EMA_CHECKER_1	Control_C4_F_GFX_INIT_1,F_GFX_MBIST_C4_GFX_INIT_1_NV							flag-true	Control_C4_GFX_INIT_1									
+C4_F_GFX_INIT_1						Bintable	Bin_GFX_MBIST_C4_GFX_INIT_1_NV																					flag-true	Control_C4_F_GFX_INIT_1									
+C4_EMA_CHECKER_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_EMA_CHECKER_1_CP2_NV													Control_C4_PLL_MGSXXX_1	Control_C4_F_EMA_CHECKER_1,F_GFX_MBIST_C4_EMA_CHECKER_1_NV							flag-true	Control_C4_EMA_CHECKER_1									
+C4_F_EMA_CHECKER_1						Bintable	Bin_GFX_MBIST_C4_EMA_CHECKER_1_NV																					flag-true	Control_C4_F_EMA_CHECKER_1									
+C4_PLL_MGSXXX_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_PLL_MGSXXX_1_CP2_NV													Control_C4_SMS_RESET_1	Control_C4_F_PLL_MGSXXX_1,F_GFX_MBIST_C4_PLL_MGSXXX_1_NV							flag-true	Control_C4_PLL_MGSXXX_1									
+C4_F_PLL_MGSXXX_1						Bintable	Bin_GFX_MBIST_C4_PLL_MGSXXX_1_NV																					flag-true	Control_C4_F_PLL_MGSXXX_1									
+C4_SMS_RESET_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_SMS_RESET_1_CP2_NV													Control_C4_EFUSE_PRIME_1	Control_C4_EFUSE_PRIME_1							flag-true	Control_C4_SMS_RESET_1									
+C4_EFUSE_PRIME_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_EFUSE_PRIME_1_CP2_NV													Control_C4_BIRA_PARALLEL	Control_C4_SMART_REPAIR_1,F_GFX_MBIST_C4_EFUSE_PRIME_1_NV							flag-true	Control_C4_EFUSE_PRIME_1									
+C4_SMART_REPAIR_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_SMART_REPAIR_1_CP2_NV													Control_C4_MRR_TO_INBR_1	Control_C4_F_SMART_REPAIR_1,F_GFX_MBIST_C4_SMART_REPAIR_1_NV							flag-true	Control_C4_SMART_REPAIR_1									
+C4_F_SMART_REPAIR_1						Bintable	Bin_GFX_MBIST_C4_SMART_REPAIR_1_NV																					flag-true	Control_C4_F_SMART_REPAIR_1									
+C4_MRR_TO_INBR_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_MRR_TO_INBR_1_CP2_NV													Control_C4_BIRA_PARALLEL	Control_C4_F_MRR_TO_INBR_1,F_GFX_MBIST_C4_MRR_TO_INBR_1_NV							flag-true	Control_C4_MRR_TO_INBR_1									
+C4_F_MRR_TO_INBR_1						Bintable	Bin_GFX_MBIST_C4_MRR_TO_INBR_1_NV																					flag-true	Control_C4_F_MRR_TO_INBR_1									
+C4_BIRA_PARALLEL						flag-true	Control_C4_PLL_MGSXXX_2																					flag-true	Control_C4_BIRA_PARALLEL									
+C4_PLL_MGSXXX_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_PLL_MGSXXX_2_CP2_NV													Control_C4_SRM1F_1	Control_C4_F_PLL_MGSXXX_2,F_GFX_MBIST_C4_PLL_MGSXXX_2_NV							flag-true	Control_C4_PLL_MGSXXX_2									
+C4_F_PLL_MGSXXX_2						Bintable	Bin_GFX_MBIST_C4_PLL_MGSXXX_2_NV																					flag-true	Control_C4_F_PLL_MGSXXX_2									
+C4_SRM1F_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_SRM1F_1_CP2_NV													Control_C4_BIRA_PALL_1	Control_C4_BIRA_PALL_1							flag-true	Control_C4_SRM1F_1									
+C4_BIRA_PALL_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet__BIRA_C4_BIRA_PALL_1_CP2_MLV													Control_C4_SRM00_1	Control_BIRA_SERIAL							flag-true	Control_C4_BIRA_PALL_1									
+C4_SRM00_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_C4_SRM00_1_CP2_NV													Control_C4_BIRA_PALL_2	Control_C4_BIRA_PALL_2							flag-true	Control_C4_SRM00_1									
+C4_BIRA_PALL_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet__BIRA_C4_BIRA_PALL_2_CP2_MHV													Control_C4_SET_F_pe_misc_bira1_gfx_mlv_1	Control_BIRA_SERIAL							flag-true	Control_C4_BIRA_PALL_2									
+C4_SET_F_pe_misc_bira1_gfx_mlv_1						flag-true	F_PE_MISC_BIRA1_GFX_MLV																					flag-true	Control_C4_SET_F_pe_misc_bira1_gfx_mlv_1									
+C4_SET_F_pe_misc_bira1_gfx_mlv_1						flag-true	Control_C4_SET_F_pe_misc_bira1_gfx_mhv_1																					flag-true	Control_C4_SET_F_pe_misc_bira1_gfx_mlv_1									
+C4_SET_F_pe_misc_bira1_gfx_mhv_1						flag-true	F_PE_MISC_BIRA1_GFX_MHV																					flag-true	Control_C4_SET_F_pe_misc_bira1_gfx_mhv_1									
+C4_SET_F_pe_misc_bira1_gfx_mhv_1						flag-true	Control_SRM1F_2																					flag-true	Control_C4_SET_F_pe_misc_bira1_gfx_mhv_1									
+SRM1F_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM1F_2_CP2_NV													Control_BIRA_ERT_1WD_1	Control_BIRA_ERT_1WD_1							flag-true	Control_SRM1F_2									
+BIRA_ERT_1WD_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet__BIRA_BIRA_ERT_1WD_1_CP2_NV													Control_RETENTION_PAUSE_20_1	Control_BIRA_SERIAL							flag-true	Control_BIRA_ERT_1WD_1									
+RETENTION_PAUSE_20_1						Test	GfxMbist_L_BI_PP_CP2_Mbist_GFX_ERTBIRA_Retention_Wait20mS_STEP5													Control_BIRA_ERT_1RD_1	Control_BIRA_ERT_1RD_1							flag-true	Control_RETENTION_PAUSE_20_1									
+BIRA_ERT_1RD_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet__BIRA_BIRA_ERT_1RD_1_CP2_NV													Control_BIRA_ERT_1WB_1	Control_BIRA_SERIAL							flag-true	Control_BIRA_ERT_1RD_1									
+BIRA_ERT_1WB_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet__BIRA_BIRA_ERT_1WB_1_CP2_NV													Control_RETENTION_PAUSE_20_2	Control_BIRA_SERIAL							flag-true	Control_BIRA_ERT_1WB_1									
+RETENTION_PAUSE_20_2						Test	GfxMbist_L_BI_PP_CP2_Mbist_GFX_ERTBIRA_Retention_Wait20mS_STEP5													Control_BIRA_ERT_1RB_1	Control_BIRA_ERT_1RB_1							flag-true	Control_RETENTION_PAUSE_20_2									
+BIRA_ERT_1RB_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet__BIRA_BIRA_ERT_1RB_1_CP2_NV													Control_PLL_MSX001_1	Control_BIRA_SERIAL							flag-true	Control_BIRA_ERT_1RB_1									
+PLL_MSX001_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MSX001_1_CP2_NV													Control_SRM1F_3	Control_F_PLL_MSX001_1,F_GFX_MBIST_PLL_MSX001_1_NV							flag-true	Control_PLL_MSX001_1									
+F_PLL_MSX001_1						Bintable	Bin_GFX_MBIST_PLL_MSX001_1_NV																					flag-true	Control_F_PLL_MSX001_1									
+SRM1F_3						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM1F_3_CP2_NV													Control_BIST_PSOC_1	Control_BIST_PSOC_1							flag-true	Control_SRM1F_3									
+BIST_PSOC_1						Test	GfxMbist_CP2_MSX001_Mbist_GFX_BIRA_MSX001_PatSet_BIST_PSOC_1_CP2_LV													Control_PLL_MGX001_1	Control_F_BIST_PSOC_1,F_GFX_MBIST_BIST_PSOC_1_LV							flag-true	Control_BIST_PSOC_1									
+F_BIST_PSOC_1						Bintable	Bin_GFX_MBIST_BIST_PSOC_1_LV																					flag-true	Control_F_BIST_PSOC_1									
+PLL_MGX001_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MGX001_1_CP2_NV													Control_SRM1F_4	Control_F_PLL_MGX001_1,F_GFX_MBIST_PLL_MGX001_1_NV							flag-true	Control_PLL_MGX001_1									
+F_PLL_MGX001_1						Bintable	Bin_GFX_MBIST_PLL_MGX001_1_NV																					flag-true	Control_F_PLL_MGX001_1									
+SRM1F_4						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM1F_4_CP2_NV													Control_BIRA_PGPU_1	Control_BIRA_PGPU_1							flag-true	Control_SRM1F_4									
+BIRA_PGPU_1						Test	GfxMbist_CP2_MGX001_Mbist_GFX_BIRA_MGX001_PatSet__BIRA_BIRA_PGPU_1_CP2_LV													Control_PLL_MSX004_1	Control_BIRA_SERIAL							flag-true	Control_BIRA_PGPU_1									
+PLL_MSX004_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MSX004_1_CP2_NV													Control_SRM00_2	Control_F_PLL_MSX004_1,F_GFX_MBIST_PLL_MSX004_1_NV							flag-true	Control_PLL_MSX004_1									
+F_PLL_MSX004_1						Bintable	Bin_GFX_MBIST_PLL_MSX004_1_NV																					flag-true	Control_F_PLL_MSX004_1									
+SRM00_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM00_2_CP2_NV													Control_BIST_PSOC_2	Control_BIST_PSOC_2							flag-true	Control_SRM00_2									
+BIST_PSOC_2						Test	GfxMbist_CP2_MSX004_Mbist_GFX_BIRA_MSX004_PatSet_BIST_PSOC_2_CP2_HV													Control_PLL_MGX00D_1	Control_F_BIST_PSOC_2,F_GFX_MBIST_BIST_PSOC_2_HV							flag-true	Control_BIST_PSOC_2									
+F_BIST_PSOC_2						Bintable	Bin_GFX_MBIST_BIST_PSOC_2_HV																					flag-true	Control_F_BIST_PSOC_2									
+PLL_MGX00D_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MGX00D_1_CP2_NV													Control_SRM00_3	Control_F_PLL_MGX00D_1,F_GFX_MBIST_PLL_MGX00D_1_NV							flag-true	Control_PLL_MGX00D_1									
+F_PLL_MGX00D_1						Bintable	Bin_GFX_MBIST_PLL_MGX00D_1_NV																					flag-true	Control_F_PLL_MGX00D_1									
+SRM00_3						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM00_3_CP2_NV													Control_BIRA_PGPU_2	Control_BIRA_PGPU_2							flag-true	Control_SRM00_3									
+BIRA_PGPU_2						Test	GfxMbist_CP2_MGX00D_Mbist_GFX_BIRA_MGX00D_PatSet__BIRA_BIRA_PGPU_2_CP2_HV													Control_BISR_1	Control_BIRA_SERIAL							flag-true	Control_BIRA_PGPU_2									
+BISR_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_BISR_1_CP2_NV													Control_FLOAD_SETUP_1	Control_F_BISR_1,F_GFX_MBIST_BISR_1_NV							flag-true	Control_BISR_1									
+F_BISR_1						Bintable	Bin_GFX_MBIST_BISR_1_NV																					flag-true	Control_F_BISR_1									
+FLOAD_SETUP_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet__BIRA_FLOAD_SETUP_1_CP2_NV													Control_FLOAD_PRIME_1	Control_F_FLOAD_SETUP_1,F_GFX_MBIST_FLOAD_SETUP_1_NV							flag-true	Control_FLOAD_SETUP_1									
+F_FLOAD_SETUP_1						Bintable	Bin_GFX_MBIST_FLOAD_SETUP_1_NV																					flag-true	Control_F_FLOAD_SETUP_1									
+FLOAD_PRIME_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_FLOAD_PRIME_1_CP2_NV													Control_CHECK_REPAIR_INFO	Control_SET_F_GFX_BIST_CHECK,F_GFX_MBIST_FLOAD_PRIME_1_NV							flag-true	Control_FLOAD_PRIME_1									
+BIRA_SERIAL						flag-true	Control_SOC_INIT_2																					flag-true	Control_BIRA_SERIAL									
+SOC_INIT_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SOC_INIT_2_CP2_NV													Control_GFX_INIT_2	Control_F_SOC_INIT_2,F_GFX_MBIST_SOC_INIT_2_NV							flag-true	Control_SOC_INIT_2									
+F_SOC_INIT_2						Bintable	Bin_GFX_MBIST_SOC_INIT_2_NV																					flag-true	Control_F_SOC_INIT_2									
+GFX_INIT_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_GFX_INIT_2_CP2_NV													Control_EMA_CHECKER_2	Control_F_GFX_INIT_2,F_GFX_MBIST_GFX_INIT_2_NV							flag-true	Control_GFX_INIT_2									
+F_GFX_INIT_2						Bintable	Bin_GFX_MBIST_GFX_INIT_2_NV																					flag-true	Control_F_GFX_INIT_2									
+EMA_CHECKER_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_EMA_CHECKER_2_CP2_NV													Control_PLL_MGSXXX_3	Control_F_EMA_CHECKER_2,F_GFX_MBIST_EMA_CHECKER_2_NV							flag-true	Control_EMA_CHECKER_2									
+F_EMA_CHECKER_2						Bintable	Bin_GFX_MBIST_EMA_CHECKER_2_NV																					flag-true	Control_F_EMA_CHECKER_2									
+PLL_MGSXXX_3						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MGSXXX_3_CP2_NV													Control_SMS_RESET_2	Control_F_PLL_MGSXXX_3,F_GFX_MBIST_PLL_MGSXXX_3_NV							flag-true	Control_PLL_MGSXXX_3									
+F_PLL_MGSXXX_3						Bintable	Bin_GFX_MBIST_PLL_MGSXXX_3_NV																					flag-true	Control_F_PLL_MGSXXX_3									
+SMS_RESET_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SMS_RESET_2_CP2_NV													Control_EFUSE_PRIME_2	Control_EFUSE_PRIME_2							flag-true	Control_SMS_RESET_2									
+EFUSE_PRIME_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_EFUSE_PRIME_2_CP2_NV													Control_Vmargin3_BIRA_NOHARV	Control_SMART_REPAIR_2,F_GFX_MBIST_EFUSE_PRIME_2_NV							flag-true	Control_EFUSE_PRIME_2									
+SMART_REPAIR_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SMART_REPAIR_2_CP2_NV													Control_MRR_TO_INBR_2	Control_F_SMART_REPAIR_2,F_GFX_MBIST_SMART_REPAIR_2_NV							flag-true	Control_SMART_REPAIR_2									
+F_SMART_REPAIR_2						Bintable	Bin_GFX_MBIST_SMART_REPAIR_2_NV																					flag-true	Control_F_SMART_REPAIR_2									
+MRR_TO_INBR_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_MRR_TO_INBR_2_CP2_NV													Control_Vmargin3_BIRA_NOHARV	Control_F_MRR_TO_INBR_2,F_GFX_MBIST_MRR_TO_INBR_2_NV							flag-true	Control_MRR_TO_INBR_2									
+F_MRR_TO_INBR_2						Bintable	Bin_GFX_MBIST_MRR_TO_INBR_2_NV																					flag-true	Control_F_MRR_TO_INBR_2									
+Vmargin3_BIRA_NOHARV						flag-true	Control_PLL_MGSXXX_4																					flag-true	Control_Vmargin3_BIRA_NOHARV									
+PLL_MGSXXX_4						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MGSXXX_4_CP2_NV													Control_SRM1F_5	Control_F_PLL_MGSXXX_4,F_GFX_MBIST_PLL_MGSXXX_4_NV							flag-true	Control_PLL_MGSXXX_4									
+F_PLL_MGSXXX_4						Bintable	Bin_GFX_MBIST_PLL_MGSXXX_4_NV																					flag-true	Control_F_PLL_MGSXXX_4									
+SRM1F_5						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM1F_5_CP2_NV													Control_BIST_PSOC_3	Control_BIST_PSOC_3							flag-true	Control_SRM1F_5									
+BIST_PSOC_3						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet_BIST_PSOC_3_CP2_MLV													Control_BIRA_CS_1	Control_F_BIST_PSOC_3,F_GFX_MBIST_BIST_PSOC_3_MLV							flag-true	Control_BIST_PSOC_3									
+F_BIST_PSOC_3						Bintable	Bin_GFX_MBIST_BIST_PSOC_3_MLV																					flag-true	Control_F_BIST_PSOC_3									
+BIRA_CS_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet__BIRA_BIRA_CS_1_CP2_MLV													Control_Vmargin3_BIRA_GPU0_FSTP0	Control_F_BIRA_CS_1,F_GFX_MBIST_BIRA_CS_1_MLV							flag-true	Control_BIRA_CS_1									
+F_BIRA_CS_1						Bintable	Bin_GFX_MBIST_BIRA_CS_1_MLV																					flag-true	Control_F_BIRA_CS_1									
+Vmargin3_BIRA_GPU0_FSTP0						flag-true	Control_BIRA_PGPU0_FSTP0_1																					flag-true	Control_Vmargin3_BIRA_GPU0_FSTP0									
+BIRA_PGPU0_FSTP0_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet__BIRA_BIRA_PGPU0_FSTP0_1_CP2_MLV													Control_Vmargin3_BIRA_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_1							flag-true	Control_BIRA_PGPU0_FSTP0_1									
+SET_F_GFX0_BIST_FSTP0_1_1						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_1									
+SET_F_GFX0_BIST_FSTP0_1_1						flag-true	Control_Vmargin3_BIRA_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_1									
+Vmargin3_BIRA_GPU0_FSTP1						flag-true	Control_BIRA_PGPU0_FSTP1_1																					flag-true	Control_Vmargin3_BIRA_GPU0_FSTP1									
+BIRA_PGPU0_FSTP1_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet__BIRA_BIRA_PGPU0_FSTP1_1_CP2_MLV													Control_Vmargin3_BIRA_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_1							flag-true	Control_BIRA_PGPU0_FSTP1_1									
+SET_F_GFX0_BIST_FSTP1_1_1						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_1									
+SET_F_GFX0_BIST_FSTP1_1_1						flag-true	Control_Vmargin3_BIRA_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_1									
+Vmargin3_BIRA_GPU0_FSTP2						flag-true	Control_BIRA_PGPU0_FSTP2_1																					flag-true	Control_Vmargin3_BIRA_GPU0_FSTP2									
+BIRA_PGPU0_FSTP2_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet__BIRA_BIRA_PGPU0_FSTP2_1_CP2_MLV													Control_Vmargin3_BIRA_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_1							flag-true	Control_BIRA_PGPU0_FSTP2_1									
+SET_F_GFX0_BIST_FSTP2_1_1						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_1									
+SET_F_GFX0_BIST_FSTP2_1_1						flag-true	Control_Vmargin3_BIRA_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_1									
+Vmargin3_BIRA_GPU0_FSTP3						flag-true	Control_BIRA_PGPU0_FSTP3_1																					flag-true	Control_Vmargin3_BIRA_GPU0_FSTP3									
+BIRA_PGPU0_FSTP3_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet__BIRA_BIRA_PGPU0_FSTP3_1_CP2_MLV													Control_Vmargin3_BIRA_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_1							flag-true	Control_BIRA_PGPU0_FSTP3_1									
+SET_F_GFX0_BIST_FSTP3_1_1						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_1									
+SET_F_GFX0_BIST_FSTP3_1_1						flag-true	Control_Vmargin3_BIRA_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_1									
+Vmargin3_BIRA_GPU0_FSTP4						flag-true	Control_BIRA_PGPU0_FSTP4_1																					flag-true	Control_Vmargin3_BIRA_GPU0_FSTP4									
+BIRA_PGPU0_FSTP4_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet__BIRA_BIRA_PGPU0_FSTP4_1_CP2_MLV													Control_Vmargin3_BIRA_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_1							flag-true	Control_BIRA_PGPU0_FSTP4_1									
+SET_F_GFX0_BIST_FSTP4_1_1						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_1									
+SET_F_GFX0_BIST_FSTP4_1_1						flag-true	Control_Vmargin3_BIRA_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_1									
+Vmargin3_BIRA_GPU0_FSTP5						flag-true	Control_BIRA_PGPU0_FSTP5_1																					flag-true	Control_Vmargin3_BIRA_GPU0_FSTP5									
+BIRA_PGPU0_FSTP5_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet__BIRA_BIRA_PGPU0_FSTP5_1_CP2_MLV													Control_Vmargin1_BIRA_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_1							flag-true	Control_BIRA_PGPU0_FSTP5_1									
+SET_F_GFX0_BIST_FSTP5_1_1						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_1									
+SET_F_GFX0_BIST_FSTP5_1_1						flag-true	Control_Vmargin3_BIRA_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_1									
+Vmargin3_BIRA_GPU0_FSTP6						flag-true	Control_BIRA_PGPU0_FSTP6_1																					flag-true	Control_Vmargin3_BIRA_GPU0_FSTP6									
+BIRA_PGPU0_FSTP6_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIRA1_Vmargin3_PatSet__BIRA_BIRA_PGPU0_FSTP6_1_CP2_MLV													Control_Vmargin1_BIRA_NOHARV	Control_SET_F_GFX0_BIST_FSTP6_1_1							flag-true	Control_BIRA_PGPU0_FSTP6_1									
+SET_F_GFX0_BIST_FSTP6_1_1						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_1									
+SET_F_GFX0_BIST_FSTP6_1_1						flag-true	Control_Vmargin1_BIRA_NOHARV																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_1									
+Vmargin1_BIRA_NOHARV						flag-true	Control_SRM00_4																					flag-true	Control_Vmargin1_BIRA_NOHARV									
+SRM00_4						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM00_4_CP2_NV													Control_BIST_PSOC_4	Control_BIST_PSOC_4							flag-true	Control_SRM00_4									
+BIST_PSOC_4						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet_BIST_PSOC_4_CP2_MHV													Control_BIRA_CS_2	Control_F_BIST_PSOC_4,F_GFX_MBIST_BIST_PSOC_4_MHV							flag-true	Control_BIST_PSOC_4									
+F_BIST_PSOC_4						Bintable	Bin_GFX_MBIST_BIST_PSOC_4_MHV																					flag-true	Control_F_BIST_PSOC_4									
+BIRA_CS_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet__BIRA_BIRA_CS_2_CP2_MHV													Control_Vmargin1_BIRA_GPU0_FSTP0	Control_F_BIRA_CS_2,F_GFX_MBIST_BIRA_CS_2_MHV							flag-true	Control_BIRA_CS_2									
+F_BIRA_CS_2						Bintable	Bin_GFX_MBIST_BIRA_CS_2_MHV																					flag-true	Control_F_BIRA_CS_2									
+Vmargin1_BIRA_GPU0_FSTP0						flag-true	Control_BIRA_PGPU0_FSTP0_2																					flag-true	Control_Vmargin1_BIRA_GPU0_FSTP0									
+BIRA_PGPU0_FSTP0_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet__BIRA_BIRA_PGPU0_FSTP0_2_CP2_MHV													Control_Vmargin1_BIRA_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_2							flag-true	Control_BIRA_PGPU0_FSTP0_2									
+SET_F_GFX0_BIST_FSTP0_1_2						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_2									
+SET_F_GFX0_BIST_FSTP0_1_2						flag-true	Control_Vmargin1_BIRA_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_2									
+Vmargin1_BIRA_GPU0_FSTP1						flag-true	Control_BIRA_PGPU0_FSTP1_2																					flag-true	Control_Vmargin1_BIRA_GPU0_FSTP1									
+BIRA_PGPU0_FSTP1_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet__BIRA_BIRA_PGPU0_FSTP1_2_CP2_MHV													Control_Vmargin1_BIRA_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_2							flag-true	Control_BIRA_PGPU0_FSTP1_2									
+SET_F_GFX0_BIST_FSTP1_1_2						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_2									
+SET_F_GFX0_BIST_FSTP1_1_2						flag-true	Control_Vmargin1_BIRA_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_2									
+Vmargin1_BIRA_GPU0_FSTP2						flag-true	Control_BIRA_PGPU0_FSTP2_2																					flag-true	Control_Vmargin1_BIRA_GPU0_FSTP2									
+BIRA_PGPU0_FSTP2_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet__BIRA_BIRA_PGPU0_FSTP2_2_CP2_MHV													Control_Vmargin1_BIRA_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_2							flag-true	Control_BIRA_PGPU0_FSTP2_2									
+SET_F_GFX0_BIST_FSTP2_1_2						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_2									
+SET_F_GFX0_BIST_FSTP2_1_2						flag-true	Control_Vmargin1_BIRA_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_2									
+Vmargin1_BIRA_GPU0_FSTP3						flag-true	Control_BIRA_PGPU0_FSTP3_2																					flag-true	Control_Vmargin1_BIRA_GPU0_FSTP3									
+BIRA_PGPU0_FSTP3_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet__BIRA_BIRA_PGPU0_FSTP3_2_CP2_MHV													Control_Vmargin1_BIRA_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_2							flag-true	Control_BIRA_PGPU0_FSTP3_2									
+SET_F_GFX0_BIST_FSTP3_1_2						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_2									
+SET_F_GFX0_BIST_FSTP3_1_2						flag-true	Control_Vmargin1_BIRA_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_2									
+Vmargin1_BIRA_GPU0_FSTP4						flag-true	Control_BIRA_PGPU0_FSTP4_2																					flag-true	Control_Vmargin1_BIRA_GPU0_FSTP4									
+BIRA_PGPU0_FSTP4_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet__BIRA_BIRA_PGPU0_FSTP4_2_CP2_MHV													Control_Vmargin1_BIRA_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_2							flag-true	Control_BIRA_PGPU0_FSTP4_2									
+SET_F_GFX0_BIST_FSTP4_1_2						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_2									
+SET_F_GFX0_BIST_FSTP4_1_2						flag-true	Control_Vmargin1_BIRA_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_2									
+Vmargin1_BIRA_GPU0_FSTP5						flag-true	Control_BIRA_PGPU0_FSTP5_2																					flag-true	Control_Vmargin1_BIRA_GPU0_FSTP5									
+BIRA_PGPU0_FSTP5_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet__BIRA_BIRA_PGPU0_FSTP5_2_CP2_MHV													Control_Vmargin1_BIRA_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_2							flag-true	Control_BIRA_PGPU0_FSTP5_2									
+SET_F_GFX0_BIST_FSTP5_1_2						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_2									
+SET_F_GFX0_BIST_FSTP5_1_2						flag-true	Control_Vmargin1_BIRA_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_2									
+Vmargin1_BIRA_GPU0_FSTP6						flag-true	Control_BIRA_PGPU0_FSTP6_2																					flag-true	Control_Vmargin1_BIRA_GPU0_FSTP6									
+BIRA_PGPU0_FSTP6_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIRA1_Vmargin1_PatSet__BIRA_BIRA_PGPU0_FSTP6_2_CP2_MHV													Control_SERIAL_F_PE_MISC_BIRA1_MLV	Control_SET_F_GFX0_BIST_FSTP6_1_2							flag-true	Control_BIRA_PGPU0_FSTP6_2									
+SET_F_GFX0_BIST_FSTP6_1_2						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_2									
+SET_F_GFX0_BIST_FSTP6_1_2						flag-true	Control_SERIAL_F_PE_MISC_BIRA1_MLV																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_2									
+SERIAL_F_PE_MISC_BIRA1_MLV						flag-true	F_PE_MISC_BIRA1_GFX_MLV																					flag-true	Control_SERIAL_F_PE_MISC_BIRA1_MLV									
+SERIAL_F_PE_MISC_BIRA1_MLV						flag-true	Control_SERIAL_F_PE_MISC_BIRA1_MHV																					flag-true	Control_SERIAL_F_PE_MISC_BIRA1_MLV									
+SERIAL_F_PE_MISC_BIRA1_MHV						flag-true	F_PE_MISC_BIRA1_GFX_MHV																					flag-true	Control_SERIAL_F_PE_MISC_BIRA1_MHV									
+SERIAL_F_PE_MISC_BIRA1_MHV						flag-true	Control_NV_BIRA_ERT_1WD_NOHARV																					flag-true	Control_SERIAL_F_PE_MISC_BIRA1_MHV									
+NV_BIRA_ERT_1WD_NOHARV						flag-true	Control_PLL_MGSXXX_5																					flag-true	Control_NV_BIRA_ERT_1WD_NOHARV									
+PLL_MGSXXX_5						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MGSXXX_5_CP2_NV													Control_SRM1F_6	Control_F_PLL_MGSXXX_5,F_GFX_MBIST_PLL_MGSXXX_5_NV							flag-true	Control_PLL_MGSXXX_5									
+F_PLL_MGSXXX_5						Bintable	Bin_GFX_MBIST_PLL_MGSXXX_5_NV																					flag-true	Control_F_PLL_MGSXXX_5									
+SRM1F_6						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM1F_6_CP2_NV													Control_BIST_ERT_1WD_PSOC_1	Control_BIST_ERT_1WD_PSOC_1							flag-true	Control_SRM1F_6									
+BIST_ERT_1WD_PSOC_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet_BIST_ERT_1WD_PSOC_1_CP2_HV													Control_BIRA_ERT_1WD_CS_1	Control_F_BIST_ERT_1WD_PSOC_1,F_GFX_MBIST_BIST_ERT_1WD_PSOC_1_HV							flag-true	Control_BIST_ERT_1WD_PSOC_1									
+F_BIST_ERT_1WD_PSOC_1						Bintable	Bin_GFX_MBIST_BIST_ERT_1WD_PSOC_1_HV																					flag-true	Control_F_BIST_ERT_1WD_PSOC_1									
+BIRA_ERT_1WD_CS_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WD_CS_1_CP2_HV													Control_NV_BIRA_ERT_1WD_GPU0_FSTP0	Control_F_BIRA_ERT_1WD_CS_1,F_GFX_MBIST_BIRA_ERT_1WD_CS_1_HV							flag-true	Control_BIRA_ERT_1WD_CS_1									
+F_BIRA_ERT_1WD_CS_1						Bintable	Bin_GFX_MBIST_BIRA_ERT_1WD_CS_1_HV																					flag-true	Control_F_BIRA_ERT_1WD_CS_1									
+NV_BIRA_ERT_1WD_GPU0_FSTP0						flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP0_1																					flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP0									
+BIRA_ERT_1WD_GPU0_FSTP0_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WD_GPU0_FSTP0_1_CP2_HV													Control_NV_BIRA_ERT_1WD_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_3							flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP0_1									
+SET_F_GFX0_BIST_FSTP0_1_3						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_3									
+SET_F_GFX0_BIST_FSTP0_1_3						flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_3									
+NV_BIRA_ERT_1WD_GPU0_FSTP1						flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP1_1																					flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP1									
+BIRA_ERT_1WD_GPU0_FSTP1_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WD_GPU0_FSTP1_1_CP2_HV													Control_NV_BIRA_ERT_1WD_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_3							flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP1_1									
+SET_F_GFX0_BIST_FSTP1_1_3						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_3									
+SET_F_GFX0_BIST_FSTP1_1_3						flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_3									
+NV_BIRA_ERT_1WD_GPU0_FSTP2						flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP2_1																					flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP2									
+BIRA_ERT_1WD_GPU0_FSTP2_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WD_GPU0_FSTP2_1_CP2_HV													Control_NV_BIRA_ERT_1WD_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_3							flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP2_1									
+SET_F_GFX0_BIST_FSTP2_1_3						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_3									
+SET_F_GFX0_BIST_FSTP2_1_3						flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_3									
+NV_BIRA_ERT_1WD_GPU0_FSTP3						flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP3_1																					flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP3									
+BIRA_ERT_1WD_GPU0_FSTP3_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WD_GPU0_FSTP3_1_CP2_HV													Control_NV_BIRA_ERT_1WD_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_3							flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP3_1									
+SET_F_GFX0_BIST_FSTP3_1_3						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_3									
+SET_F_GFX0_BIST_FSTP3_1_3						flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_3									
+NV_BIRA_ERT_1WD_GPU0_FSTP4						flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP4_1																					flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP4									
+BIRA_ERT_1WD_GPU0_FSTP4_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WD_GPU0_FSTP4_1_CP2_HV													Control_NV_BIRA_ERT_1WD_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_3							flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP4_1									
+SET_F_GFX0_BIST_FSTP4_1_3						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_3									
+SET_F_GFX0_BIST_FSTP4_1_3						flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_3									
+NV_BIRA_ERT_1WD_GPU0_FSTP5						flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP5_1																					flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP5									
+BIRA_ERT_1WD_GPU0_FSTP5_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WD_GPU0_FSTP5_1_CP2_HV													Control_NV_BIRA_ERT_1WD_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_3							flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP5_1									
+SET_F_GFX0_BIST_FSTP5_1_3						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_3									
+SET_F_GFX0_BIST_FSTP5_1_3						flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_3									
+NV_BIRA_ERT_1WD_GPU0_FSTP6						flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP6_1																					flag-true	Control_NV_BIRA_ERT_1WD_GPU0_FSTP6									
+BIRA_ERT_1WD_GPU0_FSTP6_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WD_GPU0_FSTP6_1_CP2_HV													Control_ENTER_BIRA_1WD_RETENTION	Control_SET_F_GFX0_BIST_FSTP6_1_3							flag-true	Control_BIRA_ERT_1WD_GPU0_FSTP6_1									
+SET_F_GFX0_BIST_FSTP6_1_3						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_3									
+SET_F_GFX0_BIST_FSTP6_1_3						flag-true	Control_ENTER_BIRA_1WD_RETENTION																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_3									
+ENTER_BIRA_1WD_RETENTION						flag-true	Control_RETENTION_PAUSE_20_3																					flag-true	Control_ENTER_BIRA_1WD_RETENTION									
+RETENTION_PAUSE_20_3						Test	GfxMbist_L_BI_PP_CP2_Mbist_GFX_ERTBIRA_Retention_Wait20mS_STEP5													Control_NV_BIRA_ERT_1RD_NOHARV	Control_NV_BIRA_ERT_1RD_NOHARV							flag-true	Control_RETENTION_PAUSE_20_3									
+NV_BIRA_ERT_1RD_NOHARV						flag-true	Control_BIST_ERT_1RD_PSOC_1																					flag-true	Control_NV_BIRA_ERT_1RD_NOHARV									
+BIST_ERT_1RD_PSOC_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet_BIST_ERT_1RD_PSOC_1_CP2_HV													Control_BIRA_ERT_1RD_CS_1	Control_F_BIST_ERT_1RD_PSOC_1,F_GFX_MBIST_BIST_ERT_1RD_PSOC_1_HV							flag-true	Control_BIST_ERT_1RD_PSOC_1									
+F_BIST_ERT_1RD_PSOC_1						Bintable	Bin_GFX_MBIST_BIST_ERT_1RD_PSOC_1_HV																					flag-true	Control_F_BIST_ERT_1RD_PSOC_1									
+BIRA_ERT_1RD_CS_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RD_CS_1_CP2_HV													Control_NV_BIRA_ERT_1RD_GPU0_FSTP0	Control_F_BIRA_ERT_1RD_CS_1,F_GFX_MBIST_BIRA_ERT_1RD_CS_1_HV							flag-true	Control_BIRA_ERT_1RD_CS_1									
+F_BIRA_ERT_1RD_CS_1						Bintable	Bin_GFX_MBIST_BIRA_ERT_1RD_CS_1_HV																					flag-true	Control_F_BIRA_ERT_1RD_CS_1									
+NV_BIRA_ERT_1RD_GPU0_FSTP0						flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP0_1																					flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP0									
+BIRA_ERT_1RD_GPU0_FSTP0_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RD_GPU0_FSTP0_1_CP2_HV													Control_NV_BIRA_ERT_1RD_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_4							flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP0_1									
+SET_F_GFX0_BIST_FSTP0_1_4						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_4									
+SET_F_GFX0_BIST_FSTP0_1_4						flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_4									
+NV_BIRA_ERT_1RD_GPU0_FSTP1						flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP1_1																					flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP1									
+BIRA_ERT_1RD_GPU0_FSTP1_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RD_GPU0_FSTP1_1_CP2_HV													Control_NV_BIRA_ERT_1RD_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_4							flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP1_1									
+SET_F_GFX0_BIST_FSTP1_1_4						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_4									
+SET_F_GFX0_BIST_FSTP1_1_4						flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_4									
+NV_BIRA_ERT_1RD_GPU0_FSTP2						flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP2_1																					flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP2									
+BIRA_ERT_1RD_GPU0_FSTP2_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RD_GPU0_FSTP2_1_CP2_HV													Control_NV_BIRA_ERT_1RD_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_4							flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP2_1									
+SET_F_GFX0_BIST_FSTP2_1_4						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_4									
+SET_F_GFX0_BIST_FSTP2_1_4						flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_4									
+NV_BIRA_ERT_1RD_GPU0_FSTP3						flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP3_1																					flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP3									
+BIRA_ERT_1RD_GPU0_FSTP3_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RD_GPU0_FSTP3_1_CP2_HV													Control_NV_BIRA_ERT_1RD_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_4							flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP3_1									
+SET_F_GFX0_BIST_FSTP3_1_4						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_4									
+SET_F_GFX0_BIST_FSTP3_1_4						flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_4									
+NV_BIRA_ERT_1RD_GPU0_FSTP4						flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP4_1																					flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP4									
+BIRA_ERT_1RD_GPU0_FSTP4_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RD_GPU0_FSTP4_1_CP2_HV													Control_NV_BIRA_ERT_1RD_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_4							flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP4_1									
+SET_F_GFX0_BIST_FSTP4_1_4						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_4									
+SET_F_GFX0_BIST_FSTP4_1_4						flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_4									
+NV_BIRA_ERT_1RD_GPU0_FSTP5						flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP5_1																					flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP5									
+BIRA_ERT_1RD_GPU0_FSTP5_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RD_GPU0_FSTP5_1_CP2_HV													Control_NV_BIRA_ERT_1RD_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_4							flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP5_1									
+SET_F_GFX0_BIST_FSTP5_1_4						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_4									
+SET_F_GFX0_BIST_FSTP5_1_4						flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_4									
+NV_BIRA_ERT_1RD_GPU0_FSTP6						flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP6_1																					flag-true	Control_NV_BIRA_ERT_1RD_GPU0_FSTP6									
+BIRA_ERT_1RD_GPU0_FSTP6_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RD_GPU0_FSTP6_1_CP2_HV													Control_NV_BIRA_ERT_1WB_NOHARV	Control_SET_F_GFX0_BIST_FSTP6_1_4							flag-true	Control_BIRA_ERT_1RD_GPU0_FSTP6_1									
+SET_F_GFX0_BIST_FSTP6_1_4						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_4									
+SET_F_GFX0_BIST_FSTP6_1_4						flag-true	Control_NV_BIRA_ERT_1WB_NOHARV																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_4									
+NV_BIRA_ERT_1WB_NOHARV						flag-true	Control_BIST_ERT_1WB_PSOC_1																					flag-true	Control_NV_BIRA_ERT_1WB_NOHARV									
+BIST_ERT_1WB_PSOC_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet_BIST_ERT_1WB_PSOC_1_CP2_HV													Control_BIRA_ERT_1WB_CS_1	Control_F_BIST_ERT_1WB_PSOC_1,F_GFX_MBIST_BIST_ERT_1WB_PSOC_1_HV							flag-true	Control_BIST_ERT_1WB_PSOC_1									
+F_BIST_ERT_1WB_PSOC_1						Bintable	Bin_GFX_MBIST_BIST_ERT_1WB_PSOC_1_HV																					flag-true	Control_F_BIST_ERT_1WB_PSOC_1									
+BIRA_ERT_1WB_CS_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WB_CS_1_CP2_HV													Control_NV_BIRA_ERT_1WB_GPU0_FSTP0	Control_F_BIRA_ERT_1WB_CS_1,F_GFX_MBIST_BIRA_ERT_1WB_CS_1_HV							flag-true	Control_BIRA_ERT_1WB_CS_1									
+F_BIRA_ERT_1WB_CS_1						Bintable	Bin_GFX_MBIST_BIRA_ERT_1WB_CS_1_HV																					flag-true	Control_F_BIRA_ERT_1WB_CS_1									
+NV_BIRA_ERT_1WB_GPU0_FSTP0						flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP0_1																					flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP0									
+BIRA_ERT_1WB_GPU0_FSTP0_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WB_GPU0_FSTP0_1_CP2_HV													Control_NV_BIRA_ERT_1WB_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_5							flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP0_1									
+SET_F_GFX0_BIST_FSTP0_1_5						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_5									
+SET_F_GFX0_BIST_FSTP0_1_5						flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_5									
+NV_BIRA_ERT_1WB_GPU0_FSTP1						flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP1_1																					flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP1									
+BIRA_ERT_1WB_GPU0_FSTP1_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WB_GPU0_FSTP1_1_CP2_HV													Control_NV_BIRA_ERT_1WB_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_5							flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP1_1									
+SET_F_GFX0_BIST_FSTP1_1_5						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_5									
+SET_F_GFX0_BIST_FSTP1_1_5						flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_5									
+NV_BIRA_ERT_1WB_GPU0_FSTP2						flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP2_1																					flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP2									
+BIRA_ERT_1WB_GPU0_FSTP2_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WB_GPU0_FSTP2_1_CP2_HV													Control_NV_BIRA_ERT_1WB_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_5							flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP2_1									
+SET_F_GFX0_BIST_FSTP2_1_5						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_5									
+SET_F_GFX0_BIST_FSTP2_1_5						flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_5									
+NV_BIRA_ERT_1WB_GPU0_FSTP3						flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP3_1																					flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP3									
+BIRA_ERT_1WB_GPU0_FSTP3_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WB_GPU0_FSTP3_1_CP2_HV													Control_NV_BIRA_ERT_1WB_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_5							flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP3_1									
+SET_F_GFX0_BIST_FSTP3_1_5						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_5									
+SET_F_GFX0_BIST_FSTP3_1_5						flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_5									
+NV_BIRA_ERT_1WB_GPU0_FSTP4						flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP4_1																					flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP4									
+BIRA_ERT_1WB_GPU0_FSTP4_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WB_GPU0_FSTP4_1_CP2_HV													Control_NV_BIRA_ERT_1WB_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_5							flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP4_1									
+SET_F_GFX0_BIST_FSTP4_1_5						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_5									
+SET_F_GFX0_BIST_FSTP4_1_5						flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_5									
+NV_BIRA_ERT_1WB_GPU0_FSTP5						flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP5_1																					flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP5									
+BIRA_ERT_1WB_GPU0_FSTP5_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WB_GPU0_FSTP5_1_CP2_HV													Control_NV_BIRA_ERT_1WB_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_5							flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP5_1									
+SET_F_GFX0_BIST_FSTP5_1_5						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_5									
+SET_F_GFX0_BIST_FSTP5_1_5						flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_5									
+NV_BIRA_ERT_1WB_GPU0_FSTP6						flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP6_1																					flag-true	Control_NV_BIRA_ERT_1WB_GPU0_FSTP6									
+BIRA_ERT_1WB_GPU0_FSTP6_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1WB_GPU0_FSTP6_1_CP2_HV													Control_ENTER_BIRA_1WB_RETENTION	Control_SET_F_GFX0_BIST_FSTP6_1_5							flag-true	Control_BIRA_ERT_1WB_GPU0_FSTP6_1									
+SET_F_GFX0_BIST_FSTP6_1_5						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_5									
+SET_F_GFX0_BIST_FSTP6_1_5						flag-true	Control_ENTER_BIRA_1WB_RETENTION																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_5									
+ENTER_BIRA_1WB_RETENTION						flag-true	Control_RETENTION_PAUSE_20_4																					flag-true	Control_ENTER_BIRA_1WB_RETENTION									
+RETENTION_PAUSE_20_4						Test	GfxMbist_L_BI_PP_CP2_Mbist_GFX_ERTBIRA_Retention_Wait20mS_STEP5													Control_NV_BIRA_ERT_1RB_NOHARV	Control_NV_BIRA_ERT_1RB_NOHARV							flag-true	Control_RETENTION_PAUSE_20_4									
+NV_BIRA_ERT_1RB_NOHARV						flag-true	Control_BIST_ERT_1RB_PSOC_1																					flag-true	Control_NV_BIRA_ERT_1RB_NOHARV									
+BIST_ERT_1RB_PSOC_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet_BIST_ERT_1RB_PSOC_1_CP2_HV													Control_BIRA_ERT_1RB_CS_1	Control_F_BIST_ERT_1RB_PSOC_1,F_GFX_MBIST_BIST_ERT_1RB_PSOC_1_HV							flag-true	Control_BIST_ERT_1RB_PSOC_1									
+F_BIST_ERT_1RB_PSOC_1						Bintable	Bin_GFX_MBIST_BIST_ERT_1RB_PSOC_1_HV																					flag-true	Control_F_BIST_ERT_1RB_PSOC_1									
+BIRA_ERT_1RB_CS_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RB_CS_1_CP2_HV													Control_NV_BIRA_ERT_1RB_GPU0_FSTP0	Control_F_BIRA_ERT_1RB_CS_1,F_GFX_MBIST_BIRA_ERT_1RB_CS_1_HV							flag-true	Control_BIRA_ERT_1RB_CS_1									
+F_BIRA_ERT_1RB_CS_1						Bintable	Bin_GFX_MBIST_BIRA_ERT_1RB_CS_1_HV																					flag-true	Control_F_BIRA_ERT_1RB_CS_1									
+NV_BIRA_ERT_1RB_GPU0_FSTP0						flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP0_1																					flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP0									
+BIRA_ERT_1RB_GPU0_FSTP0_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RB_GPU0_FSTP0_1_CP2_HV													Control_NV_BIRA_ERT_1RB_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_6							flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP0_1									
+SET_F_GFX0_BIST_FSTP0_1_6						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_6									
+SET_F_GFX0_BIST_FSTP0_1_6						flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_6									
+NV_BIRA_ERT_1RB_GPU0_FSTP1						flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP1_1																					flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP1									
+BIRA_ERT_1RB_GPU0_FSTP1_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RB_GPU0_FSTP1_1_CP2_HV													Control_NV_BIRA_ERT_1RB_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_6							flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP1_1									
+SET_F_GFX0_BIST_FSTP1_1_6						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_6									
+SET_F_GFX0_BIST_FSTP1_1_6						flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_6									
+NV_BIRA_ERT_1RB_GPU0_FSTP2						flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP2_1																					flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP2									
+BIRA_ERT_1RB_GPU0_FSTP2_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RB_GPU0_FSTP2_1_CP2_HV													Control_NV_BIRA_ERT_1RB_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_6							flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP2_1									
+SET_F_GFX0_BIST_FSTP2_1_6						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_6									
+SET_F_GFX0_BIST_FSTP2_1_6						flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_6									
+NV_BIRA_ERT_1RB_GPU0_FSTP3						flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP3_1																					flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP3									
+BIRA_ERT_1RB_GPU0_FSTP3_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RB_GPU0_FSTP3_1_CP2_HV													Control_NV_BIRA_ERT_1RB_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_6							flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP3_1									
+SET_F_GFX0_BIST_FSTP3_1_6						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_6									
+SET_F_GFX0_BIST_FSTP3_1_6						flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_6									
+NV_BIRA_ERT_1RB_GPU0_FSTP4						flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP4_1																					flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP4									
+BIRA_ERT_1RB_GPU0_FSTP4_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RB_GPU0_FSTP4_1_CP2_HV													Control_NV_BIRA_ERT_1RB_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_6							flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP4_1									
+SET_F_GFX0_BIST_FSTP4_1_6						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_6									
+SET_F_GFX0_BIST_FSTP4_1_6						flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_6									
+NV_BIRA_ERT_1RB_GPU0_FSTP5						flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP5_1																					flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP5									
+BIRA_ERT_1RB_GPU0_FSTP5_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RB_GPU0_FSTP5_1_CP2_HV													Control_NV_BIRA_ERT_1RB_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_6							flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP5_1									
+SET_F_GFX0_BIST_FSTP5_1_6						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_6									
+SET_F_GFX0_BIST_FSTP5_1_6						flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_6									
+NV_BIRA_ERT_1RB_GPU0_FSTP6						flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP6_1																					flag-true	Control_NV_BIRA_ERT_1RB_GPU0_FSTP6									
+BIRA_ERT_1RB_GPU0_FSTP6_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIRA_X_PatSet__BIRA_BIRA_ERT_1RB_GPU0_FSTP6_1_CP2_HV													Control_LV_BIRA_NOHARV	Control_SET_F_GFX0_BIST_FSTP6_1_6							flag-true	Control_BIRA_ERT_1RB_GPU0_FSTP6_1									
+SET_F_GFX0_BIST_FSTP6_1_6						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_6									
+SET_F_GFX0_BIST_FSTP6_1_6						flag-true	Control_LV_BIRA_NOHARV																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_6									
+LV_BIRA_NOHARV						flag-true	Control_PLL_MSX001_2																					flag-true	Control_LV_BIRA_NOHARV									
+PLL_MSX001_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MSX001_2_CP2_NV													Control_SRM1F_7	Control_F_PLL_MSX001_2,F_GFX_MBIST_PLL_MSX001_2_NV							flag-true	Control_PLL_MSX001_2									
+F_PLL_MSX001_2						Bintable	Bin_GFX_MBIST_PLL_MSX001_2_NV																					flag-true	Control_F_PLL_MSX001_2									
+SRM1F_7						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM1F_7_CP2_NV													Control_BIST_PSOC_5	Control_BIST_PSOC_5							flag-true	Control_SRM1F_7									
+BIST_PSOC_5						Test	GfxMbist_CP2_MSX001_Mbist_GFX_BIRA_MSX001_PatSet_BIST_PSOC_5_CP2_LV													Control_PLL_MGX001_2	Control_F_BIST_PSOC_5,F_GFX_MBIST_BIST_PSOC_5_LV							flag-true	Control_BIST_PSOC_5									
+F_BIST_PSOC_5						Bintable	Bin_GFX_MBIST_BIST_PSOC_5_LV																					flag-true	Control_F_BIST_PSOC_5									
+PLL_MGX001_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MGX001_2_CP2_NV													Control_SRM1F_8	Control_F_PLL_MGX001_2,F_GFX_MBIST_PLL_MGX001_2_NV							flag-true	Control_PLL_MGX001_2									
+F_PLL_MGX001_2						Bintable	Bin_GFX_MBIST_PLL_MGX001_2_NV																					flag-true	Control_F_PLL_MGX001_2									
+SRM1F_8						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM1F_8_CP2_NV													Control_BIRA_CS_3	Control_BIRA_CS_3							flag-true	Control_SRM1F_8									
+BIRA_CS_3						Test	GfxMbist_CP2_MGX001_Mbist_GFX_BIRA_MGX001_PatSet__BIRA_BIRA_CS_3_CP2_LV													Control_LV_BIRA_GPU0_FSTP0	Control_F_BIRA_CS_3,F_GFX_MBIST_BIRA_CS_3_LV							flag-true	Control_BIRA_CS_3									
+F_BIRA_CS_3						Bintable	Bin_GFX_MBIST_BIRA_CS_3_LV																					flag-true	Control_F_BIRA_CS_3									
+LV_BIRA_GPU0_FSTP0						flag-true	Control_BIRA_PGPU0_FSTP0_3																					flag-true	Control_LV_BIRA_GPU0_FSTP0									
+BIRA_PGPU0_FSTP0_3						Test	GfxMbist_CP2_MGX001_Mbist_GFX_BIRA_MGX001_PatSet__BIRA_BIRA_PGPU0_FSTP0_3_CP2_LV													Control_LV_BIRA_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_7							flag-true	Control_BIRA_PGPU0_FSTP0_3									
+SET_F_GFX0_BIST_FSTP0_1_7						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_7									
+SET_F_GFX0_BIST_FSTP0_1_7						flag-true	Control_LV_BIRA_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_7									
+LV_BIRA_GPU0_FSTP1						flag-true	Control_BIRA_PGPU0_FSTP1_3																					flag-true	Control_LV_BIRA_GPU0_FSTP1									
+BIRA_PGPU0_FSTP1_3						Test	GfxMbist_CP2_MGX001_Mbist_GFX_BIRA_MGX001_PatSet__BIRA_BIRA_PGPU0_FSTP1_3_CP2_LV													Control_LV_BIRA_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_7							flag-true	Control_BIRA_PGPU0_FSTP1_3									
+SET_F_GFX0_BIST_FSTP1_1_7						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_7									
+SET_F_GFX0_BIST_FSTP1_1_7						flag-true	Control_LV_BIRA_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_7									
+LV_BIRA_GPU0_FSTP2						flag-true	Control_BIRA_PGPU0_FSTP2_3																					flag-true	Control_LV_BIRA_GPU0_FSTP2									
+BIRA_PGPU0_FSTP2_3						Test	GfxMbist_CP2_MGX001_Mbist_GFX_BIRA_MGX001_PatSet__BIRA_BIRA_PGPU0_FSTP2_3_CP2_LV													Control_LV_BIRA_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_7							flag-true	Control_BIRA_PGPU0_FSTP2_3									
+SET_F_GFX0_BIST_FSTP2_1_7						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_7									
+SET_F_GFX0_BIST_FSTP2_1_7						flag-true	Control_LV_BIRA_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_7									
+LV_BIRA_GPU0_FSTP3						flag-true	Control_BIRA_PGPU0_FSTP3_3																					flag-true	Control_LV_BIRA_GPU0_FSTP3									
+BIRA_PGPU0_FSTP3_3						Test	GfxMbist_CP2_MGX001_Mbist_GFX_BIRA_MGX001_PatSet__BIRA_BIRA_PGPU0_FSTP3_3_CP2_LV													Control_LV_BIRA_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_7							flag-true	Control_BIRA_PGPU0_FSTP3_3									
+SET_F_GFX0_BIST_FSTP3_1_7						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_7									
+SET_F_GFX0_BIST_FSTP3_1_7						flag-true	Control_LV_BIRA_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_7									
+LV_BIRA_GPU0_FSTP4						flag-true	Control_BIRA_PGPU0_FSTP4_3																					flag-true	Control_LV_BIRA_GPU0_FSTP4									
+BIRA_PGPU0_FSTP4_3						Test	GfxMbist_CP2_MGX001_Mbist_GFX_BIRA_MGX001_PatSet__BIRA_BIRA_PGPU0_FSTP4_3_CP2_LV													Control_LV_BIRA_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_7							flag-true	Control_BIRA_PGPU0_FSTP4_3									
+SET_F_GFX0_BIST_FSTP4_1_7						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_7									
+SET_F_GFX0_BIST_FSTP4_1_7						flag-true	Control_LV_BIRA_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_7									
+LV_BIRA_GPU0_FSTP5						flag-true	Control_BIRA_PGPU0_FSTP5_3																					flag-true	Control_LV_BIRA_GPU0_FSTP5									
+BIRA_PGPU0_FSTP5_3						Test	GfxMbist_CP2_MGX001_Mbist_GFX_BIRA_MGX001_PatSet__BIRA_BIRA_PGPU0_FSTP5_3_CP2_LV													Control_LV_BIRA_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_7							flag-true	Control_BIRA_PGPU0_FSTP5_3									
+SET_F_GFX0_BIST_FSTP5_1_7						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_7									
+SET_F_GFX0_BIST_FSTP5_1_7						flag-true	Control_LV_BIRA_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_7									
+LV_BIRA_GPU0_FSTP6						flag-true	Control_BIRA_PGPU0_FSTP6_3																					flag-true	Control_LV_BIRA_GPU0_FSTP6									
+BIRA_PGPU0_FSTP6_3						Test	GfxMbist_CP2_MGX001_Mbist_GFX_BIRA_MGX001_PatSet__BIRA_BIRA_PGPU0_FSTP6_3_CP2_LV													Control_HV_BIRA_NOHARV	Control_SET_F_GFX0_BIST_FSTP6_1_7							flag-true	Control_BIRA_PGPU0_FSTP6_3									
+SET_F_GFX0_BIST_FSTP6_1_7						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_7									
+SET_F_GFX0_BIST_FSTP6_1_7						flag-true	Control_HV_BIRA_NOHARV																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_7									
+HV_BIRA_NOHARV						flag-true	Control_PLL_MSX004_2																					flag-true	Control_HV_BIRA_NOHARV									
+PLL_MSX004_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MSX004_2_CP2_NV													Control_SRM00_5	Control_F_PLL_MSX004_2,F_GFX_MBIST_PLL_MSX004_2_NV							flag-true	Control_PLL_MSX004_2									
+F_PLL_MSX004_2						Bintable	Bin_GFX_MBIST_PLL_MSX004_2_NV																					flag-true	Control_F_PLL_MSX004_2									
+SRM00_5						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM00_5_CP2_NV													Control_BIST_PSOC_6	Control_BIST_PSOC_6							flag-true	Control_SRM00_5									
+BIST_PSOC_6						Test	GfxMbist_CP2_MSX004_Mbist_GFX_BIRA_MSX004_PatSet_BIST_PSOC_6_CP2_HV													Control_PLL_MGX00D_2	Control_F_BIST_PSOC_6,F_GFX_MBIST_BIST_PSOC_6_HV							flag-true	Control_BIST_PSOC_6									
+F_BIST_PSOC_6						Bintable	Bin_GFX_MBIST_BIST_PSOC_6_HV																					flag-true	Control_F_BIST_PSOC_6									
+PLL_MGX00D_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MGX00D_2_CP2_NV													Control_SRM00_6	Control_F_PLL_MGX00D_2,F_GFX_MBIST_PLL_MGX00D_2_NV							flag-true	Control_PLL_MGX00D_2									
+F_PLL_MGX00D_2						Bintable	Bin_GFX_MBIST_PLL_MGX00D_2_NV																					flag-true	Control_F_PLL_MGX00D_2									
+SRM00_6						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM00_6_CP2_NV													Control_BIRA_CS_4	Control_BIRA_CS_4							flag-true	Control_SRM00_6									
+BIRA_CS_4						Test	GfxMbist_CP2_MGX00D_Mbist_GFX_BIRA_MGX00D_PatSet__BIRA_BIRA_CS_4_CP2_HV													Control_HV_BIRA_GPU0_FSTP0	Control_F_BIRA_CS_4,F_GFX_MBIST_BIRA_CS_4_HV							flag-true	Control_BIRA_CS_4									
+F_BIRA_CS_4						Bintable	Bin_GFX_MBIST_BIRA_CS_4_HV																					flag-true	Control_F_BIRA_CS_4									
+HV_BIRA_GPU0_FSTP0						flag-true	Control_BIRA_PGPU0_FSTP0_4																					flag-true	Control_HV_BIRA_GPU0_FSTP0									
+BIRA_PGPU0_FSTP0_4						Test	GfxMbist_CP2_MGX00D_Mbist_GFX_BIRA_MGX00D_PatSet__BIRA_BIRA_PGPU0_FSTP0_4_CP2_HV													Control_HV_BIRA_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_8							flag-true	Control_BIRA_PGPU0_FSTP0_4									
+SET_F_GFX0_BIST_FSTP0_1_8						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_8									
+SET_F_GFX0_BIST_FSTP0_1_8						flag-true	Control_HV_BIRA_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_8									
+HV_BIRA_GPU0_FSTP1						flag-true	Control_BIRA_PGPU0_FSTP1_4																					flag-true	Control_HV_BIRA_GPU0_FSTP1									
+BIRA_PGPU0_FSTP1_4						Test	GfxMbist_CP2_MGX00D_Mbist_GFX_BIRA_MGX00D_PatSet__BIRA_BIRA_PGPU0_FSTP1_4_CP2_HV													Control_HV_BIRA_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_8							flag-true	Control_BIRA_PGPU0_FSTP1_4									
+SET_F_GFX0_BIST_FSTP1_1_8						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_8									
+SET_F_GFX0_BIST_FSTP1_1_8						flag-true	Control_HV_BIRA_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_8									
+HV_BIRA_GPU0_FSTP2						flag-true	Control_BIRA_PGPU0_FSTP2_4																					flag-true	Control_HV_BIRA_GPU0_FSTP2									
+BIRA_PGPU0_FSTP2_4						Test	GfxMbist_CP2_MGX00D_Mbist_GFX_BIRA_MGX00D_PatSet__BIRA_BIRA_PGPU0_FSTP2_4_CP2_HV													Control_HV_BIRA_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_8							flag-true	Control_BIRA_PGPU0_FSTP2_4									
+SET_F_GFX0_BIST_FSTP2_1_8						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_8									
+SET_F_GFX0_BIST_FSTP2_1_8						flag-true	Control_HV_BIRA_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_8									
+HV_BIRA_GPU0_FSTP3						flag-true	Control_BIRA_PGPU0_FSTP3_4																					flag-true	Control_HV_BIRA_GPU0_FSTP3									
+BIRA_PGPU0_FSTP3_4						Test	GfxMbist_CP2_MGX00D_Mbist_GFX_BIRA_MGX00D_PatSet__BIRA_BIRA_PGPU0_FSTP3_4_CP2_HV													Control_HV_BIRA_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_8							flag-true	Control_BIRA_PGPU0_FSTP3_4									
+SET_F_GFX0_BIST_FSTP3_1_8						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_8									
+SET_F_GFX0_BIST_FSTP3_1_8						flag-true	Control_HV_BIRA_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_8									
+HV_BIRA_GPU0_FSTP4						flag-true	Control_BIRA_PGPU0_FSTP4_4																					flag-true	Control_HV_BIRA_GPU0_FSTP4									
+BIRA_PGPU0_FSTP4_4						Test	GfxMbist_CP2_MGX00D_Mbist_GFX_BIRA_MGX00D_PatSet__BIRA_BIRA_PGPU0_FSTP4_4_CP2_HV													Control_HV_BIRA_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_8							flag-true	Control_BIRA_PGPU0_FSTP4_4									
+SET_F_GFX0_BIST_FSTP4_1_8						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_8									
+SET_F_GFX0_BIST_FSTP4_1_8						flag-true	Control_HV_BIRA_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_8									
+HV_BIRA_GPU0_FSTP5						flag-true	Control_BIRA_PGPU0_FSTP5_4																					flag-true	Control_HV_BIRA_GPU0_FSTP5									
+BIRA_PGPU0_FSTP5_4						Test	GfxMbist_CP2_MGX00D_Mbist_GFX_BIRA_MGX00D_PatSet__BIRA_BIRA_PGPU0_FSTP5_4_CP2_HV													Control_HV_BIRA_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_8							flag-true	Control_BIRA_PGPU0_FSTP5_4									
+SET_F_GFX0_BIST_FSTP5_1_8						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_8									
+SET_F_GFX0_BIST_FSTP5_1_8						flag-true	Control_HV_BIRA_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_8									
+HV_BIRA_GPU0_FSTP6						flag-true	Control_BIRA_PGPU0_FSTP6_4																					flag-true	Control_HV_BIRA_GPU0_FSTP6									
+BIRA_PGPU0_FSTP6_4						Test	GfxMbist_CP2_MGX00D_Mbist_GFX_BIRA_MGX00D_PatSet__BIRA_BIRA_PGPU0_FSTP6_4_CP2_HV													Control_CHECK_FOR_VALID_REPAIR	Control_SET_F_GFX0_BIST_FSTP6_1_8							flag-true	Control_BIRA_PGPU0_FSTP6_4									
+SET_F_GFX0_BIST_FSTP6_1_8						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_8									
+SET_F_GFX0_BIST_FSTP6_1_8						flag-true	Control_CHECK_FOR_VALID_REPAIR																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_8									
+CHECK_FOR_VALID_REPAIR						flag-true	Control_BISR_2																					flag-true	Control_CHECK_FOR_VALID_REPAIR									
+BISR_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_BISR_2_CP2_NV													Control_NV_REP_CLR_GPU0_FSTP0	Control_F_BISR_2,F_GFX_MBIST_BISR_2_NV							flag-true	Control_BISR_2									
+F_BISR_2						Bintable	Bin_GFX_MBIST_BISR_2_NV																					flag-true	Control_F_BISR_2									
+NV_REP_CLR_GPU0_FSTP0						flag-true	Control_GET_F_GFX0_BIST_FSTP0_1																					flag-true	Control_NV_REP_CLR_GPU0_FSTP0									
+GET_F_GFX0_BIST_FSTP0_1						If	F_GFX0_BIST_CORE0																															
+GET_F_GFX0_BIST_FSTP0_1						flag-true	Control_RSCR_CLEAR_GPU0_FSTP0_1																					flag-true	Control_GET_F_GFX0_BIST_FSTP0_1									
+GET_F_GFX0_BIST_FSTP0_1						Else																																
+GET_F_GFX0_BIST_FSTP0_1						flag-true	Control_NV_REP_CLR_GPU0_FSTP1																					flag-true	Control_GET_F_GFX0_BIST_FSTP0_1									
+GET_F_GFX0_BIST_FSTP0_1						EndIf																																
+RSCR_CLEAR_GPU0_FSTP0_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_RSCR_CLEAR_GPU0_FSTP0_1_CP2_NV													Control_NV_REP_CLR_GPU0_FSTP1	Control_F_RSCR_CLEAR_GPU0_FSTP0_1,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP0_1_NV							flag-true	Control_RSCR_CLEAR_GPU0_FSTP0_1									
+F_RSCR_CLEAR_GPU0_FSTP0_1						Bintable	Bin_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP0_1_NV																					flag-true	Control_F_RSCR_CLEAR_GPU0_FSTP0_1									
+NV_REP_CLR_GPU0_FSTP1						flag-true	Control_GET_F_GFX0_BIST_FSTP1_1																					flag-true	Control_NV_REP_CLR_GPU0_FSTP1									
+GET_F_GFX0_BIST_FSTP1_1						If	F_GFX0_BIST_CORE1																															
+GET_F_GFX0_BIST_FSTP1_1						flag-true	Control_RSCR_CLEAR_GPU0_FSTP1_1																					flag-true	Control_GET_F_GFX0_BIST_FSTP1_1									
+GET_F_GFX0_BIST_FSTP1_1						Else																																
+GET_F_GFX0_BIST_FSTP1_1						flag-true	Control_NV_REP_CLR_GPU0_FSTP2																					flag-true	Control_GET_F_GFX0_BIST_FSTP1_1									
+GET_F_GFX0_BIST_FSTP1_1						EndIf																																
+RSCR_CLEAR_GPU0_FSTP1_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_RSCR_CLEAR_GPU0_FSTP1_1_CP2_NV													Control_NV_REP_CLR_GPU0_FSTP2	Control_F_RSCR_CLEAR_GPU0_FSTP1_1,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP1_1_NV							flag-true	Control_RSCR_CLEAR_GPU0_FSTP1_1									
+F_RSCR_CLEAR_GPU0_FSTP1_1						Bintable	Bin_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP1_1_NV																					flag-true	Control_F_RSCR_CLEAR_GPU0_FSTP1_1									
+NV_REP_CLR_GPU0_FSTP2						flag-true	Control_GET_F_GFX0_BIST_FSTP2_1																					flag-true	Control_NV_REP_CLR_GPU0_FSTP2									
+GET_F_GFX0_BIST_FSTP2_1						If	F_GFX0_BIST_CORE2																															
+GET_F_GFX0_BIST_FSTP2_1						flag-true	Control_RSCR_CLEAR_GPU0_FSTP2_1																					flag-true	Control_GET_F_GFX0_BIST_FSTP2_1									
+GET_F_GFX0_BIST_FSTP2_1						Else																																
+GET_F_GFX0_BIST_FSTP2_1						flag-true	Control_NV_REP_CLR_GPU0_FSTP3																					flag-true	Control_GET_F_GFX0_BIST_FSTP2_1									
+GET_F_GFX0_BIST_FSTP2_1						EndIf																																
+RSCR_CLEAR_GPU0_FSTP2_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_RSCR_CLEAR_GPU0_FSTP2_1_CP2_NV													Control_NV_REP_CLR_GPU0_FSTP3	Control_F_RSCR_CLEAR_GPU0_FSTP2_1,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP2_1_NV							flag-true	Control_RSCR_CLEAR_GPU0_FSTP2_1									
+F_RSCR_CLEAR_GPU0_FSTP2_1						Bintable	Bin_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP2_1_NV																					flag-true	Control_F_RSCR_CLEAR_GPU0_FSTP2_1									
+NV_REP_CLR_GPU0_FSTP3						flag-true	Control_GET_F_GFX0_BIST_FSTP3_1																					flag-true	Control_NV_REP_CLR_GPU0_FSTP3									
+GET_F_GFX0_BIST_FSTP3_1						If	F_GFX0_BIST_CORE3																															
+GET_F_GFX0_BIST_FSTP3_1						flag-true	Control_RSCR_CLEAR_GPU0_FSTP3_1																					flag-true	Control_GET_F_GFX0_BIST_FSTP3_1									
+GET_F_GFX0_BIST_FSTP3_1						Else																																
+GET_F_GFX0_BIST_FSTP3_1						flag-true	Control_NV_REP_CLR_GPU0_FSTP4																					flag-true	Control_GET_F_GFX0_BIST_FSTP3_1									
+GET_F_GFX0_BIST_FSTP3_1						EndIf																																
+RSCR_CLEAR_GPU0_FSTP3_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_RSCR_CLEAR_GPU0_FSTP3_1_CP2_NV													Control_NV_REP_CLR_GPU0_FSTP4	Control_F_RSCR_CLEAR_GPU0_FSTP3_1,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP3_1_NV							flag-true	Control_RSCR_CLEAR_GPU0_FSTP3_1									
+F_RSCR_CLEAR_GPU0_FSTP3_1						Bintable	Bin_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP3_1_NV																					flag-true	Control_F_RSCR_CLEAR_GPU0_FSTP3_1									
+NV_REP_CLR_GPU0_FSTP4						flag-true	Control_GET_F_GFX0_BIST_FSTP4_1																					flag-true	Control_NV_REP_CLR_GPU0_FSTP4									
+GET_F_GFX0_BIST_FSTP4_1						If	F_GFX0_BIST_CORE4																															
+GET_F_GFX0_BIST_FSTP4_1						flag-true	Control_RSCR_CLEAR_GPU0_FSTP4_1																					flag-true	Control_GET_F_GFX0_BIST_FSTP4_1									
+GET_F_GFX0_BIST_FSTP4_1						Else																																
+GET_F_GFX0_BIST_FSTP4_1						flag-true	Control_NV_REP_CLR_GPU0_FSTP5																					flag-true	Control_GET_F_GFX0_BIST_FSTP4_1									
+GET_F_GFX0_BIST_FSTP4_1						EndIf																																
+RSCR_CLEAR_GPU0_FSTP4_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_RSCR_CLEAR_GPU0_FSTP4_1_CP2_NV													Control_NV_REP_CLR_GPU0_FSTP5	Control_F_RSCR_CLEAR_GPU0_FSTP4_1,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP4_1_NV							flag-true	Control_RSCR_CLEAR_GPU0_FSTP4_1									
+F_RSCR_CLEAR_GPU0_FSTP4_1						Bintable	Bin_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP4_1_NV																					flag-true	Control_F_RSCR_CLEAR_GPU0_FSTP4_1									
+NV_REP_CLR_GPU0_FSTP5						flag-true	Control_GET_F_GFX0_BIST_FSTP5_1																					flag-true	Control_NV_REP_CLR_GPU0_FSTP5									
+GET_F_GFX0_BIST_FSTP5_1						If	F_GFX0_BIST_CORE5																															
+GET_F_GFX0_BIST_FSTP5_1						flag-true	Control_RSCR_CLEAR_GPU0_FSTP5_1																					flag-true	Control_GET_F_GFX0_BIST_FSTP5_1									
+GET_F_GFX0_BIST_FSTP5_1						Else																																
+GET_F_GFX0_BIST_FSTP5_1						flag-true	Control_NV_REP_CLR_GPU0_FSTP6																					flag-true	Control_GET_F_GFX0_BIST_FSTP5_1									
+GET_F_GFX0_BIST_FSTP5_1						EndIf																																
+RSCR_CLEAR_GPU0_FSTP5_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_RSCR_CLEAR_GPU0_FSTP5_1_CP2_NV													Control_NV_REP_CLR_GPU0_FSTP6	Control_F_RSCR_CLEAR_GPU0_FSTP5_1,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP5_1_NV							flag-true	Control_RSCR_CLEAR_GPU0_FSTP5_1									
+F_RSCR_CLEAR_GPU0_FSTP5_1						Bintable	Bin_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP5_1_NV																					flag-true	Control_F_RSCR_CLEAR_GPU0_FSTP5_1									
+NV_REP_CLR_GPU0_FSTP6						flag-true	Control_GET_F_GFX0_BIST_FSTP6_1																					flag-true	Control_NV_REP_CLR_GPU0_FSTP6									
+GET_F_GFX0_BIST_FSTP6_1						If	F_GFX0_BIST_CORE6																															
+GET_F_GFX0_BIST_FSTP6_1						flag-true	Control_RSCR_CLEAR_GPU0_FSTP6_1																					flag-true	Control_GET_F_GFX0_BIST_FSTP6_1									
+GET_F_GFX0_BIST_FSTP6_1						Else																																
+GET_F_GFX0_BIST_FSTP6_1						flag-true	Control_NV_FLS																					flag-true	Control_GET_F_GFX0_BIST_FSTP6_1									
+GET_F_GFX0_BIST_FSTP6_1						EndIf																																
+RSCR_CLEAR_GPU0_FSTP6_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_RSCR_CLEAR_GPU0_FSTP6_1_CP2_NV													Control_NV_FLS	Control_F_RSCR_CLEAR_GPU0_FSTP6_1,F_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP6_1_NV							flag-true	Control_RSCR_CLEAR_GPU0_FSTP6_1									
+F_RSCR_CLEAR_GPU0_FSTP6_1						Bintable	Bin_GFX_MBIST_RSCR_CLEAR_GPU0_FSTP6_1_NV																					flag-true	Control_F_RSCR_CLEAR_GPU0_FSTP6_1									
+NV_FLS						flag-true	Control_FLOAD_SETUP_2																					flag-true	Control_NV_FLS									
+FLOAD_SETUP_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet__BIRA_FLOAD_SETUP_2_CP2_NV													Control_CHECK_FOR_PRIME_DIE	Control_F_FLOAD_SETUP_2,F_GFX_MBIST_FLOAD_SETUP_2_NV							flag-true	Control_FLOAD_SETUP_2									
+F_FLOAD_SETUP_2						Bintable	Bin_GFX_MBIST_FLOAD_SETUP_2_NV																					flag-true	Control_F_FLOAD_SETUP_2									
+CHECK_FOR_PRIME_DIE						flag-true	Control_FLOAD_PRIME_2																					flag-true	Control_CHECK_FOR_PRIME_DIE									
+FLOAD_PRIME_2						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_FLOAD_PRIME_2_CP2_NV													Control_CHECK_REPAIR_INFO	Control_SET_F_GFX_BIST_CHECK,F_GFX_MBIST_FLOAD_PRIME_2_NV							flag-true	Control_FLOAD_PRIME_2									
+SET_F_GFX_BIST_CHECK						flag-true	F_GFX_BIST_CHECK																					flag-true	Control_SET_F_GFX_BIST_CHECK									
+SET_F_GFX_BIST_CHECK						flag-true	Control_EFUSE_PGM																					flag-true	Control_SET_F_GFX_BIST_CHECK									
+EFUSE_PGM						flag-true	Control_EFUSE_PROGRAM_1																					flag-true	Control_EFUSE_PGM									
+EFUSE_PROGRAM_1		MbistEfuse				Test	GfxMbist_CP2_Mbist_GFX_EFP_X_PatSet_EFUSE_PROGRAM_1_CP2_NV													Control_SET_MR_1_1	Control_F_EFUSE_PROGRAM_1,F_GFX_MBIST_EFUSE_PROGRAM_1_NV							flag-true	Control_EFUSE_PROGRAM_1									
+EFUSE_PROGRAM_1		!MbistEfuse				flag-true	Control_SET_MR_1_1																					flag-true	Control_EFUSE_PROGRAM_1									
+F_EFUSE_PROGRAM_1						Bintable	Bin_GFX_MBIST_EFUSE_PROGRAM_1_NV																					flag-true	Control_F_EFUSE_PROGRAM_1									
+SET_MR_1_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SET_MR_1_1_CP2_NV													Control_SRM00_7	Control_SRM00_7							flag-true	Control_SET_MR_1_1									
+SRM00_7						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM00_7_CP2_NV													Control_EFUSE_COMPARE_1	Control_EFUSE_COMPARE_1							flag-true	Control_SRM00_7									
+EFUSE_COMPARE_1						Test	GfxMbist_CP2_Mbist_GFX_EFC_X_PatSet_EFUSE_COMPARE_1_CP2_HV													Control_SRM1F_9	Control_F_EFUSE_COMPARE_1,F_GFX_MBIST_EFUSE_COMPARE_1_HV							flag-true	Control_EFUSE_COMPARE_1									
+F_EFUSE_COMPARE_1						Bintable	Bin_GFX_MBIST_EFUSE_COMPARE_1_HV																					flag-true	Control_F_EFUSE_COMPARE_1									
+SRM1F_9						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM1F_9_CP2_NV													Control_EFUSE_COMPARE_2	Control_EFUSE_COMPARE_2							flag-true	Control_SRM1F_9									
+EFUSE_COMPARE_2						Test	GfxMbist_CP2_Mbist_GFX_EFC_X_PatSet_EFUSE_COMPARE_2_CP2_LV													Control_SET_MR_0_1	Control_F_EFUSE_COMPARE_2,F_GFX_MBIST_EFUSE_COMPARE_2_LV							flag-true	Control_EFUSE_COMPARE_2									
+F_EFUSE_COMPARE_2						Bintable	Bin_GFX_MBIST_EFUSE_COMPARE_2_LV																					flag-true	Control_F_EFUSE_COMPARE_2									
+SET_MR_0_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SET_MR_0_1_CP2_NV													Control_BIST_SERIAL	Control_BIST_SERIAL							flag-true	Control_SET_MR_0_1									
+BIST_SERIAL						flag-true	Control_SOC_INIT_3																					flag-true	Control_BIST_SERIAL									
+SOC_INIT_3						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SOC_INIT_3_CP2_NV													Control_GFX_INIT_3	Control_F_SOC_INIT_3,F_GFX_MBIST_SOC_INIT_3_NV							flag-true	Control_SOC_INIT_3									
+F_SOC_INIT_3						Bintable	Bin_GFX_MBIST_SOC_INIT_3_NV																					flag-true	Control_F_SOC_INIT_3									
+GFX_INIT_3						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_GFX_INIT_3_CP2_NV													Control_EMA_CHECKER_3	Control_F_GFX_INIT_3,F_GFX_MBIST_GFX_INIT_3_NV							flag-true	Control_GFX_INIT_3									
+F_GFX_INIT_3						Bintable	Bin_GFX_MBIST_GFX_INIT_3_NV																					flag-true	Control_F_GFX_INIT_3									
+EMA_CHECKER_3						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_EMA_CHECKER_3_CP2_NV													Control_SMART_REPAIR_3	Control_F_EMA_CHECKER_3,F_GFX_MBIST_EMA_CHECKER_3_NV							flag-true	Control_EMA_CHECKER_3									
+F_EMA_CHECKER_3						Bintable	Bin_GFX_MBIST_EMA_CHECKER_3_NV																					flag-true	Control_F_EMA_CHECKER_3									
+SMART_REPAIR_3						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SMART_REPAIR_3_CP2_NV													Control_Vmargin3_BIST_NOHARV	Control_F_SMART_REPAIR_3,F_GFX_MBIST_SMART_REPAIR_3_NV							flag-true	Control_SMART_REPAIR_3									
+F_SMART_REPAIR_3						Bintable	Bin_GFX_MBIST_SMART_REPAIR_3_NV																					flag-true	Control_F_SMART_REPAIR_3									
+Vmargin3_BIST_NOHARV						flag-true	Control_PLL_MGSXXX_6																					flag-true	Control_Vmargin3_BIST_NOHARV									
+PLL_MGSXXX_6						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MGSXXX_6_CP2_NV													Control_SRM1F_10	Control_F_PLL_MGSXXX_6,F_GFX_MBIST_PLL_MGSXXX_6_NV							flag-true	Control_PLL_MGSXXX_6									
+F_PLL_MGSXXX_6						Bintable	Bin_GFX_MBIST_PLL_MGSXXX_6_NV																					flag-true	Control_F_PLL_MGSXXX_6									
+SRM1F_10						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM1F_10_CP2_NV													Control_BIST_PSOC_7	Control_BIST_PSOC_7							flag-true	Control_SRM1F_10									
+BIST_PSOC_7						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIST_Vmargin3_PatSet_BIST_PSOC_7_CP2_MLV													Control_BIST_CS_1	Control_F_BIST_PSOC_7,F_GFX_MBIST_BIST_PSOC_7_MLV							flag-true	Control_BIST_PSOC_7									
+F_BIST_PSOC_7						Bintable	Bin_GFX_MBIST_BIST_PSOC_7_MLV																					flag-true	Control_F_BIST_PSOC_7									
+BIST_CS_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIST_Vmargin3_PatSet_BIST_CS_1_CP2_MLV													Control_Vmargin3_BIST_GPU0_FSTP0	Control_F_BIST_CS_1,F_GFX_MBIST_BIST_CS_1_MLV							flag-true	Control_BIST_CS_1									
+F_BIST_CS_1						Bintable	Bin_GFX_MBIST_BIST_CS_1_MLV																					flag-true	Control_F_BIST_CS_1									
+Vmargin3_BIST_GPU0_FSTP0						flag-true	Control_BIST_PGPU0_FSTP0_1																					flag-true	Control_Vmargin3_BIST_GPU0_FSTP0									
+BIST_PGPU0_FSTP0_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIST_Vmargin3_PatSet_BIST_PGPU0_FSTP0_1_CP2_MLV													Control_Vmargin3_BIST_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_9							flag-true	Control_BIST_PGPU0_FSTP0_1									
+SET_F_GFX0_BIST_FSTP0_1_9						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_9									
+SET_F_GFX0_BIST_FSTP0_1_9						flag-true	Control_Vmargin3_BIST_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_9									
+Vmargin3_BIST_GPU0_FSTP1						flag-true	Control_BIST_PGPU0_FSTP1_1																					flag-true	Control_Vmargin3_BIST_GPU0_FSTP1									
+BIST_PGPU0_FSTP1_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIST_Vmargin3_PatSet_BIST_PGPU0_FSTP1_1_CP2_MLV													Control_Vmargin3_BIST_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_9							flag-true	Control_BIST_PGPU0_FSTP1_1									
+SET_F_GFX0_BIST_FSTP1_1_9						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_9									
+SET_F_GFX0_BIST_FSTP1_1_9						flag-true	Control_Vmargin3_BIST_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_9									
+Vmargin3_BIST_GPU0_FSTP2						flag-true	Control_BIST_PGPU0_FSTP2_1																					flag-true	Control_Vmargin3_BIST_GPU0_FSTP2									
+BIST_PGPU0_FSTP2_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIST_Vmargin3_PatSet_BIST_PGPU0_FSTP2_1_CP2_MLV													Control_Vmargin3_BIST_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_9							flag-true	Control_BIST_PGPU0_FSTP2_1									
+SET_F_GFX0_BIST_FSTP2_1_9						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_9									
+SET_F_GFX0_BIST_FSTP2_1_9						flag-true	Control_Vmargin3_BIST_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_9									
+Vmargin3_BIST_GPU0_FSTP3						flag-true	Control_BIST_PGPU0_FSTP3_1																					flag-true	Control_Vmargin3_BIST_GPU0_FSTP3									
+BIST_PGPU0_FSTP3_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIST_Vmargin3_PatSet_BIST_PGPU0_FSTP3_1_CP2_MLV													Control_Vmargin3_BIST_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_9							flag-true	Control_BIST_PGPU0_FSTP3_1									
+SET_F_GFX0_BIST_FSTP3_1_9						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_9									
+SET_F_GFX0_BIST_FSTP3_1_9						flag-true	Control_Vmargin3_BIST_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_9									
+Vmargin3_BIST_GPU0_FSTP4						flag-true	Control_BIST_PGPU0_FSTP4_1																					flag-true	Control_Vmargin3_BIST_GPU0_FSTP4									
+BIST_PGPU0_FSTP4_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIST_Vmargin3_PatSet_BIST_PGPU0_FSTP4_1_CP2_MLV													Control_Vmargin3_BIST_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_9							flag-true	Control_BIST_PGPU0_FSTP4_1									
+SET_F_GFX0_BIST_FSTP4_1_9						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_9									
+SET_F_GFX0_BIST_FSTP4_1_9						flag-true	Control_Vmargin3_BIST_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_9									
+Vmargin3_BIST_GPU0_FSTP5						flag-true	Control_BIST_PGPU0_FSTP5_1																					flag-true	Control_Vmargin3_BIST_GPU0_FSTP5									
+BIST_PGPU0_FSTP5_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIST_Vmargin3_PatSet_BIST_PGPU0_FSTP5_1_CP2_MLV													Control_Vmargin3_BIST_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_9							flag-true	Control_BIST_PGPU0_FSTP5_1									
+SET_F_GFX0_BIST_FSTP5_1_9						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_9									
+SET_F_GFX0_BIST_FSTP5_1_9						flag-true	Control_Vmargin3_BIST_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_9									
+Vmargin3_BIST_GPU0_FSTP6						flag-true	Control_BIST_PGPU0_FSTP6_1																					flag-true	Control_Vmargin3_BIST_GPU0_FSTP6									
+BIST_PGPU0_FSTP6_1						Test	GfxMbist_CP2_VMARGIN3_Mbist_GFX_BIST_Vmargin3_PatSet_BIST_PGPU0_FSTP6_1_CP2_MLV													Control_Vmargin1_BIST_NOHARV	Control_SET_F_GFX0_BIST_FSTP6_1_9							flag-true	Control_BIST_PGPU0_FSTP6_1									
+SET_F_GFX0_BIST_FSTP6_1_9						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_9									
+SET_F_GFX0_BIST_FSTP6_1_9						flag-true	Control_Vmargin1_BIST_NOHARV																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_9									
+Vmargin1_BIST_NOHARV						flag-true	Control_SRM00_8																					flag-true	Control_Vmargin1_BIST_NOHARV									
+SRM00_8						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM00_8_CP2_NV													Control_BIST_PSOC_8	Control_BIST_PSOC_8							flag-true	Control_SRM00_8									
+BIST_PSOC_8						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIST_Vmargin1_PatSet_BIST_PSOC_8_CP2_MHV													Control_BIST_CS_2	Control_F_BIST_PSOC_8,F_GFX_MBIST_BIST_PSOC_8_MHV							flag-true	Control_BIST_PSOC_8									
+F_BIST_PSOC_8						Bintable	Bin_GFX_MBIST_BIST_PSOC_8_MHV																					flag-true	Control_F_BIST_PSOC_8									
+BIST_CS_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIST_Vmargin1_PatSet_BIST_CS_2_CP2_MHV													Control_Vmargin1_BIST_GPU0_FSTP0	Control_F_BIST_CS_2,F_GFX_MBIST_BIST_CS_2_MHV							flag-true	Control_BIST_CS_2									
+F_BIST_CS_2						Bintable	Bin_GFX_MBIST_BIST_CS_2_MHV																					flag-true	Control_F_BIST_CS_2									
+Vmargin1_BIST_GPU0_FSTP0						flag-true	Control_BIST_PGPU0_FSTP0_2																					flag-true	Control_Vmargin1_BIST_GPU0_FSTP0									
+BIST_PGPU0_FSTP0_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIST_Vmargin1_PatSet_BIST_PGPU0_FSTP0_2_CP2_MHV													Control_Vmargin1_BIST_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_10							flag-true	Control_BIST_PGPU0_FSTP0_2									
+SET_F_GFX0_BIST_FSTP0_1_10						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_10									
+SET_F_GFX0_BIST_FSTP0_1_10						flag-true	Control_Vmargin1_BIST_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_10									
+Vmargin1_BIST_GPU0_FSTP1						flag-true	Control_BIST_PGPU0_FSTP1_2																					flag-true	Control_Vmargin1_BIST_GPU0_FSTP1									
+BIST_PGPU0_FSTP1_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIST_Vmargin1_PatSet_BIST_PGPU0_FSTP1_2_CP2_MHV													Control_Vmargin1_BIST_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_10							flag-true	Control_BIST_PGPU0_FSTP1_2									
+SET_F_GFX0_BIST_FSTP1_1_10						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_10									
+SET_F_GFX0_BIST_FSTP1_1_10						flag-true	Control_Vmargin1_BIST_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_10									
+Vmargin1_BIST_GPU0_FSTP2						flag-true	Control_BIST_PGPU0_FSTP2_2																					flag-true	Control_Vmargin1_BIST_GPU0_FSTP2									
+BIST_PGPU0_FSTP2_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIST_Vmargin1_PatSet_BIST_PGPU0_FSTP2_2_CP2_MHV													Control_Vmargin1_BIST_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_10							flag-true	Control_BIST_PGPU0_FSTP2_2									
+SET_F_GFX0_BIST_FSTP2_1_10						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_10									
+SET_F_GFX0_BIST_FSTP2_1_10						flag-true	Control_Vmargin1_BIST_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_10									
+Vmargin1_BIST_GPU0_FSTP3						flag-true	Control_BIST_PGPU0_FSTP3_2																					flag-true	Control_Vmargin1_BIST_GPU0_FSTP3									
+BIST_PGPU0_FSTP3_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIST_Vmargin1_PatSet_BIST_PGPU0_FSTP3_2_CP2_MHV													Control_Vmargin1_BIST_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_10							flag-true	Control_BIST_PGPU0_FSTP3_2									
+SET_F_GFX0_BIST_FSTP3_1_10						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_10									
+SET_F_GFX0_BIST_FSTP3_1_10						flag-true	Control_Vmargin1_BIST_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_10									
+Vmargin1_BIST_GPU0_FSTP4						flag-true	Control_BIST_PGPU0_FSTP4_2																					flag-true	Control_Vmargin1_BIST_GPU0_FSTP4									
+BIST_PGPU0_FSTP4_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIST_Vmargin1_PatSet_BIST_PGPU0_FSTP4_2_CP2_MHV													Control_Vmargin1_BIST_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_10							flag-true	Control_BIST_PGPU0_FSTP4_2									
+SET_F_GFX0_BIST_FSTP4_1_10						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_10									
+SET_F_GFX0_BIST_FSTP4_1_10						flag-true	Control_Vmargin1_BIST_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_10									
+Vmargin1_BIST_GPU0_FSTP5						flag-true	Control_BIST_PGPU0_FSTP5_2																					flag-true	Control_Vmargin1_BIST_GPU0_FSTP5									
+BIST_PGPU0_FSTP5_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIST_Vmargin1_PatSet_BIST_PGPU0_FSTP5_2_CP2_MHV													Control_Vmargin1_BIST_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_10							flag-true	Control_BIST_PGPU0_FSTP5_2									
+SET_F_GFX0_BIST_FSTP5_1_10						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_10									
+SET_F_GFX0_BIST_FSTP5_1_10						flag-true	Control_Vmargin1_BIST_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_10									
+Vmargin1_BIST_GPU0_FSTP6						flag-true	Control_BIST_PGPU0_FSTP6_2																					flag-true	Control_Vmargin1_BIST_GPU0_FSTP6									
+BIST_PGPU0_FSTP6_2						Test	GfxMbist_CP2_VMARGIN1_Mbist_GFX_BIST_Vmargin1_PatSet_BIST_PGPU0_FSTP6_2_CP2_MHV													Control_NV_BIST_ERT_1WD_NOHARV	Control_SET_F_GFX0_BIST_FSTP6_1_10							flag-true	Control_BIST_PGPU0_FSTP6_2									
+SET_F_GFX0_BIST_FSTP6_1_10						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_10									
+SET_F_GFX0_BIST_FSTP6_1_10						flag-true	Control_NV_BIST_ERT_1WD_NOHARV																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_10									
+NV_BIST_ERT_1WD_NOHARV						flag-true	Control_PLL_MGSXXX_7																					flag-true	Control_NV_BIST_ERT_1WD_NOHARV									
+PLL_MGSXXX_7						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_PLL_MGSXXX_7_CP2_NV													Control_SRM1F_11	Control_F_PLL_MGSXXX_7,F_GFX_MBIST_PLL_MGSXXX_7_NV							flag-true	Control_PLL_MGSXXX_7									
+F_PLL_MGSXXX_7						Bintable	Bin_GFX_MBIST_PLL_MGSXXX_7_NV																					flag-true	Control_F_PLL_MGSXXX_7									
+SRM1F_11						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_SRM1F_11_CP2_NV													Control_BIST_ERT_1WD_PSOC_2	Control_BIST_ERT_1WD_PSOC_2							flag-true	Control_SRM1F_11									
+BIST_ERT_1WD_PSOC_2						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WD_PSOC_2_CP2_HV													Control_BIST_ERT_1WD_CS_1	Control_F_BIST_ERT_1WD_PSOC_2,F_GFX_MBIST_BIST_ERT_1WD_PSOC_2_HV							flag-true	Control_BIST_ERT_1WD_PSOC_2									
+F_BIST_ERT_1WD_PSOC_2						Bintable	Bin_GFX_MBIST_BIST_ERT_1WD_PSOC_2_HV																					flag-true	Control_F_BIST_ERT_1WD_PSOC_2									
+BIST_ERT_1WD_CS_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WD_CS_1_CP2_HV													Control_NV_BIST_ERT_1WD_GPU0_FSTP0	Control_F_BIST_ERT_1WD_CS_1,F_GFX_MBIST_BIST_ERT_1WD_CS_1_HV							flag-true	Control_BIST_ERT_1WD_CS_1									
+F_BIST_ERT_1WD_CS_1						Bintable	Bin_GFX_MBIST_BIST_ERT_1WD_CS_1_HV																					flag-true	Control_F_BIST_ERT_1WD_CS_1									
+NV_BIST_ERT_1WD_GPU0_FSTP0						flag-true	Control_BIST_ERT_1WD_GPU0_FSTP0_1																					flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP0									
+BIST_ERT_1WD_GPU0_FSTP0_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WD_GPU0_FSTP0_1_CP2_HV													Control_NV_BIST_ERT_1WD_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_11							flag-true	Control_BIST_ERT_1WD_GPU0_FSTP0_1									
+SET_F_GFX0_BIST_FSTP0_1_11						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_11									
+SET_F_GFX0_BIST_FSTP0_1_11						flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_11									
+NV_BIST_ERT_1WD_GPU0_FSTP1						flag-true	Control_BIST_ERT_1WD_GPU0_FSTP1_1																					flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP1									
+BIST_ERT_1WD_GPU0_FSTP1_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WD_GPU0_FSTP1_1_CP2_HV													Control_NV_BIST_ERT_1WD_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_11							flag-true	Control_BIST_ERT_1WD_GPU0_FSTP1_1									
+SET_F_GFX0_BIST_FSTP1_1_11						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_11									
+SET_F_GFX0_BIST_FSTP1_1_11						flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_11									
+NV_BIST_ERT_1WD_GPU0_FSTP2						flag-true	Control_BIST_ERT_1WD_GPU0_FSTP2_1																					flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP2									
+BIST_ERT_1WD_GPU0_FSTP2_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WD_GPU0_FSTP2_1_CP2_HV													Control_NV_BIST_ERT_1WD_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_11							flag-true	Control_BIST_ERT_1WD_GPU0_FSTP2_1									
+SET_F_GFX0_BIST_FSTP2_1_11						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_11									
+SET_F_GFX0_BIST_FSTP2_1_11						flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_11									
+NV_BIST_ERT_1WD_GPU0_FSTP3						flag-true	Control_BIST_ERT_1WD_GPU0_FSTP3_1																					flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP3									
+BIST_ERT_1WD_GPU0_FSTP3_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WD_GPU0_FSTP3_1_CP2_HV													Control_NV_BIST_ERT_1WD_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_11							flag-true	Control_BIST_ERT_1WD_GPU0_FSTP3_1									
+SET_F_GFX0_BIST_FSTP3_1_11						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_11									
+SET_F_GFX0_BIST_FSTP3_1_11						flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_11									
+NV_BIST_ERT_1WD_GPU0_FSTP4						flag-true	Control_BIST_ERT_1WD_GPU0_FSTP4_1																					flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP4									
+BIST_ERT_1WD_GPU0_FSTP4_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WD_GPU0_FSTP4_1_CP2_HV													Control_NV_BIST_ERT_1WD_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_11							flag-true	Control_BIST_ERT_1WD_GPU0_FSTP4_1									
+SET_F_GFX0_BIST_FSTP4_1_11						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_11									
+SET_F_GFX0_BIST_FSTP4_1_11						flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_11									
+NV_BIST_ERT_1WD_GPU0_FSTP5						flag-true	Control_BIST_ERT_1WD_GPU0_FSTP5_1																					flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP5									
+BIST_ERT_1WD_GPU0_FSTP5_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WD_GPU0_FSTP5_1_CP2_HV													Control_NV_BIST_ERT_1WD_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_11							flag-true	Control_BIST_ERT_1WD_GPU0_FSTP5_1									
+SET_F_GFX0_BIST_FSTP5_1_11						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_11									
+SET_F_GFX0_BIST_FSTP5_1_11						flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_11									
+NV_BIST_ERT_1WD_GPU0_FSTP6						flag-true	Control_BIST_ERT_1WD_GPU0_FSTP6_1																					flag-true	Control_NV_BIST_ERT_1WD_GPU0_FSTP6									
+BIST_ERT_1WD_GPU0_FSTP6_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WD_GPU0_FSTP6_1_CP2_HV													Control_ENTER_BIST_1WD_RETENTION	Control_SET_F_GFX0_BIST_FSTP6_1_11							flag-true	Control_BIST_ERT_1WD_GPU0_FSTP6_1									
+SET_F_GFX0_BIST_FSTP6_1_11						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_11									
+SET_F_GFX0_BIST_FSTP6_1_11						flag-true	Control_ENTER_BIST_1WD_RETENTION																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_11									
+ENTER_BIST_1WD_RETENTION						flag-true	Control_RETENTION_PAUSE_20_5																					flag-true	Control_ENTER_BIST_1WD_RETENTION									
+RETENTION_PAUSE_20_5						Test	GfxMbist_L_BI_PP_CP2_Mbist_GFX_ERTBIST_Retention_Wait20mS_STEP5													Control_NV_BIST_ERT_1RD_NOHARV	Control_NV_BIST_ERT_1RD_NOHARV							flag-true	Control_RETENTION_PAUSE_20_5									
+NV_BIST_ERT_1RD_NOHARV						flag-true	Control_BIST_ERT_1RD_PSOC_2																					flag-true	Control_NV_BIST_ERT_1RD_NOHARV									
+BIST_ERT_1RD_PSOC_2						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RD_PSOC_2_CP2_HV													Control_BIST_ERT_1RD_CS_1	Control_F_BIST_ERT_1RD_PSOC_2,F_GFX_MBIST_BIST_ERT_1RD_PSOC_2_HV							flag-true	Control_BIST_ERT_1RD_PSOC_2									
+F_BIST_ERT_1RD_PSOC_2						Bintable	Bin_GFX_MBIST_BIST_ERT_1RD_PSOC_2_HV																					flag-true	Control_F_BIST_ERT_1RD_PSOC_2									
+BIST_ERT_1RD_CS_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RD_CS_1_CP2_HV													Control_NV_BIST_ERT_1RD_GPU0_FSTP0	Control_F_BIST_ERT_1RD_CS_1,F_GFX_MBIST_BIST_ERT_1RD_CS_1_HV							flag-true	Control_BIST_ERT_1RD_CS_1									
+F_BIST_ERT_1RD_CS_1						Bintable	Bin_GFX_MBIST_BIST_ERT_1RD_CS_1_HV																					flag-true	Control_F_BIST_ERT_1RD_CS_1									
+NV_BIST_ERT_1RD_GPU0_FSTP0						flag-true	Control_BIST_ERT_1RD_GPU0_FSTP0_1																					flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP0									
+BIST_ERT_1RD_GPU0_FSTP0_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RD_GPU0_FSTP0_1_CP2_HV													Control_NV_BIST_ERT_1RD_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_12							flag-true	Control_BIST_ERT_1RD_GPU0_FSTP0_1									
+SET_F_GFX0_BIST_FSTP0_1_12						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_12									
+SET_F_GFX0_BIST_FSTP0_1_12						flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_12									
+NV_BIST_ERT_1RD_GPU0_FSTP1						flag-true	Control_BIST_ERT_1RD_GPU0_FSTP1_1																					flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP1									
+BIST_ERT_1RD_GPU0_FSTP1_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RD_GPU0_FSTP1_1_CP2_HV													Control_NV_BIST_ERT_1RD_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_12							flag-true	Control_BIST_ERT_1RD_GPU0_FSTP1_1									
+SET_F_GFX0_BIST_FSTP1_1_12						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_12									
+SET_F_GFX0_BIST_FSTP1_1_12						flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_12									
+NV_BIST_ERT_1RD_GPU0_FSTP2						flag-true	Control_BIST_ERT_1RD_GPU0_FSTP2_1																					flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP2									
+BIST_ERT_1RD_GPU0_FSTP2_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RD_GPU0_FSTP2_1_CP2_HV													Control_NV_BIST_ERT_1RD_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_12							flag-true	Control_BIST_ERT_1RD_GPU0_FSTP2_1									
+SET_F_GFX0_BIST_FSTP2_1_12						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_12									
+SET_F_GFX0_BIST_FSTP2_1_12						flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_12									
+NV_BIST_ERT_1RD_GPU0_FSTP3						flag-true	Control_BIST_ERT_1RD_GPU0_FSTP3_1																					flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP3									
+BIST_ERT_1RD_GPU0_FSTP3_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RD_GPU0_FSTP3_1_CP2_HV													Control_NV_BIST_ERT_1RD_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_12							flag-true	Control_BIST_ERT_1RD_GPU0_FSTP3_1									
+SET_F_GFX0_BIST_FSTP3_1_12						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_12									
+SET_F_GFX0_BIST_FSTP3_1_12						flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_12									
+NV_BIST_ERT_1RD_GPU0_FSTP4						flag-true	Control_BIST_ERT_1RD_GPU0_FSTP4_1																					flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP4									
+BIST_ERT_1RD_GPU0_FSTP4_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RD_GPU0_FSTP4_1_CP2_HV													Control_NV_BIST_ERT_1RD_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_12							flag-true	Control_BIST_ERT_1RD_GPU0_FSTP4_1									
+SET_F_GFX0_BIST_FSTP4_1_12						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_12									
+SET_F_GFX0_BIST_FSTP4_1_12						flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_12									
+NV_BIST_ERT_1RD_GPU0_FSTP5						flag-true	Control_BIST_ERT_1RD_GPU0_FSTP5_1																					flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP5									
+BIST_ERT_1RD_GPU0_FSTP5_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RD_GPU0_FSTP5_1_CP2_HV													Control_NV_BIST_ERT_1RD_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_12							flag-true	Control_BIST_ERT_1RD_GPU0_FSTP5_1									
+SET_F_GFX0_BIST_FSTP5_1_12						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_12									
+SET_F_GFX0_BIST_FSTP5_1_12						flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_12									
+NV_BIST_ERT_1RD_GPU0_FSTP6						flag-true	Control_BIST_ERT_1RD_GPU0_FSTP6_1																					flag-true	Control_NV_BIST_ERT_1RD_GPU0_FSTP6									
+BIST_ERT_1RD_GPU0_FSTP6_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RD_GPU0_FSTP6_1_CP2_HV													Control_NV_BIST_ERT_1WB_NOHARV	Control_SET_F_GFX0_BIST_FSTP6_1_12							flag-true	Control_BIST_ERT_1RD_GPU0_FSTP6_1									
+SET_F_GFX0_BIST_FSTP6_1_12						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_12									
+SET_F_GFX0_BIST_FSTP6_1_12						flag-true	Control_NV_BIST_ERT_1WB_NOHARV																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_12									
+NV_BIST_ERT_1WB_NOHARV						flag-true	Control_BIST_ERT_1WB_PSOC_2																					flag-true	Control_NV_BIST_ERT_1WB_NOHARV									
+BIST_ERT_1WB_PSOC_2						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WB_PSOC_2_CP2_HV													Control_BIST_ERT_1WB_CS_1	Control_F_BIST_ERT_1WB_PSOC_2,F_GFX_MBIST_BIST_ERT_1WB_PSOC_2_HV							flag-true	Control_BIST_ERT_1WB_PSOC_2									
+F_BIST_ERT_1WB_PSOC_2						Bintable	Bin_GFX_MBIST_BIST_ERT_1WB_PSOC_2_HV																					flag-true	Control_F_BIST_ERT_1WB_PSOC_2									
+BIST_ERT_1WB_CS_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WB_CS_1_CP2_HV													Control_NV_BIST_ERT_1WB_GPU0_FSTP0	Control_F_BIST_ERT_1WB_CS_1,F_GFX_MBIST_BIST_ERT_1WB_CS_1_HV							flag-true	Control_BIST_ERT_1WB_CS_1									
+F_BIST_ERT_1WB_CS_1						Bintable	Bin_GFX_MBIST_BIST_ERT_1WB_CS_1_HV																					flag-true	Control_F_BIST_ERT_1WB_CS_1									
+NV_BIST_ERT_1WB_GPU0_FSTP0						flag-true	Control_BIST_ERT_1WB_GPU0_FSTP0_1																					flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP0									
+BIST_ERT_1WB_GPU0_FSTP0_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WB_GPU0_FSTP0_1_CP2_HV													Control_NV_BIST_ERT_1WB_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_13							flag-true	Control_BIST_ERT_1WB_GPU0_FSTP0_1									
+SET_F_GFX0_BIST_FSTP0_1_13						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_13									
+SET_F_GFX0_BIST_FSTP0_1_13						flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_13									
+NV_BIST_ERT_1WB_GPU0_FSTP1						flag-true	Control_BIST_ERT_1WB_GPU0_FSTP1_1																					flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP1									
+BIST_ERT_1WB_GPU0_FSTP1_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WB_GPU0_FSTP1_1_CP2_HV													Control_NV_BIST_ERT_1WB_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_13							flag-true	Control_BIST_ERT_1WB_GPU0_FSTP1_1									
+SET_F_GFX0_BIST_FSTP1_1_13						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_13									
+SET_F_GFX0_BIST_FSTP1_1_13						flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_13									
+NV_BIST_ERT_1WB_GPU0_FSTP2						flag-true	Control_BIST_ERT_1WB_GPU0_FSTP2_1																					flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP2									
+BIST_ERT_1WB_GPU0_FSTP2_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WB_GPU0_FSTP2_1_CP2_HV													Control_NV_BIST_ERT_1WB_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_13							flag-true	Control_BIST_ERT_1WB_GPU0_FSTP2_1									
+SET_F_GFX0_BIST_FSTP2_1_13						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_13									
+SET_F_GFX0_BIST_FSTP2_1_13						flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_13									
+NV_BIST_ERT_1WB_GPU0_FSTP3						flag-true	Control_BIST_ERT_1WB_GPU0_FSTP3_1																					flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP3									
+BIST_ERT_1WB_GPU0_FSTP3_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WB_GPU0_FSTP3_1_CP2_HV													Control_NV_BIST_ERT_1WB_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_13							flag-true	Control_BIST_ERT_1WB_GPU0_FSTP3_1									
+SET_F_GFX0_BIST_FSTP3_1_13						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_13									
+SET_F_GFX0_BIST_FSTP3_1_13						flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_13									
+NV_BIST_ERT_1WB_GPU0_FSTP4						flag-true	Control_BIST_ERT_1WB_GPU0_FSTP4_1																					flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP4									
+BIST_ERT_1WB_GPU0_FSTP4_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WB_GPU0_FSTP4_1_CP2_HV													Control_NV_BIST_ERT_1WB_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_13							flag-true	Control_BIST_ERT_1WB_GPU0_FSTP4_1									
+SET_F_GFX0_BIST_FSTP4_1_13						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_13									
+SET_F_GFX0_BIST_FSTP4_1_13						flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_13									
+NV_BIST_ERT_1WB_GPU0_FSTP5						flag-true	Control_BIST_ERT_1WB_GPU0_FSTP5_1																					flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP5									
+BIST_ERT_1WB_GPU0_FSTP5_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WB_GPU0_FSTP5_1_CP2_HV													Control_NV_BIST_ERT_1WB_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_13							flag-true	Control_BIST_ERT_1WB_GPU0_FSTP5_1									
+SET_F_GFX0_BIST_FSTP5_1_13						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_13									
+SET_F_GFX0_BIST_FSTP5_1_13						flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_13									
+NV_BIST_ERT_1WB_GPU0_FSTP6						flag-true	Control_BIST_ERT_1WB_GPU0_FSTP6_1																					flag-true	Control_NV_BIST_ERT_1WB_GPU0_FSTP6									
+BIST_ERT_1WB_GPU0_FSTP6_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1WB_GPU0_FSTP6_1_CP2_HV													Control_ENTER_BIST_1WB_RETENTION	Control_SET_F_GFX0_BIST_FSTP6_1_13							flag-true	Control_BIST_ERT_1WB_GPU0_FSTP6_1									
+SET_F_GFX0_BIST_FSTP6_1_13						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_13									
+SET_F_GFX0_BIST_FSTP6_1_13						flag-true	Control_ENTER_BIST_1WB_RETENTION																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_13									
+ENTER_BIST_1WB_RETENTION						flag-true	Control_RETENTION_PAUSE_20_6																					flag-true	Control_ENTER_BIST_1WB_RETENTION									
+RETENTION_PAUSE_20_6						Test	GfxMbist_L_BI_PP_CP2_Mbist_GFX_ERTBIST_Retention_Wait20mS_STEP5													Control_NV_BIST_ERT_1RB_NOHARV	Control_NV_BIST_ERT_1RB_NOHARV							flag-true	Control_RETENTION_PAUSE_20_6									
+NV_BIST_ERT_1RB_NOHARV						flag-true	Control_BIST_ERT_1RB_PSOC_2																					flag-true	Control_NV_BIST_ERT_1RB_NOHARV									
+BIST_ERT_1RB_PSOC_2						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RB_PSOC_2_CP2_HV													Control_BIST_ERT_1RB_CS_1	Control_F_BIST_ERT_1RB_PSOC_2,F_GFX_MBIST_BIST_ERT_1RB_PSOC_2_HV							flag-true	Control_BIST_ERT_1RB_PSOC_2									
+F_BIST_ERT_1RB_PSOC_2						Bintable	Bin_GFX_MBIST_BIST_ERT_1RB_PSOC_2_HV																					flag-true	Control_F_BIST_ERT_1RB_PSOC_2									
+BIST_ERT_1RB_CS_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RB_CS_1_CP2_HV													Control_NV_BIST_ERT_1RB_GPU0_FSTP0	Control_F_BIST_ERT_1RB_CS_1,F_GFX_MBIST_BIST_ERT_1RB_CS_1_HV							flag-true	Control_BIST_ERT_1RB_CS_1									
+F_BIST_ERT_1RB_CS_1						Bintable	Bin_GFX_MBIST_BIST_ERT_1RB_CS_1_HV																					flag-true	Control_F_BIST_ERT_1RB_CS_1									
+NV_BIST_ERT_1RB_GPU0_FSTP0						flag-true	Control_BIST_ERT_1RB_GPU0_FSTP0_1																					flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP0									
+BIST_ERT_1RB_GPU0_FSTP0_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RB_GPU0_FSTP0_1_CP2_HV													Control_NV_BIST_ERT_1RB_GPU0_FSTP1	Control_SET_F_GFX0_BIST_FSTP0_1_14							flag-true	Control_BIST_ERT_1RB_GPU0_FSTP0_1									
+SET_F_GFX0_BIST_FSTP0_1_14						flag-true	F_GFX0_BIST_CORE0																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_14									
+SET_F_GFX0_BIST_FSTP0_1_14						flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP1																					flag-true	Control_SET_F_GFX0_BIST_FSTP0_1_14									
+NV_BIST_ERT_1RB_GPU0_FSTP1						flag-true	Control_BIST_ERT_1RB_GPU0_FSTP1_1																					flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP1									
+BIST_ERT_1RB_GPU0_FSTP1_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RB_GPU0_FSTP1_1_CP2_HV													Control_NV_BIST_ERT_1RB_GPU0_FSTP2	Control_SET_F_GFX0_BIST_FSTP1_1_14							flag-true	Control_BIST_ERT_1RB_GPU0_FSTP1_1									
+SET_F_GFX0_BIST_FSTP1_1_14						flag-true	F_GFX0_BIST_CORE1																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_14									
+SET_F_GFX0_BIST_FSTP1_1_14						flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP2																					flag-true	Control_SET_F_GFX0_BIST_FSTP1_1_14									
+NV_BIST_ERT_1RB_GPU0_FSTP2						flag-true	Control_BIST_ERT_1RB_GPU0_FSTP2_1																					flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP2									
+BIST_ERT_1RB_GPU0_FSTP2_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RB_GPU0_FSTP2_1_CP2_HV													Control_NV_BIST_ERT_1RB_GPU0_FSTP3	Control_SET_F_GFX0_BIST_FSTP2_1_14							flag-true	Control_BIST_ERT_1RB_GPU0_FSTP2_1									
+SET_F_GFX0_BIST_FSTP2_1_14						flag-true	F_GFX0_BIST_CORE2																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_14									
+SET_F_GFX0_BIST_FSTP2_1_14						flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP3																					flag-true	Control_SET_F_GFX0_BIST_FSTP2_1_14									
+NV_BIST_ERT_1RB_GPU0_FSTP3						flag-true	Control_BIST_ERT_1RB_GPU0_FSTP3_1																					flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP3									
+BIST_ERT_1RB_GPU0_FSTP3_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RB_GPU0_FSTP3_1_CP2_HV													Control_NV_BIST_ERT_1RB_GPU0_FSTP4	Control_SET_F_GFX0_BIST_FSTP3_1_14							flag-true	Control_BIST_ERT_1RB_GPU0_FSTP3_1									
+SET_F_GFX0_BIST_FSTP3_1_14						flag-true	F_GFX0_BIST_CORE3																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_14									
+SET_F_GFX0_BIST_FSTP3_1_14						flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP4																					flag-true	Control_SET_F_GFX0_BIST_FSTP3_1_14									
+NV_BIST_ERT_1RB_GPU0_FSTP4						flag-true	Control_BIST_ERT_1RB_GPU0_FSTP4_1																					flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP4									
+BIST_ERT_1RB_GPU0_FSTP4_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RB_GPU0_FSTP4_1_CP2_HV													Control_NV_BIST_ERT_1RB_GPU0_FSTP5	Control_SET_F_GFX0_BIST_FSTP4_1_14							flag-true	Control_BIST_ERT_1RB_GPU0_FSTP4_1									
+SET_F_GFX0_BIST_FSTP4_1_14						flag-true	F_GFX0_BIST_CORE4																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_14									
+SET_F_GFX0_BIST_FSTP4_1_14						flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP5																					flag-true	Control_SET_F_GFX0_BIST_FSTP4_1_14									
+NV_BIST_ERT_1RB_GPU0_FSTP5						flag-true	Control_BIST_ERT_1RB_GPU0_FSTP5_1																					flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP5									
+BIST_ERT_1RB_GPU0_FSTP5_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RB_GPU0_FSTP5_1_CP2_HV													Control_NV_BIST_ERT_1RB_GPU0_FSTP6	Control_SET_F_GFX0_BIST_FSTP5_1_14							flag-true	Control_BIST_ERT_1RB_GPU0_FSTP5_1									
+SET_F_GFX0_BIST_FSTP5_1_14						flag-true	F_GFX0_BIST_CORE5																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_14									
+SET_F_GFX0_BIST_FSTP5_1_14						flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP6																					flag-true	Control_SET_F_GFX0_BIST_FSTP5_1_14									
+NV_BIST_ERT_1RB_GPU0_FSTP6						flag-true	Control_BIST_ERT_1RB_GPU0_FSTP6_1																					flag-true	Control_NV_BIST_ERT_1RB_GPU0_FSTP6									
+BIST_ERT_1RB_GPU0_FSTP6_1						Test	GfxMbist_CP2_Mbist_GFX_ERTBIST_X_PatSet_BIST_ERT_1RB_GPU0_FSTP6_1_CP2_HV													Control_CHECK_REPAIR_INFO	Control_SET_F_GFX0_BIST_FSTP6_1_14							flag-true	Control_BIST_ERT_1RB_GPU0_FSTP6_1									
+SET_F_GFX0_BIST_FSTP6_1_14						flag-true	F_GFX0_BIST_CORE6																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_14									
+SET_F_GFX0_BIST_FSTP6_1_14						flag-true	Control_CHECK_REPAIR_INFO																					flag-true	Control_SET_F_GFX0_BIST_FSTP6_1_14									
+CHECK_REPAIR_INFO						flag-true	Control_REPAIR_INFO_RSCR_1																					flag-true	Control_CHECK_REPAIR_INFO									
+REPAIR_INFO_RSCR_1						Test	GfxMbist_CP2_Mbist_GFX_Init_X_PatSet_REPAIR_INFO_RSCR_1_CP2_NV													Control_PASS_BIN	Control_PASS_BIN							flag-true	Control_REPAIR_INFO_RSCR_1									
+						If	F_GFX_MBIST_C1_EFUSE_PRIME_1_NV||F_GFX_MBIST_C2_EFUSE_PRIME_1_NV||F_GFX_MBIST_C3_EFUSE_PRIME_1_NV||F_GFX_MBIST_C4_EFUSE_PRIME_1_NV||F_GFX_MBIST_FLOAD_PRIME_1_NV||F_GFX_MBIST_EFUSE_PRIME_2_NV||F_GFX_MBIST_FLOAD_PRIME_2_NV																															
+						Flag-true	F_GfxMbist_Repair_check_Final																															
+						EndIf																																
+						print	"Flow L_BI_PP_CP2 End "																															
+PASS_BIN						Return																																

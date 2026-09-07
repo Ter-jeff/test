@@ -1,0 +1,691 @@
+Fail line:114411 & 114401         X:10 Y:15         Site:0
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114412 & 114402         X:10 Y:12         Site:1
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114413 & 114403         X:13 Y:15         Site:2
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114446 & 114436         X:10 Y:15         Site:0
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114447 & 114437         X:10 Y:12         Site:1
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114448 & 114438         X:13 Y:15         Site:2
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114478 & 114468         X:10 Y:15         Site:0
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114479 & 114469         X:10 Y:12         Site:1
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114480 & 114470         X:13 Y:15         Site:2
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114510 & 114500         X:10 Y:15         Site:0
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114511 & 114501         X:10 Y:12         Site:1
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114512 & 114502         X:13 Y:15         Site:2
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114542 & 114532         X:10 Y:15         Site:0
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114543 & 114533         X:10 Y:12         Site:1
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114544 & 114534         X:13 Y:15         Site:2
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114574 & 114564         X:10 Y:15         Site:0
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114575 & 114565         X:10 Y:12         Site:1
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114576 & 114566         X:13 Y:15         Site:2
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:114602 & 114594         X:10 Y:12         Site:1
+<MS005_SocTd_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:115505 & 115495         X:10 Y:15         Site:0
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:115507 & 115497         X:13 Y:15         Site:2
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:115548 & 115540         X:13 Y:15         Site:2
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 0100
+            Datalog  : 0101
+
+Fail line:116317 & 116307         X:10 Y:15         Site:0
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116318 & 116308         X:10 Y:12         Site:1
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116319 & 116309         X:13 Y:15         Site:2
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116352 & 116342         X:10 Y:15         Site:0
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116353 & 116343         X:10 Y:12         Site:1
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116354 & 116344         X:13 Y:15         Site:2
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116384 & 116374         X:10 Y:15         Site:0
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116385 & 116375         X:10 Y:12         Site:1
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116386 & 116376         X:13 Y:15         Site:2
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116416 & 116406         X:10 Y:15         Site:0
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116417 & 116407         X:10 Y:12         Site:1
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116418 & 116408         X:13 Y:15         Site:2
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116449 & 116440         X:10 Y:15         Site:0
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116450 & 116441         X:10 Y:12         Site:1
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116473 & 116465         X:10 Y:12         Site:1
+<MD008_SocTd_MDX008_SOC_MDX008_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+Fail line:116962 & 116954         X:10 Y:12         Site:1
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1100
+            Datalog  : 1110
+
+=> HarvestSourceCode Flag condition getting error in line : 117597 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117598 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117599 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117638 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117639 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117640 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117676 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117677 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117678 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117714 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117715 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117716 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117868 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117869 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117870 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117909 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117910 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117911 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117947 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117948 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117949 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117985 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117986 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 117987 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118023 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118024 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118025 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118060 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118196 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118197 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118198 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118238 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118239 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118383 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118384 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118385 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118424 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118425 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118426 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118465 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118466 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118467 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118619 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118620 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118621 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118660 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118661 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118662 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118698 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118699 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118700 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118855 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118856 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118857 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118905 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118906 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118907 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+Fail line:118945 & 118935         X:13 Y:15         Site:2
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1010
+            Datalog  : 1110
+
+=> HarvestSourceCode Flag condition getting error in line : 118952 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118953 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 118954 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+Fail line:118990 & 118980         X:10 Y:15         Site:0
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1010
+            Datalog  : 1110
+
+Fail line:118992 & 118982         X:13 Y:15         Site:2
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1010
+            Datalog  : 1110
+
+=> HarvestSourceCode Flag condition getting error in line : 118999 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 119000 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 119001 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+Fail line:119035 & 119026         X:10 Y:15         Site:0
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1010
+            Datalog  : 1110
+
+Fail line:119036 & 119027         X:10 Y:12         Site:1
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+[SELSRAM_DSSC_Bit_Str]:
+            Expected : 1010
+            Datalog  : 1110
+
+=> HarvestSourceCode Flag condition getting error in line : 119043 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 119044 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 119221 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 119222 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 119223 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 119271 : Site:0, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 119272 : Site:1, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+=> HarvestSourceCode Flag condition getting error in line : 119273 : Site:2, Src Bits = 24, HarvestSourceCode First(L) ==> Last(R) :100000000011111111110000
+
+Fail line:127204         X:10 Y:15         Site:0
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1035.0000
+            Datalog  : 1050.0000
+
+Fail line:127205         X:10 Y:12         Site:1
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1040.0000
+            Datalog  : 1055.0000
+
+Fail line:127206         X:13 Y:15         Site:2
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:127216         X:10 Y:15         Site:0
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1035.0000
+            Datalog  : 1050.0000
+
+Fail line:127217         X:10 Y:12         Site:1
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1040.0000
+            Datalog  : 1055.0000
+
+Fail line:127218         X:13 Y:15         Site:2
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:127228         X:10 Y:15         Site:0
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1035.0000
+            Datalog  : 1065.0000
+
+Fail line:127229         X:10 Y:12         Site:1
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1040.0000
+            Datalog  : 1070.0000
+
+Fail line:127230         X:13 Y:15         Site:2
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1060.0000
+
+Fail line:127360         X:10 Y:15         Site:0
+VDD_ECPU_ME009_Vbin:
+            Expected : 905.0000
+            Datalog  : 920.0000
+
+Fail line:127361         X:10 Y:12         Site:1
+VDD_ECPU_ME009_Vbin:
+            Expected : 890.0000
+            Datalog  : 905.0000
+
+Fail line:127362         X:13 Y:15         Site:2
+VDD_ECPU_ME009_Vbin:
+            Expected : 905.0000
+            Datalog  : 920.0000
+
+Fail line:128449         X:10 Y:15         Site:0
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:128450         X:10 Y:12         Site:1
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:128451         X:13 Y:15         Site:2
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:128626         X:10 Y:15         Site:0
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1035.0000
+            Datalog  : 1050.0000
+
+Fail line:128627         X:10 Y:12         Site:1
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1040.0000
+            Datalog  : 1055.0000
+
+Fail line:128628         X:13 Y:15         Site:2
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:128638         X:10 Y:15         Site:0
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1035.0000
+            Datalog  : 1050.0000
+
+Fail line:128639         X:10 Y:12         Site:1
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1040.0000
+            Datalog  : 1055.0000
+
+Fail line:128640         X:13 Y:15         Site:2
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:128650         X:10 Y:15         Site:0
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1035.0000
+            Datalog  : 1065.0000
+
+Fail line:128651         X:10 Y:12         Site:1
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1040.0000
+            Datalog  : 1070.0000
+
+Fail line:128652         X:13 Y:15         Site:2
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1060.0000
+
+Fail line:128782         X:10 Y:15         Site:0
+VDD_ECPU_ME009_Vbin:
+            Expected : 905.0000
+            Datalog  : 920.0000
+
+Fail line:128783         X:10 Y:12         Site:1
+VDD_ECPU_ME009_Vbin:
+            Expected : 890.0000
+            Datalog  : 905.0000
+
+Fail line:128784         X:13 Y:15         Site:2
+VDD_ECPU_ME009_Vbin:
+            Expected : 905.0000
+            Datalog  : 920.0000
+
+Fail line:129871         X:10 Y:15         Site:0
+Spec:
+            Expected : 75.8000
+            Datalog  : 0.0000
+
+Fail line:129872         X:10 Y:12         Site:1
+Spec:
+            Expected : 75.8000
+            Datalog  : 0.0000
+
+Fail line:129873         X:13 Y:15         Site:2
+Spec:
+            Expected : 75.8000
+            Datalog  : 0.0000
+
+Fail line:130048         X:10 Y:15         Site:0
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1035.0000
+            Datalog  : 1050.0000
+
+Fail line:130049         X:10 Y:12         Site:1
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1040.0000
+            Datalog  : 1055.0000
+
+Fail line:130050         X:13 Y:15         Site:2
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:130054         X:10 Y:15         Site:0
+VDD_PCPU_MP00F_P_binned:
+            Expected : 0.4837
+            Datalog  : 0.5000
+
+Fail line:130055         X:10 Y:12         Site:1
+VDD_PCPU_MP00F_P_binned:
+            Expected : 0.4925
+            Datalog  : 0.5090
+
+Fail line:130056         X:13 Y:15         Site:2
+VDD_PCPU_MP00F_P_binned:
+            Expected : 0.4763
+            Datalog  : 0.4923
+
+Fail line:130060         X:10 Y:15         Site:0
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1035.0000
+            Datalog  : 1050.0000
+
+Fail line:130061         X:10 Y:12         Site:1
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1040.0000
+            Datalog  : 1055.0000
+
+Fail line:130062         X:13 Y:15         Site:2
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:130066         X:10 Y:15         Site:0
+VDD_PCPU_MP00G_P_binned:
+            Expected : 0.5514
+            Datalog  : 0.5695
+
+Fail line:130067         X:10 Y:12         Site:1
+VDD_PCPU_MP00G_P_binned:
+            Expected : 0.5613
+            Datalog  : 0.5797
+
+Fail line:130068         X:13 Y:15         Site:2
+VDD_PCPU_MP00G_P_binned:
+            Expected : 0.5431
+            Datalog  : 0.5610
+
+Fail line:130072         X:10 Y:15         Site:0
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1035.0000
+            Datalog  : 1065.0000
+
+Fail line:130073         X:10 Y:12         Site:1
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1040.0000
+            Datalog  : 1070.0000
+
+Fail line:130074         X:13 Y:15         Site:2
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1060.0000
+
+Fail line:130078         X:10 Y:15         Site:0
+VDD_PCPU_MP00H_P_binned:
+            Expected : 0.7014
+            Datalog  : 0.7479
+
+Fail line:130079         X:10 Y:12         Site:1
+VDD_PCPU_MP00H_P_binned:
+            Expected : 0.7138
+            Datalog  : 0.7611
+
+Fail line:130080         X:13 Y:15         Site:2
+VDD_PCPU_MP00H_P_binned:
+            Expected : 0.6908
+            Datalog  : 0.7368
+
+Fail line:130204         X:10 Y:15         Site:0
+VDD_ECPU_ME009_Vbin:
+            Expected : 905.0000
+            Datalog  : 920.0000
+
+Fail line:130205         X:10 Y:12         Site:1
+VDD_ECPU_ME009_Vbin:
+            Expected : 890.0000
+            Datalog  : 905.0000
+
+Fail line:130206         X:13 Y:15         Site:2
+VDD_ECPU_ME009_Vbin:
+            Expected : 905.0000
+            Datalog  : 920.0000
+
+Fail line:131293         X:10 Y:15         Site:0
+Spec:
+            Expected : 81.3000
+            Datalog  : 0.0000
+
+Fail line:131293         X:10 Y:15         Site:0
+P_total:
+            Expected : 81.3145
+            Datalog  : 81.3954
+
+Fail line:131294         X:10 Y:12         Site:1
+Spec:
+            Expected : 81.3000
+            Datalog  : 0.0000
+
+Fail line:131294         X:10 Y:12         Site:1
+P_total:
+            Expected : 82.1472
+            Datalog  : 82.2296
+
+Fail line:131295         X:13 Y:15         Site:2
+Spec:
+            Expected : 81.3000
+            Datalog  : 0.0000
+
+Fail line:131295         X:13 Y:15         Site:2
+P_total:
+            Expected : 80.3654
+            Datalog  : 80.4452
+
+Fail line:131301         X:13 Y:15         Site:2
+[INFO]  [Site 2] power_binning = 2, spec_name = F_PowerBinning1
+power_binning:
+            Expected : 1.0000
+            Datalog  : 2
+

@@ -1,0 +1,13 @@
+Pass Rate	100.00%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	9	Pass Rows	9																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_efuse_PreWrite.txt	Flow_efuse_PreWrite.txt	5	5						print	"Flow Flow_efuse_PreWrite Start"																														
+P	Flow_efuse_PreWrite.txt	Flow_efuse_PreWrite.txt	6	6						flag-clear	F_PreWrite_Enable																														
+P	Flow_efuse_PreWrite.txt	Flow_efuse_PreWrite.txt	7	7		Enable_Flow_efuse_PreWrite				flag-true	F_PreWrite_Enable																														
+P	Flow_efuse_PreWrite.txt	Flow_efuse_PreWrite.txt	8	8						If	F_PreWrite_Enable																														
+P	Flow_efuse_PreWrite.txt	Flow_efuse_PreWrite.txt	9	9						Test	Copy_Default_Fuse_For_Config_Bank_To_Cache		1371000												F_PreWrite_Fail							site-var<	Efuse_config_Current 1								
+P	Flow_efuse_PreWrite.txt	Flow_efuse_PreWrite.txt	10	10						Bintable	Bin_EFUSE_PreWrite_Fail																														
+P	Flow_efuse_PreWrite.txt	Flow_efuse_PreWrite.txt	11	11						EndIf																															
+P	Flow_efuse_PreWrite.txt	Flow_efuse_PreWrite.txt	12	12						print	"Flow Flow_efuse_PreWrite Stop"																														
+P	Flow_efuse_PreWrite.txt	Flow_efuse_PreWrite.txt	13	13						return																															

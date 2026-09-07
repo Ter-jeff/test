@@ -1,0 +1,552 @@
+TTR,Test Item,Step,Description,Pattern,Force Condition,Register Assignment,Misc Info,Meas,"CP1 Lo Limit (H,L,N)","CP1 Hi Limit (H,L,N)","CP2 Lo Limit (H,L,N)","CP2 Hi Limit (H,L,N)","FT1 Lo Limit (H,L,N)","FT1 Hi Limit (H,L,N)","FT1_FQA Lo Limit (H,L,N)","FT1_FQA Hi Limit (H,L,N)","FT2 Lo Limit (H,L,N)","FT2 Hi Limit (H,L,N)","FT2_FQA Lo Limit (H,L,N)","FT2_FQA Hi Limit (H,L,N)","FT3 Lo Limit (H,L,N)","FT3 Hi Limit (H,L,N)","T0TX_ROOM Lo Limit (H,L,N)","T0TX_ROOM Hi Limit (H,L,N)","T0TX_HOT Lo Limit (H,L,N)","T0TX_HOT Hi Limit (H,L,N)",Comment
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,1,,Instance:IDS_PARSING_TABLE,,,Func:Parse_IDS_Mapping_Table,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Instance:Relay_ON_DCTEST_IDS,,,"Func:ControlRelay;
+relayOffPins:K03;
+waitTime:0.003;",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FT1;FT2;FT3,,1,Run the pattern provided,PP_KMDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS,DC:IDS_X_X_X;,,"SubBlock:IDS_CP;
+Ignore_Patt_Comment;
+AutoRange_Pin:VDD_PCPU,VDD_ECPU,VDD_GPU,VDD_SOC,VDD_DCS_DDR,VDD_DISP,VDD_CPU_SRAM,VDD_SRAM_GPU,VDD_SRAM_SOC,VDD_FIXED_GRP,VDD_LOW,VDD_CIO,VDDQL_DDR,VDD10_AMPH,VDD_FIXED_AMUX,VDD_FIXED_ECPU,VDD_FIXED_ECPU_MTR,VDD_FIXED_PCPU,VDD_FIXED_PCPU_MTR,VDD_FIXED_PLL_ANE_GPU,VDD_FIXED_XTAL,VDD10_ADC_SOC,VDD10_AMUX,VDD10_HSCDFT,VDD10_TSADC_CPU,VDD10_XTAL,VDDIO12_AOP,VDDIO12_GRP,VDDIO12_AOP_4;
+repeat_count:1;
+DictName:ON;
+FlowLimitForInitIRange:TRUE;
+FlagWait:TRUE;
+FlagPatFinishMeasure:FALSE;
+DisableClockPortName:XI0_Diff;
+DisconnectClock:TRUE;
+Fuse_Enable:""CP=TRUE;FT=FALSE"";
+EnableDisconnectPins:TRUE;",,,,,,,,,,,,,,,,,,,,
+,,1.1,"EFUSE: ids_vdd_pcpu (CP1), ids_vdd_pcpu_hot (CP2)",,,,,"MeasI Pin = VDD_PCPU ""VDD_PCPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.3,"EFUSE: ids_vdd_ecpu (CP1), ids_vdd_ecpu_hot (CP2)",,,,,"MeasI Pin = VDD_ECPU ""VDD_ECPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.4,"EFUSE: ids_vdd_gpu (CP1), ids_vdd_gpu_hot (CP2)",,,,,"MeasI Pin = VDD_GPU ""VDD_GPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.5,"EFUSE: ids_vdd_soc (CP1), ids_vdd_soc_hot (CP2)",,,,,"MeasI Pin = VDD_SOC ""VDD_SOC""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.6,"EFUSE: ids_vdd_dcs_ddr (CP1), ids_vdd_dcs_ddr_hot (CP2)",,,,,"MeasI Pin = VDD_DCS_DDR ""VDD_DCS_DDR""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.7,"EFUSE: ids_vdd_disp (CP1), ids_vdd_disp_hot (CP2)",,,,,"MeasI Pin = VDD_DISP ""VDD_DISP""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.8,"EFUSE: ids_vdd_cpu_sram (CP1), ids_vdd_cpu_sram_hot (CP2)",,,,,"MeasI Pin = VDD_CPU_SRAM ""VDD_CPU_SRAM""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.9,"EFUSE: ids_vdd_sram_gpu (CP1), ids_vdd_sram_gpu_hot (CP2)",,,,,"MeasI Pin = VDD_SRAM_GPU ""VDD_SRAM_GPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.1,"EFUSE: ids_vdd_sram_soc (CP1), ids_vdd_sram_soc_hot (CP2)",,,,,"MeasI Pin = VDD_SRAM_SOC ""VDD_SRAM_SOC""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.11,"EFUSE: ids_vdd_fixed (CP1), ids_vdd_fixed_hot (CP2)",,,,,"MeasI Pin = VDD_FIXED_GRP ""VDD_FIXED_GRP""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.12,"EFUSE: ids_vdd_low (CP1), ids_vdd_low_hot (CP2)",,,,,"MeasI Pin = VDD_LOW ""VDD_LOW""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.13,"EFUSE: ids_vdd_cio (CP1), ids_vdd_cio_hot (CP2)",,,,,"MeasI Pin = VDD_CIO ""VDD_CIO""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.14,EFUSE: ids_vddql_ddr_hot (CP2),,,,,"MeasI Pin = VDDQL_DDR ""VDDQL_DDR""",0.178714mA,5mA,3.03mA,30mA,,,,,,,,,,,,,,,
+,,1.15,EFUSE: ids_vdd10_amph (CP1),,,,,"MeasI Pin = VDD10_AMPH ""VDD10_AMPH""",0.282491mA,1.4mA,0.78567mA,2.8mA,,,,,,,,,,,,,,,
+,,1.16,,,,,,"MeasI Pin = VDD_FIXED_AMUX ""VDD_FIXED_AMUX""",0.000698219mA,0.199mA,0.015695mA,0.199mA,,,,,,,,,,,,,,,
+,,1.17,,,,,,"MeasI Pin = VDD_FIXED_ECPU ""VDD_FIXED_ECPU""",0.007724mA,0.199mA,0.082307mA,0.45mA,,,,,,,,,,,,,,,
+,,1.18,,,,,,"MeasI Pin = VDD_FIXED_ECPU_MTR ""VDD_FIXED_ECPU_MTR""",0.000801913mA,0.199mA,0.092255mA,0.95mA,,,,,,,,,,,,,,,
+,,1.19,,,,,,"MeasI Pin = VDD_FIXED_PCPU ""VDD_FIXED_PCPU""",0.007536mA,0.199mA,0.182865mA,2mA,,,,,,,,,,,,,,,
+,,1.2,,,,,,"MeasI Pin = VDD_FIXED_PCPU_MTR ""VDD_FIXED_PCPU_MTR""",-0.003715mA,0.199mA,0.119651mA,2mA,,,,,,,,,,,,,,,
+,,1.21,,,,,,"MeasI Pin = VDD_FIXED_PLL_ANE_GPU ""VDD_FIXED_PLL_ANE_GPU""",0.034742mA,0.26mA,0.3mA,2mA,,,,,,,,,,,,,,,
+,,1.24,,,,,,"MeasI Pin = VDD_FIXED_XTAL ""VDD_FIXED_XTAL""",0mA,0.199mA,0.004mA,0.199mA,,,,,,,,,,,,,,,
+,,1.25,,,,,,"MeasI Pin = VDD10_ADC_SOC ""VDD10_ADC_SOC""",-2.319mA,5.946mA,-2.411mA,6.236mA,,,,,,,,,,,,,,,
+,,1.26,,,,,,"MeasI Pin = VDD10_AMUX ""VDD10_AMUX""",-0.005388mA,0.199mA,0.000694192mA,1mA,,,,,,,,,,,,,,,
+,,1.27,,,,,,"MeasI Pin = VDD10_HSCDFT ""VDD10_HSCDFT""",-0.048681mA,1.8mA,0.051779mA,0.24mA,,,,,,,,,,,,,,,NO BIN OUT
+,,1.28,,,,,,"MeasI Pin = VDD10_TSADC_CPU ""VDD10_TSADC_CPU""",-1mA,0.199mA,0.023277mA,0.199mA,,,,,,,,,,,,,,,
+,,1.29,,,,,,"MeasI Pin = VDD10_XTAL ""VDD10_XTAL""",3.08mA,4.56mA,3.217mA,4.339mA,,,,,,,,,,,,,,,
+,,1.3,,,,,,"MeasI Pin = VDDIO12_AOP ""VDDIO12_AOP""",0.127769mA,0.42mA,0.455994mA,3mA,,,,,,,,,,,,,,,
+,,1.31,,,,,,"MeasI Pin = VDDIO12_GRP ""VDDIO12_GRP""",0.111153mA,1mA,0.572561mA,3.6mA,,,,,,,,,,,,,,,
+,,1.32,,,,,,"MeasI Pin = VDDIO12_AOP_4 ""VDDIO12_AOP_4""",0.025521mA,0.199mA,0.138325mA,1.2mA,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2,,1,Run the pattern provided,PP_KMDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS,DC:IDS_X_X_X;,,"SubBlock:IDS_FT;
+Ignore_Patt_Comment;
+AutoRange_Pin:VDD_PCPU,VDD_ECPU,VDD_GPU,VDD_SOC,VDD_DCS_DDR,VDD_DISP,VDD_CPU_SRAM,VDD_SRAM_SOC,VDD_FIXED_GRP,VDD_LOW,VDD_CIO,VDDQL_DDR,VDD10_AMPH,VDD_FIXED_AMUX,VDD_FIXED_ECPU,VDD_FIXED_ECPU_MTR,VDD_FIXED_PCPU,VDD_FIXED_PCPU_MTR,VDD_FIXED_PLL_ANE_GPU,VDD_FIXED_XTAL,VDD10_ADC_SOC,VDD10_AMUX,VDD10_HSCDFT,VDD10_TSADC_CPU,VDD10_XTAL,VDDIO12_AOP,VDDIO12_GRP,VDDIO12_AOP_4;
+repeat_count:1;
+DictName:ON;
+FlowLimitForInitIRange:TRUE;
+FlagWait:TRUE;
+FlagPatFinishMeasure:FALSE;
+DisableClockPortName:XI0_Diff;
+DisconnectClock:TRUE;
+Fuse_Enable:""CP=FALSE;FT=FALSE"";
+EnableDisconnectPins:TRUE;
+idsHighLimitSpecialHandler:VDD_SRAM_SOC=(VDD_SRAM_SOC+VDD_SRAM_GPU)*1;",,,,,,,,,,,,,,,,,,,,
+,,1.1,"EFUSE: ids_vdd_pcpu (CP1), ids_vdd_pcpu_hot (CP2)",,,,,"MeasI Pin = VDD_PCPU ""VDD_PCPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.3,"EFUSE: ids_vdd_ecpu (CP1), ids_vdd_ecpu_hot (CP2)",,,,,"MeasI Pin = VDD_ECPU ""VDD_ECPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.4,"EFUSE: ids_vdd_gpu (CP1), ids_vdd_gpu_hot (CP2)",,,,,"MeasI Pin = VDD_GPU ""VDD_GPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.5,"EFUSE: ids_vdd_soc (CP1), ids_vdd_soc_hot (CP2)",,,,,"MeasI Pin = VDD_SOC ""VDD_SOC""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.6,"EFUSE: ids_vdd_dcs_ddr (CP1), ids_vdd_dcs_ddr_hot (CP2)",,,,,"MeasI Pin = VDD_DCS_DDR ""VDD_DCS_DDR""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.7,"EFUSE: ids_vdd_disp (CP1), ids_vdd_disp_hot (CP2)",,,,,"MeasI Pin = VDD_DISP ""VDD_DISP""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.8,"EFUSE: ids_vdd_cpu_sram (CP1), ids_vdd_cpu_sram_hot (CP2)",,,,,"MeasI Pin = VDD_CPU_SRAM ""VDD_CPU_SRAM""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.1,"EFUSE: ids_vdd_sram_soc (CP1), ids_vdd_sram_soc_hot (CP2)",,,,,"MeasI Pin = VDD_SRAM_SOC ""VDD_SRAM_SOC""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.11,"EFUSE: ids_vdd_fixed (CP1), ids_vdd_fixed_hot (CP2)",,,,,"MeasI Pin = VDD_FIXED_GRP ""VDD_FIXED_GRP""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.12,"EFUSE: ids_vdd_low (CP1), ids_vdd_low_hot (CP2)",,,,,"MeasI Pin = VDD_LOW ""VDD_LOW""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.13,"EFUSE: ids_vdd_cio (CP1), ids_vdd_cio_hot (CP2)",,,,,"MeasI Pin = VDD_CIO ""VDD_CIO""",,,,,,,,,,,,,,,,,,,
+,,1.14,EFUSE: ids_vddql_ddr_hot (CP2),,,,,"MeasI Pin = VDDQL_DDR ""VDDQL_DDR""",,,,,,45mA,,,3.03mA,45mA,,,,,,,,,
+,,1.15,EFUSE: ids_vdd10_amph (CP1),,,,,"MeasI Pin = VDD10_AMPH ""VDD10_AMPH""",,,,,,6mA,,,0mA,6mA,,,,,,,,,
+,,1.16,,,,,,"MeasI Pin = VDD_FIXED_AMUX ""VDD_FIXED_AMUX""",,,,,,0.225mA,,,-0.1mA,0.225mA,,,,,,,,,
+,,1.17,,,,,,"MeasI Pin = VDD_FIXED_ECPU ""VDD_FIXED_ECPU""",,,,,,1.5mA,,,-0.1mA,1.5mA,,,,,,,,,
+,,1.18,,,,,,"MeasI Pin = VDD_FIXED_ECPU_MTR ""VDD_FIXED_ECPU_MTR""",,,,,,3mA,,,-0.1mA,3mA,,,,,,,,,
+,,1.19,,,,,,"MeasI Pin = VDD_FIXED_PCPU ""VDD_FIXED_PCPU""",,,,,,3mA,,,0mA,3mA,,,,,,,,,
+,,1.2,,,,,,"MeasI Pin = VDD_FIXED_PCPU_MTR ""VDD_FIXED_PCPU_MTR""",,,,,,3mA,,,0mA,3mA,,,,,,,,,
+,,1.21,,,,,,"MeasI Pin = VDD_FIXED_PLL_ANE_GPU ""VDD_FIXED_PLL_ANE_GPU""",,,,,,4.5mA,,,0mA,4.5mA,,,,,,,,,
+,,1.24,,,,,,"MeasI Pin = VDD_FIXED_XTAL ""VDD_FIXED_XTAL""",,,,,,0.15mA,,,-0.1mA,0.15mA,,,,,,,,,
+,,1.25,,,,,,"MeasI Pin = VDD10_ADC_SOC ""VDD10_ADC_SOC""",,,,,,9.354mA,,,0mA,9.354mA,,,,,,,,,
+,,1.26,,,,,,"MeasI Pin = VDD10_AMUX ""VDD10_AMUX""",,,,,,0.225mA,,,-0.1mA,0.225mA,,,,,,,,,
+,,1.27,,,,,,"MeasI Pin = VDD10_HSCDFT ""VDD10_HSCDFT""",,,,,,0.75mA,,,-0.1mA,0.75mA,,,,,,,,,NO BIN OUT
+,,1.28,,,,,,"MeasI Pin = VDD10_TSADC_CPU ""VDD10_TSADC_CPU""",,,,,,0.3mA,,,-0.1mA,0.3mA,,,,,,,,,
+,,1.29,,,,,,"MeasI Pin = VDD10_XTAL ""VDD10_XTAL""",,,,,,6.5085mA,,,0mA,6.5085mA,,,,,,,,,
+,,1.3,,,,,,"MeasI Pin = VDDIO12_AOP ""VDDIO12_AOP""",,,,,,4.5mA,,,0mA,4.5mA,,,,,,,,,
+,,1.31,,,,,,"MeasI Pin = VDDIO12_GRP ""VDDIO12_GRP""",,,,,,7.5mA,,,0mA,7.5mA,,,,,,,,,
+,,1.32,,,,,,"MeasI Pin = VDDIO12_AOP_4 ""VDDIO12_AOP_4""",,,,,,1.8mA,,,0mA,1.8mA,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP2;FT1;FT2;FT3,,,,Instance:Set_ALL_IDS_Data_To_eFuse_CP1,,,"Func:IDS_eFuse_Write;
+FuseType:config;
+Flag_Name:F_DCTEST_IDS_IDS_PP_KMDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_Flag;",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;FT1;FT2;FT3,,,,Instance:Set_ALL_IDS_Data_To_eFuse_CP2,,,"Func:IDS_eFuse_Write;
+FuseType:config;
+Flag_Name:F_DCTEST_IDS_IDS_PP_KMDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_Flag;",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;FT1;FT2;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_io_popx_nan_daa_dio_allfrv_si_ids_off1,DC:Ids_X_X_X_Off;,,"SubBlock:IDS_OFF1;
+Ignore_Patt_Comment;
+AutoRange_Pin:VDD_PCPU,VDD_ECPU,VDD_SOC,VDD_DCS_DDR,VDD_DISP,VDD_GPU;
+DictName:OFF1;
+repeat_count:1;
+FlowLimitForInitIRange:FALSE;
+FlagWait:TRUE;
+FlagPatFinishMeasure:FALSE;
+DisableClockPortName:XI0_Diff;
+DisconnectClock:TRUE;
+EnableDisconnectPins:TRUE;",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_PCPU ""VDD_PCPU""",,,,519.83mA,,,,,,,,,,,,,0mA,0mA,
+,,1.2,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_ECPU ""VDD_ECPU""",,,,231.67mA,,,,,,,,,,,,,0mA,0mA,
+,,1.3,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_SOC ""VDD_SOC""",,,,395.98mA,,,,,,,,,,,,,0mA,0mA,
+,,1.4,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_DCS_DDR ""VDD_DCS_DDR""",,,,40.98mA,,,,,,,,,,,,,0mA,0mA,
+,,1.5,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_DISP ""VDD_DISP""",,,,47.92mA,,,,,,,,,,,,,0mA,0mA,
+,,1.6,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_GPU ""VDD_GPU""",,,,4546mA,,,,,,,,,,,,,-999mA,999mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;FT1;FT2;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_io_popx_nan_daa_dio_allfrv_si_ids_off3,DC:Ids_X_X_X_Off;,,"SubBlock:IDS_OFF3;
+Ignore_Patt_Comment;
+AutoRange_Pin:VDD_PCPU,VDD_ECPU,VDD_SOC,VDD_DCS_DDR,VDD_DISP,VDD_GPU;
+DictName:OFF3;
+repeat_count:1;
+FlowLimitForInitIRange:FALSE;
+FlagWait:TRUE;
+FlagPatFinishMeasure:FALSE;
+DisableClockPortName:XI0_Diff;
+DisconnectClock:TRUE;
+EnableDisconnectPins:TRUE;",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_PCPU ""VDD_PCPU""",,,,111.16mA,,,,,,,,,,,,,0mA,0mA,
+,,1.2,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_ECPU ""VDD_ECPU""",,,,30.11mA,,,,,,,,,,,,,0mA,0mA,
+,,1.3,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_SOC ""VDD_SOC""",,,,294.02mA,,,,,,,,,,,,,0mA,0mA,
+,,1.4,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_DCS_DDR ""VDD_DCS_DDR""",,,,7.82mA,,,,,,,,,,,,,0mA,0mA,
+,,1.5,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_DISP ""VDD_DISP""",,,,32.01mA,,,,,,,,,,,,,0mA,0mA,
+,,1.6,Measure current on pin - IDS,,,,,"MeasI Pin = VDD_GPU ""VDD_GPU""",,,,4517mA,,,,,,,,,,,,,-999mA,999mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;FT1;FT2;FT3,,1,,Instance:IDS_OFF3_DELTA_OFF1,,,"Func:IDS_Delta_calc;
+Current1_dic:OFF1;
+Current2_dic:OFF3;
+power_rail:VDD_PCPU,VDD_ECPU,VDD_SOC,VDD_DCS_DDR,VDD_DISP,VDD_GPU;",,,,,,,,,,,,,,,,,,,,
+,,1.1,,,,,VDD_PCPU(IDS_OFF3) - VDD_PCPU(IDS_OFF1),"Limits ""Idelta_VDD_PCPU""",,,,426.19mA,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.2,,,,,VDD_ECPU(IDS_OFF3) - VDD_ECPU(IDS_OFF1),"Limits ""Idelta_VDD_ECPU""",,,,206.94mA,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.3,,,,,VDD_SOC(IDS_OFF3) - VDD_SOC(IDS_OFF1),"Limits ""Idelta_VDD_SOC""",,,,110.2mA,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.4,,,,,VDD_DCS_DDR(IDS_OFF3) - VDD_DCS_DDR(IDS_OFF1),"Limits ""Idelta_VDD_DCS_DDR""",,,,33.5mA,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.5,,,,,VDD_DISP(IDS_OFF3) - VDD_DISP(IDS_OFF1),"Limits ""Idelta_VDD_DISP""",,,,16.2mA,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.6,,,,,VDD_GPU(IDS_OFF3) - VDD_GPU(IDS_OFF1),"Limits ""Idelta_VDD_GPU""",,,,37.09mA,,,,,,,,,,,,,-999mA,999mA,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;FT1;FT2;FT3,,1,Run the pattern provided,Instance:PP_KMDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_RATIO_CP2_CP1,,,"SubBlock:IDS_CP2_CP1_ratio;
+Func:IDS_main_current_MathFunc;
+Calc_Pin:VDD_DCS_DDR,VDD_DISP,VDD_ECPU,VDD_FIXED_GRP,VDD_GPU,VDD_LOW,VDD_PCPU,VDD_SOC,VDD_SRAM_GPU,VDD_SRAM_SOC,VDD_CPU_SRAM;
+FuseType:config;
+MathFunction:/;
+MathInverse:False;
+FusedStage:CP1;",,,,,,,,,,,,,,,,,,,,
+,,1.2,read EFUSE: ids_vdd_dcs_ddr(CP1),,,, VDD_DCS_DDR(IDS)@CP2 / VDD_DCS_DDR(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_DCS_DDR""",,,,14.07,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.3,read EFUSE: ids_vdd_disp(CP1),,,, VDD_DISP(IDS)@CP2 / VDD_DISp(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_DISP""",,,,16.41,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.4,read EFUSE: ids_vdd_ecpu(CP1),,,, VDD_ECPU(IDS)@CP2 / VDD_ECPU(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_ECPU""",,,,13.06,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.5,read EFUSE: ids_vdd_fixed(CP1),,,, VDD_FIXED_GRP(IDS)@CP2 / VDD_FIXED_GRP(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_FIXED""",,,,18.46,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.6,read EFUSE: ids_vdd_gpu(CP1),,,, VDD_GPU(IDS)@CP2 / VDD_GPU(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_GPU""",,,,15.35,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.7,read EFUSE: ids_vdd_low(CP1),,,, VDD_LOW(IDS)@CP2 / VDD_LOW(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_LOW""",,,,19.02,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.8,read EFUSE: ids_vdd_pcpu(CP1),,,, VDD_PCPU(IDS)@CP2 / VDD_PCPU(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_PCPU""",,,,14.06,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.9,read EFUSE: ids_vdd_soc(CP1),,,, VDD_SOC(IDS)@CP2 / VDD_SOC(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_SOC""",,,,16.13,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.1,read EFUSE: ids_vdd_sram_gpu(CP1),,,, VDD_SRAM_GPU(IDS)@CP2 / VDD_SRAM_GPU(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_SRAM_GPU""",,,,13.8,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.11,read EFUSE: ids_vdd_sram_soc(CP1),,,, VDD_SRAM_SOC(IDS)@CP2 / VDD_SRAM_SOC(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_SRAM_SOC""",,,,18.01,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,1.12,read EFUSE: ids_vdd_cpu_sram(CP1),,,, VDD_CPU_SRAM(IDS)@CP2 / VDD_CPU_SRAM(IDS)@CP1,"Limits ""Iratio_CP2_CP1_VDD_CPU_SRAM""",,,,9.98,,,,,,,,,,,,,0mA,0mA,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT2;FT3,,1,Run the pattern provided,Instance:PP_KMDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_RATIO_CP1_FT1,,,"SubBlock:IDS_FT1_CP1_ratio;
+Func:IDS_main_current_MathFunc;
+Calc_Pin:VDD_DCS_DDR,VDD_ECPU,VDD_GPU,VDD_PCPU,VDD_SOC,VDD_SRAM_SOC,VDD_DISP;
+FuseType:config;
+MathFunction:/;
+MathInverse:False;
+FusedStage:CP1;
+Calc_Eqn:Alg::Calc_IDS_Sum(EFUSE@VDD_SRAM_SOC#IDS_VDD_SRAM_SOC+IDS_VDD_SRAM_GPU);",,,,,,,,,,,,,,,,,,,,
+,,1.1,read EFUSE: ids_vdd_dcs_ddr(CP1),,,, VDD_DCS_DDR(IDS)@CP1 / VDD_DCS_DDR(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_DCS_DDR""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.2,read EFUSE: ids_vdd_ecpu(CP1),,,, VDD_ECPU(IDS)@CP1 / VDD_ECPU(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_ECPU""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.3,read EFUSE: ids_vdd_gpu(CP1),,,, VDD_GPU(IDS)@CP1 / VDD_GPU(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_GPU""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.4,read EFUSE: ids_vdd_pcpu(CP1),,,, VDD_PCPU(IDS)@CP1 / VDD_PCPU(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_PCPU""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.5,read EFUSE: ids_vdd_soc(CP1),,,, VDD_SOC(IDS)@CP1 / VDD_SOC(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_SOC""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.6,"read EFUSE: ids_vdd_sram_soc(CP1), ids_vdd_sram_gpu(CP1)",,,, (VDD_SRAM_SOC(IDS)@CP1 + VDD_SRAM_GPU(IDS)@CP1) / VDD_SRAM_SOC(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_SRAM_SOC""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.7,read EFUSE: ids_vdd_disp(CP1),,,, VDD_DISP(IDS)@CP1 / VDD_DISP(IDS)@FT1,"Limits ""Iratio_CP1_FT1_VDD_DISP""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT2;FT3,,1,Run the pattern provided,Instance:PP_KMDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_RATIO_CP2_FT1,,,"SubBlock:IDS_CP2_FT1_ratio;
+Func:IDS_main_current_MathFunc;
+Calc_Pin:VDD_DCS_DDR,VDD_ECPU,VDD_GPU,VDD_PCPU,VDD_SOC,VDD_SRAM_SOC,VDD_DISP;
+FuseType:config;
+MathFunction:/;
+MathInverse:True;
+FusedStage:CP2;
+Calc_Eqn:Alg::Calc_IDS_Sum(EFUSE@VDD_SRAM_SOC#IDS_VDD_SRAM_SOC_HOT+IDS_VDD_SRAM_GPU_HOT);",,,,,,,,,,,,,,,,,,,,
+,,1.1,read EFUSE: ids_vdd_dcs_ddr(CP2),,,, VDD_DCS_DDR(IDS)@CP2 / VDD_DCS_DDR(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_DCS_DDR""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.2,read EFUSE: ids_vdd_ecpu(CP2),,,, VDD_ECPU(IDS)@CP2 / VDD_ECPU(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_ECPU""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.3,read EFUSE: ids_vdd_gpu(CP2),,,, VDD_GPU(IDS)@CP2 / VDD_GPU(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_GPU""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.4,read EFUSE: ids_vdd_pcpu(CP2),,,, VDD_PCPU(IDS)@CP2 / VDD_PCPU(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_PCPU""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.5,read EFUSE: ids_vdd_soc(CP2),,,, VDD_SOC(IDS)@CP2 / VDD_SOC(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_SOC""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.6,"read EFUSE: ids_vdd_sram_soc(CP2), ids_vdd_sram_gpu(CP2)",,,, (VDD_SRAM_SOC(IDS)@CP2 + VDD_SRAM_GPU(IDS)@CP2) / VDD_SRAM_SOC(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_SRAM_SOC""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.7,read EFUSE: ids_vdd_disp(CP2),,,, VDD_DISP(IDS)@CP2 / VDD_DISP(IDS)@FT1,"Limits ""Iratio_CP2_FT1_VDD_DISP""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT2;FT3,,1,Run the pattern provided,Instance:PP_KMDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_DELTA_FT1_CP1,,,"SubBlock:IDS_FT1_CP1_delta;
+Func:IDS_main_current_MathFunc;
+Calc_Pin:VDD_DCS_DDR,VDD_ECPU,VDD_GPU,VDD_PCPU,VDD_SOC,VDD_SRAM_SOC,VDD_DISP;
+FuseType:config;
+MathFunction:-;
+MathInverse:False;
+FusedStage:CP1;
+Calc_Eqn:Alg::Calc_IDS_Sum(EFUSE@VDD_SRAM_SOC#IDS_VDD_SRAM_SOC+IDS_VDD_SRAM_GPU);",,,,,,,,,,,,,,,,,,,,
+,,1.1,read EFUSE: ids_vdd_dcs_ddr(CP1),,,, VDD_DCS_DDR(IDS)@FT1 - VDD_DCS_DDR(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_DCS_DDR""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.2,read EFUSE: ids_vdd_ecpu(CP1),,,, VDD_ECPU(IDS)@FT1 - VDD_ECPU(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_ECPU""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.3,read EFUSE: ids_vdd_gpu(CP1),,,, VDD_GPU(IDS)@FT1 - VDD_GPU(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_GPU""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.4,read EFUSE: ids_vdd_pcpu(CP1),,,, VDD_PCPU(IDS)@FT1 - VDD_PCPU(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_PCPU""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.5,read EFUSE: ids_vdd_soc(CP1),,,, VDD_SOC(IDS)@FT1 - VDD_SOC(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_SOC""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.6,"read EFUSE: ids_vdd_sram_soc(CP1), ids_vdd_sram_gpu(CP1)",,,, VDD_SRAM_SOC(IDS)@FT1 - (VDD_SRAM_SOC(IDS)@CP1 + VDD_SRAM_GPU(IDS)@CP1),"Limits ""Idelta_FT1_CP1_VDD_SRAM_SOC""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,1.7,read EFUSE: ids_vdd_disp(CP1),,,, VDD_DISP(IDS)@FT1 -  VDD_DISP(IDS)@CP1,"Limits ""Idelta_FT1_CP1_VDD_DISP""",,,,,,,,,,,,,,,0mA,0mA,,,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,Instance:PP_KMDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_DELTA_CP2_FT2,,,"SubBlock:IDS_FT2_CP2_delta;
+Func:IDS_main_current_MathFunc;
+Calc_Pin:VDD_DCS_DDR,VDD_ECPU,VDD_GPU,VDD_PCPU,VDD_SOC,VDD_SRAM_SOC,VDD_DISP;
+FuseType:config;
+MathFunction:-;
+MathInverse:False;
+FusedStage:CP2;
+Calc_Eqn:Alg::Calc_IDS_Sum(EFUSE@VDD_SRAM_SOC#IDS_VDD_SRAM_SOC_HOT+IDS_VDD_SRAM_GPU_HOT);",,,,,,,,,,,,,,,,,,,,
+,,1.1,read EFUSE: ids_vdd_dcs_ddr(CP2),,,, VDD_DCS_DDR(IDS)@FT2 - VDD_DCS_DDR(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_DCS_DDR""",,,,,,,,,,1mA,,,,,,,0mA,0mA,NO BIN OUT
+,,1.2,read EFUSE: ids_vdd_ecpu(CP2),,,, VDD_ECPU(IDS)@FT2 - VDD_ECPU(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_ECPU""",,,,,,,,,,1mA,,,,,,,0mA,0mA,NO BIN OUT
+,,1.3,read EFUSE: ids_vdd_gpu(CP2),,,, VDD_GPU(IDS)@FT2 - VDD_GPU(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_GPU""",,,,,,,,,,1mA,,,,,,,0mA,0mA,NO BIN OUT
+,,1.4,read EFUSE: ids_vdd_pcpu(CP2),,,, VDD_PCPU(IDS)@FT2 - VDD_PCPU(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_PCPU""",,,,,,,,,,1mA,,,,,,,0mA,0mA,NO BIN OUT
+,,1.5,read EFUSE: ids_vdd_soc(CP2),,,, VDD_SOC(IDS)@FT2 - VDD_SOC(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_SOC""",,,,,,,,,,1mA,,,,,,,0mA,0mA,NO BIN OUT
+,,1.6,"read EFUSE: ids_vdd_sram_soc(CP2), ids_vdd_sram_gpu(CP2)",,,, VDD_SRAM_SOC(IDS)@FT2 - (VDD_SRAM_SOC(IDS)@CP2 + VDD_SRAM_GPU(IDS)@CP2),"Limits ""Idelta_FT2_CP2_VDD_SRAM_SOC""",,,,,,,,,,999000mA,,,,,,,0mA,0mA,NO BIN OUT
+,,1.7,read EFUSE: ids_vdd_disp(CP2),,,, VDD_DISP(IDS)@FT2 -  VDD_DISP(IDS)@CP2,"Limits ""Idelta_FT2_CP2_VDD_DISP""",,,,,,,,,,1mA,,,,,,,0mA,0mA,NO BIN OUT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM12GB1bnmp12GbMicronx16;
+EnableWord:DRAM_12GB_1bnmp_12Gb_Micron_x16;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM12GB1bnm12GbSamsungx16;
+EnableWord:DRAM_12GB_1bnm_12Gb_Samsung_x16;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM12GB1bnmp12GbSamsungx16;
+EnableWord:DRAM_12GB_1bnmp_12Gb_Samsung_x16;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM16GB1bnmp16GbMicronx16;
+EnableWord:DRAM_16GB_1bnmp_16Gb_Micron_x16;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,38mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,38mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,38mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM16GB1bnm16GbSamsungx16;
+EnableWord:DRAM_16GB_1bnm_16Gb_Samsung_x16;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM16GB1cnm16GbMicronx16;
+EnableWord:DRAM_16GB_1cnm_16Gb_Micron_x16;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,38mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,38mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,38mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM16GB1bnmp16GbSamsungx16;
+EnableWord:DRAM_16GB_1bnmp_16Gb_Samsung_x16;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM16GB1anmp16GbHynixx16;
+EnableWord:DRAM_16GB_1anmp_16Gb_Hynix_x16;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM24GB1bnmp12GbMicronx8;
+EnableWord:DRAM_24GB_1bnmp_12Gb_Micron_x8;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM24GB1bnm12GbSamsungx8;
+EnableWord:DRAM_24GB_1bnm_12Gb_Samsung_x8;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM24GB1cnm24GbHynixx16;
+EnableWord:DRAM_24GB_1cnm_24Gb_Hynix_x16;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM24GB1bnmp24GbSamsungx16;
+EnableWord:DRAM_24GB_1bnmp_24Gb_Samsung_x16;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM24GB1bnmp12GbSamsungx8;
+EnableWord:DRAM_24GB_1bnmp_12Gb_Samsung_x8;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM32GB1bnmp16GbMicronx8;
+EnableWord:DRAM_32GB_1bnmp_16Gb_Micron_x8;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,43mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,43mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,43mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM32GB1bnm16GbSamsungx8;
+EnableWord:DRAM_32GB_1bnm_16Gb_Samsung_x8;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,46mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,46mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,46mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM32GB1cnm16GbMicronx8;
+EnableWord:DRAM_32GB_1cnm_16Gb_Micron_x8;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,43mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,43mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,43mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM32GB1bnmp16GbSamsungx8;
+EnableWord:DRAM_32GB_1bnmp_16Gb_Samsung_x8;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,46mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,46mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,46mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT1;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:DRAM32GB1anmp16GbHynixx8;
+EnableWord:DRAM_32GB_1anmp_16Gb_Hynix_x8;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,,,,,-0.1mA,50mA,,,,,,,0mA,50mA,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,,,,,-0.1mA,350mA,,,,,,,0mA,350mA,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,,,,,-0.1mA,45mA,,,,,,,0mA,30mA,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2;FT3,,1,Run the pattern provided,pp_kmda0_s_fulp_an_dram_ids_jtg_lp5_mdx001_si_dram_idsc,DC:IDS_X_X_X;,,"SubBlock:POPB;
+EnableWord:DRAM_POPB;
+Func:HardIPUniversalFunction;
+measureSequence:I,I,I;
+patternCPUAFlag:true;
+measureIPins:VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR+VDD18,VDD2H,VDDQL_DDR;
+interposePreMeas:""XI0_Diff:V:0|XI0_Diff:V:0|XI0_Diff:V:0"";",,,,,,,,,,,,,,,,,,,,
+,,1.1,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd2n""",,,,,-5mA,10mA,,,-5mA,10mA,,,,,,,,,
+,,1.2,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd2n""",,,,,-5mA,10mA,,,-5mA,10mA,,,,,,,,,
+,,1.3,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd2n""",,,,,-5mA,30mA,,,-5mA,30mA,,,,,,,,,
+,,1.4,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_idd6""",,,,,-5mA,10mA,,,-5mA,10mA,,,,,,,,,
+,,1.5,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_idd6""",,,,,-5mA,10mA,,,-5mA,10mA,,,,,,,,,
+,,1.6,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_idd6""",,,,,-5mA,30mA,,,-5mA,30mA,,,,,,,,,
+,,1.7,Measure current on pin - IDS,,,,,"Limits ""VDD18_DRAMPOWER_ids""",,,,,-5mA,10mA,,,-5mA,10mA,,,,,,,,,
+,,1.8,Measure current on pin - IDS,,,,,"Limits ""VDD2H_DRAMPOWER_ids""",,,,,-5mA,10mA,,,-5mA,10mA,,,,,,,,,
+,,1.9,Measure current on pin - IDS,,,,,"Limits ""VDDQL_DDR_DRAMPOWER_ids""",,,,,-5mA,30mA,,,-5mA,30mA,,,,,,,,,

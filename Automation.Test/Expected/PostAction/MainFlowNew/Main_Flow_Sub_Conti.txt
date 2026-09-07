@@ -1,0 +1,32 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						set-alarm-bin										21		998																				
+						set-error-bin										21		999																				
+						call	Flow_Initilize																															
+						nop	Flow_SPIROM																															
+						call	Flow_Conti																															
+						nop	Flow_JTAG_IO																															
+						nop	Flow_Efuse_Initial_Read																															
+						nop	Flow_DRAM_TMPS_ADC																															
+						call	Flow_IDS																															
+						call	Flow_EVS																															
+						nop	Flow_ECID																															
+						call	Flow_IDS_CORR																															
+						nop	Flow_SAA_CP																															
+						nop	Flow_Mbist_Repair																															
+						nop	Flow_TD_Mbist_Outside																															
+						nop	Flow_Harvest_Before_Bincut																															
+						nop	Flow_HIP_Main																															
+						nop	Flow_DigHIP_Main																															
+						nop	Flow_DFTL																															
+						nop	Flow_Bincut																															
+						nop	Flow_HIP_PostBinCut																															
+						nop	Flow_CPM																															
+						nop	Flow_SAA_FT																															
+						nop	Flow_Harvesting_FinalSummary																															
+						nop	Flow_RTOS																															
+						call	Flow_Efuse_Final																															
+						limits-all																																
+						set-device									1		1		Pass																			

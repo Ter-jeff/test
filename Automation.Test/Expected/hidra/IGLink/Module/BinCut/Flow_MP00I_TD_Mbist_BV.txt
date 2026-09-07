@@ -1,0 +1,95 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	MP00I_TD_Mbist_BV_Header_1																															
+						print	"Flow MP00I_TD_Mbist_BV Start"																															
+						If	(!F_Cpu_Td_MPX00L_LV &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row14,MPX00L CPU TD,TD		CP1			no_pattern	Test	MP00I_MPX00L_DIV133_1P_Limiter_SRM0E_DIV133_1P_Limiter_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_Cpu_Td_MPX00L_LV &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row15,MPX00L CPU TD,TD		CP1			no_pattern	Test	MP00I_MPX00L_DIV133_1P_Rest_SRM0E_DIV133_1P_Rest_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_Cpu_Td_MPX00L_LV &&F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row16,MPX00L CPU TD,TD		CP1			no_pattern	Test	MP00I_MPX00L_DIV133_1P_CORE0HARVEST_SRM0E_DIV133_1P_CORE0HARVEST_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_Cpu_Td_MPX00L_LV &&!F_PCPU_TD_CORE0&&F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row17,MPX00L CPU TD,TD		CP1			no_pattern	Test	MP00I_MPX00L_DIV133_1P_CORE1HARVEST_SRM0E_DIV133_1P_CORE1HARVEST_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_Cpu_Td_MPX00L_LV &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row18,MPX00L CPU TD,TD		CP1			no_pattern	Test	MP00I_MPX00L_DIV133_1P_CORE2HARVEST_SRM0E_DIV133_1P_CORE2HARVEST_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_Cpu_Td_MPX00L_LV &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row19,MPX00L CPU TD,TD		CP1			no_pattern	Test	MP00I_MPX00L_DIV133_1P_CORE3HARVEST_SRM0E_DIV133_1P_CORE3HARVEST_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_Cpu_Td_MPX00L_LV && (F_PCPU_TD_CORE0 || F_PCPU_TD_CORE1 || F_PCPU_TD_CORE2 || F_PCPU_TD_CORE3)) || F_Debug_all																															
+Instance_Bincut_MP,Row20,MPX00L CPU TD,TD		CP1			no_pattern	Test	MP00I_MPX00L_DIV133_1P_COREXHarvest_CPM_Div422_SRM0E_DIV133_1P_COREXHarvest_CPM_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row22,MPX00I CPU TD,TD		FT1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00I_MPX00I_DIV133_1P_Div422_SRM0E_DIV133_1P_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row22,MPX00I CPU TD,TD		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MP00I_MPX00I_DIV133_1P_Div422_SRM0E_Typ_DIV133_1P_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row23,MPX00I CPU TD,TD		FT1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00I_MPX00I_DIV133_1P_CORE0HARVEST_Div422_SRM0E_DIV133_1P_CORE0HARVEST_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row23,MPX00I CPU TD,TD		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MP00I_MPX00I_DIV133_1P_CORE0HARVEST_Div422_SRM0E_Typ_DIV133_1P_CORE0HARVEST_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row24,MPX00I CPU TD,TD		FT1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00I_MPX00I_DIV133_1P_CORE1HARVEST_Div422_SRM0E_DIV133_1P_CORE1HARVEST_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row24,MPX00I CPU TD,TD		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MP00I_MPX00I_DIV133_1P_CORE1HARVEST_Div422_SRM0E_Typ_DIV133_1P_CORE1HARVEST_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row25,MPX00I CPU TD,TD		FT1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00I_MPX00I_DIV133_1P_CORE2HARVEST_Div422_SRM0E_DIV133_1P_CORE2HARVEST_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&F_PCPU_TD_CORE2&&!F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row25,MPX00I CPU TD,TD		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MP00I_MPX00I_DIV133_1P_CORE2HARVEST_Div422_SRM0E_Typ_DIV133_1P_CORE2HARVEST_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row26,MPX00I CPU TD,TD		FT1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00I_MPX00I_DIV133_1P_CORE3HARVEST_Div422_SRM0E_DIV133_1P_CORE3HARVEST_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(F_Enable_CPU_Turbo &&!F_PCPU_TD_CORE0&&!F_PCPU_TD_CORE1&&!F_PCPU_TD_CORE2&&F_PCPU_TD_CORE3) || F_Debug_all																															
+Instance_Bincut_MP,Row26,MPX00I CPU TD,TD		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MP00I_MPX00I_DIV133_1P_CORE3HARVEST_Div422_SRM0E_Typ_DIV133_1P_CORE3HARVEST_Div422_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_Cpu_Td_MPX00L_LV || F_Enable_CPU_Turbo) || F_Debug_all																															
+Instance_Bincut_BIST,Row202,MPX00L CPU BIST,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00I_MPX00L_59N_SP1_SP4_SP5_LATRNAMX_59N_SP1_SP4_SP5_LATRNAMX_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_Cpu_Td_MPX00L_LV || F_Enable_CPU_Turbo) || F_Debug_all																															
+Instance_Bincut_BIST,Row202,MPX00L CPU BIST,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MP00I_MPX00L_59N_SP1_SP4_SP5_LATRNAMX_Typ_59N_SP1_SP4_SP5_LATRNAMX_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_Cpu_Td_MPX00L_LV || F_Enable_CPU_Turbo) || F_Debug_all																															
+Instance_Bincut_BIST,Row203,MPX00L CPU BIST,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MP00I_MPX00L_SP3_1_SP3_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_Cpu_Td_MPX00L_LV || F_Enable_CPU_Turbo) || F_Debug_all																															
+Instance_Bincut_BIST,Row203,MPX00L CPU BIST,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MP00I_MPX00L_SP3_1_Typ_SP3_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+Set E1 voltage instance from BMS		CP1				Test	MP00I_Set_E1_Voltage__BV																					Flag-true	F_Cpu_Td_MPX00L_LV									
+						Bintable	Vddbinning_Fail_Stop																															
+						print	"Flow MP00I_TD_Mbist_BV Stop"																															
+						Test	MP00I_TD_Mbist_BV_Footer_1																															
+						Return																																

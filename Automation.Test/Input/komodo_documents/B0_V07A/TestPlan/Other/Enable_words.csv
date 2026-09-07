@@ -1,0 +1,26 @@
+Enable-Words,CP1,CP2,FT1,FT2,Relevant portions
+SA_PL99_SOC,X,X,X,X,"Scan SOC SA, EFA ONLY"
+SA_PL99_GFX,X,X,X,X,"Scan GPU SA, EFA ONLY"
+SA_PL99_CPU,X,X,X,X,"Scan CPU SA, EFA ONLY"
+TD_PL99_SOC,X,X,X,X,"Scan SOC TD, EFA Only"
+TD_PL99_GFX,X,X,X,X,"Scan CPU TD, EFA Only"
+TD_PL99_CPU,X,X,X,X,"Scan GPU TD, EFA Only"
+SA_Chain_SOC,X,X,X,X,Scan SOC SA Chain
+SOC_TD_Extest_BV,X,X,X,X,SOC Scan TD Extest inside Bincut
+SOC_TD_Extest_Merge,X,X,X,X,SOC Scan TD Extest Instance Merge
+SA_Chain_GPU,X,X,X,X,Scan GPU SA Chain
+GFX_MFSTP,V,V,V,V,Scan GPU MFSTP Global Enable March31st set to false X.
+GFX_SFSTP,X,X,X,X,Scan GPU SFSTP Global Enable March31st set to true V.
+SA_Chain_CPU,X,X,X,X,Scan CPU SA Chain
+BINCUT_WITH_BIST,V,V,V,V,Bincut MBIST with BIST vs BIRA
+Enable_CPU_Turbo,V,V,V,V,Scan TD and BIST CPU Turbo enable
+Enable_GPU_Turbo,V,V,V,V,Scan TD and BIST GPU  Turbo enable
+DisableCoreMask,V,X,X,X,Disable Core Masking for SSN/Pingroup harvesting
+SOC_SBST_TTR,V,V,V,V,SOC SBST MAXXTATS Only
+Debug_PCPU_Turbo_OutsideTD,X,X,X,X,
+Debug_PCPU_1HotBlkC_OutsideTD,X,X,X,X,March31st set to false X.
+SA_Skip_HCPURet,X,X,X,X,Instance_SA_CPU HCPU Scan Retention
+HardIPBin,V,V,V,V,HIP Binning
+ANE_BIST_BV_REF,X,X,X,X,Reference ANE BIST sequence
+Enable_Adaptive_Cooling,V,V,X,X,"Enable Adaptive Cooling in Monitor after each EVS, Scan HV and HBV flow"
+NoBincutWithPL20PL40,X,X,X,X,"CP1 Bincut Search with PL20 and PL40 for MS, MD, MI, ME, and MP (CPUTd)"

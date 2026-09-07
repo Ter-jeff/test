@@ -1,0 +1,127 @@
+FuseName,Value to write,Comment
+te_misc_bin_cp1,F_BinFuse[5:0],CP1
+te_misc_bin_cp2,F_BinFuse[5:0],CP2
+te_harvest_gfx0_scan_cp1,F_GFX0_SCAN_CORE[11:0],CP1
+te_harvest_gfx0_bist_cp1,F_GFX0_BIST_CORE[11:0],CP1
+te_harvest_gfx0_bist_cp2,F_GFX0_BIST_CORE[11:0],CP2
+te_harvest_hcpu_scan_cp1,F_HCPU_SCAN_CORE[5:0],CP1
+te_harvest_ecpu_scan_cp1,F_ECPU_SCAN_CORE[5:0],CP1
+te_harvest_is_cp1,F_SOC_FUSE_IS,Enabled for V05A
+te_harvest_ed_cp1,F_SOC_FUSE_ED[1:0],Enabled for V05A
+te_harvest_at0_cp1,F_SOC_FUSE_AT0,Enabled for V05A
+te_harvest_at1_cp1,F_SOC_FUSE_AT1,Enabled for V05A
+te_harvest_at2_cp1,F_SOC_FUSE_AT2,Enabled for V05A
+te_harvest_at3_cp1,F_SOC_FUSE_AT3,Enabled for V05A
+te_harvest_sc_cp1,F_SOC_FUSE_SC,Enabled for V05A
+CFG_condition_107,F_GFX0_FUSE_CORE[11:0],CP2 - Harv GFX Cores
+CFG_condition_103,F_HCPU_FUSE_CORE[5:0],CP2 - Harv HCPU Cores
+CFG_condition_100,F_ECPU_FUSE_CORE[5:0],CP2 - Harv ECPU Cores
+harvest_defect_IS,F_SOC_FUSE_IS,CP2 - Harv IS
+CFG_condition_106,F_SOC_FUSE_IS,CP2 - Harv IS
+CFG_condition_105,F_SOC_FUSE_IS,CP2 - Harv IS
+CFG_condition_102,b0,CP2 - Harv_IS: value = b0
+disable_ps_204,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_205,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_206,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_207,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_208,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_209,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_210,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_211,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_212,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_213,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_214,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_215,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_216,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_217,F_SOC_FUSE_IS,CP2 - Harv IS
+disable_ps_166,F_SOC_FUSE_ED0,CP2 - Harv ED0
+disable_ps_167,F_SOC_FUSE_ED0,CP2 - Harv ED0
+disable_ps_168,F_SOC_FUSE_ED0,CP2 - Harv ED0
+disable_ps_169,F_SOC_FUSE_ED0,CP2 - Harv ED0
+disable_ps_170,F_SOC_FUSE_ED0,CP2 - Harv ED0
+disable_ps_171,F_SOC_FUSE_ED0,CP2 - Harv ED0
+disable_ps_172,F_SOC_FUSE_ED0,CP2 - Harv ED0
+disable_ps_173,F_SOC_FUSE_ED0,CP2 - Harv ED0
+disable_ps_174,F_SOC_FUSE_ED0,CP2 - Harv ED0
+disable_ps_185,F_SOC_FUSE_ED0,CP2 - Harv ED0
+disable_ps_175,F_SOC_FUSE_ED1,CP2 - Harv ED1
+disable_ps_176,F_SOC_FUSE_ED1,CP2 - Harv ED1
+disable_ps_177,F_SOC_FUSE_ED1,CP2 - Harv ED1
+disable_ps_178,F_SOC_FUSE_ED1,CP2 - Harv ED1
+disable_ps_179,F_SOC_FUSE_ED1,CP2 - Harv ED1
+disable_ps_180,F_SOC_FUSE_ED1,CP2 - Harv ED1
+disable_ps_181,F_SOC_FUSE_ED1,CP2 - Harv ED1
+disable_ps_182,F_SOC_FUSE_ED1,CP2 - Harv ED1
+disable_ps_183,F_SOC_FUSE_ED1,CP2 - Harv ED1
+disable_ps_186,F_SOC_FUSE_ED1,CP2 - Harv ED1
+disable_ps_078,F_SOC_FUSE_AT0,CP2 - Harv AT02
+disable_ps_079,F_SOC_FUSE_AT0,CP2 - Harv AT02
+disable_ps_080,F_SOC_FUSE_AT0,CP2 - Harv AT02
+disable_ps_083,F_SOC_FUSE_AT0,CP2 - Harv AT02
+disable_ps_084,F_SOC_FUSE_AT0,CP2 - Harv AT02
+disable_ps_087,F_SOC_FUSE_AT1,CP2 - Harv AT13
+disable_ps_088,F_SOC_FUSE_AT1,CP2 - Harv AT13
+disable_ps_089,F_SOC_FUSE_AT1,CP2 - Harv AT13
+disable_ps_092,F_SOC_FUSE_AT1,CP2 - Harv AT13
+disable_ps_093,F_SOC_FUSE_AT1,CP2 - Harv AT13
+disable_ps_096,F_SOC_FUSE_AT2,CP2 - Harv AT02
+disable_ps_097,F_SOC_FUSE_AT2,CP2 - Harv AT02
+disable_ps_098,F_SOC_FUSE_AT2,CP2 - Harv AT02
+disable_ps_101,F_SOC_FUSE_AT2,CP2 - Harv AT02
+disable_ps_102,F_SOC_FUSE_AT2,CP2 - Harv AT02
+disable_ps_105,F_SOC_FUSE_AT3,CP2 - Harv AT13
+disable_ps_106,F_SOC_FUSE_AT3,CP2 - Harv AT13
+disable_ps_107,F_SOC_FUSE_AT3,CP2 - Harv AT13
+disable_ps_110,F_SOC_FUSE_AT3,CP2 - Harv AT13
+disable_ps_111,F_SOC_FUSE_AT3,CP2 - Harv AT13
+te_harvest_ane0_bist_cp1,F_ANE0_BIST_CORE[16:0],CP1
+te_harvest_ane0_bist_cp2,F_ANE0_BIST_CORE[16:0],CP2
+te_harvest_ane0_scan_cp1,F_ANE0_SCAN_CORE[16:0],CP1
+te_harvest_ane0_all_cp1,F_ANE0_FUSE_ALL,CP1 - TE Harv all ANE0
+te_harvest_ane1_bist_cp1,F_ANE1_BIST_CORE[16:0],CP1
+te_harvest_ane1_bist_cp2,F_ANE1_BIST_CORE[16:0],CP2
+te_harvest_ane1_scan_cp1,F_ANE1_SCAN_CORE[16:0],CP1
+te_harvest_ane1_all_cp1,F_ANE1_FUSE_ALL,CP1 - TE Harv all ANE1
+CFG_condition_108,F_ANE0_FUSE_ALL,CP2 - Harv all ANE0
+CFG_condition_109,F_ANE0_FUSE_CORE[16:0],CP2 - Harv ANE0 Cores
+CFG_condition_110,F_ANE1_FUSE_ALL,CP2 - Harv all ANE1
+CFG_condition_111,F_ANE1_FUSE_CORE[16:0],CP2 - Harv ANE1 Cores
+CFG_condition_112,b1,CP2 - Harv ANE Core Valid - b1 all conditions
+disable_ps_033,F_ANE0_FUSE_ALL,CP2 - Harv all ANE0
+disable_ps_034,F_ANE0_FUSE_ALL,CP2 - Harv all ANE0
+disable_ps_035,F_ANE0_FUSE_ALL,CP2 - Harv all ANE0
+disable_ps_036,F_ANE0_FUSE_ALL,CP2 - Harv all ANE0
+disable_ps_037,F_ANE1_FUSE_ALL,CP2 - Harv all ANE1
+disable_ps_038,F_ANE1_FUSE_ALL,CP2 - Harv all ANE1
+disable_ps_039,F_ANE1_FUSE_ALL,CP2 - Harv all ANE1
+disable_ps_040,F_ANE1_FUSE_ALL,CP2 - Harv all ANE1
+pe_misc_bira1_ecpu_mlv,F_pe_misc_bira1_ecpu_mlv,Enabled for V05A
+pe_misc_bira1_ecpu_mhv,F_pe_misc_bira1_ecpu_mhv,Enabled for V05A
+pe_misc_bira1_gfx_mlv,F_pe_misc_bira1_gfx_mlv,Enabled for V05A
+pe_misc_bira1_gfx_mhv,F_pe_misc_bira1_gfx_mhv,Enabled for V05A
+pe_misc_bira1_pcpu_mlv,F_pe_misc_bira1_hcpu_mlv,Enabled for V05A
+pe_misc_bira1_pcpu_mhv,F_pe_misc_bira1_hcpu_mhv,Enabled for V05A
+pe_misc_bira1_mcpu_mlv,b0,Enabled for V05A
+pe_misc_bira1_mcpu_mhv,b0,Enabled for V05A
+pe_misc_bira1_soc_mlv,F_pe_misc_bira1_soc_mlv,Enabled for V05A
+pe_misc_bira1_soc_mhv,F_pe_misc_bira1_soc_mhv,Enabled for V05A
+CFG_condition_104,F_SOC_FUSE_SC,CP2 - Harv SC
+disable_ps_273,F_SOC_FUSE_SC,CP2 - Harv SC
+disable_ps_149,b0,CP2 - Harv ID: Not Used
+disable_ps_150,b0,CP2 - Harv ID: Not Used
+disable_ps_151,b0,CP2 - Harv ID: Not Used
+disable_ps_152,b0,CP2 - Harv ID: Not Used
+disable_ps_153,b0,CP2 - Harv ID: Not Used
+disable_ps_154,b0,CP2 - Harv ID: Not Used
+disable_ps_155,b0,CP2 - Harv ID: Not Used
+disable_ps_156,b0,CP2 - Harv ID: Not Used
+disable_ps_157,b0,CP2 - Harv ID: Not Used
+disable_ps_158,b0,CP2 - Harv ID: Not Used
+disable_ps_159,b0,CP2 - Harv ID: Not Used
+disable_ps_160,b0,CP2 - Harv ID: Not Used
+disable_ps_161,b0,CP2 - Harv ID: Not Used
+disable_ps_162,b0,CP2 - Harv ID: Not Used
+disable_ps_163,b0,CP2 - Harv ID: Not Used
+disable_ps_164,b0,CP2 - Harv ID: Not Used
+disable_ps_165,b0,CP2 - Harv ID: Not Used
+disable_ps_184,b0,CP2 - Harv ID: Not Used

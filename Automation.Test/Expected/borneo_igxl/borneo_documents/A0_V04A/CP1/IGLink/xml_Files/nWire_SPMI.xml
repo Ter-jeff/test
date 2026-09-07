@@ -1,0 +1,112 @@
+﻿<protocol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" description="" version="" defaultName="NewProtocol" controller="Tester" validFamilies="">
+	<function name="SPMI_SCLK" group="" type="Clock" description="" />
+	<function name="SPMI_SDATA" group="" type="InOut" description="" />
+	<frame name="Idle" description="" type="Idle" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="4">0 0</cycle>
+		</data>
+	</frame>
+	<frame name="SPMI_READ" description="" type="Read" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="44">0 0</cycle>
+			<cycle repeat="0">+ 0</cycle>
+			<cycle repeat="0">+ 0</cycle>
+			<cycle repeat="0">0 0</cycle>
+			<cycle repeat="0">0 1</cycle>
+			<cycle repeat="0">0 0</cycle>
+			<cycle repeat="5">+ 0</cycle>
+			<cycle repeat="2">+ 1</cycle>
+			<cycle repeat="3">+ 0</cycle>
+			<cycle repeat="17">+ D</cycle>
+			<cycle repeat="31">0 0</cycle>
+			<cycle repeat="0">+ 0</cycle>
+			<cycle repeat="0">0 0</cycle>
+			<cycle repeat="7">+ E</cycle>
+			<cycle repeat="1">+ 0</cycle>
+			<cycle repeat="1">0 0</cycle>
+		</data>
+		<field name="Addr" description="" length="0" variableLength="false">
+			<bit function="SPMI_SDATA" cycle="63" />
+			<bit function="SPMI_SDATA" cycle="64" />
+			<bit function="SPMI_SDATA" cycle="65" />
+			<bit function="SPMI_SDATA" cycle="66" />
+			<bit function="SPMI_SDATA" cycle="67" />
+			<bit function="SPMI_SDATA" cycle="68" />
+			<bit function="SPMI_SDATA" cycle="69" />
+			<bit function="SPMI_SDATA" cycle="70" />
+			<bit function="SPMI_SDATA" cycle="71" />
+			<bit function="SPMI_SDATA" cycle="72" />
+			<bit function="SPMI_SDATA" cycle="73" />
+			<bit function="SPMI_SDATA" cycle="74" />
+			<bit function="SPMI_SDATA" cycle="75" />
+			<bit function="SPMI_SDATA" cycle="76" />
+			<bit function="SPMI_SDATA" cycle="77" />
+			<bit function="SPMI_SDATA" cycle="78" />
+			<bit function="SPMI_SDATA" cycle="79" />
+			<bit function="SPMI_SDATA" cycle="80" />
+		</field>
+		<field name="Data" description="" length="0" variableLength="false">
+			<bit function="SPMI_SDATA" cycle="115" />
+			<bit function="SPMI_SDATA" cycle="116" />
+			<bit function="SPMI_SDATA" cycle="117" />
+			<bit function="SPMI_SDATA" cycle="118" />
+			<bit function="SPMI_SDATA" cycle="119" />
+			<bit function="SPMI_SDATA" cycle="120" />
+			<bit function="SPMI_SDATA" cycle="121" />
+			<bit function="SPMI_SDATA" cycle="122" />
+		</field>		
+	</frame>
+	<frame name="SPMI_WRITE" description="" type="Write" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="44">0 0</cycle>
+			<cycle repeat="1">+ 0</cycle>
+			<cycle repeat="0">0 0</cycle>
+			<cycle repeat="0">0 1</cycle>
+			<cycle repeat="0">0 0</cycle>
+			<cycle repeat="5">+ 0</cycle>
+			<cycle repeat="1">+ 1</cycle>
+			<cycle repeat="3">+ 0</cycle>
+			<cycle repeat="0">+ 1</cycle>
+			<cycle repeat="26">+ D</cycle>
+			<cycle repeat="0">+ 0</cycle>
+			<cycle repeat="0">+ H</cycle>
+			<cycle repeat="0">+ 0</cycle>
+			<cycle repeat="0">0 0</cycle>
+		</data>
+		<field name="Addr" description="" length="0" variableLength="false">
+			<bit function="SPMI_SDATA" cycle="63" />
+			<bit function="SPMI_SDATA" cycle="64" />
+			<bit function="SPMI_SDATA" cycle="65" />
+			<bit function="SPMI_SDATA" cycle="66" />
+			<bit function="SPMI_SDATA" cycle="67" />
+			<bit function="SPMI_SDATA" cycle="68" />
+			<bit function="SPMI_SDATA" cycle="69" />
+			<bit function="SPMI_SDATA" cycle="70" />
+			<bit function="SPMI_SDATA" cycle="71" />
+			<bit function="SPMI_SDATA" cycle="72" />
+			<bit function="SPMI_SDATA" cycle="73" />
+			<bit function="SPMI_SDATA" cycle="74" />
+			<bit function="SPMI_SDATA" cycle="75" />
+			<bit function="SPMI_SDATA" cycle="76" />
+			<bit function="SPMI_SDATA" cycle="77" />
+			<bit function="SPMI_SDATA" cycle="78" />
+			<bit function="SPMI_SDATA" cycle="79" />
+			<bit function="SPMI_SDATA" cycle="80" />
+		</field>
+		<field name="Data" description="" length="0" variableLength="false">
+			<bit function="SPMI_SDATA" cycle="81" />
+			<bit function="SPMI_SDATA" cycle="82" />
+			<bit function="SPMI_SDATA" cycle="83" />
+			<bit function="SPMI_SDATA" cycle="84" />
+			<bit function="SPMI_SDATA" cycle="85" />
+			<bit function="SPMI_SDATA" cycle="86" />
+			<bit function="SPMI_SDATA" cycle="87" />
+			<bit function="SPMI_SDATA" cycle="88" />
+			<bit function="SPMI_SDATA" cycle="89" />
+		</field>
+		<field name="WRGood" description="" length="0" variableLength="false">
+			<bit function="SPMI_SDATA" cycle="91" />
+		</field>
+	</frame>
+	<layer_map has_hardware_layering="false" />
+</protocol>

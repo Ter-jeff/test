@@ -1,0 +1,2 @@
+INPUT: product_identifier	INPUT: harvesting_bin	PwrScreen_TN	PASS: power_binning	FAIL action	Pass flag	Comment			
+0	0	150	1	FAIL					

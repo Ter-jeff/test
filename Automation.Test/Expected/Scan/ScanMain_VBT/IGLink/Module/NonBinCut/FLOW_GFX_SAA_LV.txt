@@ -1,0 +1,84 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	GFX_SAA_LV_Header_1																															
+						print	"Flow GFX_SAA_LV Start"																															
+Instance_SA_GFX,Row2,Flow_GFX_SAA_LV		SA_Chain_GPU			MissPatternInCsv	Test	GfxSaChain_PP_BRNA0_L_PLLP_CH_CSOC_SAA_COM_AUT_ALLFRV_DM_SW50_NonHarv_CSOC_Chain_LV														F_Gfx_SaChain_LV,F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CSOC_SAA_COM_AUT_ALLFRV_DM_SW50_NonHarv_CSOC_Chain_LV																	
+Instance_SA_GFX,Row2,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_SaChain_HLV,ControlBin_Gfx_SaChain_LV																					Flag-true	F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CSOC_SAA_COM_AUT_ALLFRV_DM_SW50_NonHarv_CSOC_Chain_LV									
+Instance_SA_GFX,Row3,Flow_GFX_SAA_LV		SA_Chain_GPU			MissPatternInCsv	Test	GfxSaChain_PP_BRNA0_L_PLLP_CH_CSO0_SAA_COM_AUT_ALLFRV_DM_SW50_NonHarv_CSO0_Chain_LV														F_Gfx_SaChain_LV,F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CSO0_SAA_COM_AUT_ALLFRV_DM_SW50_NonHarv_CSO0_Chain_LV																	
+Instance_SA_GFX,Row3,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_SaChain_HLV,ControlBin_Gfx_SaChain_LV																					Flag-true	F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CSO0_SAA_COM_AUT_ALLFRV_DM_SW50_NonHarv_CSO0_Chain_LV									
+Instance_SA_GFX,Row8,Flow_GFX_SAA_LV		SA_Chain_GPU			MissPatternInCsv	Test	GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF00_Chain_LV														F_GFX0_SA_CORE0,F_GFX0_SCAN_CORE0,F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF00_Chain_LV							Flag-false	F_GFX0_SA_CORE0									
+Instance_SA_GFX,Row9,Flow_GFX_SAA_LV		SA_Chain_GPU			MissPatternInCsv	Test	GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF01_Chain_LV														F_GFX0_SA_CORE1,F_GFX0_SCAN_CORE1,F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF01_Chain_LV							Flag-false	F_GFX0_SA_CORE1									
+Instance_SA_GFX,Row10,Flow_GFX_SAA_LV		SA_Chain_GPU			MissPatternInCsv	Test	GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF02_Chain_LV														F_GFX0_SA_CORE2,F_GFX0_SCAN_CORE2,F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF02_Chain_LV							Flag-false	F_GFX0_SA_CORE2									
+Instance_SA_GFX,Row11,Flow_GFX_SAA_LV		SA_Chain_GPU			MissPatternInCsv	Test	GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF03_Chain_LV														F_GFX0_SA_CORE3,F_GFX0_SCAN_CORE3,F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF03_Chain_LV							Flag-false	F_GFX0_SA_CORE3									
+Instance_SA_GFX,Row12,Flow_GFX_SAA_LV		SA_Chain_GPU			MissPatternInCsv	Test	GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF04_Chain_LV														F_GFX0_SA_CORE4,F_GFX0_SCAN_CORE4,F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF04_Chain_LV							Flag-false	F_GFX0_SA_CORE4									
+Instance_SA_GFX,Row13,Flow_GFX_SAA_LV		SA_Chain_GPU			MissPatternInCsv	Test	GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF05_Chain_LV														F_GFX0_SA_CORE5,F_GFX0_SCAN_CORE5,F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF05_Chain_LV							Flag-false	F_GFX0_SA_CORE5									
+Instance_SA_GFX,Row14,Flow_GFX_SAA_LV		SA_Chain_GPU			MissPatternInCsv	Test	GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF06_Chain_LV														F_GFX0_SA_CORE6,F_GFX0_SCAN_CORE6,F_GfxSaChain_PP_BRNA0_L_PLLP_CH_CFXX_SAA_COM_HAR_ALLFRV_DM_SW50_Harv_CF06_Chain_LV							Flag-false	F_GFX0_SA_CORE6									
+Instance_SA_GFX,Row24,Flow_GFX_SAA_LV		GFX_MFSTP	CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_MULTI_SA_PL10_SF_LV														F_GFX0_SA_Multi,F_GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_MULTI_SA_PL10_SF_LV																	
+						If	(!F_GFX0_SA_Multi&&!F_GFX0_SA_CORE0) || F_Debug_all																															
+Instance_SA_GFX,Row25,Flow_GFX_SAA_LV		GFX_MFSTP	CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF00_SA_PL10_SF_Check_LV														F_GFX0_SA_Multi,F_GFX0_SA_CORE0,F_GFX0_SCAN_CORE0,F_GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF00_SA_PL10_SF_Check_LV																	
+						EndIf																																
+						If	(!F_GFX0_SA_Multi&&F_GFX0_SA_CORE0) || F_Debug_all																															
+Instance_SA_GFX,Row26,Flow_GFX_SAA_LV		GFX_MFSTP	CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF01_SA_PL10_SF_Check_LV														F_GFX0_SA_Multi,F_GFX0_SA_CORE1,F_GFX0_SCAN_CORE1,F_GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF01_SA_PL10_SF_Check_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE0) || F_Debug_all																															
+Instance_SA_GFX,Row27,Flow_GFX_SAA_LV		GFX_SFSTP	CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF00_SA_PL10_SF_LV														F_GFX0_SA_CORE0,F_GFX0_SCAN_CORE0,F_GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF00_SA_PL10_SF_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE1) || F_Debug_all																															
+Instance_SA_GFX,Row28,Flow_GFX_SAA_LV		GFX_SFSTP	CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF01_SA_PL10_SF_LV														F_GFX0_SA_CORE1,F_GFX0_SCAN_CORE1,F_GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF01_SA_PL10_SF_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE2) || F_Debug_all																															
+Instance_SA_GFX,Row29,Flow_GFX_SAA_LV		GFX_SFSTP	CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF02_SA_PL10_SF_LV														F_GFX0_SA_CORE2,F_GFX0_SCAN_CORE2,F_GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF02_SA_PL10_SF_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE3) || F_Debug_all																															
+Instance_SA_GFX,Row30,Flow_GFX_SAA_LV		GFX_SFSTP	CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF03_SA_PL10_SF_LV														F_GFX0_SA_CORE3,F_GFX0_SCAN_CORE3,F_GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF03_SA_PL10_SF_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE4) || F_Debug_all																															
+Instance_SA_GFX,Row31,Flow_GFX_SAA_LV		GFX_SFSTP	CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF04_SA_PL10_SF_LV														F_GFX0_SA_CORE4,F_GFX0_SCAN_CORE4,F_GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF04_SA_PL10_SF_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE5) || F_Debug_all																															
+Instance_SA_GFX,Row32,Flow_GFX_SAA_LV		GFX_SFSTP	CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF05_SA_PL10_SF_LV														F_GFX0_SA_CORE5,F_GFX0_SCAN_CORE5,F_GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF05_SA_PL10_SF_LV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE6) || F_Debug_all																															
+Instance_SA_GFX,Row33,Flow_GFX_SAA_LV		GFX_SFSTP	CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF06_SA_PL10_SF_LV														F_GFX0_SA_CORE6,F_GFX0_SCAN_CORE6,F_GfxSa_PP_BRNA0_L_PL10_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF06_SA_PL10_SF_LV																	
+						EndIf																																
+Instance_SA_GFX,Row46,Flow_GFX_SAA_LV			CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CSO0_SAA_COM_AUT_ALLFRV_DM_CSO0_PL10_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL10_SC_CSO0_SAA_COM_AUT_ALLFRV_DM_CSO0_PL10_LV																	
+Instance_SA_GFX,Row46,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL10_SC_CSO0_SAA_COM_AUT_ALLFRV_DM_CSO0_PL10_LV									
+Instance_SA_GFX,Row47,Flow_GFX_SAA_LV			CP1,CP2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL10_SC_CSOC_SAA_COM_AUT_ALLFRV_DM_CSOC_PL10_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL10_SC_CSOC_SAA_COM_AUT_ALLFRV_DM_CSOC_PL10_LV																	
+Instance_SA_GFX,Row47,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL10_SC_CSOC_SAA_COM_AUT_ALLFRV_DM_CSOC_PL10_LV									
+Instance_SA_GFX,Row52,Flow_GFX_SAA_LV		GFX_MFSTP	FT1,FT2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_MULTI_SA_PL20_SF_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_MULTI_SA_PL20_SF_LV																	
+Instance_SA_GFX,Row52,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_MULTI_SA_PL20_SF_LV									
+Instance_SA_GFX,Row53,Flow_GFX_SAA_LV		GFX_SFSTP	FT1,FT2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF00_SA_PL20_SF_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF00_SA_PL20_SF_LV							Flag-false	F_GFX0_SA_CORE0									
+Instance_SA_GFX,Row53,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF00_SA_PL20_SF_LV									
+Instance_SA_GFX,Row54,Flow_GFX_SAA_LV		GFX_SFSTP	FT1,FT2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF01_SA_PL20_SF_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF01_SA_PL20_SF_LV							Flag-false	F_GFX0_SA_CORE1									
+Instance_SA_GFX,Row54,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF01_SA_PL20_SF_LV									
+Instance_SA_GFX,Row55,Flow_GFX_SAA_LV		GFX_SFSTP	FT1,FT2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF02_SA_PL20_SF_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF02_SA_PL20_SF_LV							Flag-false	F_GFX0_SA_CORE2									
+Instance_SA_GFX,Row55,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF02_SA_PL20_SF_LV									
+Instance_SA_GFX,Row56,Flow_GFX_SAA_LV		GFX_SFSTP	FT1,FT2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF03_SA_PL20_SF_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF03_SA_PL20_SF_LV							Flag-false	F_GFX0_SA_CORE3									
+Instance_SA_GFX,Row56,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF03_SA_PL20_SF_LV									
+Instance_SA_GFX,Row57,Flow_GFX_SAA_LV		GFX_SFSTP	FT1,FT2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF04_SA_PL20_SF_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF04_SA_PL20_SF_LV							Flag-false	F_GFX0_SA_CORE4									
+Instance_SA_GFX,Row57,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF04_SA_PL20_SF_LV									
+Instance_SA_GFX,Row58,Flow_GFX_SAA_LV		GFX_SFSTP	FT1,FT2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF05_SA_PL20_SF_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF05_SA_PL20_SF_LV							Flag-false	F_GFX0_SA_CORE5									
+Instance_SA_GFX,Row58,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF05_SA_PL20_SF_LV									
+Instance_SA_GFX,Row59,Flow_GFX_SAA_LV		GFX_SFSTP	FT1,FT2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF06_SA_PL20_SF_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF06_SA_PL20_SF_LV							Flag-false	F_GFX0_SA_CORE6									
+Instance_SA_GFX,Row59,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL20_SC_CFXX_SAA_COM_HAR_ALLFRV_DM_Harv_CF06_SA_PL20_SF_LV									
+Instance_SA_GFX,Row70,Flow_GFX_SAA_LV			FT1,FT2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL20_SC_CSO0_SAA_COM_AUT_ALLFRV_DM_CSO0_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL20_SC_CSO0_SAA_COM_AUT_ALLFRV_DM_CSO0_PL20_LV																	
+Instance_SA_GFX,Row70,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL20_SC_CSO0_SAA_COM_AUT_ALLFRV_DM_CSO0_PL20_LV									
+Instance_SA_GFX,Row71,Flow_GFX_SAA_LV			FT1,FT2		MissPatternInCsv	Test	GfxSa_PP_BRNA0_L_PL20_SC_CSOC_SAA_COM_AUT_ALLFRV_DM_CSOC_PL20_LV														F_Gfx_Sa_LV,F_GfxSa_PP_BRNA0_L_PL20_SC_CSOC_SAA_COM_AUT_ALLFRV_DM_CSOC_PL20_LV																	
+Instance_SA_GFX,Row71,Flow_GFX_SAA_LV						flag-true	ControlBin_Gfx_Sa_HLV,ControlBin_Gfx_Sa_LV																					Flag-true	F_GfxSa_PP_BRNA0_L_PL20_SC_CSOC_SAA_COM_AUT_ALLFRV_DM_CSOC_PL20_LV									
+						If	ControlBin_Gfx_SaChain_HLV																															
+						Bintable	Bin_Gfx_SaChain_HLV																															
+						EndIf																																
+						If	ControlBin_Gfx_SaChain_LV																															
+						Bintable	Bin_Gfx_SaChain_LV																															
+						EndIf																																
+						If	ControlBin_Gfx_Sa_HLV																															
+						Bintable	Bin_Gfx_Sa_HLV																															
+						EndIf																																
+						If	ControlBin_Gfx_Sa_LV																															
+						Bintable	Bin_Gfx_Sa_LV																															
+						EndIf																																
+						print	"Flow GFX_SAA_LV Stop"																															
+						Test	GFX_SAA_LV_Footer_1																															
+						Return																																

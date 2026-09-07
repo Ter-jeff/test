@@ -1,0 +1,1059 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"Flow HardIP_ACIPHY Start "																															
+		(HardIP_NV||Prod_All)				Test	aciphy_l5l4_select														F_HardIP_ACIPHY_ACIPHY_L5L4_SELECT_aciphy_l5l4_select_N_Flag,F_HardIP_ACIPHY_Flag																	aciphy_l5l4_select	
+_MemoryBK		(HardIP_NV||Prod_CP1)&&!Char_CP_FuseRead	CP1		xx	Test	aciphy_auxtrimtximpswp_fuse_prewrite_cal														,F_HardIP_ACIPHY_Flag																	aciphy_auxtrimtximpswp_fuse_prewrite_cal	
+_MemoryBK		(HARDIP_NV||PROD_CP2||PROD_FT1||PROD_FT2||Char_CP_fuseRead)&&HardIP_Fuse_Read	CP2,WLFT1,WLFT2,FT1,FT2			Test	aciphy_auxtrimtximpswp_fuse_read_cal														F_HARDIP_Fuse_Read_Non_Zero_Check_Flag,F_HardIP_ACIPHY_Flag																	aciphy_auxtrimtximpswp_fuse_read_cal	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB2P7_CZ_NV		21010000												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA2P7_ELB2P7_CZ_NV		21010050												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV		21010100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__accap_maxmin_n	21010150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__accap_maxmin_n	21010200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__accap_maxmin_p	21010250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__accap_maxmin_p	21010300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__accap_maxmin_n	21010350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__accap_maxmin_n	21010400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__accap_maxmin_p	21010450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__accap_maxmin_p	21010500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__accap_maxmin_n	21010550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__accap_maxmin_n	21010600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__accap_maxmin_p	21010650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__accap_maxmin_p	21010700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__fine_code_last	21010750	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__fine_code_last	21010800	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__fine_code_last	21010850	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__fine_code_last	21010900	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__fine_code_last	21010950	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__fine_code_last	21011000	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfp_ctle_autoz_outp	21011050	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfp_ctle_autoz_outp	21011100	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfn_ctle_autoz_outn	21011150	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfn_ctle_autoz_outn	21011200	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfp_ctle_autoz_outp	21011250	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfp_ctle_autoz_outp	21011300	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfn_ctle_autoz_outn	21011350	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfn_ctle_autoz_outn	21011400	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfp_ctle_autoz_outp	21011450	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfp_ctle_autoz_outp	21011500	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfn_ctle_autoz_outn	21011550	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfn_ctle_autoz_outn	21011600	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN1__CTLE_OUT_DC_OFFSET_DIFF	21011650	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN1__CTLE_OUT_DC_OFFSET_DIFF	21011700	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN3__CTLE_OUT_DC_OFFSET_DIFF	21011750	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN3__CTLE_OUT_DC_OFFSET_DIFF	21011800	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN5__CTLE_OUT_DC_OFFSET_DIFF	21011850	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN5__CTLE_OUT_DC_OFFSET_DIFF	21011900	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN1__FINE_CODE_LAST_DAC	21011950	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN1__FINE_CODE_LAST_DAC	21012000	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN3__FINE_CODE_LAST_DAC	21012050	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN3__FINE_CODE_LAST_DAC	21012100	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN5__FINE_CODE_LAST_DAC	21012150	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN5__FINE_CODE_LAST_DAC	21012200	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump		21012250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__accap_maxmin_n	21012300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__accap_maxmin_n	21012350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__accap_maxmin_p	21012400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__accap_maxmin_p	21012450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__accap_maxmin_n	21012500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__accap_maxmin_n	21012550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__accap_maxmin_p	21012600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__accap_maxmin_p	21012650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__accap_maxmin_n	21012700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__accap_maxmin_n	21012750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__accap_maxmin_p	21012800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__accap_maxmin_p	21012850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__fine_code_last	21012900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__fine_code_last	21012950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__fine_code_last	21013000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__fine_code_last	21013050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__fine_code_last	21013100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__fine_code_last	21013150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfp_ctle_autoz_outp	21013200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfp_ctle_autoz_outp	21013250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfn_ctle_autoz_outn	21013300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfn_ctle_autoz_outn	21013350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfp_ctle_autoz_outp	21013400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfp_ctle_autoz_outp	21013450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfn_ctle_autoz_outn	21013500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfn_ctle_autoz_outn	21013550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfp_ctle_autoz_outp	21013600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfp_ctle_autoz_outp	21013650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfn_ctle_autoz_outn	21013700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfn_ctle_autoz_outn	21013750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN1__CTLE_OUT_DC_OFFSET_DIFF	21013800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN1__CTLE_OUT_DC_OFFSET_DIFF	21013850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN3__CTLE_OUT_DC_OFFSET_DIFF	21013900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN3__CTLE_OUT_DC_OFFSET_DIFF	21013950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN5__CTLE_OUT_DC_OFFSET_DIFF	21014000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN5__CTLE_OUT_DC_OFFSET_DIFF	21014050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN1__FINE_CODE_LAST_DAC	21014100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN1__FINE_CODE_LAST_DAC	21014150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN3__FINE_CODE_LAST_DAC	21014200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN3__FINE_CODE_LAST_DAC	21014250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN5__FINE_CODE_LAST_DAC	21014300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN5__FINE_CODE_LAST_DAC	21014350												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21014400																													
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB2P7_CZ_NV		21014450												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA2P7_ELB2P7_CZ_NV		21014500												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV		21014550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__accap_maxmin_n	21014600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__accap_maxmin_n	21014650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__accap_maxmin_p	21014700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__accap_maxmin_p	21014750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__accap_maxmin_n	21014800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__accap_maxmin_n	21014850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__accap_maxmin_p	21014900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__accap_maxmin_p	21014950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__accap_maxmin_n	21015000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__accap_maxmin_n	21015050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__accap_maxmin_p	21015100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__accap_maxmin_p	21015150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__fine_code_last	21015200	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__fine_code_last	21015250	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__fine_code_last	21015300	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__fine_code_last	21015350	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__fine_code_last	21015400	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__fine_code_last	21015450	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfp_ctle_autoz_outp	21015500	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfp_ctle_autoz_outp	21015550	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfn_ctle_autoz_outn	21015600	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfn_ctle_autoz_outn	21015650	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfp_ctle_autoz_outp	21015700	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfp_ctle_autoz_outp	21015750	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfn_ctle_autoz_outn	21015800	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfn_ctle_autoz_outn	21015850	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfp_ctle_autoz_outp	21015900	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfp_ctle_autoz_outp	21015950	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfn_ctle_autoz_outn	21016000	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfn_ctle_autoz_outn	21016050	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN1__CTLE_OUT_DC_OFFSET_DIFF	21016100	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN1__CTLE_OUT_DC_OFFSET_DIFF	21016150	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN3__CTLE_OUT_DC_OFFSET_DIFF	21016200	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN3__CTLE_OUT_DC_OFFSET_DIFF	21016250	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN5__CTLE_OUT_DC_OFFSET_DIFF	21016300	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN5__CTLE_OUT_DC_OFFSET_DIFF	21016350	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN1__FINE_CODE_LAST_DAC	21016400	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN1__FINE_CODE_LAST_DAC	21016450	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN3__FINE_CODE_LAST_DAC	21016500	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN3__FINE_CODE_LAST_DAC	21016550	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN5__FINE_CODE_LAST_DAC	21016600	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN5__FINE_CODE_LAST_DAC	21016650	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump		21016700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__accap_maxmin_n	21016750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__accap_maxmin_n	21016800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__accap_maxmin_p	21016850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__accap_maxmin_p	21016900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__accap_maxmin_n	21016950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__accap_maxmin_n	21017000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__accap_maxmin_p	21017050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__accap_maxmin_p	21017100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__accap_maxmin_n	21017150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__accap_maxmin_n	21017200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__accap_maxmin_p	21017250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__accap_maxmin_p	21017300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__fine_code_last	21017350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__fine_code_last	21017400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__fine_code_last	21017450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__fine_code_last	21017500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__fine_code_last	21017550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__fine_code_last	21017600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfp_ctle_autoz_outp	21017650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfp_ctle_autoz_outp	21017700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfn_ctle_autoz_outn	21017750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfn_ctle_autoz_outn	21017800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfp_ctle_autoz_outp	21017850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfp_ctle_autoz_outp	21017900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfn_ctle_autoz_outn	21017950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfn_ctle_autoz_outn	21018000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfp_ctle_autoz_outp	21018050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfp_ctle_autoz_outp	21018100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfn_ctle_autoz_outn	21018150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfn_ctle_autoz_outn	21018200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN1__CTLE_OUT_DC_OFFSET_DIFF	21018250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN1__CTLE_OUT_DC_OFFSET_DIFF	21018300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN3__CTLE_OUT_DC_OFFSET_DIFF	21018350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN3__CTLE_OUT_DC_OFFSET_DIFF	21018400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN5__CTLE_OUT_DC_OFFSET_DIFF	21018450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN5__CTLE_OUT_DC_OFFSET_DIFF	21018500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN1__FINE_CODE_LAST_DAC	21018550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN1__FINE_CODE_LAST_DAC	21018600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN3__FINE_CODE_LAST_DAC	21018650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN3__FINE_CODE_LAST_DAC	21018700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN5__FINE_CODE_LAST_DAC	21018750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN5__FINE_CODE_LAST_DAC	21018800												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21018850																													
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB2P7_CZ_NV		21018900												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA2P7_ELB2P7_CZ_NV		21018950												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV		21019000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__fine_code_last	21019050	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__fine_code_last	21019100	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__fine_code_last	21019150	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__fine_code_last	21019200	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__fine_code_last	21019250	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__fine_code_last	21019300	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfp_ctle_autoz_outp	21019350	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfp_ctle_autoz_outp	21019400	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfn_ctle_autoz_outn	21019450	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfn_ctle_autoz_outn	21019500	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfp_ctle_autoz_outp	21019550	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfp_ctle_autoz_outp	21019600	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfn_ctle_autoz_outn	21019650	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfn_ctle_autoz_outn	21019700	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfp_ctle_autoz_outp	21019750	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfp_ctle_autoz_outp	21019800	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfn_ctle_autoz_outn	21019850	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfn_ctle_autoz_outn	21019900	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN0__CTLE_OUT_DC_OFFSET_DIFF	21019950	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN0__CTLE_OUT_DC_OFFSET_DIFF	21020000	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN2__CTLE_OUT_DC_OFFSET_DIFF	21020050	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN2__CTLE_OUT_DC_OFFSET_DIFF	21020100	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN4__CTLE_OUT_DC_OFFSET_DIFF	21020150	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN4__CTLE_OUT_DC_OFFSET_DIFF	21020200	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN0__FINE_CODE_LAST_DAC	21020250	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN0__FINE_CODE_LAST_DAC	21020300	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN2__FINE_CODE_LAST_DAC	21020350	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN2__FINE_CODE_LAST_DAC	21020400	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN4__FINE_CODE_LAST_DAC	21020450	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN4__FINE_CODE_LAST_DAC	21020500	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump		21020550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__fine_code_last	21020600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__fine_code_last	21020650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__fine_code_last	21020700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__fine_code_last	21020750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__fine_code_last	21020800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__fine_code_last	21020850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfp_ctle_autoz_outp	21020900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfp_ctle_autoz_outp	21020950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfn_ctle_autoz_outn	21021000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfn_ctle_autoz_outn	21021050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfp_ctle_autoz_outp	21021100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfp_ctle_autoz_outp	21021150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfn_ctle_autoz_outn	21021200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfn_ctle_autoz_outn	21021250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfp_ctle_autoz_outp	21021300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfp_ctle_autoz_outp	21021350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfn_ctle_autoz_outn	21021400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfn_ctle_autoz_outn	21021450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN0__CTLE_OUT_DC_OFFSET_DIFF	21021500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN0__CTLE_OUT_DC_OFFSET_DIFF	21021550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN2__CTLE_OUT_DC_OFFSET_DIFF	21021600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN2__CTLE_OUT_DC_OFFSET_DIFF	21021650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN4__CTLE_OUT_DC_OFFSET_DIFF	21021700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN4__CTLE_OUT_DC_OFFSET_DIFF	21021750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN0__FINE_CODE_LAST_DAC	21021800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN0__FINE_CODE_LAST_DAC	21021850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN2__FINE_CODE_LAST_DAC	21021900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN2__FINE_CODE_LAST_DAC	21021950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN4__FINE_CODE_LAST_DAC	21022000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN4__FINE_CODE_LAST_DAC	21022050												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21022100																													
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB2P7_CZ_NV		21022150												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA2P7_ELB2P7_CZ_NV		21022200												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV		21022250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__fine_code_last	21022300	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__fine_code_last	21022350	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__fine_code_last	21022400	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__fine_code_last	21022450	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__fine_code_last	21022500	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__fine_code_last	21022550	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfp_ctle_autoz_outp	21022600	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfp_ctle_autoz_outp	21022650	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfn_ctle_autoz_outn	21022700	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfn_ctle_autoz_outn	21022750	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfp_ctle_autoz_outp	21022800	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfp_ctle_autoz_outp	21022850	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfn_ctle_autoz_outn	21022900	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfn_ctle_autoz_outn	21022950	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfp_ctle_autoz_outp	21023000	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfp_ctle_autoz_outp	21023050	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfn_ctle_autoz_outn	21023100	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfn_ctle_autoz_outn	21023150	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN0__CTLE_OUT_DC_OFFSET_DIFF	21023200	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN0__CTLE_OUT_DC_OFFSET_DIFF	21023250	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN2__CTLE_OUT_DC_OFFSET_DIFF	21023300	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN2__CTLE_OUT_DC_OFFSET_DIFF	21023350	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN4__CTLE_OUT_DC_OFFSET_DIFF	21023400	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN4__CTLE_OUT_DC_OFFSET_DIFF	21023450	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN0__FINE_CODE_LAST_DAC	21023500	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN0__FINE_CODE_LAST_DAC	21023550	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN2__FINE_CODE_LAST_DAC	21023600	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN2__FINE_CODE_LAST_DAC	21023650	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN4__FINE_CODE_LAST_DAC	21023700	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN4__FINE_CODE_LAST_DAC	21023750	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump		21023800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__fine_code_last	21023850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__fine_code_last	21023900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__fine_code_last	21023950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__fine_code_last	21024000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__fine_code_last	21024050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__fine_code_last	21024100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfp_ctle_autoz_outp	21024150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfp_ctle_autoz_outp	21024200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfn_ctle_autoz_outn	21024250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfn_ctle_autoz_outn	21024300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfp_ctle_autoz_outp	21024350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfp_ctle_autoz_outp	21024400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfn_ctle_autoz_outn	21024450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfn_ctle_autoz_outn	21024500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfp_ctle_autoz_outp	21024550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfp_ctle_autoz_outp	21024600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfn_ctle_autoz_outn	21024650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfn_ctle_autoz_outn	21024700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN0__CTLE_OUT_DC_OFFSET_DIFF	21024750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN0__CTLE_OUT_DC_OFFSET_DIFF	21024800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN2__CTLE_OUT_DC_OFFSET_DIFF	21024850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN2__CTLE_OUT_DC_OFFSET_DIFF	21024900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN4__CTLE_OUT_DC_OFFSET_DIFF	21024950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN4__CTLE_OUT_DC_OFFSET_DIFF	21025000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN0__FINE_CODE_LAST_DAC	21025050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN0__FINE_CODE_LAST_DAC	21025100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN2__FINE_CODE_LAST_DAC	21025150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN2__FINE_CODE_LAST_DAC	21025200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN4__FINE_CODE_LAST_DAC	21025250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN4__FINE_CODE_LAST_DAC	21025300												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21025350																													
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB14P0_CZ_NV		21025400												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA14P0_ELB14P0_CZ_NV		21025450												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV		21025500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__es_hl_code_e	21025550	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__es_hl_code_e	21025600	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__es_hr_code_e	21025650	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__es_hr_code_e	21025700	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__es_vp_code_e	21025750	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__es_vp_code_e	21025800	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__es_vn_code_e	21025850	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__es_vn_code_e	21025900	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__eyescan_1ui_cal_code_rate2	21025950	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__eyescan_1ui_cal_code_rate2	21026000	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__es_hl_code_e	21026050	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__es_hl_code_e	21026100	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__es_hr_code_e	21026150	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__es_hr_code_e	21026200	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__es_vp_code_e	21026250	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__es_vp_code_e	21026300	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__es_vn_code_e	21026350	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__es_vn_code_e	21026400	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__eyescan_1ui_cal_code_rate2	21026450	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__eyescan_1ui_cal_code_rate2	21026500	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__es_hl_code_e	21026550	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__es_hl_code_e	21026600	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__es_hr_code_e	21026650	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__es_hr_code_e	21026700	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__es_vp_code_e	21026750	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__es_vp_code_e	21026800	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__es_vn_code_e	21026850	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__es_vn_code_e	21026900	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__eyescan_1ui_cal_code_rate2	21026950	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__eyescan_1ui_cal_code_rate2	21027000	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__fine_code_last	21027050	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__fine_code_last	21027100	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__fine_code_last	21027150	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__fine_code_last	21027200	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__fine_code_last	21027250	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__fine_code_last	21027300	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfp_ctle_autoz_outp	21027350	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfp_ctle_autoz_outp	21027400	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfn_ctle_autoz_outn	21027450	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfn_ctle_autoz_outn	21027500	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfp_ctle_autoz_outp	21027550	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfp_ctle_autoz_outp	21027600	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfn_ctle_autoz_outn	21027650	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfn_ctle_autoz_outn	21027700	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfp_ctle_autoz_outp	21027750	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfp_ctle_autoz_outp	21027800	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfn_ctle_autoz_outn	21027850	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfn_ctle_autoz_outn	21027900	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN1__EYE_HEIGHT_MV	21027950	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN1__EYE_HEIGHT_MV	21028000	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN3__EYE_HEIGHT_MV	21028050	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN3__EYE_HEIGHT_MV	21028100	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN5__EYE_HEIGHT_MV	21028150	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN5__EYE_HEIGHT_MV	21028200	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN1__EYE_WIDTH_UI	21028250	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN1__EYE_WIDTH_UI	21028300	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN3__EYE_WIDTH_UI	21028350	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN3__EYE_WIDTH_UI	21028400	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN5__EYE_WIDTH_UI	21028450	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN5__EYE_WIDTH_UI	21028500	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN1__EYE_DC_OFFSET_MV	21028550	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN1__EYE_DC_OFFSET_MV	21028600	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN3__EYE_DC_OFFSET_MV	21028650	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN3__EYE_DC_OFFSET_MV	21028700	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN5__EYE_DC_OFFSET_MV	21028750	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN5__EYE_DC_OFFSET_MV	21028800	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN1__CTLE_OUT_DC_OFFSET_DIFF	21028850	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN1__CTLE_OUT_DC_OFFSET_DIFF	21028900	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN3__CTLE_OUT_DC_OFFSET_DIFF	21028950	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN3__CTLE_OUT_DC_OFFSET_DIFF	21029000	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN5__CTLE_OUT_DC_OFFSET_DIFF	21029050	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN5__CTLE_OUT_DC_OFFSET_DIFF	21029100	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN1__FINE_CODE_LAST_DAC	21029150	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN1__FINE_CODE_LAST_DAC	21029200	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN3__FINE_CODE_LAST_DAC	21029250	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN3__FINE_CODE_LAST_DAC	21029300	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN5__FINE_CODE_LAST_DAC	21029350	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN5__FINE_CODE_LAST_DAC	21029400	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump		21029450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__es_hl_code_e	21029500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__es_hl_code_e	21029550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__es_hr_code_e	21029600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__es_hr_code_e	21029650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__es_vp_code_e	21029700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__es_vp_code_e	21029750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__es_vn_code_e	21029800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__es_vn_code_e	21029850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__eyescan_1ui_cal_code_rate2	21029900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__eyescan_1ui_cal_code_rate2	21029950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__es_hl_code_e	21030000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__es_hl_code_e	21030050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__es_hr_code_e	21030100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__es_hr_code_e	21030150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__es_vp_code_e	21030200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__es_vp_code_e	21030250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__es_vn_code_e	21030300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__es_vn_code_e	21030350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__eyescan_1ui_cal_code_rate2	21030400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__eyescan_1ui_cal_code_rate2	21030450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__es_hl_code_e	21030500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__es_hl_code_e	21030550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__es_hr_code_e	21030600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__es_hr_code_e	21030650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__es_vp_code_e	21030700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__es_vp_code_e	21030750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__es_vn_code_e	21030800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__es_vn_code_e	21030850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__eyescan_1ui_cal_code_rate2	21030900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__eyescan_1ui_cal_code_rate2	21030950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln1__fine_code_last	21031000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln1__fine_code_last	21031050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln3__fine_code_last	21031100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln3__fine_code_last	21031150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln5__fine_code_last	21031200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln5__fine_code_last	21031250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfp_ctle_autoz_outp	21031300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfp_ctle_autoz_outp	21031350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfn_ctle_autoz_outn	21031400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfn_ctle_autoz_outn	21031450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfp_ctle_autoz_outp	21031500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfp_ctle_autoz_outp	21031550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfn_ctle_autoz_outn	21031600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfn_ctle_autoz_outn	21031650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfp_ctle_autoz_outp	21031700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfp_ctle_autoz_outp	21031750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfn_ctle_autoz_outn	21031800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfn_ctle_autoz_outn	21031850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN1__EYE_HEIGHT_MV	21031900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN1__EYE_HEIGHT_MV	21031950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN3__EYE_HEIGHT_MV	21032000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN3__EYE_HEIGHT_MV	21032050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN5__EYE_HEIGHT_MV	21032100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN5__EYE_HEIGHT_MV	21032150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN1__EYE_WIDTH_UI	21032200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN1__EYE_WIDTH_UI	21032250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN3__EYE_WIDTH_UI	21032300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN3__EYE_WIDTH_UI	21032350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN5__EYE_WIDTH_UI	21032400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN5__EYE_WIDTH_UI	21032450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN1__EYE_DC_OFFSET_MV	21032500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN1__EYE_DC_OFFSET_MV	21032550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN3__EYE_DC_OFFSET_MV	21032600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN3__EYE_DC_OFFSET_MV	21032650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN5__EYE_DC_OFFSET_MV	21032700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN5__EYE_DC_OFFSET_MV	21032750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN1__CTLE_OUT_DC_OFFSET_DIFF	21032800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN1__CTLE_OUT_DC_OFFSET_DIFF	21032850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN3__CTLE_OUT_DC_OFFSET_DIFF	21032900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN3__CTLE_OUT_DC_OFFSET_DIFF	21032950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN5__CTLE_OUT_DC_OFFSET_DIFF	21033000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN5__CTLE_OUT_DC_OFFSET_DIFF	21033050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN1__FINE_CODE_LAST_DAC	21033100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN1__FINE_CODE_LAST_DAC	21033150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN3__FINE_CODE_LAST_DAC	21033200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN3__FINE_CODE_LAST_DAC	21033250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN5__FINE_CODE_LAST_DAC	21033300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN5__FINE_CODE_LAST_DAC	21033350												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21033400																													
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB14P0_CZ_NV		21033450												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA14P0_ELB14P0_CZ_NV		21033500												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV		21033550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__es_hl_code_e	21033600	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__es_hl_code_e	21033650	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__es_hr_code_e	21033700	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__es_hr_code_e	21033750	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__es_vp_code_e	21033800	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__es_vp_code_e	21033850	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__es_vn_code_e	21033900	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__es_vn_code_e	21033950	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__eyescan_1ui_cal_code_rate2	21034000	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__eyescan_1ui_cal_code_rate2	21034050	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__es_hl_code_e	21034100	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__es_hl_code_e	21034150	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__es_hr_code_e	21034200	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__es_hr_code_e	21034250	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__es_vp_code_e	21034300	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__es_vp_code_e	21034350	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__es_vn_code_e	21034400	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__es_vn_code_e	21034450	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__eyescan_1ui_cal_code_rate2	21034500	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__eyescan_1ui_cal_code_rate2	21034550	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__es_hl_code_e	21034600	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__es_hl_code_e	21034650	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__es_hr_code_e	21034700	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__es_hr_code_e	21034750	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__es_vp_code_e	21034800	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__es_vp_code_e	21034850	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__es_vn_code_e	21034900	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__es_vn_code_e	21034950	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__eyescan_1ui_cal_code_rate2	21035000	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__eyescan_1ui_cal_code_rate2	21035050	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__fine_code_last	21035100	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__fine_code_last	21035150	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__fine_code_last	21035200	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__fine_code_last	21035250	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__fine_code_last	21035300	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__fine_code_last	21035350	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfp_ctle_autoz_outp	21035400	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfp_ctle_autoz_outp	21035450	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfn_ctle_autoz_outn	21035500	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfn_ctle_autoz_outn	21035550	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfp_ctle_autoz_outp	21035600	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfp_ctle_autoz_outp	21035650	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfn_ctle_autoz_outn	21035700	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfn_ctle_autoz_outn	21035750	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfp_ctle_autoz_outp	21035800	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfp_ctle_autoz_outp	21035850	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfn_ctle_autoz_outn	21035900	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfn_ctle_autoz_outn	21035950	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN1__EYE_HEIGHT_MV	21036000	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN1__EYE_HEIGHT_MV	21036050	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN3__EYE_HEIGHT_MV	21036100	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN3__EYE_HEIGHT_MV	21036150	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN5__EYE_HEIGHT_MV	21036200	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN5__EYE_HEIGHT_MV	21036250	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN1__EYE_WIDTH_UI	21036300	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN1__EYE_WIDTH_UI	21036350	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN3__EYE_WIDTH_UI	21036400	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN3__EYE_WIDTH_UI	21036450	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN5__EYE_WIDTH_UI	21036500	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN5__EYE_WIDTH_UI	21036550	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN1__EYE_DC_OFFSET_MV	21036600	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN1__EYE_DC_OFFSET_MV	21036650	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN3__EYE_DC_OFFSET_MV	21036700	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN3__EYE_DC_OFFSET_MV	21036750	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN5__EYE_DC_OFFSET_MV	21036800	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN5__EYE_DC_OFFSET_MV	21036850	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN1__CTLE_OUT_DC_OFFSET_DIFF	21036900	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN1__CTLE_OUT_DC_OFFSET_DIFF	21036950	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN3__CTLE_OUT_DC_OFFSET_DIFF	21037000	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN3__CTLE_OUT_DC_OFFSET_DIFF	21037050	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN5__CTLE_OUT_DC_OFFSET_DIFF	21037100	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN5__CTLE_OUT_DC_OFFSET_DIFF	21037150	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN1__FINE_CODE_LAST_DAC	21037200	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN1__FINE_CODE_LAST_DAC	21037250	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN3__FINE_CODE_LAST_DAC	21037300	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN3__FINE_CODE_LAST_DAC	21037350	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN5__FINE_CODE_LAST_DAC	21037400	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN5__FINE_CODE_LAST_DAC	21037450	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump		21037500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__es_hl_code_e	21037550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__es_hl_code_e	21037600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__es_hr_code_e	21037650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__es_hr_code_e	21037700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__es_vp_code_e	21037750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__es_vp_code_e	21037800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__es_vn_code_e	21037850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__es_vn_code_e	21037900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__eyescan_1ui_cal_code_rate2	21037950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__eyescan_1ui_cal_code_rate2	21038000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__es_hl_code_e	21038050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__es_hl_code_e	21038100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__es_hr_code_e	21038150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__es_hr_code_e	21038200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__es_vp_code_e	21038250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__es_vp_code_e	21038300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__es_vn_code_e	21038350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__es_vn_code_e	21038400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__eyescan_1ui_cal_code_rate2	21038450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__eyescan_1ui_cal_code_rate2	21038500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__es_hl_code_e	21038550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__es_hl_code_e	21038600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__es_hr_code_e	21038650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__es_hr_code_e	21038700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__es_vp_code_e	21038750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__es_vp_code_e	21038800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__es_vn_code_e	21038850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__es_vn_code_e	21038900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__eyescan_1ui_cal_code_rate2	21038950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__eyescan_1ui_cal_code_rate2	21039000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln1__fine_code_last	21039050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln1__fine_code_last	21039100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln3__fine_code_last	21039150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln3__fine_code_last	21039200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln5__fine_code_last	21039250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln5__fine_code_last	21039300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfp_ctle_autoz_outp	21039350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfp_ctle_autoz_outp	21039400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln1__stg1_tia_rfn_ctle_autoz_outn	21039450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln1__stg1_tia_rfn_ctle_autoz_outn	21039500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfp_ctle_autoz_outp	21039550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfp_ctle_autoz_outp	21039600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln3__stg1_tia_rfn_ctle_autoz_outn	21039650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln3__stg1_tia_rfn_ctle_autoz_outn	21039700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfp_ctle_autoz_outp	21039750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfp_ctle_autoz_outp	21039800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln5__stg1_tia_rfn_ctle_autoz_outn	21039850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln5__stg1_tia_rfn_ctle_autoz_outn	21039900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN1__EYE_HEIGHT_MV	21039950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN1__EYE_HEIGHT_MV	21040000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN3__EYE_HEIGHT_MV	21040050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN3__EYE_HEIGHT_MV	21040100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN5__EYE_HEIGHT_MV	21040150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN5__EYE_HEIGHT_MV	21040200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN1__EYE_WIDTH_UI	21040250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN1__EYE_WIDTH_UI	21040300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN3__EYE_WIDTH_UI	21040350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN3__EYE_WIDTH_UI	21040400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN5__EYE_WIDTH_UI	21040450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN5__EYE_WIDTH_UI	21040500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN1__EYE_DC_OFFSET_MV	21040550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN1__EYE_DC_OFFSET_MV	21040600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN3__EYE_DC_OFFSET_MV	21040650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN3__EYE_DC_OFFSET_MV	21040700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN5__EYE_DC_OFFSET_MV	21040750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN5__EYE_DC_OFFSET_MV	21040800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN1__CTLE_OUT_DC_OFFSET_DIFF	21040850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN1__CTLE_OUT_DC_OFFSET_DIFF	21040900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN3__CTLE_OUT_DC_OFFSET_DIFF	21040950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN3__CTLE_OUT_DC_OFFSET_DIFF	21041000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN5__CTLE_OUT_DC_OFFSET_DIFF	21041050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN5__CTLE_OUT_DC_OFFSET_DIFF	21041100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN1__FINE_CODE_LAST_DAC	21041150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN1__FINE_CODE_LAST_DAC	21041200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN3__FINE_CODE_LAST_DAC	21041250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN3__FINE_CODE_LAST_DAC	21041300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN5__FINE_CODE_LAST_DAC	21041350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_ODD_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN5__FINE_CODE_LAST_DAC	21041400												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21041450																													
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB14P0_CZ_NV		21041500												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA14P0_ELB14P0_CZ_NV		21041550												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV		21041600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__es_hl_code_e	21041650	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__es_hl_code_e	21041700	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__es_hr_code_e	21041750	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__es_hr_code_e	21041800	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__es_vp_code_e	21041850	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__es_vp_code_e	21041900	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__es_vn_code_e	21041950	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__es_vn_code_e	21042000	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__eyescan_1ui_cal_code_rate2	21042050	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__eyescan_1ui_cal_code_rate2	21042100	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__es_hl_code_e	21042150	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__es_hl_code_e	21042200	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__es_hr_code_e	21042250	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__es_hr_code_e	21042300	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__es_vp_code_e	21042350	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__es_vp_code_e	21042400	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__es_vn_code_e	21042450	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__es_vn_code_e	21042500	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__eyescan_1ui_cal_code_rate2	21042550	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__eyescan_1ui_cal_code_rate2	21042600	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__es_hl_code_e	21042650	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__es_hl_code_e	21042700	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__es_hr_code_e	21042750	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__es_hr_code_e	21042800	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__es_vp_code_e	21042850	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__es_vp_code_e	21042900	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__es_vn_code_e	21042950	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__es_vn_code_e	21043000	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__eyescan_1ui_cal_code_rate2	21043050	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__eyescan_1ui_cal_code_rate2	21043100	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__fine_code_last	21043150	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__fine_code_last	21043200	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__fine_code_last	21043250	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__fine_code_last	21043300	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__fine_code_last	21043350	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__fine_code_last	21043400	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfp_ctle_autoz_outp	21043450	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfp_ctle_autoz_outp	21043500	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfn_ctle_autoz_outn	21043550	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfn_ctle_autoz_outn	21043600	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfp_ctle_autoz_outp	21043650	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfp_ctle_autoz_outp	21043700	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfn_ctle_autoz_outn	21043750	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfn_ctle_autoz_outn	21043800	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfp_ctle_autoz_outp	21043850	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfp_ctle_autoz_outp	21043900	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfn_ctle_autoz_outn	21043950	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfn_ctle_autoz_outn	21044000	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN0__EYE_HEIGHT_MV	21044050	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN0__EYE_HEIGHT_MV	21044100	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN2__EYE_HEIGHT_MV	21044150	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN2__EYE_HEIGHT_MV	21044200	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN4__EYE_HEIGHT_MV	21044250	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN4__EYE_HEIGHT_MV	21044300	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN0__EYE_WIDTH_UI	21044350	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN0__EYE_WIDTH_UI	21044400	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN2__EYE_WIDTH_UI	21044450	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN2__EYE_WIDTH_UI	21044500	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN4__EYE_WIDTH_UI	21044550	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN4__EYE_WIDTH_UI	21044600	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN0__EYE_DC_OFFSET_MV	21044650	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN0__EYE_DC_OFFSET_MV	21044700	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN2__EYE_DC_OFFSET_MV	21044750	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN2__EYE_DC_OFFSET_MV	21044800	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN4__EYE_DC_OFFSET_MV	21044850	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN4__EYE_DC_OFFSET_MV	21044900	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN0__CTLE_OUT_DC_OFFSET_DIFF	21044950	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN0__CTLE_OUT_DC_OFFSET_DIFF	21045000	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN2__CTLE_OUT_DC_OFFSET_DIFF	21045050	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN2__CTLE_OUT_DC_OFFSET_DIFF	21045100	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN4__CTLE_OUT_DC_OFFSET_DIFF	21045150	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN4__CTLE_OUT_DC_OFFSET_DIFF	21045200	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN0__FINE_CODE_LAST_DAC	21045250	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN0__FINE_CODE_LAST_DAC	21045300	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN2__FINE_CODE_LAST_DAC	21045350	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN2__FINE_CODE_LAST_DAC	21045400	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN4__FINE_CODE_LAST_DAC	21045450	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN4__FINE_CODE_LAST_DAC	21045500	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump		21045550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__es_hl_code_e	21045600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__es_hl_code_e	21045650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__es_hr_code_e	21045700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__es_hr_code_e	21045750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__es_vp_code_e	21045800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__es_vp_code_e	21045850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__es_vn_code_e	21045900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__es_vn_code_e	21045950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__eyescan_1ui_cal_code_rate2	21046000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__eyescan_1ui_cal_code_rate2	21046050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__es_hl_code_e	21046100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__es_hl_code_e	21046150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__es_hr_code_e	21046200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__es_hr_code_e	21046250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__es_vp_code_e	21046300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__es_vp_code_e	21046350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__es_vn_code_e	21046400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__es_vn_code_e	21046450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__eyescan_1ui_cal_code_rate2	21046500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__eyescan_1ui_cal_code_rate2	21046550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__es_hl_code_e	21046600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__es_hl_code_e	21046650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__es_hr_code_e	21046700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__es_hr_code_e	21046750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__es_vp_code_e	21046800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__es_vp_code_e	21046850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__es_vn_code_e	21046900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__es_vn_code_e	21046950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__eyescan_1ui_cal_code_rate2	21047000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__eyescan_1ui_cal_code_rate2	21047050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln0__fine_code_last	21047100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln0__fine_code_last	21047150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln2__fine_code_last	21047200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln2__fine_code_last	21047250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_ln4__fine_code_last	21047300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln4__fine_code_last	21047350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfp_ctle_autoz_outp	21047400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfp_ctle_autoz_outp	21047450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfn_ctle_autoz_outn	21047500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfn_ctle_autoz_outn	21047550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfp_ctle_autoz_outp	21047600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfp_ctle_autoz_outp	21047650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfn_ctle_autoz_outn	21047700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfn_ctle_autoz_outn	21047750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfp_ctle_autoz_outp	21047800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfp_ctle_autoz_outp	21047850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfn_ctle_autoz_outn	21047900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfn_ctle_autoz_outn	21047950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN0__EYE_HEIGHT_MV	21048000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN0__EYE_HEIGHT_MV	21048050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN2__EYE_HEIGHT_MV	21048100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN2__EYE_HEIGHT_MV	21048150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN4__EYE_HEIGHT_MV	21048200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN4__EYE_HEIGHT_MV	21048250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN0__EYE_WIDTH_UI	21048300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN0__EYE_WIDTH_UI	21048350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN2__EYE_WIDTH_UI	21048400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN2__EYE_WIDTH_UI	21048450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN4__EYE_WIDTH_UI	21048500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN4__EYE_WIDTH_UI	21048550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN0__EYE_DC_OFFSET_MV	21048600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN0__EYE_DC_OFFSET_MV	21048650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN2__EYE_DC_OFFSET_MV	21048700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN2__EYE_DC_OFFSET_MV	21048750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN4__EYE_DC_OFFSET_MV	21048800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN4__EYE_DC_OFFSET_MV	21048850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN0__CTLE_OUT_DC_OFFSET_DIFF	21048900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN0__CTLE_OUT_DC_OFFSET_DIFF	21048950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN2__CTLE_OUT_DC_OFFSET_DIFF	21049000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN2__CTLE_OUT_DC_OFFSET_DIFF	21049050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY0_LN4__CTLE_OUT_DC_OFFSET_DIFF	21049100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN4__CTLE_OUT_DC_OFFSET_DIFF	21049150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN0__FINE_CODE_LAST_DAC	21049200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN0__FINE_CODE_LAST_DAC	21049250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN2__FINE_CODE_LAST_DAC	21049300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN2__FINE_CODE_LAST_DAC	21049350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY0_LN4__FINE_CODE_LAST_DAC	21049400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN4__FINE_CODE_LAST_DAC	21049450												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21049500																													
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB14P0_CZ_NV		21049550												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA14P0_ELB14P0_CZ_NV		21049600												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV		21049650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__es_hl_code_e	21049700	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__es_hl_code_e	21049750	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__es_hr_code_e	21049800	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__es_hr_code_e	21049850	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__es_vp_code_e	21049900	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__es_vp_code_e	21049950	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__es_vn_code_e	21050000	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__es_vn_code_e	21050050	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__eyescan_1ui_cal_code_rate2	21050100	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__eyescan_1ui_cal_code_rate2	21050150	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__es_hl_code_e	21050200	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__es_hl_code_e	21050250	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__es_hr_code_e	21050300	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__es_hr_code_e	21050350	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__es_vp_code_e	21050400	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__es_vp_code_e	21050450	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__es_vn_code_e	21050500	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__es_vn_code_e	21050550	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__eyescan_1ui_cal_code_rate2	21050600	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__eyescan_1ui_cal_code_rate2	21050650	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__es_hl_code_e	21050700	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__es_hl_code_e	21050750	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__es_hr_code_e	21050800	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__es_hr_code_e	21050850	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__es_vp_code_e	21050900	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__es_vp_code_e	21050950	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__es_vn_code_e	21051000	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__es_vn_code_e	21051050	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__eyescan_1ui_cal_code_rate2	21051100	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__eyescan_1ui_cal_code_rate2	21051150	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__fine_code_last	21051200	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__fine_code_last	21051250	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__fine_code_last	21051300	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__fine_code_last	21051350	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__fine_code_last	21051400	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__fine_code_last	21051450	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfp_ctle_autoz_outp	21051500	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfp_ctle_autoz_outp	21051550	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfn_ctle_autoz_outn	21051600	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfn_ctle_autoz_outn	21051650	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfp_ctle_autoz_outp	21051700	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfp_ctle_autoz_outp	21051750	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfn_ctle_autoz_outn	21051800	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfn_ctle_autoz_outn	21051850	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfp_ctle_autoz_outp	21051900	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfp_ctle_autoz_outp	21051950	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfn_ctle_autoz_outn	21052000	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfn_ctle_autoz_outn	21052050	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN0__EYE_HEIGHT_MV	21052100	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN0__EYE_HEIGHT_MV	21052150	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN2__EYE_HEIGHT_MV	21052200	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN2__EYE_HEIGHT_MV	21052250	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN4__EYE_HEIGHT_MV	21052300	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN4__EYE_HEIGHT_MV	21052350	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN0__EYE_WIDTH_UI	21052400	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN0__EYE_WIDTH_UI	21052450	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN2__EYE_WIDTH_UI	21052500	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN2__EYE_WIDTH_UI	21052550	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN4__EYE_WIDTH_UI	21052600	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN4__EYE_WIDTH_UI	21052650	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN0__EYE_DC_OFFSET_MV	21052700	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN0__EYE_DC_OFFSET_MV	21052750	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN2__EYE_DC_OFFSET_MV	21052800	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN2__EYE_DC_OFFSET_MV	21052850	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN4__EYE_DC_OFFSET_MV	21052900	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN4__EYE_DC_OFFSET_MV	21052950	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN0__CTLE_OUT_DC_OFFSET_DIFF	21053000	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN0__CTLE_OUT_DC_OFFSET_DIFF	21053050	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN2__CTLE_OUT_DC_OFFSET_DIFF	21053100	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN2__CTLE_OUT_DC_OFFSET_DIFF	21053150	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN4__CTLE_OUT_DC_OFFSET_DIFF	21053200	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN4__CTLE_OUT_DC_OFFSET_DIFF	21053250	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN0__FINE_CODE_LAST_DAC	21053300	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN0__FINE_CODE_LAST_DAC	21053350	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN2__FINE_CODE_LAST_DAC	21053400	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN2__FINE_CODE_LAST_DAC	21053450	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN4__FINE_CODE_LAST_DAC	21053500	230	270										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN4__FINE_CODE_LAST_DAC	21053550	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump		21053600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__es_hl_code_e	21053650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__es_hl_code_e	21053700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__es_hr_code_e	21053750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__es_hr_code_e	21053800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__es_vp_code_e	21053850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__es_vp_code_e	21053900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__es_vn_code_e	21053950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__es_vn_code_e	21054000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__eyescan_1ui_cal_code_rate2	21054050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__eyescan_1ui_cal_code_rate2	21054100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__es_hl_code_e	21054150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__es_hl_code_e	21054200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__es_hr_code_e	21054250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__es_hr_code_e	21054300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__es_vp_code_e	21054350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__es_vp_code_e	21054400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__es_vn_code_e	21054450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__es_vn_code_e	21054500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__eyescan_1ui_cal_code_rate2	21054550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__eyescan_1ui_cal_code_rate2	21054600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__es_hl_code_e	21054650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__es_hl_code_e	21054700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__es_hr_code_e	21054750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__es_hr_code_e	21054800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__es_vp_code_e	21054850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__es_vp_code_e	21054900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__es_vn_code_e	21054950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__es_vn_code_e	21055000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__eyescan_1ui_cal_code_rate2	21055050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__eyescan_1ui_cal_code_rate2	21055100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln0__fine_code_last	21055150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln0__fine_code_last	21055200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln2__fine_code_last	21055250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln2__fine_code_last	21055300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_ln4__fine_code_last	21055350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln4__fine_code_last	21055400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfp_ctle_autoz_outp	21055450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfp_ctle_autoz_outp	21055500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln0__stg1_tia_rfn_ctle_autoz_outn	21055550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln0__stg1_tia_rfn_ctle_autoz_outn	21055600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfp_ctle_autoz_outp	21055650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfp_ctle_autoz_outp	21055700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln2__stg1_tia_rfn_ctle_autoz_outn	21055750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln2__stg1_tia_rfn_ctle_autoz_outn	21055800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfp_ctle_autoz_outp	21055850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfp_ctle_autoz_outp	21055900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY0_ln4__stg1_tia_rfn_ctle_autoz_outn	21055950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln4__stg1_tia_rfn_ctle_autoz_outn	21056000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN0__EYE_HEIGHT_MV	21056050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN0__EYE_HEIGHT_MV	21056100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN2__EYE_HEIGHT_MV	21056150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN2__EYE_HEIGHT_MV	21056200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN4__EYE_HEIGHT_MV	21056250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN4__EYE_HEIGHT_MV	21056300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN0__EYE_WIDTH_UI	21056350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN0__EYE_WIDTH_UI	21056400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN2__EYE_WIDTH_UI	21056450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN2__EYE_WIDTH_UI	21056500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN4__EYE_WIDTH_UI	21056550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN4__EYE_WIDTH_UI	21056600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN0__EYE_DC_OFFSET_MV	21056650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN0__EYE_DC_OFFSET_MV	21056700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN2__EYE_DC_OFFSET_MV	21056750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN2__EYE_DC_OFFSET_MV	21056800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN4__EYE_DC_OFFSET_MV	21056850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN4__EYE_DC_OFFSET_MV	21056900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN0__CTLE_OUT_DC_OFFSET_DIFF	21056950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN0__CTLE_OUT_DC_OFFSET_DIFF	21057000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN2__CTLE_OUT_DC_OFFSET_DIFF	21057050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN2__CTLE_OUT_DC_OFFSET_DIFF	21057100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY0_LN4__CTLE_OUT_DC_OFFSET_DIFF	21057150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN4__CTLE_OUT_DC_OFFSET_DIFF	21057200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN0__FINE_CODE_LAST_DAC	21057250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN0__FINE_CODE_LAST_DAC	21057300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN2__FINE_CODE_LAST_DAC	21057350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN2__FINE_CODE_LAST_DAC	21057400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY0_LN4__FINE_CODE_LAST_DAC	21057450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_EVEN_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN4__FINE_CODE_LAST_DAC	21057500												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21057550																													
+		(HardIP_NV||Prod_All)				Test	aciphy_l5l6_select		21057600												F_HardIP_ACIPHY_ACIPHY_L5L6_SELECT_aciphy_l5l6_select_N_Flag,F_HardIP_ACIPHY_Flag																	aciphy_l5l6_select	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB2P7_CZ_NV		21057650												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA2P7_ELB2P7_CZ_NV		21057700												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV		21057750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__fine_code_last	21057800	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfp_ctle_autoz_outp	21057850	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfn_ctle_autoz_outn	21057900	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN6__CTLE_OUT_DC_OFFSET_DIFF	21057950	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN6__FINE_CODE_LAST_DAC	21058000	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump		21058050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__fine_code_last	21058100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfp_ctle_autoz_outp	21058150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfn_ctle_autoz_outn	21058200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN6__CTLE_OUT_DC_OFFSET_DIFF	21058250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN6__FINE_CODE_LAST_DAC	21058300												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21058350																													
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB2P7_CZ_NV		21058400												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA2P7_ELB2P7_CZ_NV		21058450												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV		21058500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__fine_code_last	21058550	0	4294967295										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfp_ctle_autoz_outp	21058600	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfn_ctle_autoz_outn	21058650	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN6__CTLE_OUT_DC_OFFSET_DIFF	21058700	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN6__FINE_CODE_LAST_DAC	21058750	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump		21058800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__fine_code_last	21058850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfp_ctle_autoz_outp	21058900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfn_ctle_autoz_outn	21058950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN6__CTLE_OUT_DC_OFFSET_DIFF	21059000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB2P7_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN6__FINE_CODE_LAST_DAC	21059050												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21059100																													
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB14P0_CZ_NV		21059150												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA14P0_ELB14P0_CZ_NV		21059200												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV		21059250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__es_hl_code_e	21059300	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__es_hr_code_e	21059350	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__es_vp_code_e	21059400	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__es_vn_code_e	21059450	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__eyescan_1ui_cal_code_rate2	21059500	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__fine_code_last	21059550	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfp_ctle_autoz_outp	21059600	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfn_ctle_autoz_outn	21059650	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN6__EYE_HEIGHT_MV	21059700	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN6__EYE_WIDTH_UI	21059750	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN6__EYE_DC_OFFSET_MV	21059800	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN6__CTLE_OUT_DC_OFFSET_DIFF	21059850	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN6__FINE_CODE_LAST_DAC	21059900	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump		21059950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__es_hl_code_e	21060000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__es_hr_code_e	21060050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__es_vp_code_e	21060100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__es_vn_code_e	21060150												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__eyescan_1ui_cal_code_rate2	21060200												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_ln6__fine_code_last	21060250												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfp_ctle_autoz_outp	21060300												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfn_ctle_autoz_outn	21060350												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN6__EYE_HEIGHT_MV	21060400												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN6__EYE_WIDTH_UI	21060450												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN6__EYE_DC_OFFSET_MV	21060500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	CALC_ADC_ACIPHY1_LN6__CTLE_OUT_DC_OFFSET_DIFF	21060550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDDFIXEDLPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDDFIXEDLPDPRX_jump	ACIPHY1_LN6__FINE_CODE_LAST_DAC	21060600												F_Dummy																	
+						nop	Bin_initFlow_BinOut		21060650																													
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN01_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_HEADER_ELB14P0_CZ_NV		21060700												F_Dummy																	
+		Enable_HF			xx	Test	LPDPRX_PP_BRNA0_S_IN02_AN_RXXX_PFF_JTG_XXX_ALLFRV_SI_ACIPHY_TUNA14P0_ELB14P0_CZ_NV		21060750												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV		21060800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__es_hl_code_e	21060850	0	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__es_hr_code_e	21060900	25	50										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__es_vp_code_e	21060950	100	255										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__es_vn_code_e	21061000	-255	-100										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__eyescan_1ui_cal_code_rate2	21061050	15	25										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__fine_code_last	21061100	7864320	8912896										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfp_ctle_autoz_outp	21061150	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfn_ctle_autoz_outn	21061200	0.35	0.55										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN6__EYE_HEIGHT_MV	21061250	200	800										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN6__EYE_WIDTH_UI	21061300	0.4	0.8										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN6__EYE_DC_OFFSET_MV	21061350	-40	40										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN6__CTLE_OUT_DC_OFFSET_DIFF	21061400	-0.01	0.01										F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN6__FINE_CODE_LAST_DAC	21061450	230	270										F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump		21061500												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__es_hl_code_e	21061550												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__es_hr_code_e	21061600												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__es_vp_code_e	21061650												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__es_vn_code_e	21061700												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__eyescan_1ui_cal_code_rate2	21061750												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_ln6__fine_code_last	21061800												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfp_ctle_autoz_outp	21061850												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ADC_ACIPHY1_ln6__stg1_tia_rfn_ctle_autoz_outn	21061900												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN6__EYE_HEIGHT_MV	21061950												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN6__EYE_WIDTH_UI	21062000												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN6__EYE_DC_OFFSET_MV	21062050												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	CALC_ADC_ACIPHY1_LN6__CTLE_OUT_DC_OFFSET_DIFF	21062100												F_Dummy																	
+		Enable_HF				Use-Limit	HFLH_N_VDD10LPDPRX_ELB14P0_LPDPRX_X_L5L6_ELB_X_X_CZ_NV LPDPRX_VDD10LPDPRX_jump	ACIPHY1_LN6__FINE_CODE_LAST_DAC	21062150												F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		(HardIP_LV||Prod_All)				Test	aciphy_l5l4_select														F_HardIP_ACIPHY_ACIPHY_L5L4_SELECT_aciphy_l5l4_select_L_Flag,F_HardIP_ACIPHY_Flag																	aciphy_l5l4_select	
+		(HardIP_LV||Prod_All)				Test	aciphy_l5l6_select														F_HardIP_ACIPHY_ACIPHY_L5L6_SELECT_aciphy_l5l6_select_L_Flag,F_HardIP_ACIPHY_Flag																	aciphy_l5l6_select	
+		(HardIP_HV||Prod_All)				Test	aciphy_l5l4_select														F_HardIP_ACIPHY_ACIPHY_L5L4_SELECT_aciphy_l5l4_select_H_Flag,F_HardIP_ACIPHY_Flag																	aciphy_l5l4_select	
+		(HardIP_HV||Prod_All)				Test	aciphy_l5l6_select														F_HardIP_ACIPHY_ACIPHY_L5L6_SELECT_aciphy_l5l6_select_H_Flag,F_HardIP_ACIPHY_Flag																	aciphy_l5l6_select	
+						print	"Flow HardIP_ACIPHY Stop "																															
+						return																																

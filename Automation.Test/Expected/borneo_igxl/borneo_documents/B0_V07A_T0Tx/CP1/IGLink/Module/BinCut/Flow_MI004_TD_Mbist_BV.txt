@@ -1,0 +1,21 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow MI004_TD_Mbist_BV Start"																															
+Instance_Bincut_TDF_MIX,Row5,MIX004 SOC TD,TD		CP1||FT1				Test	MI004_MIX004_MIX004_CCG0_PL10_SOC_MIX004_TD_CCG0_PL10_BV		1000189000																													
+						Bintable	Bin_MI004_TD_BV																															
+Instance_Bincut_TDF_MIX,Row11,MI004_CCH0 SOC TD,TD		CP1||FT1				Test	MI004_CCH0_MI004_CCH0_MIX004_CCH0_SOC_TD_PL10_MIX004_CCH0_SOC_TD_PL10_BV		1000190000																													
+						Bintable	Bin_MI004_TD_BV																															
+Instance_Bincut_BIST_MIX,Row5,MIX004 SOC BIST,Mbist		(CP1||FT1) && !BINCUT_WITH_BIST				Test	MI004_MIX004_SocMbist_PP_BRNX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_NOHARV_BIRA_BV		1000191000																													
+						Bintable	Bin_MI004_Mbist_BV																															
+						If	(!(F_SOC_HARV_PD||F_SOC_HARV_SD)) || F_Debug_all																															
+Instance_Bincut_BIST_MIX,Row11,MIX004 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MI004_MIX004_SocMbist_PP_BRNX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_1_NOHARV_BV		1000192000																													
+						Bintable	Bin_MI004_Mbist_BV																															
+						EndIf																																
+Instance_Bincut_BIST_MIX,Row17,MIX004 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MI004_MIX004_SocMbist_PP_BRNX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_2_NOPD_BV		1000193000																			Flag-true	F_SOC_HARV_PD									
+						Bintable	Bin_MI004_Mbist_BV																															
+Instance_Bincut_BIST_MIX,Row23,MIX004 SOC BIST,Mbist		(CP1||FT1) && BINCUT_WITH_BIST				Test	MI004_MIX004_SocMbist_PP_BRNX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_3_NOSD_BV		1000194000																			Flag-true	F_SOC_HARV_SD									
+						Bintable	Bin_MI004_Mbist_BV																															
+						print	"Flow MI004_TD_Mbist_BV Stop"																															
+						Return																																

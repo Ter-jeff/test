@@ -1,0 +1,19 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+		Write_EEPROM_DIBID				Test	Write_EEPROM_DIBID																															
+		Read_EEPROM_DIBID				Test	Read_EEPROM_DIBID																															
+						Test	eFuse_Initialize														F_ecid_other																	
+						Test	onProgramStartedBinOutFunction														F_initFlow_BinOut																	
+						Bintable	Bin_EFUSE_ecid_other																															
+						Bintable	Bin_initFlow_BinOut																															
+						Test	CleanRegData_Init																															
+						Test	Init_RSCR																															
+		Temp_25C				Test	ReadProberTemp_25C																															
+		Temp_85C				Test	ReadProberTemp_85C																															
+						Test	Print_Pgm_Information																															
+		CP || WLFT || eFuse_FT_Wafer_PseudoFuse				Test	ReadWaferData														F_ecid_other																	
+						Test	HIP_TTR_Enable_Control																															
+						Bintable	Bin_EFUSE_ecid_other																															
+						return																																

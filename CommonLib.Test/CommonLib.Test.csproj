@@ -13,8 +13,4 @@
 		<PackageReference Include="JunitXml.TestLogger" Version="8.0.0" />
 	</ItemGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\CommonLib\CommonLib.csproj" />
-	</ItemGroup>
-
 </Project>

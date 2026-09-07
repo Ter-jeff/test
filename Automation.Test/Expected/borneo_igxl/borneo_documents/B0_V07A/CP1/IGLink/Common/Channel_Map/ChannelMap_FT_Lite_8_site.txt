@@ -1,0 +1,927 @@
+DTChanMap,version=2.6:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:dataformat=signal	Channel Map
+	
+	DIB ID:			View Mode:
+	USL Tag:
+	Device Under Test		Tester Channel
+	Pin Name	Package Pin	Type	Site 0	Site 1	Site 2	Site 3	Site 4	Site 5	Site 6	Site 7	Comment
+	ANALOGMUX_OUT_NEG		DCVS	20.3sense30	21.3sense15	20.3sense47	21.3sense47	20.1sense15	21.1sense30	20.1sense47	21.1sense62	
+	ANALOGMUX_OUT_NEG_GND		DCVS	20.3sense32	21.3sense14	20.3sense45	21.3sense46	20.1sense13	21.1sense32	20.1sense45	21.1sense64	
+	ANALOGMUX_OUT_NEG_SRC		DCVS	20.3sense31	21.3sense13	20.3sense46	21.3sense45	20.1sense14	21.1sense31	20.1sense46	21.1sense63	
+	ANALOGMUX_OUT_POS		DCVS	20.3sense13	21.3sense32	20.3sense62	21.3sense62	20.1sense30	21.1sense13	20.1sense62	21.1sense45	
+	ANALOGMUX_OUT_POS_GND		DCVS	20.3sense14	21.3sense30	20.3sense64	21.3sense63	20.1sense32	21.1sense15	20.1sense64	21.1sense47	
+	ANALOGMUX_OUT_POS_SRC		DCVS	20.3sense15	21.3sense31	20.3sense63	21.3sense64	20.1sense31	21.1sense14	20.1sense63	21.1sense46	
+	AON_SLEEP1_RESETN		I/O	22.4ch104	23.4ch104	22.4ch40	23.4ch40	22.2ch104	23.2ch104	22.2ch40	23.2ch40	
+	AOP_I2CM0_SCL		I/O	22.3ch16	23.4ch94	22.3ch80	23.4ch30	22.1ch16	23.2ch94	22.1ch80	23.2ch30	
+	AOP_I2CM0_SDA		I/O	22.3ch35	23.3ch48	22.3ch99	23.3ch112	22.1ch35	23.1ch48	22.1ch99	23.1ch112	
+	AOP_I2CM1_SCL		I/O	22.4ch124	23.4ch111	22.4ch60	23.4ch47	22.2ch124	23.2ch111	22.2ch60	23.2ch47	
+	AOP_I2CM1_SDA		I/O	22.3ch32	23.3ch50	22.3ch96	23.3ch114	22.1ch32	23.1ch50	22.1ch96	23.1ch114	
+	AOP_I2CM2_SCL		I/O	22.4ch125	23.4ch109	22.4ch61	23.4ch45	22.2ch125	23.2ch109	22.2ch61	23.2ch45	
+	AOP_I2CM2_SDA		I/O	22.3ch17	23.4ch92	22.3ch81	23.4ch28	22.1ch17	23.2ch92	22.1ch81	23.2ch28	
+	AOP_I2CM3_SCL		I/O	22.3ch1	23.3ch19	22.3ch65	23.3ch83	22.1ch1	23.1ch19	22.1ch65	23.1ch83	
+	AOP_I2CM3_SDA		I/O	22.3ch33	23.3ch49	22.3ch97	23.3ch113	22.1ch33	23.1ch49	22.1ch97	23.1ch113	
+	AOP_I2CM4_SCL		I/O	24.4ch126	25.4ch93	24.4ch62	25.4ch29	24.2ch126	25.2ch93	24.2ch62	25.2ch29	
+	AOP_I2CM4_SDA		I/O	24.3ch19	27.3ch33	24.3ch83	27.3ch97	24.1ch19	27.1ch33	24.1ch83	27.1ch97	
+	AOP_I2S0_BCLK		I/O	26.3ch50	29.3ch50	26.3ch114	29.3ch114	26.1ch50	29.1ch50	26.1ch114	29.1ch114	
+	AOP_I2S0_DIN		I/O	28.3ch2	29.3ch51	28.3ch66	29.3ch115	28.1ch2	29.1ch51	28.1ch66	29.1ch115	
+	AOP_I2S0_DOUT		I/O	26.4ch111	29.3ch0	26.4ch47	29.3ch64	26.2ch111	29.1ch0	26.2ch47	29.1ch64	
+	AOP_I2S0_LRCK		I/O	28.3ch3	29.4ch76	28.3ch67	29.4ch12	28.1ch3	29.2ch76	28.1ch67	29.2ch12	
+	AOP_I2S0_MCK		I/O	28.4ch126	27.3ch19	28.4ch62	27.3ch83	28.2ch126	27.1ch19	28.2ch62	27.1ch83	
+	AOP_I2S1_BCLK		I/O	28.4ch127	27.3ch18	28.4ch63	27.3ch82	28.2ch127	27.1ch18	28.2ch63	27.1ch82	
+	AOP_I2S1_DIN		I/O	28.4ch108	25.4ch108	28.4ch44	25.4ch44	28.2ch108	25.2ch108	28.2ch44	25.2ch44	
+	AOP_I2S1_DOUT		I/O	26.3ch51	25.3ch17	26.3ch115	25.3ch81	26.1ch51	25.1ch17	26.1ch115	25.1ch81	
+	AOP_I2S1_LRCK		I/O	26.3ch49	29.4ch124	26.3ch113	29.4ch60	26.1ch49	29.2ch124	26.1ch113	29.2ch60	
+	AOP_I2S1_MCK		I/O	26.4ch110	29.3ch2	26.4ch46	29.3ch66	26.2ch110	29.1ch2	26.2ch46	29.1ch66	
+	AOP_I2S2_BCLK		I/O	26.4ch77	29.4ch126	26.4ch13	29.4ch62	26.2ch77	29.2ch126	26.2ch13	29.2ch62	
+	AOP_I2S2_DIN		I/O	28.4ch125	25.4ch109	28.4ch61	25.4ch45	28.2ch125	25.2ch109	28.2ch61	25.2ch45	
+	AOP_I2S2_DOUT		I/O	24.4ch111	27.4ch94	24.4ch47	27.4ch30	24.2ch111	27.2ch94	24.2ch47	27.2ch30	
+	AOP_I2S2_LRCK		I/O	24.3ch18	25.4ch92	24.3ch82	25.4ch28	24.1ch18	25.2ch92	24.1ch82	25.2ch28	
+	AOP_I2S2_MCK		I/O	22.3ch30	27.3ch23	22.3ch94	27.3ch87	22.1ch30	27.1ch23	22.1ch94	27.1ch87	
+	AOP_I2S3_BCLK		I/O	22.3ch22	27.4ch95	22.3ch86	27.4ch31	22.1ch22	27.2ch95	22.1ch86	27.2ch31	
+	AOP_I2S3_DIN		I/O	26.3ch48	23.3ch16	26.3ch112	23.3ch80	26.1ch48	23.1ch16	26.1ch112	23.1ch80	
+	AOP_I2S3_DOUT		I/O	28.3ch19	25.3ch19	28.3ch83	25.3ch83	28.1ch19	25.1ch19	28.1ch83	25.1ch83	
+	AOP_I2S3_LRCK		I/O	26.4ch78	29.4ch127	26.4ch14	29.4ch63	26.2ch78	29.2ch127	26.2ch14	29.2ch63	
+	AOP_I2S4_BCLK		I/O	24.3ch16	27.4ch93	24.3ch80	27.4ch29	24.1ch16	27.2ch93	24.1ch80	27.2ch29	
+	AOP_I2S4_DIN		I/O	28.3ch17	25.3ch18	28.3ch81	25.3ch82	28.1ch17	25.1ch18	28.1ch81	25.1ch82	
+	AOP_I2S4_DOUT		I/O	26.4ch79	29.4ch125	26.4ch15	29.4ch61	26.2ch79	29.2ch125	26.2ch15	29.2ch61	
+	AOP_I2S4_LRCK		I/O	28.3ch16	25.4ch110	28.3ch80	25.4ch46	28.1ch16	25.2ch110	28.1ch80	25.2ch46	
+	AOP_I2S5_BCLK		I/O	28.3ch18	25.4ch111	28.3ch82	25.4ch47	28.1ch18	25.2ch111	28.1ch82	25.2ch47	
+	AOP_I2S5_DIN		I/O	26.4ch76	29.3ch3	26.4ch12	29.3ch67	26.2ch76	29.1ch3	26.2ch12	29.1ch67	
+	AOP_I2S5_DOUT		I/O	28.4ch88	29.3ch6	28.4ch24	29.3ch70	28.2ch88	29.1ch6	28.2ch24	29.1ch70	
+	AOP_I2S5_LRCK		I/O	24.3ch17	27.4ch92	24.3ch81	27.4ch28	24.1ch17	27.2ch92	24.1ch81	27.2ch28	
+	AOP_SCM_IO0		I/O	24.4ch106	25.3ch44	24.4ch42	25.3ch108	24.2ch106	25.1ch44	24.2ch42	25.1ch108	
+	AOP_SCM_IO1		I/O	24.3ch21	25.3ch39	24.3ch85	25.3ch103	24.1ch21	25.1ch39	24.1ch85	25.1ch103	
+	AOP_SCM_IO10		I/O	24.3ch32	25.4ch126	24.3ch96	25.4ch62	24.1ch32	25.2ch126	24.1ch96	25.2ch62	
+	AOP_SCM_IO11		I/O	24.4ch95	25.3ch32	24.4ch31	25.3ch96	24.2ch95	25.1ch32	24.2ch31	25.1ch96	
+	AOP_SCM_IO12		I/O	24.4ch94	25.3ch33	24.4ch30	25.3ch97	24.2ch94	25.1ch33	24.2ch30	25.1ch97	
+	AOP_SCM_IO13		I/O	24.4ch108	25.3ch52	24.4ch44	25.3ch116	24.2ch108	25.1ch52	24.2ch44	25.1ch116	
+	AOP_SCM_IO14		I/O	24.3ch34	25.4ch125	24.3ch98	25.4ch61	24.1ch34	25.2ch125	24.1ch98	25.2ch61	
+	AOP_SCM_IO15		I/O	24.3ch33	25.4ch124	24.3ch97	25.4ch60	24.1ch33	25.2ch124	24.1ch97	25.2ch60	
+	AOP_SCM_IO2		I/O	24.3ch6	25.4ch96	24.3ch70	25.4ch32	24.1ch6	25.2ch96	24.1ch70	25.2ch32	
+	AOP_SCM_IO3		I/O	24.4ch121	25.3ch31	24.4ch57	25.3ch95	24.2ch121	25.1ch31	24.2ch57	25.1ch95	
+	AOP_SCM_IO4		I/O	24.3ch7	25.4ch97	24.3ch71	25.4ch33	24.1ch7	25.2ch97	24.1ch71	25.2ch33	
+	AOP_SCM_IO5		I/O	24.3ch23	25.4ch89	24.3ch87	25.4ch25	24.1ch23	25.2ch89	24.1ch87	25.2ch25	
+	AOP_SCM_IO6		I/O	24.3ch20	25.3ch35	24.3ch84	25.3ch99	24.1ch20	25.1ch35	24.1ch84	25.1ch99	
+	AOP_SCM_IO7		I/O	24.4ch120	25.3ch30	24.4ch56	25.3ch94	24.2ch120	25.1ch30	24.2ch56	25.1ch94	
+	AOP_SCM_IO8		I/O	24.3ch22	25.3ch34	24.3ch86	25.3ch98	24.1ch22	25.1ch34	24.1ch86	25.1ch98	
+	AOP_SCM_IO9		I/O	24.3ch2	25.3ch53	24.3ch66	25.3ch117	24.1ch2	25.1ch53	24.1ch66	25.1ch117	
+	AOP_SPI0_PICO		I/O	22.4ch109	23.3ch3	22.4ch45	23.3ch67	22.2ch109	23.1ch3	22.2ch45	23.1ch67	
+	AOP_SPI0_POCI		I/O	22.4ch111	23.4ch125	22.4ch47	23.4ch61	22.2ch111	23.2ch125	22.2ch47	23.2ch61	
+	AOP_SPI0_SCLK		I/O	22.3ch51	23.3ch35	22.3ch115	23.3ch99	22.1ch51	23.1ch35	22.1ch115	23.1ch99	
+	AOP_SPI1_PICO		I/O	22.4ch79	23.3ch33	22.4ch15	23.3ch97	22.2ch79	23.1ch33	22.2ch15	23.1ch97	
+	AOP_SPI1_POCI		I/O	22.4ch108	23.3ch2	22.4ch44	23.3ch66	22.2ch108	23.1ch2	22.2ch44	23.1ch66	
+	AOP_SPI1_SCLK		I/O	22.3ch19	23.3ch1	22.3ch83	23.3ch65	22.1ch19	23.1ch1	22.1ch83	23.1ch65	
+	AOP_SPMI0_SCLK		I/O	22.4ch93	23.3ch51	22.4ch29	23.3ch115	22.2ch93	23.1ch51	22.2ch29	23.1ch115	
+	AOP_SPMI0_SDATA		I/O	22.4ch92	23.4ch79	22.4ch28	23.4ch15	22.2ch92	23.2ch79	22.2ch28	23.2ch15	
+	AOP_SPMI1_SCLK		I/O	22.4ch126	23.4ch118	22.4ch62	23.4ch54	22.2ch126	23.2ch118	22.2ch62	23.2ch54	
+	AOP_SPMI1_SDATA		I/O	22.4ch127	23.4ch108	22.4ch63	23.4ch44	22.2ch127	23.2ch108	22.2ch63	23.2ch44	
+	AOP_UART2_RXD		I/O	24.4ch104	25.4ch88	24.4ch40	25.4ch24	24.2ch104	25.2ch88	24.2ch40	25.2ch24	
+	AOP_UART2_TXD		I/O	24.4ch105	25.3ch38	24.4ch41	25.3ch102	24.2ch105	25.1ch38	24.2ch41	25.1ch102	
+	ATC_VREF		DCVS	18.3sense30	site0	site0	site0	site0	site0	site0	site0	
+	ATC0_AUX_N		I/O	24.4ch67	25.4ch83	24.4ch3	25.4ch19	24.2ch67	25.2ch83	24.2ch3	25.2ch19	
+	ATC0_AUX_P		I/O	24.4ch66	25.4ch82	24.4ch2	25.4ch18	24.2ch66	25.2ch82	24.2ch2	25.2ch18	
+	ATC0_RCAL_NEG		I/O	26.4ch89	23.3ch63	28.3ch125	27.4ch9	28.1ch61	27.2ch73	28.1ch125	25.1ch101	
+	ATC0_RCAL_POS		I/O	26.4ch88	23.3ch62	28.3ch124	27.4ch8	28.1ch60	27.2ch72	28.1ch124	25.1ch100	
+	ATC0_RX0_N		I/O	26.4ch75	25.4ch75	26.4ch11	25.4ch11	26.2ch75	25.2ch75	26.2ch11	25.2ch11	
+	ATC0_RX0_P		I/O	26.4ch74	25.4ch74	26.4ch10	25.4ch10	26.2ch74	25.2ch74	26.2ch10	25.2ch10	
+	ATC0_RX1_N		I/O	26.3ch53	29.3ch45	26.3ch117	29.3ch109	26.1ch53	29.1ch45	26.1ch117	29.1ch109	
+	ATC0_RX1_P		I/O	26.3ch52	29.3ch44	26.3ch116	29.3ch108	26.1ch52	29.1ch44	26.1ch116	29.1ch108	
+	ATC0_TX0_N		I/O	26.4ch73	27.3ch45	26.4ch9	27.3ch109	26.2ch73	27.1ch45	26.2ch9	27.1ch109	
+	ATC0_TX0_P		I/O	26.4ch72	27.3ch44	26.4ch8	27.3ch108	26.2ch72	27.1ch44	26.2ch8	27.1ch108	
+	ATC0_TX1_N		I/O	22.4ch65	23.4ch83	22.4ch1	23.4ch19	22.2ch65	23.2ch83	22.2ch1	23.2ch19	
+	ATC0_TX1_P		I/O	22.4ch64	23.4ch82	22.4ch0	23.4ch18	22.2ch64	23.2ch82	22.2ch0	23.2ch18	
+	ATC0_USB_N		I/O	22.4ch91	23.3ch45	22.4ch3	23.3ch109	22.2ch67	23.1ch45	22.2ch3	23.2ch43	
+	ATC0_USB_P		I/O	22.4ch90	23.3ch44	22.4ch2	23.3ch108	22.2ch66	23.1ch44	22.2ch2	23.2ch42	
+	ATC0_USB_RESREF		I/O	24.4ch88	27.4ch72	26.3ch124	27.3ch101	26.1ch60	25.1ch46	26.1ch124	25.2ch35	
+	BOARD_ID0		I/O	22.4ch68	23.3ch40	22.4ch4	23.3ch104	22.2ch68	23.1ch40	22.2ch4	23.1ch104	
+	BOARD_ID1		I/O	22.3ch25	23.4ch102	22.3ch89	23.4ch38	22.1ch25	23.2ch102	22.1ch89	23.2ch38	
+	BOARD_ID2		I/O	22.3ch24	23.4ch100	22.3ch88	23.4ch36	22.1ch24	23.2ch100	22.1ch88	23.2ch36	
+	BOARD_ID3		I/O	22.3ch59	23.4ch86	22.3ch123	23.4ch22	22.1ch59	23.2ch86	22.1ch123	23.2ch22	
+	BOARD_ID4		I/O	22.4ch71	23.4ch101	22.4ch7	23.4ch37	22.2ch71	23.2ch101	22.2ch7	23.2ch37	
+	BUFFER_PWR		N/C									
+	CFSB_AON_1		I/O	28.3ch23	25.3ch28	28.3ch87	25.3ch92	28.1ch23	25.1ch28	28.1ch87	25.1ch92	
+	CFSB_AON_2		I/O	24.3ch14	27.4ch104	24.3ch78	27.4ch40	24.1ch14	27.2ch104	24.1ch78	27.2ch40	
+	CFSB_E1		I/O	22.3ch63	29.4ch72	22.3ch127	29.4ch8	22.1ch63	29.2ch72	22.1ch127	29.2ch8	
+	CFSB_N1		I/O	28.4ch64	23.3ch39	28.4ch0	23.3ch103	28.2ch64	23.1ch39	28.2ch0	23.1ch103	
+	CFSB_XTAL		I/O	22.3ch62	25.3ch62	22.3ch126	25.3ch126	22.1ch62	25.1ch62	22.1ch126	25.1ch126	
+	COLD_RESETN		I/O	24.3ch15	29.3ch22	24.3ch79	29.3ch86	24.1ch15	29.1ch22	24.1ch79	29.1ch86	
+	CONTI_MONITOR_0		N/C									
+	CONTI_MONITOR_0_1		N/C									
+	CONTI_MONITOR_1		N/C									
+	CONTI_MONITOR_1_1		N/C									
+	CONTI_MONITOR_10		N/C									
+	CONTI_MONITOR_10_1		N/C									
+	CONTI_MONITOR_11		N/C									
+	CONTI_MONITOR_11_1		N/C									
+	CONTI_MONITOR_2		N/C									
+	CONTI_MONITOR_2_1		N/C									
+	CONTI_MONITOR_3		N/C									
+	CONTI_MONITOR_3_1		N/C									
+	CONTI_MONITOR_4		N/C									
+	CONTI_MONITOR_4_1		N/C									
+	CONTI_MONITOR_5		N/C									
+	CONTI_MONITOR_5_1		N/C									
+	CONTI_MONITOR_6		N/C									
+	CONTI_MONITOR_6_1		N/C									
+	CONTI_MONITOR_7		N/C									
+	CONTI_MONITOR_7_1		N/C									
+	CONTI_MONITOR_8		N/C									
+	CONTI_MONITOR_8_1		N/C									
+	CONTI_MONITOR_9		N/C									
+	CONTI_MONITOR_9_1		N/C									
+	DBG_GPIO_CROSS_PWR		DCVS	18.3sense61	site0	site0	site0	site0	site0	site0	site0	
+	DBG_INT_SCL_SDA_PWR		DCVS	18.3sense62	site0	site0	site0	site0	site0	site0	site0	
+	DBG_PROBE_VALID		I/O	22.3ch31	27.4ch105	22.3ch95	27.4ch41	22.1ch31	27.2ch105	22.1ch95	27.2ch41	
+	DBG_USB_ED_N		I/O	24.4ch97	23.3ch21	24.4ch35	23.3ch85	24.2ch99	23.1ch21	24.2ch35	23.1ch85	
+	DBG_USB_ED_P		I/O	24.4ch96	23.3ch20	24.4ch34	23.3ch84	24.2ch98	23.1ch20	24.2ch34	23.1ch84	
+	DBG_USB_RESREF		I/O	26.4ch96	27.3ch20	26.4ch32	25.3ch110	26.2ch96	27.1ch20	24.1ch68	27.1ch110	
+	DDR00_01_RESET_N		N/C									
+	DDR00_01_RET_N		N/C									
+	DDR00_01_RREF		DCVS	18.4sense63	21.4sense35	20.4sense1	21.4sense3	20.2sense33	19.2sense54	20.2sense1	21.2sense3	
+	DDR00_01_RREF_IO		I/O	26.4ch104	27.3ch46	24.4ch16	25.4ch35	26.2ch104	25.1ch36	22.2ch8	27.1ch85	
+	DDR00_01_SYS_ALIVE		N/C									
+	DDR00_01_ZQ		I/O	24.3ch5	27.3ch37	24.3ch69	27.3ch85	24.1ch5	23.2ch98	24.2ch16	25.1ch71	
+	DDR00_CA0		N/C									
+	DDR00_CA1		N/C									
+	DDR00_CA2		N/C									
+	DDR00_CA3		N/C									
+	DDR00_CA4		N/C									
+	DDR00_CA5		N/C									
+	DDR00_CA6		N/C									
+	DDR00_CK_C		N/C									
+	DDR00_CK_T		N/C									
+	DDR00_CS0		N/C									
+	DDR00_DMI0		N/C									
+	DDR00_DMI1		N/C									
+	DDR00_DQ0		N/C									
+	DDR00_DQ1		N/C									
+	DDR00_DQ10		N/C									
+	DDR00_DQ11		N/C									
+	DDR00_DQ12		N/C									
+	DDR00_DQ13		N/C									
+	DDR00_DQ14		N/C									
+	DDR00_DQ15		N/C									
+	DDR00_DQ2		N/C									
+	DDR00_DQ3		N/C									
+	DDR00_DQ4		N/C									
+	DDR00_DQ5		N/C									
+	DDR00_DQ6		N/C									
+	DDR00_DQ7		N/C									
+	DDR00_DQ8		N/C									
+	DDR00_DQ9		N/C									
+	DDR00_RDQS_C0		N/C									
+	DDR00_RDQS_C1		N/C									
+	DDR00_RDQS_T0		N/C									
+	DDR00_RDQS_T1		N/C									
+	DDR00_WCK_C0		N/C									
+	DDR00_WCK_C1		N/C									
+	DDR00_WCK_T0		N/C									
+	DDR00_WCK_T1		N/C									
+	DDR01_CA0		N/C									
+	DDR01_CA1		N/C									
+	DDR01_CA2		N/C									
+	DDR01_CA3		N/C									
+	DDR01_CA4		N/C									
+	DDR01_CA5		N/C									
+	DDR01_CA6		N/C									
+	DDR01_CK_C		N/C									
+	DDR01_CK_T		N/C									
+	DDR01_CS0		N/C									
+	DDR01_DMI0		N/C									
+	DDR01_DMI1		N/C									
+	DDR01_DQ0		N/C									
+	DDR01_DQ1		N/C									
+	DDR01_DQ10		N/C									
+	DDR01_DQ11		N/C									
+	DDR01_DQ12		N/C									
+	DDR01_DQ13		N/C									
+	DDR01_DQ14		N/C									
+	DDR01_DQ15		N/C									
+	DDR01_DQ2		N/C									
+	DDR01_DQ3		N/C									
+	DDR01_DQ4		N/C									
+	DDR01_DQ5		N/C									
+	DDR01_DQ6		N/C									
+	DDR01_DQ7		N/C									
+	DDR01_DQ8		N/C									
+	DDR01_DQ9		N/C									
+	DDR01_RDQS_C0		N/C									
+	DDR01_RDQS_C1		N/C									
+	DDR01_RDQS_T0		N/C									
+	DDR01_RDQS_T1		N/C									
+	DDR01_WCK_C0		N/C									
+	DDR01_WCK_C1		N/C									
+	DDR01_WCK_T0		N/C									
+	DDR01_WCK_T1		N/C									
+	DDR02_03_RESET_N		N/C									
+	DDR02_03_RET_N		N/C									
+	DDR02_03_RREF		DCVS	20.4sense33	19.4sense53	18.4sense31	19.4sense22	18.2sense64	21.2sense33	18.2sense32	21.2sense1	
+	DDR02_03_RREF_IO		I/O	24.3ch12	25.4ch80	24.3ch76	25.4ch34	24.1ch12	25.2ch99	26.2ch17	27.1ch84	
+	DDR02_03_SYS_ALIVE		N/C									
+	DDR02_03_ZQ		I/O	24.3ch4	25.3ch46	24.3ch68	23.4ch34	24.1ch4	23.2ch99	24.2ch17	25.1ch84	
+	DDR02_CA0		N/C									
+	DDR02_CA1		N/C									
+	DDR02_CA2		N/C									
+	DDR02_CA3		N/C									
+	DDR02_CA4		N/C									
+	DDR02_CA5		N/C									
+	DDR02_CA6		N/C									
+	DDR02_CK_C		N/C									
+	DDR02_CK_T		N/C									
+	DDR02_CS0		N/C									
+	DDR02_DMI0		N/C									
+	DDR02_DMI1		N/C									
+	DDR02_DQ0		N/C									
+	DDR02_DQ1		N/C									
+	DDR02_DQ10		N/C									
+	DDR02_DQ11		N/C									
+	DDR02_DQ12		N/C									
+	DDR02_DQ13		N/C									
+	DDR02_DQ14		N/C									
+	DDR02_DQ15		N/C									
+	DDR02_DQ2		N/C									
+	DDR02_DQ3		N/C									
+	DDR02_DQ4		N/C									
+	DDR02_DQ5		N/C									
+	DDR02_DQ6		N/C									
+	DDR02_DQ7		N/C									
+	DDR02_DQ8		N/C									
+	DDR02_DQ9		N/C									
+	DDR02_RDQS_C0		N/C									
+	DDR02_RDQS_C1		N/C									
+	DDR02_RDQS_T0		N/C									
+	DDR02_RDQS_T1		N/C									
+	DDR02_WCK_C0		N/C									
+	DDR02_WCK_C1		N/C									
+	DDR02_WCK_T0		N/C									
+	DDR02_WCK_T1		N/C									
+	DDR03_CA0		N/C									
+	DDR03_CA1		N/C									
+	DDR03_CA2		N/C									
+	DDR03_CA3		N/C									
+	DDR03_CA4		N/C									
+	DDR03_CA5		N/C									
+	DDR03_CA6		N/C									
+	DDR03_CK_C		N/C									
+	DDR03_CK_T		N/C									
+	DDR03_CS0		N/C									
+	DDR03_DMI0		N/C									
+	DDR03_DMI1		N/C									
+	DDR03_DQ0		N/C									
+	DDR03_DQ1		N/C									
+	DDR03_DQ10		N/C									
+	DDR03_DQ11		N/C									
+	DDR03_DQ12		N/C									
+	DDR03_DQ13		N/C									
+	DDR03_DQ14		N/C									
+	DDR03_DQ15		N/C									
+	DDR03_DQ2		N/C									
+	DDR03_DQ3		N/C									
+	DDR03_DQ4		N/C									
+	DDR03_DQ5		N/C									
+	DDR03_DQ6		N/C									
+	DDR03_DQ7		N/C									
+	DDR03_DQ8		N/C									
+	DDR03_DQ9		N/C									
+	DDR03_RDQS_C0		N/C									
+	DDR03_RDQS_C1		N/C									
+	DDR03_RDQS_T0		N/C									
+	DDR03_RDQS_T1		N/C									
+	DDR03_WCK_C0		N/C									
+	DDR03_WCK_C1		N/C									
+	DDR03_WCK_T0		N/C									
+	DDR03_WCK_T1		N/C									
+	DDR04_05_RESET_N		N/C									
+	DDR04_05_RET_N		N/C									
+	DDR04_05_RREF		DCVS	18.4sense64	19.4sense54	18.4sense32	19.4sense21	18.2sense63	19.2sense53	18.2sense31	21.2sense2	
+	DDR04_05_RREF_IO		I/O	24.3ch13	25.4ch81	24.3ch77	23.4ch35	24.1ch13	25.2ch98	26.2ch16	25.1ch85	
+	DDR04_05_SYS_ALIVE		N/C									
+	DDR04_05_ZQ		I/O	24.4ch81	25.3ch7	26.4ch41	25.3ch71	24.2ch97	25.1ch7	24.1ch69	25.1ch110	
+	DDR04_CA0		N/C									
+	DDR04_CA1		N/C									
+	DDR04_CA2		N/C									
+	DDR04_CA3		N/C									
+	DDR04_CA4		N/C									
+	DDR04_CA5		N/C									
+	DDR04_CA6		N/C									
+	DDR04_CK_C		N/C									
+	DDR04_CK_T		N/C									
+	DDR04_CS0		N/C									
+	DDR04_DMI0		N/C									
+	DDR04_DMI1		N/C									
+	DDR04_DQ0		N/C									
+	DDR04_DQ1		N/C									
+	DDR04_DQ10		N/C									
+	DDR04_DQ11		N/C									
+	DDR04_DQ12		N/C									
+	DDR04_DQ13		N/C									
+	DDR04_DQ14		N/C									
+	DDR04_DQ15		N/C									
+	DDR04_DQ2		N/C									
+	DDR04_DQ3		N/C									
+	DDR04_DQ4		N/C									
+	DDR04_DQ5		N/C									
+	DDR04_DQ6		N/C									
+	DDR04_DQ7		N/C									
+	DDR04_DQ8		N/C									
+	DDR04_DQ9		N/C									
+	DDR04_RDQS_C0		N/C									
+	DDR04_RDQS_C1		N/C									
+	DDR04_RDQS_T0		N/C									
+	DDR04_RDQS_T1		N/C									
+	DDR04_WCK_C0		N/C									
+	DDR04_WCK_C1		N/C									
+	DDR04_WCK_T0		N/C									
+	DDR04_WCK_T1		N/C									
+	DDR05_CA0		N/C									
+	DDR05_CA1		N/C									
+	DDR05_CA2		N/C									
+	DDR05_CA3		N/C									
+	DDR05_CA4		N/C									
+	DDR05_CA5		N/C									
+	DDR05_CA6		N/C									
+	DDR05_CK_C		N/C									
+	DDR05_CK_T		N/C									
+	DDR05_CS0		N/C									
+	DDR05_DMI0		N/C									
+	DDR05_DMI1		N/C									
+	DDR05_DQ0		N/C									
+	DDR05_DQ1		N/C									
+	DDR05_DQ10		N/C									
+	DDR05_DQ11		N/C									
+	DDR05_DQ12		N/C									
+	DDR05_DQ13		N/C									
+	DDR05_DQ14		N/C									
+	DDR05_DQ15		N/C									
+	DDR05_DQ2		N/C									
+	DDR05_DQ3		N/C									
+	DDR05_DQ4		N/C									
+	DDR05_DQ5		N/C									
+	DDR05_DQ6		N/C									
+	DDR05_DQ7		N/C									
+	DDR05_DQ8		N/C									
+	DDR05_DQ9		N/C									
+	DDR05_RDQS_C0		N/C									
+	DDR05_RDQS_C1		N/C									
+	DDR05_RDQS_T0		N/C									
+	DDR05_RDQS_T1		N/C									
+	DDR05_WCK_C0		N/C									
+	DDR05_WCK_C1		N/C									
+	DDR05_WCK_T0		N/C									
+	DDR05_WCK_T1		N/C									
+	DFU_STATUS		I/O	26.3ch41	27.4ch71	26.3ch105	27.4ch7	26.1ch41	27.2ch71	26.1ch105	27.2ch7	
+	DIE_CORNER_DC_NE		I/O	24.4ch123	27.3ch36	24.4ch59	27.3ch84	24.2ch123	27.1ch21	26.2ch32	25.1ch70	
+	DIE_CORNER_DC_NW		I/O	26.3ch30	27.4ch73	22.4ch9	27.3ch100	26.2ch105	27.1ch37	24.1ch125	25.2ch34	
+	DIE_CORNER_DC_SE		I/O	24.4ch80	25.3ch6	26.4ch40	25.3ch70	24.2ch96	25.1ch6	24.2ch59	27.1ch101	
+	DIE_CORNER_DC_SW		I/O	24.4ch89	27.3ch21	26.3ch125	27.3ch110	26.1ch61	27.1ch46	26.1ch125	27.1ch100	
+	DISP_EXT_HPD		I/O	26.4ch68	29.4ch85	26.4ch4	29.4ch21	26.2ch68	29.2ch85	26.2ch4	29.2ch21	
+	DISP_HPD		I/O	22.3ch0	23.3ch17	22.3ch64	23.3ch81	22.1ch0	23.1ch17	22.1ch64	23.1ch81	
+	DISP_I2C0_SCL		I/O	22.4ch118	23.3ch9	22.4ch55	23.3ch73	22.2ch119	23.1ch8	22.2ch55	23.1ch72	
+	DISP_I2C0_SDA		I/O	22.4ch119	23.3ch8	22.4ch54	23.3ch72	22.2ch118	23.1ch9	22.2ch54	23.1ch73	
+	DISP_I2C1_SCL		I/O	26.4ch70	27.3ch42	26.4ch6	27.3ch106	26.2ch70	27.1ch42	26.2ch6	27.1ch106	
+	DISP_I2C1_SDA		I/O	26.4ch71	27.3ch43	26.4ch7	27.3ch107	26.2ch71	27.1ch43	26.2ch7	27.1ch107	
+	DISP_PANICB		I/O	24.4ch110	23.3ch23	24.4ch46	23.3ch87	24.2ch110	23.1ch23	24.2ch46	23.1ch87	
+	DISP_POL		I/O	26.4ch117	27.3ch25	26.4ch53	27.3ch89	26.2ch117	27.1ch25	26.2ch53	27.1ch89	
+	DISP_TOUCH_BSYNC0		I/O	28.3ch26	29.4ch100	28.3ch90	29.4ch36	28.1ch26	29.2ch100	28.1ch90	29.2ch36	
+	DISP_TOUCH_BSYNC1		I/O	26.3ch8	27.4ch100	26.3ch72	27.4ch36	26.1ch8	27.2ch100	26.1ch72	27.2ch36	
+	DISP_TOUCH_EB		I/O	26.4ch116	27.3ch24	26.4ch52	27.3ch88	26.2ch116	27.1ch24	26.2ch52	27.1ch88	
+	DISPSEC_HPD		I/O	26.3ch33	27.3ch16	26.3ch97	27.3ch80	26.1ch33	27.1ch16	26.1ch97	27.1ch80	
+	DISPSEC_I2C0_SCL		I/O	22.3ch43	23.3ch59	22.3ch107	23.3ch123	22.1ch43	23.1ch59	22.1ch107	23.1ch123	
+	DISPSEC_I2C0_SDA		I/O	22.3ch42	23.3ch58	22.3ch106	23.3ch122	22.1ch42	23.1ch58	22.1ch106	23.1ch122	
+	DISPSEC_I2C1_SCL		I/O	22.4ch87	23.4ch69	22.4ch23	23.4ch5	22.2ch87	23.2ch69	22.2ch23	23.2ch5	
+	DISPSEC_I2C1_SDA		I/O	22.4ch86	23.4ch68	22.4ch22	23.4ch4	22.2ch86	23.2ch68	22.2ch22	23.2ch4	
+	DISPSEC_PANICB		I/O	24.4ch72	29.4ch65	24.4ch8	29.4ch1	24.2ch72	29.2ch65	24.2ch8	29.2ch1	
+	DISPSEC_POL		I/O	26.3ch58	29.3ch42	26.3ch122	29.3ch106	26.1ch58	29.1ch42	26.1ch122	29.1ch106	
+	DISPSEC_TOUCH_BSYNC0		I/O	26.3ch10	27.4ch102	26.3ch74	27.4ch38	26.1ch10	27.2ch102	26.1ch74	27.2ch38	
+	DISPSEC_TOUCH_BSYNC1		I/O	28.3ch24	29.4ch103	28.3ch88	29.4ch39	28.1ch24	29.2ch103	28.1ch88	29.2ch39	
+	DISPSEC_TOUCH_EB		I/O	28.3ch58	29.3ch41	28.3ch122	29.3ch105	28.1ch58	29.1ch41	28.1ch122	29.1ch105	
+	DSG_BSYNC0		I/O	24.3ch51	25.4ch127	24.3ch115	25.4ch63	24.1ch51	25.2ch127	24.1ch115	25.2ch63	
+	DSG_BSYNC1		I/O	24.3ch1	25.4ch76	24.3ch65	25.4ch12	24.1ch1	25.2ch76	24.1ch65	25.2ch12	
+	DSG_BSYNC2		I/O	24.3ch35	25.3ch49	24.3ch99	25.3ch113	24.1ch35	25.1ch49	24.1ch99	25.1ch113	
+	DSG_EB		I/O	26.4ch122	29.4ch78	26.4ch58	29.4ch14	26.2ch122	29.2ch78	26.2ch58	29.2ch14	
+	DSG_PROXBOLED		I/O	24.4ch92	25.3ch51	24.4ch28	25.3ch115	24.2ch92	25.1ch51	24.2ch28	25.1ch115	
+	DSG_XSYNC		I/O	28.3ch49	29.3ch16	28.3ch113	29.3ch80	28.1ch49	29.1ch16	28.1ch113	29.1ch80	
+	DSGSEC_BSYNC0		I/O	24.4ch77	25.3ch2	24.4ch13	25.3ch66	24.2ch77	25.1ch2	24.2ch13	25.1ch66	
+	DSGSEC_BSYNC1		I/O	24.4ch79	25.3ch1	24.4ch15	25.3ch65	24.2ch79	25.1ch1	24.2ch15	25.1ch65	
+	DSGSEC_BSYNC2		I/O	24.3ch49	25.3ch3	24.3ch113	25.3ch67	24.1ch49	25.1ch3	24.1ch113	25.1ch67	
+	DSGSEC_EB		I/O	28.4ch109	29.4ch77	28.4ch45	29.4ch13	28.2ch109	29.2ch77	28.2ch45	29.2ch13	
+	DSGSEC_PROXBOLED		I/O	24.4ch78	25.3ch0	24.4ch14	25.3ch64	24.2ch78	25.1ch0	24.2ch14	25.1ch64	
+	DSGSEC_XSYNC		I/O	22.4ch105	23.4ch105	22.4ch41	23.4ch41	22.2ch105	23.2ch105	22.2ch41	23.2ch41	
+	FORCE_DFU		I/O	28.4ch71	27.3ch41	28.4ch7	27.3ch105	28.2ch71	27.1ch41	28.2ch7	27.1ch105	
+	FPWM0		I/O	26.3ch59	29.3ch43	26.3ch123	29.3ch107	26.1ch59	29.1ch43	26.1ch123	29.1ch107	
+	FPWM1		I/O	26.3ch11	27.4ch103	26.3ch75	27.4ch39	26.1ch11	27.2ch103	26.1ch75	27.2ch39	
+	FPWM2		I/O	28.3ch25	29.4ch102	28.3ch89	29.4ch38	28.1ch25	29.2ch102	28.1ch89	29.2ch38	
+	GP_PCIE_CLKREQ0_L		I/O	24.4ch118	25.3ch26	24.4ch54	25.3ch90	24.2ch118	25.1ch26	24.2ch54	25.1ch90	
+	GP_PCIE_CLKREQ1_L		I/O	24.4ch103	25.3ch9	24.4ch39	25.3ch73	24.2ch103	25.1ch9	24.2ch39	25.1ch73	
+	GP_PCIE_PERST0_L		I/O	24.4ch119	25.3ch27	24.4ch55	25.3ch91	24.2ch119	25.1ch27	24.2ch55	25.1ch91	
+	GP_PCIE_PERST1_L		I/O	24.4ch102	25.3ch8	24.4ch38	25.3ch72	24.2ch102	25.1ch8	24.2ch38	25.1ch72	
+	GP_PCIE_REF_CLK0_N		I/O	28.3ch51	25.3ch13	26.4ch27	25.3ch77	26.2ch91	25.1ch13	26.2ch27	25.1ch77	
+	GP_PCIE_REF_CLK0_P		I/O	28.3ch50	25.3ch12	26.4ch26	25.3ch76	26.2ch90	25.1ch12	26.2ch26	25.1ch76	
+	GP_PCIE_REF_CLK1_N		I/O	26.4ch91	23.3ch13	22.4ch27	23.3ch77	22.2ch91	23.1ch13	22.2ch27	23.1ch77	
+	GP_PCIE_REF_CLK1_P		I/O	26.4ch90	23.3ch12	22.4ch26	23.3ch76	22.2ch90	23.1ch12	22.2ch26	23.1ch76	
+	GP_PCIE_RX0_N		I/O	28.3ch37	25.4ch65	28.3ch101	25.4ch1	28.1ch37	25.2ch65	28.1ch101	25.2ch1	
+	GP_PCIE_RX0_P		I/O	28.3ch36	25.4ch64	28.3ch100	25.4ch0	28.1ch36	25.2ch64	28.1ch100	25.2ch0	
+	GP_PCIE_RX1_N		I/O	24.4ch91	29.3ch61	24.4ch27	29.3ch125	24.2ch91	29.1ch61	24.2ch27	29.1ch125	
+	GP_PCIE_RX1_P		I/O	24.4ch90	29.3ch60	24.4ch26	29.3ch124	24.2ch90	29.1ch60	24.2ch26	29.1ch124	
+	GP_PCIE_TX0_N		I/O	26.3ch45	29.4ch75	26.3ch109	29.4ch11	26.1ch45	29.2ch75	26.1ch109	29.2ch11	
+	GP_PCIE_TX0_P		I/O	26.3ch44	29.4ch74	26.3ch108	29.4ch10	26.1ch44	29.2ch74	26.1ch108	29.2ch10	
+	GP_PCIE_TX1_N		I/O	24.3ch45	23.4ch65	24.3ch109	23.4ch1	24.1ch45	23.2ch65	24.1ch109	23.2ch1	
+	GP_PCIE_TX1_P		I/O	24.3ch44	23.4ch64	24.3ch108	23.4ch0	24.1ch44	23.2ch64	24.1ch108	23.2ch0	
+	GPIO0		I/O	24.4ch87	25.4ch102	24.4ch23	25.4ch38	24.2ch87	25.2ch102	24.2ch23	25.2ch38	
+	GPIO1		I/O	24.4ch86	25.3ch10	24.4ch22	25.3ch74	24.2ch86	25.1ch10	24.2ch22	25.1ch74	
+	GPIO10		I/O	24.4ch117	25.3ch58	24.4ch53	25.3ch122	24.2ch117	25.1ch58	24.2ch53	25.1ch122	
+	GPIO11		I/O	28.4ch68	27.4ch85	28.4ch4	27.4ch21	28.2ch68	27.2ch85	28.2ch4	27.2ch21	
+	GPIO12		I/O	24.3ch41	25.4ch101	24.3ch105	25.4ch37	24.1ch41	25.2ch101	24.1ch105	25.2ch37	
+	GPIO13		I/O	24.3ch25	25.4ch70	24.3ch89	25.4ch6	24.1ch25	25.2ch70	24.1ch89	25.2ch6	
+	GPIO14		I/O	24.4ch84	25.4ch119	24.4ch20	25.4ch55	24.2ch84	25.2ch119	24.2ch20	25.2ch55	
+	GPIO15		I/O	26.3ch43	27.4ch68	26.3ch107	27.4ch4	26.1ch43	27.2ch68	26.1ch107	27.2ch4	
+	GPIO16		I/O	26.3ch40	27.4ch70	26.3ch104	27.4ch6	26.1ch40	27.2ch70	26.1ch104	27.2ch6	
+	GPIO17		I/O	28.3ch41	29.4ch68	28.3ch105	29.4ch4	28.1ch41	29.2ch68	28.1ch105	29.2ch4	
+	GPIO18		I/O	28.3ch57	27.4ch84	28.3ch121	27.4ch20	28.1ch57	27.2ch84	28.1ch121	27.2ch20	
+	GPIO19		I/O	28.4ch84	29.3ch56	28.4ch20	29.3ch120	28.2ch84	29.1ch56	28.2ch20	29.1ch120	
+	GPIO2		I/O	28.3ch59	27.4ch86	28.3ch123	27.4ch22	28.1ch59	27.2ch86	28.1ch123	27.2ch22	
+	GPIO20		I/O	26.3ch42	29.4ch69	26.3ch106	29.4ch5	26.1ch42	29.2ch69	26.1ch106	29.2ch5	
+	GPIO21		I/O	26.4ch69	29.4ch87	26.4ch5	29.4ch23	26.2ch69	29.2ch87	26.2ch5	29.2ch23	
+	GPIO22		I/O	26.3ch9	27.4ch101	26.3ch73	27.4ch37	26.1ch9	27.2ch101	26.1ch73	27.2ch37	
+	GPIO23		I/O	26.3ch56	29.4ch86	26.3ch120	29.4ch22	26.1ch56	29.2ch86	26.1ch120	29.2ch22	
+	GPIO24		I/O	28.4ch87	29.4ch70	28.4ch23	29.4ch6	28.2ch87	29.2ch70	28.2ch23	29.2ch6	
+	GPIO25		I/O	28.4ch69	27.4ch87	28.4ch5	27.4ch23	28.2ch69	27.2ch87	28.2ch5	27.2ch23	
+	GPIO3		I/O	28.3ch56	29.3ch40	28.3ch120	29.3ch104	28.1ch56	29.1ch40	28.1ch120	29.1ch104	
+	GPIO4		I/O	26.3ch57	29.4ch84	26.3ch121	29.4ch20	26.1ch57	29.2ch84	26.1ch121	29.2ch20	
+	GPIO5		I/O	28.4ch103	29.3ch25	28.4ch39	29.3ch89	28.2ch103	29.1ch25	28.2ch39	29.1ch89	
+	GPIO6		I/O	24.3ch24	25.4ch68	24.3ch88	25.4ch4	24.1ch24	25.2ch68	24.1ch88	25.2ch4	
+	GPIO7		I/O	24.4ch116	29.3ch46	24.4ch52	29.3ch110	24.2ch116	29.1ch46	24.2ch52	29.1ch110	
+	GPIO8		I/O	24.3ch8	25.3ch57	24.3ch72	25.3ch121	24.1ch8	25.1ch57	24.1ch72	25.1ch121	
+	GPIO9		I/O	24.3ch9	25.3ch59	24.3ch73	25.3ch123	24.1ch9	25.1ch59	24.1ch73	25.1ch123	
+	HOLD_RESET		I/O	26.4ch65	29.3ch55	26.4ch1	29.3ch119	26.2ch65	29.1ch55	26.2ch1	29.1ch119	
+	I2C0_SCL		I/O	22.3ch14	23.3ch31	22.3ch78	23.3ch95	22.1ch14	23.1ch31	22.1ch78	23.1ch95	
+	I2C0_SDA		I/O	22.3ch15	23.3ch30	22.3ch79	23.3ch94	22.1ch15	23.1ch30	22.1ch79	23.1ch94	
+	I2C1_SCL		I/O	26.3ch15	27.4ch89	26.3ch79	27.4ch25	26.1ch15	27.2ch89	26.1ch79	27.2ch25	
+	I2C1_SDA		I/O	22.4ch113	29.4ch104	22.4ch49	29.4ch40	22.2ch113	29.2ch104	22.2ch49	29.2ch40	
+	I2C2_SCL		I/O	24.4ch112	29.4ch105	24.4ch48	29.4ch41	24.2ch112	29.2ch105	24.2ch48	29.2ch41	
+	I2C2_SDA		I/O	26.4ch113	27.4ch88	26.4ch49	27.4ch24	26.2ch113	27.2ch88	26.2ch49	27.2ch24	
+	I2C3_SCL		I/O	26.3ch6	27.4ch97	26.3ch70	27.4ch33	26.1ch6	27.2ch97	26.1ch70	27.2ch33	
+	I2C3_SDA		I/O	28.4ch120	23.4ch96	28.4ch56	23.4ch32	28.2ch120	23.2ch96	28.2ch56	23.2ch32	
+	I2C4_SCL		I/O	28.3ch7	27.3ch30	28.3ch71	27.3ch94	28.1ch7	27.1ch30	28.1ch71	27.1ch94	
+	I2C4_SDA		I/O	28.4ch105	27.3ch29	28.4ch41	27.3ch93	28.2ch105	27.1ch29	28.2ch41	27.1ch93	
+	ISP_GPIO_0		I/O	24.3ch11	25.4ch71	24.3ch75	25.4ch7	24.1ch11	25.2ch71	24.1ch75	25.2ch7	
+	ISP_GPIO_1		I/O	24.3ch10	25.4ch69	24.3ch74	25.4ch5	24.1ch10	25.2ch69	24.1ch74	25.2ch5	
+	ISP_GPIO_2		I/O	24.3ch26	25.3ch43	24.3ch90	25.3ch107	24.1ch26	25.1ch43	24.1ch90	25.1ch107	
+	ISP_GPIO_3		I/O	24.3ch27	25.4ch85	24.3ch91	25.4ch21	24.1ch27	25.2ch85	24.1ch91	25.2ch21	
+	ISP_I2C0_SCL		I/O	26.4ch112	25.3ch45	26.4ch48	25.3ch109	26.2ch112	25.1ch45	26.2ch48	25.1ch109	
+	ISP_I2C0_SDA		I/O	24.4ch113	29.3ch23	24.4ch49	29.3ch87	24.2ch113	29.1ch23	24.2ch49	29.1ch87	
+	ISP_I2C1_SCL		I/O	26.4ch121	29.3ch30	26.4ch57	29.3ch94	26.2ch121	29.1ch30	26.2ch57	29.1ch94	
+	ISP_I2C1_SDA		I/O	26.3ch7	27.4ch96	26.3ch71	27.4ch32	26.1ch7	27.2ch96	26.1ch71	27.2ch32	
+	ISP_SPMI0_SCLK		I/O	22.4ch112	27.3ch31	22.4ch48	27.3ch95	22.2ch112	27.1ch31	22.2ch48	27.1ch95	
+	ISP_SPMI0_SDATA		I/O	28.4ch104	27.3ch38	28.4ch40	27.3ch102	28.2ch104	27.1ch38	28.2ch40	27.1ch102	
+	ISP_SPMI1_SCLK		I/O	26.3ch14	27.3ch39	26.3ch78	27.3ch103	26.1ch14	27.1ch39	26.1ch78	27.1ch103	
+	ISP_SPMI1_SDATA		I/O	28.4ch121	23.4ch97	28.4ch57	23.4ch33	28.2ch121	23.2ch97	28.2ch57	23.2ch33	
+	JTAG_PWR		DCVS	18.1sense30	site0	site0	site0	site0	site0	site0	site0	
+	JTAG_SEL		I/O	28.4ch116	29.3ch9	28.4ch52	29.3ch73	28.2ch116	29.1ch9	28.2ch52	29.1ch73	
+	JTAG_TCK		I/O	28.4ch112	29.3ch13	28.4ch48	29.3ch77	28.2ch112	29.1ch13	28.2ch48	29.1ch77	
+	JTAG_TDI		I/O	28.4ch113	29.3ch12	28.4ch49	29.3ch76	28.2ch113	29.1ch12	28.2ch49	29.1ch76	
+	JTAG_TDO		I/O	28.4ch115	29.3ch10	28.4ch51	29.3ch74	28.2ch115	29.1ch10	28.2ch51	29.1ch74	
+	JTAG_TMS		I/O	28.4ch114	29.3ch11	28.4ch50	29.3ch75	28.2ch114	29.1ch11	28.2ch50	29.1ch75	
+	JTAG_TRSTN		I/O	28.4ch117	29.3ch8	28.4ch53	29.3ch72	28.2ch117	29.1ch8	28.2ch53	29.1ch72	
+	K1		N/C									
+	K100		Utility	31.util67	site0	site0	site0	31.util137	site4	site4	site4	
+	K101		Utility	31.util114	site0	site0	site0	31.util141	site4	site4	site4	
+	K102		Utility	31.util72	site0	site0	site0	31.util133	site4	site4	site4	
+	K103		Utility	31.util115	site0	site0	site0	31.util131	site4	site4	site4	
+	K104		Utility	31.util118	site0	site0	site0	31.util132	site4	site4	site4	
+	K105		Utility	31.util66	site0	site0	site0	31.util135	site4	site4	site4	
+	K11		N/C									
+	K110		Utility	30.util26	31.util111	30.util21	31.util106	30.util113	31.util176	30.util120	31.util173	
+	K111		Utility	30.util34	31.util86	30.util23	31.util82	30.util123	31.util181	30.util127	31.util188	
+	K12		N/C									
+	K129		Utility	30.util24	site0	site0	site0	site0	site0	site0	site0	
+	K13		Utility	31.util77	site0	site0	site0	31.util175	site4	site4	site4	
+	K130		Utility	30.util18	site0	site0	site0	site0	site0	site0	site0	
+	K14		Utility	31.util68	site0	site0	site0	31.util145	site4	site4	site4	
+	K15		Utility	31.util64	site0	site0	site0	31.util144	site4	site4	site4	
+	K16		Utility	31.util69	site0	site0	site0	31.util136	site4	site4	site4	
+	K17		Utility	31.util70	site0	site0	site0	31.util140	site4	site4	site4	
+	K18		Utility	31.util65	site0	site0	site0	31.util134	site4	site4	site4	
+	K19		Utility	31.util78	site0	site0	site0	31.util138	site4	site4	site4	
+	K20		Utility	31.util121	site0	site0	site0	31.util152	site4	site4	site4	
+	K21		Utility	31.util124	site0	site0	site0	31.util159	site4	site4	site4	
+	K22		Utility	31.util127	site0	site0	site0	31.util168	site4	site4	site4	
+	K23		Utility	31.util122	site0	site0	site0	31.util167	site4	site4	site4	
+	K24		Utility	31.util126	site0	site0	site0	31.util160	site4	site4	site4	
+	K25		Utility	31.util125	site0	site0	site0	31.util161	site4	site4	site4	
+	K26		Utility	30.util63	site0	site0	site0	30.util72	site4	site4	site4	
+	K27		Utility	30.util62	site0	site0	site0	30.util71	site4	site4	site4	
+	K28		Utility	30.util59	site0	site0	site0	30.util75	site4	site4	site4	
+	K29		Utility	30.util45	site0	site0	site0	30.util118	site4	site4	site4	
+	K30		Utility	30.util12	site0	site0	site0	30.util67	site4	site4	site4	
+	K31		Utility	30.util7	site0	site0	site0	30.util70	site4	site4	site4	
+	K32		Utility	30.util30	site0	site0	site0	30.util66	site4	site4	site4	
+	K33		Utility	30.util31	site0	site0	site0	30.util65	site4	site4	site4	
+	K34		Utility	30.util43	site0	site0	site0	30.util89	site4	site4	site4	
+	K35		Utility	30.util46	site0	site0	site0	30.util90	site4	site4	site4	
+	K36		Utility	30.util32	site0	site0	site0	30.util85	site4	site4	site4	
+	K37		Utility	30.util29	site0	site0	site0	30.util86	site4	site4	site4	
+	K38		Utility	30.util57	site0	site0	site0	30.util115	site4	site4	site4	
+	K39		Utility	30.util47	site0	site0	site0	30.util112	site4	site4	site4	
+	K40		Utility	30.util60	site0	site0	site0	30.util68	site4	site4	site4	
+	K41		Utility	30.util61	site0	site0	site0	30.util69	site4	site4	site4	
+	K46		Utility	31.util113	site0	site0	site0	31.util183	site4	site4	site4	
+	K47		Utility	31.util95	site0	site0	site0	31.util184	site4	site4	site4	
+	K48		Utility	30.util16	site0	site0	site0	30.util80	site4	site4	site4	
+	K49		Utility	30.util15	site0	site0	site0	30.util79	site4	site4	site4	
+	K50		Utility	31.util91	site0	site0	site0	31.util179	site4	site4	site4	
+	K51		Utility	31.util81	site0	site0	site0	31.util180	site4	site4	site4	
+	K52		Utility	30.util0	site0	site0	site0	30.util77	site4	site4	site4	
+	K53		Utility	30.util1	site0	site0	site0	30.util76	site4	site4	site4	
+	K54		Utility	31.util123	site0	site0	site0	31.util178	site4	site4	site4	
+	K55		Utility	31.util112	site0	site0	site0	31.util182	site4	site4	site4	
+	K56		Utility	31.util116	site0	site0	site0	31.util128	site4	site4	site4	
+	K57		Utility	31.util110	site0	site0	site0	31.util146	site4	site4	site4	
+	K58		Utility	30.util13	31.util98	30.util17	31.util88	30.util121	31.util187	30.util117	31.util186	
+	K59		Utility	30.util25	31.util108	30.util22	31.util99	30.util116	31.util177	30.util119	31.util158	
+	K60		Utility	30.util27	31.util79	30.util35	31.util85	30.util122	31.util185	30.util126	31.util189	
+	K61		Utility	30.util20	31.util84	30.util19	31.util83	30.util125	31.util190	30.util124	31.util191	
+	K66		Utility	31.util94	site0	site0	site0	31.util171	site4	site4	site4	
+	K67		Utility	31.util74	site0	site0	site0	31.util162	site4	site4	site4	
+	K68		Utility	31.util107	site0	site0	site0	31.util174	site4	site4	site4	
+	K69		Utility	31.util73	site0	site0	site0	31.util155	site4	site4	site4	
+	K70		Utility	30.util14	site0	site0	site0	30.util78	site4	site4	site4	
+	K71		Utility	30.util11	site0	site0	site0	30.util64	site4	site4	site4	
+	K72		Utility	30.util28	site0	site0	site0	30.util82	site4	site4	site4	
+	K73		N/C									
+	K74		Utility	31.util76	site0	site0	site0	31.util163	site4	site4	site4	
+	K75		Utility	31.util117	site0	site0	site0	31.util148	site4	site4	site4	
+	K76		Utility	31.util103	site0	site0	site0	31.util147	site4	site4	site4	
+	K81		Utility	31.util119	site0	site0	site0	31.util130	site4	site4	site4	
+	K82		Utility	31.util120	site0	site0	site0	31.util129	site4	site4	site4	
+	K83		Utility	31.util71	site0	site0	site0	31.util149	site4	site4	site4	
+	K84		Utility	31.util75	site0	site0	site0	31.util150	site4	site4	site4	
+	K85		Utility	30.util8	site0	site0	site0	30.util73	site4	site4	site4	
+	K86		Utility	30.util4	site0	site0	site0	30.util74	site4	site4	site4	
+	KIS_TO_PMU_REQUEST_DFU		I/O	24.4ch125	27.3ch35	24.4ch61	27.3ch99	24.2ch125	27.1ch35	24.2ch61	27.1ch99	
+	KIS_TO_PMU_RESET		I/O	24.3ch48	23.4ch77	24.3ch112	23.4ch13	24.1ch48	23.2ch77	24.1ch112	23.2ch13	
+	LP5_IN_RESET_L		I/O	26.3ch62	23.4ch72	26.3ch126	23.4ch8	26.1ch62	23.2ch72	26.1ch126	23.2ch8	
+	LPDPRX_AUX_D0_P		N/C									
+	LPDPRX_AUX_D1_P		N/C									
+	LPDPRX_AUX_D10_P		N/C									
+	LPDPRX_AUX_D11_P		N/C									
+	LPDPRX_AUX_D12_P		N/C									
+	LPDPRX_AUX_D2_P		N/C									
+	LPDPRX_AUX_D3_P		N/C									
+	LPDPRX_AUX_D4_P		N/C									
+	LPDPRX_AUX_D5_P		I/O	28.4ch80	29.4ch121	28.4ch16	29.4ch57	28.2ch80	29.2ch121	28.2ch16	29.2ch57	
+	LPDPRX_AUX_D6_P		N/C									
+	LPDPRX_AUX_D7_P		N/C									
+	LPDPRX_AUX_D8_P		N/C									
+	LPDPRX_AUX_D9_P		N/C									
+	LPDPRX_D0_N		I/O	22.4ch115	23.3ch15	22.4ch51	23.3ch79	22.2ch115	23.1ch15	22.2ch51	23.1ch79	
+	LPDPRX_D0_P		I/O	22.4ch114	23.3ch14	22.4ch50	23.3ch78	22.2ch114	23.1ch14	22.2ch50	23.1ch78	
+	LPDPRX_D1_N		I/O	26.4ch107	25.4ch113	26.4ch43	25.4ch49	26.2ch107	25.2ch113	26.2ch43	25.2ch49	
+	LPDPRX_D1_P		I/O	26.4ch106	25.4ch112	26.4ch42	25.4ch48	26.2ch106	25.2ch112	26.2ch42	25.2ch48	
+	LPDPRX_D10_N		N/C									
+	LPDPRX_D10_P		N/C									
+	LPDPRX_D11_N		N/C									
+	LPDPRX_D11_P		N/C									
+	LPDPRX_D12_N		N/C									
+	LPDPRX_D12_P		N/C									
+	LPDPRX_D2_N		I/O	22.3ch13	25.4ch115	22.3ch77	25.4ch51	22.1ch13	25.2ch115	22.1ch77	25.2ch51	
+	LPDPRX_D2_P		I/O	22.3ch12	25.4ch114	22.3ch76	25.4ch50	22.1ch12	25.2ch114	22.1ch76	25.2ch50	
+	LPDPRX_D3_N		I/O	28.3ch21	23.4ch115	28.3ch85	23.4ch51	28.1ch21	23.2ch115	28.1ch85	23.2ch51	
+	LPDPRX_D3_P		I/O	28.3ch20	23.4ch114	28.3ch84	23.4ch50	28.1ch20	23.2ch114	28.1ch84	23.2ch50	
+	LPDPRX_D4_N		I/O	24.4ch115	27.3ch5	24.4ch51	27.3ch69	24.2ch115	27.1ch5	24.2ch51	27.1ch69	
+	LPDPRX_D4_P		I/O	24.4ch114	27.3ch4	24.4ch50	27.3ch68	24.2ch114	27.1ch4	24.2ch50	27.1ch68	
+	LPDPRX_D5_N		I/O	22.4ch97	25.4ch123	22.4ch33	25.4ch59	22.2ch97	25.2ch123	22.2ch33	25.2ch59	
+	LPDPRX_D5_P		I/O	22.4ch96	25.4ch122	22.4ch32	25.4ch58	22.2ch96	25.2ch122	22.2ch32	25.2ch58	
+	LPDPRX_D6_N		N/C									
+	LPDPRX_D6_P		N/C									
+	LPDPRX_D7_N		N/C									
+	LPDPRX_D7_P		N/C									
+	LPDPRX_D8_N		N/C									
+	LPDPRX_D8_P		N/C									
+	LPDPRX_D9_N		N/C									
+	LPDPRX_D9_P		N/C									
+	LPDPRX_SW_3_3V		N/C									
+	LPDPRX0_RCAL_NEG		I/O	26.4ch81	25.3ch21	24.4ch33	25.3ch85	24.2ch89	25.1ch21	24.1ch77	25.2ch17	
+	LPDPRX0_RCAL_POS		I/O	26.4ch80	25.3ch20	24.4ch32	25.3ch84	24.2ch88	25.1ch20	24.1ch76	25.2ch16	
+	LPDPRX1_RCAL_NEG		I/O	22.4ch73	23.4ch99	24.4ch25	25.4ch17	26.2ch89	25.2ch81	26.2ch41	23.1ch119	
+	LPDPRX1_RCAL_POS		I/O	22.4ch72	23.4ch98	24.4ch24	25.4ch16	26.2ch88	25.2ch80	26.2ch40	23.1ch118	
+	LPDPTX_AUX_N		I/O	24.3ch37	23.3ch61	24.3ch101	23.3ch125	24.1ch37	23.1ch61	24.1ch101	23.1ch125	
+	LPDPTX_AUX_P		I/O	24.3ch36	23.3ch60	24.3ch100	23.3ch124	24.1ch36	23.1ch60	24.1ch100	23.1ch124	
+	LPDPTX_D0_N		I/O	22.3ch29	27.3ch61	22.3ch93	27.3ch125	22.1ch29	27.1ch61	22.1ch93	27.1ch125	
+	LPDPTX_D0_P		I/O	22.3ch28	27.3ch60	22.3ch92	27.3ch124	22.1ch28	27.1ch60	22.1ch92	27.1ch124	
+	LPDPTX_D1_N		I/O	22.3ch37	23.4ch67	22.3ch101	23.4ch3	22.1ch37	23.2ch67	22.1ch101	23.2ch3	
+	LPDPTX_D1_P		I/O	22.3ch36	23.4ch66	22.3ch100	23.4ch2	22.1ch36	23.2ch66	22.1ch100	23.2ch2	
+	LPDPTX_D2_N		I/O	22.4ch89	25.3ch61	22.4ch25	25.3ch125	22.2ch89	25.1ch61	22.2ch25	25.1ch125	
+	LPDPTX_D2_P		I/O	22.4ch88	25.3ch60	22.4ch24	25.3ch124	22.2ch88	25.1ch60	22.2ch24	25.1ch124	
+	LPDPTX_D3_N		N/C									
+	LPDPTX_D3_P		N/C									
+	LPDPTX_RCAL_NEG		I/O	26.3ch61	25.3ch37	26.4ch17	23.3ch127	22.2ch73	23.1ch63	24.2ch25	23.1ch127	
+	LPDPTX_RCAL_POS		I/O	26.3ch60	25.3ch36	26.4ch16	23.3ch126	22.2ch72	23.1ch62	24.2ch24	23.1ch126	
+	LPDPTX_SEC_AUX_N		N/C									
+	LPDPTX_SEC_AUX_P		N/C									
+	LPDPTX_SEC_D0_N		N/C									
+	LPDPTX_SEC_D0_P		N/C									
+	LPDPTX_SEC_D1_N		N/C									
+	LPDPTX_SEC_D1_P		N/C									
+	LPDPTX_SEC_D2_N		N/C									
+	LPDPTX_SEC_D2_P		N/C									
+	LPDPTX_SEC_D3_N		N/C									
+	LPDPTX_SEC_D3_P		N/C									
+	LPDPTX_SEC_RCAL_NEG		N/C									
+	LPDPTX_SEC_RCAL_POS		N/C									
+	MIC_DISABLE_L		I/O	24.4ch93	23.4ch76	24.4ch29	23.4ch12	24.2ch93	23.2ch76	24.2ch29	23.2ch12	
+	MIC_DISABLE_WARN_L		I/O	24.3ch0	25.4ch78	24.3ch64	25.4ch14	24.1ch0	25.2ch78	24.1ch64	25.2ch14	
+	MTP_FUNC0		I/O	22.4ch95	23.4ch78	22.4ch31	23.4ch14	22.2ch95	23.2ch78	22.2ch31	23.2ch14	
+	MTP_FUNC1		I/O	22.3ch2	25.3ch16	22.3ch66	25.3ch80	22.1ch2	25.1ch16	22.1ch66	25.1ch80	
+	MTP_FUNC2		I/O	22.3ch50	23.4ch124	22.3ch114	23.4ch60	22.1ch50	23.2ch124	22.1ch114	23.2ch60	
+	MTP_FUNC3		I/O	22.3ch39	25.3ch50	22.3ch103	25.3ch114	22.1ch39	25.1ch50	22.1ch103	25.1ch114	
+	MTP_FUNC4		I/O	22.3ch38	23.4ch126	22.3ch102	23.4ch62	22.1ch38	23.2ch126	22.1ch102	23.2ch62	
+	MTP_FUNC5		I/O	26.4ch108	29.3ch1	26.4ch44	29.3ch65	26.2ch108	29.1ch1	26.2ch44	29.1ch65	
+	MTP_FUNC6		I/O	26.3ch18	27.4ch126	26.3ch82	27.4ch62	26.1ch18	27.2ch126	26.1ch82	27.2ch62	
+	MTP_FUNC7		I/O	26.4ch93	27.4ch110	26.4ch29	27.4ch46	26.2ch93	27.2ch110	26.2ch29	27.2ch46	
+	MTP_I2C0_SCL		I/O	26.3ch17	27.4ch125	26.3ch81	27.4ch61	26.1ch17	27.2ch125	26.1ch81	27.2ch61	
+	MTP_I2C0_SDA		I/O	22.3ch3	23.3ch18	22.3ch67	23.3ch82	22.1ch3	23.1ch18	22.1ch67	23.1ch82	
+	MTP_I2C1_SCL		I/O	26.4ch109	27.3ch1	26.4ch45	27.3ch65	26.2ch109	27.1ch1	26.2ch45	27.1ch65	
+	MTP_I2C1_SDA		I/O	26.4ch95	27.3ch17	26.4ch31	27.3ch81	26.2ch95	27.1ch17	26.2ch31	27.1ch81	
+	MTP_SPI0_PICO		I/O	26.4ch92	27.4ch109	26.4ch28	27.4ch45	26.2ch92	27.2ch109	26.2ch28	27.2ch45	
+	MTP_SPI0_POCI		I/O	26.4ch124	27.3ch49	26.4ch60	27.3ch113	26.2ch124	27.1ch49	26.2ch60	27.1ch113	
+	MTP_SPI0_SCLK		I/O	26.4ch127	27.3ch50	26.4ch63	27.3ch114	26.2ch127	27.1ch50	26.2ch63	27.1ch114	
+	MTP_SPI1_PICO		I/O	26.3ch19	27.4ch127	26.3ch83	27.4ch63	26.1ch19	27.2ch127	26.1ch83	27.2ch63	
+	MTP_SPI1_POCI		I/O	26.4ch118	27.3ch56	26.4ch54	27.3ch120	26.2ch118	27.1ch56	26.2ch54	27.1ch120	
+	MTP_SPI1_SCLK		I/O	26.4ch94	27.4ch111	26.4ch30	27.4ch47	26.2ch94	27.2ch111	26.2ch30	27.2ch47	
+	NAND_SYS_CLK		I/O	28.4ch70	27.3ch40	28.4ch6	27.3ch104	28.2ch70	27.1ch40	28.2ch6	27.1ch104	
+	NUB_CLK_OUT0		I/O	26.3ch1	27.4ch78	26.3ch65	27.4ch14	26.1ch1	27.2ch78	26.1ch65	27.2ch14	
+	NUB_CLK_OUT1		I/O	28.3ch22	25.3ch29	28.3ch86	25.3ch93	28.1ch22	25.1ch29	28.1ch86	25.1ch93	
+	NUB_DBGWRAP_TEST		I/O	24.3ch50	25.4ch77	24.3ch114	25.4ch13	24.1ch50	25.2ch77	24.1ch114	25.2ch13	
+	NUB_DOCK_CONNECT		I/O	22.3ch23	23.3ch22	22.3ch87	23.3ch86	22.1ch23	23.1ch22	22.1ch87	23.1ch86	
+	NUB_SCM_IO0		I/O	28.3ch32	29.3ch18	28.3ch96	29.3ch82	28.1ch32	29.1ch18	28.1ch96	29.1ch82	
+	NUB_SCM_IO1		I/O	26.3ch32	27.3ch3	26.3ch96	27.3ch67	26.1ch32	27.1ch3	26.1ch96	27.1ch67	
+	NUB_SCM_IO10		I/O	28.3ch0	25.4ch79	28.3ch64	25.4ch15	28.1ch0	25.2ch79	28.1ch64	25.2ch15	
+	NUB_SCM_IO11		I/O	28.3ch1	27.3ch51	28.3ch65	27.3ch115	28.1ch1	27.1ch51	28.1ch65	27.1ch115	
+	NUB_SCM_IO12		I/O	28.3ch5	25.4ch94	28.3ch69	25.4ch30	28.1ch5	25.2ch94	28.1ch69	25.2ch30	
+	NUB_SCM_IO13		I/O	28.4ch111	27.4ch79	28.4ch47	27.4ch15	28.2ch111	27.2ch79	28.2ch47	27.2ch15	
+	NUB_SCM_IO14		I/O	24.4ch127	25.4ch95	24.4ch63	25.4ch31	24.2ch127	25.2ch95	24.2ch63	25.2ch31	
+	NUB_SCM_IO15		I/O	28.4ch110	27.4ch77	28.4ch46	27.4ch13	28.2ch110	27.2ch77	28.2ch46	27.2ch13	
+	NUB_SCM_IO2		I/O	28.4ch95	29.4ch109	28.4ch31	29.4ch45	28.2ch95	29.2ch109	28.2ch31	29.2ch45	
+	NUB_SCM_IO3		I/O	28.4ch93	29.4ch108	28.4ch29	29.4ch44	28.2ch93	29.2ch108	28.2ch29	29.2ch44	
+	NUB_SCM_IO4		I/O	28.4ch94	29.4ch111	28.4ch30	29.4ch47	28.2ch94	29.2ch111	28.2ch30	29.2ch47	
+	NUB_SCM_IO5		I/O	26.3ch34	27.3ch2	26.3ch98	27.3ch66	26.1ch34	27.1ch2	26.1ch98	27.1ch66	
+	NUB_SCM_IO6		I/O	28.3ch34	29.3ch19	28.3ch98	29.3ch83	28.1ch34	29.1ch19	28.1ch98	29.1ch83	
+	NUB_SCM_IO7		I/O	22.3ch48	27.3ch22	22.3ch112	27.3ch86	22.1ch48	27.1ch22	22.1ch112	27.1ch86	
+	NUB_SCM_IO8		I/O	28.3ch33	25.3ch22	28.3ch97	25.3ch86	28.1ch33	25.1ch22	28.1ch97	25.1ch86	
+	NUB_SCM_IO9		I/O	22.4ch94	25.3ch23	22.4ch30	25.3ch87	22.2ch94	25.1ch23	22.2ch30	25.1ch87	
+	NUB_SPMI0_SCLK		I/O	28.3ch35	29.3ch17	28.3ch99	29.3ch81	28.1ch35	29.1ch17	28.1ch99	29.1ch81	
+	NUB_SPMI0_SDATA		I/O	28.4ch92	29.4ch110	28.4ch28	29.4ch46	28.2ch92	29.2ch110	28.2ch28	29.2ch46	
+	NUB_SPMI1_SCLK		I/O	22.3ch34	27.3ch0	22.3ch98	27.3ch64	22.1ch34	27.1ch0	22.1ch98	27.1ch64	
+	NUB_SPMI1_SDATA		I/O	26.3ch35	27.4ch124	26.3ch99	27.4ch60	26.1ch35	27.2ch124	26.1ch99	27.2ch60	
+	NUB_SWD_TCK_OUT0		I/O	26.3ch16	27.4ch108	26.3ch80	27.4ch44	26.1ch16	27.2ch108	26.1ch80	27.2ch44	
+	NUB_SWD_TCK_OUT1		I/O	26.3ch3	29.3ch49	26.3ch67	29.3ch113	26.1ch3	29.1ch49	26.1ch67	29.1ch113	
+	NUB_SWD_TMS0		I/O	28.3ch4	27.3ch32	28.3ch68	27.3ch96	28.1ch4	27.1ch32	28.1ch68	27.1ch96	
+	NUB_SWD_TMS1		I/O	26.3ch0	27.4ch76	26.3ch64	27.4ch12	26.1ch0	27.2ch76	26.1ch64	27.2ch12	
+	NUB_SWD_TMS2		I/O	24.4ch109	27.3ch34	24.4ch45	27.3ch98	24.2ch109	27.1ch34	24.2ch45	27.1ch98	
+	NUB_SWD_TMS3		I/O	26.4ch125	29.3ch48	26.4ch61	29.3ch112	26.2ch125	29.1ch48	26.2ch61	29.1ch112	
+	NUB_SWD_TMS4		I/O	26.3ch2	29.4ch79	26.3ch66	29.4ch15	26.1ch2	29.2ch79	26.1ch66	29.2ch15	
+	PCIE_RCAL_N		I/O	24.3ch61	25.4ch99	26.4ch25	23.3ch119	24.2ch81	23.1ch55	24.2ch33	27.2ch9	
+	PCIE_RCAL_P		I/O	24.3ch60	25.4ch98	26.4ch24	23.3ch118	24.2ch80	23.1ch54	24.2ch32	27.2ch8	
+	QSPI_PWR_1P2		DCVS	18.4sense61	19.4sense51	18.4sense29	19.4sense19	18.2sense61	19.2sense51	18.2sense29	19.2sense19	
+	REFCLK_RT_CLK32768		N/C									
+	REFCLK_SPARE_1		N/C									
+	REFCLK_SPARE_2		N/C									
+	REFCLK_SPARE_3		N/C									
+	REFCLK_SPARE_4		N/C									
+	REFCLK_SPARE_5		N/C									
+	REFCLK_SPARE_6		N/C									
+	REFCLK_XI0_XO0		N/C									
+	RT_CLK32768		I/O	26.3ch54	23.3ch36	26.3ch118	23.3ch100	26.1ch54	23.1ch36	26.1ch118	23.1ch100	
+	RT_CLK32768_PA		N/C									
+	SENSOR0_CLK		I/O	28.3ch27	29.4ch101	28.3ch91	29.4ch37	28.1ch27	29.2ch101	28.1ch91	29.2ch37	
+	SENSOR1_CLK		I/O	28.4ch102	29.3ch24	28.4ch38	29.3ch88	28.2ch102	29.1ch24	28.2ch38	29.1ch88	
+	SGPIO0		I/O	22.3ch26	23.4ch103	22.3ch90	23.4ch39	22.1ch26	23.2ch103	22.1ch90	23.2ch39	
+	SGPIO1		I/O	22.4ch70	23.3ch43	22.4ch6	23.3ch107	22.2ch70	23.1ch43	22.2ch6	23.1ch107	
+	SGPIO2		I/O	22.4ch69	23.3ch42	22.4ch5	23.3ch106	22.2ch69	23.1ch42	22.2ch5	23.1ch106	
+	SI2C0_SCL		I/O	22.4ch101	23.3ch25	22.4ch37	23.3ch89	22.2ch101	23.1ch25	22.2ch37	23.1ch89	
+	SI2C0_SDA		I/O	22.3ch8	23.3ch41	22.3ch72	23.3ch105	22.1ch8	23.1ch41	22.1ch72	23.1ch105	
+	SI2C0_SDA_PWR		DCVS	18.4sense62	19.4sense52	18.4sense30	19.4sense20	18.2sense62	19.2sense52	18.2sense30	19.2sense20	
+	SMC_I2CM0_SCL		I/O	22.3ch49	23.3ch34	22.3ch113	23.3ch98	22.1ch49	23.1ch34	22.1ch113	23.1ch98	
+	SMC_I2CM0_SDA		I/O	22.4ch110	23.4ch127	22.4ch46	23.4ch63	22.2ch110	23.2ch127	22.2ch46	23.2ch63	
+	SMC_I2CM1_SCL		I/O	22.4ch77	23.4ch93	22.4ch13	23.4ch29	22.2ch77	23.2ch93	22.2ch13	23.2ch29	
+	SMC_I2CM1_SDA		I/O	22.3ch18	23.3ch0	22.3ch82	23.3ch64	22.1ch18	23.1ch0	22.1ch82	23.1ch64	
+	SMC_I2CM2_SCL		I/O	22.4ch76	23.4ch95	22.4ch12	23.4ch31	22.2ch76	23.2ch95	22.2ch12	23.2ch31	
+	SMC_I2CM2_SDA		I/O	22.4ch78	23.3ch32	22.4ch14	23.3ch96	22.2ch78	23.1ch32	22.2ch14	23.1ch96	
+	SOC_ACC_ICTS_AM_EN		I/O	26.4ch64	29.4ch73	26.4ch0	29.4ch9	26.2ch64	29.2ch73	26.2ch0	29.2ch9	
+	SOC_ACC_ICTS_AM_STR		I/O	28.4ch65	23.3ch38	28.4ch1	23.3ch102	28.2ch65	23.1ch38	28.2ch1	23.1ch102	
+	SOCHOT1_L		I/O	24.4ch71	25.3ch25	24.4ch7	25.3ch89	24.2ch71	25.1ch25	24.2ch7	25.1ch89	
+	SPI0_PICO		I/O	22.3ch56	23.4ch85	22.3ch120	23.4ch21	22.1ch56	23.2ch85	22.1ch120	23.2ch21	
+	SPI0_POCI		I/O	22.3ch57	23.4ch84	22.3ch121	23.4ch20	22.1ch57	23.2ch84	22.1ch121	23.2ch20	
+	SPI0_SCLK		I/O	22.3ch58	23.4ch87	22.3ch122	23.4ch23	22.1ch58	23.2ch87	22.1ch122	23.2ch23	
+	SPI1_PICO		I/O	26.3ch27	27.3ch10	26.3ch91	27.3ch74	26.1ch27	27.1ch10	26.1ch91	27.1ch74	
+	SPI1_POCI		I/O	26.3ch26	27.3ch11	26.3ch90	27.3ch75	26.1ch26	27.1ch11	26.1ch90	27.1ch75	
+	SPI1_SCLK		I/O	26.3ch24	27.3ch9	26.3ch88	27.3ch73	26.1ch24	27.1ch9	26.1ch88	27.1ch73	
+	SPI1_SSIN		I/O	26.3ch25	27.3ch8	26.3ch89	27.3ch72	26.1ch25	27.1ch8	26.1ch89	27.1ch72	
+	SPI2_PICO		I/O	22.3ch10	23.4ch71	22.3ch74	23.4ch7	22.1ch10	23.2ch71	22.1ch74	23.2ch7	
+	SPI2_POCI		I/O	22.4ch103	23.3ch26	22.4ch39	23.3ch90	22.2ch103	23.1ch26	22.2ch39	23.1ch90	
+	SPI2_SCLK		I/O	22.4ch100	23.3ch24	22.4ch36	23.3ch88	22.2ch100	23.1ch24	22.2ch36	23.1ch88	
+	SPI2_SSIN		I/O	22.3ch11	23.3ch57	22.3ch75	23.3ch121	22.1ch11	23.1ch57	22.1ch75	23.1ch121	
+	SPI3_PICO		I/O	22.4ch85	23.4ch117	22.4ch21	23.4ch53	22.2ch85	23.2ch117	22.2ch21	23.2ch53	
+	SPI3_POCI		I/O	22.3ch40	23.3ch56	22.3ch104	23.3ch120	22.1ch40	23.1ch56	22.1ch104	23.1ch120	
+	SPI3_SCLK		I/O	22.4ch102	23.3ch11	22.4ch38	23.3ch75	22.2ch102	23.1ch11	22.2ch38	23.1ch75	
+	SPI3_SSIN		I/O	22.3ch41	23.4ch116	22.3ch105	23.4ch52	22.1ch41	23.2ch116	22.1ch105	23.2ch52	
+	SS_HOSTMODE		I/O	22.3ch9	23.4ch70	22.3ch73	23.4ch6	22.1ch9	23.2ch70	22.1ch73	23.2ch6	
+	SS_RST_L		I/O	22.3ch27	23.3ch27	22.3ch91	23.3ch91	22.1ch27	23.1ch27	22.1ch91	23.1ch91	
+	SSD_BFH		I/O	26.4ch84	27.3ch57	26.4ch20	27.3ch121	26.2ch84	27.1ch57	26.2ch20	27.1ch121	
+	SSD_RESET_L		I/O	28.3ch42	29.3ch57	28.3ch106	29.3ch121	28.1ch42	29.1ch57	28.1ch106	29.1ch121	
+	ST_PCIE_CLKREQ0_L		I/O	22.4ch84	27.3ch48	22.4ch20	27.3ch112	22.2ch84	27.1ch48	22.2ch20	27.1ch112	
+	ST_PCIE_PERST0_L		I/O	28.4ch86	29.3ch59	28.4ch22	29.3ch123	28.2ch86	29.1ch59	28.2ch22	29.1ch123	
+	ST_PCIE_REF_CLK0_N		I/O	22.4ch99	27.4ch67	22.4ch35	27.4ch3	22.2ch99	27.2ch67	22.2ch35	27.2ch3	
+	ST_PCIE_REF_CLK0_P		I/O	22.4ch98	27.4ch66	22.4ch34	27.4ch2	22.2ch98	27.2ch66	22.2ch34	27.2ch2	
+	ST_PCIE_RX0_N		I/O	22.3ch45	27.4ch75	22.3ch109	27.4ch11	22.1ch45	27.2ch75	22.1ch109	27.2ch11	
+	ST_PCIE_RX0_P		I/O	22.3ch44	27.4ch74	22.3ch108	27.4ch10	22.1ch44	27.2ch74	22.1ch108	27.2ch10	
+	ST_PCIE_TX0_N		I/O	24.4ch75	29.3ch53	24.4ch11	29.3ch117	24.2ch75	29.1ch53	24.2ch11	29.1ch117	
+	ST_PCIE_TX0_P		I/O	24.4ch74	29.3ch52	24.4ch10	29.3ch116	24.2ch74	29.1ch52	24.2ch10	29.1ch116	
+	SW_OE		N/C									
+	SW_SEL		N/C									
+	SWD_TCK_OUT2		I/O	28.4ch85	25.3ch42	28.4ch21	25.3ch106	28.2ch85	25.1ch42	28.2ch21	25.1ch106	
+	SWD_TMS5		I/O	26.4ch87	27.3ch58	26.4ch23	27.3ch122	26.2ch87	27.1ch58	26.2ch23	27.1ch122	
+	SWD_TMS6		I/O	28.3ch43	29.3ch58	28.3ch107	29.3ch122	28.1ch43	29.1ch58	28.1ch107	29.1ch122	
+	SWD_TMS7		I/O	26.4ch86	27.3ch59	26.4ch22	27.3ch123	26.2ch86	27.1ch59	26.2ch22	27.1ch123	
+	TESTMODE		I/O	26.3ch63	29.3ch54	26.3ch127	29.3ch118	26.1ch63	29.1ch54	26.1ch127	29.1ch118	
+	THROTTLE_TRIGGER0_L		I/O	24.3ch43	25.4ch117	24.3ch107	25.4ch53	24.1ch43	25.2ch117	24.1ch107	25.2ch53	
+	THROTTLE_TRIGGER1_L		I/O	24.4ch100	25.4ch87	24.4ch36	25.4ch23	24.2ch100	25.2ch87	24.2ch36	25.2ch23	
+	THROTTLE_TRIGGER2_L		I/O	24.3ch42	25.3ch11	24.3ch106	25.3ch75	24.1ch42	25.1ch11	24.1ch106	25.1ch75	
+	THROTTLE_TRIGGER3_L		I/O	24.4ch101	25.4ch84	24.4ch37	25.4ch20	24.2ch101	25.2ch84	24.2ch37	25.2ch20	
+	THROTTLE_TRIGGER4_L		I/O	24.3ch40	25.4ch100	24.3ch104	25.4ch36	24.1ch40	25.2ch100	24.1ch104	25.2ch36	
+	TST_CLKOUT		I/O	28.3ch63	23.4ch89	28.3ch127	23.4ch25	28.1ch63	23.2ch89	28.1ch127	23.2ch25	
+	U11		Utility	30.util5	site0	site0	site0	site0	site0	site0	site0	
+	U15		Utility	30.util3	site0	site0	site0	site0	site0	site0	site0	
+	U17		Utility	30.util9	site0	site0	site0	site0	site0	site0	site0	
+	U21		Utility	30.util2	site0	site0	site0	site0	site0	site0	site0	
+	U23		Utility	30.util6	site0	site0	site0	site0	site0	site0	site0	
+	U25		Utility	30.util33	site0	site0	site0	site0	site0	site0	site0	
+	U7		Utility	30.util10	site0	site0	site0	site0	site0	site0	site0	
+	UART_PWR		DCVS	18.1sense29	site0	site0	site0	site0	site0	site0	site0	
+	UART0_RXD		I/O	24.4ch68	25.3ch40	24.4ch4	25.3ch104	24.2ch68	25.1ch40	24.2ch4	25.1ch104	
+	UART0_TXD		I/O	24.4ch76	25.3ch48	24.4ch12	25.3ch112	24.2ch76	25.1ch48	24.2ch12	25.1ch112	
+	UART1_CTSN		I/O	26.4ch119	27.3ch26	26.4ch55	27.3ch90	26.2ch119	27.1ch26	26.2ch55	27.1ch90	
+	UART1_RTSN		I/O	22.3ch7	23.4ch73	22.3ch71	23.4ch9	22.1ch7	23.2ch73	22.1ch71	23.2ch9	
+	UART1_RXD		I/O	26.4ch126	27.3ch27	26.4ch62	27.3ch91	26.2ch126	27.1ch27	26.2ch62	27.1ch91	
+	UART1_TXD		I/O	22.4ch120	29.4ch97	22.4ch56	29.4ch33	22.2ch120	29.2ch97	22.2ch56	29.2ch33	
+	UART2_CTSN		I/O	22.3ch6	23.4ch80	22.3ch70	23.4ch16	22.1ch6	23.2ch80	22.1ch70	23.2ch16	
+	UART2_RTSN		I/O	28.3ch6	23.4ch81	28.3ch70	23.4ch17	28.1ch6	23.2ch81	28.1ch70	23.2ch17	
+	UART2_RXD		I/O	26.4ch120	29.3ch31	26.4ch56	29.3ch95	26.2ch120	29.1ch31	26.2ch56	29.1ch95	
+	UART2_TXD		I/O	22.4ch121	29.4ch96	22.4ch57	29.4ch32	22.2ch121	29.2ch96	22.2ch57	29.2ch32	
+	UART3_CTSN		I/O	24.3ch57	25.4ch103	24.3ch121	25.4ch39	24.1ch57	25.2ch103	24.1ch121	25.2ch39	
+	UART3_RTSN		I/O	24.3ch59	25.3ch24	24.3ch123	25.3ch88	24.1ch59	25.1ch24	24.1ch123	25.1ch88	
+	UART3_RXD		I/O	24.4ch69	25.4ch118	24.4ch5	25.4ch54	24.2ch69	25.2ch118	24.2ch5	25.2ch54	
+	UART3_TXD		I/O	24.4ch85	25.4ch116	24.4ch21	25.4ch52	24.2ch85	25.2ch116	24.2ch21	25.2ch52	
+	UART4_RXD		I/O	24.3ch56	25.3ch41	24.3ch120	25.3ch105	24.1ch56	25.1ch41	24.1ch120	25.1ch105	
+	UART4_TXD		I/O	24.3ch58	25.4ch86	24.3ch122	25.4ch22	24.1ch58	25.2ch86	24.1ch122	25.2ch22	
+	UID_MODE_L		I/O	28.3ch40	29.4ch71	28.3ch104	29.4ch7	28.1ch40	29.2ch71	28.1ch104	29.2ch7	
+	UNTRUSTED_BOOTCONFIG		I/O	26.4ch85	27.4ch69	26.4ch21	27.4ch5	26.2ch85	27.2ch69	26.2ch21	27.2ch5	
+	USB_CROSS		I/O	28.4ch75	site0	site0	site0	site0	site0	site0	site0	
+	USB_GPIO0		I/O	28.3ch53	site0	site0	site0	site0	site0	site0	site0	
+	USB_GPIO1		I/O	28.3ch52	site0	site0	site0	site0	site0	site0	site0	
+	USB_INT		I/O	28.3ch54	site0	site0	site0	site0	site0	site0	site0	
+	USB_RESETB		I/O	28.3ch55	site0	site0	site0	site0	site0	site0	site0	
+	USB_SCL		I/O	28.4ch73	site0	site0	site0	site0	site0	site0	site0	
+	USB_SDA		I/O	28.4ch72	site0	site0	site0	site0	site0	site0	site0	
+	USB_VDD1V8_1		DCVS	18.1sense62	site0	site0	site0	site0	site0	site0	site0	
+	USB_VDD1V8_2		DCVS	19.3sense30	site0	site0	site0	site0	site0	site0	site0	
+	USB_VDD3V3_1		DCVS	18.3sense29	site0	site0	site0	site0	site0	site0	site0	
+	USB_VDD3V3_2		DCVS	19.3sense29	site0	site0	site0	site0	site0	site0	site0	
+	VDD_AMPH_DDR		DCVSMerged2	18.3sense15	19.3sense15	18.3sense47	19.3sense47	18.1sense15	19.1sense15	18.1sense47	19.1sense47	
+	VDD_AVE		DCVSMerged7	20.4sense43	21.4sense43	20.4sense11	21.4sense11	20.2sense43	21.2sense43	20.2sense11	21.2sense11	
+	VDD_CPU_SRAM		DCVSMerged2	10.4sense9	11.4sense9	10.4sense1	11.4sense1	10.2sense9	11.2sense9	10.2sense1	11.2sense1	
+	VDD_CPU_SRAM:C		DCVS	10.3sense8	11.3sense8	10.3sense16	11.3sense16	10.1sense8	11.1sense8	10.1sense16	11.1sense16	
+	VDD_CPU_SRAM_SENSE		I/O	24.3ch30	25.4ch104	24.3ch102	25.4ch40	24.1ch38	25.2ch104	24.1ch102	25.2ch40	
+	VDD_CPU_SRAM_SENSE_1		I/O	24.3ch31	25.4ch105	24.3ch103	25.4ch41	24.1ch39	25.2ch105	24.1ch103	25.2ch41	
+	VDD_CPU_SRAM_TC		I/O	22.3ch5	27.4ch120	22.3ch69	27.4ch56	22.1ch5	27.2ch120	22.1ch69	27.2ch56	
+	VDD_DCS_DDR		DCVSMerged5	18.4sense55	19.4sense45	18.4sense23	19.4sense13	18.2sense55	19.2sense45	18.2sense23	19.2sense13	
+	VDD_DCS_DDR_TC		N/C									
+	VDD_DCS_SENSE		I/O	26.4ch100	27.4ch118	26.4ch36	27.4ch54	26.2ch100	27.2ch118	26.2ch36	27.2ch54	
+	VDD_DCS_SENSE_1		I/O	26.4ch101	27.4ch119	26.4ch37	27.4ch55	26.2ch101	27.2ch119	26.2ch37	27.2ch55	
+	VDD_DISP		DCVSMerged10	18.4sense45	19.4sense55	18.4sense13	19.4sense23	18.2sense45	19.2sense55	18.2sense13	19.2sense23	
+	VDD_DISP_SENSE		I/O	26.4ch102	27.4ch116	26.4ch38	27.4ch52	26.2ch102	27.2ch116	26.2ch38	27.2ch52	
+	VDD_DISP_SENSE_1		I/O	26.4ch103	27.4ch117	26.4ch39	27.4ch53	26.2ch103	27.2ch117	26.2ch39	27.2ch53	
+	VDD_DISP_TC		N/C									
+	VDD_ECPU		DCVSMerged3	10.4sense12	11.4sense12	10.4sense4	11.4sense4	10.2sense12	11.2sense12	10.2sense4	11.2sense4	
+	VDD_ECPU:C		DCVS	10.3sense5	11.3sense5	10.3sense13	11.3sense13	10.1sense5	11.1sense5	10.1sense13	11.1sense13	
+	VDD_ECPU_SENSE		I/O	26.3ch46	27.4ch90	22.4ch16	27.4ch26	22.2ch80	25.2ch90	26.1ch110	27.2ch26	
+	VDD_ECPU_SENSE_1		I/O	26.3ch47	27.4ch91	22.4ch17	27.4ch27	22.2ch81	25.2ch91	26.1ch111	27.2ch27	
+	VDD_ECPU_TC		I/O	22.4ch123	27.4ch121	22.4ch59	27.4ch57	22.2ch123	27.2ch121	22.2ch59	27.2ch57	
+	VDD_FIXED		DCVS	20.3sense28	21.3sense23	20.3sense60	21.3sense55	20.1sense28	21.1sense23	20.1sense60	21.1sense55	
+	VDD_FIXED_AMUX		DCVS	20.4sense55	21.4sense55	20.4sense23	21.4sense23	20.2sense55	21.2sense55	20.2sense23	21.2sense23	
+	VDD_FIXED_CIO		DCVSMerged2	18.4sense33	19.4sense33	18.4sense1	19.4sense1	18.2sense33	19.2sense33	18.2sense1	19.2sense1	
+	VDD_FIXED_CPU		DCVS	20.3sense29	21.3sense21	20.3sense61	21.3sense53	20.1sense29	21.1sense21	20.1sense61	21.1sense53	
+	VDD_FIXED_ECPU_MTR		DCVS	18.4sense36	21.3sense25	18.4sense4	21.3sense57	18.2sense36	21.1sense25	18.2sense4	21.1sense57	
+	VDD_FIXED_LPDP_RX_DCVS		DCVSMerged2	20.3sense5	21.3sense5	20.3sense37	21.3sense37	20.1sense5	21.1sense5	20.1sense37	21.1sense37	
+	VDD_FIXED_LPDP_TX_INT_DCVS		DCVSMerged2	18.3sense11	19.3sense11	18.3sense43	19.3sense43	18.1sense11	19.1sense11	18.1sense43	19.1sense43	
+	VDD_FIXED_LPDP_TX_SEC_DCVS		DCVSMerged2	20.3sense7	21.3sense7	20.3sense39	21.3sense39	20.1sense7	21.1sense7	20.1sense39	21.1sense39	
+	VDD_FIXED_MTR_CPM_PCPU		DCVS	20.3sense26	21.3sense26	20.3sense58	21.3sense58	20.1sense26	21.1sense26	20.1sense58	21.1sense58	
+	VDD_FIXED_PCIE_DCVS		DCVS	20.3sense20	21.3sense20	20.3sense52	21.3sense52	20.1sense20	21.1sense20	20.1sense52	21.1sense52	
+	VDD_FIXED_PCIE_REFBUF		DCVS	18.4sense35	19.4sense35	18.4sense3	19.4sense3	18.2sense35	19.2sense35	18.2sense3	19.2sense3	
+	VDD_FIXED_PLL		DCVS	20.3sense27	21.3sense27	20.3sense59	21.3sense59	20.1sense27	21.1sense27	20.1sense59	21.1sense59	
+	VDD_FIXED_PLL_SOC		DCVS	20.3sense23	21.3sense28	20.3sense55	21.3sense60	20.1sense23	21.1sense28	20.1sense55	21.1sense60	
+	VDD_FIXED_USB		DCVS	18.3sense24	19.3sense24	18.3sense56	19.3sense56	18.1sense24	19.1sense24	18.1sense56	19.1sense56	
+	VDD_FIXED_XTAL		DCVS	20.3sense16	21.3sense16	20.3sense48	21.3sense48	20.1sense16	21.1sense16	20.1sense48	21.1sense48	
+	VDD_GPU		DCVSMerged8	8.3sense1	9.3sense1	8.3sense9	9.3sense9	8.1sense1	9.1sense1	8.1sense9	9.1sense9	
+	VDD_GPU:C		DCVSMerged4	8.4sense9	9.4sense9	8.4sense1	9.4sense1	8.2sense9	9.2sense9	8.2sense1	9.2sense1	
+	VDD_GPU_SENSE		I/O	22.4ch106	23.3ch28	24.3ch94	23.3ch92	24.1ch30	23.1ch28	24.1ch94	23.1ch92	
+	VDD_GPU_SENSE_1		I/O	22.4ch107	23.3ch29	24.3ch95	23.3ch93	24.1ch31	23.1ch29	24.1ch95	23.1ch93	
+	VDD_GPU_TC		I/O	26.4ch123	25.4ch120	26.4ch59	25.4ch56	26.2ch123	25.2ch120	26.2ch59	25.2ch56	
+	VDD_LOW		DCVSMerged2	20.3sense9	21.3sense9	20.3sense41	21.3sense41	20.1sense9	21.1sense9	20.1sense41	21.1sense41	
+	VDD_LOW_DETECT		N/C									
+	VDD_PCPU		DCVSMerged7	6.3sense2	7.3sense2	6.3sense10	7.3sense10	6.1sense2	7.1sense2	6.1sense10	7.1sense10	
+	VDD_PCPU:C		DCVSMerged5	6.4sense9	7.4sense9	6.4sense1	7.4sense1	6.2sense9	7.2sense9	6.2sense1	7.2sense1	
+	VDD_PCPU_ABSMIN		DCVS	20.4sense35	21.4sense34	20.4sense3	21.4sense2	20.2sense35	21.2sense35	20.2sense3	19.2sense22	
+	VDD_PCPU_ABSMIN_TC		I/O	26.3ch31	23.3ch55	22.4ch8	25.3ch101	26.2ch81	27.1ch36	24.1ch124	23.2ch35	
+	VDD_PCPU_SENSE		I/O	22.4ch80	27.4ch80	26.3ch110	27.4ch16	26.1ch46	27.2ch80	22.2ch16	27.2ch16	
+	VDD_PCPU_SENSE_1		I/O	22.4ch81	27.4ch81	26.3ch111	27.4ch17	26.1ch47	27.2ch81	22.2ch17	27.2ch17	
+	VDD_PCPU_TC		I/O	28.4ch124	27.3ch6	28.4ch60	27.3ch70	28.2ch124	27.1ch6	28.2ch60	27.1ch70	
+	VDD_SOC		DCVSMerged4	10.3sense1	11.3sense1	10.3sense9	11.3sense9	10.1sense1	11.1sense1	10.1sense9	11.1sense9	
+	VDD_SOC:C		DCVSMerged2	10.4sense15	11.4sense15	10.4sense7	11.4sense7	10.2sense15	11.2sense15	10.2sense7	11.2sense7	
+	VDD_SOC_SENSE		I/O	24.3ch38	25.4ch90	22.4ch42	25.4ch26	22.2ch106	27.2ch90	22.2ch42	25.2ch26	
+	VDD_SOC_SENSE_1		I/O	24.3ch39	25.4ch91	22.4ch43	25.4ch27	22.2ch107	27.2ch91	22.2ch43	25.2ch27	
+	VDD_SOC_TC		I/O	22.4ch122	27.3ch7	22.4ch58	27.3ch71	22.2ch122	27.1ch7	22.2ch58	27.1ch71	
+	VDD_SRAM_DETECT		N/C									
+	VDD_SRAM_GPU		DCVSMerged2	10.3sense6	11.3sense6	10.3sense14	11.3sense14	10.1sense6	11.1sense6	10.1sense14	11.1sense14	
+	VDD_SRAM_GPU:C		DCVS	10.4sense11	11.4sense11	10.4sense3	11.4sense3	10.2sense11	11.2sense11	10.2sense3	11.2sense3	
+	VDD_SRAM_GPU_TC		I/O	28.4ch122	29.3ch14	28.4ch58	29.3ch78	28.2ch122	29.1ch14	28.2ch58	29.1ch78	
+	VDD_SRAM_SOC		DCVSMerged3	8.4sense14	9.4sense14	8.4sense6	9.4sense6	8.2sense14	9.2sense14	8.2sense6	9.2sense6	
+	VDD_SRAM_SOC:C		DCVSMerged3	6.4sense14	7.4sense14	6.4sense6	7.4sense6	6.2sense14	7.2sense14	6.2sense6	7.2sense6	
+	VDD_SRAM_SOC_TC		I/O	22.3ch4	25.4ch121	22.3ch68	25.4ch57	22.1ch4	25.2ch121	22.1ch68	25.2ch57	
+	VDD_SRAM_ULPPLL_FLPPLL_SLC		DCVS	20.3sense21	21.3sense29	20.3sense53	21.3sense61	20.1sense21	21.1sense29	20.1sense53	21.1sense61	
+	VDD_SRAM_USB_DEBUG		DCVS	18.3sense14	19.3sense9	18.3sense46	19.3sense41	18.1sense14	19.1sense9	18.1sense46	19.1sense41	
+	VDD_SRAM_VID_PLL		DCVS	20.3sense2	21.4sense56	20.3sense34	21.4sense24	20.1sense2	21.2sense56	20.1sense34	21.2sense24	
+	VDD_SRAM_VIDSEC_PLL		DCVS	20.4sense50	19.3sense10	20.4sense18	19.3sense42	18.1sense13	19.1sense13	18.1sense45	19.1sense45	
+	VDD1		DCVS	20.3sense3	21.4sense54	20.3sense35	21.4sense22	20.1sense3	21.2sense54	20.1sense35	21.2sense22	
+	VDD10_ADC_SOC		DCVS	20.3sense1	19.4sense44	20.3sense33	19.4sense12	20.1sense1	19.2sense44	20.1sense33	19.2sense12	
+	VDD10_AMUX_FMON		DCVS	18.3sense9	19.3sense14	18.3sense41	19.3sense46	18.1sense9	19.1sense14	18.1sense41	19.1sense46	
+	VDD10_CIO		DCVS	20.3sense24	21.3sense24	20.3sense56	21.3sense56	20.1sense24	21.1sense24	20.1sense56	21.1sense56	
+	VDD10_CPLL_SOC		DCVS	18.3sense10	21.4sense50	18.3sense42	21.4sense18	18.1sense10	21.2sense50	18.1sense42	21.2sense18	
+	VDD10_HSCDFT0		DCVS	20.4sense52	21.4sense52	20.4sense20	21.4sense20	20.2sense52	21.2sense52	20.2sense20	21.2sense20	
+	VDD10_HSCDFT1		DCVS	20.3sense22	21.3sense22	20.3sense54	21.3sense54	20.1sense22	21.1sense22	20.1sense54	21.1sense54	
+	VDD10_LPDP_RX_DCVS		DCVSMerged2	20.3sense11	21.3sense11	20.3sense43	21.3sense43	20.1sense11	21.1sense11	20.1sense43	21.1sense43	
+	VDD10_LPDP_TX_INT		DCVS	18.3sense28	19.3sense28	18.3sense60	19.3sense60	18.1sense28	19.1sense28	18.1sense60	19.1sense60	
+	VDD10_LPDP_TX_SEC		DCVS	20.3sense25	19.4sense36	20.3sense57	19.4sense4	20.1sense25	19.2sense36	20.1sense57	19.2sense4	
+	VDD10_PCIE_DCVS		DCVS	20.4sense53	21.4sense53	20.4sense21	21.4sense21	20.2sense53	21.2sense53	20.2sense21	21.2sense21	
+	VDD10_PCIE_REFBUF		DCVS	18.3sense27	19.3sense27	18.3sense59	19.3sense59	18.1sense27	19.1sense27	18.1sense59	19.1sense59	
+	VDD10_PLL		DCVS	18.3sense31	19.4sense42	18.3sense63	19.4sense10	18.1sense31	19.2sense42	18.1sense63	19.2sense10	
+	VDD10_PLL_DDR		DCVS	18.4sense43	19.4sense43	18.4sense11	19.4sense11	18.2sense43	19.2sense43	18.2sense11	19.2sense11	
+	VDD10_SLC_PLL		DCVS	18.4sense44	21.3sense1	18.4sense12	21.3sense33	18.2sense44	21.1sense1	18.2sense12	21.1sense33	
+	VDD10_ULPPLL_FLPPLL		DCVS	20.3sense4	21.3sense4	20.3sense36	21.3sense36	20.1sense4	21.1sense4	20.1sense36	21.1sense36	
+	VDD10_VID_PLL		DCVS	18.3sense32	19.3sense32	18.3sense64	19.3sense64	18.1sense32	19.1sense32	18.1sense64	19.1sense64	
+	VDD10_VIDSEC_PLL		DCVS	18.3sense13	19.3sense13	18.3sense45	19.3sense45	20.2sense50	19.1sense10	20.2sense18	19.1sense42	
+	VDD10_XTAL		DCVS	18.3sense8	19.3sense8	18.3sense40	19.3sense40	18.1sense8	19.1sense8	18.1sense40	19.1sense40	
+	VDDA_EFUSE0		N/C									
+	VDDA_EFUSE1		DCVS	20.4sense57	21.4sense57	20.4sense25	21.4sense25	20.2sense57	21.2sense57	20.2sense25	21.2sense25	
+	VDDA_EFUSE2		DCVS	18.4sense41	19.4sense41	18.4sense9	19.4sense9	18.2sense41	19.2sense41	18.2sense9	19.2sense9	
+	VDDA_EFUSE3		DCVS	20.4sense51	21.4sense51	20.4sense19	21.4sense19	20.2sense51	21.2sense51	20.2sense19	21.2sense19	
+	VDD12_USB		DCVS	18.4sense42	19.3sense31	18.4sense10	19.3sense63	18.2sense42	19.1sense31	18.2sense10	19.1sense63	
+	VDD12_USB_DEBUG		DCVS	20.4sense54	21.3sense3	20.4sense22	21.3sense35	20.2sense54	21.1sense3	20.2sense22	21.1sense35	
+	VDD2		DCVSMerged7	20.4sense58	21.4sense58	20.4sense26	21.4sense26	20.2sense58	21.2sense58	20.2sense26	21.2sense26	
+	VDD2H_SENSE		I/O	26.3ch4	29.4ch112	26.3ch68	29.4ch48	26.1ch4	29.2ch112	26.1ch68	29.2ch48	
+	VDD2H_SENSE_1		I/O	26.3ch5	29.4ch114	26.3ch69	29.4ch50	26.1ch5	29.2ch114	26.1ch69	29.2ch50	
+	VDDA_EFUSE4		DCVS	20.4sense56	21.3sense2	20.4sense24	21.3sense34	20.2sense56	21.1sense2	20.2sense24	21.1sense34	
+	VDDIO12_AOP		DCVSMerged7	18.3sense17	19.3sense1	18.3sense49	19.3sense33	18.1sense17	19.1sense1	18.1sense49	19.1sense33	
+	VDDIO12_AOP_2		DCVSMerged3	20.3sense17	21.3sense17	20.3sense49	21.3sense49	20.1sense17	21.1sense17	20.1sense49	21.1sense49	
+	VDDIO12_GRP		DCVSMerged2	18.3sense25	19.3sense25	18.3sense57	19.3sense57	18.1sense25	19.1sense25	18.1sense57	19.1sense57	
+	VDDQL_DDR		DCVSMerged4	18.4sense37	19.4sense37	18.4sense5	19.4sense5	18.2sense37	19.2sense37	18.2sense5	19.2sense5	
+	VDDQL_SENSE		I/O	22.3ch20	27.4ch112	22.3ch84	27.4ch48	22.1ch20	27.2ch112	22.1ch84	27.2ch48	
+	VDDQL_SENSE_1		I/O	22.3ch21	27.4ch113	22.3ch85	27.4ch49	22.1ch21	27.2ch113	22.1ch85	27.2ch49	
+	VREF_DAPS_PCPU		DCVS	20.4sense34	21.4sense33	20.4sense2	21.4sense1	20.2sense34	21.2sense34	20.2sense2	19.2sense21	
+	VREF_DAPS_PCPU_CORE0		N/C									
+	VREF_DAPS_PCPU_CORE1		N/C									
+	VREF_DAPS_PCPU_CPM		N/C									
+	VSS_1		I/O	28.4ch100	29.3ch26	28.4ch36	27.4ch42	28.2ch100	29.1ch26	28.2ch36	29.2ch16	
+	VSS_1_1		I/O	28.4ch101	29.3ch27	28.4ch37	27.4ch43	28.2ch101	29.1ch27	28.2ch37	29.2ch17	
+	VSS_2		I/O	28.3ch44	27.4ch106	28.3ch108	29.3ch90	28.1ch44	27.2ch106	28.1ch108	29.2ch18	
+	VSS_2_1		I/O	28.3ch45	27.4ch107	28.3ch109	29.3ch91	28.1ch45	27.2ch107	28.1ch109	29.2ch19	
+	VSS_3		I/O	26.4ch98	27.4ch98	26.4ch34	27.4ch34	26.2ch98	27.2ch98	26.2ch34	25.1ch118	
+	VSS_3_1		I/O	26.4ch99	27.4ch99	26.4ch35	27.4ch35	26.2ch99	27.2ch99	26.2ch35	25.1ch119	
+	VSS_4		I/O	24.4ch64	29.4ch98	24.4ch0	29.4ch34	24.2ch64	29.2ch98	24.2ch0	27.2ch42	
+	VSS_4_1		I/O	24.4ch65	29.4ch99	24.4ch1	29.4ch35	24.2ch65	29.2ch99	24.2ch1	27.2ch43	
+	VSS_DCR_1_1		N/C									
+	VSS_DCR_1_1_1		N/C									
+	VSS_DCR_1_2		N/C									
+	VSS_DCR_1_2_1		N/C									
+	VSS_DCR_2_1		N/C									
+	VSS_DCR_2_1_1		N/C									
+	VSS_DCR_2_2		N/C									
+	VSS_DCR_2_2_1		N/C									
+	VSS_DDR_SENSE		I/O	26.3ch22	27.4ch114	26.3ch86	27.4ch50	26.1ch22	27.2ch114	26.1ch86	27.2ch50	
+	VSS_GPU_SENSE		I/O	24.4ch107	29.3ch20	26.3ch103	29.3ch84	26.1ch39	29.1ch20	26.1ch103	29.1ch84	
+	VSS_PCPU_SENSE		I/O	26.3ch38	25.3ch47	26.3ch102	25.3ch111	26.1ch38	25.1ch47	26.1ch102	25.1ch111	
+	VSS_SENSE		I/O	28.3ch9	29.4ch117	28.3ch73	29.4ch53	28.1ch9	29.2ch117	28.1ch73	29.2ch53	
+	VSS_SENSE_1		I/O	28.3ch11	29.4ch119	28.3ch75	29.4ch55	28.1ch11	29.2ch119	28.1ch75	29.2ch55	
+	VSS_SOC_SENSE		I/O	26.3ch39	27.3ch28	24.4ch43	27.3ch92	24.2ch107	27.1ch28	24.2ch43	27.1ch92	
+	VSS_SOC_SENSE_1		I/O	26.4ch97	29.3ch28	26.4ch33	29.3ch92	26.2ch97	29.1ch28	26.2ch33	29.1ch92	
+	WDOG_L		I/O	28.3ch62	23.4ch88	28.3ch126	23.4ch24	28.1ch62	23.2ch88	28.1ch126	23.2ch24	
+	XI0		I/O	24.4ch82	23.3ch4	24.4ch18	23.3ch68	24.2ch82	23.1ch4	24.2ch18	23.1ch68	
+	XI0_PA		N/C									
+	XO0		I/O	24.4ch83	23.3ch5	24.4ch19	23.3ch69	24.2ch83	23.1ch5	24.2ch19	23.1ch69	
+	XO0_PA		N/C									
+	VDD_FIXED_LPDP_RX_DCVI		N/C									
+	VDD_FIXED_LPDP_TX_INT_DCVI		N/C									
+	VDD_FIXED_LPDP_TX_SEC_DCVI		N/C									
+	VDD_FIXED_PCIE_DCVI		N/C									
+	VDD10_LPDP_RX_DCVI		N/C									
+	VDD10_PCIE_DCVI		N/C									

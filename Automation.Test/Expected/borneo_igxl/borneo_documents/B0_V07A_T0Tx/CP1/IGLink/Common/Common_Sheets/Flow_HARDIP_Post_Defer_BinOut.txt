@@ -1,0 +1,80 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						enable-flow-word	HardIPBin																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTS_NBRIDGET2P1																															
+		HardIPBin				Bintable	Bin_HIP_Fuse_Read_Non_Zero_Check																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTS_NBRIDGET2P1A																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTS_NBRIDGET2P1P1																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTS_RBRIDGET3P1																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTS_RBRIDGET3P2																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTS_READT4P1																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTS_TEMPT5P1CP1																															
+		HardIPBin				Bintable	Bin_HIP_MTRICTS_TEMPT5P1P1CP1																															
+		HardIPBin			MN	Bintable	Bin_HIP_MTRICTS_MNPWRT1P1																															
+		HardIPBin			MN	Bintable	Bin_HIP_MTRICTS_MNIREFT1P2																															
+		HardIPBin			MN	Bintable	Bin_HIP_MTRICTS_MNANATESTT1P3NV																															
+		HardIPBin			MN	Bintable	Bin_HIP_MTRICTS_MNOSCT6P1																															
+		HardIPBin				Bintable	Bin_HIP_NTSE_NTSEREADT1P1CP1																															
+		HardIPBin				Bintable	Bin_HIP_NTSE_NTSEREADT1P1FT1																															
+		HardIPBin				Bintable	Bin_HIP_Fuse_Read_Non_Zero_Check																															
+		HardIPBin				Bintable	Bin_HIP_NTSE_NTSEREADT1P1FT2																															
+		HardIPBin				Bintable	Bin_HIP_NTSE_NTSEREADT2																															
+		HardIPBin			MN	Bintable	Bin_HIP_NTSE_MNNTSEREADT1P0																															
+		HardIPBin				Bintable	Bin_HIP_NTSR_NTSRREADT1P1CP1																															
+		HardIPBin				Bintable	Bin_HIP_Fuse_Read_Non_Zero_Check																															
+		HardIPBin				Bintable	Bin_HIP_NTSR_NTSRREADT1P1FT1																															
+		HardIPBin				Bintable	Bin_HIP_NTSR_NTSRREADT1P1CP2																															
+		HardIPBin				Bintable	Bin_HIP_NTSR_NTSRREADT1P1FT2																															
+		HardIPBin				Bintable	Bin_HIP_NTSR_NTSRREADT2																															
+		HardIPBin			MN	Bintable	Bin_HIP_NTSR_MNNTSRREADT1P0																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_SIOAOP																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_SIOMTP																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_SIOSIO																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_SIOQSPIMC																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_SIODISP																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_SIODISPSEC																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_XX																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_DELAYEN																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_SELSRAMMEMON																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_SELSRAMMEMOFF																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_TBBACC																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_TBBANE																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_TBBGFX																															
+		HardIPBin	!CP2			Bintable	Bin_HIP_MISC_ATBOFMS																															
+		HardIPBin				Bintable	Bin_HIP_NTSX_NTST1																															
+		HardIPBin				Bintable	Bin_HIP_Fuse_Read_Non_Zero_Check																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWRDIGCSOCHINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWRDIGCSOCH																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWRADIGCSOCLINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWRDIGCSOCL																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWRDIGCSRAMHINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWRDIGCSRAMH																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWRDIGCSRAMLINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWRDIGCSRAML																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWREXPHSOCINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWREXPHSOC																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWREXPHSRAMINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWREXPHSRAM																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWREXPLSOCINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWREXPLSOC																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWREXPLSRAMINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWREXPLSRAM																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_DIGCCPUINITH																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPDIGCCPUH																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_DIGCCPUINITL																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPDIGCCPUL																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_DIGCRESTINITH																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPDIGCRESTH																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWRDIGCRESTINITL																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWRDIGCRESTL																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWREXPHCPUINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWREXPHCPU																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWREXPLCPUINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWREXPLCPU																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWREXPHRESTINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWREXPHREST																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PWREXPLRESTINIT																															
+		HardIPBin				Bintable	Bin_HIP_PWRDET_PPPWREXPLREST																															
+						return																																

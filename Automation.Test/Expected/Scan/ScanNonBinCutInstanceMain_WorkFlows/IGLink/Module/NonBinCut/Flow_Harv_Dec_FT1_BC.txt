@@ -1,0 +1,174 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						flag-false	Bin01																															
+						flag-false	Bin05																															
+						flag-false	Bin06																															
+						flag-false	Bin07																															
+						flag-false	Bin09																															
+						flag-false	Bin10																															
+						flag-false	Bin11																															
+						flag-false	Bin12																															
+						flag-false	Bin13																															
+						flag-false	Bin14																															
+						flag-false	Bin15																															
+						flag-false	Bin16																															
+						flag-false	F_Bin01_FullFunctional																															
+						flag-false	F_Bin05_1FSTP																															
+						flag-false	F_Bin06_1PCPU																															
+						flag-false	F_Bin07_1ECPU																															
+						flag-false	F_Bin09_IS																															
+						flag-false	F_Bin10_ED																															
+						flag-false	F_Bin11_PD																															
+						flag-false	F_Bin12_SD																															
+						flag-false	F_Bin13_PR																															
+						flag-false	F_Bin14_PIS																															
+						flag-false	F_Bin15_GW																															
+						flag-false	F_Bin16_1ANE																															
+						flag-false	F_Bin101_FullFunctional																															
+						flag-false	F_Bin105_1FSTP																															
+						flag-false	F_Bin106_1PCPU																															
+						flag-false	F_Bin107_1ECPU																															
+						flag-false	F_Bin109_IS																															
+						flag-false	F_Bin110_ED																															
+						flag-false	F_Bin111_PD																															
+						flag-false	F_Bin112_SD																															
+						flag-false	F_Bin113_PR																															
+						flag-false	F_Bin114_PIS																															
+						flag-false	F_Bin115_GW																															
+						flag-false	F_Bin116_1ANE0																															
+						call	Flow_FlagOperation																															
+						Test	Harvest_Summary_Before_Harvesting_Decision_BC																															
+						call	Flow_FlagOperation_Post																															
+						If	!F_GFX0_HARV_CORE_6_0_SUM&&!F_PCPU_HARV_CORE_1_0_SUM&&!F_ECPU_HARV_CORE_3_0_SUM&&!F_ANE1_HARV_CORE_16_0_SUM&&!F_ANE0_HARV_CORE_16_0_SUM&&!F_ANEX_HARV_CORE_33_0_SUM																															
+						If	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin01																															
+						flag-true	F_Bin01_FullFunctional																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_1 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin05																															
+						flag-true	F_Bin05_1FSTP																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_1 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin06																															
+						flag-true	F_Bin06_1PCPU																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_1 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin07																															
+						flag-true	F_Bin07_1ECPU																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin09																															
+						flag-true	F_Bin09_IS																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin10																															
+						flag-true	F_Bin10_ED																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin11																															
+						flag-true	F_Bin11_PD																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin12																															
+						flag-true	F_Bin12_SD																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin13																															
+						flag-true	F_Bin13_PR																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin14																															
+						flag-true	F_Bin14_PIS																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin15																															
+						flag-true	F_Bin15_GW																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To17 && F_ANE0_HARV_CORE_16_0_SUM_0To17 && F_ANEX_HARV_CORE_33_0_SUM_0To34 && F_ANE1_HARV_CNTR && F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin16																															
+						flag-true	F_Bin16_1ANE																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin01																															
+						flag-true	F_Bin101_FullFunctional																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_1 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin05																															
+						flag-true	F_Bin105_1FSTP																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_1 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin06																															
+						flag-true	F_Bin106_1PCPU																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_1 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin07																															
+						flag-true	F_Bin107_1ECPU																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin09																															
+						flag-true	F_Bin109_IS																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin10																															
+						flag-true	F_Bin110_ED																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin11																															
+						flag-true	F_Bin111_PD																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin12																															
+						flag-true	F_Bin112_SD																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin13																															
+						flag-true	F_Bin113_PR																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin14																															
+						flag-true	F_Bin114_PIS																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE1_HARV_CNTR && !F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin15																															
+						flag-true	F_Bin115_GW																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_6_0_SUM_0 && F_PCPU_HARV_CORE_1_0_SUM_0 && F_ECPU_HARV_CORE_3_0_SUM_0 && !F_SOC_HARV_IS && !F_SOC_HARV_ED && !F_SOC_HARV_PD && !F_SOC_HARV_SD && !F_SOC_HARV_PR && !F_SOC_HARV_PIS && !F_SOC_HARV_GW && F_ANE1_HARV_CORE_16_0_SUM_0To17 && F_ANE0_HARV_CORE_16_0_SUM_0To17 && F_ANEX_HARV_CORE_33_0_SUM_0To34 && F_ANE1_HARV_CNTR && F_ANE0_HARV_CNTR && !F_ANEX_HARV_ALL_AND && F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin16																															
+						flag-true	F_Bin116_1ANE0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_FT1																															
+						Else																																
+						flag-true	F_Harvest_Other_Combination																															
+						Bintable	Bin_other_Harvest_Unexpected_Combination_Failure																															
+						EndIf																																
+						Else																																
+						flag-true	F_Harvest_Other_Combination																															
+						Bintable	Bin_other_Harvest_Unexpected_Combination_Failure																															
+						EndIf																																
+						Test	Harvest_Summary_After_Harvesting_Decision_BC																															
+						Return																																

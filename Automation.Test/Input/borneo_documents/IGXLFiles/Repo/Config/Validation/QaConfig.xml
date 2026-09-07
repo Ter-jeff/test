@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QaSetting>
+	<CP>
+		<SelectListItem key ="ELB" content="PCIE,LPDPRX,D2M,CIO"/>
+		<SelectListItem key = "TRIM" content="SEPVM"/>
+		<SelectListItem key = "CAL" content="MIPI,RLXOSC,D2M"/>
+	</CP>
+	<FT>
+		<SelectListItem key ="ELB" content="PCIE,LPDPRX,D2M,CIO"/>
+		<SelectListItem key = "TRIM" content="SEPVM"/>
+		<SelectListItem key = "CAL" content="MIPI,RLXOSC,D2M"/>
+	</FT>
+	<EnabledWord>
+		<SelectListItem key ="Instance" content="MTRTSNS_TFECALT3P2_PP_STNA0_C_FULP_AN_AK01_DLL_JTG_T00_ALLFRV_SI_TFECAL_T3P2_NV"/>
+	</EnabledWord>
+</QaSetting>

@@ -1,0 +1,7 @@
+DTPatternSubroutineSheet,version=2.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Pattern Subroutine			
+				
+	Pattern Filename	Comment		
+	.\PATTERN\RTOS\otc_spi_pertos_test_done_match_loop_otc.PAT			
+	.\PATTERN\RTOS\otc_spi_pertos_cmd_done_match_loop.PAT			
+	.\PATTERN\RTOS\otc_spi_pertos_ready_wait_loop_otc.PAT			
+	.\PATTERN\RTOS\otc_spi_relay_switch_wait_loop_otc.PAT			

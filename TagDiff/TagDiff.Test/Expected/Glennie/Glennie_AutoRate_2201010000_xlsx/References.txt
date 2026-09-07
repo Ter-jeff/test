@@ -1,0 +1,12 @@
+DTReferencesSheet,version=2.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	References	=HYPERLINK("#'Data'!1:1","Return")	
+			
+	File Path	Comment	
+P	C:\WINDOWS\system32\scrrun.dll		
+P	C:\WINDOWS\system32\vbscript.dll\3		
+F	.\UR89_CP1_X16_E02_250822_V02A_PROD_BCV0P1_25C\bin\Teradyne.TestAPI.IGXL.Versions.10.60.00.dll		
+F	.\UR89_CP1_X16_E02_250822_V02A_PROD_BCV0P1_25C\bin\Teradyne.TestAPI.UltraFLEX.dll		
+F	.\UR89_CP1_X16_E02_250822_V02A_PROD_BCV0P1_25C\bin\Teradyne.TestAPI.dll		
+F	.\UR89_CP1_X16_E02_250822_V02A_PROD_BCV0P1_25C\bin\PlatformInterfacesLibrary.dll		
+F	.\UR89_CP1_X16_E02_250822_V02A_PROD_BCV0P1_25C\bin\CoreTestLibrary.dll		
+F	.\UR89_CP1_X16_E02_250822_V02A_PROD_BCV0P1_25C\bin\PlatformCommonTestLibrary.dll		
+F	.\UR89_CP1_X16_E02_250822_V02A_PROD_BCV0P1_25C\bin\UltraFlexTestLibrary.dll		

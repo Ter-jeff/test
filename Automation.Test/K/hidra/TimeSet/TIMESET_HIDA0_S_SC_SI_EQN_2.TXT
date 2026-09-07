@@ -1,0 +1,781 @@
+DFF 1.4	Time Sets (Basic)																
+																	
+	Timing Mode:	Single		Master Timeset Name:													
+	Time Domain:																
+																	
+		Cycle	Pin Group			Data		Drive				Compare			Edge Resolution		
+	Time Set	Period	Name	Clock Period	Setup	Src	Fmt	On	Data	Return	Off	Mode	Open	Close	Mode	Comment	
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AON_SLEEP1_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	ATC0_HPD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	ATC1_HPD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	ATC2_HPD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	ATC3_HPD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	CFSB		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	CFSB_AON		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DFU_STATUS		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_FSYNC		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_GEN0		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_GEN1		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_GEN2		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_HPD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_INT		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_LSYNC		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_PANEL_HEALTH		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_POL		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_SPI_MISO		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_SPI_MOSI		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_SPI_SCLK		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_SPI_SSIN		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	DISP_TOUCH_EB		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	FPWM0		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	FPWM1		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	FPWM2		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	HOLD_RESET		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	I2C0_SCL		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	I2C0_SDA		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	I2C1_SCL		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	I2C1_SDA		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	I2C4_SCL		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	I2C4_SDA		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	JTAG_TCK		i/o	PAT	RL	0	=(1/_ShiftIn_Freq_VAR)*0.200	=(1/_ShiftIn_Freq_VAR)*0.700		Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SPMI1_SDATA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	RT_CLK32768		i/o	PAT	RL	0	=(1/_ShiftIn_Freq_VAR)*0.200	=(1/_ShiftIn_Freq_VAR)*0.700		Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SGPIO0		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SGPIO1		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SGPIO2		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SI2C0_SCL		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SI2C0_SDA		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SOCHOT1_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI2_MISO		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI2_MOSI		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI2_SCLK		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI2_SSIN		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI3_MISO		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI3_MOSI		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI3_SCLK		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI3_SSIN		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI4_MISO		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI4_MOSI		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI4_SCLK		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI4_SSIN		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI5_MISO		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI5_MOSI		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI5_SCLK		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SPI5_SSIN		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SS_HOSTMODE		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SS_RST_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SWD_TCK_OUT4		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SWD_TMS5		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SWD_TMS6		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	SWD_TMS7		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	THROTTLE_TRIGGER0_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	THROTTLE_TRIGGER1_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	THROTTLE_TRIGGER2_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	THROTTLE_TRIGGER3_L		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART0_RXD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART0_TXD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART3_CTSN		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART3_RTSN		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART3_RXD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART3_TXD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART4_RXD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART4_TXD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART5_RXD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART5_TXD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART6_RXD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	UART6_TXD		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)			Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	XI0		i/o	PAT	RL	0	=(1/_ShiftIn_Freq_VAR)*0.200	=(1/_ShiftIn_Freq_VAR)*0.700		Off			Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	JTAG_TDO		i/o	PAT	NR	0	0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO25		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO24		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO23		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO22		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO21		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO20		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO19		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO18		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO17		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO16		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO15		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO14		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO13		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO12		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO11		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO10		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO9		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO8		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO7		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO6		i/o	PAT	NR	0	=(_SDATA_IN/_ShiftIn_Freq_VAR)		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO5		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO4		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO3		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO2		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO1		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	GPIO0		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO15		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO14		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO13		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO12		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO11		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO10		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO9		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO8		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO7		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO6		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO5		i/o	PAT	RL	0	2.0E-09	7.0E-09	0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO4		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO3		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO2		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO1		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	NUB_SCM_IO0		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO15		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO14		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO13		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO12		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO11		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO10		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO9		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO8		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO7		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO6		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO5		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO4		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO3		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO2		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO1		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETSHIFT	=(1/_ShiftIn_Freq_VAR)	AOP_SCM_IO0		i/o	PAT	NR	0	0.0		0	Window	=(_SDATA_OUT/_ShiftIn_Freq_VAR)	1.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AON_SLEEP1_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC0_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC1_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC2_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC3_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	CFSB		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	CFSB_AON		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DFU_STATUS		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_FSYNC		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_GEN0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_GEN1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_GEN2		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_INT		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_LSYNC		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_PANEL_HEALTH		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_POL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_SPI_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_SPI_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_SPI_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_SPI_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	DISP_TOUCH_EB		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	FPWM0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	FPWM1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	FPWM2		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	HOLD_RESET		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	I2C0_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	I2C0_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	I2C1_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	I2C1_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	I2C4_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	I2C4_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	JTAG_TCK		i/o	PAT	RL	0	=(1/_JTAG_FREQ)*0.240	=(1/_JTAG_FREQ)*0.720		Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SPMI1_SDATA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	RT_CLK32768		i/o	PAT	RL	0	=(1/_JTAG_FREQ)*0.240	=(1/_JTAG_FREQ)*0.720		Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SGPIO0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SGPIO1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SGPIO2		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SI2C0_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SI2C0_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SOCHOT1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI2_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI2_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI2_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI2_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI3_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI3_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI3_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI3_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI4_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI4_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI4_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI4_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI5_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI5_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI5_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SPI5_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SS_HOSTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SS_RST_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SWD_TCK_OUT4		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SWD_TMS5		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SWD_TMS6		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	SWD_TMS7		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	THROTTLE_TRIGGER0_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	THROTTLE_TRIGGER1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	THROTTLE_TRIGGER2_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	THROTTLE_TRIGGER3_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART0_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART0_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART3_CTSN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART3_RTSN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART3_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART3_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART4_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART4_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART5_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART5_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART6_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	UART6_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	XI0		i/o	PAT	RL	0	=(1/_JTAG_FREQ)*0.240	=(1/_JTAG_FREQ)*0.720		Off			Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	JTAG_TDO		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO25		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO24		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO23		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO22		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO21		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO20		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO19		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO18		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO17		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO16		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO15		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO14		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO13		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO12		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO11		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO10		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO9		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO8		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO7		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO6		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO5		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO4		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO3		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO2		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO1		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	GPIO0		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO15		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO14		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO13		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO12		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO11		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO10		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO9		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO8		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO7		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO6		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO5		i/o	PAT	RL	0	10.0E-09	30.0E-09	0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO4		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO3		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO2		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO1		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	NUB_SCM_IO0		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO15		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO14		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO13		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO12		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO11		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO10		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO9		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO8		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO7		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO6		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO5		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO4		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO3		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO2		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO1		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SCM_IO0		i/o	PAT	NR	0	0.0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2CM0_SCL		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2CM0_SDA		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2CM1_SCL		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2CM1_SDA		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2CM2_SCL		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2CM2_SDA		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2CM3_SCL		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2CM3_SDA		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S0_BCLK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S0_DIN		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S0_DOUT		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S0_LRCK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S0_MCK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S1_MCK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S2_BCLK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S2_DIN		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S2_DOUT		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S2_LRCK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S2_MCK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S3_BCLK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S3_DIN		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S3_DOUT		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S3_LRCK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S4_BCLK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S4_DIN		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S4_DOUT		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S4_LRCK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S5_BCLK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S5_DIN		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S5_DOUT		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_I2S5_LRCK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SPI0_MISO		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SPI0_MOSI		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SPI0_SCLK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SPI1_MISO		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SPI1_MOSI		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SPI1_SCLK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SPMI0_SCLK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SPMI0_SDATA		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SPMI1_SCLK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_SPMI1_SDATA		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_UART0_RXD		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_UART0_TXD		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_UART1_RXD		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_UART1_TXD		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_UART2_RXD		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	AOP_UART2_TXD		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC0_LSRX		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC0_LSTX		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC1_LSRX		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC1_LSTX		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC2_LSRX		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC2_LSTX		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC3_LSRX		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	ATC3_LSTX		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MIC_DISABLE_L		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MIC_DISABLE_WARN_L		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_FUNC0		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_FUNC1		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_FUNC2		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_FUNC3		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_FUNC4		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_FUNC5		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_FUNC6		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_FUNC7		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_I2C0_SCL		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_I2C0_SDA		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_SPI0_MISO		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_SPI0_MOSI		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETJTAGG	=(1/_JTAG_FREQ)	MTP_SPI0_SCLK		i/o	PAT	NR	0	0		0	Window	=(1/_JTAG_FREQ)*0.210	9.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AON_SLEEP1_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	ATC0_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	ATC1_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	ATC2_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	ATC3_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	CFSB		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	CFSB_AON		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DFU_STATUS		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_FSYNC		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_GEN0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_GEN1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_GEN2		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_INT		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_LSYNC		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_PANEL_HEALTH		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_POL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_SPI_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_SPI_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_SPI_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_SPI_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	DISP_TOUCH_EB		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	FPWM0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	FPWM1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	FPWM2		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	HOLD_RESET		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	I2C0_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	I2C0_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	I2C1_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	I2C1_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	I2C4_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	I2C4_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	JTAG_TCK		i/o	PAT	RL	0	=(1/_CAPTURE_FREQ)*0.500	=(1/_CAPTURE_FREQ)*0.900		Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SPMI1_SDATA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	RT_CLK32768		i/o	PAT	RL	0	=(1/_CAPTURE_FREQ)*0.500	=(1/_CAPTURE_FREQ)*0.900		Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SGPIO0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SGPIO1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SGPIO2		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SI2C0_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SI2C0_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SOCHOT1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI2_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI2_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI2_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI2_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI3_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI3_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI3_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI3_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI4_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI4_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI4_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI4_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI5_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI5_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI5_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SPI5_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SS_HOSTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SS_RST_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SWD_TCK_OUT4		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SWD_TMS5		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SWD_TMS6		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	SWD_TMS7		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	THROTTLE_TRIGGER0_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	THROTTLE_TRIGGER1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	THROTTLE_TRIGGER2_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	THROTTLE_TRIGGER3_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART0_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART0_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART3_CTSN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART3_RTSN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART3_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART3_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART4_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART4_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART5_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART5_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART6_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	UART6_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	XI0		i/o	PAT	RL	0	=(1/_CAPTURE_FREQ)*0.500	=(1/_CAPTURE_FREQ)*0.900		Off			Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	JTAG_TDO		i/o	PAT	NR	0	0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO25		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO24		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO23		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO22		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO21		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO20		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO19		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO18		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO17		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO16		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO15		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO14		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO13		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO12		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO11		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO10		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO9		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO8		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO7		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO6		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO5		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO4		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO3		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO2		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO1		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	GPIO0		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO15		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO14		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO13		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO12		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO11		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO10		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO9		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO8		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO7		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO6		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO5		i/o	PAT	RL	0	50.0E-09	90.0E-09	0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO4		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO3		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO2		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO1		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	NUB_SCM_IO0		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO15		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO14		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO13		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO12		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO11		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO10		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO9		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO8		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO7		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO6		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO5		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO4		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO3		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO2		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO1		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETCAPTR	=(1/_CAPTURE_FREQ)	AOP_SCM_IO0		i/o	PAT	NR	0	0.0		0	Window	=(1/_CAPTURE_FREQ)*0.49	49.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AON_SLEEP1_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	ATC0_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	ATC1_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	ATC2_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	ATC3_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	CFSB		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	CFSB_AON		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	CFSB_XTAL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	COLD_RESETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DBG_PROBE_VALID		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR0_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR0_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR1_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR1_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR2_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR2_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR3_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR3_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR4_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR4_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR5_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR5_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR6_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR6_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR7_RETN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DDR7_SYS_ALIVE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DFU_STATUS		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_FSYNC		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_GEN0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_GEN1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_GEN2		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_HPD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_INT		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_LSYNC		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_PANEL_HEALTH		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_POL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_SPI_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_SPI_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_SPI_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_SPI_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_TOUCH_BSYNC0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_TOUCH_BSYNC1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	DISP_TOUCH_EB		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	FPWM0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	FPWM1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	FPWM2		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GP_PCIE_CLKREQ0_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GP_PCIE_CLKREQ1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GP_PCIE_CLKREQ2_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GP_PCIE_PERST0_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GP_PCIE_PERST1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GP_PCIE_PERST2_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	HOLD_RESET		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	I2C0_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	I2C0_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	I2C1_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	I2C1_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	I2C4_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	I2C4_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	JTAG_SEL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	JTAG_TCK		i/o	PAT	RL	0	=(1/_PRESHIFT_FREQ)*0.200	=(1/_PRESHIFT_FREQ)*0.700		Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	JTAG_TDI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	JTAG_TMS		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	JTAG_TRSTN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_DOCK_CONNECT		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SPMI1_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SPMI1_SDATA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	RT_CLK32768		i/o	PAT	RL	0	=(1/_PRESHIFT_FREQ)*0.200	=(1/_PRESHIFT_FREQ)*0.700		Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SGPIO0		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SGPIO1		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SGPIO2		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SI2C0_SCL		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SI2C0_SDA		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SOCHOT1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI2_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI2_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI2_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI2_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI3_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI3_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI3_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI3_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI4_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI4_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI4_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI4_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI5_MISO		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI5_MOSI		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI5_SCLK		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SPI5_SSIN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SS_HOSTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SS_RST_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SWD_TCK_OUT4		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SWD_TMS5		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SWD_TMS6		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	SWD_TMS7		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	TESTMODE		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	THROTTLE_TRIGGER0_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	THROTTLE_TRIGGER1_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	THROTTLE_TRIGGER2_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	THROTTLE_TRIGGER3_L		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART0_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART0_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART3_CTSN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART3_RTSN		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART3_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART3_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART4_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART4_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART5_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART5_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART6_RXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	UART6_TXD		i/o	PAT	NR	0	0			Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	XI0		i/o	PAT	RL	0	=(1/_PRESHIFT_FREQ)*0.200	=(1/_PRESHIFT_FREQ)*0.700		Off			Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	JTAG_TDO		i/o	PAT	NR	0	0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO25		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO24		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO23		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO22		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO21		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO20		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO19		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO18		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO17		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO16		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO15		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO14		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO13		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO12		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO11		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO10		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO9		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO8		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO7		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO6		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO5		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO4		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO3		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO2		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO1		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	GPIO0		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO15		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO14		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO13		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO12		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO11		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO10		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO9		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO8		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO7		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO6		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO5		i/o	PAT	RL	0	20.0E-09	70.0E-09	0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO4		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO3		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO2		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO1		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	NUB_SCM_IO0		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO15		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO14		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO13		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO12		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO11		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO10		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO9		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO8		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO7		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO6		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO5		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO4		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO3		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO2		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO1		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+	TSETPRESH	=(1/_PRESHIFT_FREQ)	AOP_SCM_IO0		i/o	PAT	NR	0	0.0		0	Window	=(1/_PRESHIFT_FREQ)*0.010	1.0E-09	Auto		
+/* VAR Definitions */
+	POSTSHIFT_FREQ	= 10
+	ShiftIn_Freq_VAR	= 50
+	JTAG_FREQ	= 23.809524
+	DELAY_FREQ	= 10
+	CAPTURE_FREQ	= 10
+	PRESHIFT_FREQ	= 10
+	TSET_NU_FREQ	= 10
+	SCLK_RISE	= 0.200
+	SCLK_FALL	= 0.700
+	SDATA_IN	= 0.100
+	SDATA_OUT	= 0.100

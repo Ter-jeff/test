@@ -1,0 +1,10 @@
+Type	Parameter	X:11 Y:13
+P_Total	PwrScreen_CS100F_Power_Binning_P_total	NaN
+P_Total	PwrScreen_G124_Power_Binning_P_total	NaN
+P_Total	PwrScreen_SJ_Power_Binning_P_total	NaN
+		
+		
+		
+PowerBinning Check		F
+IsPowerBinningFail		P
+IsPowerBinningBinXFail		N/A

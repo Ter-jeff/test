@@ -1,0 +1,58 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						set-alarm-bin										21		998																				
+						set-error-bin										21		999																				
+						create-site-var	Flag_OTPRead																															
+						assign-site-var	Flag_OTPRead -1																															
+						create-site-var	RunTrim																															
+						assign-site-var	RunTrim -1																															
+						call	FLOW_OTP_desc_bit_check																															
+						If	Flag_OTPRead=0																															
+						Test	OTP_Read_ALL_SetOTPdata_OneShot		5000												F_OTP_REG_LAG1_idx																	
+						EndIf																																
+						create-integer	SrcCodeIndx1																															
+						create-site-var	SelSrm_LP_Var																															
+						create-site-var	SEL_PAT_END																															
+						create-site-var	SEL_CASE_End																															
+						create-site-var	SEL_CASE_CNT																															
+						Bintable																																
+					X	Nop	Flow_Table_Main_Init_EnableWd																															
+					X	Nop	Flow_Table_Main_Init_Flows																															
+					X	Nop	Flow_Table_Write_SPIROM_Main																														Missing this Flow during AutoGen	
+						Test	Relay_module																															
+						call	module																															
+						call	Flow_DC_Conti																														Missing this Flow during AutoGen	
+						call	Flow_eFuse_BC_4_EVS																															
+Efuse		!Pgm2File	!CP1			call	Flow_efuse_BankRead																															
+Efuse		!Disable_eFuse_BKM	CP1,CP2			Test	BKM_CP														F_BKM_Fail																	
+Efuse		!Disable_eFuse_BKM	CP1,CP2			Bintable	Bin_EFUSE_BKM_Fail																															
+Efuse		Pgm2File	!CP1			Test	PseudoFuse_ReadFromFile														F_ReadFromFile																	
+Efuse		Pgm2File	!CP1			Bintable	Bin_EFUSE_ReadFromFile																															
+Efuse		!Pgm2File	CP1,CP2			nop	Flow_efuse_EVS_All_Blank_Check																															
+Efuse		!Pgm2File&&!Char_CP	CP1			nop	Flow_efuse_ECID_Deid																															
+Efuse		!Pgm2File&&!Char_CP				call	Flow_efuse_ECID																															
+					X	Nop	Flow_Scan																														Missing this Flow during AutoGen	
+					X	Nop	Flow_Mbist																														Missing this Flow during AutoGen	
+					X	Nop	Flow_DCTEST_GPIO																														Missing this Flow during AutoGen	
+					X	Nop	Flow_SPI																														Missing this Flow during AutoGen	
+					X	Nop	Flow_Vddbinning																														Missing this Flow during AutoGen	
+					X	Nop	Flow_eFuse_ECID_All_Blank_Check																														Missing this Flow during AutoGen	
+					X	Nop	Flow_eFuse																														Missing this Flow during AutoGen	
+					X	Nop	Flow_AAA																														Missing this Flow during AutoGen	
+		SelSram			X	Nop	Flow_SelSram																														Missing this Flow during AutoGen	
+						if	!F_ECID_All_BC																															
+					X	Nop	Flow_EVS																														Missing this Flow during AutoGen	
+						endif																																
+					X	Nop	Flow_eFuse_IDS_Bincut_PreCheck																														Missing this Flow during AutoGen	
+		Enable_ApplyVoltageFromBinCut				call	Flow_Post_IDS_EQN_Voltage																															
+					X	Nop	FLOW_HARDIP_TESTRUN01																														Missing this Flow during AutoGen	
+Efuse		eFuse_Check_Allbank_Enable				Test	EFUSE_Check_Allbank_PatternFlag														F_Check_PatternFlag																	
+Efuse		eFuse_Check_Allbank_Enable				Bintable	Bin_EFUSE_Check_PatternFlag																															
+Efuse		!BypReTestCheck				Test	GoodBin_Retest_Detection														F_EFUSE_GoodBin_Retest																	
+Efuse		!BypReTestCheck				Bintable	Bin_EFUSE_GoodBin_Retest																															
+		CZ_ENABLE			X	Nop	ShiftInVs																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						call	Flow_Table_Main_Init_Var																														Didn't specify in Flow_Main sheet(TestPlan)!	
+						limits-all																																
+						set-device									1		1		Pass																			

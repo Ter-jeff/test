@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UltraFlexTestLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:UltraFlexTestLibrary.UFCaptureSetupTesterIO">
+            <summary>
+            Implements Capture Config for UltraFLex
+            </summary>
+            <seealso cref="T:PlatformCommonTestLibrary.CaptureSetupIO" />
+        </member>
+        <member name="M:UltraFlexTestLibrary.UFCaptureSetupTesterIO.SetCaptureConfig(PlatformInterfacesLibrary.CaptureSetupMemType,System.Int32)">
+            <summary>
+            Sets the capture configuration.
+            </summary>
+            <param name="memType">Enum that defines the type of Hardware to use.</param>
+            <param name="captureSize">Size of the capture.</param>
+        </member>
+        <member name="M:UltraFlexTestLibrary.UFCaptureSetupTesterIO.SsnCmemSetup(System.Int32)">
+            <summary>
+            Setup CMEM for SSN
+            </summary>
+            <param name="captureLimit">The capture limit.</param>
+        </member>
+        <member name="M:UltraFlexTestLibrary.UFCaptureSetupTesterIO.SsnCmemReset">
+            <summary>
+            Resets CMEM for SSN
+            </summary>
+        </member>
+        <member name="T:UltraFlexTestLibrary.UFDataManagerIO">
+            <summary>
+            
+            </summary>
+            <seealso cref="T:UltraFlexTestLibrary.UFDataManagerIO" />
+        </member>
+        <member name="M:UltraFlexTestLibrary.UFDataManagerIO.SsnDatalogSetup(System.Int32)">
+            <summary>
+            Setup Scan setup <see cref="T:UltraFlexTestLibrary.UFDataManagerIO"/> class.
+            </summary>
+        </member>
+        <member name="T:UltraFlexTestLibrary.UFPatternsTesterIO">
+            <summary>
+            
+            </summary>
+            <seealso cref="T:PlatformCommonTestLibrary.PatternsTesterIO" />
+        </member>
+        <member name="M:UltraFlexTestLibrary.UFPatternsTesterIO.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:UltraFlexTestLibrary.UFPatternsTesterIO"/> class.
+            </summary>
+        </member>
+        <member name="M:UltraFlexTestLibrary.UFPatternsTesterIO.PatternSetToArray(System.String,System.Boolean,System.String[]@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:UltraFlexTestLibrary.UFTesterIO">
+            <summary>
+            UltraFlex Implementation
+            </summary>
+            <seealso cref="T:PlatformCommonTestLibrary.PlatformTesterIO" />
+        </member>
+        <member name="M:UltraFlexTestLibrary.UFTesterIO.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:UltraFlexTestLibrary.UFTesterIO"/> class.
+            </summary>
+        </member>
+        <member name="P:UltraFlexTestLibrary.UFTesterIO.PatternsTesterIO">
+            <summary>
+            Gets the patterns tio.
+            </summary>
+            <value>
+            The patterns tio.
+            </value>
+        </member>
+        <member name="P:UltraFlexTestLibrary.UFTesterIO.CaptureSetupIO">
+            <summary>
+            Gets the capture setup tio.
+            </summary>
+            <value>
+            The capture setup tio.
+            </value>
+        </member>
+        <member name="P:UltraFlexTestLibrary.UFTesterIO.DataManager">
+            <summary>
+            Gets the DataManager.
+            </summary>
+            <value>
+            The capture setup tio.
+            </value>
+        </member>
+    </members>
+</doc>

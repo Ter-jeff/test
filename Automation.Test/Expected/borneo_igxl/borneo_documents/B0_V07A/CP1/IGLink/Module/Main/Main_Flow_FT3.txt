@@ -1,0 +1,125 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						set-alarm-bin										21		998																				
+						set-error-bin										21		999																				
+						Test	InitTestTimeUtility																															
+						create-integer	EVS_INDEX																															
+						assign-integer	EVS_INDEX 0																															
+						create-integer	EVS_MAX_Step																															
+						assign-integer	EVS_MAX_Step 0																															
+						create-integer	SrcCodeIndx																															
+						assign-integer	SrcCodeIndx 0																															
+						create-integer	SrcCodeIndx0																															
+						assign-integer	SrcCodeIndx0 0																															
+						create-integer	SrcCodeIndx1																															
+						assign-integer	SrcCodeIndx1 0																															
+						create-integer	SrcCodeIndx2																															
+						assign-integer	SrcCodeIndx2 0																															
+						create-site-var	CFGChk_Var																															
+						assign-site-var	CFGChk_Var 0																															
+						create-site-var	ECIDChk_Var																															
+						assign-site-var	ECIDChk_Var 0																															
+						create-site-var	Efuse_config_Current																															
+						assign-site-var	Efuse_config_Current 0																															
+						create-site-var	Efuse_config_Early																															
+						assign-site-var	Efuse_config_Early 0																															
+						create-site-var	Efuse_config_Future																															
+						assign-site-var	Efuse_config_Future 0																															
+						create-site-var	Efuse_config_Previous																															
+						assign-site-var	Efuse_config_Previous 0																															
+						create-site-var	Efuse_ecid_Current																															
+						assign-site-var	Efuse_ecid_Current 0																															
+						create-site-var	Efuse_ecid_Future																															
+						assign-site-var	Efuse_ecid_Future 0																															
+						create-site-var	Efuse_ecid_Previous																															
+						assign-site-var	Efuse_ecid_Previous 0																															
+						create-site-var	Efuse_mon_Current																															
+						assign-site-var	Efuse_mon_Current 0																															
+						create-site-var	Efuse_mon_Early																															
+						assign-site-var	Efuse_mon_Early 0																															
+						create-site-var	Efuse_mon_Future																															
+						assign-site-var	Efuse_mon_Future 0																															
+						create-site-var	Efuse_mon_Previous																															
+						assign-site-var	Efuse_mon_Previous 0																															
+						create-site-var	Efuse_udr_e_Current																															
+						assign-site-var	Efuse_udr_e_Current 0																															
+						create-site-var	Efuse_udr_e_Future																															
+						assign-site-var	Efuse_udr_e_Future 0																															
+						create-site-var	Efuse_udr_e_Previous																															
+						assign-site-var	Efuse_udr_e_Previous 0																															
+						create-site-var	Efuse_udr_p_Current																															
+						assign-site-var	Efuse_udr_p_Current 0																															
+						create-site-var	Efuse_udr_p_Future																															
+						assign-site-var	Efuse_udr_p_Future 0																															
+						create-site-var	Efuse_udr_p_Previous																															
+						assign-site-var	Efuse_udr_p_Previous 0																															
+						create-site-var	LPCount_End																															
+						assign-site-var	LPCount_End 0																															
+						create-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	MFP_flow_idx																															
+						assign-site-var	MFP_flow_idx 0																															
+						create-site-var	MONChk_Var																															
+						assign-site-var	MONChk_Var 0																															
+						create-site-var	RSCR_Flow_Idx																															
+						assign-site-var	RSCR_Flow_Idx 0																															
+						create-site-var	SEL_CASE_CNT																															
+						assign-site-var	SEL_CASE_CNT 0																															
+						create-site-var	SEL_CASE_End																															
+						assign-site-var	SEL_CASE_End 0																															
+						create-site-var	SelSrm_LP_Var																															
+						assign-site-var	SelSrm_LP_Var 0																															
+						create-site-var	UDR_EChk_Var																															
+						assign-site-var	UDR_EChk_Var 0																															
+						create-site-var	UDR_PChk_Var																															
+						assign-site-var	UDR_PChk_Var 0																															
+						create-site-var	UIDChk_Var																															
+						assign-site-var	UIDChk_Var 0																															
+						create-site-var	Efuse_cmp_e_Current																															
+						assign-site-var	Efuse_cmp_e_Current 0																															
+						create-site-var	Efuse_cmp_e_Future																															
+						assign-site-var	Efuse_cmp_e_Future 0																															
+						create-site-var	Efuse_cmp_e_Previous																															
+						assign-site-var	Efuse_cmp_e_Previous 0																															
+						create-site-var	Efuse_cmp_p_Current																															
+						assign-site-var	Efuse_cmp_p_Current 0																															
+						create-site-var	Efuse_cmp_p_Future																															
+						assign-site-var	Efuse_cmp_p_Future 0																															
+						create-site-var	Efuse_cmp_p_Previous																															
+						assign-site-var	Efuse_cmp_p_Previous 0																															
+						call	Flow_HardIP_Init_Flag																															
+						call	Flow_Table_Main_Init_EnableWd																															
+						Test	InitializeModulesFromInstance																															
+						call	Flow_Table_Main_Init_Flows																															
+						call	Flow_Flag_Initialize																															
+						Test	Relay_On_Conti																															
+						call	Flow_DC_Conti																															
+						Test	Relay_Off_HARDIP																															
+		!Pgm2File				call	Flow_efuse_BankRead																															
+		Pgm2File				call	Flow_efuse_BankRead_ECID_only																															
+		Pgm2File				Test	PseudoFuse_ReadFromFile														F_EFUSE_PseudoFuse_WriteToFile																	
+						Bintable	Bin_EFUSE_PseudoFuse_WriteToFile																															
+		!BypRetestCheck				Test	GoodDie_Retest														F_Efuse_FailDie																	
+						Bintable	Bin_Efuse_FailDie																															
+						call	Flow_Harvest_eFuse_Read																															
+						call	Flow_Harv_Dec_FT3_RD																															
+		!CORR				call	Flow_efuse_Post																															
+						call	Flow_Table_Main_EndFlow																															
+						limits-all																																
+						set-device									1		1		Pass																			

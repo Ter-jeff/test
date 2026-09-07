@@ -1,0 +1,4 @@
+PatternName	SheetName	WrongMeasCount	WrongMeasOrder	MissingMeasPin	MissingPinSeq	MissingPatternInPatInfo	MissingPatternInPatList	PatternShowDontUseInPatList	FileVersionMissMatchGenericNameInPatList	VersionInPatList	PatternDontExistOnServer	PatternCompileSuccess	LatestVersionInServer
+PP_BRNA0_C_IN00_BI_E0ED_XXX_XXX_XXX_MEXXXX_SI_SRMDSSC	CPU					V							
+PP_BRNA0_C_IN00_BI_P0PD_XXX_XXX_XXX_MPXXXX_SI_SRMDSSC	CPU					V							
+PP_BRNA0_S_IN01_BI_XXXX_TDR_JTG_UNS_ALLFRV_SI_SRMDSSC	SOC					V							

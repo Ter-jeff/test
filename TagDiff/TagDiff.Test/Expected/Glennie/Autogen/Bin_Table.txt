@@ -1,0 +1,1143 @@
+DTBintablesSheet,version=2.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Bin Tables
+	
+	Name	Item List	Op	Sort	Bin	Result	Items0	Items1	Items2	Items3	Items4	Items5	Items6	Items7	Items8	Items9	Items10	Items11	Items12	Items13	Items14	Items15	Items16	Items17	Items18	Items19	Items20	Items21	Items22	Items23	Items24	Items25	Items26	Items27	Items28	Items29	Items30	Items31	Items32	Items33	Items34	Items35	Items36	Items37	Items38	Items39	Items40	Items41	Items42	Items43	Items44	Items45	Items46	Items47	Items48	Items49	Items50	Items51	Items52	Items53	Items54	Items55	Items56	Items57	Items58	Items59	Items60	Items61	Items62	Items63	Items64	Items65	Items66	Items67	Items68	Items69	Items70	Items71	Items72	Items73	Items74	Items75	Items76	Items77	Items78	Items79	Comment
+	Bin_EFUSE_ecid_other	F_ecid_other	AND	90	5	Fail	T																																																																																
+	Bin_initFlow_BinOut	F_initFlow_BinOut	AND	9988	15	Fail	T																																																																																
+	Bin_OCR_error	F_OCR_error	AND	9982	39	Fail	T																																																																																
+	Bin_DC_open	F_open	AND	1	999	Fail	T																																																																																
+	Bin_DC_short	F_short	AND	2	999	Fail	T																																																																																
+	Bin_DC_open_short	F_open,F_short	AND	3	999	Fail	T	T																																																																															
+	Bin_DC_powershort	F_powershort	AND	4	999	Fail	T																																																																																
+	Bin_DC_poweropen	F_poweropen	AND	5	999	Fail	T																																																																																
+	Bin_DC_powersense	F_powersense	AND	6	999	Fail	T																																																																																
+	Bin_DC_GND_sense	F_groundsense	AND	7	999	Fail	T																																																																																
+	Bin_AutoZ_check	F_AutoZ_check	AND	8	999	Fail	T																																																																																
+	Bin_PowerUp_Alarm	F_PowerUp_Alarm	AND	9	999	Fail	T																																																																																
+	Bin_DC_powerResistance	F_CRES	AND	10	999	Fail	T																																																																																
+	Bin_DC_nWire_lock_check	F_nWire_lock_check	AND	990	5	Fail	T																																																																																
+	Bin_EFUSE_RT_ECID_BankRead	F_ECID_BankRead	AND	11	999	Fail	T																																																																																
+	Bin_EFUSE_ECID_Fail	F_ECID_Fail	AND	12	999	Fail	T																																																																																
+	Bin_EFUSE_ECID_PLL	F_ECID_PLL	AND	13	999	Fail	T																																																																																
+	Bin_EFUSE_ECID_WriteDSSC	F_ECID_WriteDSSC	AND	14	999	Fail	T																																																																																
+	Bin_EFUSE_ECID_Read	F_ECID_Read	AND	15	999	Fail	T																																																																																
+	Bin_EFUSE_Config_WriteDSSC_Early	F_Config_WriteDSSC_Early	AND	16	999	Fail	T																																																																																
+	Bin_EFUSE_Config_Check_Early	F_Config_Check_Early	AND	17	999	Fail	T																																																																																
+	Bin_EFUSE_RT_Config_BankRead	F_Config_BankRead	AND	18	999	Fail	T																																																																																
+	Bin_EFUSE_Config_Early_Fail	F_Config_Early_Fail	AND	19	999	Fail	T																																																																																
+	Bin_EFUSE_Config_PLL	F_Config_PLL	AND	20	999	Fail	T																																																																																
+	Bin_EFUSE_Config_ReadRV	F_Config_ReadRV	AND	21	999	Fail	T																																																																																
+	Bin_EFUSE_Config_Write	F_Config_Write	AND	22	999	Fail	T																																																																																
+	Bin_EFUSE_Config_Read	F_Config_Read	AND	23	999	Fail	T																																																																																
+	Bin_EFUSE_Config_JTAGRead	F_Config_JTAGRead	AND	24	999	Fail	T																																																																																
+	Bin_EFUSE_PseudoFuse_WriteToFile	F_PseudoFuse_WriteToFile	AND	25	999	Fail	T																																																																																
+	Bin_EFUSE_PreWrite_Fail	F_PreWrite_Fail	AND	26	999	Fail	T																																																																																
+	Bin_RTOS_boot	F_RTOS_boot	AND	308	999	Fail	T																																																																																
+	Bin_Rtos_func_SC_SCCMD	F_Rtos_func_SC_SCCMD	AND	309	999	Fail	T																																																																																
+	Bin_SOC_MBIST__01_CE_BIST_INIT_NV	F_SOC_MBIST__01_CE_BIST_INIT_NV,F_EVS_AlarmFail	AND	355	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__01_CE_BIST_INIT_NV		AND	354	999	Fail	T																																																																																
+	Bin_SOC_MBIST__11_CE_SRVA_EFUSE_COMPARE_REPAIR_NV	F_SOC_MBIST__11_CE_SRVA_EFUSE_COMPARE_REPAIR_NV,F_EVS_AlarmFail	AND	357	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__11_CE_SRVA_EFUSE_COMPARE_REPAIR_NV		AND	356	999	Fail	T																																																																																
+	Bin_SOC_MBIST__12_CE_SRVA_SMART_TEST_NV	F_SOC_MBIST__12_CE_SRVA_SMART_TEST_NV,F_EVS_AlarmFail	AND	359	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__12_CE_SRVA_SMART_TEST_NV		AND	358	999	Fail	T																																																																																
+	Bin_SOC_MBIST__13_CE_SRVA_MRR2INBR_NV	F_SOC_MBIST__13_CE_SRVA_MRR2INBR_NV,F_EVS_AlarmFail	AND	361	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__13_CE_SRVA_MRR2INBR_NV		AND	360	999	Fail	T																																																																																
+	Bin_SOC_MBIST__129_BS_RR_ETR_SRVA_NV	F_SOC_MBIST__129_BS_RR_ETR_SRVA_NV,F_EVS_AlarmFail	AND	363	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__129_BS_RR_ETR_SRVA_NV		AND	362	999	Fail	T																																																																																
+	Bin_SOC_MBIST__01_BS_RR_EXT_SRVA_NV	F_SOC_MBIST__01_BS_RR_EXT_SRVA_NV,F_EVS_AlarmFail	AND	365	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__01_BS_RR_EXT_SRVA_NV		AND	364	999	Fail	T																																																																																
+	Bin_SOC_MBIST__101_BS_DIODE_EMA_NV	F_SOC_MBIST__101_BS_DIODE_EMA_NV,F_EVS_AlarmFail	AND	367	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__101_BS_DIODE_EMA_NV		AND	366	999	Fail	T																																																																																
+	Bin_SOC_MBIST__101_BS_SRVA_NRBIST_MLV_MLV	F_SOC_MBIST__101_BS_SRVA_NRBIST_MLV_MLV,F_EVS_AlarmFail	AND	369	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__101_BS_SRVA_NRBIST_MLV_MLV		AND	368	999	Fail	T																																																																																
+	Bin_SOC_MBIST__101_BS_SRVA_BIRA_MLV_MLV	F_SOC_MBIST__101_BS_SRVA_BIRA_MLV_MLV,F_EVS_AlarmFail	AND	371	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__101_BS_SRVA_BIRA_MLV_MLV		AND	370	999	Fail	T																																																																																
+	Bin_SOC_MBIST__101_BS_SRVA_BIST_ROM_MLV_MLV	F_SOC_MBIST__101_BS_SRVA_BIST_ROM_MLV_MLV,F_EVS_AlarmFail	AND	373	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__101_BS_SRVA_BIST_ROM_MLV_MLV		AND	372	999	Fail	T																																																																																
+	Bin_SOC_MBIST__122_BS_PLL_MRD001_NV	F_SOC_MBIST__122_BS_PLL_MRD001_NV,F_EVS_AlarmFail	AND	375	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__122_BS_PLL_MRD001_NV		AND	374	999	Fail	T																																																																																
+	Bin_SOC_MBIST__122_BS_SRVA_NRBIST_MRDXXX_LV	F_SOC_MBIST__122_BS_SRVA_NRBIST_MRDXXX_LV,F_EVS_AlarmFail	AND	377	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__122_BS_SRVA_NRBIST_MRDXXX_LV		AND	376	999	Fail	T																																																																																
+	Bin_SOC_MBIST__122_BS_SRVA_BIRA_MRDXXX_LV	F_SOC_MBIST__122_BS_SRVA_BIRA_MRDXXX_LV,F_EVS_AlarmFail	AND	379	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__122_BS_SRVA_BIRA_MRDXXX_LV		AND	378	999	Fail	T																																																																																
+	Bin_SOC_MBIST__122_RBS_SRVA_BIST_ROM_MRDXXX_LV	F_SOC_MBIST__122_RBS_SRVA_BIST_ROM_MRDXXX_LV,F_EVS_AlarmFail	AND	381	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__122_RBS_SRVA_BIST_ROM_MRDXXX_LV		AND	380	999	Fail	T																																																																																
+	Bin_SOC_MBIST__123_BS_PLL_MRD002_NV	F_SOC_MBIST__123_BS_PLL_MRD002_NV,F_EVS_AlarmFail	AND	383	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__123_BS_PLL_MRD002_NV		AND	382	999	Fail	T																																																																																
+	Bin_SOC_MBIST__123_BS_SRVA_NRBIST_MRDXXX_HV	F_SOC_MBIST__123_BS_SRVA_NRBIST_MRDXXX_HV,F_EVS_AlarmFail	AND	385	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__123_BS_SRVA_NRBIST_MRDXXX_HV		AND	384	999	Fail	T																																																																																
+	Bin_SOC_MBIST__123_BS_SRVA_BIRA_MRDXXX_HV	F_SOC_MBIST__123_BS_SRVA_BIRA_MRDXXX_HV,F_EVS_AlarmFail	AND	387	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__123_BS_SRVA_BIRA_MRDXXX_HV		AND	386	999	Fail	T																																																																																
+	Bin_SOC_MBIST__123_RBS_SRVA_BIST_ROM_MRDXXX_HV	F_SOC_MBIST__123_RBS_SRVA_BIST_ROM_MRDXXX_HV,F_EVS_AlarmFail	AND	389	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__123_RBS_SRVA_BIST_ROM_MRDXXX_HV		AND	388	999	Fail	T																																																																																
+	Bin_SOC_MBIST__104_BS_SRVA_NRBIST_MHV_MHV	F_SOC_MBIST__104_BS_SRVA_NRBIST_MHV_MHV,F_EVS_AlarmFail	AND	391	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__104_BS_SRVA_NRBIST_MHV_MHV		AND	390	999	Fail	T																																																																																
+	Bin_SOC_MBIST__104_BS_SRVA_BIRA_MHV_MHV	F_SOC_MBIST__104_BS_SRVA_BIRA_MHV_MHV,F_EVS_AlarmFail	AND	393	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__104_BS_SRVA_BIRA_MHV_MHV		AND	392	999	Fail	T																																																																																
+	Bin_SOC_MBIST__104_RBS_SRVA_BIST_ROM_MHV_MHV	F_SOC_MBIST__104_RBS_SRVA_BIST_ROM_MHV_MHV,F_EVS_AlarmFail	AND	395	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__104_RBS_SRVA_BIST_ROM_MHV_MHV		AND	394	999	Fail	T																																																																																
+	Bin_SOC_MBIST__106_BS_ERT_SRVA_1WD_NV	F_SOC_MBIST__106_BS_ERT_SRVA_1WD_NV,F_EVS_AlarmFail	AND	397	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__106_BS_ERT_SRVA_1WD_NV		AND	396	999	Fail	T																																																																																
+	Bin_SOC_MBIST__106_BS_ERT_EMA_NV	F_SOC_MBIST__106_BS_ERT_EMA_NV,F_EVS_AlarmFail	AND	399	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__106_BS_ERT_EMA_NV		AND	398	999	Fail	T																																																																																
+	Bin_SOC_MBIST__107_BS_DIODE_EMA_NV	F_SOC_MBIST__107_BS_DIODE_EMA_NV,F_EVS_AlarmFail	AND	401	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__107_BS_DIODE_EMA_NV		AND	400	999	Fail	T																																																																																
+	Bin_SOC_MBIST__107_BS_ERT_SRVA_1RD_NV	F_SOC_MBIST__107_BS_ERT_SRVA_1RD_NV,F_EVS_AlarmFail	AND	403	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__107_BS_ERT_SRVA_1RD_NV		AND	402	999	Fail	T																																																																																
+	Bin_SOC_MBIST__108_BS_ERT_SRVA_1WB_NV	F_SOC_MBIST__108_BS_ERT_SRVA_1WB_NV,F_EVS_AlarmFail	AND	405	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__108_BS_ERT_SRVA_1WB_NV		AND	404	999	Fail	T																																																																																
+	Bin_SOC_MBIST__108_BS_ERT_EMA_NV	F_SOC_MBIST__108_BS_ERT_EMA_NV,F_EVS_AlarmFail	AND	407	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__108_BS_ERT_EMA_NV		AND	406	999	Fail	T																																																																																
+	Bin_SOC_MBIST__110_BS_DIODE_EMA_NV	F_SOC_MBIST__110_BS_DIODE_EMA_NV,F_EVS_AlarmFail	AND	409	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__110_BS_DIODE_EMA_NV		AND	408	999	Fail	T																																																																																
+	Bin_SOC_MBIST__110_BS_ERT_SRVA_1RB_NV	F_SOC_MBIST__110_BS_ERT_SRVA_1RB_NV,F_EVS_AlarmFail	AND	411	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__110_BS_ERT_SRVA_1RB_NV		AND	410	999	Fail	T																																																																																
+	Bin_SOC_MBIST__111_BS_SRT_SRVA_1WD_NV	F_SOC_MBIST__111_BS_SRT_SRVA_1WD_NV,F_EVS_AlarmFail	AND	413	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__111_BS_SRT_SRVA_1WD_NV		AND	412	999	Fail	T																																																																																
+	Bin_SOC_MBIST__111_BS_SRT_SRVA_ENTER_1WD_LV	F_SOC_MBIST__111_BS_SRT_SRVA_ENTER_1WD_LV,F_EVS_AlarmFail	AND	415	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__111_BS_SRT_SRVA_ENTER_1WD_LV		AND	414	999	Fail	T																																																																																
+	Bin_SOC_MBIST__111_BS_SRT_SRVA_EXIT_1WD_LV	F_SOC_MBIST__111_BS_SRT_SRVA_EXIT_1WD_LV,F_EVS_AlarmFail	AND	417	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__111_BS_SRT_SRVA_EXIT_1WD_LV		AND	416	999	Fail	T																																																																																
+	Bin_SOC_MBIST__111_BS_SRT_SRVA_1RD_NV	F_SOC_MBIST__111_BS_SRT_SRVA_1RD_NV,F_EVS_AlarmFail	AND	419	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__111_BS_SRT_SRVA_1RD_NV		AND	418	999	Fail	T																																																																																
+	Bin_SOC_MBIST__112_BS_SRT_SRVA_1WB_NV	F_SOC_MBIST__112_BS_SRT_SRVA_1WB_NV,F_EVS_AlarmFail	AND	421	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__112_BS_SRT_SRVA_1WB_NV		AND	420	999	Fail	T																																																																																
+	Bin_SOC_MBIST__112_BS_SRT_SRVA_ENTER_1WB_LV	F_SOC_MBIST__112_BS_SRT_SRVA_ENTER_1WB_LV,F_EVS_AlarmFail	AND	423	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__112_BS_SRT_SRVA_ENTER_1WB_LV		AND	422	999	Fail	T																																																																																
+	Bin_SOC_MBIST__112_BS_SRT_SRVA_EXIT_1WB_LV	F_SOC_MBIST__112_BS_SRT_SRVA_EXIT_1WB_LV,F_EVS_AlarmFail	AND	425	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__112_BS_SRT_SRVA_EXIT_1WB_LV		AND	424	999	Fail	T																																																																																
+	Bin_SOC_MBIST__112_BS_SRT_SRVA_1RB_NV	F_SOC_MBIST__112_BS_SRT_SRVA_1RB_NV,F_EVS_AlarmFail	AND	427	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__112_BS_SRT_SRVA_1RB_NV		AND	426	999	Fail	T																																																																																
+	Bin_SOC_MBIST__113_BS_PLL_F00100_NV	F_SOC_MBIST__113_BS_PLL_F00100_NV,F_EVS_AlarmFail	AND	429	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__113_BS_PLL_F00100_NV		AND	428	999	Fail	T																																																																																
+	Bin_SOC_MBIST__114_BS_NRT_SRVA_1WD_LV	F_SOC_MBIST__114_BS_NRT_SRVA_1WD_LV,F_EVS_AlarmFail	AND	431	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__114_BS_NRT_SRVA_1WD_LV		AND	430	999	Fail	T																																																																																
+	Bin_SOC_MBIST__114_BS_NRT_SRVA_1RD_LV	F_SOC_MBIST__114_BS_NRT_SRVA_1RD_LV,F_EVS_AlarmFail	AND	433	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__114_BS_NRT_SRVA_1RD_LV		AND	432	999	Fail	T																																																																																
+	Bin_SOC_MBIST__115_BS_NRT_SRVA_1WB_LV	F_SOC_MBIST__115_BS_NRT_SRVA_1WB_LV,F_EVS_AlarmFail	AND	435	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__115_BS_NRT_SRVA_1WB_LV		AND	434	999	Fail	T																																																																																
+	Bin_SOC_MBIST__115_BS_NRT_SRVA_1RB_LV	F_SOC_MBIST__115_BS_NRT_SRVA_1RB_LV,F_EVS_AlarmFail	AND	437	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__115_BS_NRT_SRVA_1RB_LV		AND	436	999	Fail	T																																																																																
+	Bin_SOC_MBIST__106_NBS_ERT_SRVA_1WD_NV	F_SOC_MBIST__106_NBS_ERT_SRVA_1WD_NV,F_EVS_AlarmFail	AND	439	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__106_NBS_ERT_SRVA_1WD_NV		AND	438	999	Fail	T																																																																																
+	Bin_SOC_MBIST__106_NBS_ERT_EMA_NV	F_SOC_MBIST__106_NBS_ERT_EMA_NV,F_EVS_AlarmFail	AND	441	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__106_NBS_ERT_EMA_NV		AND	440	999	Fail	T																																																																																
+	Bin_SOC_MBIST__107_NBS_DIODE_EMA_NV	F_SOC_MBIST__107_NBS_DIODE_EMA_NV,F_EVS_AlarmFail	AND	443	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__107_NBS_DIODE_EMA_NV		AND	442	999	Fail	T																																																																																
+	Bin_SOC_MBIST__107_NBS_ERT_SRVA_1RD_NV	F_SOC_MBIST__107_NBS_ERT_SRVA_1RD_NV,F_EVS_AlarmFail	AND	445	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__107_NBS_ERT_SRVA_1RD_NV		AND	444	999	Fail	T																																																																																
+	Bin_SOC_MBIST__108_NBS_ERT_SRVA_1WB_NV	F_SOC_MBIST__108_NBS_ERT_SRVA_1WB_NV,F_EVS_AlarmFail	AND	447	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__108_NBS_ERT_SRVA_1WB_NV		AND	446	999	Fail	T																																																																																
+	Bin_SOC_MBIST__108_NBS_ERT_EMA_NV	F_SOC_MBIST__108_NBS_ERT_EMA_NV,F_EVS_AlarmFail	AND	449	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__108_NBS_ERT_EMA_NV		AND	448	999	Fail	T																																																																																
+	Bin_SOC_MBIST__110_NBS_DIODE_EMA_NV	F_SOC_MBIST__110_NBS_DIODE_EMA_NV,F_EVS_AlarmFail	AND	451	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__110_NBS_DIODE_EMA_NV		AND	450	999	Fail	T																																																																																
+	Bin_SOC_MBIST__110_NBS_ERT_SRVA_1RB_NV	F_SOC_MBIST__110_NBS_ERT_SRVA_1RB_NV,F_EVS_AlarmFail	AND	453	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__110_NBS_ERT_SRVA_1RB_NV		AND	452	999	Fail	T																																																																																
+	Bin_SOC_MBIST__120_BS_RR_SRT_SRVA_1WD_NV	F_SOC_MBIST__120_BS_RR_SRT_SRVA_1WD_NV,F_EVS_AlarmFail	AND	455	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__120_BS_RR_SRT_SRVA_1WD_NV		AND	454	999	Fail	T																																																																																
+	Bin_SOC_MBIST__120_BS_RR_SRT_SRVA_ENTER_1WD_LV	F_SOC_MBIST__120_BS_RR_SRT_SRVA_ENTER_1WD_LV,F_EVS_AlarmFail	AND	457	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__120_BS_RR_SRT_SRVA_ENTER_1WD_LV		AND	456	999	Fail	T																																																																																
+	Bin_SOC_MBIST__120_BS_RR_SRT_SRVA_EXIT_1WD_LV	F_SOC_MBIST__120_BS_RR_SRT_SRVA_EXIT_1WD_LV,F_EVS_AlarmFail	AND	459	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__120_BS_RR_SRT_SRVA_EXIT_1WD_LV		AND	458	999	Fail	T																																																																																
+	Bin_SOC_MBIST__120_BS_RR_SRT_SRVA_1RD_NV	F_SOC_MBIST__120_BS_RR_SRT_SRVA_1RD_NV,F_EVS_AlarmFail	AND	461	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__120_BS_RR_SRT_SRVA_1RD_NV		AND	460	999	Fail	T																																																																																
+	Bin_SOC_MBIST__121_BS_RR_SRT_SRVA_1WB_NV	F_SOC_MBIST__121_BS_RR_SRT_SRVA_1WB_NV,F_EVS_AlarmFail	AND	463	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__121_BS_RR_SRT_SRVA_1WB_NV		AND	462	999	Fail	T																																																																																
+	Bin_SOC_MBIST__121_BS_RR_SRT_SRVA_ENTER_1WB_LV	F_SOC_MBIST__121_BS_RR_SRT_SRVA_ENTER_1WB_LV,F_EVS_AlarmFail	AND	465	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__121_BS_RR_SRT_SRVA_ENTER_1WB_LV		AND	464	999	Fail	T																																																																																
+	Bin_SOC_MBIST__121_BS_RR_SRT_SRVA_EXIT_1WB_LV	F_SOC_MBIST__121_BS_RR_SRT_SRVA_EXIT_1WB_LV,F_EVS_AlarmFail	AND	467	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__121_BS_RR_SRT_SRVA_EXIT_1WB_LV		AND	466	999	Fail	T																																																																																
+	Bin_SOC_MBIST__121_BS_RR_SRT_SRVA_1RB_NV	F_SOC_MBIST__121_BS_RR_SRT_SRVA_1RB_NV,F_EVS_AlarmFail	AND	469	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__121_BS_RR_SRT_SRVA_1RB_NV		AND	468	999	Fail	T																																																																																
+	Bin_SOC_MBIST__125_BS_PLL_F00100_NV	F_SOC_MBIST__125_BS_PLL_F00100_NV,F_EVS_AlarmFail	AND	471	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__125_BS_PLL_F00100_NV		AND	470	999	Fail	T																																																																																
+	Bin_SOC_MBIST__128_BS_BISR_SRVA_NV	F_SOC_MBIST__128_BS_BISR_SRVA_NV,F_EVS_AlarmFail	AND	473	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__128_BS_BISR_SRVA_NV		AND	472	999	Fail	T																																																																																
+	Bin_SOC_MBIST__01_BS_RR_BISR_SRVA_NV	F_SOC_MBIST__01_BS_RR_BISR_SRVA_NV,F_EVS_AlarmFail	AND	475	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__01_BS_RR_BISR_SRVA_NV		AND	474	999	Fail	T																																																																																
+	Bin_SOC_MBIST__129_BS_CHARGE_REUSE_EMA_NV	F_SOC_MBIST__129_BS_CHARGE_REUSE_EMA_NV,F_EVS_AlarmFail	AND	477	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__129_BS_CHARGE_REUSE_EMA_NV		AND	476	999	Fail	T																																																																																
+	Bin_SOC_MBIST__10_EPS_SRVA_FLOAD_SETUP_NV	F_SOC_MBIST__10_EPS_SRVA_FLOAD_SETUP_NV,F_EVS_AlarmFail	AND	479	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__10_EPS_SRVA_FLOAD_SETUP_NV		AND	478	999	Fail	T																																																																																
+	Bin_SOC_MBIST__15_EPS_SRVA_EFUSE_COMPARE_HV	F_SOC_MBIST__15_EPS_SRVA_EFUSE_COMPARE_HV,F_EVS_AlarmFail	AND	481	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__15_EPS_SRVA_EFUSE_COMPARE_HV		AND	480	999	Fail	T																																																																																
+	Bin_SOC_MBIST__16_EPS_SRVA_EFUSE_COMPARE_LV	F_SOC_MBIST__16_EPS_SRVA_EFUSE_COMPARE_LV,F_EVS_AlarmFail	AND	483	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__16_EPS_SRVA_EFUSE_COMPARE_LV		AND	482	999	Fail	T																																																																																
+	Bin_SOC_MBIST__17_EPS_INIT_NV	F_SOC_MBIST__17_EPS_INIT_NV,F_EVS_AlarmFail	AND	485	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__17_EPS_INIT_NV		AND	484	999	Fail	T																																																																																
+	Bin_SOC_MBIST__17_EPS_SRVA_SMART_TEST_NV	F_SOC_MBIST__17_EPS_SRVA_SMART_TEST_NV,F_EVS_AlarmFail	AND	487	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__17_EPS_SRVA_SMART_TEST_NV		AND	486	999	Fail	T																																																																																
+	Bin_SOC_MBIST__202_RDBS_SRVA_RBIST_MLV_MLV	F_SOC_MBIST__202_RDBS_SRVA_RBIST_MLV_MLV,F_EVS_AlarmFail	AND	489	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__202_RDBS_SRVA_RBIST_MLV_MLV		AND	488	999	Fail	T																																																																																
+	Bin_SOC_MBIST__204_RDBS_SRVA_RBIST_MHV_MHV	F_SOC_MBIST__204_RDBS_SRVA_RBIST_MHV_MHV,F_EVS_AlarmFail	AND	491	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__204_RDBS_SRVA_RBIST_MHV_MHV		AND	490	999	Fail	T																																																																																
+	Bin_SOC_MBIST__206_RDBS_ERT_SRVA_1WD_NV	F_SOC_MBIST__206_RDBS_ERT_SRVA_1WD_NV,F_EVS_AlarmFail	AND	493	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__206_RDBS_ERT_SRVA_1WD_NV		AND	492	999	Fail	T																																																																																
+	Bin_SOC_MBIST__207_RDBS_DIODE_EMA_NV	F_SOC_MBIST__207_RDBS_DIODE_EMA_NV,F_EVS_AlarmFail	AND	495	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__207_RDBS_DIODE_EMA_NV		AND	494	999	Fail	T																																																																																
+	Bin_SOC_MBIST__207_RDBS_ERT_SRVA_1RD_NV	F_SOC_MBIST__207_RDBS_ERT_SRVA_1RD_NV,F_EVS_AlarmFail	AND	497	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__207_RDBS_ERT_SRVA_1RD_NV		AND	496	999	Fail	T																																																																																
+	Bin_SOC_MBIST__208_RDBS_ERT_SRVA_1WB_NV	F_SOC_MBIST__208_RDBS_ERT_SRVA_1WB_NV,F_EVS_AlarmFail	AND	499	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__208_RDBS_ERT_SRVA_1WB_NV		AND	498	999	Fail	T																																																																																
+	Bin_SOC_MBIST__208_RDBS_ERT_EMA_NV	F_SOC_MBIST__208_RDBS_ERT_EMA_NV,F_EVS_AlarmFail	AND	501	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__208_RDBS_ERT_EMA_NV		AND	500	999	Fail	T																																																																																
+	Bin_SOC_MBIST__210_RDBS_DIODE_EMA_NV	F_SOC_MBIST__210_RDBS_DIODE_EMA_NV,F_EVS_AlarmFail	AND	503	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__210_RDBS_DIODE_EMA_NV		AND	502	999	Fail	T																																																																																
+	Bin_SOC_MBIST__210_RDBS_ERT_SRVA_1RB_NV	F_SOC_MBIST__210_RDBS_ERT_SRVA_1RB_NV,F_EVS_AlarmFail	AND	505	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__210_RDBS_ERT_SRVA_1RB_NV		AND	504	999	Fail	T																																																																																
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_1WD_NOAON_NV	F_SOC_MBIST__211_RDBS_SRT_SRVA_1WD_NOAON_NV,F_EVS_AlarmFail	AND	507	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_1WD_NOAON_NV		AND	506	999	Fail	T																																																																																
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_ENTER_1WD_NOAON_LV	F_SOC_MBIST__211_RDBS_SRT_SRVA_ENTER_1WD_NOAON_LV,F_EVS_AlarmFail	AND	509	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_ENTER_1WD_NOAON_LV		AND	508	999	Fail	T																																																																																
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_EXIT_1WD_NOAON_LV	F_SOC_MBIST__211_RDBS_SRT_SRVA_EXIT_1WD_NOAON_LV,F_EVS_AlarmFail	AND	511	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_EXIT_1WD_NOAON_LV		AND	510	999	Fail	T																																																																																
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_1RD_NOAON_NV	F_SOC_MBIST__211_RDBS_SRT_SRVA_1RD_NOAON_NV,F_EVS_AlarmFail	AND	513	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_1RD_NOAON_NV		AND	512	999	Fail	T																																																																																
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_1WB_NOAON_NV	F_SOC_MBIST__212_RDBS_SRT_SRVA_1WB_NOAON_NV,F_EVS_AlarmFail	AND	515	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_1WB_NOAON_NV		AND	514	999	Fail	T																																																																																
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_ENTER_1WB_NOAON_LV	F_SOC_MBIST__212_RDBS_SRT_SRVA_ENTER_1WB_NOAON_LV,F_EVS_AlarmFail	AND	517	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_ENTER_1WB_NOAON_LV		AND	516	999	Fail	T																																																																																
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_EXIT_1WB_NOAON_LV	F_SOC_MBIST__212_RDBS_SRT_SRVA_EXIT_1WB_NOAON_LV,F_EVS_AlarmFail	AND	519	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_EXIT_1WB_NOAON_LV		AND	518	999	Fail	T																																																																																
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_1RB_NOAON_NV	F_SOC_MBIST__212_RDBS_SRT_SRVA_1RB_NOAON_NV,F_EVS_AlarmFail	AND	521	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_1RB_NOAON_NV		AND	520	999	Fail	T																																																																																
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_1WD_AON_NV	F_SOC_MBIST__211_RDBS_SRT_SRVA_1WD_AON_NV,F_EVS_AlarmFail	AND	523	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_1WD_AON_NV		AND	522	999	Fail	T																																																																																
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_ENTER_1WD_AON_LV	F_SOC_MBIST__211_RDBS_SRT_SRVA_ENTER_1WD_AON_LV,F_EVS_AlarmFail	AND	525	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_ENTER_1WD_AON_LV		AND	524	999	Fail	T																																																																																
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_EXIT_1WD_AON_LV	F_SOC_MBIST__211_RDBS_SRT_SRVA_EXIT_1WD_AON_LV,F_EVS_AlarmFail	AND	527	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_EXIT_1WD_AON_LV		AND	526	999	Fail	T																																																																																
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_1RD_AON_NV	F_SOC_MBIST__211_RDBS_SRT_SRVA_1RD_AON_NV,F_EVS_AlarmFail	AND	529	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__211_RDBS_SRT_SRVA_1RD_AON_NV		AND	528	999	Fail	T																																																																																
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_1WB_AON_NV	F_SOC_MBIST__212_RDBS_SRT_SRVA_1WB_AON_NV,F_EVS_AlarmFail	AND	531	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_1WB_AON_NV		AND	530	999	Fail	T																																																																																
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_ENTER_1WB_AON_LV	F_SOC_MBIST__212_RDBS_SRT_SRVA_ENTER_1WB_AON_LV,F_EVS_AlarmFail	AND	533	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_ENTER_1WB_AON_LV		AND	532	999	Fail	T																																																																																
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_EXIT_1WB_AON_LV	F_SOC_MBIST__212_RDBS_SRT_SRVA_EXIT_1WB_AON_LV,F_EVS_AlarmFail	AND	535	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_EXIT_1WB_AON_LV		AND	534	999	Fail	T																																																																																
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_1RB_AON_NV	F_SOC_MBIST__212_RDBS_SRT_SRVA_1RB_AON_NV,F_EVS_AlarmFail	AND	537	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__212_RDBS_SRT_SRVA_1RB_AON_NV		AND	536	999	Fail	T																																																																																
+	Bin_SOC_MBIST__214_RDBS_NRT_SRVA_1WD_LV	F_SOC_MBIST__214_RDBS_NRT_SRVA_1WD_LV,F_EVS_AlarmFail	AND	539	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__214_RDBS_NRT_SRVA_1WD_LV		AND	538	999	Fail	T																																																																																
+	Bin_SOC_MBIST__214_RDBS_NRT_SRVA_1RD_LV	F_SOC_MBIST__214_RDBS_NRT_SRVA_1RD_LV,F_EVS_AlarmFail	AND	541	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__214_RDBS_NRT_SRVA_1RD_LV		AND	540	999	Fail	T																																																																																
+	Bin_SOC_MBIST__215_RDBS_NRT_SRVA_1WB_LV	F_SOC_MBIST__215_RDBS_NRT_SRVA_1WB_LV,F_EVS_AlarmFail	AND	543	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__215_RDBS_NRT_SRVA_1WB_LV		AND	542	999	Fail	T																																																																																
+	Bin_SOC_MBIST__215_RDBS_NRT_SRVA_1RB_LV	F_SOC_MBIST__215_RDBS_NRT_SRVA_1RB_LV,F_EVS_AlarmFail	AND	545	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__215_RDBS_NRT_SRVA_1RB_LV		AND	544	999	Fail	T																																																																																
+	Bin_SOC_MBIST__222_RDBS_PLL_MRD001_NV	F_SOC_MBIST__222_RDBS_PLL_MRD001_NV,F_EVS_AlarmFail	AND	547	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__222_RDBS_PLL_MRD001_NV		AND	546	999	Fail	T																																																																																
+	Bin_SOC_MBIST__222_RDBS_SRVA_BIST_MRDXXX_LV	F_SOC_MBIST__222_RDBS_SRVA_BIST_MRDXXX_LV,F_EVS_AlarmFail	AND	549	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__222_RDBS_SRVA_BIST_MRDXXX_LV		AND	548	999	Fail	T																																																																																
+	Bin_SOC_MBIST__223_RDBS_PLL_MRD002_NV	F_SOC_MBIST__223_RDBS_PLL_MRD002_NV,F_EVS_AlarmFail	AND	551	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__223_RDBS_PLL_MRD002_NV		AND	550	999	Fail	T																																																																																
+	Bin_SOC_MBIST__223_RDBS_SRVA_BIST_MRDXXX_HV	F_SOC_MBIST__223_RDBS_SRVA_BIST_MRDXXX_HV,F_EVS_AlarmFail	AND	553	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__223_RDBS_SRVA_BIST_MRDXXX_HV		AND	552	999	Fail	T																																																																																
+	Bin_SOC_MBIST__211_RDBS_CHARGE_REUSE_EMA_NV	F_SOC_MBIST__211_RDBS_CHARGE_REUSE_EMA_NV,F_EVS_AlarmFail	AND	555	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__211_RDBS_CHARGE_REUSE_EMA_NV		AND	554	999	Fail	T																																																																																
+	Bin_SOC_MBIST__211_RDBS_DIODE_EMA_NV	F_SOC_MBIST__211_RDBS_DIODE_EMA_NV,F_EVS_AlarmFail	AND	557	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__211_RDBS_DIODE_EMA_NV		AND	556	999	Fail	T																																																																																
+	Bin_SOC_MBIST__225_BS_RR_SRT_SRVA_1WD_GR06_NV	F_SOC_MBIST__225_BS_RR_SRT_SRVA_1WD_GR06_NV,F_EVS_AlarmFail	AND	559	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__225_BS_RR_SRT_SRVA_1WD_GR06_NV		AND	558	999	Fail	T																																																																																
+	Bin_SOC_MBIST__225_BS_RR_SRT_SRVA_ENTER_1WD_LV	F_SOC_MBIST__225_BS_RR_SRT_SRVA_ENTER_1WD_LV,F_EVS_AlarmFail	AND	561	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__225_BS_RR_SRT_SRVA_ENTER_1WD_LV		AND	560	999	Fail	T																																																																																
+	Bin_SOC_MBIST__225_BS_RR_SRT_SRVA_EXIT_1WD_LV	F_SOC_MBIST__225_BS_RR_SRT_SRVA_EXIT_1WD_LV,F_EVS_AlarmFail	AND	563	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__225_BS_RR_SRT_SRVA_EXIT_1WD_LV		AND	562	999	Fail	T																																																																																
+	Bin_SOC_MBIST__225_BS_RR_SRT_SRVA_1RD_NV	F_SOC_MBIST__225_BS_RR_SRT_SRVA_1RD_NV,F_EVS_AlarmFail	AND	565	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__225_BS_RR_SRT_SRVA_1RD_NV		AND	564	999	Fail	T																																																																																
+	Bin_SOC_MBIST__226_BS_RR_SRT_SRVA_1WB_NV	F_SOC_MBIST__226_BS_RR_SRT_SRVA_1WB_NV,F_EVS_AlarmFail	AND	567	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__226_BS_RR_SRT_SRVA_1WB_NV		AND	566	999	Fail	T																																																																																
+	Bin_SOC_MBIST__226_BS_RR_SRT_SRVA_ENTER_1WB_LV	F_SOC_MBIST__226_BS_RR_SRT_SRVA_ENTER_1WB_LV,F_EVS_AlarmFail	AND	569	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__226_BS_RR_SRT_SRVA_ENTER_1WB_LV		AND	568	999	Fail	T																																																																																
+	Bin_SOC_MBIST__226_BS_RR_SRT_SRVA_EXIT_1WB_LV	F_SOC_MBIST__226_BS_RR_SRT_SRVA_EXIT_1WB_LV,F_EVS_AlarmFail	AND	571	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__226_BS_RR_SRT_SRVA_EXIT_1WB_LV		AND	570	999	Fail	T																																																																																
+	Bin_SOC_MBIST__226_BS_RR_SRT_SRVA_1RB_NV	F_SOC_MBIST__226_BS_RR_SRT_SRVA_1RB_NV,F_EVS_AlarmFail	AND	573	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__226_BS_RR_SRT_SRVA_1RB_NV		AND	572	999	Fail	T																																																																																
+	Bin_SOC_MBIST__225_RDBS_RR_ETR_SRVA_NV	F_SOC_MBIST__225_RDBS_RR_ETR_SRVA_NV,F_EVS_AlarmFail	AND	575	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__225_RDBS_RR_ETR_SRVA_NV		AND	574	999	Fail	T																																																																																
+	Bin_SOC_MBIST__225_RDBS_RR_EXT_SRVA_NV	F_SOC_MBIST__225_RDBS_RR_EXT_SRVA_NV,F_EVS_AlarmFail	AND	577	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__225_RDBS_RR_EXT_SRVA_NV		AND	576	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_XXX_UNS_NV	F_SOC_MBIST_XXXX_XXX_UNS_NV,F_EVS_AlarmFail	AND	579	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_XXX_UNS_NV		AND	578	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_PLL_UNS_NV	F_SOC_MBIST_XXXX_PLL_UNS_NV,F_EVS_AlarmFail	AND	581	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_PLL_UNS_NV		AND	580	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_XXX_UNS_1_NV	F_SOC_MBIST_XXXX_XXX_UNS_1_NV,F_EVS_AlarmFail	AND	583	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_XXX_UNS_1_NV		AND	582	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_EFU_REP_SRVA_NV	F_SOC_MBIST_CHIP_EFU_REP_SRVA_NV,F_EVS_AlarmFail	AND	585	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_EFU_REP_SRVA_NV		AND	584	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_SRV_UNS_SRVA_NV	F_SOC_MBIST_CHIP_SRV_UNS_SRVA_NV,F_EVS_AlarmFail	AND	587	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_SRV_UNS_SRVA_NV		AND	586	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_M2I_UNS_SRVA_NV	F_SOC_MBIST_CHIP_M2I_UNS_SRVA_NV,F_EVS_AlarmFail	AND	589	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_M2I_UNS_SRVA_NV		AND	588	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_RR_NV	F_SOC_MBIST_CHIP_TDR_UNS_RR_NV,F_EVS_AlarmFail	AND	591	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_RR_NV		AND	590	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_RR_1_NV	F_SOC_MBIST_CHIP_TDR_UNS_RR_1_NV,F_EVS_AlarmFail	AND	593	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_RR_1_NV		AND	592	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_NV,F_EVS_AlarmFail	AND	595	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_NV		AND	594	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASETP_MLV	F_SOC_MBIST_GX01_BST_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	597	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASETP_MLV		AND	596	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_MLV,F_EVS_AlarmFail	AND	599	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_MLV		AND	598	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASTCK_MLV	F_SOC_MBIST_GX01_BST_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	601	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASTCK_MLV		AND	600	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASETP_MLV	F_SOC_MBIST_GX02_BST_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	603	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASETP_MLV		AND	602	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_MLV,F_EVS_AlarmFail	AND	605	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_MLV		AND	604	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASTCK_MLV	F_SOC_MBIST_GX02_BST_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	607	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASTCK_MLV		AND	606	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_MLV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_MLV,F_EVS_AlarmFail	AND	609	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_MLV		AND	608	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_1WD_SRVA_MLV	F_SOC_MBIST_GR05_BST_1WD_SRVA_MLV,F_EVS_AlarmFail	AND	611	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_1WD_SRVA_MLV		AND	610	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_1RD_SRVA_MLV	F_SOC_MBIST_GR05_BST_1RD_SRVA_MLV,F_EVS_AlarmFail	AND	613	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_1RD_SRVA_MLV		AND	612	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_MLV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_MLV,F_EVS_AlarmFail	AND	615	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_MLV		AND	614	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASETP_MLV	F_SOC_MBIST_GR01_BIR_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	617	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASETP_MLV		AND	616	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_MLV,F_EVS_AlarmFail	AND	619	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_MLV		AND	618	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_MLV	F_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	621	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_MLV		AND	620	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASETP_MLV	F_SOC_MBIST_GR02_BIR_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	623	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASETP_MLV		AND	622	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_MLV,F_EVS_AlarmFail	AND	625	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_MLV		AND	624	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_MLV	F_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	627	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_MLV		AND	626	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASETP_MLV	F_SOC_MBIST_GR03_BIR_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	629	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASETP_MLV		AND	628	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_MLV,F_EVS_AlarmFail	AND	631	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_MLV		AND	630	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_MLV	F_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	633	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_MLV		AND	632	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_MLV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	635	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_MLV		AND	634	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_MLV,F_EVS_AlarmFail	AND	637	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_MLV		AND	636	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_MLV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	639	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_MLV		AND	638	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_MLV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_MLV,F_EVS_AlarmFail	AND	641	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_MLV		AND	640	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_MLV,F_EVS_AlarmFail	AND	643	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_MLV		AND	642	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_MLV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_MLV,F_EVS_AlarmFail	AND	645	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_MLV		AND	644	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_MLV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_MLV,F_EVS_AlarmFail	AND	647	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_MLV		AND	646	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_MLV,F_EVS_AlarmFail	AND	649	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_MLV		AND	648	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_MLV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_MLV,F_EVS_AlarmFail	AND	651	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_MLV		AND	650	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_MLV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_MLV,F_EVS_AlarmFail	AND	653	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_MLV		AND	652	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_MLV,F_EVS_AlarmFail	AND	655	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_MLV		AND	654	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_MLV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_MLV,F_EVS_AlarmFail	AND	657	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_MLV		AND	656	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASETP_MLV	F_SOC_MBIST_GR05_BIR_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	659	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASETP_MLV		AND	658	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_MLV,F_EVS_AlarmFail	AND	661	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_MLV		AND	660	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_MLV	F_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	663	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_MLV		AND	662	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASETP_MLV	F_SOC_MBIST_GO01_BST_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	665	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASETP_MLV		AND	664	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_MLV,F_EVS_AlarmFail	AND	667	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_MLV		AND	666	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASTCK_MLV	F_SOC_MBIST_GO01_BST_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	669	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASTCK_MLV		AND	668	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASETP_MLV	F_SOC_MBIST_GO02_BST_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	671	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASETP_MLV		AND	670	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_MLV,F_EVS_AlarmFail	AND	673	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_MLV		AND	672	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASTCK_MLV	F_SOC_MBIST_GO02_BST_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	675	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASTCK_MLV		AND	674	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_PLL_UNS_2_NV	F_SOC_MBIST_XXXX_PLL_UNS_2_NV,F_EVS_AlarmFail	AND	677	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_PLL_UNS_2_NV		AND	676	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASETP_LV	F_SOC_MBIST_GX01_BST_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	679	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASETP_LV		AND	678	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_LV,F_EVS_AlarmFail	AND	681	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_LV		AND	680	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASTCK_LV	F_SOC_MBIST_GX01_BST_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	683	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASTCK_LV		AND	682	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASETP_LV	F_SOC_MBIST_GX02_BST_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	685	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASETP_LV		AND	684	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_LV,F_EVS_AlarmFail	AND	687	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_LV		AND	686	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASTCK_LV	F_SOC_MBIST_GX02_BST_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	689	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASTCK_LV		AND	688	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_LV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_LV,F_EVS_AlarmFail	AND	691	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_LV		AND	690	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_1WD_SRVA_LV	F_SOC_MBIST_GR05_BST_1WD_SRVA_LV,F_EVS_AlarmFail	AND	693	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_1WD_SRVA_LV		AND	692	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_1RD_SRVA_LV	F_SOC_MBIST_GR05_BST_1RD_SRVA_LV,F_EVS_AlarmFail	AND	695	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_1RD_SRVA_LV		AND	694	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_LV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_LV,F_EVS_AlarmFail	AND	697	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_LV		AND	696	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASETP_LV	F_SOC_MBIST_GR01_BIR_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	699	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASETP_LV		AND	698	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_LV,F_EVS_AlarmFail	AND	701	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_LV		AND	700	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_LV	F_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	703	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_LV		AND	702	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASETP_LV	F_SOC_MBIST_GR02_BIR_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	705	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASETP_LV		AND	704	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_LV,F_EVS_AlarmFail	AND	707	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_LV		AND	706	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_LV	F_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	709	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_LV		AND	708	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASETP_LV	F_SOC_MBIST_GR03_BIR_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	711	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASETP_LV		AND	710	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_LV,F_EVS_AlarmFail	AND	713	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_LV		AND	712	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_LV	F_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	715	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_LV		AND	714	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_LV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	717	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_LV		AND	716	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_LV,F_EVS_AlarmFail	AND	719	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_LV		AND	718	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_LV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	721	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_LV		AND	720	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_LV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_LV,F_EVS_AlarmFail	AND	723	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_LV		AND	722	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_LV,F_EVS_AlarmFail	AND	725	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_LV		AND	724	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_LV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_LV,F_EVS_AlarmFail	AND	727	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_LV		AND	726	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_LV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_LV,F_EVS_AlarmFail	AND	729	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_LV		AND	728	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_LV,F_EVS_AlarmFail	AND	731	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_LV		AND	730	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_LV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_LV,F_EVS_AlarmFail	AND	733	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_LV		AND	732	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_LV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_LV,F_EVS_AlarmFail	AND	735	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_LV		AND	734	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_LV,F_EVS_AlarmFail	AND	737	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_LV		AND	736	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_LV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_LV,F_EVS_AlarmFail	AND	739	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_LV		AND	738	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASETP_LV	F_SOC_MBIST_GR05_BIR_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	741	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASETP_LV		AND	740	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_LV,F_EVS_AlarmFail	AND	743	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_LV		AND	742	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_LV	F_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	745	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_LV		AND	744	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASETP_LV	F_SOC_MBIST_GO01_BST_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	747	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASETP_LV		AND	746	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_LV,F_EVS_AlarmFail	AND	749	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_LV		AND	748	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASTCK_LV	F_SOC_MBIST_GO01_BST_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	751	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASTCK_LV		AND	750	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASETP_LV	F_SOC_MBIST_GO02_BST_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	753	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASETP_LV		AND	752	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_LV,F_EVS_AlarmFail	AND	755	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_LV		AND	754	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASTCK_LV	F_SOC_MBIST_GO02_BST_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	757	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASTCK_LV		AND	756	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_PLL_UNS_3_NV	F_SOC_MBIST_XXXX_PLL_UNS_3_NV,F_EVS_AlarmFail	AND	759	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_PLL_UNS_3_NV		AND	758	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASETP_HV	F_SOC_MBIST_GX01_BST_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	761	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASETP_HV		AND	760	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_HV,F_EVS_AlarmFail	AND	763	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_HV		AND	762	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASTCK_HV	F_SOC_MBIST_GX01_BST_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	765	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASTCK_HV		AND	764	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASETP_HV	F_SOC_MBIST_GX02_BST_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	767	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASETP_HV		AND	766	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_HV,F_EVS_AlarmFail	AND	769	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_HV		AND	768	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASTCK_HV	F_SOC_MBIST_GX02_BST_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	771	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASTCK_HV		AND	770	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_HV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_HV,F_EVS_AlarmFail	AND	773	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_HV		AND	772	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_1WD_SRVA_HV	F_SOC_MBIST_GR05_BST_1WD_SRVA_HV,F_EVS_AlarmFail	AND	775	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_1WD_SRVA_HV		AND	774	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_1RD_SRVA_HV	F_SOC_MBIST_GR05_BST_1RD_SRVA_HV,F_EVS_AlarmFail	AND	777	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_1RD_SRVA_HV		AND	776	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_HV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_HV,F_EVS_AlarmFail	AND	779	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_HV		AND	778	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASETP_HV	F_SOC_MBIST_GR01_BIR_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	781	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASETP_HV		AND	780	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_HV,F_EVS_AlarmFail	AND	783	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_HV		AND	782	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_HV	F_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	785	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_HV		AND	784	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASETP_HV	F_SOC_MBIST_GR02_BIR_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	787	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASETP_HV		AND	786	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_HV,F_EVS_AlarmFail	AND	789	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_HV		AND	788	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_HV	F_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	791	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_HV		AND	790	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASETP_HV	F_SOC_MBIST_GR03_BIR_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	793	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASETP_HV		AND	792	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_HV,F_EVS_AlarmFail	AND	795	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_HV		AND	794	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_HV	F_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	797	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_HV		AND	796	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_HV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	799	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_HV		AND	798	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_HV,F_EVS_AlarmFail	AND	801	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_HV		AND	800	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_HV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	803	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_HV		AND	802	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_HV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_HV,F_EVS_AlarmFail	AND	805	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_HV		AND	804	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_HV,F_EVS_AlarmFail	AND	807	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_HV		AND	806	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_HV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_HV,F_EVS_AlarmFail	AND	809	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_HV		AND	808	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_HV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_HV,F_EVS_AlarmFail	AND	811	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_HV		AND	810	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_HV,F_EVS_AlarmFail	AND	813	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_HV		AND	812	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_HV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_HV,F_EVS_AlarmFail	AND	815	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_HV		AND	814	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_HV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_HV,F_EVS_AlarmFail	AND	817	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_HV		AND	816	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_HV,F_EVS_AlarmFail	AND	819	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_HV		AND	818	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_HV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_HV,F_EVS_AlarmFail	AND	821	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_HV		AND	820	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASETP_HV	F_SOC_MBIST_GR05_BIR_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	823	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASETP_HV		AND	822	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_HV,F_EVS_AlarmFail	AND	825	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_HV		AND	824	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_HV	F_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	827	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_HV		AND	826	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASETP_HV	F_SOC_MBIST_GO01_BST_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	829	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASETP_HV		AND	828	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_HV,F_EVS_AlarmFail	AND	831	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_HV		AND	830	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASTCK_HV	F_SOC_MBIST_GO01_BST_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	833	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASTCK_HV		AND	832	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASETP_HV	F_SOC_MBIST_GO02_BST_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	835	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASETP_HV		AND	834	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_HV,F_EVS_AlarmFail	AND	837	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_HV		AND	836	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASTCK_HV	F_SOC_MBIST_GO02_BST_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	839	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASTCK_HV		AND	838	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASETP_MHV	F_SOC_MBIST_GX01_BST_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	841	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASETP_MHV		AND	840	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_MHV,F_EVS_AlarmFail	AND	843	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_MHV		AND	842	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASTCK_MHV	F_SOC_MBIST_GX01_BST_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	845	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_BST_UNS_SRVASTCK_MHV		AND	844	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASETP_MHV	F_SOC_MBIST_GX02_BST_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	847	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASETP_MHV		AND	846	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_MHV,F_EVS_AlarmFail	AND	849	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_1_MHV		AND	848	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASTCK_MHV	F_SOC_MBIST_GX02_BST_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	851	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_BST_UNS_SRVASTCK_MHV		AND	850	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_MHV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_MHV,F_EVS_AlarmFail	AND	853	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_MHV		AND	852	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_1WD_SRVA_MHV	F_SOC_MBIST_GR05_BST_1WD_SRVA_MHV,F_EVS_AlarmFail	AND	855	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_1WD_SRVA_MHV		AND	854	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_1RD_SRVA_MHV	F_SOC_MBIST_GR05_BST_1RD_SRVA_MHV,F_EVS_AlarmFail	AND	857	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_1RD_SRVA_MHV		AND	856	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_MHV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_MHV,F_EVS_AlarmFail	AND	859	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_MHV		AND	858	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASETP_MHV	F_SOC_MBIST_GR01_BIR_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	861	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASETP_MHV		AND	860	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_MHV,F_EVS_AlarmFail	AND	863	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_2_MHV		AND	862	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_MHV	F_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	865	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BIR_UNS_SRVASTCK_MHV		AND	864	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASETP_MHV	F_SOC_MBIST_GR02_BIR_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	867	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASETP_MHV		AND	866	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_MHV,F_EVS_AlarmFail	AND	869	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_3_MHV		AND	868	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_MHV	F_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	871	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BIR_UNS_SRVASTCK_MHV		AND	870	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASETP_MHV	F_SOC_MBIST_GR03_BIR_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	873	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASETP_MHV		AND	872	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_MHV,F_EVS_AlarmFail	AND	875	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_4_MHV		AND	874	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_MHV	F_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	877	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BIR_UNS_SRVASTCK_MHV		AND	876	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_MHV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	879	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_MHV		AND	878	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_MHV,F_EVS_AlarmFail	AND	881	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_5_MHV		AND	880	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_MHV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	883	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_MHV		AND	882	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_MHV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_MHV,F_EVS_AlarmFail	AND	885	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_1_MHV		AND	884	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_MHV,F_EVS_AlarmFail	AND	887	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_6_MHV		AND	886	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_MHV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_MHV,F_EVS_AlarmFail	AND	889	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_1_MHV		AND	888	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_MHV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_MHV,F_EVS_AlarmFail	AND	891	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_2_MHV		AND	890	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_MHV,F_EVS_AlarmFail	AND	893	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_7_MHV		AND	892	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_MHV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_MHV,F_EVS_AlarmFail	AND	895	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_2_MHV		AND	894	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_MHV	F_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_MHV,F_EVS_AlarmFail	AND	897	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASETP_3_MHV		AND	896	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_MHV,F_EVS_AlarmFail	AND	899	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_8_MHV		AND	898	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_MHV	F_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_MHV,F_EVS_AlarmFail	AND	901	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIR_UNS_SRVASTCK_3_MHV		AND	900	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASETP_MHV	F_SOC_MBIST_GR05_BIR_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	903	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASETP_MHV		AND	902	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_MHV,F_EVS_AlarmFail	AND	905	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_9_MHV		AND	904	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_MHV	F_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	907	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BIR_UNS_SRVASTCK_MHV		AND	906	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASETP_MHV	F_SOC_MBIST_GO01_BST_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	909	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASETP_MHV		AND	908	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_MHV,F_EVS_AlarmFail	AND	911	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_10_MHV		AND	910	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASTCK_MHV	F_SOC_MBIST_GO01_BST_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	913	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO01_BST_UNS_SRVASTCK_MHV		AND	912	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASETP_MHV	F_SOC_MBIST_GO02_BST_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	915	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASETP_MHV		AND	914	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_MHV,F_EVS_AlarmFail	AND	917	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_11_MHV		AND	916	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASTCK_MHV	F_SOC_MBIST_GO02_BST_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	919	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GO02_BST_UNS_SRVASTCK_MHV		AND	918	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_ERT_1WD_SRVABIST_NV	F_SOC_MBIST_GR01_ERT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	921	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_ERT_1WD_SRVABIST_NV		AND	920	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_ERT_1WD_SRVABIST_NV	F_SOC_MBIST_GR02_ERT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	923	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_ERT_1WD_SRVABIST_NV		AND	922	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_ERT_1WD_SRVABIST_NV	F_SOC_MBIST_GR03_ERT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	925	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_ERT_1WD_SRVABIST_NV		AND	924	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_ERT_1WD_SRVABIST_NV	F_SOC_MBIST_GR04_ERT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	927	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_ERT_1WD_SRVABIST_NV		AND	926	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_ERT_1WD_SRVABIST_NV	F_SOC_MBIST_GR05_ERT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	929	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_ERT_1WD_SRVABIST_NV		AND	928	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_5_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_5_NV,F_EVS_AlarmFail	AND	931	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_5_NV		AND	930	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_6_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_6_NV,F_EVS_AlarmFail	AND	933	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_6_NV		AND	932	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_ERT_1RD_SRVABIRA_NV	F_SOC_MBIST_GR01_ERT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	935	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_ERT_1RD_SRVABIRA_NV		AND	934	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_ERT_1RD_SRVABIRA_NV	F_SOC_MBIST_GR02_ERT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	937	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_ERT_1RD_SRVABIRA_NV		AND	936	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_ERT_1RD_SRVABIRA_NV	F_SOC_MBIST_GR03_ERT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	939	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_ERT_1RD_SRVABIRA_NV		AND	938	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_ERT_1RD_SRVABIRA_NV	F_SOC_MBIST_GR04_ERT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	941	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_ERT_1RD_SRVABIRA_NV		AND	940	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_ERT_1RD_SRVABIRA_NV	F_SOC_MBIST_GR05_ERT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	943	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_ERT_1RD_SRVABIRA_NV		AND	942	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_ERT_1WB_SRVABIST_NV	F_SOC_MBIST_GR01_ERT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	945	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_ERT_1WB_SRVABIST_NV		AND	944	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_ERT_1WB_SRVABIST_NV	F_SOC_MBIST_GR02_ERT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	947	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_ERT_1WB_SRVABIST_NV		AND	946	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_ERT_1WB_SRVABIST_NV	F_SOC_MBIST_GR03_ERT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	949	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_ERT_1WB_SRVABIST_NV		AND	948	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_ERT_1WB_SRVABIST_NV	F_SOC_MBIST_GR04_ERT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	951	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_ERT_1WB_SRVABIST_NV		AND	950	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_ERT_1WB_SRVABIST_NV	F_SOC_MBIST_GR05_ERT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	953	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_ERT_1WB_SRVABIST_NV		AND	952	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_7_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_7_NV,F_EVS_AlarmFail	AND	955	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_7_NV		AND	954	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_8_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_8_NV,F_EVS_AlarmFail	AND	957	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_8_NV		AND	956	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_ERT_1RB_SRVABIRA_NV	F_SOC_MBIST_GR01_ERT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	959	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_ERT_1RB_SRVABIRA_NV		AND	958	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_ERT_1RB_SRVABIRA_NV	F_SOC_MBIST_GR02_ERT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	961	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_ERT_1RB_SRVABIRA_NV		AND	960	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_ERT_1RB_SRVABIRA_NV	F_SOC_MBIST_GR03_ERT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	963	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_ERT_1RB_SRVABIRA_NV		AND	962	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_ERT_1RB_SRVABIRA_NV	F_SOC_MBIST_GR04_ERT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	965	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_ERT_1RB_SRVABIRA_NV		AND	964	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_ERT_1RB_SRVABIRA_NV	F_SOC_MBIST_GR05_ERT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	967	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_ERT_1RB_SRVABIRA_NV		AND	966	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI1_SRT_1WD_SRVABIST_NV	F_SOC_MBIST_GRI1_SRT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	969	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI1_SRT_1WD_SRVABIST_NV		AND	968	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI2_SRT_1WD_SRVABIST_NV	F_SOC_MBIST_GRI2_SRT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	971	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI2_SRT_1WD_SRVABIST_NV		AND	970	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI3_SRT_1WD_SRVABIST_NV	F_SOC_MBIST_GRI3_SRT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	973	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI3_SRT_1WD_SRVABIST_NV		AND	972	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_LV	F_SOC_MBIST_GRI0_SRT_ETR_SRVA_LV,F_EVS_AlarmFail	AND	975	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_LV		AND	974	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_LV	F_SOC_MBIST_GRI0_SRT_EXT_SRVA_LV,F_EVS_AlarmFail	AND	977	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_LV		AND	976	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI1_SRT_1RD_SRVABIRA_NV	F_SOC_MBIST_GRI1_SRT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	979	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI1_SRT_1RD_SRVABIRA_NV		AND	978	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI2_SRT_1RD_SRVABIRA_NV	F_SOC_MBIST_GRI2_SRT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	981	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI2_SRT_1RD_SRVABIRA_NV		AND	980	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI3_SRT_1RD_SRVABIRA_NV	F_SOC_MBIST_GRI3_SRT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	983	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI3_SRT_1RD_SRVABIRA_NV		AND	982	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI1_SRT_1WB_SRVABIST_NV	F_SOC_MBIST_GRI1_SRT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	985	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI1_SRT_1WB_SRVABIST_NV		AND	984	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI2_SRT_1WB_SRVABIST_NV	F_SOC_MBIST_GRI2_SRT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	987	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI2_SRT_1WB_SRVABIST_NV		AND	986	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI3_SRT_1WB_SRVABIST_NV	F_SOC_MBIST_GRI3_SRT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	989	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI3_SRT_1WB_SRVABIST_NV		AND	988	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_1_LV	F_SOC_MBIST_GRI0_SRT_ETR_SRVA_1_LV,F_EVS_AlarmFail	AND	991	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_1_LV		AND	990	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_1_LV	F_SOC_MBIST_GRI0_SRT_EXT_SRVA_1_LV,F_EVS_AlarmFail	AND	993	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_1_LV		AND	992	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI1_SRT_1RB_SRVABIRA_NV	F_SOC_MBIST_GRI1_SRT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	995	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI1_SRT_1RB_SRVABIRA_NV		AND	994	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI2_SRT_1RB_SRVABIRA_NV	F_SOC_MBIST_GRI2_SRT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	997	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI2_SRT_1RB_SRVABIRA_NV		AND	996	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI3_SRT_1RB_SRVABIRA_NV	F_SOC_MBIST_GRI3_SRT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	999	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI3_SRT_1RB_SRVABIRA_NV		AND	998	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_PLL_UNS_1_NV	F_SOC_MBIST_XXXX_PLL_UNS_1_NV,F_EVS_AlarmFail	AND	1001	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_PLL_UNS_1_NV		AND	1000	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN1_NRT_1WD_SRVABIST_LV	F_SOC_MBIST_GRN1_NRT_1WD_SRVABIST_LV,F_EVS_AlarmFail	AND	1003	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN1_NRT_1WD_SRVABIST_LV		AND	1002	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN2_NRT_1WD_SRVABIST_LV	F_SOC_MBIST_GRN2_NRT_1WD_SRVABIST_LV,F_EVS_AlarmFail	AND	1005	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN2_NRT_1WD_SRVABIST_LV		AND	1004	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN3_NRT_1WD_SRVABIST_LV	F_SOC_MBIST_GRN3_NRT_1WD_SRVABIST_LV,F_EVS_AlarmFail	AND	1007	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN3_NRT_1WD_SRVABIST_LV		AND	1006	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN1_NRT_1RD_SRVABIRA_LV	F_SOC_MBIST_GRN1_NRT_1RD_SRVABIRA_LV,F_EVS_AlarmFail	AND	1009	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN1_NRT_1RD_SRVABIRA_LV		AND	1008	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN2_NRT_1RD_SRVABIRA_LV	F_SOC_MBIST_GRN2_NRT_1RD_SRVABIRA_LV,F_EVS_AlarmFail	AND	1011	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN2_NRT_1RD_SRVABIRA_LV		AND	1010	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN3_NRT_1RD_SRVABIRA_LV	F_SOC_MBIST_GRN3_NRT_1RD_SRVABIRA_LV,F_EVS_AlarmFail	AND	1013	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN3_NRT_1RD_SRVABIRA_LV		AND	1012	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN1_NRT_1WB_SRVABIST_LV	F_SOC_MBIST_GRN1_NRT_1WB_SRVABIST_LV,F_EVS_AlarmFail	AND	1015	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN1_NRT_1WB_SRVABIST_LV		AND	1014	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN2_NRT_1WB_SRVABIST_LV	F_SOC_MBIST_GRN2_NRT_1WB_SRVABIST_LV,F_EVS_AlarmFail	AND	1017	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN2_NRT_1WB_SRVABIST_LV		AND	1016	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN3_NRT_1WB_SRVABIST_LV	F_SOC_MBIST_GRN3_NRT_1WB_SRVABIST_LV,F_EVS_AlarmFail	AND	1019	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN3_NRT_1WB_SRVABIST_LV		AND	1018	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN1_NRT_1RB_SRVABIRA_LV	F_SOC_MBIST_GRN1_NRT_1RB_SRVABIRA_LV,F_EVS_AlarmFail	AND	1021	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN1_NRT_1RB_SRVABIRA_LV		AND	1020	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN2_NRT_1RB_SRVABIRA_LV	F_SOC_MBIST_GRN2_NRT_1RB_SRVABIRA_LV,F_EVS_AlarmFail	AND	1023	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN2_NRT_1RB_SRVABIRA_LV		AND	1022	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN3_NRT_1RB_SRVABIRA_LV	F_SOC_MBIST_GRN3_NRT_1RB_SRVABIRA_LV,F_EVS_AlarmFail	AND	1025	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN3_NRT_1RB_SRVABIRA_LV		AND	1024	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_ERT_1WD_SRVABIST_NV	F_SOC_MBIST_GX01_ERT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	1027	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_ERT_1WD_SRVABIST_NV		AND	1026	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_ERT_1WD_SRVABIST_NV	F_SOC_MBIST_GX02_ERT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	1029	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_ERT_1WD_SRVABIST_NV		AND	1028	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_1_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_1_NV,F_EVS_AlarmFail	AND	1031	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_1_NV		AND	1030	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_2_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_2_NV,F_EVS_AlarmFail	AND	1033	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_2_NV		AND	1032	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_ERT_1RD_SRVABIST_NV	F_SOC_MBIST_GX01_ERT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1035	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_ERT_1RD_SRVABIST_NV		AND	1034	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_ERT_1RD_SRVABIST_NV	F_SOC_MBIST_GX02_ERT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1037	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_ERT_1RD_SRVABIST_NV		AND	1036	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_ERT_1WB_SRVABIST_NV	F_SOC_MBIST_GX01_ERT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	1039	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_ERT_1WB_SRVABIST_NV		AND	1038	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_ERT_1WB_SRVABIST_NV	F_SOC_MBIST_GX02_ERT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	1041	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_ERT_1WB_SRVABIST_NV		AND	1040	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_3_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_3_NV,F_EVS_AlarmFail	AND	1043	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_3_NV		AND	1042	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_4_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_4_NV,F_EVS_AlarmFail	AND	1045	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_4_NV		AND	1044	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX01_ERT_1RB_SRVABIST_NV	F_SOC_MBIST_GX01_ERT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1047	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX01_ERT_1RB_SRVABIST_NV		AND	1046	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GX02_ERT_1RB_SRVABIST_NV	F_SOC_MBIST_GX02_ERT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1049	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GX02_ERT_1RB_SRVABIST_NV		AND	1048	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR06_ERT_1WD_SRVABIST_NV	F_SOC_MBIST_GR06_ERT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	1051	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR06_ERT_1WD_SRVABIST_NV		AND	1050	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR07_ERT_1WD_SRVABIST_NV	F_SOC_MBIST_GR07_ERT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	1053	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR07_ERT_1WD_SRVABIST_NV		AND	1052	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR08_ERT_1WD_SRVABIST_NV	F_SOC_MBIST_GR08_ERT_1WD_SRVABIST_NV,F_EVS_AlarmFail	AND	1055	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR08_ERT_1WD_SRVABIST_NV		AND	1054	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_2_LV	F_SOC_MBIST_GRI0_SRT_ETR_SRVA_2_LV,F_EVS_AlarmFail	AND	1057	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_2_LV		AND	1056	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_2_LV	F_SOC_MBIST_GRI0_SRT_EXT_SRVA_2_LV,F_EVS_AlarmFail	AND	1059	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_2_LV		AND	1058	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR06_ERT_1RD_SRVABIRA_NV	F_SOC_MBIST_GR06_ERT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	1061	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR06_ERT_1RD_SRVABIRA_NV		AND	1060	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR07_ERT_1RD_SRVABIRA_NV	F_SOC_MBIST_GR07_ERT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	1063	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR07_ERT_1RD_SRVABIRA_NV		AND	1062	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR08_ERT_1RD_SRVABIRA_NV	F_SOC_MBIST_GR08_ERT_1RD_SRVABIRA_NV,F_EVS_AlarmFail	AND	1065	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR08_ERT_1RD_SRVABIRA_NV		AND	1064	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR06_ERT_1WB_SRVABIST_NV	F_SOC_MBIST_GR06_ERT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	1067	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR06_ERT_1WB_SRVABIST_NV		AND	1066	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR07_ERT_1WB_SRVABIST_NV	F_SOC_MBIST_GR07_ERT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	1069	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR07_ERT_1WB_SRVABIST_NV		AND	1068	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR08_ERT_1WB_SRVABIST_NV	F_SOC_MBIST_GR08_ERT_1WB_SRVABIST_NV,F_EVS_AlarmFail	AND	1071	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR08_ERT_1WB_SRVABIST_NV		AND	1070	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_3_LV	F_SOC_MBIST_GRI0_SRT_ETR_SRVA_3_LV,F_EVS_AlarmFail	AND	1073	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_3_LV		AND	1072	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_3_LV	F_SOC_MBIST_GRI0_SRT_EXT_SRVA_3_LV,F_EVS_AlarmFail	AND	1075	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_3_LV		AND	1074	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR06_ERT_1RB_SRVABIRA_NV	F_SOC_MBIST_GR06_ERT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	1077	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR06_ERT_1RB_SRVABIRA_NV		AND	1076	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR07_ERT_1RB_SRVABIRA_NV	F_SOC_MBIST_GR07_ERT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	1079	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR07_ERT_1RB_SRVABIRA_NV		AND	1078	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR08_ERT_1RB_SRVABIRA_NV	F_SOC_MBIST_GR08_ERT_1RB_SRVABIRA_NV,F_EVS_AlarmFail	AND	1081	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR08_ERT_1RB_SRVABIRA_NV		AND	1080	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_PLL_UNS_4_NV	F_SOC_MBIST_XXXX_PLL_UNS_4_NV,F_EVS_AlarmFail	AND	1083	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_PLL_UNS_4_NV		AND	1082	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BIS_UNS_SRVA_NV	F_SOC_MBIST_GR01_BIS_UNS_SRVA_NV,F_EVS_AlarmFail	AND	1085	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BIS_UNS_SRVA_NV		AND	1084	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BIS_UNS_SRVA_NV	F_SOC_MBIST_GR02_BIS_UNS_SRVA_NV,F_EVS_AlarmFail	AND	1087	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BIS_UNS_SRVA_NV		AND	1086	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BIS_UNS_SRVA_NV	F_SOC_MBIST_GR03_BIS_UNS_SRVA_NV,F_EVS_AlarmFail	AND	1089	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BIS_UNS_SRVA_NV		AND	1088	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BIS_UNS_SRVA_NV	F_SOC_MBIST_GR04_BIS_UNS_SRVA_NV,F_EVS_AlarmFail	AND	1091	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BIS_UNS_SRVA_NV		AND	1090	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BIS_UNS_SRVA_NV	F_SOC_MBIST_GR05_BIS_UNS_SRVA_NV,F_EVS_AlarmFail	AND	1093	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BIS_UNS_SRVA_NV		AND	1092	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR06_BIS_UNS_SRVA_NV	F_SOC_MBIST_GR06_BIS_UNS_SRVA_NV,F_EVS_AlarmFail	AND	1095	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR06_BIS_UNS_SRVA_NV		AND	1094	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR07_BIS_UNS_SRVA_NV	F_SOC_MBIST_GR07_BIS_UNS_SRVA_NV,F_EVS_AlarmFail	AND	1097	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR07_BIS_UNS_SRVA_NV		AND	1096	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR08_BIS_UNS_SRVA_NV	F_SOC_MBIST_GR08_BIS_UNS_SRVA_NV,F_EVS_AlarmFail	AND	1099	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR08_BIS_UNS_SRVA_NV		AND	1098	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_9_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_9_NV,F_EVS_AlarmFail	AND	1101	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_9_NV		AND	1100	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_FLD_FLS_SRVA_NV	F_SOC_MBIST_CHIP_FLD_FLS_SRVA_NV,F_EVS_AlarmFail	AND	1103	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_FLD_FLS_SRVA_NV		AND	1102	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_EFU_EFC_SRVA_HV	F_SOC_MBIST_CHIP_EFU_EFC_SRVA_HV,F_EVS_AlarmFail	AND	1105	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_EFU_EFC_SRVA_HV		AND	1104	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_EFU_EFC_SRVA_LV	F_SOC_MBIST_CHIP_EFU_EFC_SRVA_LV,F_EVS_AlarmFail	AND	1107	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_EFU_EFC_SRVA_LV		AND	1106	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_XXX_UNS_2_NV	F_SOC_MBIST_XXXX_XXX_UNS_2_NV,F_EVS_AlarmFail	AND	1109	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_XXX_UNS_2_NV		AND	1108	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_PLL_UNS_5_NV	F_SOC_MBIST_XXXX_PLL_UNS_5_NV,F_EVS_AlarmFail	AND	1111	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_PLL_UNS_5_NV		AND	1110	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_XXX_UNS_3_NV	F_SOC_MBIST_XXXX_XXX_UNS_3_NV,F_EVS_AlarmFail	AND	1113	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_XXX_UNS_3_NV		AND	1112	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_SRV_UNS_SRVA_1_NV	F_SOC_MBIST_CHIP_SRV_UNS_SRVA_1_NV,F_EVS_AlarmFail	AND	1115	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_SRV_UNS_SRVA_1_NV		AND	1114	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASETP_MLV	F_SOC_MBIST_GR01_BST_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	1117	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASETP_MLV		AND	1116	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_MLV,F_EVS_AlarmFail	AND	1119	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_MLV		AND	1118	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASTCK_MLV	F_SOC_MBIST_GR01_BST_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	1121	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASTCK_MLV		AND	1120	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASETP_MLV	F_SOC_MBIST_GR02_BST_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	1123	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASETP_MLV		AND	1122	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_MLV,F_EVS_AlarmFail	AND	1125	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_MLV		AND	1124	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASTCK_MLV	F_SOC_MBIST_GR02_BST_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	1127	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASTCK_MLV		AND	1126	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASETP_MLV	F_SOC_MBIST_GR03_BST_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	1129	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASETP_MLV		AND	1128	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_MLV,F_EVS_AlarmFail	AND	1131	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_MLV		AND	1130	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASTCK_MLV	F_SOC_MBIST_GR03_BST_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	1133	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASTCK_MLV		AND	1132	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_MLV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	1135	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_MLV		AND	1134	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_MLV,F_EVS_AlarmFail	AND	1137	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_MLV		AND	1136	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_MLV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	1139	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_MLV		AND	1138	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_MLV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_MLV,F_EVS_AlarmFail	AND	1141	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_MLV		AND	1140	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_MLV,F_EVS_AlarmFail	AND	1143	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_MLV		AND	1142	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_MLV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_MLV,F_EVS_AlarmFail	AND	1145	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_MLV		AND	1144	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_MLV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_MLV,F_EVS_AlarmFail	AND	1147	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_MLV		AND	1146	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_MLV,F_EVS_AlarmFail	AND	1149	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_MLV		AND	1148	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_MLV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_MLV,F_EVS_AlarmFail	AND	1151	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_MLV		AND	1150	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_MLV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_MLV,F_EVS_AlarmFail	AND	1153	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_MLV		AND	1152	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_MLV,F_EVS_AlarmFail	AND	1155	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_MLV		AND	1154	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_MLV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_MLV,F_EVS_AlarmFail	AND	1157	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_MLV		AND	1156	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASETP_MLV	F_SOC_MBIST_GR05_BST_UNS_SRVASETP_MLV,F_EVS_AlarmFail	AND	1159	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASETP_MLV		AND	1158	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_MLV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_MLV,F_EVS_AlarmFail	AND	1161	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_MLV		AND	1160	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASTCK_MLV	F_SOC_MBIST_GR05_BST_UNS_SRVASTCK_MLV,F_EVS_AlarmFail	AND	1163	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASTCK_MLV		AND	1162	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASETP_MHV	F_SOC_MBIST_GR01_BST_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	1165	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASETP_MHV		AND	1164	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_MHV,F_EVS_AlarmFail	AND	1167	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_MHV		AND	1166	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASTCK_MHV	F_SOC_MBIST_GR01_BST_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	1169	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASTCK_MHV		AND	1168	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASETP_MHV	F_SOC_MBIST_GR02_BST_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	1171	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASETP_MHV		AND	1170	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_MHV,F_EVS_AlarmFail	AND	1173	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_MHV		AND	1172	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASTCK_MHV	F_SOC_MBIST_GR02_BST_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	1175	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASTCK_MHV		AND	1174	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASETP_MHV	F_SOC_MBIST_GR03_BST_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	1177	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASETP_MHV		AND	1176	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_MHV,F_EVS_AlarmFail	AND	1179	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_MHV		AND	1178	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASTCK_MHV	F_SOC_MBIST_GR03_BST_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	1181	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASTCK_MHV		AND	1180	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_MHV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	1183	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_MHV		AND	1182	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_MHV,F_EVS_AlarmFail	AND	1185	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_MHV		AND	1184	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_MHV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	1187	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_MHV		AND	1186	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_MHV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_MHV,F_EVS_AlarmFail	AND	1189	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_MHV		AND	1188	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_MHV,F_EVS_AlarmFail	AND	1191	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_MHV		AND	1190	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_MHV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_MHV,F_EVS_AlarmFail	AND	1193	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_MHV		AND	1192	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_MHV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_MHV,F_EVS_AlarmFail	AND	1195	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_MHV		AND	1194	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_MHV,F_EVS_AlarmFail	AND	1197	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_MHV		AND	1196	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_MHV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_MHV,F_EVS_AlarmFail	AND	1199	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_MHV		AND	1198	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_MHV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_MHV,F_EVS_AlarmFail	AND	1201	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_MHV		AND	1200	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_MHV,F_EVS_AlarmFail	AND	1203	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_MHV		AND	1202	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_MHV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_MHV,F_EVS_AlarmFail	AND	1205	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_MHV		AND	1204	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASETP_MHV	F_SOC_MBIST_GR05_BST_UNS_SRVASETP_MHV,F_EVS_AlarmFail	AND	1207	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASETP_MHV		AND	1206	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_MHV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_MHV,F_EVS_AlarmFail	AND	1209	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_MHV		AND	1208	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASTCK_MHV	F_SOC_MBIST_GR05_BST_UNS_SRVASTCK_MHV,F_EVS_AlarmFail	AND	1211	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASTCK_MHV		AND	1210	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_ERT_1WD_SRVABIST_1_NV	F_SOC_MBIST_GR01_ERT_1WD_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1213	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_ERT_1WD_SRVABIST_1_NV		AND	1212	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_ERT_1WD_SRVABIST_1_NV	F_SOC_MBIST_GR02_ERT_1WD_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1215	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_ERT_1WD_SRVABIST_1_NV		AND	1214	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_ERT_1WD_SRVABIST_1_NV	F_SOC_MBIST_GR03_ERT_1WD_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1217	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_ERT_1WD_SRVABIST_1_NV		AND	1216	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_ERT_1WD_SRVABIST_1_NV	F_SOC_MBIST_GR04_ERT_1WD_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1219	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_ERT_1WD_SRVABIST_1_NV		AND	1218	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_ERT_1WD_SRVABIST_1_NV	F_SOC_MBIST_GR05_ERT_1WD_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1221	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_ERT_1WD_SRVABIST_1_NV		AND	1220	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_NV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_NV,F_EVS_AlarmFail	AND	1223	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_NV		AND	1222	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_1WD_SRVA_NV	F_SOC_MBIST_GR05_BST_1WD_SRVA_NV,F_EVS_AlarmFail	AND	1225	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_1WD_SRVA_NV		AND	1224	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_NV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_NV,F_EVS_AlarmFail	AND	1227	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_1_NV		AND	1226	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_10_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_10_NV,F_EVS_AlarmFail	AND	1229	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_10_NV		AND	1228	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_ERT_1RD_SRVABIST_NV	F_SOC_MBIST_GR01_ERT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1231	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_ERT_1RD_SRVABIST_NV		AND	1230	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_ERT_1RD_SRVABIST_NV	F_SOC_MBIST_GR02_ERT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1233	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_ERT_1RD_SRVABIST_NV		AND	1232	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_ERT_1RD_SRVABIST_NV	F_SOC_MBIST_GR03_ERT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1235	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_ERT_1RD_SRVABIST_NV		AND	1234	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_ERT_1RD_SRVABIST_NV	F_SOC_MBIST_GR04_ERT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1237	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_ERT_1RD_SRVABIST_NV		AND	1236	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_ERT_1RD_SRVABIST_NV	F_SOC_MBIST_GR05_ERT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1239	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_ERT_1RD_SRVABIST_NV		AND	1238	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_2_NV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_2_NV,F_EVS_AlarmFail	AND	1241	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_2_NV		AND	1240	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_1RD_SRVA_NV	F_SOC_MBIST_GR05_BST_1RD_SRVA_NV,F_EVS_AlarmFail	AND	1243	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_1RD_SRVA_NV		AND	1242	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_3_NV	F_SOC_MBIST_CHIP_TDR_UNS_SBIST_3_NV,F_EVS_AlarmFail	AND	1245	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_SBIST_3_NV		AND	1244	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_ERT_1WB_SRVABIST_1_NV	F_SOC_MBIST_GR01_ERT_1WB_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1247	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_ERT_1WB_SRVABIST_1_NV		AND	1246	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_ERT_1WB_SRVABIST_1_NV	F_SOC_MBIST_GR02_ERT_1WB_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1249	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_ERT_1WB_SRVABIST_1_NV		AND	1248	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_ERT_1WB_SRVABIST_1_NV	F_SOC_MBIST_GR03_ERT_1WB_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1251	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_ERT_1WB_SRVABIST_1_NV		AND	1250	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_ERT_1WB_SRVABIST_1_NV	F_SOC_MBIST_GR04_ERT_1WB_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1253	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_ERT_1WB_SRVABIST_1_NV		AND	1252	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_ERT_1WB_SRVABIST_1_NV	F_SOC_MBIST_GR05_ERT_1WB_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1255	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_ERT_1WB_SRVABIST_1_NV		AND	1254	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_11_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_11_NV,F_EVS_AlarmFail	AND	1257	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_11_NV		AND	1256	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_12_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_12_NV,F_EVS_AlarmFail	AND	1259	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_12_NV		AND	1258	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_ERT_1RB_SRVABIST_NV	F_SOC_MBIST_GR01_ERT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1261	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_ERT_1RB_SRVABIST_NV		AND	1260	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_ERT_1RB_SRVABIST_NV	F_SOC_MBIST_GR02_ERT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1263	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_ERT_1RB_SRVABIST_NV		AND	1262	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_ERT_1RB_SRVABIST_NV	F_SOC_MBIST_GR03_ERT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1265	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_ERT_1RB_SRVABIST_NV		AND	1264	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_ERT_1RB_SRVABIST_NV	F_SOC_MBIST_GR04_ERT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1267	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_ERT_1RB_SRVABIST_NV		AND	1266	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_ERT_1RB_SRVABIST_NV	F_SOC_MBIST_GR05_ERT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1269	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_ERT_1RB_SRVABIST_NV		AND	1268	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI2_SRT_1WD_SRVABIST_1_NV	F_SOC_MBIST_GRI2_SRT_1WD_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1271	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI2_SRT_1WD_SRVABIST_1_NV		AND	1270	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI3_SRT_1WD_SRVABIST_1_NV	F_SOC_MBIST_GRI3_SRT_1WD_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1273	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI3_SRT_1WD_SRVABIST_1_NV		AND	1272	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_6_LV	F_SOC_MBIST_GRI0_SRT_ETR_SRVA_6_LV,F_EVS_AlarmFail	AND	1275	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_6_LV		AND	1274	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_6_LV	F_SOC_MBIST_GRI0_SRT_EXT_SRVA_6_LV,F_EVS_AlarmFail	AND	1277	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_6_LV		AND	1276	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI2_SRT_1RD_SRVABIST_NV	F_SOC_MBIST_GRI2_SRT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1279	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI2_SRT_1RD_SRVABIST_NV		AND	1278	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI3_SRT_1RD_SRVABIST_NV	F_SOC_MBIST_GRI3_SRT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1281	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI3_SRT_1RD_SRVABIST_NV		AND	1280	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI2_SRT_1WB_SRVABIST_1_NV	F_SOC_MBIST_GRI2_SRT_1WB_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1283	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI2_SRT_1WB_SRVABIST_1_NV		AND	1282	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI3_SRT_1WB_SRVABIST_1_NV	F_SOC_MBIST_GRI3_SRT_1WB_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1285	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI3_SRT_1WB_SRVABIST_1_NV		AND	1284	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_7_LV	F_SOC_MBIST_GRI0_SRT_ETR_SRVA_7_LV,F_EVS_AlarmFail	AND	1287	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_7_LV		AND	1286	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_7_LV	F_SOC_MBIST_GRI0_SRT_EXT_SRVA_7_LV,F_EVS_AlarmFail	AND	1289	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_7_LV		AND	1288	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI2_SRT_1RB_SRVABIST_NV	F_SOC_MBIST_GRI2_SRT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1291	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI2_SRT_1RB_SRVABIST_NV		AND	1290	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI3_SRT_1RB_SRVABIST_NV	F_SOC_MBIST_GRI3_SRT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1293	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI3_SRT_1RB_SRVABIST_NV		AND	1292	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI1_SRT_1WD_SRVABIST_1_NV	F_SOC_MBIST_GRI1_SRT_1WD_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1295	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI1_SRT_1WD_SRVABIST_1_NV		AND	1294	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_8_LV	F_SOC_MBIST_GRI0_SRT_ETR_SRVA_8_LV,F_EVS_AlarmFail	AND	1297	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_8_LV		AND	1296	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_8_LV	F_SOC_MBIST_GRI0_SRT_EXT_SRVA_8_LV,F_EVS_AlarmFail	AND	1299	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_8_LV		AND	1298	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI1_SRT_1RD_SRVABIST_NV	F_SOC_MBIST_GRI1_SRT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1301	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI1_SRT_1RD_SRVABIST_NV		AND	1300	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI1_SRT_1WB_SRVABIST_1_NV	F_SOC_MBIST_GRI1_SRT_1WB_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1303	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI1_SRT_1WB_SRVABIST_1_NV		AND	1302	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_9_LV	F_SOC_MBIST_GRI0_SRT_ETR_SRVA_9_LV,F_EVS_AlarmFail	AND	1305	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_9_LV		AND	1304	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_9_LV	F_SOC_MBIST_GRI0_SRT_EXT_SRVA_9_LV,F_EVS_AlarmFail	AND	1307	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_9_LV		AND	1306	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI1_SRT_1RB_SRVABIST_NV	F_SOC_MBIST_GRI1_SRT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1309	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI1_SRT_1RB_SRVABIST_NV		AND	1308	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN1_NRT_1WD_SRVABIST_1_LV	F_SOC_MBIST_GRN1_NRT_1WD_SRVABIST_1_LV,F_EVS_AlarmFail	AND	1311	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN1_NRT_1WD_SRVABIST_1_LV		AND	1310	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN2_NRT_1WD_SRVABIST_1_LV	F_SOC_MBIST_GRN2_NRT_1WD_SRVABIST_1_LV,F_EVS_AlarmFail	AND	1313	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN2_NRT_1WD_SRVABIST_1_LV		AND	1312	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN3_NRT_1WD_SRVABIST_1_LV	F_SOC_MBIST_GRN3_NRT_1WD_SRVABIST_1_LV,F_EVS_AlarmFail	AND	1315	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN3_NRT_1WD_SRVABIST_1_LV		AND	1314	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN1_NRT_1RD_SRVABIST_LV	F_SOC_MBIST_GRN1_NRT_1RD_SRVABIST_LV,F_EVS_AlarmFail	AND	1317	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN1_NRT_1RD_SRVABIST_LV		AND	1316	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN2_NRT_1RD_SRVABIST_LV	F_SOC_MBIST_GRN2_NRT_1RD_SRVABIST_LV,F_EVS_AlarmFail	AND	1319	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN2_NRT_1RD_SRVABIST_LV		AND	1318	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN3_NRT_1RD_SRVABIST_LV	F_SOC_MBIST_GRN3_NRT_1RD_SRVABIST_LV,F_EVS_AlarmFail	AND	1321	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN3_NRT_1RD_SRVABIST_LV		AND	1320	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN1_NRT_1WB_SRVABIST_1_LV	F_SOC_MBIST_GRN1_NRT_1WB_SRVABIST_1_LV,F_EVS_AlarmFail	AND	1323	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN1_NRT_1WB_SRVABIST_1_LV		AND	1322	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN2_NRT_1WB_SRVABIST_1_LV	F_SOC_MBIST_GRN2_NRT_1WB_SRVABIST_1_LV,F_EVS_AlarmFail	AND	1325	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN2_NRT_1WB_SRVABIST_1_LV		AND	1324	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN3_NRT_1WB_SRVABIST_1_LV	F_SOC_MBIST_GRN3_NRT_1WB_SRVABIST_1_LV,F_EVS_AlarmFail	AND	1327	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN3_NRT_1WB_SRVABIST_1_LV		AND	1326	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN1_NRT_1RB_SRVABIST_LV	F_SOC_MBIST_GRN1_NRT_1RB_SRVABIST_LV,F_EVS_AlarmFail	AND	1329	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN1_NRT_1RB_SRVABIST_LV		AND	1328	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN2_NRT_1RB_SRVABIST_LV	F_SOC_MBIST_GRN2_NRT_1RB_SRVABIST_LV,F_EVS_AlarmFail	AND	1331	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN2_NRT_1RB_SRVABIST_LV		AND	1330	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRN3_NRT_1RB_SRVABIST_LV	F_SOC_MBIST_GRN3_NRT_1RB_SRVABIST_LV,F_EVS_AlarmFail	AND	1333	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRN3_NRT_1RB_SRVABIST_LV		AND	1332	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_PLL_UNS_6_NV	F_SOC_MBIST_XXXX_PLL_UNS_6_NV,F_EVS_AlarmFail	AND	1335	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_PLL_UNS_6_NV		AND	1334	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASETP_LV	F_SOC_MBIST_GR01_BST_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	1337	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASETP_LV		AND	1336	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_LV,F_EVS_AlarmFail	AND	1339	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_LV		AND	1338	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASTCK_LV	F_SOC_MBIST_GR01_BST_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	1341	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASTCK_LV		AND	1340	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASETP_LV	F_SOC_MBIST_GR02_BST_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	1343	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASETP_LV		AND	1342	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_LV,F_EVS_AlarmFail	AND	1345	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_LV		AND	1344	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASTCK_LV	F_SOC_MBIST_GR02_BST_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	1347	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASTCK_LV		AND	1346	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASETP_LV	F_SOC_MBIST_GR03_BST_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	1349	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASETP_LV		AND	1348	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_LV,F_EVS_AlarmFail	AND	1351	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_LV		AND	1350	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASTCK_LV	F_SOC_MBIST_GR03_BST_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	1353	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASTCK_LV		AND	1352	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_LV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	1355	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_LV		AND	1354	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_LV,F_EVS_AlarmFail	AND	1357	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_LV		AND	1356	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_LV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	1359	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_LV		AND	1358	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_LV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_LV,F_EVS_AlarmFail	AND	1361	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_LV		AND	1360	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_LV,F_EVS_AlarmFail	AND	1363	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_LV		AND	1362	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_LV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_LV,F_EVS_AlarmFail	AND	1365	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_LV		AND	1364	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_LV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_LV,F_EVS_AlarmFail	AND	1367	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_LV		AND	1366	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_LV,F_EVS_AlarmFail	AND	1369	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_LV		AND	1368	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_LV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_LV,F_EVS_AlarmFail	AND	1371	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_LV		AND	1370	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_LV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_LV,F_EVS_AlarmFail	AND	1373	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_LV		AND	1372	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_LV,F_EVS_AlarmFail	AND	1375	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_LV		AND	1374	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_LV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_LV,F_EVS_AlarmFail	AND	1377	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_LV		AND	1376	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASETP_LV	F_SOC_MBIST_GR05_BST_UNS_SRVASETP_LV,F_EVS_AlarmFail	AND	1379	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASETP_LV		AND	1378	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_LV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_LV,F_EVS_AlarmFail	AND	1381	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_LV		AND	1380	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASTCK_LV	F_SOC_MBIST_GR05_BST_UNS_SRVASTCK_LV,F_EVS_AlarmFail	AND	1383	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASTCK_LV		AND	1382	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_PLL_UNS_7_NV	F_SOC_MBIST_XXXX_PLL_UNS_7_NV,F_EVS_AlarmFail	AND	1385	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_PLL_UNS_7_NV		AND	1384	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASETP_HV	F_SOC_MBIST_GR01_BST_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	1387	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASETP_HV		AND	1386	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_HV,F_EVS_AlarmFail	AND	1389	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_12_HV		AND	1388	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASTCK_HV	F_SOC_MBIST_GR01_BST_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	1391	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR01_BST_UNS_SRVASTCK_HV		AND	1390	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASETP_HV	F_SOC_MBIST_GR02_BST_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	1393	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASETP_HV		AND	1392	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_HV,F_EVS_AlarmFail	AND	1395	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_13_HV		AND	1394	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASTCK_HV	F_SOC_MBIST_GR02_BST_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	1397	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR02_BST_UNS_SRVASTCK_HV		AND	1396	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASETP_HV	F_SOC_MBIST_GR03_BST_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	1399	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASETP_HV		AND	1398	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_HV,F_EVS_AlarmFail	AND	1401	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_14_HV		AND	1400	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASTCK_HV	F_SOC_MBIST_GR03_BST_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	1403	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR03_BST_UNS_SRVASTCK_HV		AND	1402	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_HV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	1405	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_HV		AND	1404	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_HV,F_EVS_AlarmFail	AND	1407	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_15_HV		AND	1406	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_HV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	1409	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_HV		AND	1408	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_HV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_HV,F_EVS_AlarmFail	AND	1411	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_1_HV		AND	1410	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_HV,F_EVS_AlarmFail	AND	1413	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_16_HV		AND	1412	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_HV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_HV,F_EVS_AlarmFail	AND	1415	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_1_HV		AND	1414	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_HV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_HV,F_EVS_AlarmFail	AND	1417	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_2_HV		AND	1416	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_HV,F_EVS_AlarmFail	AND	1419	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_17_HV		AND	1418	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_HV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_HV,F_EVS_AlarmFail	AND	1421	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_2_HV		AND	1420	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_HV	F_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_HV,F_EVS_AlarmFail	AND	1423	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASETP_3_HV		AND	1422	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_HV,F_EVS_AlarmFail	AND	1425	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_18_HV		AND	1424	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_HV	F_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_HV,F_EVS_AlarmFail	AND	1427	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR04_BST_UNS_SRVASTCK_3_HV		AND	1426	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASETP_HV	F_SOC_MBIST_GR05_BST_UNS_SRVASETP_HV,F_EVS_AlarmFail	AND	1429	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASETP_HV		AND	1428	999	Fail	T																																																																																
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_HV	F_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_HV,F_EVS_AlarmFail	AND	1431	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_XXXX_WFC_UNS_WAITTIME_19_HV		AND	1430	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASTCK_HV	F_SOC_MBIST_GR05_BST_UNS_SRVASTCK_HV,F_EVS_AlarmFail	AND	1433	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR05_BST_UNS_SRVASTCK_HV		AND	1432	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_13_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_13_NV,F_EVS_AlarmFail	AND	1435	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_13_NV		AND	1434	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_14_NV	F_SOC_MBIST_CHIP_TDR_EMA_EMA_14_NV,F_EVS_AlarmFail	AND	1437	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_EMA_EMA_14_NV		AND	1436	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR06_ERT_1WD_SRVABIST_1_NV	F_SOC_MBIST_GR06_ERT_1WD_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1439	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR06_ERT_1WD_SRVABIST_1_NV		AND	1438	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_4_LV	F_SOC_MBIST_GRI0_SRT_ETR_SRVA_4_LV,F_EVS_AlarmFail	AND	1441	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_4_LV		AND	1440	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_4_LV	F_SOC_MBIST_GRI0_SRT_EXT_SRVA_4_LV,F_EVS_AlarmFail	AND	1443	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_4_LV		AND	1442	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR06_ERT_1RD_SRVABIST_NV	F_SOC_MBIST_GR06_ERT_1RD_SRVABIST_NV,F_EVS_AlarmFail	AND	1445	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR06_ERT_1RD_SRVABIST_NV		AND	1444	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR06_ERT_1WB_SRVABIST_1_NV	F_SOC_MBIST_GR06_ERT_1WB_SRVABIST_1_NV,F_EVS_AlarmFail	AND	1447	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR06_ERT_1WB_SRVABIST_1_NV		AND	1446	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_5_LV	F_SOC_MBIST_GRI0_SRT_ETR_SRVA_5_LV,F_EVS_AlarmFail	AND	1449	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_ETR_SRVA_5_LV		AND	1448	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_5_LV	F_SOC_MBIST_GRI0_SRT_EXT_SRVA_5_LV,F_EVS_AlarmFail	AND	1451	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GRI0_SRT_EXT_SRVA_5_LV		AND	1450	999	Fail	T																																																																																
+	Bin_SOC_MBIST_GR06_ERT_1RB_SRVABIST_NV	F_SOC_MBIST_GR06_ERT_1RB_SRVABIST_NV,F_EVS_AlarmFail	AND	1453	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_GR06_ERT_1RB_SRVABIST_NV		AND	1452	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_RR_2_NV	F_SOC_MBIST_CHIP_TDR_UNS_RR_2_NV,F_EVS_AlarmFail	AND	1455	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_RR_2_NV		AND	1454	999	Fail	T																																																																																
+	Bin_SOC_MBIST_CHIP_TDR_UNS_RR_3_NV	F_SOC_MBIST_CHIP_TDR_UNS_RR_3_NV,F_EVS_AlarmFail	AND	1457	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST_CHIP_TDR_UNS_RR_3_NV		AND	1456	999	Fail	T																																																																																
+	Bin_FailDie	F_FailDie	AND	91	9	Fail	T																																																																																
+	Bin_FailDie	F_FailDie,F_EVS_AlarmFail	AND	9795	9	Fail	T	T																																																																															
+	Bin_Other_BKM_Fail	F_Other_BKM_Fail	AND	92	9	Fail	T																																																																																
+	Bin_Other_BKM_Fail	F_Other_BKM_Fail,F_EVS_AlarmFail	AND	9795	9	Fail	T	T																																																																															

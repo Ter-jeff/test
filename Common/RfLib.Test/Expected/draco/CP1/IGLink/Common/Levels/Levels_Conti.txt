@@ -1,0 +1,17 @@
+DTLevelSheet,version=2.1:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Pin Levels
+	
+	Pin/Group	Seq.	Parameter	Value	Comment
+	All_Digital		vil	=_All_Digital_Vil_VAR	
+	All_Digital		vih	=_All_Digital_Vih_VAR	
+	All_Digital		vol	=_All_Digital_Vol_VAR	
+	All_Digital		voh	=_All_Digital_Voh_VAR	
+	All_Digital		voh_alt1	=0	
+	All_Digital		voh_alt2	=0	
+	All_Digital		iol	=_All_Digital_Iol_Conti_GLB	
+	All_Digital		ioh	=_All_Digital_Ioh_Conti_GLB	
+	All_Digital		vt	=_All_Digital_Vt_VAR	
+	All_Digital		vcl	=_All_Digital_Vcl_Conti_GLB	
+	All_Digital		vch	=_All_Digital_Vch_Conti_GLB	
+	All_Digital		voutLoTyp	=0	
+	All_Digital		voutHiTyp	=0	
+	All_Digital		driverMode	Hiz	

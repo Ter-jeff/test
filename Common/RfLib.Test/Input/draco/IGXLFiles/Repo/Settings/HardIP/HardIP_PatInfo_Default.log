@@ -1,0 +1,10 @@
+############################################################################################################
+## D:\LecturefromChihome\Input\XXXX_A0_Patterns_List_Ext_151120_TW11230834.csv
+## Greated By Hard_IP Auto Gen_Core
+############################################################################################################
+1)====================================================================
+Test_Inst: DD_CMNA0_A_FULP_AN_RX01_BST_JTG_ELB_ALLFV_SI_PWRDNF3_TX3L4
+Tset: TIMESET_CMN_A_AN_SI_1
+meas Seq(0): 
+Send Bit: 4
+Send Bit Str: sgmt1_4

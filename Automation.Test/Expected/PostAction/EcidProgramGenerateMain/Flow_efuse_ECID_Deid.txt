@@ -1,0 +1,30 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow efuse_ECID_Deid Start"																															
+						flag-clear	F_ECID_Enable																															
+		ECID_Enable				flag-true	F_ECID_Enable																															
+						If	F_ECID_Enable																															
+						Test	ECID_BlankCheck_Deid		80000												F_ECID_BlankCheck																	
+						Bintable	Bin_EFUSE_ECID_BlankCheck																															
+						Test	ECID_Init0_NV		80100												F_ECID_PLL							site-var=	ECIDChk_Var 1									
+						Bintable	Bin_EFUSE_ECID_PLL																															
+						Test	ECID_WriteDSSC_Deid		80200												F_ECID_WriteDSSC							site-var=	ECIDChk_Var 1									
+						Bintable	Bin_EFUSE_ECID_WriteDSSC																															
+						Test	ECID_Read_Deid		80300												F_ECID_Read							site-var>	ECIDChk_Var 0									
+						Bintable	Bin_EFUSE_ECID_Read																															
+						Test	ECID_CompareWR_Deid		80400												F_ECID_Check							site-var=	ECIDChk_Var 1									
+						Bintable	Bin_EFUSE_ECID_Check																															
+						Test	ECID_SyntaxCheck_Deid		80500												F_ECID_Check																	
+						Bintable	Bin_EFUSE_ECID_Check																															
+		ECIDSort_Enable	FT			Test	ECID_JTAGRead		80600																													
+		BinTable&&ECIDSort_Enable	FT			nop	Bin_EFUSE_ECID_JTAG																															
+		ECIDSort_Enable	FT			Test	ECID_SyntaxCheck_Deid		80700												F_ECID_Check																	
+		ECIDSort_Enable	FT			Bintable	Bin_EFUSE_ECID_Check																															
+		ECIDSort_Enable	FT			Test	ECID_Sorting		80800																													
+		ECIDSort_Enable	FT			Test	ECID_Sorting																															
+						Test	ShowECIDData		80900																													
+						EndIf																																
+						print	"Flow efuse_ECID_Deid Stop"																															
+						Return																																

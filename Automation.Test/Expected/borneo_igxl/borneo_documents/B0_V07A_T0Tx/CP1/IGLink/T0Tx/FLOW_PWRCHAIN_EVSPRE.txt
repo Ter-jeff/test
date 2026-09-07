@@ -1,0 +1,15 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow PWRCHAIN_EVSPRE Start"																															
+Instance_PWRCHAIN,Row2,Flow_PWRCHAIN_EVSpre			FT1,FT2			Test	SocTd_PWRCHAIN_func_LV														F_Soc_LV,F_SocTd_PWRCHAIN_func_LV																	
+Instance_PWRCHAIN,Row2,Flow_PWRCHAIN_EVSpre						flag-true	ControlBin_Soc_HLV,ControlBin_Soc_LV																					Flag-true	F_SocTd_PWRCHAIN_func_LV									
+						If	ControlBin_Soc_HLV																															
+						Bintable	Bin_Soc_HLV																															
+						EndIf																																
+						If	ControlBin_Soc_LV																															
+						Bintable	Bin_Soc_LV																															
+						EndIf																																
+						print	"Flow PWRCHAIN_EVSPRE Stop"																															
+						Return																																

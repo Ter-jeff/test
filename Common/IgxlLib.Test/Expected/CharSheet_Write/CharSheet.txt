@@ -1,0 +1,9 @@
+DTCharacterizationSheet,version=2.5:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Characterization
+	
+					Parameter		Range						Test Limits		Algorithm				Apply To			Device Margin			Adjust					Interpose Functions												Output			Output Destinations
+	Setup Name	Test Method	Step Name	Mode	Type	Name	Calc Field	From	To	Steps	Step Size	Perform Test	Low	High	Name	Arguments	Results Check	Transition	Pins	Pin Exec Mode	Time Sets	Contexts	Patterns	Instances	Backoff	Spec Name	From Setup	Function	Arguments	Pre Setup	Arguments	Pre Step	Arguments	Pre Point	Arguments	Post Point	Arguments	Post Step	Arguments	Post Setup	Arguments	Format	Text File	Sheet	Text File	Sheet	Datalog	Immediate Win	Output Win	Comment
+	Setup0		Step1																																															
+	Setup1		Step1																																															
+	Setup2		Step1																																															
+	Setup3		Step1																																															
+	Setup4		Step1																																															

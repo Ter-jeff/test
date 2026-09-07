@@ -1,0 +1,73 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						create-site-var	Flow_Shmoo_DevCharSetup																															
+						create-site-var	Flow_Shmoo_Y_Step																															
+						create-site-var	Flow_Shmoo_X_Step																															
+						create-site-var	Flow_Shmoo_Y																															
+						create-site-var	Flow_Shmoo_X																															
+						print	"komodo_B0_pattern_dashboard_20251104_2001_04.csv"																															
+						print	"Komodo_B0_DFTL_V07A_X_X_9_Result_V9.37_20251105115605.xlsx"																															
+						nop	"sgmt_default=0"																															
+						nop	Flow_eFuse_ECID																															
+						nop	Relay_ON_Default																															
+						call	Flow_nWire_Default																															
+					X	Test	Datalog_Setup_Char																															
+					X	Test	ReadWaferData_Char																															
+						create-site-var	Function_Result																															
+						flag-clear	F_Check_Shmoo_Hole_Ratio_Within_Spec																															
+						flag-clear	F_Check_Shmoo_Allfail_Ratio_Within_Spec																															
+						flag-clear	F_Check_Shmoo_Alarm_Ratio_Within_Spec																															
+						flag-clear	F_Dummy																															
+						flag-clear	F_Shmoo_Alarm																															
+						flag-clear	F_initFlow_Binout																															
+						nop	Char_Setup_Gating														F_initFlow_Binout																	
+						nop	Bin_initFlow_BinOut																															
+						nop	Enable_Charz_mode																															
+		Char_TMPS				nop																																
+						nop	Char_TMPS																															
+		Char_TMPS				nop	Char_TMPS																															
+		Disable_MemoryClr				nop																																
+						nop	Disable_MemoryClr																															
+		Disable_MemoryClr				nop	Disable_MemoryClr																															
+		Enable_HAC				nop																																
+		Enable_HF				nop																																
+		Enable_HIO				nop																																
+		Char_HIP				nop	Enable_HAC																															
+		Char_HIP				nop	Enable_HF																															
+		Char_HIP				nop	Enable_HIO																															
+If						If	SubFlow_TurnOnFlag_ByDie																															
+Test			CP1			Test	Relay_On_HARDIP																															
+call			CP1			call	Flow_nWire_Default_Disable																															
+enable-flow-word			CP1			enable-flow-word	Enable_BypassShmooHole_LVCC																															
+call			CP1			call	Flow_CZ_DFTL_HIP																															
+disable-flow-word			CP1			disable-flow-word	Enable_BypassShmooHole_LVCC																															
+call						call	Flow_nWire_Default_Enable																															
+Test						Test	Relay_Off_HARDIP																															
+call			CP1			nop	Flow_LVCC_CZ_CP1_WAT																															
+call			CP2			nop	Flow_LVCC_CZ_CP2_WAT																															
+call			FT1,FT2			nop	Flow_LVCC_CZ_FT_WAT																															
+EndIf						EndIf																																
+call			CP1			call	Flow_LVCC_CZ_CP1_ALL																															
+call			CP2			call	Flow_LVCC_CZ_CP2_ALL																															
+call			FT1,FT2			call	Flow_LVCC_CZ_FT_ALL																															
+Test			CP1			Test	Relay_On_HARDIP																															
+call			CP1			call	Flow_nWire_Default_Disable																															
+enable-flow-word			CP1			enable-flow-word	Enable_BypassShmooHole_LVCC																															
+call			CP1			call	Flow_CZ_DFTL_HIP_ALL																															
+disable-flow-word			CP1			disable-flow-word	Enable_BypassShmooHole_LVCC																															
+call			CP1			call	Flow_nWire_Default_Enable																															
+Test			CP1			Test	Relay_Off_HARDIP																															
+						nop	Check_Shmoo_Hole_Ratio_Within_Spec														F_Check_Shmoo_Hole_Ratio_Within_Spec																	
+						nop	Check_Shmoo_Allfail_Ratio_Within_Spec														F_Check_Shmoo_Allfail_Ratio_Within_Spec																	
+						nop	Check_Shmoo_Alarm_Ratio_Within_Spec														F_Check_Shmoo_Alarm_Ratio_Within_Spec																	
+						nop	Disable_Charz_mode																															
+		Error_Code_Bin_Out				nop	Bin_Char_Shmoo_Hole_Alarm_Allfail																															
+		Error_Code_Bin_Out				nop	Bin_Char_shmoo_hole_alarm																															
+		Error_Code_Bin_Out				nop	Bin_Char_shmoo_hole_allfail																															
+		Error_Code_Bin_Out				nop	Bin_Char_shmoo_alarm_allfail																															
+		Error_Code_Bin_Out				nop	Bin_Char_shmoo_allfail																															
+		Error_Code_Bin_Out				nop	Bin_Char_shmoo_alarm																															
+		Error_Code_Bin_Out				nop	Bin_Char_shmoo_hole																															
+						return																																

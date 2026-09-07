@@ -1,0 +1,40 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table	=HYPERLINK("#'Data'!1:1","Return")																																				
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"*print: TDF_LVCC_Header start*"																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MRD001_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV		12060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MRD001_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV TDF_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DIG_MRD001_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV		14060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DIG_MRD001_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV TDF_VDDDIG_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD001_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV		16060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD001_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV TDF_VDDSRAM_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MRD002_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV		18060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MRD002_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV TDF_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DIG_MRD002_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV		20060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DIG_MRD002_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV TDF_VDDDIG_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SRAM_MRD002_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV		22060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SRAM_MRD002_TDF_CLA_PL1020_SSC_X_X_SelsrmSSSSS_CZ_NV TDF_VDDSRAM_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DIG_MRD001_TDF_CLA_PL21_SSC_X_X_SelsrmSSSSS_CZ_NV		24060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DIG_MRD001_TDF_CLA_PL21_SSC_X_X_SelsrmSSSSS_CZ_NV TDF_VDDDIG_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DIG_MRD002_TDF_CLA_PL21_SSC_X_X_SelsrmSSSSS_CZ_NV		26060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DIG_MRD002_TDF_CLA_PL21_SSC_X_X_SelsrmSSSSS_CZ_NV TDF_VDDDIG_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MRD100_SAA_CPMF_PL10_SSC_X_X_SelsrmSSSSS_CZ_NV		28060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MRD100_SAA_CPMF_PL10_SSC_X_X_SelsrmSSSSS_CZ_NV SAA_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DIG_MRD001_TDF_CLA_PL40_SSC_X_X_SelsrmSSSSS_CZ_NV		30060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DIG_MRD001_TDF_CLA_PL40_SSC_X_X_SelsrmSSSSS_CZ_NV TDF_VDDDIG_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_DIG_MRD002_TDF_CLA_PL40_SSC_X_X_SelsrmSSSSS_CZ_NV		32060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_DIG_MRD002_TDF_CLA_PL40_SSC_X_X_SelsrmSSSSS_CZ_NV TDF_VDDDIG_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						print	"*print: TDF_Lvcc_Footer end*"																															
+						return																																

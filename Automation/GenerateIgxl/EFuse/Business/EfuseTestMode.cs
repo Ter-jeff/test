@@ -1,0 +1,38 @@
+﻿namespace Automation.GenerateIgxl.EFuse.Business
+{
+    public enum EfuseTestMode
+    {
+        //DVRV
+        FlatCheck,
+        BcRead,
+        DvWrite,
+        DvRead,
+        RvWrite,
+        RvRead,
+        //CFG
+        MarginReadFull,
+        MarginRead,
+        WriteDssc,
+        WriteDsscHf,
+        WriteDsscQ,
+        WriteDsscH,
+        JtagRead,
+        ApbWrite,
+        ApbRead,
+        JtagReadDap,
+        //ECID
+        ReadDap,
+        //MON
+        Crc,
+        JtagWrite,
+        //UDRE
+        Ufr,
+        Ufp,
+        Uso,
+        Usi,
+        Ver1,
+        Ver2,
+        Unknow,
+        None
+    }
+}

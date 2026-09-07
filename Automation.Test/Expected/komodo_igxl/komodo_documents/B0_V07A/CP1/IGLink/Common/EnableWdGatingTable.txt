@@ -1,0 +1,7 @@
+Enable Word	Test Program Name	Enable Word Status		3 Enable Word Check Status
+eFuse_All_Enable	*PROD*	True		True
+CFG_A00	*CP1*	True		False
+CFG_A00	*CP2*	True		BYPASS
+CFG_A00	*FT1*	True		
+T0Tx_Hot	*T0TX_85C*	True		
+T0Tx_Room	*T0TX_25C*	True		

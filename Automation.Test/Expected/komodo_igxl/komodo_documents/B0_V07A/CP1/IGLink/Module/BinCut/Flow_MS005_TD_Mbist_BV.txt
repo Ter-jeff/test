@@ -1,0 +1,91 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow MS005_TD_Mbist_BV Start"																															
+Instance_Bincut_MS,Row38,MSX005 SOC TD,TD		(CP1||FT2) && TD_PL99_SOC				Test	MS005_MSX005_SOC_MSX005_TD_CDCS_PL99_SSC_SOC_MSX005_TD_CDCS_PL99_SSC_BV		51240000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row39,MSX005 SOC TD,TD		(CP1||FT2) && TD_PL99_SOC				Test	MS005_MSX005_SOC_MSX005_TD_CSA0_PL99_SSC_SOC_MSX005_TD_CSA0_PL99_SSC_BV		51241000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row40,MSX005 SOC TD,TD		(CP1||FT2) && TD_PL99_SOC				Test	MS005_MSX005_SOC_MSX005_TD_CSB1_PL99_SSC_SOC_MSX005_TD_CSB1_PL99_SSC_BV		51242000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row41,MSX005 SOC TD,TD		(CP1||FT2) && TD_PL99_SOC				Test	MS005_MSX005_SOC_MSX005_TD_CSB2_PL99_SSC_SOC_MSX005_TD_CSB2_PL99_SSC_BV		51243000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row42,MSX005 SOC TD,TD		(CP1||FT2) && TD_PL99_SOC				Test	MS005_MSX005_SOC_MSX005_TD_CSC0_PL99_SSC_SOC_MSX005_TD_CSC0_PL99_SSC_BV		51244000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row43,MSX005 SOC TD,TD		(CP1||FT2) && TD_PL99_SOC				Test	MS005_MSX005_SOC_MSX005_TD_CA00_PL99_SSC_SOC_MSX005_TD_CA00_PL99_SSC_BV		51245000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row44,MSX005 SOC TD,TD		(CP1||FT2) && TD_PL99_SOC				Test	MS005_MSX005_SOC_MSX005_TD_CHI1_PL99_SSC_SOC_MSX005_TD_CHI1_PL99_SSC_BV		51246000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row45,MSX005 SOC TD,TD		(CP1||FT2) && TD_PL99_SOC				Test	MS005_MSX005_SOC_MSX005_TD_CHI2_PL99_SSC_SOC_MSX005_TD_CHI2_PL99_SSC_BV		51247000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row46,MSX005 SOC TD,TD		(CP1||FT2) && TD_PL99_SOC				Test	MS005_MSX005_SOC_MSX005_TD_CPMF_PL99_SSC_SOC_MSX005_TD_CPMF_PL99_SSC_BV		51248000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row47,MSX005 SOC TD,TD		(CP1||FT2)&&(CP1)				Test	MS005_MSX005_SOC_MSX005_TD_CSA0_PL10_SSC_SOC_MSX005_TD_CSA0_PL10_SSC_BV		51249000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row48,MSX005 SOC TD,TD		(CP1||FT2)&&(CP1)				Test	MS005_MSX005_SOC_MSX005_TD_CSBX_PL10_SSC_SOC_MSX005_TD_CSBX_PL10_SSC_BV		51250000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row49,MSX005 SOC TD,TD		(CP1||FT2)&&(CP1)				Test	MS005_MSX005_SOC_MSX005_TD_CSC0_PL10_PL20_SSC_SOC_MSX005_TD_CSC0_PL10_PL20_SSC_BV		51251000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row50,MSX005 SOC TD,TD		(CP1||FT2)&&(CP1)				Test	MS005_MSX005_SOC_MSX005_TD_CXXX_PL10_SSC_SOC_MSX005_TD_CXXX_PL10_SSC_BV		51252000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row51,MSX005 SOC TD,TD		(CP1||FT2)&&(CP1)				Test	MS005_MSX005_SOC_MSX005_TD_CPMF_PL10_SSC_SOC_MSX005_TD_CPMF_PL10_SSC_BV		51253000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row52,MSX005 SOC TD,TD		(CP1||FT2)&&(CP1)				Test	MS005_MSX005_SOC_MSX005_TD_CHI1_PL10_SSC_SOC_MSX005_TD_CHI1_PL10_SSC_BV		51254000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row53,MSX005 SOC TD,TD		(CP1||FT2)&&(CP1)				Test	MS005_MSX005_SOC_MSX005_TD_CHIX_PL10_PL20_SSC_SOC_MSX005_TD_CHIX_PL10_PL20_SSC_BV		51255000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row54,MSX005 SOC TD,TD		(CP1||FT2)&&(CP2)				Test	MS005_MSX005_SOC_MSX005_TD_CHIX_PL10_SSC_SOC_MSX005_TD_CHIX_PL10_SSC_BV		51256000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row55,MSX005 SOC TD,TD		(CP1||FT2)&&(FT2)				Test	MS005_MSX005_SOC_MSX005_TD_CSX0_PL10_SSC_FT2_SOC_MSX005_TD_CSX0_PL10_SSC_FT2_BV		51257000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row56,MSX005 SOC TD,TD		(CP1||FT2)&&(FT2)				Test	MS005_MSX005_SOC_MSX005_TD_CXXX_PL10_SSC_SOC_MSX005_TD_CXXX_PL10_SSC_FT2_BV		51258000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row57,MSX005 SOC TD,TD		(CP1||FT2)&&(FT2)				Test	MS005_MSX005_SOC_MSX005_TD_CHIX_PL10_SSC_SOC_MSX005_TD_CHIX_PL10_SSC_FT2_BV		51259000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row59,MSX005 SOC TD,TD		(CP1||FT2)&&(FT2)				Test	MS005_MSX005_SOC_MSX005_TD_CPMF_PL10_SSC_SOC_MSX005_TD_CPMF_PL10_SSC_FT2_BV		51260000																													
+						Bintable	Bin_MS005_TD_BV																															
+						If	(!(F_SOC_BIST_IS||F_SOC_BIST_AT0||F_SOC_BIST_AT1||F_SOC_BIST_AT2||F_SOC_BIST_AT3||F_SOC_BIST_SC||F_ANE0_BIST_ALL||F_ANE1_BIST_ALL)) || F_Debug_all																															
+Instance_Bincut_BIST,Row322,MSX005 SOC BIST MRCL,Mbist		(CP1||CP2||FT2) && BINCUT_WITH_BIST				Test	MS005_MSX005_SocMbist_PP_KMDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_7_NOHARV_BV		51261000																													
+						Bintable	Bin_MS005_Mbist_BV																															
+						EndIf																																
+Instance_Bincut_BIST,Row323,MSX005 SOC BIST MRCL,Mbist		(CP1||CP2||FT2) && BINCUT_WITH_BIST				Test	MS005_MSX005_SocMbist_PP_KMDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_8_NOISP_BV		51262000																			Flag-true	F_SOC_BIST_IS									
+						Bintable	Bin_MS005_Mbist_BV																															
+						If	(F_SOC_BIST_AT0||F_SOC_BIST_AT2) || F_Debug_all																															
+Instance_Bincut_BIST,Row324,MSX005 SOC BIST MRCL,Mbist		(CP1||CP2||FT2) && BINCUT_WITH_BIST				Test	MS005_MSX005_SocMbist_PP_KMDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_9_NOATC02_BV		51263000																													
+						Bintable	Bin_MS005_Mbist_BV																															
+						EndIf																																
+						If	(F_SOC_BIST_AT1||F_SOC_BIST_AT3) || F_Debug_all																															
+Instance_Bincut_BIST,Row325,MSX005 SOC BIST MRCL,Mbist		(CP1||CP2||FT2) && BINCUT_WITH_BIST				Test	MS005_MSX005_SocMbist_PP_KMDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_10_NOATC13_BV		51264000																													
+						Bintable	Bin_MS005_Mbist_BV																															
+						EndIf																																
+Instance_Bincut_BIST,Row326,MSX005 SOC BIST MRCL,Mbist		(CP1||CP2||FT2) && BINCUT_WITH_BIST				Test	MS005_MSX005_SocMbist_PP_KMDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_11_NOSC_BV		51265000																			Flag-true	F_SOC_BIST_SC									
+						Bintable	Bin_MS005_Mbist_BV																															
+Instance_Bincut_BIST,Row327,MSX005 SOC BIST MRCL,Mbist		(CP1||CP2||FT2) && BINCUT_WITH_BIST				Test	MS005_MSX005_SocMbist_PP_KMDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_12_NOANE0_BV		51266000																			Flag-true	F_ANE0_BIST_ALL									
+						Bintable	Bin_MS005_Mbist_BV																															
+Instance_Bincut_BIST,Row328,MSX005 SOC BIST MRCL,Mbist		(CP1||CP2||FT2) && BINCUT_WITH_BIST				Test	MS005_MSX005_SocMbist_PP_KMDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_13_NOANE1_BV		51267000																			Flag-true	F_ANE1_BIST_ALL									
+						Bintable	Bin_MS005_Mbist_BV																															
+Instance_Bincut_BIST,Row1112,MSX005 SOC BIST MRCL,Mbist		(CP1||CP2||FT2) && !BINCUT_WITH_BIST				Test	MS005_MSX005_SocMbist_PP_KMDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXXXXXX_15_NOHARV_BIRA_BV		51268000																													
+						Bintable	Bin_MS005_Mbist_BV																															
+Instance_Bincut_MS,Row68,MSX005 GPU TD,TD		(CP1||FT2)&&(CP1||CP2)				Test	MS005_GPU_MSX005_GPU_MSX005_TD_CSOC_PL10_GPU_MSX005_TD_CSOC_PL10_BV		51269000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row69,MSX005 GPU TD,TD		(CP1||FT2)&&(FT2)				Test	MS005_GPU_MSX005_GPU_MSX005_TD_CSOC_PL10_GPU_MSX005_TD_CSOC_PL10_BV		51270000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_BIST,Row244,MSX005 GPU BIST,Mbist		CP1||CP2||FT2				Test	MS005_GPU_MSX005_GpuMbist_PP_KMDB0_L_PLLP_BI_PSOC_BST_JTG_55N_MSXXXX_SI_SINGLE_NOHARV_BV		51271000																													
+						Bintable	Bin_MS005_Mbist_BV																															
+		CP1||FT2			BlankInstance	Test	MS005_SocTd_MS005_MSX005_SOC_TD_MRCL_BV		51272000																													
+					BlankInstance	Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row61,MSX005 SOC SBST,TD		(CP1||FT2) && !SOC_SBST_TTR				Test	MS005_SSB_MSX005_SOC_MSX005_SBST_MAXXT_SOC_MSX005_SBST_MAXXT_BV		51273000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row62,MSX005 SOC SBST,TD		CP1||FT2				Test	MS005_SSB_MSX005_SOC_MSX005_SBST_MAXXTATS_SOC_MSX005_SBST_MAXXTATS_BV		51274000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row63,MDS059 SOC SBST,TD		(CP1||FT2) && !SOC_SBST_TTR				Test	MS005_MDS059_SOC_MDS059_SBST_MAXXT_SOC_MDS059_SBST_MAXXT_BV		51275000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row64,MDS059 SOC SBST,TD		CP1||FT2				Test	MS005_MDS059_SOC_MDS059_SBST_MAXXTATS_SOC_MDS059_SBST_MAXXTATS_BV		51276000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row190,MDS059 SOC SBST,TD		(CP1||FT2) && !SOC_SBST_TTR				Test	MS005_MDS059_SOC_MDS059_SBST_MAXXT_SOC_MDS059_SBST_MAXXT_BV		51277000																													
+						Bintable	Bin_MS005_TD_BV																															
+Instance_Bincut_MS,Row191,MDS059 SOC SBST,TD		CP1||FT2				Test	MS005_MDS059_SOC_MDS059_SBST_MAXXTATS_SOC_MDS059_SBST_MAXXTATS_BV		51278000																													
+						Bintable	Bin_MS005_TD_BV																															
+						print	"Flow MS005_TD_Mbist_BV Stop"																															
+						Return																																

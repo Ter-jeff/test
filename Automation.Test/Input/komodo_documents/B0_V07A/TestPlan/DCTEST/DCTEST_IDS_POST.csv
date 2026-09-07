@@ -1,0 +1,90 @@
+﻿TTR,Test Item,Step,Description,Pattern,Force Condition,Register Assignment,Misc Info,Meas,"CP1 Lo Limit (H,L,N)","CP1 Hi Limit (H,L,N)","CP2 Lo Limit (H,L,N)","CP2 Hi Limit (H,L,N)","FT1 Lo Limit (H,L,N)","FT1 Hi Limit (H,L,N)","FT1_FQA Lo Limit (H,L,N)","FT1_FQA Hi Limit (H,L,N)","FT2 Lo Limit (H,L,N)","FT2 Hi Limit (H,L,N)","FT2_FQA Lo Limit (H,L,N)","FT2_FQA Hi Limit (H,L,N)","FT3 Lo Limit (H,L,N)","FT3 Hi Limit (H,L,N)","T0TX_ROOM Lo Limit (H,L,N)","T0TX_ROOM Hi Limit (H,L,N)","T0TX_HOT Lo Limit (H,L,N)","T0TX_HOT Hi Limit (H,L,N)",Comment
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,1,,Instance:IDS_PARSING_TABLE,,,Func:Parse_IDS_Mapping_Table,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Instance:Relay_ON_DCTEST_IDS,,,"Func:ControlRelay;
+relayOffPins:K03;
+waitTime:0.003;",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FT1;FT2;FT3,,1,Run the pattern provided,PP_KMDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS,DC:IDS_X_X_X;,,"SubBlock:IDS_CP_POST;
+Ignore_Patt_Comment;
+AutoRange_Pin:VDD_PCPU,VDD_ECPU,VDD_GPU,VDD_SOC,VDD_DCS_DDR,VDD_DISP,VDD_CPU_SRAM,VDD_SRAM_GPU,VDD_SRAM_SOC,VDD_FIXED_GRP,VDD_LOW,VDD_CIO,VDDQL_DDR,VDD10_AMPH,VDD_FIXED_AMUX,VDD_FIXED_ECPU,VDD_FIXED_ECPU_MTR,VDD_FIXED_PCPU,VDD_FIXED_PCPU_MTR,VDD_FIXED_PLL_ANE_GPU,VDD_FIXED_XTAL,VDD10_ADC_SOC,VDD10_AMUX,VDD10_HSCDFT,VDD10_TSADC_CPU,VDD10_XTAL,VDDIO12_AOP,VDDIO12_GRP,VDDIO12_AOP_4;
+repeat_count:1;
+DictName:ON;
+FlowLimitForInitIRange:TRUE;
+FlagWait:TRUE;
+FlagPatFinishMeasure:FALSE;
+DisableClockPortName:XI0_Diff;
+DisconnectClock:TRUE;
+Fuse_Enable:""CP=TRUE;FT=FALSE"";
+EnableDisconnectPins:TRUE;",,,,,,,,,,,,,,,,,,,,
+,,1.1,"EFUSE: ids_vdd_pcpu (CP1), ids_vdd_pcpu_hot (CP2)",,,,,"MeasI Pin = VDD_PCPU ""VDD_PCPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.3,"EFUSE: ids_vdd_ecpu (CP1), ids_vdd_ecpu_hot (CP2)",,,,,"MeasI Pin = VDD_ECPU ""VDD_ECPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.4,"EFUSE: ids_vdd_gpu (CP1), ids_vdd_gpu_hot (CP2)",,,,,"MeasI Pin = VDD_GPU ""VDD_GPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.5,"EFUSE: ids_vdd_soc (CP1), ids_vdd_soc_hot (CP2)",,,,,"MeasI Pin = VDD_SOC ""VDD_SOC""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.6,"EFUSE: ids_vdd_dcs_ddr (CP1), ids_vdd_dcs_ddr_hot (CP2)",,,,,"MeasI Pin = VDD_DCS_DDR ""VDD_DCS_DDR""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.7,"EFUSE: ids_vdd_disp (CP1), ids_vdd_disp_hot (CP2)",,,,,"MeasI Pin = VDD_DISP ""VDD_DISP""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.8,"EFUSE: ids_vdd_cpu_sram (CP1), ids_vdd_cpu_sram_hot (CP2)",,,,,"MeasI Pin = VDD_CPU_SRAM ""VDD_CPU_SRAM""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.9,"EFUSE: ids_vdd_sram_gpu (CP1), ids_vdd_sram_gpu_hot (CP2)",,,,,"MeasI Pin = VDD_SRAM_GPU ""VDD_SRAM_GPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.1,"EFUSE: ids_vdd_sram_soc (CP1), ids_vdd_sram_soc_hot (CP2)",,,,,"MeasI Pin = VDD_SRAM_SOC ""VDD_SRAM_SOC""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.11,"EFUSE: ids_vdd_fixed (CP1), ids_vdd_fixed_hot (CP2)",,,,,"MeasI Pin = VDD_FIXED_GRP ""VDD_FIXED_GRP""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.12,"EFUSE: ids_vdd_low (CP1), ids_vdd_low_hot (CP2)",,,,,"MeasI Pin = VDD_LOW ""VDD_LOW""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.13,"EFUSE: ids_vdd_cio (CP1), ids_vdd_cio_hot (CP2)",,,,,"MeasI Pin = VDD_CIO ""VDD_CIO""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.14,EFUSE: ids_vddql_ddr_hot (CP2),,,,,"MeasI Pin = VDDQL_DDR ""VDDQL_DDR""",,,,,,,,,,,,,,,,,,,
+,,1.15,EFUSE: ids_vdd10_amph (CP1),,,,,"MeasI Pin = VDD10_AMPH ""VDD10_AMPH""",,,,,,,,,,,,,,,,,,,
+,,1.16,,,,,,"MeasI Pin = VDD_FIXED_AMUX ""VDD_FIXED_AMUX""",,,,,,,,,,,,,,,,,,,
+,,1.17,,,,,,"MeasI Pin = VDD_FIXED_ECPU ""VDD_FIXED_ECPU""",,,,,,,,,,,,,,,,,,,
+,,1.18,,,,,,"MeasI Pin = VDD_FIXED_ECPU_MTR ""VDD_FIXED_ECPU_MTR""",,,,,,,,,,,,,,,,,,,
+,,1.19,,,,,,"MeasI Pin = VDD_FIXED_PCPU ""VDD_FIXED_PCPU""",,,,,,,,,,,,,,,,,,,
+,,1.2,,,,,,"MeasI Pin = VDD_FIXED_PCPU_MTR ""VDD_FIXED_PCPU_MTR""",,,,,,,,,,,,,,,,,,,
+,,1.21,,,,,,"MeasI Pin = VDD_FIXED_PLL_ANE_GPU ""VDD_FIXED_PLL_ANE_GPU""",,,,,,,,,,,,,,,,,,,
+,,1.24,,,,,,"MeasI Pin = VDD_FIXED_XTAL ""VDD_FIXED_XTAL""",,,,,,,,,,,,,,,,,,,
+,,1.25,,,,,,"MeasI Pin = VDD10_ADC_SOC ""VDD10_ADC_SOC""",,,,,,,,,,,,,,,,,,,
+,,1.26,,,,,,"MeasI Pin = VDD10_AMUX ""VDD10_AMUX""",,,,,,,,,,,,,,,,,,,
+,,1.27,,,,,,"MeasI Pin = VDD10_HSCDFT ""VDD10_HSCDFT""",,,,,,,,,,,,,,,,,,,
+,,1.28,,,,,,"MeasI Pin = VDD10_TSADC_CPU ""VDD10_TSADC_CPU""",,,,,,,,,,,,,,,,,,,
+,,1.29,,,,,,"MeasI Pin = VDD10_XTAL ""VDD10_XTAL""",,,,,,,,,,,,,,,,,,,
+,,1.3,,,,,,"MeasI Pin = VDDIO12_AOP ""VDDIO12_AOP""",,,,,,,,,,,,,,,,,,,
+,,1.31,,,,,,"MeasI Pin = VDDIO12_GRP ""VDDIO12_GRP""",,,,,,,,,,,,,,,,,,,
+,,1.32,,,,,,"MeasI Pin = VDDIO12_AOP_4 ""VDDIO12_AOP_4""",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CP1;CP2,,1,Run the pattern provided,PP_HIDA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS,DC:IDS_X_X_X;,,"SubBlock:IDS_FT;
+Ignore_Patt_Comment;
+AutoRange_Pin:VDD_PCPU,VDD_ECPU,VDD_GPU,VDD_SOC,VDD_DCS_DDR,VDD_DISP,VDD_CPU_SRAM,VDD_SRAM_SOC,VDD_FIXED_GRP,VDD_LOW,VDD_CIO,VDDQL_DDR,VDD_MEMLP5_DDR,VDD_FIXED_AMUX,VDD_FIXED_ECPU,VDD_FIXED_ECPU_MTR,VDD_FIXED_PCPU,VDD_FIXED_PLL_ANE_GPU,VDD_FIXED_XTAL,VDD12_ADC_SOC,VDD12_AMUX,VDD12_HSCDFT,VDD12_TSADC_CPU,VDD12_XTAL,VDDIO12_AOP,VDDIO12_GRP,VDDIO12_AOP_4;
+repeat_count:1;
+DictName:ON;
+FlowLimitForInitIRange:TRUE;
+FlagWait:TRUE;
+FlagPatFinishMeasure:FALSE;
+DisableClockPortName:XI0_Diff;
+DisconnectClock:TRUE;
+Fuse_Enable:""CP=FALSE;FT=FALSE"";
+EnableDisconnectPins:TRUE;",,,,,,,,,,,,,,,,,,,,
+,,1.1,"EFUSE: ids_vdd_pcpu (CP1), ids_vdd_pcpu_hot (CP2)",,,,,"MeasI Pin = VDD_PCPU ""VDD_PCPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.3,"EFUSE: ids_vdd_ecpu (CP1), ids_vdd_ecpu_hot (CP2)",,,,,"MeasI Pin = VDD_ECPU ""VDD_ECPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.4,"EFUSE: ids_vdd_gpu (CP1), ids_vdd_gpu_hot (CP2)",,,,,"MeasI Pin = VDD_GPU ""VDD_GPU""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.5,"EFUSE: ids_vdd_soc (CP1), ids_vdd_soc_hot (CP2)",,,,,"MeasI Pin = VDD_SOC ""VDD_SOC""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.6,"EFUSE: ids_vdd_dcs_ddr (CP1), ids_vdd_dcs_ddr_hot (CP2)",,,,,"MeasI Pin = VDD_DCS_DDR ""VDD_DCS_DDR""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.7,"EFUSE: ids_vdd_disp (CP1), ids_vdd_disp_hot (CP2)",,,,,"MeasI Pin = VDD_DISP ""VDD_DISP""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.8,"EFUSE: ids_vdd_cpu_sram (CP1), ids_vdd_cpu_sram_hot (CP2)",,,,,"MeasI Pin = VDD_CPU_SRAM ""VDD_CPU_SRAM""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.1,"EFUSE: ids_vdd_sram_soc (CP1), ids_vdd_sram_soc_hot (CP2)",,,,,"MeasI Pin = VDD_SRAM_SOC ""VDD_SRAM_SOC""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.11,"EFUSE: ids_vdd_fixed (CP1), ids_vdd_fixed_hot (CP2)",,,,,"MeasI Pin = VDD_FIXED_GRP ""VDD_FIXED_GRP""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.12,"EFUSE: ids_vdd_low (CP1), ids_vdd_low_hot (CP2)",,,,,"MeasI Pin = VDD_LOW ""VDD_LOW""",,Binning (CPIDSMax),,Binning (IDSMax_HOT),,Binning (CPIDSMax) * 1.0,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,,Binning (IDSMax_HOT) * 1.0,,,,Binning (CPIDSMax) * 1.0,,Binning (IDSMax_HOT) * 1.0,
+,,1.13,"EFUSE: ids_vdd_cio (CP1), ids_vdd_cio_hot (CP2)",,,,,"MeasI Pin = VDD_CIO ""VDD_CIO""",,,,,,,,,,,,,,,,,,,
+,,1.14,EFUSE: ids_vddql_ddr_hot (CP2),,,,,"MeasI Pin = VDDQL_DDR ""VDDQL_DDR""",,,,,,,,,,,,,,,,,,,
+,,1.15,EFUSE: ids_vdd10_amph (CP1),,,,,"MeasI Pin = VDD10_AMPH ""VDD10_AMPH""",,,,,,,,,,,,,,,,,,,
+,,1.16,,,,,,"MeasI Pin = VDD_FIXED_AMUX ""VDD_FIXED_AMUX""",,,,,,,,,,,,,,,,,,,
+,,1.17,,,,,,"MeasI Pin = VDD_FIXED_ECPU ""VDD_FIXED_ECPU""",,,,,,,,,,,,,,,,,,,
+,,1.18,,,,,,"MeasI Pin = VDD_FIXED_ECPU_MTR ""VDD_FIXED_ECPU_MTR""",,,,,,,,,,,,,,,,,,,
+,,1.19,,,,,,"MeasI Pin = VDD_FIXED_PCPU ""VDD_FIXED_PCPU""",,,,,,,,,,,,,,,,,,,
+,,1.2,,,,,,"MeasI Pin = VDD_FIXED_PCPU_MTR ""VDD_FIXED_PCPU_MTR""",,,,,,,,,,,,,,,,,,,
+,,1.21,,,,,,"MeasI Pin = VDD_FIXED_PLL_ANE_GPU ""VDD_FIXED_PLL_ANE_GPU""",,,,,,,,,,,,,,,,,,,
+,,1.24,,,,,,"MeasI Pin = VDD_FIXED_XTAL ""VDD_FIXED_XTAL""",,,,,,,,,,,,,,,,,,,
+,,1.25,,,,,,"MeasI Pin = VDD10_ADC_SOC ""VDD10_ADC_SOC""",,,,,,,,,,,,,,,,,,,
+,,1.26,,,,,,"MeasI Pin = VDD10_AMUX ""VDD10_AMUX""",,,,,,,,,,,,,,,,,,,
+,,1.27,,,,,,"MeasI Pin = VDD10_HSCDFT ""VDD10_HSCDFT""",,,,,,,,,,,,,,,,,,,
+,,1.28,,,,,,"MeasI Pin = VDD10_TSADC_CPU ""VDD10_TSADC_CPU""",,,,,,,,,,,,,,,,,,,
+,,1.29,,,,,,"MeasI Pin = VDD10_XTAL ""VDD10_XTAL""",,,,,,,,,,,,,,,,,,,
+,,1.3,,,,,,"MeasI Pin = VDDIO12_AOP ""VDDIO12_AOP""",,,,,,,,,,,,,,,,,,,
+,,1.31,,,,,,"MeasI Pin = VDDIO12_GRP ""VDDIO12_GRP""",,,,,,,,,,,,,,,,,,,
+,,1.32,,,,,,"MeasI Pin = VDDIO12_AOP_4 ""VDDIO12_AOP_4""",,,,,,,,,,,,,,,,,,,

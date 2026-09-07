@@ -1,0 +1,26 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow_TMPS Start "																															
+						Test	InitialAdaptiveCooling																															
+						Test	Relay_On_HARDIP																															
+						assign-integer	SrcCodeIndx1 3																															
+						For	SrcCodeIndx=1;SrcCodeIndx<=SrcCodeIndx1;SrcCodeIndx++																															
+						flag-clear	F_TMPS_Monitor																															
+						If	SrcCodeIndx!=SrcCodeIndx1																															
+Normal Spec						Test	A_DMON_NV				100		C								F_TMPS_Monitor																	
+						Else																																
+Relax Spex						Test	A_DMON_NV				105		C								F_TMPS_Monitor																	
+						EndIf																																
+		!Enable_Adaptive_Cooling				Break																																
+						If	SrcCodeIndx<SrcCodeIndx1																															
+						Test	IDS_E_TMPSMON_NV																															
+						Test	ControlAdaptiveCooling																															
+						EndIf																																
+						Next																																
+						Test	Relay_Off_HARDIP																															
+						Test	CleanUpAdaptiveCooling																															
+		Enable_Adaptive_Cooling				Bintable	Bin_TMPS_Monitor																															
+						print	"Flow_TMPS Stop "																															
+						Return																																

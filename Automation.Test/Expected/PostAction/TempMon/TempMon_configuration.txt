@@ -1,0 +1,3 @@
+Item	Column
+CmnIDLength	7
+TmpsA0	65.5

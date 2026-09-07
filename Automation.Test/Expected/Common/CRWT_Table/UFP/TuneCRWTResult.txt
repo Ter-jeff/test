@@ -1,0 +1,4 @@
+Pin	CurrentRange	WaitTime
+A	0.02	0.0002
+B	0.02	0.0002
+C	0.02	0.0002
