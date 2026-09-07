@@ -78,20 +78,20 @@ pipeline {
                     }
                 }
 
-                // stage('Lint') {
-                //     options {
-                //         timeout(time: 5, unit: 'MINUTES')
-                //     }
-                //     steps {
-                //         script {
-                //             if (isUnix()) {
-                //                 sh "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
-                //             } else {
-                //                 powershell "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
-                //             }
-                //         }
-                //     }
-                // }
+                stage('Lint') {
+                    options {
+                        timeout(time: 5, unit: 'MINUTES')
+                    }
+                    steps {
+                        script {
+                            if (isUnix()) {
+                                sh "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
+                            } else {
+                                powershell "dotnet format ${env.SOLUTION} --verify-no-changes --exclude-diagnostics CA1502 CA1505"
+                            }
+                        }
+                    }
+                }
 
                 stage('Install DotNet Tools') {
                     steps {
