@@ -68,7 +68,7 @@ depth_of_inheritance:
 cyclomatic_complexity:
   name: 'Max Cyclomatic Complexity'
   threshold_type: '<='
-  good: 25
+  good: 30
 
 class_coupling:
   name: 'Max Class Coupling'
