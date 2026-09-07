@@ -1,0 +1,7 @@
+Common/BinCutScriptLib.Test/Input/TE06/vba/TE06_CP1_X8_E04_V04A_PROD_VBA.txt filter=lfs diff=lfs merge=lfs -text
+Automation.Test/K/borneo/B0_V07A/CSV_HardIP_Info/HardIP_AutoGen_Info_All_borneo.txt filter=lfs diff=lfs merge=lfs -text
+Automation.Test/K/borneo/B0_V07A/CSV_Bist_Info/borneo_Bist_Info_All.csv filter=lfs diff=lfs merge=lfs -text
+Automation.Test/K/borneo/A0_V04A/CSV_Bist_Info/borneo_Bist_Info_All.csv filter=lfs diff=lfs merge=lfs -text
+Automation.Test/K/komodo/CSV_Bist_Info/komodo_Bist_Info_All.csv filter=lfs diff=lfs merge=lfs -text
+Common/BinCutScriptLib.Test/Input/TE06/0402cp1debugnpics/UR85_25C_N80CN7_W6_250402_V01A_CP1_PROD_PipeClean_MultiSite_Log_X6Y11.txt filter=lfs diff=lfs merge=lfs -text
+Automation.Test/K/komodo/HARD_IP/CSV_HardIP_Info/HardIP_AutoGen_Info_All_komodo.txt filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,173 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						call	Flow_T0TX_PreCall																															
+						test	Vddbinning_Header_1																															
+						Flag-Clear	F_Vddbinning_Fail_Stop																															
+						test	Print_BinCut_Config																															
+						test	Vddbinning_Judge_stored_IDS_Header_1																															
+		CP1				test	Judge_stored_IDS														F_Vddbinning_IDS_fail																	
+						test	Vddbinning_Judge_stored_IDS_Footer_1																															
+						BinTable	Bin_Vddbinning_IDS_fail																															
+		!CP1				test	Read_DVFM_To_GradeVDD_Header_1																															
+		!CP1				test	Read_DVFM_To_GradeVDD																															
+		!CP1				BinTable	Vddbinning_Fail_Stop																															
+		!CP1				test	Read_DVFM_To_GradeVDD_Footer_1																															
+						call	Flow_MS001_TD_Mbist_BV																															
+						call	Flow_MS005_TD_Mbist_BV																															
+						call	Flow_MS003_TD_Mbist_BV																															
+		!CP1				call	Flow_MS002_TD_Mbist_BV																															
+		!CP1				call	Flow_MS004_TD_Mbist_BV																															
+		CP1				print	"****Start of calculation for Vx_SOC_MS002****"																															
+MS001,MS003		CP1				Test	IPL_VDD_SOC_MS002_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_SOC_MS002****"																															
+		CP1				print	"****Start of calculation for Vx_SOC_MS004****"																															
+MS003,MS005		CP1				Test	IPL_VDD_SOC_MS004_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_SOC_MS004****"																															
+						call	Flow_MD001_TD_Mbist_BV																															
+						call	Flow_MD008_TD_Mbist_BV																															
+						call	Flow_MD002_TD_Mbist_BV																															
+						call	Flow_MD005_TD_Mbist_BV																															
+		!CP1				call	Flow_MD003_TD_Mbist_BV																															
+		!CP1				call	Flow_MD004_TD_Mbist_BV																															
+		!CP1				call	Flow_MD006_TD_Mbist_BV																															
+		!CP1				call	Flow_MD007_TD_Mbist_BV																															
+		CP1				print	"****Start of calculation for Vx_DCS_DDR_MD003****"																															
+MD002,MD005		CP1				Test	IPL_VDD_DCS_DDR_MD003_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_DCS_DDR_MD003****"																															
+		CP1				print	"****Start of calculation for Vx_DCS_DDR_MD004****"																															
+MD002,MD005		CP1				Test	IPL_VDD_DCS_DDR_MD004_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_DCS_DDR_MD004****"																															
+		CP1				print	"****Start of calculation for Vx_DCS_DDR_MD006****"																															
+MD005,MD008		CP1				Test	IPL_VDD_DCS_DDR_MD006_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_DCS_DDR_MD006****"																															
+		CP1				print	"****Start of calculation for Vx_DCS_DDR_MD007****"																															
+MD005,MD008		CP1				Test	IPL_VDD_DCS_DDR_MD007_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_DCS_DDR_MD007****"																															
+						call	Flow_MI001_TD_Mbist_BV																															
+						call	Flow_MI002_TD_Mbist_BV																															
+						call	Flow_MI003_TD_Mbist_BV																															
+						call	Flow_MG001_TD_Mbist_BV																															
+						call	Flow_MG00C_TD_Mbist_BV																															
+						call	Flow_MG00D_TD_Mbist_BV																															
+						call	Flow_MG003_TD_Mbist_BV																															
+						call	Flow_MG007_TD_Mbist_BV																															
+		!CP1				call	Flow_MG002_TD_Mbist_BV																															
+		!CP1				call	Flow_MG004_TD_Mbist_BV																															
+		!CP1				call	Flow_MG005_TD_Mbist_BV																															
+		!CP1				call	Flow_MG006_TD_Mbist_BV																															
+		!CP1				call	Flow_MG008_TD_Mbist_BV																															
+		!CP1				call	Flow_MG009_TD_Mbist_BV																															
+		!CP1				call	Flow_MG00A_TD_Mbist_BV																															
+		!CP1				call	Flow_MG00B_TD_Mbist_BV																															
+		CP1				print	"****Start of calculation for Vx_GPU_MG002****"																															
+MG001,MG003		CP1				Test	IPL_VDD_GPU_MG002_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_GPU_MG002****"																															
+		CP1				print	"****Start of calculation for Vx_GPU_MG004****"																															
+MG003,MG007		CP1				Test	IPL_VDD_GPU_MG004_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_GPU_MG004****"																															
+		CP1				print	"****Start of calculation for Vx_GPU_MG005****"																															
+MG003,MG007		CP1				Test	IPL_VDD_GPU_MG005_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_GPU_MG005****"																															
+		CP1				print	"****Start of calculation for Vx_GPU_MG006****"																															
+MG003,MG007		CP1				Test	IPL_VDD_GPU_MG006_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_GPU_MG006****"																															
+		CP1				print	"****Start of calculation for Vx_GPU_MG008****"																															
+MG007,MG00C		CP1				Test	IPL_VDD_GPU_MG008_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_GPU_MG008****"																															
+		CP1				print	"****Start of calculation for Vx_GPU_MG009****"																															
+MG007,MG00C		CP1				Test	IPL_VDD_GPU_MG009_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_GPU_MG009****"																															
+		CP1				print	"****Start of calculation for Vx_GPU_MG00A****"																															
+MG007,MG00C		CP1				Test	IPL_VDD_GPU_MG00A_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_GPU_MG00A****"																															
+		CP1				print	"****Start of calculation for Vx_GPU_MG00B****"																															
+MG007,MG00C		CP1				Test	IPL_VDD_GPU_MG00B_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_GPU_MG00B****"																															
+						call	Flow_ME001_TD_Mbist_BV																															
+						call	Flow_ME007_TD_Mbist_BV																															
+						call	Flow_ME003_TD_Mbist_BV																															
+						call	Flow_ME006_TD_Mbist_BV																															
+		!CP1				call	Flow_ME002_TD_Mbist_BV																															
+		!CP1				call	Flow_ME004_TD_Mbist_BV																															
+		!CP1				call	Flow_ME005_TD_Mbist_BV																															
+		CP1				print	"****Start of calculation for Vx_ECPU_ME002****"																															
+ME001,ME003		CP1				Test	IPL_VDD_ECPU_ME002_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_ECPU_ME002****"																															
+		CP1				print	"****Start of calculation for Vx_ECPU_ME004****"																															
+ME003,ME006		CP1				Test	IPL_VDD_ECPU_ME004_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_ECPU_ME004****"																															
+		CP1				print	"****Start of calculation for Vx_ECPU_ME005****"																															
+ME003,ME006		CP1				Test	IPL_VDD_ECPU_ME005_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_ECPU_ME005****"																															
+						call	Flow_MP001_TD_Mbist_BV																															
+						call	Flow_MP00D_TD_Mbist_BV																															
+						call	Flow_MP00I_TD_Mbist_BV																															
+						call	Flow_MP002_TD_Mbist_BV																															
+						call	Flow_MP005_TD_Mbist_BV																															
+						call	Flow_MP008_TD_Mbist_BV																															
+						call	Flow_MP00B_TD_Mbist_BV																															
+						call	Flow_MP00C_TD_Mbist_BV																															
+		!CP1				call	Flow_MP003_TD_Mbist_BV																															
+		!CP1				call	Flow_MP004_TD_Mbist_BV																															
+		!CP1				call	Flow_MP006_TD_Mbist_BV																															
+		!CP1				call	Flow_MP007_TD_Mbist_BV																															
+		!CP1				call	Flow_MP009_TD_Mbist_BV																															
+		!CP1				call	Flow_MP00A_TD_Mbist_BV																															
+		CP1				print	"****Start of calculation for Vx_PCPU_MP003****"																															
+MP002,MP002		CP1				Test	IPL_VDD_PCPU_MP003_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_PCPU_MP003****"																															
+		CP1				print	"****Start of calculation for Vx_PCPU_MP004****"																															
+MP005,MP005		CP1				Test	IPL_VDD_PCPU_MP004_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_PCPU_MP004****"																															
+		CP1				print	"****Start of calculation for Vx_PCPU_MP006****"																															
+MP005,MP008		CP1				Test	IPL_VDD_PCPU_MP006_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_PCPU_MP006****"																															
+		CP1				print	"****Start of calculation for Vx_PCPU_MP007****"																															
+MP005,MP008		CP1				Test	IPL_VDD_PCPU_MP007_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_PCPU_MP007****"																															
+		CP1				print	"****Start of calculation for Vx_PCPU_MP009****"																															
+MP008,MP00B		CP1				Test	IPL_VDD_PCPU_MP009_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_PCPU_MP009****"																															
+		CP1				print	"****Start of calculation for Vx_PCPU_MP00A****"																															
+MP008,MP00B		CP1				Test	IPL_VDD_PCPU_MP00A_BV																															
+		CP1				Bintable	Other_Vddbinning_Interpolation_fail																															
+		CP1				print	"****End of calculation for Vx_PCPU_MP00A****"																															
+		CP1				test	Set_VBinResult_without_Test																															
+						test	Power_Binning_Header_1																															
+						test	Power_Binning																															
+						BinTable	Vddbinning_Power_Binning_Fail_Stop																															
+						test	Power_Binning_Footer_1																															
+						test	Vddbinning_PrintOutVddBinning_Header_1																															
+						test	PrintOutVddBinning														F_Vddbinning_Fail_Stop																	
+						BinTable	Vddbinning_Fail_Stop																															
+						test	Vddbinning_PrintOutVddBinning_Footer_1																															
+						test	Vddbinning_Adjust_VddBinning_Header_1																															
+						test	Adjust_VddBinning														F_Vddbinning_Fail_Stop																	
+						BinTable	Vddbinning_Fail_Stop																															
+						test	Vddbinning_Adjust_VddBinning_Footer_1																															
+						test	Vddbinning_Footer_1																															
+						Return																																

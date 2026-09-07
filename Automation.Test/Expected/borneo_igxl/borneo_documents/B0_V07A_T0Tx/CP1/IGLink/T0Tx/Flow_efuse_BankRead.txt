@@ -1,0 +1,29 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow Flow_efuse_BankRead Start"																															
+						flag-clear	F_BankRead_Enable																															
+		Enable_Flow_efuse_BankRead				flag-true	F_BankRead_Enable																															
+						If	F_BankRead_Enable																															
+						Test	Config_Read_MR1_NV														F_Config_BankRead																	
+						Bintable	Bin_EFUSE_RT_Config_BankRead																															
+			FT1, FT2			Test	Config_Read_ECC_BC_NV														F_Config_BankRead																	
+			FT1, FT2			Bintable	Bin_EFUSE_RT_Config_BankRead																															
+		CFG_Early_Enable	FT1			call	Flow_efuse_Config_Early																															
+						Test	ECID_Read_MR1_NV														F_ECID_BankRead																	
+						Bintable	Bin_EFUSE_RT_ECID_BankRead																															
+						Test	Monitor_Read_MR1_NV														F_Monitor_BankRead																	
+						Bintable	Bin_EFUSE_RT_Monitor_BankRead																															
+		CFG_Early_Enable	FT1			call	Flow_efuse_Monitor_Early																															
+						Test	UDRP_Init012_MR1_NV														F_UDRP_PLL_BankRead																	
+						Bintable	Bin_EFUSE_RT_UDRP_PLL_BankRead																															
+						Test	UDRP_USO_Read_MR1_NV														F_UDRP_BankRead																	
+						Bintable	Bin_EFUSE_RT_UDRP_BankRead																															
+						Test	UDRE_Init012_MR1_NV														F_UDRE_PLL_BankRead																	
+						Bintable	Bin_EFUSE_RT_UDRE_PLL_BankRead																															
+						Test	UDRE_USO_Read_MR1_NV														F_UDRE_BankRead																	
+						Bintable	Bin_EFUSE_RT_UDRE_BankRead																															
+						EndIf																																
+						print	"Flow Flow_efuse_BankRead Stop"																															
+						Return																																

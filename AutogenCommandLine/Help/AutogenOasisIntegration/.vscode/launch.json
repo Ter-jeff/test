@@ -1,0 +1,135 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PowerShell: Launch Main File (Development)",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${workspaceFolder}/Main.ps1",
+      "args": [
+        "-Environment",
+        "Development"
+      ]
+    },
+    {
+      "name": "PowerShell: Launch Main File (Development-Autogen)",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${workspaceFolder}/Main.ps1",
+      "args": [
+        "-Environment",
+        "Development",
+        "-Mode",
+        "Autogen"
+      ]
+    },
+    {
+      "name": "PowerShell: Launch Main File (Development-Sync)",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${workspaceFolder}/Main.ps1",
+      "args": [
+        "-Environment",
+        "Development",
+        "-Mode",
+        "Sync"
+      ]
+    },
+    {
+      "name": "PowerShell: Launch Main File (Development-Oasis)",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${workspaceFolder}/Main.ps1",
+      "args": [
+        "-Environment",
+        "Development",
+        "-Mode",
+        "Oasis"
+      ]
+    },
+    {
+      "name": "PowerShell 2.0: Launch Main File (Development)",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-Version",
+        "2.0",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/Main.ps1",
+        "-Environment",
+        "Development"
+      ]
+    },
+    {
+      "name": "PowerShell 2.0: Launch Main File (Development-Autogen)",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-Version",
+        "2.0",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/Main.ps1",
+        "-Environment",
+        "Development",
+        "-Mode",
+        "Autogen"
+      ]
+    },
+    {
+      "name": "PowerShell 2.0: Launch Main File (Development-Sync)",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-Version",
+        "2.0",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/Main.ps1",
+        "-Environment",
+        "Development",
+        "-Mode",
+        "Sync"
+      ]
+    },
+    {
+      "name": "PowerShell 2.0: Launch Main File (Development-Oasis)",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-Version",
+        "2.0",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/Main.ps1",
+        "-Environment",
+        "Development",
+        "-Mode",
+        "Oasis"
+      ]
+    },
+    {
+      "name": "PowerShell: Launch Main File (Production)",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${workspaceFolder}/Main.ps1",
+      "args": [
+        "-Environment",
+        "Production"
+      ]
+    }
+  ]
+}

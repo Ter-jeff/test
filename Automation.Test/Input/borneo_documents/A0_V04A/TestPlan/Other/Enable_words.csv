@@ -1,0 +1,28 @@
+Enable-Words,CP1,CP2,FT1,FT2,FT3,Relevant portions
+SA_PL99_SOC,X,X,X,X,X,"Scan SOC SA, EFA ONLY"
+SA_PL99_GFX,X,X,X,X,X,"Scan GPU SA, EFA ONLY"
+SA_PL99_CPU,X,X,X,X,X,"Scan CPU SA, EFA ONLY"
+TD_PL99_SOC,X,X,X,X,X,"Scan SOC TD, EFA Only"
+TD_PL99_GFX,X,X,X,X,X,"Scan CPU TD, EFA Only"
+TD_PL99_CPU,X,X,X,X,X,"Scan GPU TD, EFA Only"
+SA_Chain_SOC,X,X,X,X,X,Scan SOC SA Chain
+SOC_DISPAll,V,V,V,V,X,Scan SOC Display All (CDSP)
+SOC_DSPAllnCLow,X,X,X,X,X,Scan SOC Display All + LOW (CTA0)
+SOC_TD_Extest,X,X,X,X,X,SOC Scan TD Extest
+SA_Chain_GPU,X,X,X,X,X,Scan GPU SA Chain
+GFX_MFSTP,X,X,X,X,X,Scan GPU MFSTP
+GFX_SFSTP,V,V,V,V,V,Scan GPU SFSTP
+SA_Chain_CPU,X,X,X,X,X,Scan CPU SA Chain
+BINCUT_WITH_BIST,V,V,V,V,X,Bincut MBIST with BIST vs BIRA
+Enable_CPU_Turbo,X,X,X,X,X,Scan TD and BIST CPU Turbo enable
+Enable_GPU_Turbo,X,X,X,X,X,Scan TD and BIST GPU  Turbo enable
+DisableCoreMask,V,X,X,X,X,Disable Core Masking for SSN/Pingroup harvesting
+SOC_SBST_TTR,V,V,V,V,X,SOC SBST MAXXTATS Only
+Debug_PCPU_Turbo_OutsideTD,X,X,X,X,X,
+Debug_PCPU_1HotBlkC_OutsideTD,X,X,X,X,X,March31st set to false X.
+TD_Skip_CHIx,V,V,V,V,X,Instance_Bincut_S and Instance_OutsideBincut
+Mon,V,V,V,V,X,Added May 19th
+F_EVS_PreScreen,X,X,X,X,X,Added May 22nd
+F_DCTEST_IDS_IDSCP_pp_kmda0_s_fulp_io_popx_nan_daa_dio_allfrv_si_ids_Flag,X,X,X,X,X,Added May 22nd
+Force_EVS_On,V,V,X,X,X,Added May 31st
+Force_EVS_Off,X,X,V,V,V,Added May 31st

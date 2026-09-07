@@ -1,0 +1,408 @@
+{
+  "SourceInfo": {
+    "Name": "",
+    "Block": ""
+  },
+  "SheetType": "DTPinMap",
+  "IgxlSheetName": "Pin Map",
+  "Name": "TestPinMap",
+  "PinList": [
+    {
+      "Comment": "",
+      "PinName": "PIN_A",
+      "PinType": "I/O",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    },
+    {
+      "Comment": "",
+      "PinName": "PIN_B",
+      "PinType": "I/O",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    }
+  ],
+  "GroupList": [
+    {
+      "PinList": [
+        {
+          "Comment": "",
+          "PinName": "PIN_A_CP",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "PIN_A_FT",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        }
+      ],
+      "PinName": "AAA",
+      "PinType": "I/O",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    },
+    {
+      "PinList": [
+        {
+          "Comment": "",
+          "PinName": "PIN_A",
+          "PinType": "I/O",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "PIN_B",
+          "PinType": "I/O",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        }
+      ],
+      "PinName": "All_Digital",
+      "PinType": "I/O",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    },
+    {
+      "PinList": [
+        {
+          "Comment": "",
+          "PinName": "PIN_A",
+          "PinType": "I/O",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "PIN_B",
+          "PinType": "I/O",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        }
+      ],
+      "PinName": "All_Digital_Disc",
+      "PinType": "I/O",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    },
+    {
+      "PinList": [
+        {
+          "Comment": "",
+          "PinName": "PIN_A",
+          "PinType": "I/O",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        }
+      ],
+      "PinName": "All_Digital_PowerUp",
+      "PinType": "I/O",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    },
+    {
+      "PinList": [
+        {
+          "Comment": "",
+          "PinName": "PIN_A",
+          "PinType": "I/O",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        }
+      ],
+      "PinName": "CONTINUITY_NEG_AUTOZ",
+      "PinType": "I/O",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    },
+    {
+      "PinList": [
+        {
+          "Comment": "",
+          "PinName": "XI0_PA",
+          "PinType": "Differential",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "XO0_PA",
+          "PinType": "Differential",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        }
+      ],
+      "PinName": "XI0_Diff_PA",
+      "PinType": "Differential",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    },
+    {
+      "PinList": [
+        {
+          "Comment": "",
+          "PinName": "XI0_PA",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "REFCLK_XI0_XO0",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "XO0_PA",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        }
+      ],
+      "PinName": "XI0_Diff_Port",
+      "PinType": "I/O",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    },
+    {
+      "PinList": [
+        {
+          "Comment": "",
+          "PinName": "RT_CLK32768_PA",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "REFCLK_RT_CLK32768",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        }
+      ],
+      "PinName": "RT_CLK32768_Port",
+      "PinType": "I/O",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    },
+    {
+      "PinList": [
+        {
+          "Comment": "",
+          "PinName": "XI0_PA",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "XO0_PA",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "RT_CLK32768_PA",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "XI0",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "XO0",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "RT_CLK32768",
+          "PinType": "",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        }
+      ],
+      "PinName": "nWireContiNeg",
+      "PinType": "I/O",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    },
+    {
+      "PinList": [
+        {
+          "Comment": "",
+          "PinName": "XI0",
+          "PinType": "Differential",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        },
+        {
+          "Comment": "",
+          "PinName": "XO0",
+          "PinType": "Differential",
+          "ChannelType": "",
+          "InstrumentType": "",
+          "IsBackup": false,
+          "ColumnA": null,
+          "SheetName": null,
+          "RowNum": 0
+        }
+      ],
+      "PinName": "XI0_Diff",
+      "PinType": "Differential",
+      "ChannelType": "",
+      "InstrumentType": "",
+      "IsBackup": false,
+      "ColumnA": null,
+      "SheetName": null,
+      "RowNum": 0
+    }
+  ]
+}

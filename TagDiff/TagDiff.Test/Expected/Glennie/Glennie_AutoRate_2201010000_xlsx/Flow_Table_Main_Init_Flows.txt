@@ -1,0 +1,15 @@
+Pass Rate	70.00%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	10	Pass Rows	7																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_Table_Main_Init_Flows.txt	Flow_Table_Main_Init_Flows.txt	5	5						Test	CleanRegData_Init																														
+P	Flow_Table_Main_Init_Flows.txt	Flow_Table_Main_Init_Flows.txt	6	6		Temp_25C				Test	ReadProberTemp_25C																														
+P	Flow_Table_Main_Init_Flows.txt	Flow_Table_Main_Init_Flows.txt	7	7		Temp_85C				Test	ReadProberTemp_85C																														
+P	Flow_Table_Main_Init_Flows.txt	Flow_Table_Main_Init_Flows.txt	8	8						Test	Print_Pgm_Information																														
+P	Flow_Table_Main_Init_Flows.txt	Flow_Table_Main_Init_Flows.txt	9	9						Test	HIP_TTR_Enable_Control																														
+MissingCompared	Flow_Table_Main_Init_Flows.txt		10							Test	ReadWaferData														F_ecid_other																
+P	Flow_Table_Main_Init_Flows.txt	Flow_Table_Main_Init_Flows.txt	11	10						Bintable	Bin_EFUSE_ecid_other																														
+MissingCompared	Flow_Table_Main_Init_Flows.txt		12							flag-false	SubFlow_TurnOnFlag_ByDie																														
+MissingCompared	Flow_Table_Main_Init_Flows.txt		13			(!Disable_Sampling)&&(CP1||CP2||FT2)				Test	Process_SubFlowFlag_ByDie		86006000																												
+P	Flow_Table_Main_Init_Flows.txt	Flow_Table_Main_Init_Flows.txt	14	12						return																															
+MissingBase		Flow_Table_Main_Init_Flows.txt		11						Test	StoreReferenceClockName																														

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<SpiPatConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LoadPattern></LoadPattern>
+  <OutputPath>D:\</OutputPath>
+  <PmListStr>601,602,603,604,605,606,607,608</PmListStr>
+  <ScListStr>01,02,04,06,09,19</ScListStr>
+  <InputPinsList>GPIO37,GPIO36,GPIO35,GPIO34,GPIO33,GPIO32,GPIO31,GPIO30</InputPinsList>
+  <OutputPinsList>GPIO9,GPIO8,GPIO7,GPIO6,GPIO5,GPIO4,GPIO3,GPIO2</OutputPinsList>
+  <PmKeyWordInCmt>Performance Mode</PmKeyWordInCmt>
+  <ScKeyWordInCmt>Scenario Index</ScKeyWordInCmt>
+  <PmVecRptCnt>8</PmVecRptCnt>
+  <ScVecRptCnt>8</ScVecRptCnt>
+  <PmVecReadCyc>6</PmVecReadCyc>
+  <ScVecReadCyc>6</ScVecReadCyc>
+  <PmNameSeg>5</PmNameSeg>
+  <ScNameSeg>11</ScNameSeg>
+</SpiPatConfig>

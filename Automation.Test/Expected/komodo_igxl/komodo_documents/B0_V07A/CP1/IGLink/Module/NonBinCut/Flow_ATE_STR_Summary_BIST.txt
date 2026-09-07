@@ -1,0 +1,404 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow Flow_ATE_STR_Summary_BIST Start"																															
+						flag-clear	Harv_SOC_BIST_AT0																															
+						flag-false	Harv_SOC_BIST_AT0																					flag-false	Harv_SOC_SA_AT0									
+						If	F_SOC_BIST_AT0																					flag-false	Harv_SOC_SA_AT0									
+						flag-true	Harv_SOC_BIST_AT0																					flag-false	Harv_SOC_SA_AT0									
+						EndIf																						flag-false	Harv_SOC_SA_AT0									
+						flag-clear	Harv_SOC_BIST_AT1																															
+						flag-false	Harv_SOC_BIST_AT1																					flag-false	Harv_SOC_SA_AT1									
+						If	F_SOC_BIST_AT1																					flag-false	Harv_SOC_SA_AT1									
+						flag-true	Harv_SOC_BIST_AT1																					flag-false	Harv_SOC_SA_AT1									
+						EndIf																						flag-false	Harv_SOC_SA_AT1									
+						flag-clear	Harv_SOC_BIST_AT2																															
+						flag-false	Harv_SOC_BIST_AT2																					flag-false	Harv_SOC_SA_AT2									
+						If	F_SOC_BIST_AT2																					flag-false	Harv_SOC_SA_AT2									
+						flag-true	Harv_SOC_BIST_AT2																					flag-false	Harv_SOC_SA_AT2									
+						EndIf																						flag-false	Harv_SOC_SA_AT2									
+						flag-clear	Harv_SOC_BIST_AT3																															
+						flag-false	Harv_SOC_BIST_AT3																					flag-false	Harv_SOC_SA_AT3									
+						If	F_SOC_BIST_AT3																					flag-false	Harv_SOC_SA_AT3									
+						flag-true	Harv_SOC_BIST_AT3																					flag-false	Harv_SOC_SA_AT3									
+						EndIf																						flag-false	Harv_SOC_SA_AT3									
+						flag-clear	Harv_SOC_BIST_ED0																															
+						flag-false	Harv_SOC_BIST_ED0																					flag-false	Harv_SOC_SA_ED0									
+						If	F_SOC_BIST_ED0																					flag-false	Harv_SOC_SA_ED0									
+						flag-true	Harv_SOC_BIST_ED0																					flag-false	Harv_SOC_SA_ED0									
+						EndIf																						flag-false	Harv_SOC_SA_ED0									
+						flag-clear	Harv_SOC_BIST_ED1																															
+						flag-false	Harv_SOC_BIST_ED1																					flag-false	Harv_SOC_SA_ED1									
+						If	F_SOC_BIST_ED1																					flag-false	Harv_SOC_SA_ED1									
+						flag-true	Harv_SOC_BIST_ED1																					flag-false	Harv_SOC_SA_ED1									
+						EndIf																						flag-false	Harv_SOC_SA_ED1									
+						flag-clear	Harv_SOC_BIST_IS																															
+						flag-false	Harv_SOC_BIST_IS																					flag-false	Harv_SOC_SA_IS									
+						If	F_SOC_BIST_IS																					flag-false	Harv_SOC_SA_IS									
+						flag-true	Harv_SOC_BIST_IS																					flag-false	Harv_SOC_SA_IS									
+						EndIf																						flag-false	Harv_SOC_SA_IS									
+						flag-clear	Harv_SOC_BIST_ID																															
+						flag-false	Harv_SOC_BIST_ID																					flag-false	Harv_SOC_SA_ID									
+						If	F_SOC_BIST_ID																					flag-false	Harv_SOC_SA_ID									
+						flag-true	Harv_SOC_BIST_ID																					flag-false	Harv_SOC_SA_ID									
+						EndIf																						flag-false	Harv_SOC_SA_ID									
+						flag-clear	Harv_SOC_BIST_SC																															
+						flag-false	Harv_SOC_BIST_SC																					flag-false	Harv_SOC_SA_SC									
+						If	F_SOC_BIST_SC																					flag-false	Harv_SOC_SA_SC									
+						flag-true	Harv_SOC_BIST_SC																					flag-false	Harv_SOC_SA_SC									
+						EndIf																						flag-false	Harv_SOC_SA_SC									
+						flag-clear	Harv_SOC_BIST_NonHarv																															
+						flag-false	Harv_SOC_BIST_NonHarv																					flag-false	Harv_SOC_SA_NonHarv									
+						If	F_SOC_BIST_NonHarv																					flag-false	Harv_SOC_SA_NonHarv									
+						flag-true	Harv_SOC_BIST_NonHarv																					flag-false	Harv_SOC_SA_NonHarv									
+						EndIf																						flag-false	Harv_SOC_SA_NonHarv									
+						flag-clear	Harv_ANE0_BIST_CORE00																															
+						flag-false	Harv_ANE0_BIST_CORE00																					flag-false	Harv_ANE0_SA_CORE00									
+						If	F_ANE0_BIST_CORE0																					flag-false	Harv_ANE0_SA_CORE00									
+						flag-true	Harv_ANE0_BIST_CORE00																					flag-false	Harv_ANE0_SA_CORE00									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE00									
+						flag-clear	Harv_ANE0_BIST_CORE01																															
+						flag-false	Harv_ANE0_BIST_CORE01																					flag-false	Harv_ANE0_SA_CORE01									
+						If	F_ANE0_BIST_CORE1																					flag-false	Harv_ANE0_SA_CORE01									
+						flag-true	Harv_ANE0_BIST_CORE01																					flag-false	Harv_ANE0_SA_CORE01									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE01									
+						flag-clear	Harv_ANE0_BIST_CORE02																															
+						flag-false	Harv_ANE0_BIST_CORE02																					flag-false	Harv_ANE0_SA_CORE02									
+						If	F_ANE0_BIST_CORE2																					flag-false	Harv_ANE0_SA_CORE02									
+						flag-true	Harv_ANE0_BIST_CORE02																					flag-false	Harv_ANE0_SA_CORE02									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE02									
+						flag-clear	Harv_ANE0_BIST_CORE03																															
+						flag-false	Harv_ANE0_BIST_CORE03																					flag-false	Harv_ANE0_SA_CORE03									
+						If	F_ANE0_BIST_CORE3																					flag-false	Harv_ANE0_SA_CORE03									
+						flag-true	Harv_ANE0_BIST_CORE03																					flag-false	Harv_ANE0_SA_CORE03									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE03									
+						flag-clear	Harv_ANE0_BIST_CORE04																															
+						flag-false	Harv_ANE0_BIST_CORE04																					flag-false	Harv_ANE0_SA_CORE04									
+						If	F_ANE0_BIST_CORE4																					flag-false	Harv_ANE0_SA_CORE04									
+						flag-true	Harv_ANE0_BIST_CORE04																					flag-false	Harv_ANE0_SA_CORE04									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE04									
+						flag-clear	Harv_ANE0_BIST_CORE05																															
+						flag-false	Harv_ANE0_BIST_CORE05																					flag-false	Harv_ANE0_SA_CORE05									
+						If	F_ANE0_BIST_CORE5																					flag-false	Harv_ANE0_SA_CORE05									
+						flag-true	Harv_ANE0_BIST_CORE05																					flag-false	Harv_ANE0_SA_CORE05									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE05									
+						flag-clear	Harv_ANE0_BIST_CORE06																															
+						flag-false	Harv_ANE0_BIST_CORE06																					flag-false	Harv_ANE0_SA_CORE06									
+						If	F_ANE0_BIST_CORE6																					flag-false	Harv_ANE0_SA_CORE06									
+						flag-true	Harv_ANE0_BIST_CORE06																					flag-false	Harv_ANE0_SA_CORE06									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE06									
+						flag-clear	Harv_ANE0_BIST_CORE07																															
+						flag-false	Harv_ANE0_BIST_CORE07																					flag-false	Harv_ANE0_SA_CORE07									
+						If	F_ANE0_BIST_CORE7																					flag-false	Harv_ANE0_SA_CORE07									
+						flag-true	Harv_ANE0_BIST_CORE07																					flag-false	Harv_ANE0_SA_CORE07									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE07									
+						flag-clear	Harv_ANE0_BIST_CORE08																															
+						flag-false	Harv_ANE0_BIST_CORE08																					flag-false	Harv_ANE0_SA_CORE08									
+						If	F_ANE0_BIST_CORE8																					flag-false	Harv_ANE0_SA_CORE08									
+						flag-true	Harv_ANE0_BIST_CORE08																					flag-false	Harv_ANE0_SA_CORE08									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE08									
+						flag-clear	Harv_ANE0_BIST_CORE09																															
+						flag-false	Harv_ANE0_BIST_CORE09																					flag-false	Harv_ANE0_SA_CORE09									
+						If	F_ANE0_BIST_CORE9																					flag-false	Harv_ANE0_SA_CORE09									
+						flag-true	Harv_ANE0_BIST_CORE09																					flag-false	Harv_ANE0_SA_CORE09									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE09									
+						flag-clear	Harv_ANE0_BIST_CORE10																															
+						flag-false	Harv_ANE0_BIST_CORE10																					flag-false	Harv_ANE0_SA_CORE10									
+						If	F_ANE0_BIST_CORE10																					flag-false	Harv_ANE0_SA_CORE10									
+						flag-true	Harv_ANE0_BIST_CORE10																					flag-false	Harv_ANE0_SA_CORE10									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE10									
+						flag-clear	Harv_ANE0_BIST_CORE11																															
+						flag-false	Harv_ANE0_BIST_CORE11																					flag-false	Harv_ANE0_SA_CORE11									
+						If	F_ANE0_BIST_CORE11																					flag-false	Harv_ANE0_SA_CORE11									
+						flag-true	Harv_ANE0_BIST_CORE11																					flag-false	Harv_ANE0_SA_CORE11									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE11									
+						flag-clear	Harv_ANE0_BIST_CORE12																															
+						flag-false	Harv_ANE0_BIST_CORE12																					flag-false	Harv_ANE0_SA_CORE12									
+						If	F_ANE0_BIST_CORE12																					flag-false	Harv_ANE0_SA_CORE12									
+						flag-true	Harv_ANE0_BIST_CORE12																					flag-false	Harv_ANE0_SA_CORE12									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE12									
+						flag-clear	Harv_ANE0_BIST_CORE13																															
+						flag-false	Harv_ANE0_BIST_CORE13																					flag-false	Harv_ANE0_SA_CORE13									
+						If	F_ANE0_BIST_CORE13																					flag-false	Harv_ANE0_SA_CORE13									
+						flag-true	Harv_ANE0_BIST_CORE13																					flag-false	Harv_ANE0_SA_CORE13									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE13									
+						flag-clear	Harv_ANE0_BIST_CORE14																															
+						flag-false	Harv_ANE0_BIST_CORE14																					flag-false	Harv_ANE0_SA_CORE14									
+						If	F_ANE0_BIST_CORE14																					flag-false	Harv_ANE0_SA_CORE14									
+						flag-true	Harv_ANE0_BIST_CORE14																					flag-false	Harv_ANE0_SA_CORE14									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE14									
+						flag-clear	Harv_ANE0_BIST_CORE15																															
+						flag-false	Harv_ANE0_BIST_CORE15																					flag-false	Harv_ANE0_SA_CORE15									
+						If	F_ANE0_BIST_CORE15																					flag-false	Harv_ANE0_SA_CORE15									
+						flag-true	Harv_ANE0_BIST_CORE15																					flag-false	Harv_ANE0_SA_CORE15									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE15									
+						flag-clear	Harv_ANE0_BIST_CORE16																															
+						flag-false	Harv_ANE0_BIST_CORE16																					flag-false	Harv_ANE0_SA_CORE16									
+						If	F_ANE0_BIST_CORE16																					flag-false	Harv_ANE0_SA_CORE16									
+						flag-true	Harv_ANE0_BIST_CORE16																					flag-false	Harv_ANE0_SA_CORE16									
+						EndIf																						flag-false	Harv_ANE0_SA_CORE16									
+						flag-clear	Harv_ANE1_BIST_CORE00																															
+						flag-false	Harv_ANE1_BIST_CORE00																					flag-false	Harv_ANE1_SA_CORE00									
+						If	F_ANE1_BIST_CORE0																					flag-false	Harv_ANE1_SA_CORE00									
+						flag-true	Harv_ANE1_BIST_CORE00																					flag-false	Harv_ANE1_SA_CORE00									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE00									
+						flag-clear	Harv_ANE1_BIST_CORE01																															
+						flag-false	Harv_ANE1_BIST_CORE01																					flag-false	Harv_ANE1_SA_CORE01									
+						If	F_ANE1_BIST_CORE1																					flag-false	Harv_ANE1_SA_CORE01									
+						flag-true	Harv_ANE1_BIST_CORE01																					flag-false	Harv_ANE1_SA_CORE01									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE01									
+						flag-clear	Harv_ANE1_BIST_CORE02																															
+						flag-false	Harv_ANE1_BIST_CORE02																					flag-false	Harv_ANE1_SA_CORE02									
+						If	F_ANE1_BIST_CORE2																					flag-false	Harv_ANE1_SA_CORE02									
+						flag-true	Harv_ANE1_BIST_CORE02																					flag-false	Harv_ANE1_SA_CORE02									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE02									
+						flag-clear	Harv_ANE1_BIST_CORE03																															
+						flag-false	Harv_ANE1_BIST_CORE03																					flag-false	Harv_ANE1_SA_CORE03									
+						If	F_ANE1_BIST_CORE3																					flag-false	Harv_ANE1_SA_CORE03									
+						flag-true	Harv_ANE1_BIST_CORE03																					flag-false	Harv_ANE1_SA_CORE03									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE03									
+						flag-clear	Harv_ANE1_BIST_CORE04																															
+						flag-false	Harv_ANE1_BIST_CORE04																					flag-false	Harv_ANE1_SA_CORE04									
+						If	F_ANE1_BIST_CORE4																					flag-false	Harv_ANE1_SA_CORE04									
+						flag-true	Harv_ANE1_BIST_CORE04																					flag-false	Harv_ANE1_SA_CORE04									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE04									
+						flag-clear	Harv_ANE1_BIST_CORE05																															
+						flag-false	Harv_ANE1_BIST_CORE05																					flag-false	Harv_ANE1_SA_CORE05									
+						If	F_ANE1_BIST_CORE5																					flag-false	Harv_ANE1_SA_CORE05									
+						flag-true	Harv_ANE1_BIST_CORE05																					flag-false	Harv_ANE1_SA_CORE05									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE05									
+						flag-clear	Harv_ANE1_BIST_CORE06																															
+						flag-false	Harv_ANE1_BIST_CORE06																					flag-false	Harv_ANE1_SA_CORE06									
+						If	F_ANE1_BIST_CORE6																					flag-false	Harv_ANE1_SA_CORE06									
+						flag-true	Harv_ANE1_BIST_CORE06																					flag-false	Harv_ANE1_SA_CORE06									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE06									
+						flag-clear	Harv_ANE1_BIST_CORE07																															
+						flag-false	Harv_ANE1_BIST_CORE07																					flag-false	Harv_ANE1_SA_CORE07									
+						If	F_ANE1_BIST_CORE7																					flag-false	Harv_ANE1_SA_CORE07									
+						flag-true	Harv_ANE1_BIST_CORE07																					flag-false	Harv_ANE1_SA_CORE07									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE07									
+						flag-clear	Harv_ANE1_BIST_CORE08																															
+						flag-false	Harv_ANE1_BIST_CORE08																					flag-false	Harv_ANE1_SA_CORE08									
+						If	F_ANE1_BIST_CORE8																					flag-false	Harv_ANE1_SA_CORE08									
+						flag-true	Harv_ANE1_BIST_CORE08																					flag-false	Harv_ANE1_SA_CORE08									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE08									
+						flag-clear	Harv_ANE1_BIST_CORE09																															
+						flag-false	Harv_ANE1_BIST_CORE09																					flag-false	Harv_ANE1_SA_CORE09									
+						If	F_ANE1_BIST_CORE9																					flag-false	Harv_ANE1_SA_CORE09									
+						flag-true	Harv_ANE1_BIST_CORE09																					flag-false	Harv_ANE1_SA_CORE09									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE09									
+						flag-clear	Harv_ANE1_BIST_CORE10																															
+						flag-false	Harv_ANE1_BIST_CORE10																					flag-false	Harv_ANE1_SA_CORE10									
+						If	F_ANE1_BIST_CORE10																					flag-false	Harv_ANE1_SA_CORE10									
+						flag-true	Harv_ANE1_BIST_CORE10																					flag-false	Harv_ANE1_SA_CORE10									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE10									
+						flag-clear	Harv_ANE1_BIST_CORE11																															
+						flag-false	Harv_ANE1_BIST_CORE11																					flag-false	Harv_ANE1_SA_CORE11									
+						If	F_ANE1_BIST_CORE11																					flag-false	Harv_ANE1_SA_CORE11									
+						flag-true	Harv_ANE1_BIST_CORE11																					flag-false	Harv_ANE1_SA_CORE11									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE11									
+						flag-clear	Harv_ANE1_BIST_CORE12																															
+						flag-false	Harv_ANE1_BIST_CORE12																					flag-false	Harv_ANE1_SA_CORE12									
+						If	F_ANE1_BIST_CORE12																					flag-false	Harv_ANE1_SA_CORE12									
+						flag-true	Harv_ANE1_BIST_CORE12																					flag-false	Harv_ANE1_SA_CORE12									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE12									
+						flag-clear	Harv_ANE1_BIST_CORE13																															
+						flag-false	Harv_ANE1_BIST_CORE13																					flag-false	Harv_ANE1_SA_CORE13									
+						If	F_ANE1_BIST_CORE13																					flag-false	Harv_ANE1_SA_CORE13									
+						flag-true	Harv_ANE1_BIST_CORE13																					flag-false	Harv_ANE1_SA_CORE13									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE13									
+						flag-clear	Harv_ANE1_BIST_CORE14																															
+						flag-false	Harv_ANE1_BIST_CORE14																					flag-false	Harv_ANE1_SA_CORE14									
+						If	F_ANE1_BIST_CORE14																					flag-false	Harv_ANE1_SA_CORE14									
+						flag-true	Harv_ANE1_BIST_CORE14																					flag-false	Harv_ANE1_SA_CORE14									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE14									
+						flag-clear	Harv_ANE1_BIST_CORE15																															
+						flag-false	Harv_ANE1_BIST_CORE15																					flag-false	Harv_ANE1_SA_CORE15									
+						If	F_ANE1_BIST_CORE15																					flag-false	Harv_ANE1_SA_CORE15									
+						flag-true	Harv_ANE1_BIST_CORE15																					flag-false	Harv_ANE1_SA_CORE15									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE15									
+						flag-clear	Harv_ANE1_BIST_CORE16																															
+						flag-false	Harv_ANE1_BIST_CORE16																					flag-false	Harv_ANE1_SA_CORE16									
+						If	F_ANE1_BIST_CORE16																					flag-false	Harv_ANE1_SA_CORE16									
+						flag-true	Harv_ANE1_BIST_CORE16																					flag-false	Harv_ANE1_SA_CORE16									
+						EndIf																						flag-false	Harv_ANE1_SA_CORE16									
+						flag-clear	Harv_ANE0_BIST_CNTR																															
+						flag-false	Harv_ANE0_BIST_CNTR																					flag-false	Harv_ANE0_SA_CNTR									
+						If	F_ANE0_BIST_CNTR																					flag-false	Harv_ANE0_SA_CNTR									
+						flag-true	Harv_ANE0_BIST_CNTR																					flag-false	Harv_ANE0_SA_CNTR									
+						EndIf																						flag-false	Harv_ANE0_SA_CNTR									
+						flag-clear	Harv_ANE1_BIST_CNTR																															
+						flag-false	Harv_ANE1_BIST_CNTR																					flag-false	Harv_ANE1_SA_CNTR									
+						If	F_ANE1_BIST_CNTR																					flag-false	Harv_ANE1_SA_CNTR									
+						flag-true	Harv_ANE1_BIST_CNTR																					flag-false	Harv_ANE1_SA_CNTR									
+						EndIf																						flag-false	Harv_ANE1_SA_CNTR									
+						flag-clear	Harv_SOC_BIST_Repair																															
+						flag-true	Harv_SOC_BIST_Repair																					flag-true	F_SocMbist_Repair_check_Final									
+						flag-false	Harv_SOC_BIST_Repair																					flag-false	F_SocMbist_Repair_check_Final									
+						If	Harv_SOC_BIST_AT0||Harv_SOC_BIST_AT1||Harv_SOC_BIST_AT2||Harv_SOC_BIST_AT3||Harv_SOC_BIST_ED0||Harv_SOC_BIST_ED1||Harv_SOC_BIST_IS||Harv_SOC_BIST_ID||Harv_SOC_BIST_SC||Harv_ANE0_BIST_CORE00||Harv_ANE0_BIST_CORE01||Harv_ANE0_BIST_CORE02||Harv_ANE0_BIST_CORE03||Harv_ANE0_BIST_CORE04||Harv_ANE0_BIST_CORE05||Harv_ANE0_BIST_CORE06||Harv_ANE0_BIST_CORE07||Harv_ANE0_BIST_CORE08||Harv_ANE0_BIST_CORE09||Harv_ANE0_BIST_CORE10||Harv_ANE0_BIST_CORE11||Harv_ANE0_BIST_CORE12||Harv_ANE0_BIST_CORE13||Harv_ANE0_BIST_CORE14||Harv_ANE0_BIST_CORE15||Harv_ANE0_BIST_CORE16||Harv_ANE1_BIST_CORE00||Harv_ANE1_BIST_CORE01||Harv_ANE1_BIST_CORE02||Harv_ANE1_BIST_CORE03||Harv_ANE1_BIST_CORE04||Harv_ANE1_BIST_CORE05||Harv_ANE1_BIST_CORE06||Harv_ANE1_BIST_CORE07||Harv_ANE1_BIST_CORE08||Harv_ANE1_BIST_CORE09||Harv_ANE1_BIST_CORE10||Harv_ANE1_BIST_CORE11||Harv_ANE1_BIST_CORE12||Harv_ANE1_BIST_CORE13||Harv_ANE1_BIST_CORE14||Harv_ANE1_BIST_CORE15||Harv_ANE1_BIST_CORE16||Harv_ANE0_BIST_CNTR||Harv_ANE1_BIST_CNTR||Harv_SOC_BIST_NonHarv||Harv_SOC_BIST_Repair																															
+						flag-true	Harv_SOC_BIST_LY																															
+						Else																																
+						flag-false	Harv_SOC_BIST_LY																															
+						EndIf																																
+						flag-clear	Harv_GFX0_BIST_CORE0																															
+						flag-false	Harv_GFX0_BIST_CORE0																					flag-false	Harv_GFX0_SA_CORE0									
+						If	F_GFX0_BIST_CORE0																					flag-false	Harv_GFX0_SA_CORE0									
+						flag-true	Harv_GFX0_BIST_CORE0																					flag-false	Harv_GFX0_SA_CORE0									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE0									
+						flag-clear	Harv_GFX0_BIST_CORE1																															
+						flag-false	Harv_GFX0_BIST_CORE1																					flag-false	Harv_GFX0_SA_CORE1									
+						If	F_GFX0_BIST_CORE1																					flag-false	Harv_GFX0_SA_CORE1									
+						flag-true	Harv_GFX0_BIST_CORE1																					flag-false	Harv_GFX0_SA_CORE1									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE1									
+						flag-clear	Harv_GFX0_BIST_CORE2																															
+						flag-false	Harv_GFX0_BIST_CORE2																					flag-false	Harv_GFX0_SA_CORE2									
+						If	F_GFX0_BIST_CORE2																					flag-false	Harv_GFX0_SA_CORE2									
+						flag-true	Harv_GFX0_BIST_CORE2																					flag-false	Harv_GFX0_SA_CORE2									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE2									
+						flag-clear	Harv_GFX0_BIST_CORE3																															
+						flag-false	Harv_GFX0_BIST_CORE3																					flag-false	Harv_GFX0_SA_CORE3									
+						If	F_GFX0_BIST_CORE3																					flag-false	Harv_GFX0_SA_CORE3									
+						flag-true	Harv_GFX0_BIST_CORE3																					flag-false	Harv_GFX0_SA_CORE3									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE3									
+						flag-clear	Harv_GFX0_BIST_CORE4																															
+						flag-false	Harv_GFX0_BIST_CORE4																					flag-false	Harv_GFX0_SA_CORE4									
+						If	F_GFX0_BIST_CORE4																					flag-false	Harv_GFX0_SA_CORE4									
+						flag-true	Harv_GFX0_BIST_CORE4																					flag-false	Harv_GFX0_SA_CORE4									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE4									
+						flag-clear	Harv_GFX0_BIST_CORE5																															
+						flag-false	Harv_GFX0_BIST_CORE5																					flag-false	Harv_GFX0_SA_CORE5									
+						If	F_GFX0_BIST_CORE5																					flag-false	Harv_GFX0_SA_CORE5									
+						flag-true	Harv_GFX0_BIST_CORE5																					flag-false	Harv_GFX0_SA_CORE5									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE5									
+						flag-clear	Harv_GFX0_BIST_CORE6																															
+						flag-false	Harv_GFX0_BIST_CORE6																					flag-false	Harv_GFX0_SA_CORE6									
+						If	F_GFX0_BIST_CORE6																					flag-false	Harv_GFX0_SA_CORE6									
+						flag-true	Harv_GFX0_BIST_CORE6																					flag-false	Harv_GFX0_SA_CORE6									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE6									
+						flag-clear	Harv_GFX0_BIST_CORE7																															
+						flag-false	Harv_GFX0_BIST_CORE7																					flag-false	Harv_GFX0_SA_CORE7									
+						If	F_GFX0_BIST_CORE7																					flag-false	Harv_GFX0_SA_CORE7									
+						flag-true	Harv_GFX0_BIST_CORE7																					flag-false	Harv_GFX0_SA_CORE7									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE7									
+						flag-clear	Harv_GFX0_BIST_CORE8																															
+						flag-false	Harv_GFX0_BIST_CORE8																					flag-false	Harv_GFX0_SA_CORE8									
+						If	F_GFX0_BIST_CORE8																					flag-false	Harv_GFX0_SA_CORE8									
+						flag-true	Harv_GFX0_BIST_CORE8																					flag-false	Harv_GFX0_SA_CORE8									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE8									
+						flag-clear	Harv_GFX0_BIST_CORE9																															
+						flag-false	Harv_GFX0_BIST_CORE9																					flag-false	Harv_GFX0_SA_CORE9									
+						If	F_GFX0_BIST_CORE9																					flag-false	Harv_GFX0_SA_CORE9									
+						flag-true	Harv_GFX0_BIST_CORE9																					flag-false	Harv_GFX0_SA_CORE9									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE9									
+						flag-clear	Harv_GFX0_BIST_CORE10																															
+						flag-false	Harv_GFX0_BIST_CORE10																					flag-false	Harv_GFX0_SA_CORE10									
+						If	F_GFX0_BIST_CORE10																					flag-false	Harv_GFX0_SA_CORE10									
+						flag-true	Harv_GFX0_BIST_CORE10																					flag-false	Harv_GFX0_SA_CORE10									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE10									
+						flag-clear	Harv_GFX0_BIST_CORE11																															
+						flag-false	Harv_GFX0_BIST_CORE11																					flag-false	Harv_GFX0_SA_CORE11									
+						If	F_GFX0_BIST_CORE11																					flag-false	Harv_GFX0_SA_CORE11									
+						flag-true	Harv_GFX0_BIST_CORE11																					flag-false	Harv_GFX0_SA_CORE11									
+						EndIf																						flag-false	Harv_GFX0_SA_CORE11									
+						flag-clear	Harv_GFX0_BIST_NonHarv																															
+						flag-false	Harv_GFX0_BIST_NonHarv																					flag-false	Harv_GFX0_SA_NonHarv									
+						If	F_GFX0_BIST_NonHarv																					flag-false	Harv_GFX0_SA_NonHarv									
+						flag-true	Harv_GFX0_BIST_NonHarv																					flag-false	Harv_GFX0_SA_NonHarv									
+						EndIf																						flag-false	Harv_GFX0_SA_NonHarv									
+						flag-clear	Harv_GFX0_BIST_Repair																															
+						flag-true	Harv_GFX0_BIST_Repair																					flag-true	F_GfxMbist_Repair_check_Final									
+						flag-false	Harv_GFX0_BIST_Repair																					flag-false	F_GfxMbist_Repair_check_Final									
+						If	Harv_GFX0_BIST_CORE0||Harv_GFX0_BIST_CORE1||Harv_GFX0_BIST_CORE2||Harv_GFX0_BIST_CORE3||Harv_GFX0_BIST_CORE4||Harv_GFX0_BIST_CORE5||Harv_GFX0_BIST_CORE6||Harv_GFX0_BIST_CORE7||Harv_GFX0_BIST_CORE8||Harv_GFX0_BIST_CORE9||Harv_GFX0_BIST_CORE10||Harv_GFX0_BIST_CORE11||Harv_GFX0_BIST_NonHarv||Harv_GFX0_BIST_Repair																															
+						flag-true	Harv_GFX0_BIST_LY																															
+						Else																																
+						flag-false	Harv_GFX0_BIST_LY																															
+						EndIf																																
+						flag-clear	Harv_ECPU_BIST_CORE0																															
+						flag-false	Harv_ECPU_BIST_CORE0																					flag-false	Harv_ECPU_SA_CORE0									
+						If	F_ECPU_BIST_CORE0																					flag-false	Harv_ECPU_SA_CORE0									
+						flag-true	Harv_ECPU_BIST_CORE0																					flag-false	Harv_ECPU_SA_CORE0									
+						EndIf																						flag-false	Harv_ECPU_SA_CORE0									
+						flag-clear	Harv_ECPU_BIST_CORE1																															
+						flag-false	Harv_ECPU_BIST_CORE1																					flag-false	Harv_ECPU_SA_CORE1									
+						If	F_ECPU_BIST_CORE1																					flag-false	Harv_ECPU_SA_CORE1									
+						flag-true	Harv_ECPU_BIST_CORE1																					flag-false	Harv_ECPU_SA_CORE1									
+						EndIf																						flag-false	Harv_ECPU_SA_CORE1									
+						flag-clear	Harv_ECPU_BIST_CORE2																															
+						flag-false	Harv_ECPU_BIST_CORE2																					flag-false	Harv_ECPU_SA_CORE2									
+						If	F_ECPU_BIST_CORE2																					flag-false	Harv_ECPU_SA_CORE2									
+						flag-true	Harv_ECPU_BIST_CORE2																					flag-false	Harv_ECPU_SA_CORE2									
+						EndIf																						flag-false	Harv_ECPU_SA_CORE2									
+						flag-clear	Harv_ECPU_BIST_CORE3																															
+						flag-false	Harv_ECPU_BIST_CORE3																					flag-false	Harv_ECPU_SA_CORE3									
+						If	F_ECPU_BIST_CORE3																					flag-false	Harv_ECPU_SA_CORE3									
+						flag-true	Harv_ECPU_BIST_CORE3																					flag-false	Harv_ECPU_SA_CORE3									
+						EndIf																						flag-false	Harv_ECPU_SA_CORE3									
+						flag-clear	Harv_ECPU_BIST_CORE4																															
+						flag-false	Harv_ECPU_BIST_CORE4																					flag-false	Harv_ECPU_SA_CORE4									
+						If	F_ECPU_BIST_CORE4																					flag-false	Harv_ECPU_SA_CORE4									
+						flag-true	Harv_ECPU_BIST_CORE4																					flag-false	Harv_ECPU_SA_CORE4									
+						EndIf																						flag-false	Harv_ECPU_SA_CORE4									
+						flag-clear	Harv_ECPU_BIST_CORE5																															
+						flag-false	Harv_ECPU_BIST_CORE5																					flag-false	Harv_ECPU_SA_CORE5									
+						If	F_ECPU_BIST_CORE5																					flag-false	Harv_ECPU_SA_CORE5									
+						flag-true	Harv_ECPU_BIST_CORE5																					flag-false	Harv_ECPU_SA_CORE5									
+						EndIf																						flag-false	Harv_ECPU_SA_CORE5									
+						flag-clear	Harv_ECPU_BIST_NonHarv																															
+						flag-false	Harv_ECPU_BIST_NonHarv																					flag-false	Harv_ECPU_SA_NonHarv									
+						If	F_ECPU_BIST_NonHarv																					flag-false	Harv_ECPU_SA_NonHarv									
+						flag-true	Harv_ECPU_BIST_NonHarv																					flag-false	Harv_ECPU_SA_NonHarv									
+						EndIf																						flag-false	Harv_ECPU_SA_NonHarv									
+						flag-clear	Harv_ECPU_BIST_Repair																															
+						flag-true	Harv_ECPU_BIST_Repair																					flag-true	F_ECpuMbist_Repair_check_Final									
+						flag-false	Harv_ECPU_BIST_Repair																					flag-false	F_ECpuMbist_Repair_check_Final									
+						If	Harv_ECPU_BIST_CORE0||Harv_ECPU_BIST_CORE1||Harv_ECPU_BIST_CORE2||Harv_ECPU_BIST_CORE3||Harv_ECPU_BIST_CORE4||Harv_ECPU_BIST_CORE5||Harv_ECPU_BIST_Repair||Harv_ECPU_BIST_NonHarv																															
+						flag-true	Harv_ECPU_BIST_LY																															
+						Else																																
+						flag-false	Harv_ECPU_BIST_LY																															
+						EndIf																																
+						flag-clear	Harv_PCPU_BIST_CORE0																															
+						flag-false	Harv_PCPU_BIST_CORE0																					flag-false	Harv_PCPU_SA_CORE0									
+						If	F_HCPU_BIST_CORE0																					flag-false	Harv_PCPU_SA_CORE0									
+						flag-true	Harv_PCPU_BIST_CORE0																					flag-false	Harv_PCPU_SA_CORE0									
+						EndIf																						flag-false	Harv_PCPU_SA_CORE0									
+						flag-clear	Harv_PCPU_BIST_CORE1																															
+						flag-false	Harv_PCPU_BIST_CORE1																					flag-false	Harv_PCPU_SA_CORE1									
+						If	F_HCPU_BIST_CORE1																					flag-false	Harv_PCPU_SA_CORE1									
+						flag-true	Harv_PCPU_BIST_CORE1																					flag-false	Harv_PCPU_SA_CORE1									
+						EndIf																						flag-false	Harv_PCPU_SA_CORE1									
+						flag-clear	Harv_MCPU_BIST_CORE0																															
+						flag-false	Harv_MCPU_BIST_CORE0																					flag-false	Harv_MCPU_SA_CORE0									
+						If	F_HCPU_BIST_CORE2																					flag-false	Harv_MCPU_SA_CORE0									
+						flag-true	Harv_MCPU_BIST_CORE0																					flag-false	Harv_MCPU_SA_CORE0									
+						EndIf																						flag-false	Harv_MCPU_SA_CORE0									
+						flag-clear	Harv_MCPU_BIST_CORE1																															
+						flag-false	Harv_MCPU_BIST_CORE1																					flag-false	Harv_MCPU_SA_CORE1									
+						If	F_HCPU_BIST_CORE3																					flag-false	Harv_MCPU_SA_CORE1									
+						flag-true	Harv_MCPU_BIST_CORE1																					flag-false	Harv_MCPU_SA_CORE1									
+						EndIf																						flag-false	Harv_MCPU_SA_CORE1									
+						flag-clear	Harv_MCPU_BIST_CORE2																															
+						flag-false	Harv_MCPU_BIST_CORE2																					flag-false	Harv_MCPU_SA_CORE2									
+						If	F_HCPU_BIST_CORE4																					flag-false	Harv_MCPU_SA_CORE2									
+						flag-true	Harv_MCPU_BIST_CORE2																					flag-false	Harv_MCPU_SA_CORE2									
+						EndIf																						flag-false	Harv_MCPU_SA_CORE2									
+						flag-clear	Harv_MCPU_BIST_CORE3																															
+						flag-false	Harv_MCPU_BIST_CORE3																					flag-false	Harv_MCPU_SA_CORE3									
+						If	F_HCPU_BIST_CORE5																					flag-false	Harv_MCPU_SA_CORE3									
+						flag-true	Harv_MCPU_BIST_CORE3																					flag-false	Harv_MCPU_SA_CORE3									
+						EndIf																						flag-false	Harv_MCPU_SA_CORE3									
+						flag-clear	Harv_HCPU_BIST_NonHarv																															
+						flag-false	Harv_HCPU_BIST_NonHarv																					flag-false	Harv_HCPU_SA_NonHarv									
+						If	F_HCPU_BIST_NonHarv																					flag-false	Harv_HCPU_SA_NonHarv									
+						flag-true	Harv_HCPU_BIST_NonHarv																					flag-false	Harv_HCPU_SA_NonHarv									
+						EndIf																						flag-false	Harv_HCPU_SA_NonHarv									
+						flag-clear	Harv_HCPU_BIST_Repair																															
+						flag-true	Harv_HCPU_BIST_Repair																					flag-true	F_HCPUMbist_Repair_check_Final									
+						flag-false	Harv_HCPU_BIST_Repair																					flag-false	F_HCPUMbist_Repair_check_Final									
+						If	Harv_PCPU_BIST_CORE0||Harv_PCPU_BIST_CORE1||Harv_MCPU_BIST_CORE0||Harv_MCPU_BIST_CORE1||Harv_MCPU_BIST_CORE2||Harv_MCPU_BIST_CORE3||Harv_HCPU_BIST_NonHarv||Harv_HCPU_BIST_Repair																															
+						flag-true	Harv_HCPU_BIST_LY																															
+						Else																																
+						flag-false	Harv_HCPU_BIST_LY																															
+						EndIf																																
+						print	"Flow Flow_ATE_STR_Summary_BIST Stop"																															
+						Return																																

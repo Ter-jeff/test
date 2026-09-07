@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NeedSheetsConfig xmlns="http://tempuri.org/NeedSheetsConfig.xsd">
+	<TestPlan>
+		<NeedSheetItem ItemName="TestSettingTbl" SheetName = "TestSetting_\w+"/>
+		<NeedSheetItem ItemName="PowerTbl" SheetName = "POWER_PowerTable"/>
+		<NeedSheetItem ItemName="PowerGb" SheetName = "POWER_GuardBand"/>
+		<NeedSheetItem ItemName="PowerMerge" SheetName = "POWER_PowerMerge"/>
+		<NeedSheetItem ItemName="PowerPerform" SheetName = "POWER_Performance_Modes"/>
+		<NeedSheetItem ItemName="PowerVmargin" SheetName = "POWER_Vmargin"/>
+		<NeedSheetItem ItemName="ContiDcTest" SheetName = "DCTEST_Continuity"/>
+		<NeedSheetItem ItemName="ContiIo" SheetName = "IO_Continuity"/>
+		<NeedSheetItem ItemName="IoGroup" SheetName = "IO_PinGroup"/>
+		<NeedSheetItem ItemName="PinMap" SheetName = "IO_PinMap"/>
+		<NeedSheetItem ItemName="ArraysSize" SheetName = "EFUSE_Arrays_Size"/>
+		<NeedSheetItem ItemName="EvsPat" SheetName = "EVS_Pat_list"/>
+		<NeedSheetItem ItemName="MainFlow" SheetName = "Flow_Main"/>
+		<NeedSheetItem ItemName="HardIpDc" SheetName = "HardIp_DC"/>
+		<NeedSheetItem ItemName="HardIpDcDefault" SheetName = "HardIp_DCDefault"/>
+		<NeedSheetItem ItemName="PowerMemoryRepairBist" SheetName = "POWER_MemoryRepairBist"/>
+		<NeedSheetItem ItemName="PMICLeakage" SheetName = "PMIC_Leakage"/>
+	</TestPlan>
+	<Scgh>
+		<NeedSheetItem ItemName="HardIpScgh" SheetName = "HARDIP_PROD_CHAR"/>
+		<NeedSheetItem ItemName="C_HardIpScgh" SheetName = "C_HARDIP_PROD_CHAR"/>
+		<NeedSheetItem ItemName="S_HardIpScgh" SheetName = "S_HARDIP_PROD_CHAR"/>
+		<NeedSheetItem ItemName="G_HardIpScgh" SheetName = "G_HARDIP_PROD_CHAR"/>
+		<NeedSheetItem ItemName="ScanScgCpu" SheetName = "C_SCAN_PROD_CHAR"/>
+		<NeedSheetItem ItemName="ScanScgGpu" SheetName = "G_SCAN_PROD_CHAR"/>
+		<NeedSheetItem ItemName="ScanScgSoc" SheetName = "S_SCAN_PROD_CHAR"/>
+		<NeedSheetItem ItemName="MbistScgCpu" SheetName = "C_MBIST_PROD_FLOW"/>
+		<NeedSheetItem ItemName="MbistScgGpu" SheetName = "G_MBIST_PROD_FLOW"/>
+		<NeedSheetItem ItemName="MbistScgSoc" SheetName = "S_MBIST_PROD_FLOW"/>
+		<NeedSheetItem ItemName="MbistCharScgCpu" SheetName = "C_MBIST_PROD_CHAR"/>
+		<NeedSheetItem ItemName="MbistCharScgGpu" SheetName = "G_MBIST_PROD_CHAR"/>
+		<NeedSheetItem ItemName="MbistCharScgSoc" SheetName = "S_MBIST_PROD_CHAR"/>
+		<NeedSheetItem ItemName="SpiScghCpu" SheetName = "C_SPI_PROD_CHAR"/>
+		<NeedSheetItem ItemName="SpiScghGpu" SheetName = "G_SPI_PROD_CHAR"/>
+		<NeedSheetItem ItemName="SpiScghSoc" SheetName = "S_SPI_PROD_CHAR"/>
+	</Scgh>
+	<BinCutWorkBook>
+		<NeedSheetItem ItemName="BcFlow" SheetName = "Flow"/>
+		<NeedSheetItem ItemName="BcBinnedDomains" SheetName = "Binned Domains"/>
+		<NeedSheetItem ItemName="BcOtherRails" SheetName = "Other Rails"/>
+		<NeedSheetItem ItemName="BcBinnedDomainsBinX" SheetName = "Binned Domains_BinX"/>
+		<NeedSheetItem ItemName="BcOtherRailsBinX" SheetName = "Other Rails_BinX"/>
+		<NeedSheetItem ItemName="BcBinnedDomainsBinY" SheetName = "Binned Domains_BinY"/>
+		<NeedSheetItem ItemName="BcOtherRailsBinY" SheetName = "Other Rails_BinY"/>
+	</BinCutWorkBook>
+	<NwireRelay>
+		<NeedSheetItem ItemName="FreeRunClk" SheetName = "FreeRunningClock"/>
+		<NeedSheetItem ItemName="Relay" SheetName = "Relay"/>
+	</NwireRelay>
+	<IoMapping>
+		<NeedSheetItem ItemName="IoMapping" SheetName = "IO_Mapping"/>
+	</IoMapping>
+</NeedSheetsConfig>

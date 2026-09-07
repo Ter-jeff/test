@@ -1,0 +1,41 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow MS003_TD_Mbist_BV Start"																															
+Instance_Bincut_MS,Row93,MSX003 SOC TD,TD		CP1 && TD_PL99_SOC				Test	MS003_MSX003_SOC_MSX003_TD_CDCS_PL99_SSC_SOC_MSX003_TD_CDCS_PL99_SSC_BV		52000000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row94,MSX003 SOC TD,TD		CP1 && TD_PL99_SOC				Test	MS003_MSX003_SOC_MSX003_TD_CSA0_PL99_SSC_SOC_MSX003_TD_CSA0_PL99_SSC_BV		52001000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row95,MSX003 SOC TD,TD		CP1 && TD_PL99_SOC				Test	MS003_MSX003_SOC_MSX003_TD_CSB1_PL99_SSC_SOC_MSX003_TD_CSB1_PL99_SSC_BV		52002000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row96,MSX003 SOC TD,TD		CP1 && TD_PL99_SOC				Test	MS003_MSX003_SOC_MSX003_TD_CSB2_PL99_SSC_SOC_MSX003_TD_CSB2_PL99_SSC_BV		52003000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row97,MSX003 SOC TD,TD		CP1 && TD_PL99_SOC				Test	MS003_MSX003_SOC_MSX003_TD_CSC0_PL99_SSC_SOC_MSX003_TD_CSC0_PL99_SSC_BV		52004000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row98,MSX003 SOC TD,TD		CP1 && TD_PL99_SOC				Test	MS003_MSX003_SOC_MSX003_TD_CA00_PL99_SSC_SOC_MSX003_TD_CA00_PL99_SSC_BV		52005000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row99,MSX003 SOC TD,TD		CP1 && TD_PL99_SOC				Test	MS003_MSX003_SOC_MSX003_TD_CHI1_PL99_SSC_SOC_MSX003_TD_CHI1_PL99_SSC_BV		52006000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row100,MSX003 SOC TD,TD		CP1 && TD_PL99_SOC				Test	MS003_MSX003_SOC_MSX003_TD_CHI2_PL99_SSC_SOC_MSX003_TD_CHI2_PL99_SSC_BV		52007000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row101,MSX003 SOC TD,TD		CP1				Test	MS003_MSX003_SOC_MSX003_TD_CSA0_PL10_SSC_SOC_MSX003_TD_CSA0_PL10_SSC_BV		52008000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row102,MSX003 SOC TD,TD		CP1				Test	MS003_MSX003_SOC_MSX003_TD_CSC0_PL10_SSC_SOC_MSX003_TD_CSC0_PL10_SSC_BV		52009000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row103,MSX003 SOC TD,TD		CP1				Test	MS003_MSX003_SOC_MSX003_TD_CSBX_PL10_SSC_SOC_MSX003_TD_CSBX_PL10_SSC_BV		52010000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row104,MSX003 SOC TD,TD		CP1				Test	MS003_MSX003_SOC_MSX003_TD_CA00_PL10_SSC_SOC_MSX003_TD_CA00_PL10_SSC_BV		52011000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row113,MSX003 GPU TD,TD		CP1				Test	MS003_GPU_MSX003_GPU_MSX003_TD_CSOC_PL10_GPU_MSX003_TD_CSOC_PL10_BV		52012000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row106,MSX003 SOC SBST,TD		CP1 && !SOC_SBST_TTR				Test	MS003_SSB_MSX003_SOC_MSX003_SBST_MAXXT_SOC_MSX003_SBST_MAXXT_BV		52013000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row107,MSX003 SOC SBST,TD		CP1				Test	MS003_SSB_MSX003_SOC_MSX003_SBST_MAXXTATS_SOC_MSX003_SBST_MAXXTATS_BV		52014000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row108,MDS039 SOC SBST,TD		CP1 && !SOC_SBST_TTR				Test	MS003_MDS039_SOC_MDS039_SBST_MAXXT_SOC_MDS039_SBST_MAXXT_BV		52015000																													
+						Bintable	Bin_MS003_TD_BV																															
+Instance_Bincut_MS,Row109,MDS039 SOC SBST,TD		CP1				Test	MS003_MDS039_SOC_MDS039_SBST_MAXXTATS_SOC_MDS039_SBST_MAXXTATS_BV		52016000																													
+						Bintable	Bin_MS003_TD_BV																															
+						print	"Flow MS003_TD_Mbist_BV Stop"																															
+						Return																																

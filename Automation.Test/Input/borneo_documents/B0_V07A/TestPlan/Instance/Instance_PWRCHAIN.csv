@@ -1,0 +1,4 @@
+Sub Flow,Instance,PatSetName(Orange),Enable (all sites),Job / Testing Stage (all sites),SiteFlag (per site),Pattern pin groups,Pattern pin groups bin out,FailFlag,Bin_out_stage,Voltage Category,timeset,ShiftSpeed,comment,Pattern1,Pattern2,Pattern3,Pattern4,Pattern5
+Flow_PWRCHAIN_EVSpre,PWRCHAIN_func,PWRCHAIN_func,,"CP1,CP2",,,,,,HardIP_PWRCHAIN_X_X LV,TIMESET_BRNA0_S_AN_SI,,,PP_BRNA0_S_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWRCHAIN_ACC,,,,
+Flow_PWRCHAIN_EVSpost,PWRCHAIN_func,PWRCHAIN_func,,"CP1,CP2",,,,,,HardIP_PWRCHAIN_X_X LV,TIMESET_BRNA0_S_AN_SI,,,PP_BRNA0_S_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWRCHAIN_ACC,,,,
+Flow_PWRCHAIN_FT,PWRCHAIN_func_FT,PWRCHAIN_func_FT,,"FT1",,,,,,HardIP_PWRCHAIN_X_X LV,TIMESET_BRNA0_S_AN_SI,,,PP_BRNA0_S_FULP_PW_PTSX_PFF_DAA_PWR_ALLFRV_SI_PWRCHAIN_ACC,,,,

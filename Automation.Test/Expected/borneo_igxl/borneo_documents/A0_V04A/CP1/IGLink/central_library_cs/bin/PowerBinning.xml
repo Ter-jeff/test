@@ -1,0 +1,576 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PowerBinning</name>
+    </assembly>
+    <members>
+        <member name="T:ATE_SLT_Common.PowerBinning.PowerBinningMain">
+            <summary>
+            Class for power binning logic that is compatible with both ATE and SLT
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerBinningMain.PowerBinningFailFlag">
+            <summary>
+            Fail flag for failed row of Power Binning sheet
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerBinningMain.#ctor(ATE_SLT_Common.PowerBinning.ITestProgramWrapper,ATE_SLT_Common.PowerBinning.PowerBinningSheet,System.Collections.Generic.IReadOnlyDictionary{System.String,ATE_SLT_Common.PowerBinning.PowerScreenSheet},System.Collections.Generic.IReadOnlyDictionary{System.String,System.String},ATE_SLT_Common.PowerBinning.ICustomSite{System.Int32},ATE_SLT_Common.PowerBinning.ICustomSite{System.Int32},ATE_SLT_Common.PowerBinning.ICustomSite{System.String})">
+             <inheritdoc cref="T:ATE_SLT_Common.PowerBinning.PowerBinningMain"/>
+             <param name="tp">Test program wrapper, either specific to ATE or SLT.</param>
+             <param name="powerBinningSheet">Power binning sheet data structure.</param>
+             <param name="powerScreenSheets">Dictionary of power screen sheet data structures.</param>
+             <param name="railMappings">
+             Dictionary mapping rail name to target rails where there needs to be a mapping.
+             The target rail should correspond to a single non-binned row in the Binning sheet.
+            
+             For example, ["VDD_SRAM_GPU"] = "VDD_SRAM_SOC" indicates that if VDD_SRAM_GPU is not in the current channel map,
+             then VDD_SRAM_SOC is used as the voltage, where SRAM_SOC is a non-binned row of the Binning sheet.
+             </param>
+             <param name="productIdentifiers">Site variable of product identifiers.</param>
+             <param name="powerBins">Site variable of power bins. Modified in-place.</param>
+             <param name="specNames">Site variable of spec names. Modified in-place.</param>
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.PowerBinningMain.Powers">
+            <summary>
+            Map PwrScreen sheet name to the total power for that sheet
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerBinningMain.CalculatePowerBinning">
+            <summary>
+            Calculate the power bins
+            </summary>
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.PowerBinningSheet">
+            <summary>
+            Data structure for parsed "PwrBinning_" sheet
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerBinningSheet.#ctor(System.String,System.Collections.Generic.HashSet{System.String})">
+            <inheritdoc cref="T:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow" />
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerBinningSheet.SheetName">
+            <summary>
+            Power binning sheet name
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerBinningSheet.AddRow(ATE_SLT_Common.PowerBinning.PowerBinningSheetRow)">
+            <summary>
+            Add row of the PwrBinning sheet
+            </summary>
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.PowerBinningSheet.Rows">
+            <summary>
+            Rows of the PwrBinning sheet
+            </summary>
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.PowerBinningSheet.PwrScreenSheets">
+            <summary>
+            Names of PwrScreen sheets referenced in the PwrBinning sheet headers
+            </summary>
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.PowerBinningSheetParser">
+            <summary>
+            Parser class for the PwrScreen sheet
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerBinningSheetParser.ParsePowerBinningSheet(ATE_SLT_Common.PowerBinning.ITestProgramWrapper,System.String,System.String[0:,0:],System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Parse PwrBinning sheet
+            </summary>
+            <param name="tp">ATE or SLT test program wrapper</param>
+            <param name="sheetName">Name of the PwrBinning sheet</param>
+            <param name="table">Power binning sheet</param>
+            <param name="customSheetNames">Dictionary of non IGXL custom sheets</param>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerBinningSheetParser.ParseInteger(System.String)">
+            <summary>
+            Parse integer with support for decimal or binary format.
+            </summary>
+            <param name="s">String containing number</param>
+            <returns>Integer value</returns>
+            <exception cref="T:System.FormatException">Invalid format for decimal or binary integer</exception>
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow">
+            <summary>
+            Data structure for one row in the "PwrBinning_" sheet
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow.ProductIdentifier">
+            <summary>
+            "INPUT: product_identifier" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow.HarvestingBin">
+            <summary>
+            "INPUT: harvesting_bin" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow.PassPowerBinning">
+            <summary>
+            "PASS: power_binning" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow.FailAction">
+            <summary>
+            True if "FAIL action" column is "FAIL", and false if "next"
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow.PassFlag">
+            <summary>
+            "Pass flag" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow.Comment">
+            <summary>
+            "Comment" column
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow.#ctor(ATE_SLT_Common.PowerBinning.ITestProgramWrapper,System.Int32,System.Int32,System.Boolean,System.String,System.Int32,System.String)">
+            <inheritdoc cref="T:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow" />
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow.AddThreshold(System.String,System.Double)">
+            <summary>
+            Add threshold value for a given PwrScreen sheet
+            </summary>
+            <param name="sheetName">Name of the PwrScreen sheet</param>
+            <param name="value">Value of the upper limit to be considered a pass</param>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow.GetLimit(System.String)">
+            <summary>
+            Get the limit value for a given PwrScreen sheet
+            </summary>
+            <param name="sheetName">Name of the PwrScreen sheet</param>
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.PowerBinningSheetRow.Limits">
+            <summary>
+            Maps name of PwrScreen sheet to limit value
+            </summary>
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.AjPowerCoefficients">
+            <summary>
+            Data structure for the coefficients of one row in the "PwrScreen_" sheet with the old AJ format
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.VddRef">
+            <summary>
+            "VDD_REF" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.IdsRef">
+            <summary>
+            "IDS_REF" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.AcP1">
+            <summary>
+            "AC_P1" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.AcP2">
+            <summary>
+            "AC_P2" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.AcP3">
+            <summary>
+            "AC_P3" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.AcP4">
+            <summary>
+            "AC_P4" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.AcP5">
+            <summary>
+            "AC_P5" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.DcP1">
+            <summary>
+            "DC_P1" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.DcP2">
+            <summary>
+            "DC_P2" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.DcP3">
+            <summary>
+            "DC_P3" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.DcP4">
+            <summary>
+            "DC_P4" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.DcP5">
+            <summary>
+            "DC_P5" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients._acSum">
+            <summary>
+            Sum of the AC coefficients
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.AjPowerCoefficients._dcSum">
+            <summary>
+            Sum of the DC coefficients
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <inheritdoc cref="T:ATE_SLT_Common.PowerBinning.AjPowerCoefficients" />
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.CalculatePowerEquation(System.Double,System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.AjPowerCoefficients.HasZeroCoefficients">
+            <inheritdoc />
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.IPowerScreenCoefficients">
+            <summary>
+            Common interface for calculating power using different equation formats
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.IPowerScreenCoefficients.CalculatePowerEquation(System.Double,System.Double)">
+            <summary>
+            Calculate the power equation for a given site
+            </summary>
+            <param name="vBin">Vbin (product voltage) for this site</param>
+            <param name="ids">IDS for this site</param>
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.IPowerScreenCoefficients.HasZeroCoefficients">
+            <summary>
+            Return true if the coefficients of this row guarantee a power of zero.
+            </summary>
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.JkPowerCoefficients">
+            <summary>
+            Data structure for the coefficients of one row in the "PwrScreen_" sheet with the new J/K format
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.Vdd0">
+            <summary>
+            "Vdd0 (mV)" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.Vdd1">
+            <summary>
+            "Vdd1 (mV)" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.Exp0">
+            <summary>
+            "Exp0" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.Exp1">
+            <summary>
+            "Exp1" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.Exp2">
+            <summary>
+            "Exp2" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.Base">
+            <summary>
+            "Base" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.J">
+            <summary>
+            "J" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.K">
+            <summary>
+            "K" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.C">
+            <summary>
+            "C (mV)" column
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <inheritdoc cref="T:ATE_SLT_Common.PowerBinning.JkPowerCoefficients" />
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.CalculatePowerEquation(System.Double,System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.JkPowerCoefficients.HasZeroCoefficients">
+            <inheritdoc />
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.PowerScreenSheet">
+            <summary>
+            Data structure for parsed "PwrScreen_" sheet
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerScreenSheet.SheetName">
+            <summary>
+            Sheet name
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerScreenSheet.Offset">
+            <summary>
+            Offset
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheet.#ctor(ATE_SLT_Common.PowerBinning.ITestProgramWrapper,System.String,System.Double)">
+            <inheritdoc cref="T:ATE_SLT_Common.PowerBinning.PowerScreenSheet" />
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheet.AddRow(System.String,System.String,ATE_SLT_Common.PowerBinning.PowerScreenSheetRow)">
+            <summary>
+            Add row from the PwrScreen sheet with a unique mode
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheet.GetRow(System.String,System.String)">
+            <summary>
+            Get a row from the PwrScreen by its mode
+            </summary>
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.PowerScreenSheet.Rows">
+            <summary>
+            Enumerable of the rows in the PwrScreen sheet
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheet.CalculateTotalPower(System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Calculate the total power (the sum of power of all mods plus offset)
+            </summary>
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.PowerScreenSheetParser">
+            <summary>
+            Parser class for the PwrScreen sheet
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerScreenSheetParser.PowerScreenPrefix">
+            <summary>
+            Sheet name prefix for PwrScreen sheets
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheetParser.ReadSheetWithHeaders(System.String[0:,0:],System.Int32)">
+            <summary>
+            Read a non-IGXL sheet into a list of dictionaries,
+            using the specified header row for dictionary keys.
+            </summary>
+            <param name="sheet">Sheet data</param>
+            <param name="headerRow">The zero-indexed row number of the header row in the TSV</param>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheetParser.ParsePowerScreenSheet(ATE_SLT_Common.PowerBinning.ITestProgramWrapper,System.String,System.String[0:,0:])">
+            <summary>
+            Parse PwrScreen sheet
+            </summary>
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow">
+            <summary>
+            Data structure for one row in the "PwrScreen_" sheet
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.Mode">
+            <summary>
+            "Binned_Mode" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.BinVoltageRail">
+            <summary>
+            "Bin Voltage" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.IdsRail">
+            <summary>
+            "IDS" column
+            </summary>
+        </member>
+        <member name="F:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.Coefficients">
+            <summary>
+            Coefficients for the power equation
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.#ctor(ATE_SLT_Common.PowerBinning.ITestProgramWrapper,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String,ATE_SLT_Common.PowerBinning.IPowerScreenCoefficients)">
+            <inheritdoc cref="T:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow" />
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.IsIgnored">
+            <summary>
+            Check whether this row's <see cref="F:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.BinVoltageRail"/> is ignored by the ATE Test Condition sheet.
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.GetBinVoltageModesAndRails">
+            <summary>
+            Get (Mode, Rail) enumerable of any rails included in <see cref="F:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.BinVoltageRail"/> and their corresponding modes
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.GetProductVoltage(System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Get product voltage for this row's <see cref="F:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.BinVoltageRail"/>.
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.CalculatePowerEquation(System.Double,System.Double)">
+            <inheritdoc cref="M:ATE_SLT_Common.PowerBinning.IPowerScreenCoefficients.CalculatePowerEquation(System.Double,System.Double)"/>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.CalculatePowerEquation(ATE_SLT_Common.PowerBinning.ICustomSiteDouble,ATE_SLT_Common.PowerBinning.ICustomSiteDouble)">
+            <summary>
+            Calculate the piecewise power equation for all sites
+            </summary>
+            <param name="vBin">Vbin (product voltage)</param>
+            <param name="ids">IDS</param>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.PowerScreenSheetRow.CalculatePowerEquation(System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Calculate the piecewise power equation for all sites
+            </summary>
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper">
+            <summary>
+            Wrapper for ATE test program specifically
+            </summary>
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper.CurrentJobName">
+             <summary>
+             Get current job name.
+            
+             Used if there are multiple PwrScreen sheets with the same name, only differentiated by job name.
+             (e.g. PwrScreen_TN_CP1 and PwrScreen_TN_FT1, both referenced as PwrScreen_TN in the PwrBinning sheet)
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper.GetSheetJobName(System.String)">
+            <summary>
+            For a job-specific sheet, get the job name from the suffix of the sheet name.
+            If there is no suffix, returns null.
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper.LogErrorDTR(System.String)">
+            <summary>
+            Log error at MP level to DTR
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper.LogInfoDTR(System.String)">
+            <summary>
+            Log info at MP level to DTR
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper.LogDebugWarningDTR(System.String)">
+            <summary>
+            Log warning at Debug level to DTR
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper.LogDoublePTR(ATE_SLT_Common.PowerBinning.ICustomSiteDouble,System.String)">
+            <summary>
+            Log to PTR
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper.LogCurrentPTR(ATE_SLT_Common.PowerBinning.ICustomSiteDouble,System.String)">
+            <summary>
+            Log current to PTR
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper.LogVoltagePTR(System.Double,System.String)">
+            <summary>
+            Log voltage to PTR
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper.LogVoltagePTR(ATE_SLT_Common.PowerBinning.ICustomSiteDouble,System.String)">
+            <summary>
+            Log voltage to PTR
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper.SetFlag(System.Int32,System.String)">
+            <summary>
+            Set the given flag to true for the given site number
+            </summary>
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.ICustomSiteDouble">
+            <summary>
+            Wrapper for Site{double}
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ICustomSiteDouble.Add(ATE_SLT_Common.PowerBinning.ICustomSiteDouble)">
+            <summary>
+            Add two site variables
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ICustomSiteDouble.Divide(System.Double)">
+            <summary>
+            Divide site variable with a double
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ICustomSiteDouble.Maximum(ATE_SLT_Common.PowerBinning.ICustomSiteDouble)">
+            <summary>
+            Take site-wise maximum of two site variables
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ICustomSiteDouble.Minimum(ATE_SLT_Common.PowerBinning.ICustomSiteDouble)">
+            <summary>
+            Take site-wise minimum of two site variables
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ICustomSiteDouble.Select(System.Func{System.Double,System.Int32,System.Double})">
+            <summary>
+            LINQ select
+            </summary>
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.ICustomSiteDouble.Item(System.Int32)">
+            <summary>
+            Get value for a given site
+            </summary>
+        </member>
+        <member name="T:ATE_SLT_Common.PowerBinning.ITestProgramWrapper">
+            <summary>
+            Wrapper for ATE or SLT test program
+            </summary>
+        </member>
+        <member name="P:ATE_SLT_Common.PowerBinning.ITestProgramWrapper.AteTestProgram">
+            <inheritdoc cref="T:ATE_SLT_Common.PowerBinning.IAteTestProgramWrapper"/>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ITestProgramWrapper.IsRowIgnored(System.String)">
+            <summary>
+            Check if a row of the PwrScreen sheet should be ignored.
+            True if the rail is marked as ignored in the ATE Test Condition sheet.
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ITestProgramWrapper.IsRailValid(System.String)">
+            <summary>
+            Check if a rail is valid in the ATE Test Condition sheet
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ITestProgramWrapper.IsValidMode(System.String)">
+            <summary>
+            Check if a mode is valid in the Binning sheet
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ITestProgramWrapper.CreateSiteDouble(System.Double)">
+            <summary>
+            Create new Site{double} object
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ITestProgramWrapper.ForEachSite(System.Action{System.Int32})">
+            <summary>
+            Iterate over each site
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ITestProgramWrapper.TryGetProductVoltage(System.String,ATE_SLT_Common.PowerBinning.ICustomSiteDouble@)">
+            <summary>
+            Get stored product voltage for the given mode
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ITestProgramWrapper.TryGetNonBinnedProductVoltage(System.String,System.Int32,System.Double@)">
+            <summary>
+            Check if the given mode is non-binned. If so, return the calculated product voltage.
+            </summary>
+        </member>
+        <member name="M:ATE_SLT_Common.PowerBinning.ITestProgramWrapper.GetIdsForRail(System.String)">
+            <summary>
+            Get the IDS current for the given rail
+            </summary>
+            <param name="rail"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

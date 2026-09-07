@@ -1,0 +1,165 @@
+> tsetJTAG 1 0 0 1 X 1 ; // 3135 V:150 C:151 
+ > tsetJTAG 1 0 1 1 X 1 ; // 3156 V:151 C:152 
+ > tsetJTAG 1 0 1 1 X 1 ; // 3177 V:152 C:153 
+repeat 9
+ > tsetJTAG 1 0 0 1 X 1 ; // 3198 V:153 C:154 
+ > tsetJTAG 1 1 1 1 X 1 ; // 3386 V:154 C:163 
+ > tsetJTAG 1 0 1 1 X 1 ; // 3407 V:155 C:164 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3428 V:156 C:165 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3448 V:157 C:166 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3469 V:158 C:167 
+ > tsetJTAG 1 0 1 1 X 1 ; // 3490 V:159 C:168 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3511 V:160 C:169 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3532 V:161 C:170 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3553 V:162 C:171 
+// APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__WSOPIPE[0] 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3574 V:163 C:172 
+// APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__WSOPIPE[1] 
+ > tsetJTAG 1 1 0 1 X 1 ; // 3595 V:164 C:173 
+// APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__req_csr_write 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3616 V:165 C:174 
+// APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__req_csr_size[0] 
+ > tsetJTAG 1 1 0 1 X 1 ; // 3637 V:166 C:175 
+// APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__req_csr_size[1] 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3658 V:167 C:176 
+// APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__req_csr_size[2] 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3678 V:168 C:177 
+// APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__req_csr_response[0] 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3699 V:169 C:178 
+// APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__req_csr_response[1] 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3720 V:170 C:179 
+// APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__req_csr_unexp_compl 
+ > tsetJTAG 1 1 0 1 X 1 ; // 3741 V:171 C:180 
+// APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__req_csr_valid 
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3762 V:172 C:181 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[0]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3783 V:173 C:182 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[1]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3804 V:174 C:183 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[2]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3825 V:175 C:184 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[3]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3846 V:176 C:185 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[4]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3866 V:177 C:186 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[5]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3887 V:178 C:187 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[6]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3908 V:179 C:188 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[7]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3929 V:180 C:189 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[8]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3950 V:181 C:190 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[9]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3971 V:182 C:191 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[10]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 3992 V:183 C:192 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[11]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4013 V:184 C:193 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[12]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4034 V:185 C:194 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[13]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4055 V:186 C:195 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[14]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4076 V:187 C:196 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[15]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4096 V:188 C:197 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[16]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4117 V:189 C:198 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[17]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4138 V:190 C:199 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[18]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4159 V:191 C:200 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[19]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4180 V:192 C:201 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[20]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4201 V:193 C:202 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[21]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4222 V:194 C:203 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[22]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4243 V:195 C:204 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[23]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4264 V:196 C:205 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[24]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4284 V:197 C:206 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[25]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4305 V:198 C:207 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[26]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4326 V:199 C:208 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[27]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4347 V:200 C:209 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[28]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4368 V:201 C:210 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[29]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4389 V:202 C:211 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[30]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4410 V:203 C:212 // Source Pin = JTAG_TDI sgmt0 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__i[31]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4431 V:204 C:213 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[0]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4452 V:205 C:214 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[1]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4473 V:206 C:215 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[2]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4494 V:207 C:216 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[3]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4514 V:208 C:217 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[4]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4535 V:209 C:218 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[5]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4556 V:210 C:219 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[6]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4577 V:211 C:220 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[7]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4598 V:212 C:221 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[8]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4619 V:213 C:222 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[9]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4640 V:214 C:223 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[10]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4661 V:215 C:224 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[11]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4682 V:216 C:225 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[12]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4702 V:217 C:226 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[13]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4723 V:218 C:227 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[14]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4744 V:219 C:228 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[15]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4765 V:220 C:229 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[16]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4786 V:221 C:230 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[17]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4807 V:222 C:231 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[18]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4828 V:223 C:232 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[19]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4849 V:224 C:233 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[20]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4870 V:225 C:234 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[21]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4891 V:226 C:235 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[22]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4912 V:227 C:236 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[23]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4932 V:228 C:237 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[24]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4953 V:229 C:238 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[25]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4974 V:230 C:239 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[26]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 4995 V:231 C:240 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[27]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5016 V:232 C:241 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[28]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5037 V:233 C:242 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[29]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5058 V:234 C:243 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[30]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 1 1 X 1 ; // 5079 V:235 C:244 // Source Pin = JTAG_TDI sgmt1 APB_WDR_WIFIPHY__wifi_phy_5g__mxwrap__IMEM__IMEM__IMEM_0__address_csr[31]  
+ > tsetJTAG 1 0 1 1 X 1 ; // 5100 V:236 C:245 
+repeat Wait
+ > tsetJTAG 1 0 0 1 X 1 ; // 5120 V:237 C:246 
+ > tsetJTAG 1 0 0 1 X 1 ; // 8276 V:238 C:397

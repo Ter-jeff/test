@@ -1,0 +1,37 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"*print: CPU_LVCC_Header start*"																															
+		!ShmooOnly				Test	DFTL_CPU_CPUSRAM_MEX003_CPUBST_E0XD_PLLP_59N_REPDAT_X_SelsrmSSSSS_CZ_NV		12060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_CPUSRAM_MEX003_CPUBST_E0XD_PLLP_59N_REPDAT_X_SelsrmSSSSS_CZ_NV CPUBST_VDDCPUSRAM_Jump_2														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_CPUSRAM_MEX005_CPUBST_E0XD_PLLP_59N_REPDAT_X_SelsrmSSSSS_CZ_NV		14060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_CPUSRAM_MEX005_CPUBST_E0XD_PLLP_59N_REPDAT_X_SelsrmSSSSS_CZ_NV CPUBST_VDDCPUSRAM_Jump_21														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_CPUSRAM_MPX002_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV		16060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_CPUSRAM_MPX002_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV CPUBST_VDDCPUSRAM_Jump_1														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_CPUSRAM_MPX004_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV		18060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_CPUSRAM_MPX004_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV CPUBST_VDDCPUSRAM_Jump_17														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_CPUSRAM_MPX006_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV		20060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_CPUSRAM_MPX006_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV CPUBST_VDDCPUSRAM_Jump_19														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_CPUSRAM_MPX008_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV		22060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_CPUSRAM_MPX008_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV CPUBST_VDDCPUSRAM_Jump_7														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_CPUSRAM_MPX00A_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV		24060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_CPUSRAM_MPX00A_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV CPUBST_VDDCPUSRAM_Jump_9														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_CPUSRAM_MPX00C_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV		50072060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_CPUSRAM_MPX00C_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV CPUBST_VDDCPUSRAM_Jump_11		50074060												F_Dummy																	
+						nop	Bin_initFlow_BinOut		50076060																													
+		!ShmooOnly				Test	DFTL_CPU_CPUSRAM_MPX00E_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV		50078060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_CPUSRAM_MPX00E_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV CPUBST_VDDCPUSRAM_Jump_13		50080060												F_Dummy																	
+						nop	Bin_initFlow_BinOut		50082060																													
+		!ShmooOnly				Test	DFTL_CPU_CPUSRAM_MPX00I_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV		50084060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_CPUSRAM_MPX00I_CPUBST_P0PX_PLLP_59N_REPREST_X_SelsrmSSSSS_CZ_NV CPUBST_VDDCPUSRAM_Jump_15		50086060												F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						print	"*print: CPU_Lvcc_Footer end*"																															
+						return																																

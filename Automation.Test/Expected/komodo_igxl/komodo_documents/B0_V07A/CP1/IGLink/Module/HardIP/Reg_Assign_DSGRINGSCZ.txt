@@ -1,0 +1,580 @@
+CUS_Str_DigCapData					CUS_Str_DigCapData				
+SubBlockName	Bits	SgmName	DicName		SubBlockName	Bits	SgmName	DicName	
+DSGRINGSCZ_CZRNGLITEGFXDC0	DSSC_OUT				DSGRINGSCZ_CZRNGLITEVSOCDC0	DSSC_OUT			
+	16	dsg_rings_gfx_0__0_output_ct				16	dsg_rings_north__0_output_ct		
+	16	dsg_rings_gfx_0__1_output_ct				16	dsg_rings_north__1_output_ct		
+	16	dsg_rings_gfx_0__2_output_ct				16	dsg_rings_north__2_output_ct		
+	16	dsg_rings_gfx_0__3_output_ct				16	dsg_rings_north__3_output_ct		
+	16	dsg_rings_gfx_0__4_output_ct				16	dsg_rings_north__4_output_ct		
+	16	dsg_rings_gfx_0__5_output_ct				16	dsg_rings_north__5_output_ct		
+	16	dsg_rings_gfx_0__6_output_ct				16	dsg_rings_north__6_output_ct		
+	16	dsg_rings_gfx_0__7_output_ct				16	dsg_rings_north__7_output_ct		
+	16	dsg_rings_gfx_0__8_output_ct				16	dsg_rings_north__8_output_ct		
+	16	dsg_rings_gfx_0__9_output_ct				16	dsg_rings_north__9_output_ct		
+	16	dsg_rings_gfx_0__10_output_ct				16	dsg_rings_north__10_output_ct		
+	16	dsg_rings_gfx_0__11_output_ct				16	dsg_rings_north__11_output_ct		
+	16	dsg_rings_gfx_0__12_output_ct				16	dsg_rings_north__12_output_ct		
+	16	dsg_rings_gfx_0__13_output_ct				16	dsg_rings_north__13_output_ct		
+	16	dsg_rings_gfx_0__14_output_ct				16	dsg_rings_north__14_output_ct		
+	16	dsg_rings_gfx_0__15_output_ct				16	dsg_rings_north__15_output_ct		
+	16	dsg_rings_gfx_0__16_output_ct				16	dsg_rings_north__16_output_ct		
+	16	dsg_rings_gfx_0__17_output_ct				16	dsg_rings_north__17_output_ct		
+	16	dsg_rings_gfx_0__18_output_ct				16	dsg_rings_north__18_output_ct		
+	16	dsg_rings_gfx_0__19_output_ct				16	dsg_rings_north__19_output_ct		
+	16	dsg_rings_gfx_0__20_output_ct				16	dsg_rings_north__20_output_ct		
+	16	dsg_rings_gfx_0__21_output_ct				16	dsg_rings_north__21_output_ct		
+	16	dsg_rings_gfx_0__22_output_ct				16	dsg_rings_north__22_output_ct		
+	16	dsg_rings_gfx_0__23_output_ct				16	dsg_rings_north__23_output_ct		
+	16	dsg_rings_gfx_0__24_output_ct				16	dsg_rings_north__24_output_ct		
+	16	dsg_rings_gfx_0__25_output_ct				16	dsg_rings_north__25_output_ct		
+	16	dsg_rings_gfx_0__26_output_ct				16	dsg_rings_north__26_output_ct		
+	16	dsg_rings_gfx_0__27_output_ct				16	dsg_rings_north__27_output_ct		
+	16	dsg_rings_gfx_0__28_output_ct				16	dsg_rings_north__28_output_ct		
+	16	dsg_rings_gfx_0__29_output_ct				16	dsg_rings_north__29_output_ct		
+	16	dsg_rings_gfx_0__30_output_ct				16	dsg_rings_north__30_output_ct		
+	16	dsg_rings_gfx_0__31_output_ct				16	dsg_rings_north__31_output_ct		
+	16	dsg_rings_gfx_0__32_output_ct				16	dsg_rings_north__32_output_ct		
+	16	dsg_rings_gfx_0__33_output_ct				16	dsg_rings_north__33_output_ct		
+	16	dsg_rings_gfx_0__34_output_ct				16	dsg_rings_north__34_output_ct		
+	16	dsg_rings_gfx_0__35_output_ct				16	dsg_rings_north__35_output_ct		
+	16	dsg_rings_gfx_0__36_output_ct				16	dsg_rings_north__36_output_ct		
+	16	dsg_rings_gfx_0__37_output_ct				16	dsg_rings_north__37_output_ct		
+	16	dsg_rings_gfx_0__38_output_ct				16	dsg_rings_north__38_output_ct		
+	16	dsg_rings_gfx_0__39_output_ct				16	dsg_rings_north__39_output_ct		
+	16	dsg_rings_gfx_0__40_output_ct				16	dsg_rings_north__40_output_ct		
+	16	dsg_rings_gfx_0__41_output_ct				16	dsg_rings_north__41_output_ct		
+	16	dsg_rings_gfx_0__42_output_ct				16	dsg_rings_north__42_output_ct		
+	16	dsg_rings_gfx_0__43_output_ct				16	dsg_rings_north__43_output_ct		
+	16	dsg_rings_gfx_0__44_output_ct				16	dsg_rings_north__44_output_ct		
+	16	dsg_rings_gfx_0__45_output_ct				16	dsg_rings_north__45_output_ct		
+	16	dsg_rings_gfx_0__46_output_ct				16	dsg_rings_north__46_output_ct		
+	16	dsg_rings_gfx_0__47_output_ct				16	dsg_rings_north__47_output_ct		
+	16	dsg_rings_gfx_1__0_output_ct				16	dsg_rings_west__0_output_ct		
+	16	dsg_rings_gfx_1__1_output_ct				16	dsg_rings_west__1_output_ct		
+	16	dsg_rings_gfx_1__2_output_ct				16	dsg_rings_west__2_output_ct		
+	16	dsg_rings_gfx_1__3_output_ct				16	dsg_rings_west__3_output_ct		
+	16	dsg_rings_gfx_1__4_output_ct				16	dsg_rings_west__4_output_ct		
+	16	dsg_rings_gfx_1__5_output_ct				16	dsg_rings_west__5_output_ct		
+	16	dsg_rings_gfx_1__6_output_ct				16	dsg_rings_west__6_output_ct		
+	16	dsg_rings_gfx_1__7_output_ct				16	dsg_rings_west__7_output_ct		
+	16	dsg_rings_gfx_1__8_output_ct				16	dsg_rings_west__8_output_ct		
+	16	dsg_rings_gfx_1__9_output_ct				16	dsg_rings_west__9_output_ct		
+	16	dsg_rings_gfx_1__10_output_ct				16	dsg_rings_west__10_output_ct		
+	16	dsg_rings_gfx_1__11_output_ct				16	dsg_rings_west__11_output_ct		
+	16	dsg_rings_gfx_1__12_output_ct				16	dsg_rings_west__12_output_ct		
+	16	dsg_rings_gfx_1__13_output_ct				16	dsg_rings_west__13_output_ct		
+	16	dsg_rings_gfx_1__14_output_ct				16	dsg_rings_west__14_output_ct		
+	16	dsg_rings_gfx_1__15_output_ct				16	dsg_rings_west__15_output_ct		
+	16	dsg_rings_gfx_1__16_output_ct				16	dsg_rings_west__16_output_ct		
+	16	dsg_rings_gfx_1__17_output_ct				16	dsg_rings_west__17_output_ct		
+	16	dsg_rings_gfx_1__18_output_ct				16	dsg_rings_west__18_output_ct		
+	16	dsg_rings_gfx_1__19_output_ct				16	dsg_rings_west__19_output_ct		
+	16	dsg_rings_gfx_1__20_output_ct				16	dsg_rings_west__20_output_ct		
+	16	dsg_rings_gfx_1__21_output_ct				16	dsg_rings_west__21_output_ct		
+	16	dsg_rings_gfx_1__22_output_ct				16	dsg_rings_west__22_output_ct		
+	16	dsg_rings_gfx_1__23_output_ct				16	dsg_rings_west__23_output_ct		
+	16	dsg_rings_gfx_1__24_output_ct				16	dsg_rings_west__24_output_ct		
+	16	dsg_rings_gfx_1__25_output_ct				16	dsg_rings_west__25_output_ct		
+	16	dsg_rings_gfx_1__26_output_ct				16	dsg_rings_west__26_output_ct		
+	16	dsg_rings_gfx_1__27_output_ct				16	dsg_rings_west__27_output_ct		
+	16	dsg_rings_gfx_1__28_output_ct				16	dsg_rings_west__28_output_ct		
+	16	dsg_rings_gfx_1__29_output_ct				16	dsg_rings_west__29_output_ct		
+	16	dsg_rings_gfx_1__30_output_ct				16	dsg_rings_west__30_output_ct		
+	16	dsg_rings_gfx_1__31_output_ct				16	dsg_rings_west__31_output_ct		
+	16	dsg_rings_gfx_1__32_output_ct				16	dsg_rings_west__32_output_ct		
+	16	dsg_rings_gfx_1__33_output_ct				16	dsg_rings_west__33_output_ct		
+	16	dsg_rings_gfx_1__34_output_ct				16	dsg_rings_west__34_output_ct		
+	16	dsg_rings_gfx_1__35_output_ct				16	dsg_rings_west__35_output_ct		
+	16	dsg_rings_gfx_1__36_output_ct				16	dsg_rings_west__36_output_ct		
+	16	dsg_rings_gfx_1__37_output_ct				16	dsg_rings_west__37_output_ct		
+	16	dsg_rings_gfx_1__38_output_ct				16	dsg_rings_west__38_output_ct		
+	16	dsg_rings_gfx_1__39_output_ct				16	dsg_rings_west__39_output_ct		
+	16	dsg_rings_gfx_1__40_output_ct				16	dsg_rings_west__40_output_ct		
+	16	dsg_rings_gfx_1__41_output_ct				16	dsg_rings_west__41_output_ct		
+	16	dsg_rings_gfx_1__42_output_ct				16	dsg_rings_west__42_output_ct		
+	16	dsg_rings_gfx_1__43_output_ct				16	dsg_rings_west__43_output_ct		
+	16	dsg_rings_gfx_1__44_output_ct				16	dsg_rings_west__44_output_ct		
+	16	dsg_rings_gfx_1__45_output_ct				16	dsg_rings_west__45_output_ct		
+	16	dsg_rings_gfx_1__46_output_ct				16	dsg_rings_west__46_output_ct		
+	16	dsg_rings_gfx_1__47_output_ct				16	dsg_rings_west__47_output_ct		
+	16	dsg_rings_gfx_2__0_output_ct				16	dsg_rings_east__0_output_ct		
+	16	dsg_rings_gfx_2__1_output_ct				16	dsg_rings_east__1_output_ct		
+	16	dsg_rings_gfx_2__2_output_ct				16	dsg_rings_east__2_output_ct		
+	16	dsg_rings_gfx_2__3_output_ct				16	dsg_rings_east__3_output_ct		
+	16	dsg_rings_gfx_2__4_output_ct				16	dsg_rings_east__4_output_ct		
+	16	dsg_rings_gfx_2__5_output_ct				16	dsg_rings_east__5_output_ct		
+	16	dsg_rings_gfx_2__6_output_ct				16	dsg_rings_east__6_output_ct		
+	16	dsg_rings_gfx_2__7_output_ct				16	dsg_rings_east__7_output_ct		
+	16	dsg_rings_gfx_2__8_output_ct				16	dsg_rings_east__8_output_ct		
+	16	dsg_rings_gfx_2__9_output_ct				16	dsg_rings_east__9_output_ct		
+	16	dsg_rings_gfx_2__10_output_ct				16	dsg_rings_east__10_output_ct		
+	16	dsg_rings_gfx_2__11_output_ct				16	dsg_rings_east__11_output_ct		
+	16	dsg_rings_gfx_2__12_output_ct				16	dsg_rings_east__12_output_ct		
+	16	dsg_rings_gfx_2__13_output_ct				16	dsg_rings_east__13_output_ct		
+	16	dsg_rings_gfx_2__14_output_ct				16	dsg_rings_east__14_output_ct		
+	16	dsg_rings_gfx_2__15_output_ct				16	dsg_rings_east__15_output_ct		
+	16	dsg_rings_gfx_2__16_output_ct				16	dsg_rings_east__16_output_ct		
+	16	dsg_rings_gfx_2__17_output_ct				16	dsg_rings_east__17_output_ct		
+	16	dsg_rings_gfx_2__18_output_ct				16	dsg_rings_east__18_output_ct		
+	16	dsg_rings_gfx_2__19_output_ct				16	dsg_rings_east__19_output_ct		
+	16	dsg_rings_gfx_2__20_output_ct				16	dsg_rings_east__20_output_ct		
+	16	dsg_rings_gfx_2__21_output_ct				16	dsg_rings_east__21_output_ct		
+	16	dsg_rings_gfx_2__22_output_ct				16	dsg_rings_east__22_output_ct		
+	16	dsg_rings_gfx_2__23_output_ct				16	dsg_rings_east__23_output_ct		
+	16	dsg_rings_gfx_2__24_output_ct				16	dsg_rings_east__24_output_ct		
+	16	dsg_rings_gfx_2__25_output_ct				16	dsg_rings_east__25_output_ct		
+	16	dsg_rings_gfx_2__26_output_ct				16	dsg_rings_east__26_output_ct		
+	16	dsg_rings_gfx_2__27_output_ct				16	dsg_rings_east__27_output_ct		
+	16	dsg_rings_gfx_2__28_output_ct				16	dsg_rings_east__28_output_ct		
+	16	dsg_rings_gfx_2__29_output_ct				16	dsg_rings_east__29_output_ct		
+	16	dsg_rings_gfx_2__30_output_ct				16	dsg_rings_east__30_output_ct		
+	16	dsg_rings_gfx_2__31_output_ct				16	dsg_rings_east__31_output_ct		
+	16	dsg_rings_gfx_2__32_output_ct				16	dsg_rings_east__32_output_ct		
+	16	dsg_rings_gfx_2__33_output_ct				16	dsg_rings_east__33_output_ct		
+	16	dsg_rings_gfx_2__34_output_ct				16	dsg_rings_east__34_output_ct		
+	16	dsg_rings_gfx_2__35_output_ct				16	dsg_rings_east__35_output_ct		
+	16	dsg_rings_gfx_2__36_output_ct				16	dsg_rings_east__36_output_ct		
+	16	dsg_rings_gfx_2__37_output_ct				16	dsg_rings_east__37_output_ct		
+	16	dsg_rings_gfx_2__38_output_ct				16	dsg_rings_east__38_output_ct		
+	16	dsg_rings_gfx_2__39_output_ct				16	dsg_rings_east__39_output_ct		
+	16	dsg_rings_gfx_2__40_output_ct				16	dsg_rings_east__40_output_ct		
+	16	dsg_rings_gfx_2__41_output_ct				16	dsg_rings_east__41_output_ct		
+	16	dsg_rings_gfx_2__42_output_ct				16	dsg_rings_east__42_output_ct		
+	16	dsg_rings_gfx_2__43_output_ct				16	dsg_rings_east__43_output_ct		
+	16	dsg_rings_gfx_2__44_output_ct				16	dsg_rings_east__44_output_ct		
+	16	dsg_rings_gfx_2__45_output_ct				16	dsg_rings_east__45_output_ct		
+	16	dsg_rings_gfx_2__46_output_ct				16	dsg_rings_east__46_output_ct		
+	16	dsg_rings_gfx_2__47_output_ct				16	dsg_rings_east__47_output_ct		
+	16	dsg_rings_gfx_3__0_output_ct				16	dsg_rings_south__0_output_ct		
+	16	dsg_rings_gfx_3__1_output_ct				16	dsg_rings_south__1_output_ct		
+	16	dsg_rings_gfx_3__2_output_ct				16	dsg_rings_south__2_output_ct		
+	16	dsg_rings_gfx_3__3_output_ct				16	dsg_rings_south__3_output_ct		
+	16	dsg_rings_gfx_3__4_output_ct				16	dsg_rings_south__4_output_ct		
+	16	dsg_rings_gfx_3__5_output_ct				16	dsg_rings_south__5_output_ct		
+	16	dsg_rings_gfx_3__6_output_ct				16	dsg_rings_south__6_output_ct		
+	16	dsg_rings_gfx_3__7_output_ct				16	dsg_rings_south__7_output_ct		
+	16	dsg_rings_gfx_3__8_output_ct				16	dsg_rings_south__8_output_ct		
+	16	dsg_rings_gfx_3__9_output_ct				16	dsg_rings_south__9_output_ct		
+	16	dsg_rings_gfx_3__10_output_ct				16	dsg_rings_south__10_output_ct		
+	16	dsg_rings_gfx_3__11_output_ct				16	dsg_rings_south__11_output_ct		
+	16	dsg_rings_gfx_3__12_output_ct				16	dsg_rings_south__12_output_ct		
+	16	dsg_rings_gfx_3__13_output_ct				16	dsg_rings_south__13_output_ct		
+	16	dsg_rings_gfx_3__14_output_ct				16	dsg_rings_south__14_output_ct		
+	16	dsg_rings_gfx_3__15_output_ct				16	dsg_rings_south__15_output_ct		
+	16	dsg_rings_gfx_3__16_output_ct				16	dsg_rings_south__16_output_ct		
+	16	dsg_rings_gfx_3__17_output_ct				16	dsg_rings_south__17_output_ct		
+	16	dsg_rings_gfx_3__18_output_ct				16	dsg_rings_south__18_output_ct		
+	16	dsg_rings_gfx_3__19_output_ct				16	dsg_rings_south__19_output_ct		
+	16	dsg_rings_gfx_3__20_output_ct				16	dsg_rings_south__20_output_ct		
+	16	dsg_rings_gfx_3__21_output_ct				16	dsg_rings_south__21_output_ct		
+	16	dsg_rings_gfx_3__22_output_ct				16	dsg_rings_south__22_output_ct		
+	16	dsg_rings_gfx_3__23_output_ct				16	dsg_rings_south__23_output_ct		
+	16	dsg_rings_gfx_3__24_output_ct				16	dsg_rings_south__24_output_ct		
+	16	dsg_rings_gfx_3__25_output_ct				16	dsg_rings_south__25_output_ct		
+	16	dsg_rings_gfx_3__26_output_ct				16	dsg_rings_south__26_output_ct		
+	16	dsg_rings_gfx_3__27_output_ct				16	dsg_rings_south__27_output_ct		
+	16	dsg_rings_gfx_3__28_output_ct				16	dsg_rings_south__28_output_ct		
+	16	dsg_rings_gfx_3__29_output_ct				16	dsg_rings_south__29_output_ct		
+	16	dsg_rings_gfx_3__30_output_ct				16	dsg_rings_south__30_output_ct		
+	16	dsg_rings_gfx_3__31_output_ct				16	dsg_rings_south__31_output_ct		
+	16	dsg_rings_gfx_3__32_output_ct				16	dsg_rings_south__32_output_ct		
+	16	dsg_rings_gfx_3__33_output_ct				16	dsg_rings_south__33_output_ct		
+	16	dsg_rings_gfx_3__34_output_ct				16	dsg_rings_south__34_output_ct		
+	16	dsg_rings_gfx_3__35_output_ct				16	dsg_rings_south__35_output_ct		
+	16	dsg_rings_gfx_3__36_output_ct				16	dsg_rings_south__36_output_ct		
+	16	dsg_rings_gfx_3__37_output_ct				16	dsg_rings_south__37_output_ct		
+	16	dsg_rings_gfx_3__38_output_ct				16	dsg_rings_south__38_output_ct		
+	16	dsg_rings_gfx_3__39_output_ct				16	dsg_rings_south__39_output_ct		
+	16	dsg_rings_gfx_3__40_output_ct				16	dsg_rings_south__40_output_ct		
+	16	dsg_rings_gfx_3__41_output_ct				16	dsg_rings_south__41_output_ct		
+	16	dsg_rings_gfx_3__42_output_ct				16	dsg_rings_south__42_output_ct		
+	16	dsg_rings_gfx_3__43_output_ct				16	dsg_rings_south__43_output_ct		
+	16	dsg_rings_gfx_3__44_output_ct				16	dsg_rings_south__44_output_ct		
+	16	dsg_rings_gfx_3__45_output_ct				16	dsg_rings_south__45_output_ct		
+	16	dsg_rings_gfx_3__46_output_ct				16	dsg_rings_south__46_output_ct		
+	16	dsg_rings_gfx_3__47_output_ct				16	dsg_rings_south__47_output_ct		
+	16	dsg_rings_gfx_4__0_output_ct				16	dsg_rings_center__0_output_ct		
+	16	dsg_rings_gfx_4__1_output_ct				16	dsg_rings_center__1_output_ct		
+	16	dsg_rings_gfx_4__2_output_ct				16	dsg_rings_center__2_output_ct		
+	16	dsg_rings_gfx_4__3_output_ct				16	dsg_rings_center__3_output_ct		
+	16	dsg_rings_gfx_4__4_output_ct				16	dsg_rings_center__4_output_ct		
+	16	dsg_rings_gfx_4__5_output_ct				16	dsg_rings_center__5_output_ct		
+	16	dsg_rings_gfx_4__6_output_ct				16	dsg_rings_center__6_output_ct		
+	16	dsg_rings_gfx_4__7_output_ct				16	dsg_rings_center__7_output_ct		
+	16	dsg_rings_gfx_4__8_output_ct				16	dsg_rings_center__8_output_ct		
+	16	dsg_rings_gfx_4__9_output_ct				16	dsg_rings_center__9_output_ct		
+	16	dsg_rings_gfx_4__10_output_ct				16	dsg_rings_center__10_output_ct		
+	16	dsg_rings_gfx_4__11_output_ct				16	dsg_rings_center__11_output_ct		
+	16	dsg_rings_gfx_4__12_output_ct				16	dsg_rings_center__12_output_ct		
+	16	dsg_rings_gfx_4__13_output_ct				16	dsg_rings_center__13_output_ct		
+	16	dsg_rings_gfx_4__14_output_ct				16	dsg_rings_center__14_output_ct		
+	16	dsg_rings_gfx_4__15_output_ct				16	dsg_rings_center__15_output_ct		
+	16	dsg_rings_gfx_4__16_output_ct				16	dsg_rings_center__16_output_ct		
+	16	dsg_rings_gfx_4__17_output_ct				16	dsg_rings_center__17_output_ct		
+	16	dsg_rings_gfx_4__18_output_ct				16	dsg_rings_center__18_output_ct		
+	16	dsg_rings_gfx_4__19_output_ct				16	dsg_rings_center__19_output_ct		
+	16	dsg_rings_gfx_4__20_output_ct				16	dsg_rings_center__20_output_ct		
+	16	dsg_rings_gfx_4__21_output_ct				16	dsg_rings_center__21_output_ct		
+	16	dsg_rings_gfx_4__22_output_ct				16	dsg_rings_center__22_output_ct		
+	16	dsg_rings_gfx_4__23_output_ct				16	dsg_rings_center__23_output_ct		
+	16	dsg_rings_gfx_4__24_output_ct				16	dsg_rings_center__24_output_ct		
+	16	dsg_rings_gfx_4__25_output_ct				16	dsg_rings_center__25_output_ct		
+	16	dsg_rings_gfx_4__26_output_ct				16	dsg_rings_center__26_output_ct		
+	16	dsg_rings_gfx_4__27_output_ct				16	dsg_rings_center__27_output_ct		
+	16	dsg_rings_gfx_4__28_output_ct				16	dsg_rings_center__28_output_ct		
+	16	dsg_rings_gfx_4__29_output_ct				16	dsg_rings_center__29_output_ct		
+	16	dsg_rings_gfx_4__30_output_ct				16	dsg_rings_center__30_output_ct		
+	16	dsg_rings_gfx_4__31_output_ct				16	dsg_rings_center__31_output_ct		
+	16	dsg_rings_gfx_4__32_output_ct				16	dsg_rings_center__32_output_ct		
+	16	dsg_rings_gfx_4__33_output_ct				16	dsg_rings_center__33_output_ct		
+	16	dsg_rings_gfx_4__34_output_ct				16	dsg_rings_center__34_output_ct		
+	16	dsg_rings_gfx_4__35_output_ct				16	dsg_rings_center__35_output_ct		
+	16	dsg_rings_gfx_4__36_output_ct				16	dsg_rings_center__36_output_ct		
+	16	dsg_rings_gfx_4__37_output_ct				16	dsg_rings_center__37_output_ct		
+	16	dsg_rings_gfx_4__38_output_ct				16	dsg_rings_center__38_output_ct		
+	16	dsg_rings_gfx_4__39_output_ct				16	dsg_rings_center__39_output_ct		
+	16	dsg_rings_gfx_4__40_output_ct				16	dsg_rings_center__40_output_ct		
+	16	dsg_rings_gfx_4__41_output_ct				16	dsg_rings_center__41_output_ct		
+	16	dsg_rings_gfx_4__42_output_ct				16	dsg_rings_center__42_output_ct		
+	16	dsg_rings_gfx_4__43_output_ct				16	dsg_rings_center__43_output_ct		
+	16	dsg_rings_gfx_4__44_output_ct				16	dsg_rings_center__44_output_ct		
+	16	dsg_rings_gfx_4__45_output_ct				16	dsg_rings_center__45_output_ct		
+	16	dsg_rings_gfx_4__46_output_ct				16	dsg_rings_center__46_output_ct		
+	16	dsg_rings_gfx_4__47_output_ct				16	dsg_rings_center__47_output_ct		
+	16	dsg_rings_gfx_5__0_output_ct				16	dsg_rings_ane__0_output_ct		
+	16	dsg_rings_gfx_5__1_output_ct				16	dsg_rings_ane__1_output_ct		
+	16	dsg_rings_gfx_5__2_output_ct				16	dsg_rings_ane__2_output_ct		
+	16	dsg_rings_gfx_5__3_output_ct				16	dsg_rings_ane__3_output_ct		
+	16	dsg_rings_gfx_5__4_output_ct				16	dsg_rings_ane__4_output_ct		
+	16	dsg_rings_gfx_5__5_output_ct				16	dsg_rings_ane__5_output_ct		
+	16	dsg_rings_gfx_5__6_output_ct				16	dsg_rings_ane__6_output_ct		
+	16	dsg_rings_gfx_5__7_output_ct				16	dsg_rings_ane__7_output_ct		
+	16	dsg_rings_gfx_5__8_output_ct				16	dsg_rings_ane__8_output_ct		
+	16	dsg_rings_gfx_5__9_output_ct				16	dsg_rings_ane__9_output_ct		
+	16	dsg_rings_gfx_5__10_output_ct				16	dsg_rings_ane__10_output_ct		
+	16	dsg_rings_gfx_5__11_output_ct				16	dsg_rings_ane__11_output_ct		
+	16	dsg_rings_gfx_5__12_output_ct				16	dsg_rings_ane__12_output_ct		
+	16	dsg_rings_gfx_5__13_output_ct				16	dsg_rings_ane__13_output_ct		
+	16	dsg_rings_gfx_5__14_output_ct				16	dsg_rings_ane__14_output_ct		
+	16	dsg_rings_gfx_5__15_output_ct				16	dsg_rings_ane__15_output_ct		
+	16	dsg_rings_gfx_5__16_output_ct				16	dsg_rings_ane__16_output_ct		
+	16	dsg_rings_gfx_5__17_output_ct				16	dsg_rings_ane__17_output_ct		
+	16	dsg_rings_gfx_5__18_output_ct				16	dsg_rings_ane__18_output_ct		
+	16	dsg_rings_gfx_5__19_output_ct				16	dsg_rings_ane__19_output_ct		
+	16	dsg_rings_gfx_5__20_output_ct				16	dsg_rings_ane__20_output_ct		
+	16	dsg_rings_gfx_5__21_output_ct				16	dsg_rings_ane__21_output_ct		
+	16	dsg_rings_gfx_5__22_output_ct				16	dsg_rings_ane__22_output_ct		
+	16	dsg_rings_gfx_5__23_output_ct				16	dsg_rings_ane__23_output_ct		
+	16	dsg_rings_gfx_5__24_output_ct				16	dsg_rings_ane__24_output_ct		
+	16	dsg_rings_gfx_5__25_output_ct				16	dsg_rings_ane__25_output_ct		
+	16	dsg_rings_gfx_5__26_output_ct				16	dsg_rings_ane__26_output_ct		
+	16	dsg_rings_gfx_5__27_output_ct				16	dsg_rings_ane__27_output_ct		
+	16	dsg_rings_gfx_5__28_output_ct				16	dsg_rings_ane__28_output_ct		
+	16	dsg_rings_gfx_5__29_output_ct				16	dsg_rings_ane__29_output_ct		
+	16	dsg_rings_gfx_5__30_output_ct				16	dsg_rings_ane__30_output_ct		
+	16	dsg_rings_gfx_5__31_output_ct				16	dsg_rings_ane__31_output_ct		
+	16	dsg_rings_gfx_5__32_output_ct				16	dsg_rings_ane__32_output_ct		
+	16	dsg_rings_gfx_5__33_output_ct				16	dsg_rings_ane__33_output_ct		
+	16	dsg_rings_gfx_5__34_output_ct				16	dsg_rings_ane__34_output_ct		
+	16	dsg_rings_gfx_5__35_output_ct				16	dsg_rings_ane__35_output_ct		
+	16	dsg_rings_gfx_5__36_output_ct				16	dsg_rings_ane__36_output_ct		
+	16	dsg_rings_gfx_5__37_output_ct				16	dsg_rings_ane__37_output_ct		
+	16	dsg_rings_gfx_5__38_output_ct				16	dsg_rings_ane__38_output_ct		
+	16	dsg_rings_gfx_5__39_output_ct				16	dsg_rings_ane__39_output_ct		
+	16	dsg_rings_gfx_5__40_output_ct				16	dsg_rings_ane__40_output_ct		
+	16	dsg_rings_gfx_5__41_output_ct				16	dsg_rings_ane__41_output_ct		
+	16	dsg_rings_gfx_5__42_output_ct				16	dsg_rings_ane__42_output_ct		
+	16	dsg_rings_gfx_5__43_output_ct				16	dsg_rings_ane__43_output_ct		
+	16	dsg_rings_gfx_5__44_output_ct				16	dsg_rings_ane__44_output_ct		
+	16	dsg_rings_gfx_5__45_output_ct				16	dsg_rings_ane__45_output_ct		
+	16	dsg_rings_gfx_5__46_output_ct				16	dsg_rings_ane__46_output_ct		
+	16	dsg_rings_gfx_5__47_output_ct				16	dsg_rings_ane__47_output_ct		
+	16	dsg_rings_gfx_6__0_output_ct							
+	16	dsg_rings_gfx_6__1_output_ct							
+	16	dsg_rings_gfx_6__2_output_ct							
+	16	dsg_rings_gfx_6__3_output_ct							
+	16	dsg_rings_gfx_6__4_output_ct							
+	16	dsg_rings_gfx_6__5_output_ct							
+	16	dsg_rings_gfx_6__6_output_ct							
+	16	dsg_rings_gfx_6__7_output_ct							
+	16	dsg_rings_gfx_6__8_output_ct							
+	16	dsg_rings_gfx_6__9_output_ct							
+	16	dsg_rings_gfx_6__10_output_ct							
+	16	dsg_rings_gfx_6__11_output_ct							
+	16	dsg_rings_gfx_6__12_output_ct							
+	16	dsg_rings_gfx_6__13_output_ct							
+	16	dsg_rings_gfx_6__14_output_ct							
+	16	dsg_rings_gfx_6__15_output_ct							
+	16	dsg_rings_gfx_6__16_output_ct							
+	16	dsg_rings_gfx_6__17_output_ct							
+	16	dsg_rings_gfx_6__18_output_ct							
+	16	dsg_rings_gfx_6__19_output_ct							
+	16	dsg_rings_gfx_6__20_output_ct							
+	16	dsg_rings_gfx_6__21_output_ct							
+	16	dsg_rings_gfx_6__22_output_ct							
+	16	dsg_rings_gfx_6__23_output_ct							
+	16	dsg_rings_gfx_6__24_output_ct							
+	16	dsg_rings_gfx_6__25_output_ct							
+	16	dsg_rings_gfx_6__26_output_ct							
+	16	dsg_rings_gfx_6__27_output_ct							
+	16	dsg_rings_gfx_6__28_output_ct							
+	16	dsg_rings_gfx_6__29_output_ct							
+	16	dsg_rings_gfx_6__30_output_ct							
+	16	dsg_rings_gfx_6__31_output_ct							
+	16	dsg_rings_gfx_6__32_output_ct							
+	16	dsg_rings_gfx_6__33_output_ct							
+	16	dsg_rings_gfx_6__34_output_ct							
+	16	dsg_rings_gfx_6__35_output_ct							
+	16	dsg_rings_gfx_6__36_output_ct							
+	16	dsg_rings_gfx_6__37_output_ct							
+	16	dsg_rings_gfx_6__38_output_ct							
+	16	dsg_rings_gfx_6__39_output_ct							
+	16	dsg_rings_gfx_6__40_output_ct							
+	16	dsg_rings_gfx_6__41_output_ct							
+	16	dsg_rings_gfx_6__42_output_ct							
+	16	dsg_rings_gfx_6__43_output_ct							
+	16	dsg_rings_gfx_6__44_output_ct							
+	16	dsg_rings_gfx_6__45_output_ct							
+	16	dsg_rings_gfx_6__46_output_ct							
+	16	dsg_rings_gfx_6__47_output_ct							
+	16	dsg_rings_gfx_7__0_output_ct							
+	16	dsg_rings_gfx_7__1_output_ct							
+	16	dsg_rings_gfx_7__2_output_ct							
+	16	dsg_rings_gfx_7__3_output_ct							
+	16	dsg_rings_gfx_7__4_output_ct							
+	16	dsg_rings_gfx_7__5_output_ct							
+	16	dsg_rings_gfx_7__6_output_ct							
+	16	dsg_rings_gfx_7__7_output_ct							
+	16	dsg_rings_gfx_7__8_output_ct							
+	16	dsg_rings_gfx_7__9_output_ct							
+	16	dsg_rings_gfx_7__10_output_ct							
+	16	dsg_rings_gfx_7__11_output_ct							
+	16	dsg_rings_gfx_7__12_output_ct							
+	16	dsg_rings_gfx_7__13_output_ct							
+	16	dsg_rings_gfx_7__14_output_ct							
+	16	dsg_rings_gfx_7__15_output_ct							
+	16	dsg_rings_gfx_7__16_output_ct							
+	16	dsg_rings_gfx_7__17_output_ct							
+	16	dsg_rings_gfx_7__18_output_ct							
+	16	dsg_rings_gfx_7__19_output_ct							
+	16	dsg_rings_gfx_7__20_output_ct							
+	16	dsg_rings_gfx_7__21_output_ct							
+	16	dsg_rings_gfx_7__22_output_ct							
+	16	dsg_rings_gfx_7__23_output_ct							
+	16	dsg_rings_gfx_7__24_output_ct							
+	16	dsg_rings_gfx_7__25_output_ct							
+	16	dsg_rings_gfx_7__26_output_ct							
+	16	dsg_rings_gfx_7__27_output_ct							
+	16	dsg_rings_gfx_7__28_output_ct							
+	16	dsg_rings_gfx_7__29_output_ct							
+	16	dsg_rings_gfx_7__30_output_ct							
+	16	dsg_rings_gfx_7__31_output_ct							
+	16	dsg_rings_gfx_7__32_output_ct							
+	16	dsg_rings_gfx_7__33_output_ct							
+	16	dsg_rings_gfx_7__34_output_ct							
+	16	dsg_rings_gfx_7__35_output_ct							
+	16	dsg_rings_gfx_7__36_output_ct							
+	16	dsg_rings_gfx_7__37_output_ct							
+	16	dsg_rings_gfx_7__38_output_ct							
+	16	dsg_rings_gfx_7__39_output_ct							
+	16	dsg_rings_gfx_7__40_output_ct							
+	16	dsg_rings_gfx_7__41_output_ct							
+	16	dsg_rings_gfx_7__42_output_ct							
+	16	dsg_rings_gfx_7__43_output_ct							
+	16	dsg_rings_gfx_7__44_output_ct							
+	16	dsg_rings_gfx_7__45_output_ct							
+	16	dsg_rings_gfx_7__46_output_ct							
+	16	dsg_rings_gfx_7__47_output_ct							
+	16	dsg_rings_gfx_8__0_output_ct							
+	16	dsg_rings_gfx_8__1_output_ct							
+	16	dsg_rings_gfx_8__2_output_ct							
+	16	dsg_rings_gfx_8__3_output_ct							
+	16	dsg_rings_gfx_8__4_output_ct							
+	16	dsg_rings_gfx_8__5_output_ct							
+	16	dsg_rings_gfx_8__6_output_ct							
+	16	dsg_rings_gfx_8__7_output_ct							
+	16	dsg_rings_gfx_8__8_output_ct							
+	16	dsg_rings_gfx_8__9_output_ct							
+	16	dsg_rings_gfx_8__10_output_ct							
+	16	dsg_rings_gfx_8__11_output_ct							
+	16	dsg_rings_gfx_8__12_output_ct							
+	16	dsg_rings_gfx_8__13_output_ct							
+	16	dsg_rings_gfx_8__14_output_ct							
+	16	dsg_rings_gfx_8__15_output_ct							
+	16	dsg_rings_gfx_8__16_output_ct							
+	16	dsg_rings_gfx_8__17_output_ct							
+	16	dsg_rings_gfx_8__18_output_ct							
+	16	dsg_rings_gfx_8__19_output_ct							
+	16	dsg_rings_gfx_8__20_output_ct							
+	16	dsg_rings_gfx_8__21_output_ct							
+	16	dsg_rings_gfx_8__22_output_ct							
+	16	dsg_rings_gfx_8__23_output_ct							
+	16	dsg_rings_gfx_8__24_output_ct							
+	16	dsg_rings_gfx_8__25_output_ct							
+	16	dsg_rings_gfx_8__26_output_ct							
+	16	dsg_rings_gfx_8__27_output_ct							
+	16	dsg_rings_gfx_8__28_output_ct							
+	16	dsg_rings_gfx_8__29_output_ct							
+	16	dsg_rings_gfx_8__30_output_ct							
+	16	dsg_rings_gfx_8__31_output_ct							
+	16	dsg_rings_gfx_8__32_output_ct							
+	16	dsg_rings_gfx_8__33_output_ct							
+	16	dsg_rings_gfx_8__34_output_ct							
+	16	dsg_rings_gfx_8__35_output_ct							
+	16	dsg_rings_gfx_8__36_output_ct							
+	16	dsg_rings_gfx_8__37_output_ct							
+	16	dsg_rings_gfx_8__38_output_ct							
+	16	dsg_rings_gfx_8__39_output_ct							
+	16	dsg_rings_gfx_8__40_output_ct							
+	16	dsg_rings_gfx_8__41_output_ct							
+	16	dsg_rings_gfx_8__42_output_ct							
+	16	dsg_rings_gfx_8__43_output_ct							
+	16	dsg_rings_gfx_8__44_output_ct							
+	16	dsg_rings_gfx_8__45_output_ct							
+	16	dsg_rings_gfx_8__46_output_ct							
+	16	dsg_rings_gfx_8__47_output_ct							
+	16	dsg_rings_gfx_9__0_output_ct							
+	16	dsg_rings_gfx_9__1_output_ct							
+	16	dsg_rings_gfx_9__2_output_ct							
+	16	dsg_rings_gfx_9__3_output_ct							
+	16	dsg_rings_gfx_9__4_output_ct							
+	16	dsg_rings_gfx_9__5_output_ct							
+	16	dsg_rings_gfx_9__6_output_ct							
+	16	dsg_rings_gfx_9__7_output_ct							
+	16	dsg_rings_gfx_9__8_output_ct							
+	16	dsg_rings_gfx_9__9_output_ct							
+	16	dsg_rings_gfx_9__10_output_ct							
+	16	dsg_rings_gfx_9__11_output_ct							
+	16	dsg_rings_gfx_9__12_output_ct							
+	16	dsg_rings_gfx_9__13_output_ct							
+	16	dsg_rings_gfx_9__14_output_ct							
+	16	dsg_rings_gfx_9__15_output_ct							
+	16	dsg_rings_gfx_9__16_output_ct							
+	16	dsg_rings_gfx_9__17_output_ct							
+	16	dsg_rings_gfx_9__18_output_ct							
+	16	dsg_rings_gfx_9__19_output_ct							
+	16	dsg_rings_gfx_9__20_output_ct							
+	16	dsg_rings_gfx_9__21_output_ct							
+	16	dsg_rings_gfx_9__22_output_ct							
+	16	dsg_rings_gfx_9__23_output_ct							
+	16	dsg_rings_gfx_9__24_output_ct							
+	16	dsg_rings_gfx_9__25_output_ct							
+	16	dsg_rings_gfx_9__26_output_ct							
+	16	dsg_rings_gfx_9__27_output_ct							
+	16	dsg_rings_gfx_9__28_output_ct							
+	16	dsg_rings_gfx_9__29_output_ct							
+	16	dsg_rings_gfx_9__30_output_ct							
+	16	dsg_rings_gfx_9__31_output_ct							
+	16	dsg_rings_gfx_9__32_output_ct							
+	16	dsg_rings_gfx_9__33_output_ct							
+	16	dsg_rings_gfx_9__34_output_ct							
+	16	dsg_rings_gfx_9__35_output_ct							
+	16	dsg_rings_gfx_9__36_output_ct							
+	16	dsg_rings_gfx_9__37_output_ct							
+	16	dsg_rings_gfx_9__38_output_ct							
+	16	dsg_rings_gfx_9__39_output_ct							
+	16	dsg_rings_gfx_9__40_output_ct							
+	16	dsg_rings_gfx_9__41_output_ct							
+	16	dsg_rings_gfx_9__42_output_ct							
+	16	dsg_rings_gfx_9__43_output_ct							
+	16	dsg_rings_gfx_9__44_output_ct							
+	16	dsg_rings_gfx_9__45_output_ct							
+	16	dsg_rings_gfx_9__46_output_ct							
+	16	dsg_rings_gfx_9__47_output_ct							
+	16	dsg_rings_gfx_10__0_output_ct							
+	16	dsg_rings_gfx_10__1_output_ct							
+	16	dsg_rings_gfx_10__2_output_ct							
+	16	dsg_rings_gfx_10__3_output_ct							
+	16	dsg_rings_gfx_10__4_output_ct							
+	16	dsg_rings_gfx_10__5_output_ct							
+	16	dsg_rings_gfx_10__6_output_ct							
+	16	dsg_rings_gfx_10__7_output_ct							
+	16	dsg_rings_gfx_10__8_output_ct							
+	16	dsg_rings_gfx_10__9_output_ct							
+	16	dsg_rings_gfx_10__10_output_ct							
+	16	dsg_rings_gfx_10__11_output_ct							
+	16	dsg_rings_gfx_10__12_output_ct							
+	16	dsg_rings_gfx_10__13_output_ct							
+	16	dsg_rings_gfx_10__14_output_ct							
+	16	dsg_rings_gfx_10__15_output_ct							
+	16	dsg_rings_gfx_10__16_output_ct							
+	16	dsg_rings_gfx_10__17_output_ct							
+	16	dsg_rings_gfx_10__18_output_ct							
+	16	dsg_rings_gfx_10__19_output_ct							
+	16	dsg_rings_gfx_10__20_output_ct							
+	16	dsg_rings_gfx_10__21_output_ct							
+	16	dsg_rings_gfx_10__22_output_ct							
+	16	dsg_rings_gfx_10__23_output_ct							
+	16	dsg_rings_gfx_10__24_output_ct							
+	16	dsg_rings_gfx_10__25_output_ct							
+	16	dsg_rings_gfx_10__26_output_ct							
+	16	dsg_rings_gfx_10__27_output_ct							
+	16	dsg_rings_gfx_10__28_output_ct							
+	16	dsg_rings_gfx_10__29_output_ct							
+	16	dsg_rings_gfx_10__30_output_ct							
+	16	dsg_rings_gfx_10__31_output_ct							
+	16	dsg_rings_gfx_10__32_output_ct							
+	16	dsg_rings_gfx_10__33_output_ct							
+	16	dsg_rings_gfx_10__34_output_ct							
+	16	dsg_rings_gfx_10__35_output_ct							
+	16	dsg_rings_gfx_10__36_output_ct							
+	16	dsg_rings_gfx_10__37_output_ct							
+	16	dsg_rings_gfx_10__38_output_ct							
+	16	dsg_rings_gfx_10__39_output_ct							
+	16	dsg_rings_gfx_10__40_output_ct							
+	16	dsg_rings_gfx_10__41_output_ct							
+	16	dsg_rings_gfx_10__42_output_ct							
+	16	dsg_rings_gfx_10__43_output_ct							
+	16	dsg_rings_gfx_10__44_output_ct							
+	16	dsg_rings_gfx_10__45_output_ct							
+	16	dsg_rings_gfx_10__46_output_ct							
+	16	dsg_rings_gfx_10__47_output_ct							
+	16	dsg_rings_gfx_11__0_output_ct							
+	16	dsg_rings_gfx_11__1_output_ct							
+	16	dsg_rings_gfx_11__2_output_ct							
+	16	dsg_rings_gfx_11__3_output_ct							
+	16	dsg_rings_gfx_11__4_output_ct							
+	16	dsg_rings_gfx_11__5_output_ct							
+	16	dsg_rings_gfx_11__6_output_ct							
+	16	dsg_rings_gfx_11__7_output_ct							
+	16	dsg_rings_gfx_11__8_output_ct							
+	16	dsg_rings_gfx_11__9_output_ct							
+	16	dsg_rings_gfx_11__10_output_ct							
+	16	dsg_rings_gfx_11__11_output_ct							
+	16	dsg_rings_gfx_11__12_output_ct							
+	16	dsg_rings_gfx_11__13_output_ct							
+	16	dsg_rings_gfx_11__14_output_ct							
+	16	dsg_rings_gfx_11__15_output_ct							
+	16	dsg_rings_gfx_11__16_output_ct							
+	16	dsg_rings_gfx_11__17_output_ct							
+	16	dsg_rings_gfx_11__18_output_ct							
+	16	dsg_rings_gfx_11__19_output_ct							
+	16	dsg_rings_gfx_11__20_output_ct							
+	16	dsg_rings_gfx_11__21_output_ct							
+	16	dsg_rings_gfx_11__22_output_ct							
+	16	dsg_rings_gfx_11__23_output_ct							
+	16	dsg_rings_gfx_11__24_output_ct							
+	16	dsg_rings_gfx_11__25_output_ct							
+	16	dsg_rings_gfx_11__26_output_ct							
+	16	dsg_rings_gfx_11__27_output_ct							
+	16	dsg_rings_gfx_11__28_output_ct							
+	16	dsg_rings_gfx_11__29_output_ct							
+	16	dsg_rings_gfx_11__30_output_ct							
+	16	dsg_rings_gfx_11__31_output_ct							
+	16	dsg_rings_gfx_11__32_output_ct							
+	16	dsg_rings_gfx_11__33_output_ct							
+	16	dsg_rings_gfx_11__34_output_ct							
+	16	dsg_rings_gfx_11__35_output_ct							
+	16	dsg_rings_gfx_11__36_output_ct							
+	16	dsg_rings_gfx_11__37_output_ct							
+	16	dsg_rings_gfx_11__38_output_ct							
+	16	dsg_rings_gfx_11__39_output_ct							
+	16	dsg_rings_gfx_11__40_output_ct							
+	16	dsg_rings_gfx_11__41_output_ct							
+	16	dsg_rings_gfx_11__42_output_ct							
+	16	dsg_rings_gfx_11__43_output_ct							
+	16	dsg_rings_gfx_11__44_output_ct							
+	16	dsg_rings_gfx_11__45_output_ct							
+	16	dsg_rings_gfx_11__46_output_ct							
+	16	dsg_rings_gfx_11__47_output_ct							
+									

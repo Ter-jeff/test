@@ -1,0 +1,62 @@
+﻿<protocol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" description="UART" version="1.0" defaultName="UART" controller="Tester" validFamilies="">
+	<function name="UART_RX" group="" type="In" description="" />
+	<frame name="UART_Snd" description="write" type="Write" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">0</cycle>
+			<cycle repeat="0">0</cycle>
+			<cycle repeat="0">0</cycle>
+			<cycle repeat="0">D</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">D</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">D</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">D</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">D</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">D</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">D</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">D</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">.</cycle>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">1</cycle>
+			<cycle repeat="0">1</cycle>
+		</data>
+		<field name="Data_in" description="" length="0" variableLength="false">
+			<bit function="UART_RX" cycle="27" />
+			<bit function="UART_RX" cycle="24" />
+			<bit function="UART_RX" cycle="21" />
+			<bit function="UART_RX" cycle="18" />
+			<bit function="UART_RX" cycle="15" />
+			<bit function="UART_RX" cycle="12" />
+			<bit function="UART_RX" cycle="9" />
+			<bit function="UART_RX" cycle="6" />
+		</field>
+	</frame>
+	<frame name="Idle" description="" type="Idle" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="3">1</cycle>
+		</data>
+	</frame>
+	<layer_map has_hardware_layering="false" />
+</protocol>

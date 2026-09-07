@@ -1,0 +1,16 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	PowerDown_EVS		75600																													
+						Test	FreeRunClk_Disable_LP_CLK_UF		75700																													
+						Test	FreeRunClk_Disable_REFCLK_UF		75800																													
+						Test	FreeRunClk_Disable_MADI_TXCLK_IN_UF		75900																													
+						Test	FreeRunClk_Disable_SWD_TCK_OUT_UF		76000																													
+						Test	PowerUp_EVS		76100																													
+						Test	Relay_ON_Default		76200																													
+						Test	FreeRunClk_Enable_LP_CLK_UF		76300																													
+						Test	FreeRunClk_Enable_REFCLK_UF		76400																													
+						Test	FreeRunClk_Enable_MADI_TXCLK_IN_UF		76500																													
+						Test	FreeRunClk_Enable_SWD_TCK_OUT_UF		76600																													
+						Return																																

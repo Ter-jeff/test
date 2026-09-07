@@ -1,0 +1,288 @@
+CUS_Str_DigCapData					CUS_Str_DigCapData					CUS_Str_DigCapData					CUS_Str_DigCapData				
+SubBlockName	Bits	SgmName	DicName		SubBlockName	Bits	SgmName	DicName		SubBlockName	Bits	SgmName	DicName		SubBlockName	Bits	SgmName	DicName	
+CIOCIOPLL_CIOPLLT1P1U	DSSC_OUT				CIOCIOPLL_CIOPLLT1P2C80	DSSC_OUT				CIOCIOPLL_MNCIOPLLT1P1U	DSSC_OUT				CIOCIOPLL_MNCIOPLLT1P2C80	DSSC_OUT			
+	16	cio0_ciopll__FCOUNT_Coarse0				16	cio0_ciopll__FCOUNT_Coarse0				4	cio0_ciopll__Monitor_MC_FD				4	cio0_ciopll__Monitor_MC_FD		
+	16	cio1_ciopll__FCOUNT_Coarse0				16	cio1_ciopll__FCOUNT_Coarse0				4	cio1_ciopll__Monitor_MC_FD				4	cio1_ciopll__Monitor_MC_FD		
+	16	cio2_ciopll__FCOUNT_Coarse0				16	cio2_ciopll__FCOUNT_Coarse0				4	cio2_ciopll__Monitor_MC_FD				4	cio2_ciopll__Monitor_MC_FD		
+	16	cio3_ciopll__FCOUNT_Coarse0				16	cio3_ciopll__FCOUNT_Coarse0				4	cio3_ciopll__Monitor_MC_FD				4	cio3_ciopll__Monitor_MC_FD		
+	16	cio0_ciopll__FCOUNT_Coarse1				16	cio0_ciopll__FCOUNT_Coarse1				3	cio0_ciopll__Monitor_MC_PS				3	cio0_ciopll__Monitor_MC_PS		
+	16	cio1_ciopll__FCOUNT_Coarse1				16	cio1_ciopll__FCOUNT_Coarse1				3	cio1_ciopll__Monitor_MC_PS				3	cio1_ciopll__Monitor_MC_PS		
+	16	cio2_ciopll__FCOUNT_Coarse1				16	cio2_ciopll__FCOUNT_Coarse1				3	cio2_ciopll__Monitor_MC_PS				3	cio2_ciopll__Monitor_MC_PS		
+	16	cio3_ciopll__FCOUNT_Coarse1				16	cio3_ciopll__FCOUNT_Coarse1				3	cio3_ciopll__Monitor_MC_PS				3	cio3_ciopll__Monitor_MC_PS		
+	16	cio0_ciopll__FCOUNT_Coarse2				16	cio0_ciopll__FCOUNT_Coarse2				5	cio0_ciopll__Monitor_VREF_VREG_STATE				5	cio0_ciopll__Monitor_VREF_VREG_STATE		
+	16	cio1_ciopll__FCOUNT_Coarse2				16	cio1_ciopll__FCOUNT_Coarse2				5	cio1_ciopll__Monitor_VREF_VREG_STATE				5	cio1_ciopll__Monitor_VREF_VREG_STATE		
+	16	cio2_ciopll__FCOUNT_Coarse2				16	cio2_ciopll__FCOUNT_Coarse2				5	cio2_ciopll__Monitor_VREF_VREG_STATE				5	cio2_ciopll__Monitor_VREF_VREG_STATE		
+	16	cio3_ciopll__FCOUNT_Coarse2				16	cio3_ciopll__FCOUNT_Coarse2				5	cio3_ciopll__Monitor_VREF_VREG_STATE				5	cio3_ciopll__Monitor_VREF_VREG_STATE		
+	16	cio0_ciopll__FCOUNT_Coarse3				16	cio0_ciopll__FCOUNT_Coarse3				3	cio0_ciopll__Monitor_CHAR_STATE				3	cio0_ciopll__Monitor_CHAR_STATE		
+	16	cio1_ciopll__FCOUNT_Coarse3				16	cio1_ciopll__FCOUNT_Coarse3				3	cio1_ciopll__Monitor_CHAR_STATE				3	cio1_ciopll__Monitor_CHAR_STATE		
+	16	cio2_ciopll__FCOUNT_Coarse3				16	cio2_ciopll__FCOUNT_Coarse3				3	cio2_ciopll__Monitor_CHAR_STATE				3	cio2_ciopll__Monitor_CHAR_STATE		
+	16	cio3_ciopll__FCOUNT_Coarse3				16	cio3_ciopll__FCOUNT_Coarse3				3	cio3_ciopll__Monitor_CHAR_STATE				3	cio3_ciopll__Monitor_CHAR_STATE		
+	16	cio0_ciopll__FCOUNT_Coarse4				16	cio0_ciopll__FCOUNT_Coarse4				3	cio0_ciopll__Monitor_CORE_FSM_STATE				3	cio0_ciopll__Monitor_CORE_FSM_STATE		
+	16	cio1_ciopll__FCOUNT_Coarse4				16	cio1_ciopll__FCOUNT_Coarse4				3	cio1_ciopll__Monitor_CORE_FSM_STATE				3	cio1_ciopll__Monitor_CORE_FSM_STATE		
+	16	cio2_ciopll__FCOUNT_Coarse4				16	cio2_ciopll__FCOUNT_Coarse4				3	cio2_ciopll__Monitor_CORE_FSM_STATE				3	cio2_ciopll__Monitor_CORE_FSM_STATE		
+	16	cio3_ciopll__FCOUNT_Coarse4				16	cio3_ciopll__FCOUNT_Coarse4				3	cio3_ciopll__Monitor_CORE_FSM_STATE				3	cio3_ciopll__Monitor_CORE_FSM_STATE		
+	16	cio0_ciopll__FCOUNT_Coarse5				16	cio0_ciopll__FCOUNT_Coarse5				18	cio0_ciopll__Monitor_COUNT_SUM_DELTA				18	cio0_ciopll__Monitor_COUNT_SUM_DELTA		
+	16	cio1_ciopll__FCOUNT_Coarse5				16	cio1_ciopll__FCOUNT_Coarse5				18	cio1_ciopll__Monitor_COUNT_SUM_DELTA				18	cio1_ciopll__Monitor_COUNT_SUM_DELTA		
+	16	cio2_ciopll__FCOUNT_Coarse5				16	cio2_ciopll__FCOUNT_Coarse5				18	cio2_ciopll__Monitor_COUNT_SUM_DELTA				18	cio2_ciopll__Monitor_COUNT_SUM_DELTA		
+	16	cio3_ciopll__FCOUNT_Coarse5				16	cio3_ciopll__FCOUNT_Coarse5				18	cio3_ciopll__Monitor_COUNT_SUM_DELTA				18	cio3_ciopll__Monitor_COUNT_SUM_DELTA		
+	16	cio0_ciopll__FCOUNT_Coarse6				16	cio0_ciopll__FCOUNT_Coarse6				32	cio0_ciopll__Monitor_PLL_STATUS				32	cio0_ciopll__Monitor_PLL_STATUS		
+	16	cio1_ciopll__FCOUNT_Coarse6				16	cio1_ciopll__FCOUNT_Coarse6				32	cio1_ciopll__Monitor_PLL_STATUS				32	cio1_ciopll__Monitor_PLL_STATUS		
+	16	cio2_ciopll__FCOUNT_Coarse6				16	cio2_ciopll__FCOUNT_Coarse6				32	cio2_ciopll__Monitor_PLL_STATUS				32	cio2_ciopll__Monitor_PLL_STATUS		
+	16	cio3_ciopll__FCOUNT_Coarse6				16	cio3_ciopll__FCOUNT_Coarse6				32	cio3_ciopll__Monitor_PLL_STATUS				32	cio3_ciopll__Monitor_PLL_STATUS		
+	16	cio0_ciopll__FCOUNT_Coarse7				16	cio0_ciopll__FCOUNT_Coarse7				16	cio0_ciopll__FCOUNT_Coarse0				16	cio0_ciopll__FCOUNT_Coarse0		
+	16	cio1_ciopll__FCOUNT_Coarse7				16	cio1_ciopll__FCOUNT_Coarse7				16	cio1_ciopll__FCOUNT_Coarse0				16	cio1_ciopll__FCOUNT_Coarse0		
+	16	cio2_ciopll__FCOUNT_Coarse7				16	cio2_ciopll__FCOUNT_Coarse7				16	cio2_ciopll__FCOUNT_Coarse0				16	cio2_ciopll__FCOUNT_Coarse0		
+	16	cio3_ciopll__FCOUNT_Coarse7				16	cio3_ciopll__FCOUNT_Coarse7				16	cio3_ciopll__FCOUNT_Coarse0				16	cio3_ciopll__FCOUNT_Coarse0		
+	16	cio0_ciopll__FCOUNT_Coarse8				16	cio0_ciopll__FCOUNT_Coarse8				16	cio0_ciopll__FCOUNT_Coarse1				16	cio0_ciopll__FCOUNT_Coarse1		
+	16	cio1_ciopll__FCOUNT_Coarse8				16	cio1_ciopll__FCOUNT_Coarse8				16	cio1_ciopll__FCOUNT_Coarse1				16	cio1_ciopll__FCOUNT_Coarse1		
+	16	cio2_ciopll__FCOUNT_Coarse8				16	cio2_ciopll__FCOUNT_Coarse8				16	cio2_ciopll__FCOUNT_Coarse1				16	cio2_ciopll__FCOUNT_Coarse1		
+	16	cio3_ciopll__FCOUNT_Coarse8				16	cio3_ciopll__FCOUNT_Coarse8				16	cio3_ciopll__FCOUNT_Coarse1				16	cio3_ciopll__FCOUNT_Coarse1		
+	16	cio0_ciopll__FCOUNT_Coarse9				16	cio0_ciopll__FCOUNT_Coarse9				16	cio0_ciopll__FCOUNT_Coarse2				16	cio0_ciopll__FCOUNT_Coarse2		
+	16	cio1_ciopll__FCOUNT_Coarse9				16	cio1_ciopll__FCOUNT_Coarse9				16	cio1_ciopll__FCOUNT_Coarse2				16	cio1_ciopll__FCOUNT_Coarse2		
+	16	cio2_ciopll__FCOUNT_Coarse9				16	cio2_ciopll__FCOUNT_Coarse9				16	cio2_ciopll__FCOUNT_Coarse2				16	cio2_ciopll__FCOUNT_Coarse2		
+	16	cio3_ciopll__FCOUNT_Coarse9				16	cio3_ciopll__FCOUNT_Coarse9				16	cio3_ciopll__FCOUNT_Coarse2				16	cio3_ciopll__FCOUNT_Coarse2		
+	16	cio0_ciopll__FCOUNT_Coarse10				16	cio0_ciopll__FCOUNT_Coarse10				16	cio0_ciopll__FCOUNT_Coarse3				16	cio0_ciopll__FCOUNT_Coarse3		
+	16	cio1_ciopll__FCOUNT_Coarse10				16	cio1_ciopll__FCOUNT_Coarse10				16	cio1_ciopll__FCOUNT_Coarse3				16	cio1_ciopll__FCOUNT_Coarse3		
+	16	cio2_ciopll__FCOUNT_Coarse10				16	cio2_ciopll__FCOUNT_Coarse10				16	cio2_ciopll__FCOUNT_Coarse3				16	cio2_ciopll__FCOUNT_Coarse3		
+	16	cio3_ciopll__FCOUNT_Coarse10				16	cio3_ciopll__FCOUNT_Coarse10				16	cio3_ciopll__FCOUNT_Coarse3				16	cio3_ciopll__FCOUNT_Coarse3		
+	16	cio0_ciopll__FCOUNT_Coarse11				16	cio0_ciopll__FCOUNT_Coarse11				16	cio0_ciopll__FCOUNT_Coarse4				16	cio0_ciopll__FCOUNT_Coarse4		
+	16	cio1_ciopll__FCOUNT_Coarse11				16	cio1_ciopll__FCOUNT_Coarse11				16	cio1_ciopll__FCOUNT_Coarse4				16	cio1_ciopll__FCOUNT_Coarse4		
+	16	cio2_ciopll__FCOUNT_Coarse11				16	cio2_ciopll__FCOUNT_Coarse11				16	cio2_ciopll__FCOUNT_Coarse4				16	cio2_ciopll__FCOUNT_Coarse4		
+	16	cio3_ciopll__FCOUNT_Coarse11				16	cio3_ciopll__FCOUNT_Coarse11				16	cio3_ciopll__FCOUNT_Coarse4				16	cio3_ciopll__FCOUNT_Coarse4		
+	16	cio0_ciopll__FCOUNT_Coarse12				16	cio0_ciopll__FCOUNT_Coarse12				16	cio0_ciopll__FCOUNT_Coarse5				16	cio0_ciopll__FCOUNT_Coarse5		
+	16	cio1_ciopll__FCOUNT_Coarse12				16	cio1_ciopll__FCOUNT_Coarse12				16	cio1_ciopll__FCOUNT_Coarse5				16	cio1_ciopll__FCOUNT_Coarse5		
+	16	cio2_ciopll__FCOUNT_Coarse12				16	cio2_ciopll__FCOUNT_Coarse12				16	cio2_ciopll__FCOUNT_Coarse5				16	cio2_ciopll__FCOUNT_Coarse5		
+	16	cio3_ciopll__FCOUNT_Coarse12				16	cio3_ciopll__FCOUNT_Coarse12				16	cio3_ciopll__FCOUNT_Coarse5				16	cio3_ciopll__FCOUNT_Coarse5		
+	16	cio0_ciopll__FCOUNT_Coarse13				16	cio0_ciopll__FCOUNT_Coarse13				16	cio0_ciopll__FCOUNT_Coarse6				16	cio0_ciopll__FCOUNT_Coarse6		
+	16	cio1_ciopll__FCOUNT_Coarse13				16	cio1_ciopll__FCOUNT_Coarse13				16	cio1_ciopll__FCOUNT_Coarse6				16	cio1_ciopll__FCOUNT_Coarse6		
+	16	cio2_ciopll__FCOUNT_Coarse13				16	cio2_ciopll__FCOUNT_Coarse13				16	cio2_ciopll__FCOUNT_Coarse6				16	cio2_ciopll__FCOUNT_Coarse6		
+	16	cio3_ciopll__FCOUNT_Coarse13				16	cio3_ciopll__FCOUNT_Coarse13				16	cio3_ciopll__FCOUNT_Coarse6				16	cio3_ciopll__FCOUNT_Coarse6		
+	16	cio0_ciopll__FCOUNT_Coarse14				16	cio0_ciopll__FCOUNT_Coarse14				16	cio0_ciopll__FCOUNT_Coarse7				16	cio0_ciopll__FCOUNT_Coarse7		
+	16	cio1_ciopll__FCOUNT_Coarse14				16	cio1_ciopll__FCOUNT_Coarse14				16	cio1_ciopll__FCOUNT_Coarse7				16	cio1_ciopll__FCOUNT_Coarse7		
+	16	cio2_ciopll__FCOUNT_Coarse14				16	cio2_ciopll__FCOUNT_Coarse14				16	cio2_ciopll__FCOUNT_Coarse7				16	cio2_ciopll__FCOUNT_Coarse7		
+	16	cio3_ciopll__FCOUNT_Coarse14				16	cio3_ciopll__FCOUNT_Coarse14				16	cio3_ciopll__FCOUNT_Coarse7				16	cio3_ciopll__FCOUNT_Coarse7		
+	16	cio0_ciopll__FCOUNT_Coarse15				16	cio0_ciopll__FCOUNT_Coarse15				16	cio0_ciopll__FCOUNT_Coarse8				16	cio0_ciopll__FCOUNT_Coarse8		
+	16	cio1_ciopll__FCOUNT_Coarse15				16	cio1_ciopll__FCOUNT_Coarse15				16	cio1_ciopll__FCOUNT_Coarse8				16	cio1_ciopll__FCOUNT_Coarse8		
+	16	cio2_ciopll__FCOUNT_Coarse15				16	cio2_ciopll__FCOUNT_Coarse15				16	cio2_ciopll__FCOUNT_Coarse8				16	cio2_ciopll__FCOUNT_Coarse8		
+	16	cio3_ciopll__FCOUNT_Coarse15				16	cio3_ciopll__FCOUNT_Coarse15				16	cio3_ciopll__FCOUNT_Coarse8				16	cio3_ciopll__FCOUNT_Coarse8		
+	16	cio0_ciopll__FCOUNT_Coarse16				16	cio0_ciopll__FCOUNT_Coarse16				16	cio0_ciopll__FCOUNT_Coarse9				16	cio0_ciopll__FCOUNT_Coarse9		
+	16	cio1_ciopll__FCOUNT_Coarse16				16	cio1_ciopll__FCOUNT_Coarse16				16	cio1_ciopll__FCOUNT_Coarse9				16	cio1_ciopll__FCOUNT_Coarse9		
+	16	cio2_ciopll__FCOUNT_Coarse16				16	cio2_ciopll__FCOUNT_Coarse16				16	cio2_ciopll__FCOUNT_Coarse9				16	cio2_ciopll__FCOUNT_Coarse9		
+	16	cio3_ciopll__FCOUNT_Coarse16				16	cio3_ciopll__FCOUNT_Coarse16				16	cio3_ciopll__FCOUNT_Coarse9				16	cio3_ciopll__FCOUNT_Coarse9		
+	16	cio0_ciopll__FCOUNT_Coarse17				16	cio0_ciopll__FCOUNT_Coarse17				16	cio0_ciopll__FCOUNT_Coarse10				16	cio0_ciopll__FCOUNT_Coarse10		
+	16	cio1_ciopll__FCOUNT_Coarse17				16	cio1_ciopll__FCOUNT_Coarse17				16	cio1_ciopll__FCOUNT_Coarse10				16	cio1_ciopll__FCOUNT_Coarse10		
+	16	cio2_ciopll__FCOUNT_Coarse17				16	cio2_ciopll__FCOUNT_Coarse17				16	cio2_ciopll__FCOUNT_Coarse10				16	cio2_ciopll__FCOUNT_Coarse10		
+	16	cio3_ciopll__FCOUNT_Coarse17				16	cio3_ciopll__FCOUNT_Coarse17				16	cio3_ciopll__FCOUNT_Coarse10				16	cio3_ciopll__FCOUNT_Coarse10		
+	16	cio0_ciopll__FCOUNT_Coarse18				16	cio0_ciopll__FCOUNT_Coarse18				16	cio0_ciopll__FCOUNT_Coarse11				16	cio0_ciopll__FCOUNT_Coarse11		
+	16	cio1_ciopll__FCOUNT_Coarse18				16	cio1_ciopll__FCOUNT_Coarse18				16	cio1_ciopll__FCOUNT_Coarse11				16	cio1_ciopll__FCOUNT_Coarse11		
+	16	cio2_ciopll__FCOUNT_Coarse18				16	cio2_ciopll__FCOUNT_Coarse18				16	cio2_ciopll__FCOUNT_Coarse11				16	cio2_ciopll__FCOUNT_Coarse11		
+	16	cio3_ciopll__FCOUNT_Coarse18				16	cio3_ciopll__FCOUNT_Coarse18				16	cio3_ciopll__FCOUNT_Coarse11				16	cio3_ciopll__FCOUNT_Coarse11		
+	16	cio0_ciopll__FCOUNT_Coarse19				16	cio0_ciopll__FCOUNT_Coarse19				16	cio0_ciopll__FCOUNT_Coarse12				16	cio0_ciopll__FCOUNT_Coarse12		
+	16	cio1_ciopll__FCOUNT_Coarse19				16	cio1_ciopll__FCOUNT_Coarse19				16	cio1_ciopll__FCOUNT_Coarse12				16	cio1_ciopll__FCOUNT_Coarse12		
+	16	cio2_ciopll__FCOUNT_Coarse19				16	cio2_ciopll__FCOUNT_Coarse19				16	cio2_ciopll__FCOUNT_Coarse12				16	cio2_ciopll__FCOUNT_Coarse12		
+	16	cio3_ciopll__FCOUNT_Coarse19				16	cio3_ciopll__FCOUNT_Coarse19				16	cio3_ciopll__FCOUNT_Coarse12				16	cio3_ciopll__FCOUNT_Coarse12		
+	16	cio0_ciopll__FCOUNT_Coarse20				16	cio0_ciopll__FCOUNT_Coarse20				16	cio0_ciopll__FCOUNT_Coarse13				16	cio0_ciopll__FCOUNT_Coarse13		
+	16	cio1_ciopll__FCOUNT_Coarse20				16	cio1_ciopll__FCOUNT_Coarse20				16	cio1_ciopll__FCOUNT_Coarse13				16	cio1_ciopll__FCOUNT_Coarse13		
+	16	cio2_ciopll__FCOUNT_Coarse20				16	cio2_ciopll__FCOUNT_Coarse20				16	cio2_ciopll__FCOUNT_Coarse13				16	cio2_ciopll__FCOUNT_Coarse13		
+	16	cio3_ciopll__FCOUNT_Coarse20				16	cio3_ciopll__FCOUNT_Coarse20				16	cio3_ciopll__FCOUNT_Coarse13				16	cio3_ciopll__FCOUNT_Coarse13		
+	16	cio0_ciopll__FCOUNT_Coarse21				16	cio0_ciopll__FCOUNT_Coarse21				16	cio0_ciopll__FCOUNT_Coarse14				16	cio0_ciopll__FCOUNT_Coarse14		
+	16	cio1_ciopll__FCOUNT_Coarse21				16	cio1_ciopll__FCOUNT_Coarse21				16	cio1_ciopll__FCOUNT_Coarse14				16	cio1_ciopll__FCOUNT_Coarse14		
+	16	cio2_ciopll__FCOUNT_Coarse21				16	cio2_ciopll__FCOUNT_Coarse21				16	cio2_ciopll__FCOUNT_Coarse14				16	cio2_ciopll__FCOUNT_Coarse14		
+	16	cio3_ciopll__FCOUNT_Coarse21				16	cio3_ciopll__FCOUNT_Coarse21				16	cio3_ciopll__FCOUNT_Coarse14				16	cio3_ciopll__FCOUNT_Coarse14		
+	16	cio0_ciopll__FCOUNT_Coarse22				16	cio0_ciopll__FCOUNT_Coarse22				16	cio0_ciopll__FCOUNT_Coarse15				16	cio0_ciopll__FCOUNT_Coarse15		
+	16	cio1_ciopll__FCOUNT_Coarse22				16	cio1_ciopll__FCOUNT_Coarse22				16	cio1_ciopll__FCOUNT_Coarse15				16	cio1_ciopll__FCOUNT_Coarse15		
+	16	cio2_ciopll__FCOUNT_Coarse22				16	cio2_ciopll__FCOUNT_Coarse22				16	cio2_ciopll__FCOUNT_Coarse15				16	cio2_ciopll__FCOUNT_Coarse15		
+	16	cio3_ciopll__FCOUNT_Coarse22				16	cio3_ciopll__FCOUNT_Coarse22				16	cio3_ciopll__FCOUNT_Coarse15				16	cio3_ciopll__FCOUNT_Coarse15		
+	16	cio0_ciopll__FCOUNT_Coarse23				16	cio0_ciopll__FCOUNT_Coarse23				16	cio0_ciopll__FCOUNT_Coarse16				16	cio0_ciopll__FCOUNT_Coarse16		
+	16	cio1_ciopll__FCOUNT_Coarse23				16	cio1_ciopll__FCOUNT_Coarse23				16	cio1_ciopll__FCOUNT_Coarse16				16	cio1_ciopll__FCOUNT_Coarse16		
+	16	cio2_ciopll__FCOUNT_Coarse23				16	cio2_ciopll__FCOUNT_Coarse23				16	cio2_ciopll__FCOUNT_Coarse16				16	cio2_ciopll__FCOUNT_Coarse16		
+	16	cio3_ciopll__FCOUNT_Coarse23				16	cio3_ciopll__FCOUNT_Coarse23				16	cio3_ciopll__FCOUNT_Coarse16				16	cio3_ciopll__FCOUNT_Coarse16		
+	16	cio0_ciopll__FCOUNT_Coarse24				16	cio0_ciopll__FCOUNT_Coarse24				16	cio0_ciopll__FCOUNT_Coarse17				16	cio0_ciopll__FCOUNT_Coarse17		
+	16	cio1_ciopll__FCOUNT_Coarse24				16	cio1_ciopll__FCOUNT_Coarse24				16	cio1_ciopll__FCOUNT_Coarse17				16	cio1_ciopll__FCOUNT_Coarse17		
+	16	cio2_ciopll__FCOUNT_Coarse24				16	cio2_ciopll__FCOUNT_Coarse24				16	cio2_ciopll__FCOUNT_Coarse17				16	cio2_ciopll__FCOUNT_Coarse17		
+	16	cio3_ciopll__FCOUNT_Coarse24				16	cio3_ciopll__FCOUNT_Coarse24				16	cio3_ciopll__FCOUNT_Coarse17				16	cio3_ciopll__FCOUNT_Coarse17		
+	16	cio0_ciopll__FCOUNT_Coarse25				16	cio0_ciopll__FCOUNT_Coarse25				16	cio0_ciopll__FCOUNT_Coarse18				16	cio0_ciopll__FCOUNT_Coarse18		
+	16	cio1_ciopll__FCOUNT_Coarse25				16	cio1_ciopll__FCOUNT_Coarse25				16	cio1_ciopll__FCOUNT_Coarse18				16	cio1_ciopll__FCOUNT_Coarse18		
+	16	cio2_ciopll__FCOUNT_Coarse25				16	cio2_ciopll__FCOUNT_Coarse25				16	cio2_ciopll__FCOUNT_Coarse18				16	cio2_ciopll__FCOUNT_Coarse18		
+	16	cio3_ciopll__FCOUNT_Coarse25				16	cio3_ciopll__FCOUNT_Coarse25				16	cio3_ciopll__FCOUNT_Coarse18				16	cio3_ciopll__FCOUNT_Coarse18		
+	16	cio0_ciopll__FCOUNT_Coarse26				16	cio0_ciopll__FCOUNT_Coarse26				16	cio0_ciopll__FCOUNT_Coarse19				16	cio0_ciopll__FCOUNT_Coarse19		
+	16	cio1_ciopll__FCOUNT_Coarse26				16	cio1_ciopll__FCOUNT_Coarse26				16	cio1_ciopll__FCOUNT_Coarse19				16	cio1_ciopll__FCOUNT_Coarse19		
+	16	cio2_ciopll__FCOUNT_Coarse26				16	cio2_ciopll__FCOUNT_Coarse26				16	cio2_ciopll__FCOUNT_Coarse19				16	cio2_ciopll__FCOUNT_Coarse19		
+	16	cio3_ciopll__FCOUNT_Coarse26				16	cio3_ciopll__FCOUNT_Coarse26				16	cio3_ciopll__FCOUNT_Coarse19				16	cio3_ciopll__FCOUNT_Coarse19		
+	16	cio0_ciopll__FCOUNT_Coarse27				16	cio0_ciopll__FCOUNT_Coarse27				16	cio0_ciopll__FCOUNT_Coarse20				16	cio0_ciopll__FCOUNT_Coarse20		
+	16	cio1_ciopll__FCOUNT_Coarse27				16	cio1_ciopll__FCOUNT_Coarse27				16	cio1_ciopll__FCOUNT_Coarse20				16	cio1_ciopll__FCOUNT_Coarse20		
+	16	cio2_ciopll__FCOUNT_Coarse27				16	cio2_ciopll__FCOUNT_Coarse27				16	cio2_ciopll__FCOUNT_Coarse20				16	cio2_ciopll__FCOUNT_Coarse20		
+	16	cio3_ciopll__FCOUNT_Coarse27				16	cio3_ciopll__FCOUNT_Coarse27				16	cio3_ciopll__FCOUNT_Coarse20				16	cio3_ciopll__FCOUNT_Coarse20		
+	16	cio0_ciopll__FCOUNT_Coarse28				16	cio0_ciopll__FCOUNT_Coarse28				16	cio0_ciopll__FCOUNT_Coarse21				16	cio0_ciopll__FCOUNT_Coarse21		
+	16	cio1_ciopll__FCOUNT_Coarse28				16	cio1_ciopll__FCOUNT_Coarse28				16	cio1_ciopll__FCOUNT_Coarse21				16	cio1_ciopll__FCOUNT_Coarse21		
+	16	cio2_ciopll__FCOUNT_Coarse28				16	cio2_ciopll__FCOUNT_Coarse28				16	cio2_ciopll__FCOUNT_Coarse21				16	cio2_ciopll__FCOUNT_Coarse21		
+	16	cio3_ciopll__FCOUNT_Coarse28				16	cio3_ciopll__FCOUNT_Coarse28				16	cio3_ciopll__FCOUNT_Coarse21				16	cio3_ciopll__FCOUNT_Coarse21		
+	16	cio0_ciopll__FCOUNT_Coarse29				16	cio0_ciopll__FCOUNT_Coarse29				16	cio0_ciopll__FCOUNT_Coarse22				16	cio0_ciopll__FCOUNT_Coarse22		
+	16	cio1_ciopll__FCOUNT_Coarse29				16	cio1_ciopll__FCOUNT_Coarse29				16	cio1_ciopll__FCOUNT_Coarse22				16	cio1_ciopll__FCOUNT_Coarse22		
+	16	cio2_ciopll__FCOUNT_Coarse29				16	cio2_ciopll__FCOUNT_Coarse29				16	cio2_ciopll__FCOUNT_Coarse22				16	cio2_ciopll__FCOUNT_Coarse22		
+	16	cio3_ciopll__FCOUNT_Coarse29				16	cio3_ciopll__FCOUNT_Coarse29				16	cio3_ciopll__FCOUNT_Coarse22				16	cio3_ciopll__FCOUNT_Coarse22		
+	16	cio0_ciopll__FCOUNT_Coarse30				16	cio0_ciopll__FCOUNT_Coarse30				16	cio0_ciopll__FCOUNT_Coarse23				16	cio0_ciopll__FCOUNT_Coarse23		
+	16	cio1_ciopll__FCOUNT_Coarse30				16	cio1_ciopll__FCOUNT_Coarse30				16	cio1_ciopll__FCOUNT_Coarse23				16	cio1_ciopll__FCOUNT_Coarse23		
+	16	cio2_ciopll__FCOUNT_Coarse30				16	cio2_ciopll__FCOUNT_Coarse30				16	cio2_ciopll__FCOUNT_Coarse23				16	cio2_ciopll__FCOUNT_Coarse23		
+	16	cio3_ciopll__FCOUNT_Coarse30				16	cio3_ciopll__FCOUNT_Coarse30				16	cio3_ciopll__FCOUNT_Coarse23				16	cio3_ciopll__FCOUNT_Coarse23		
+	16	cio0_ciopll__FCOUNT_Coarse31				16	cio0_ciopll__FCOUNT_Coarse31				16	cio0_ciopll__FCOUNT_Coarse24				16	cio0_ciopll__FCOUNT_Coarse24		
+	16	cio1_ciopll__FCOUNT_Coarse31				16	cio1_ciopll__FCOUNT_Coarse31				16	cio1_ciopll__FCOUNT_Coarse24				16	cio1_ciopll__FCOUNT_Coarse24		
+	16	cio2_ciopll__FCOUNT_Coarse31				16	cio2_ciopll__FCOUNT_Coarse31				16	cio2_ciopll__FCOUNT_Coarse24				16	cio2_ciopll__FCOUNT_Coarse24		
+	16	cio3_ciopll__FCOUNT_Coarse31				16	cio3_ciopll__FCOUNT_Coarse31				16	cio3_ciopll__FCOUNT_Coarse24				16	cio3_ciopll__FCOUNT_Coarse24		
+	16	cio0_ciopll__FCOUNT_Coarse32				16	cio0_ciopll__FCOUNT_Coarse32				16	cio0_ciopll__FCOUNT_Coarse25				16	cio0_ciopll__FCOUNT_Coarse25		
+	16	cio1_ciopll__FCOUNT_Coarse32				16	cio1_ciopll__FCOUNT_Coarse32				16	cio1_ciopll__FCOUNT_Coarse25				16	cio1_ciopll__FCOUNT_Coarse25		
+	16	cio2_ciopll__FCOUNT_Coarse32				16	cio2_ciopll__FCOUNT_Coarse32				16	cio2_ciopll__FCOUNT_Coarse25				16	cio2_ciopll__FCOUNT_Coarse25		
+	16	cio3_ciopll__FCOUNT_Coarse32				16	cio3_ciopll__FCOUNT_Coarse32				16	cio3_ciopll__FCOUNT_Coarse25				16	cio3_ciopll__FCOUNT_Coarse25		
+	16	cio0_ciopll__FCOUNT_Coarse33				16	cio0_ciopll__FCOUNT_Coarse33				16	cio0_ciopll__FCOUNT_Coarse26				16	cio0_ciopll__FCOUNT_Coarse26		
+	16	cio1_ciopll__FCOUNT_Coarse33				16	cio1_ciopll__FCOUNT_Coarse33				16	cio1_ciopll__FCOUNT_Coarse26				16	cio1_ciopll__FCOUNT_Coarse26		
+	16	cio2_ciopll__FCOUNT_Coarse33				16	cio2_ciopll__FCOUNT_Coarse33				16	cio2_ciopll__FCOUNT_Coarse26				16	cio2_ciopll__FCOUNT_Coarse26		
+	16	cio3_ciopll__FCOUNT_Coarse33				16	cio3_ciopll__FCOUNT_Coarse33				16	cio3_ciopll__FCOUNT_Coarse26				16	cio3_ciopll__FCOUNT_Coarse26		
+	16	cio0_ciopll__FCOUNT_Coarse34				16	cio0_ciopll__FCOUNT_Coarse34				16	cio0_ciopll__FCOUNT_Coarse27				16	cio0_ciopll__FCOUNT_Coarse27		
+	16	cio1_ciopll__FCOUNT_Coarse34				16	cio1_ciopll__FCOUNT_Coarse34				16	cio1_ciopll__FCOUNT_Coarse27				16	cio1_ciopll__FCOUNT_Coarse27		
+	16	cio2_ciopll__FCOUNT_Coarse34				16	cio2_ciopll__FCOUNT_Coarse34				16	cio2_ciopll__FCOUNT_Coarse27				16	cio2_ciopll__FCOUNT_Coarse27		
+	16	cio3_ciopll__FCOUNT_Coarse34				16	cio3_ciopll__FCOUNT_Coarse34				16	cio3_ciopll__FCOUNT_Coarse27				16	cio3_ciopll__FCOUNT_Coarse27		
+	16	cio0_ciopll__FCOUNT_Coarse35				16	cio0_ciopll__FCOUNT_Coarse35				16	cio0_ciopll__FCOUNT_Coarse28				16	cio0_ciopll__FCOUNT_Coarse28		
+	16	cio1_ciopll__FCOUNT_Coarse35				16	cio1_ciopll__FCOUNT_Coarse35				16	cio1_ciopll__FCOUNT_Coarse28				16	cio1_ciopll__FCOUNT_Coarse28		
+	16	cio2_ciopll__FCOUNT_Coarse35				16	cio2_ciopll__FCOUNT_Coarse35				16	cio2_ciopll__FCOUNT_Coarse28				16	cio2_ciopll__FCOUNT_Coarse28		
+	16	cio3_ciopll__FCOUNT_Coarse35				16	cio3_ciopll__FCOUNT_Coarse35				16	cio3_ciopll__FCOUNT_Coarse28				16	cio3_ciopll__FCOUNT_Coarse28		
+	16	cio0_ciopll__FCOUNT_Coarse36				16	cio0_ciopll__FCOUNT_Coarse36				16	cio0_ciopll__FCOUNT_Coarse29				16	cio0_ciopll__FCOUNT_Coarse29		
+	16	cio1_ciopll__FCOUNT_Coarse36				16	cio1_ciopll__FCOUNT_Coarse36				16	cio1_ciopll__FCOUNT_Coarse29				16	cio1_ciopll__FCOUNT_Coarse29		
+	16	cio2_ciopll__FCOUNT_Coarse36				16	cio2_ciopll__FCOUNT_Coarse36				16	cio2_ciopll__FCOUNT_Coarse29				16	cio2_ciopll__FCOUNT_Coarse29		
+	16	cio3_ciopll__FCOUNT_Coarse36				16	cio3_ciopll__FCOUNT_Coarse36				16	cio3_ciopll__FCOUNT_Coarse29				16	cio3_ciopll__FCOUNT_Coarse29		
+	16	cio0_ciopll__FCOUNT_Coarse37				16	cio0_ciopll__FCOUNT_Coarse37				16	cio0_ciopll__FCOUNT_Coarse30				16	cio0_ciopll__FCOUNT_Coarse30		
+	16	cio1_ciopll__FCOUNT_Coarse37				16	cio1_ciopll__FCOUNT_Coarse37				16	cio1_ciopll__FCOUNT_Coarse30				16	cio1_ciopll__FCOUNT_Coarse30		
+	16	cio2_ciopll__FCOUNT_Coarse37				16	cio2_ciopll__FCOUNT_Coarse37				16	cio2_ciopll__FCOUNT_Coarse30				16	cio2_ciopll__FCOUNT_Coarse30		
+	16	cio3_ciopll__FCOUNT_Coarse37				16	cio3_ciopll__FCOUNT_Coarse37				16	cio3_ciopll__FCOUNT_Coarse30				16	cio3_ciopll__FCOUNT_Coarse30		
+	16	cio0_ciopll__FCOUNT_Coarse38				16	cio0_ciopll__FCOUNT_Coarse38				16	cio0_ciopll__FCOUNT_Coarse31				16	cio0_ciopll__FCOUNT_Coarse31		
+	16	cio1_ciopll__FCOUNT_Coarse38				16	cio1_ciopll__FCOUNT_Coarse38				16	cio1_ciopll__FCOUNT_Coarse31				16	cio1_ciopll__FCOUNT_Coarse31		
+	16	cio2_ciopll__FCOUNT_Coarse38				16	cio2_ciopll__FCOUNT_Coarse38				16	cio2_ciopll__FCOUNT_Coarse31				16	cio2_ciopll__FCOUNT_Coarse31		
+	16	cio3_ciopll__FCOUNT_Coarse38				16	cio3_ciopll__FCOUNT_Coarse38				16	cio3_ciopll__FCOUNT_Coarse31				16	cio3_ciopll__FCOUNT_Coarse31		
+	16	cio0_ciopll__FCOUNT_Coarse39				16	cio0_ciopll__FCOUNT_Coarse39				16	cio0_ciopll__FCOUNT_Coarse32				16	cio0_ciopll__FCOUNT_Coarse32		
+	16	cio1_ciopll__FCOUNT_Coarse39				16	cio1_ciopll__FCOUNT_Coarse39				16	cio1_ciopll__FCOUNT_Coarse32				16	cio1_ciopll__FCOUNT_Coarse32		
+	16	cio2_ciopll__FCOUNT_Coarse39				16	cio2_ciopll__FCOUNT_Coarse39				16	cio2_ciopll__FCOUNT_Coarse32				16	cio2_ciopll__FCOUNT_Coarse32		
+	16	cio3_ciopll__FCOUNT_Coarse39				16	cio3_ciopll__FCOUNT_Coarse39				16	cio3_ciopll__FCOUNT_Coarse32				16	cio3_ciopll__FCOUNT_Coarse32		
+	16	cio0_ciopll__FCOUNT_Coarse40				16	cio0_ciopll__FCOUNT_Coarse40				16	cio0_ciopll__FCOUNT_Coarse33				16	cio0_ciopll__FCOUNT_Coarse33		
+	16	cio1_ciopll__FCOUNT_Coarse40				16	cio1_ciopll__FCOUNT_Coarse40				16	cio1_ciopll__FCOUNT_Coarse33				16	cio1_ciopll__FCOUNT_Coarse33		
+	16	cio2_ciopll__FCOUNT_Coarse40				16	cio2_ciopll__FCOUNT_Coarse40				16	cio2_ciopll__FCOUNT_Coarse33				16	cio2_ciopll__FCOUNT_Coarse33		
+	16	cio3_ciopll__FCOUNT_Coarse40				16	cio3_ciopll__FCOUNT_Coarse40				16	cio3_ciopll__FCOUNT_Coarse33				16	cio3_ciopll__FCOUNT_Coarse33		
+	16	cio0_ciopll__FCOUNT_Coarse41				16	cio0_ciopll__FCOUNT_Coarse41				16	cio0_ciopll__FCOUNT_Coarse34				16	cio0_ciopll__FCOUNT_Coarse34		
+	16	cio1_ciopll__FCOUNT_Coarse41				16	cio1_ciopll__FCOUNT_Coarse41				16	cio1_ciopll__FCOUNT_Coarse34				16	cio1_ciopll__FCOUNT_Coarse34		
+	16	cio2_ciopll__FCOUNT_Coarse41				16	cio2_ciopll__FCOUNT_Coarse41				16	cio2_ciopll__FCOUNT_Coarse34				16	cio2_ciopll__FCOUNT_Coarse34		
+	16	cio3_ciopll__FCOUNT_Coarse41				16	cio3_ciopll__FCOUNT_Coarse41				16	cio3_ciopll__FCOUNT_Coarse34				16	cio3_ciopll__FCOUNT_Coarse34		
+	16	cio0_ciopll__FCOUNT_Coarse42				16	cio0_ciopll__FCOUNT_Coarse42				16	cio0_ciopll__FCOUNT_Coarse35				16	cio0_ciopll__FCOUNT_Coarse35		
+	16	cio1_ciopll__FCOUNT_Coarse42				16	cio1_ciopll__FCOUNT_Coarse42				16	cio1_ciopll__FCOUNT_Coarse35				16	cio1_ciopll__FCOUNT_Coarse35		
+	16	cio2_ciopll__FCOUNT_Coarse42				16	cio2_ciopll__FCOUNT_Coarse42				16	cio2_ciopll__FCOUNT_Coarse35				16	cio2_ciopll__FCOUNT_Coarse35		
+	16	cio3_ciopll__FCOUNT_Coarse42				16	cio3_ciopll__FCOUNT_Coarse42				16	cio3_ciopll__FCOUNT_Coarse35				16	cio3_ciopll__FCOUNT_Coarse35		
+	16	cio0_ciopll__FCOUNT_Coarse43				16	cio0_ciopll__FCOUNT_Coarse43				16	cio0_ciopll__FCOUNT_Coarse36				16	cio0_ciopll__FCOUNT_Coarse36		
+	16	cio1_ciopll__FCOUNT_Coarse43				16	cio1_ciopll__FCOUNT_Coarse43				16	cio1_ciopll__FCOUNT_Coarse36				16	cio1_ciopll__FCOUNT_Coarse36		
+	16	cio2_ciopll__FCOUNT_Coarse43				16	cio2_ciopll__FCOUNT_Coarse43				16	cio2_ciopll__FCOUNT_Coarse36				16	cio2_ciopll__FCOUNT_Coarse36		
+	16	cio3_ciopll__FCOUNT_Coarse43				16	cio3_ciopll__FCOUNT_Coarse43				16	cio3_ciopll__FCOUNT_Coarse36				16	cio3_ciopll__FCOUNT_Coarse36		
+	16	cio0_ciopll__FCOUNT_Coarse44				16	cio0_ciopll__FCOUNT_Coarse44				16	cio0_ciopll__FCOUNT_Coarse37				16	cio0_ciopll__FCOUNT_Coarse37		
+	16	cio1_ciopll__FCOUNT_Coarse44				16	cio1_ciopll__FCOUNT_Coarse44				16	cio1_ciopll__FCOUNT_Coarse37				16	cio1_ciopll__FCOUNT_Coarse37		
+	16	cio2_ciopll__FCOUNT_Coarse44				16	cio2_ciopll__FCOUNT_Coarse44				16	cio2_ciopll__FCOUNT_Coarse37				16	cio2_ciopll__FCOUNT_Coarse37		
+	16	cio3_ciopll__FCOUNT_Coarse44				16	cio3_ciopll__FCOUNT_Coarse44				16	cio3_ciopll__FCOUNT_Coarse37				16	cio3_ciopll__FCOUNT_Coarse37		
+	16	cio0_ciopll__FCOUNT_Coarse45				16	cio0_ciopll__FCOUNT_Coarse45				16	cio0_ciopll__FCOUNT_Coarse38				16	cio0_ciopll__FCOUNT_Coarse38		
+	16	cio1_ciopll__FCOUNT_Coarse45				16	cio1_ciopll__FCOUNT_Coarse45				16	cio1_ciopll__FCOUNT_Coarse38				16	cio1_ciopll__FCOUNT_Coarse38		
+	16	cio2_ciopll__FCOUNT_Coarse45				16	cio2_ciopll__FCOUNT_Coarse45				16	cio2_ciopll__FCOUNT_Coarse38				16	cio2_ciopll__FCOUNT_Coarse38		
+	16	cio3_ciopll__FCOUNT_Coarse45				16	cio3_ciopll__FCOUNT_Coarse45				16	cio3_ciopll__FCOUNT_Coarse38				16	cio3_ciopll__FCOUNT_Coarse38		
+	16	cio0_ciopll__FCOUNT_Coarse46				16	cio0_ciopll__FCOUNT_Coarse46				16	cio0_ciopll__FCOUNT_Coarse39				16	cio0_ciopll__FCOUNT_Coarse39		
+	16	cio1_ciopll__FCOUNT_Coarse46				16	cio1_ciopll__FCOUNT_Coarse46				16	cio1_ciopll__FCOUNT_Coarse39				16	cio1_ciopll__FCOUNT_Coarse39		
+	16	cio2_ciopll__FCOUNT_Coarse46				16	cio2_ciopll__FCOUNT_Coarse46				16	cio2_ciopll__FCOUNT_Coarse39				16	cio2_ciopll__FCOUNT_Coarse39		
+	16	cio3_ciopll__FCOUNT_Coarse46				16	cio3_ciopll__FCOUNT_Coarse46				16	cio3_ciopll__FCOUNT_Coarse39				16	cio3_ciopll__FCOUNT_Coarse39		
+	16	cio0_ciopll__FCOUNT_Coarse47				16	cio0_ciopll__FCOUNT_Coarse47				16	cio0_ciopll__FCOUNT_Coarse40				16	cio0_ciopll__FCOUNT_Coarse40		
+	16	cio1_ciopll__FCOUNT_Coarse47				16	cio1_ciopll__FCOUNT_Coarse47				16	cio1_ciopll__FCOUNT_Coarse40				16	cio1_ciopll__FCOUNT_Coarse40		
+	16	cio2_ciopll__FCOUNT_Coarse47				16	cio2_ciopll__FCOUNT_Coarse47				16	cio2_ciopll__FCOUNT_Coarse40				16	cio2_ciopll__FCOUNT_Coarse40		
+	16	cio3_ciopll__FCOUNT_Coarse47				16	cio3_ciopll__FCOUNT_Coarse47				16	cio3_ciopll__FCOUNT_Coarse40				16	cio3_ciopll__FCOUNT_Coarse40		
+	16	cio0_ciopll__FCOUNT_Coarse48				16	cio0_ciopll__FCOUNT_Coarse48				16	cio0_ciopll__FCOUNT_Coarse41				16	cio0_ciopll__FCOUNT_Coarse41		
+	16	cio1_ciopll__FCOUNT_Coarse48				16	cio1_ciopll__FCOUNT_Coarse48				16	cio1_ciopll__FCOUNT_Coarse41				16	cio1_ciopll__FCOUNT_Coarse41		
+	16	cio2_ciopll__FCOUNT_Coarse48				16	cio2_ciopll__FCOUNT_Coarse48				16	cio2_ciopll__FCOUNT_Coarse41				16	cio2_ciopll__FCOUNT_Coarse41		
+	16	cio3_ciopll__FCOUNT_Coarse48				16	cio3_ciopll__FCOUNT_Coarse48				16	cio3_ciopll__FCOUNT_Coarse41				16	cio3_ciopll__FCOUNT_Coarse41		
+	16	cio0_ciopll__FCOUNT_Coarse49				16	cio0_ciopll__FCOUNT_Coarse49				16	cio0_ciopll__FCOUNT_Coarse42				16	cio0_ciopll__FCOUNT_Coarse42		
+	16	cio1_ciopll__FCOUNT_Coarse49				16	cio1_ciopll__FCOUNT_Coarse49				16	cio1_ciopll__FCOUNT_Coarse42				16	cio1_ciopll__FCOUNT_Coarse42		
+	16	cio2_ciopll__FCOUNT_Coarse49				16	cio2_ciopll__FCOUNT_Coarse49				16	cio2_ciopll__FCOUNT_Coarse42				16	cio2_ciopll__FCOUNT_Coarse42		
+	16	cio3_ciopll__FCOUNT_Coarse49				16	cio3_ciopll__FCOUNT_Coarse49				16	cio3_ciopll__FCOUNT_Coarse42				16	cio3_ciopll__FCOUNT_Coarse42		
+	16	cio0_ciopll__FCOUNT_Coarse50				16	cio0_ciopll__FCOUNT_Coarse50				16	cio0_ciopll__FCOUNT_Coarse43				16	cio0_ciopll__FCOUNT_Coarse43		
+	16	cio1_ciopll__FCOUNT_Coarse50				16	cio1_ciopll__FCOUNT_Coarse50				16	cio1_ciopll__FCOUNT_Coarse43				16	cio1_ciopll__FCOUNT_Coarse43		
+	16	cio2_ciopll__FCOUNT_Coarse50				16	cio2_ciopll__FCOUNT_Coarse50				16	cio2_ciopll__FCOUNT_Coarse43				16	cio2_ciopll__FCOUNT_Coarse43		
+	16	cio3_ciopll__FCOUNT_Coarse50				16	cio3_ciopll__FCOUNT_Coarse50				16	cio3_ciopll__FCOUNT_Coarse43				16	cio3_ciopll__FCOUNT_Coarse43		
+	16	cio0_ciopll__FCOUNT_Coarse51				16	cio0_ciopll__FCOUNT_Coarse51				16	cio0_ciopll__FCOUNT_Coarse44				16	cio0_ciopll__FCOUNT_Coarse44		
+	16	cio1_ciopll__FCOUNT_Coarse51				16	cio1_ciopll__FCOUNT_Coarse51				16	cio1_ciopll__FCOUNT_Coarse44				16	cio1_ciopll__FCOUNT_Coarse44		
+	16	cio2_ciopll__FCOUNT_Coarse51				16	cio2_ciopll__FCOUNT_Coarse51				16	cio2_ciopll__FCOUNT_Coarse44				16	cio2_ciopll__FCOUNT_Coarse44		
+	16	cio3_ciopll__FCOUNT_Coarse51				16	cio3_ciopll__FCOUNT_Coarse51				16	cio3_ciopll__FCOUNT_Coarse44				16	cio3_ciopll__FCOUNT_Coarse44		
+	16	cio0_ciopll__FCOUNT_Coarse52				16	cio0_ciopll__FCOUNT_Coarse52				16	cio0_ciopll__FCOUNT_Coarse45				16	cio0_ciopll__FCOUNT_Coarse45		
+	16	cio1_ciopll__FCOUNT_Coarse52				16	cio1_ciopll__FCOUNT_Coarse52				16	cio1_ciopll__FCOUNT_Coarse45				16	cio1_ciopll__FCOUNT_Coarse45		
+	16	cio2_ciopll__FCOUNT_Coarse52				16	cio2_ciopll__FCOUNT_Coarse52				16	cio2_ciopll__FCOUNT_Coarse45				16	cio2_ciopll__FCOUNT_Coarse45		
+	16	cio3_ciopll__FCOUNT_Coarse52				16	cio3_ciopll__FCOUNT_Coarse52				16	cio3_ciopll__FCOUNT_Coarse45				16	cio3_ciopll__FCOUNT_Coarse45		
+	16	cio0_ciopll__FCOUNT_Coarse53				16	cio0_ciopll__FCOUNT_Coarse53				16	cio0_ciopll__FCOUNT_Coarse46				16	cio0_ciopll__FCOUNT_Coarse46		
+	16	cio1_ciopll__FCOUNT_Coarse53				16	cio1_ciopll__FCOUNT_Coarse53				16	cio1_ciopll__FCOUNT_Coarse46				16	cio1_ciopll__FCOUNT_Coarse46		
+	16	cio2_ciopll__FCOUNT_Coarse53				16	cio2_ciopll__FCOUNT_Coarse53				16	cio2_ciopll__FCOUNT_Coarse46				16	cio2_ciopll__FCOUNT_Coarse46		
+	16	cio3_ciopll__FCOUNT_Coarse53				16	cio3_ciopll__FCOUNT_Coarse53				16	cio3_ciopll__FCOUNT_Coarse46				16	cio3_ciopll__FCOUNT_Coarse46		
+	16	cio0_ciopll__FCOUNT_Coarse54				16	cio0_ciopll__FCOUNT_Coarse54				16	cio0_ciopll__FCOUNT_Coarse47				16	cio0_ciopll__FCOUNT_Coarse47		
+	16	cio1_ciopll__FCOUNT_Coarse54				16	cio1_ciopll__FCOUNT_Coarse54				16	cio1_ciopll__FCOUNT_Coarse47				16	cio1_ciopll__FCOUNT_Coarse47		
+	16	cio2_ciopll__FCOUNT_Coarse54				16	cio2_ciopll__FCOUNT_Coarse54				16	cio2_ciopll__FCOUNT_Coarse47				16	cio2_ciopll__FCOUNT_Coarse47		
+	16	cio3_ciopll__FCOUNT_Coarse54				16	cio3_ciopll__FCOUNT_Coarse54				16	cio3_ciopll__FCOUNT_Coarse47				16	cio3_ciopll__FCOUNT_Coarse47		
+	16	cio0_ciopll__FCOUNT_Coarse55				16	cio0_ciopll__FCOUNT_Coarse55				16	cio0_ciopll__FCOUNT_Coarse48				16	cio0_ciopll__FCOUNT_Coarse48		
+	16	cio1_ciopll__FCOUNT_Coarse55				16	cio1_ciopll__FCOUNT_Coarse55				16	cio1_ciopll__FCOUNT_Coarse48				16	cio1_ciopll__FCOUNT_Coarse48		
+	16	cio2_ciopll__FCOUNT_Coarse55				16	cio2_ciopll__FCOUNT_Coarse55				16	cio2_ciopll__FCOUNT_Coarse48				16	cio2_ciopll__FCOUNT_Coarse48		
+	16	cio3_ciopll__FCOUNT_Coarse55				16	cio3_ciopll__FCOUNT_Coarse55				16	cio3_ciopll__FCOUNT_Coarse48				16	cio3_ciopll__FCOUNT_Coarse48		
+	16	cio0_ciopll__FCOUNT_Coarse56				16	cio0_ciopll__FCOUNT_Coarse56				16	cio0_ciopll__FCOUNT_Coarse49				16	cio0_ciopll__FCOUNT_Coarse49		
+	16	cio1_ciopll__FCOUNT_Coarse56				16	cio1_ciopll__FCOUNT_Coarse56				16	cio1_ciopll__FCOUNT_Coarse49				16	cio1_ciopll__FCOUNT_Coarse49		
+	16	cio2_ciopll__FCOUNT_Coarse56				16	cio2_ciopll__FCOUNT_Coarse56				16	cio2_ciopll__FCOUNT_Coarse49				16	cio2_ciopll__FCOUNT_Coarse49		
+	16	cio3_ciopll__FCOUNT_Coarse56				16	cio3_ciopll__FCOUNT_Coarse56				16	cio3_ciopll__FCOUNT_Coarse49				16	cio3_ciopll__FCOUNT_Coarse49		
+	16	cio0_ciopll__FCOUNT_Coarse57				16	cio0_ciopll__FCOUNT_Coarse57				16	cio0_ciopll__FCOUNT_Coarse50				16	cio0_ciopll__FCOUNT_Coarse50		
+	16	cio1_ciopll__FCOUNT_Coarse57				16	cio1_ciopll__FCOUNT_Coarse57				16	cio1_ciopll__FCOUNT_Coarse50				16	cio1_ciopll__FCOUNT_Coarse50		
+	16	cio2_ciopll__FCOUNT_Coarse57				16	cio2_ciopll__FCOUNT_Coarse57				16	cio2_ciopll__FCOUNT_Coarse50				16	cio2_ciopll__FCOUNT_Coarse50		
+	16	cio3_ciopll__FCOUNT_Coarse57				16	cio3_ciopll__FCOUNT_Coarse57				16	cio3_ciopll__FCOUNT_Coarse50				16	cio3_ciopll__FCOUNT_Coarse50		
+	16	cio0_ciopll__FCOUNT_Coarse58				16	cio0_ciopll__FCOUNT_Coarse58				16	cio0_ciopll__FCOUNT_Coarse51				16	cio0_ciopll__FCOUNT_Coarse51		
+	16	cio1_ciopll__FCOUNT_Coarse58				16	cio1_ciopll__FCOUNT_Coarse58				16	cio1_ciopll__FCOUNT_Coarse51				16	cio1_ciopll__FCOUNT_Coarse51		
+	16	cio2_ciopll__FCOUNT_Coarse58				16	cio2_ciopll__FCOUNT_Coarse58				16	cio2_ciopll__FCOUNT_Coarse51				16	cio2_ciopll__FCOUNT_Coarse51		
+	16	cio3_ciopll__FCOUNT_Coarse58				16	cio3_ciopll__FCOUNT_Coarse58				16	cio3_ciopll__FCOUNT_Coarse51				16	cio3_ciopll__FCOUNT_Coarse51		
+	16	cio0_ciopll__FCOUNT_Coarse59				16	cio0_ciopll__FCOUNT_Coarse59				16	cio0_ciopll__FCOUNT_Coarse52				16	cio0_ciopll__FCOUNT_Coarse52		
+	16	cio1_ciopll__FCOUNT_Coarse59				16	cio1_ciopll__FCOUNT_Coarse59				16	cio1_ciopll__FCOUNT_Coarse52				16	cio1_ciopll__FCOUNT_Coarse52		
+	16	cio2_ciopll__FCOUNT_Coarse59				16	cio2_ciopll__FCOUNT_Coarse59				16	cio2_ciopll__FCOUNT_Coarse52				16	cio2_ciopll__FCOUNT_Coarse52		
+	16	cio3_ciopll__FCOUNT_Coarse59				16	cio3_ciopll__FCOUNT_Coarse59				16	cio3_ciopll__FCOUNT_Coarse52				16	cio3_ciopll__FCOUNT_Coarse52		
+	16	cio0_ciopll__FCOUNT_Coarse60				16	cio0_ciopll__FCOUNT_Coarse60				16	cio0_ciopll__FCOUNT_Coarse53				16	cio0_ciopll__FCOUNT_Coarse53		
+	16	cio1_ciopll__FCOUNT_Coarse60				16	cio1_ciopll__FCOUNT_Coarse60				16	cio1_ciopll__FCOUNT_Coarse53				16	cio1_ciopll__FCOUNT_Coarse53		
+	16	cio2_ciopll__FCOUNT_Coarse60				16	cio2_ciopll__FCOUNT_Coarse60				16	cio2_ciopll__FCOUNT_Coarse53				16	cio2_ciopll__FCOUNT_Coarse53		
+	16	cio3_ciopll__FCOUNT_Coarse60				16	cio3_ciopll__FCOUNT_Coarse60				16	cio3_ciopll__FCOUNT_Coarse53				16	cio3_ciopll__FCOUNT_Coarse53		
+	16	cio0_ciopll__FCOUNT_Coarse61				16	cio0_ciopll__FCOUNT_Coarse61				16	cio0_ciopll__FCOUNT_Coarse54				16	cio0_ciopll__FCOUNT_Coarse54		
+	16	cio1_ciopll__FCOUNT_Coarse61				16	cio1_ciopll__FCOUNT_Coarse61				16	cio1_ciopll__FCOUNT_Coarse54				16	cio1_ciopll__FCOUNT_Coarse54		
+	16	cio2_ciopll__FCOUNT_Coarse61				16	cio2_ciopll__FCOUNT_Coarse61				16	cio2_ciopll__FCOUNT_Coarse54				16	cio2_ciopll__FCOUNT_Coarse54		
+	16	cio3_ciopll__FCOUNT_Coarse61				16	cio3_ciopll__FCOUNT_Coarse61				16	cio3_ciopll__FCOUNT_Coarse54				16	cio3_ciopll__FCOUNT_Coarse54		
+	16	cio0_ciopll__FCOUNT_Coarse62				16	cio0_ciopll__FCOUNT_Coarse62				16	cio0_ciopll__FCOUNT_Coarse55				16	cio0_ciopll__FCOUNT_Coarse55		
+	16	cio1_ciopll__FCOUNT_Coarse62				16	cio1_ciopll__FCOUNT_Coarse62				16	cio1_ciopll__FCOUNT_Coarse55				16	cio1_ciopll__FCOUNT_Coarse55		
+	16	cio2_ciopll__FCOUNT_Coarse62				16	cio2_ciopll__FCOUNT_Coarse62				16	cio2_ciopll__FCOUNT_Coarse55				16	cio2_ciopll__FCOUNT_Coarse55		
+	16	cio3_ciopll__FCOUNT_Coarse62				16	cio3_ciopll__FCOUNT_Coarse62				16	cio3_ciopll__FCOUNT_Coarse55				16	cio3_ciopll__FCOUNT_Coarse55		
+	16	cio0_ciopll__FCOUNT_Coarse63				16	cio0_ciopll__FCOUNT_Coarse63				16	cio0_ciopll__FCOUNT_Coarse56				16	cio0_ciopll__FCOUNT_Coarse56		
+	16	cio1_ciopll__FCOUNT_Coarse63				16	cio1_ciopll__FCOUNT_Coarse63				16	cio1_ciopll__FCOUNT_Coarse56				16	cio1_ciopll__FCOUNT_Coarse56		
+	16	cio2_ciopll__FCOUNT_Coarse63				16	cio2_ciopll__FCOUNT_Coarse63				16	cio2_ciopll__FCOUNT_Coarse56				16	cio2_ciopll__FCOUNT_Coarse56		
+	16	cio3_ciopll__FCOUNT_Coarse63				16	cio3_ciopll__FCOUNT_Coarse63				16	cio3_ciopll__FCOUNT_Coarse56				16	cio3_ciopll__FCOUNT_Coarse56		
+											16	cio0_ciopll__FCOUNT_Coarse57				16	cio0_ciopll__FCOUNT_Coarse57		
+											16	cio1_ciopll__FCOUNT_Coarse57				16	cio1_ciopll__FCOUNT_Coarse57		
+											16	cio2_ciopll__FCOUNT_Coarse57				16	cio2_ciopll__FCOUNT_Coarse57		
+											16	cio3_ciopll__FCOUNT_Coarse57				16	cio3_ciopll__FCOUNT_Coarse57		
+											16	cio0_ciopll__FCOUNT_Coarse58				16	cio0_ciopll__FCOUNT_Coarse58		
+											16	cio1_ciopll__FCOUNT_Coarse58				16	cio1_ciopll__FCOUNT_Coarse58		
+											16	cio2_ciopll__FCOUNT_Coarse58				16	cio2_ciopll__FCOUNT_Coarse58		
+											16	cio3_ciopll__FCOUNT_Coarse58				16	cio3_ciopll__FCOUNT_Coarse58		
+											16	cio0_ciopll__FCOUNT_Coarse59				16	cio0_ciopll__FCOUNT_Coarse59		
+											16	cio1_ciopll__FCOUNT_Coarse59				16	cio1_ciopll__FCOUNT_Coarse59		
+											16	cio2_ciopll__FCOUNT_Coarse59				16	cio2_ciopll__FCOUNT_Coarse59		
+											16	cio3_ciopll__FCOUNT_Coarse59				16	cio3_ciopll__FCOUNT_Coarse59		
+											16	cio0_ciopll__FCOUNT_Coarse60				16	cio0_ciopll__FCOUNT_Coarse60		
+											16	cio1_ciopll__FCOUNT_Coarse60				16	cio1_ciopll__FCOUNT_Coarse60		
+											16	cio2_ciopll__FCOUNT_Coarse60				16	cio2_ciopll__FCOUNT_Coarse60		
+											16	cio3_ciopll__FCOUNT_Coarse60				16	cio3_ciopll__FCOUNT_Coarse60		
+											16	cio0_ciopll__FCOUNT_Coarse61				16	cio0_ciopll__FCOUNT_Coarse61		
+											16	cio1_ciopll__FCOUNT_Coarse61				16	cio1_ciopll__FCOUNT_Coarse61		
+											16	cio2_ciopll__FCOUNT_Coarse61				16	cio2_ciopll__FCOUNT_Coarse61		
+											16	cio3_ciopll__FCOUNT_Coarse61				16	cio3_ciopll__FCOUNT_Coarse61		
+											16	cio0_ciopll__FCOUNT_Coarse62				16	cio0_ciopll__FCOUNT_Coarse62		
+											16	cio1_ciopll__FCOUNT_Coarse62				16	cio1_ciopll__FCOUNT_Coarse62		
+											16	cio2_ciopll__FCOUNT_Coarse62				16	cio2_ciopll__FCOUNT_Coarse62		
+											16	cio3_ciopll__FCOUNT_Coarse62				16	cio3_ciopll__FCOUNT_Coarse62		
+											16	cio0_ciopll__FCOUNT_Coarse63				16	cio0_ciopll__FCOUNT_Coarse63		
+											16	cio1_ciopll__FCOUNT_Coarse63				16	cio1_ciopll__FCOUNT_Coarse63		
+											16	cio2_ciopll__FCOUNT_Coarse63				16	cio2_ciopll__FCOUNT_Coarse63		
+											16	cio3_ciopll__FCOUNT_Coarse63				16	cio3_ciopll__FCOUNT_Coarse63		
+																			

@@ -1,0 +1,34 @@
+srm_vector name  ($tset JTAG_TCK, JTAG_TDI, JTAG_TMS, JTAG_TRSTN,
+ JTAG_TDO, JTAG_SEL, TESTMODE, CFSB, RESETN, (CTRL_GPIO_0, CTRL_GPIO_1,
+ CTRL_GPIO_2), CLKREQ, I2C0_SDA, I2C0_SCL, TIME_SYNC, (BOOT_CFG_0, BOOT_CFG_1,
+ BOOT_CFG_2), CCS_UART_TX, CCS_UART_RX, HOLD_RESET, (BT_GPIO_6, BT_GPIO_7),
+ WL_DBG_UART_TX, CCS_UART_CTS, CCS_UART_RTS, PPM_ALERT, (BID0, BID1, BID2),
+ (PMU_DVFS_0, PMU_DVFS_1), (BT_FEM_CTRL_DED_2G_0, BT_FEM_CTRL_DED_2G_1,
+ BT_FEM_CTRL_DED_2G_2), (WLBT_FEM_CTRL_SE_0, WLBT_FEM_CTRL_SE_1,
+ WLBT_FEM_CTRL_SE_2), (WLBT_ELNA_CTRL_2G_C0, WLBT_ELNA_CTRL_2G_C1,
+ WLBT_ELNA_CTRL_5G_C0, WLBT_ELNA_CTRL_5G_C1), (TR_SW_SPARE_0, TR_SW_SPARE_1,
+ TR_SW_SPARE_2, TR_SW_SPARE_3), (WLBT_ANT_DIV_0, WLBT_ANT_DIV_1,
+ WLBT_ANT_DIV_2), (WLBT_TR_SW_5G_C0_1, WLBT_TR_SW_5G_C1_1, WLBT_TR_SW_5G_C0_0,
+ WLBT_TR_SW_5G_C1_0), FE_SW_PLX_CTRL, (BT_TR_SW_DED_2G_0, BT_TR_SW_DED_2G_1),
+ (WLBT_TR_SW_2G_C0_1, WLBT_TR_SW_2G_C1_1, WLBT_TR_SW_2G_C0_0),
+ (WLBT_RFFE0_RST_N_2G, WLBT_RFFE0_RST_N_5G, WLBT_RFFE1_RST_N_2G,
+ WLBT_RFFE1_RST_N_5G), WLBT_RFFE0_CLK, WLBT_RFFE0_DATA, WLBT_RFFE1_CLK,
+ WLBT_RFFE1_DATA, PERST, SPMI_M_CLK, SPMI_M_DATA, HEBSPMI0_CLK, HEBSPMI0_DATA,
+ COEXSPMI1_CLK, COEXSPMI1_DATA, SOC_WD, (BT_GPIO_0, BT_GPIO_1, BT_GPIO_2,
+ BT_GPIO_3, BT_GPIO_4, BT_GPIO_5), SE_TO_BT_PKT_READY, (WL_GPIO_0, WL_GPIO_1),
+ TST_CLKOUT, WAKE, COEX_RTA_0_QSPI_CK, COEX_RTA_1_QSPI_CSN,
+ (COEX_RTA_2_QSPI_DQ0, COEX_RTA_3_QSPI_DQ1, COEX_RTA_4_QSPI_DQ2),
+ COEX_GPIO_TOUCH_ID_QSPI_DQ3, COEX_UWB_GRANT_OR_DENY, COEX_GPIO_SPARE7,
+ BT_DBG_UART_TX, BT_UART_TX, BT_UART_RX, BT_UART_CTS, BT_UART_RTS,
+ WLBT_TR_SW_2G_C1_0 )
+
+{
+global subr name:
+ > tsetJTAG - 0 - - X - - - - --- - - - - --- - - - -- - - - - --- -- --- --- ---- ---- --- ---- - -- --- ---- - - - - - - - - - - - - ------ - -- - - - - --- - - - - - - - - - ;  // start
+set_cpu_cond (cpuA_cond) > tsetJTAG - 0 - - X - - - - --- - - - - --- - - - -- - - - - --- -- --- --- ---- ---- --- ---- - -- --- ---- - - - - - - - - - - - - ------ - -- - - - - --- - - - - - - - - - ;  // set_cpu_cond
+branch_expr = (cpuA_cond) > tsetJTAG - 0 - - X - - - - --- - - - - --- - - - -- - - - - --- -- --- --- ---- ---- --- ---- - -- --- ---- - - - - - - - - - - - - ------ - -- - - - - --- - - - - - - - - - ;  // branch_expr = (cpuA_cond)
+meas_loop:
+ > tsetJTAG - 0 - - X - - - - --- - - - - --- - - - -- - - - - --- -- --- --- ---- ---- --- ---- - -- --- ---- - - - - - - - - - - - - ------ - -- - - - - --- - - - - - - - - - ;  // meas_loop start
+if (branch_expr) jump meas_loop > tsetJTAG - 0 - - X - - - - --- - - - - --- - - - -- - - - - --- -- --- --- ---- ---- --- ---- - -- --- ---- - - - - - - - - - - - - ------ - -- - - - - --- - - - - - - - - - ;  // meas_loop end
+return > tsetJTAG - 0 - - X - - - - --- - - - - --- - - - -- - - - - --- -- --- --- ---- ---- --- ---- - -- --- ---- - - - - - - - - - - - - ------ - -- - - - - --- - - - - - - - - - ;  // return
+}

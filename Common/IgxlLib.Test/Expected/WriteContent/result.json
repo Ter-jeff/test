@@ -1,0 +1,6 @@
+{
+  "m_MaxCapacity": 2147483647,
+  "Capacity": 704,
+  "m_StringValue": "DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1\tFlow Table\r\n\t\t\t\t\t\tFlow Domain:\r\n\t\t\tGate\t\t\tCommand\t\t\t\tLimits\t\tDatalog Display Results\t\t\tBin Number\t\tSort Number\t\t\tAction\t\t\tGroup\t\t\t\tDevice\t\t\tDebug\t\tCT Profile Data\r\n\tLabel\tEnable\tJob\tPart\tEnv\tOpcode\tParameter\tTName\tTNum\tLoLim\tHiLim\tScale\tUnits\tFormat\tPass\tFail\tPass\tFail\tResult\tPass\tFail\tState\tSpecifier\tSense\tCondition\tName\tSense\tCondition\tName\tAssume\tSites\tElapsed Time (s)\tBackground Type\tSerialize\tResource Lock\tFlow Step Locked\tComment\r\n\t\t\t\t\t\tReturn\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n",
+  "m_currentThread": 0
+}

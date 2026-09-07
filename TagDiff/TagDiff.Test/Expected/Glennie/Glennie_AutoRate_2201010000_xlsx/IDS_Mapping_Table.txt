@@ -1,0 +1,7 @@
+Stage	InstanceName	PinName	eFuseFieldName	
+CP1	IDS_PP_GLNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_NV => IDS_CP	vdd_soc	ids_vdd_soc	
+		vdd_dig	ids_vdd_dig	
+		vdd_sram	ids_vdd_sram	
+CP2	IDS_PP_GLNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_NV => IDS_CP	vdd_soc	ids_vdd_soc_hot	
+		vdd_dig	ids_vdd_dig_hot	
+		vdd_sram	ids_vdd_sram_hot	

@@ -1,0 +1,2 @@
+INPUT: product_identifier	INPUT: harvesting_bin	PwrScreen_TN	PASS: power_binning	FAIL	Comment			
+0	X	150	1	FAIL				

@@ -1,0 +1,77 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	MS005_TD_Mbist_BV_Header_1																															
+						print	"Flow MS005_TD_Mbist_BV Start"																															
+Instance_Bincut_MS,Row11,MSX005 SOC TD,TD		CP1||FT2||RMA_ROOM||RMA_HOT	CP1		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row11,MSX005 SOC TD,TD		T0TX_ROOM||T0TX_HOT	CP1		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_Typ_SOC_MSX005_TD_CCX0_PL00_SSC_Limiter_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row12,MSX005 SOC TD,TD		CP1||FT2||RMA_ROOM||RMA_HOT	CP1		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Rest_SOC_MSX005_TD_CCX0_PL00_SSC_Rest_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row12,MSX005 SOC TD,TD		T0TX_ROOM||T0TX_HOT	CP1		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Rest_Typ_SOC_MSX005_TD_CCX0_PL00_SSC_Rest_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row13,MSX005 SOC TD,TD		CP1||FT2||RMA_ROOM||RMA_HOT	FT2		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_SOC_MSX005_TD_CCX0_PL00_SSC_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row13,MSX005 SOC TD,TD		T0TX_ROOM||T0TX_HOT	FT2		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CCX0_PL00_SSC_Typ_SOC_MSX005_TD_CCX0_PL00_SSC_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row14,MSX005 SOC TD,TD		CP1||FT2||RMA_ROOM||RMA_HOT	CP1		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CAF0_CCB1_PL00_PL10_PRC_SOC_MSX005_TD_CAF0_CCB1_PL00_PL10_PRC_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row14,MSX005 SOC TD,TD		T0TX_ROOM||T0TX_HOT	CP1		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CAF0_CCB1_PL00_PL10_PRC_Typ_SOC_MSX005_TD_CAF0_CCB1_PL00_PL10_PRC_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row15,MSX005 SOC TD,TD		CP1||FT2||RMA_ROOM||RMA_HOT	FT2		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CAF0_CCB1_PL00_PRC_FT2_SOC_MSX005_TD_CAF0_CCB1_PL00_PRC_FT2_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row15,MSX005 SOC TD,TD		T0TX_ROOM||T0TX_HOT	FT2		no_pattern	Test	MS005_MSX005_SOC_MSX005_TD_CAF0_CCB1_PL00_PRC_FT2_Typ_SOC_MSX005_TD_CAF0_CCB1_PL00_PRC_FT2_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						If	(!F_SOC_TD_PIS && !F_SOC_TD_AT && !F_SOC_TD_AV && !F_SOC_TD_AD && !F_SOC_TD_MS && !F_SOC_TD_AV && !F_SOC_TD_SC&&!F_SOC_X_ANEALL) || F_Debug_all																															
+Instance_Bincut_BIST,Row476,MSX005 SOC BIST MRCL,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_32_NoHarv_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_TD_PIS && !F_SOC_TD_AT && !F_SOC_TD_AV && !F_SOC_TD_AD && !F_SOC_TD_MS && !F_SOC_TD_AV && !F_SOC_TD_SC&&!F_SOC_X_ANEALL) || F_Debug_all																															
+Instance_Bincut_BIST,Row476,MSX005 SOC BIST MRCL,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_32_Typ_NoHarv_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+Instance_Bincut_BIST,Row477,MSX005 SOC BIST MRCL,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_33_HarvAT_BV																					Flag-true	F_SOC_TD_AT									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row477,MSX005 SOC BIST MRCL,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_33_Typ_HarvAT_BV																					Flag-true	F_SOC_TD_AT									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row478,MSX005 SOC BIST MRCL,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_34_HarvPIS_BV																					Flag-true	F_SOC_TD_PIS									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row478,MSX005 SOC BIST MRCL,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_34_Typ_HarvPIS_BV																					Flag-true	F_SOC_TD_PIS									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row479,MSX005 SOC BIST MRCL,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_35_HarvAV_BV																					Flag-true	F_SOC_TD_AV									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row479,MSX005 SOC BIST MRCL,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_35_Typ_HarvAV_BV																					Flag-true	F_SOC_TD_AV									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row480,MSX005 SOC BIST MRCL,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_36_HarvAD_BV																					Flag-true	F_SOC_TD_AD									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row480,MSX005 SOC BIST MRCL,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_36_Typ_HarvAD_BV																					Flag-true	F_SOC_TD_AD									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row481,MSX005 SOC BIST MRCL,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_37_HarvMS_BV																					Flag-true	F_SOC_TD_MS									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row481,MSX005 SOC BIST MRCL,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_37_Typ_HarvMS_BV																					Flag-true	F_SOC_TD_MS									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row482,MSX005 SOC BIST MRCL,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_38_HarvSC_BV																					Flag-true	F_SOC_TD_SC									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row482,MSX005 SOC BIST MRCL,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_38_Typ_HarvSC_BV																					Flag-true	F_SOC_TD_SC									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row483,MSX005 SOC BIST MRCL,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_39_HarvANEALL_BV																					Flag-true	F_SOC_X_ANEALL									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row483,MSX005 SOC BIST MRCL,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MS005_MSX005_SocMbist_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_XXX_XXXXXX_SI_XXXX_39_Typ_HarvANEALL_BV																					Flag-true	F_SOC_X_ANEALL									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row16,MSX005 GPU TD,TD		CP1||FT2||RMA_ROOM||RMA_HOT	CP1,FT2		no_pattern	Test	MS005_GPU_MSX005_CFND_PL00_PL10_CFND_PL00_PL10_BV																					Flag-false	F_GFX0_X_GFXALL									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row16,MSX005 GPU TD,TD		T0TX_ROOM||T0TX_HOT	CP1,FT2		no_pattern	Test	MS005_GPU_MSX005_CFND_PL00_PL10_Typ_CFND_PL00_PL10_BV																					Flag-false	F_GFX0_X_GFXALL									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						If	(!F_GFX0_BIST_CNTR && !F_GFX0_X_GFXALL) || F_Debug_all																															
+Instance_Bincut_BIST,Row175,MSX005 GPU BIST,Mbist		CP1||FT2||RMA_ROOM||RMA_HOT			no_pattern	Test	MS005_GPU_MSX005_GpuMbist_PP_HIDA0_L_PLLP_BI_PSOC_BST_JTG_55N_MSXXXX_SI_SINGLE_PSOC_BIST_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CNTR && !F_GFX0_X_GFXALL) || F_Debug_all																															
+Instance_Bincut_BIST,Row175,MSX005 GPU BIST,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MS005_GPU_MSX005_GpuMbist_PP_HIDA0_L_PLLP_BI_PSOC_BST_JTG_55N_MSXXXX_SI_SINGLE_Typ_PSOC_BIST_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						print	"Flow MS005_TD_Mbist_BV Stop"																															
+						Test	MS005_TD_Mbist_BV_Footer_1																															
+						Return																																

@@ -1,0 +1,47 @@
+﻿// ReSharper disable InconsistentNaming
+namespace BinCutScriptLib.Base
+{
+    public enum EnumBcConfig
+    {
+        IGXL_RunOptions_DoAll,
+        IGXL_RunOptions_OverrideFailstop,
+        Flag_Vddbinning_Fail_Stop,
+        Flag_Vddbinning_IDS_fail,
+        Flag_Vddbinning_Power_Binning_Fail_Stop,
+        Flag_Enable_PowerBinning_Harvest,
+        Flag_Vddbinning_Interpolation_fail,
+        GradeSearchMethod_Selected,
+        Flag_IDS_Distribution_enable,
+        start_eqn,
+        Flag_Only_Check_PV_for_VoltageHeritage,
+        Flag_use_new_Interpolation_Monotonicity,
+        Flag_use_COFInstance,
+        Flag_CP1_IDS_NotUseHarvResult,
+        Mapping_TestJobName_to_BincutJobName,
+        Vdd_Binning_Def_appA_1,
+        Vdd_Binning_Def_appA_2,
+        Vdd_Binning_Def_appA_3,
+        Non_Binning_Rail,
+        Power_Binning_Seq_Sheet,
+        bincut_eqn_appA,
+        bincut_ate_condition_non,
+        Flag_Skip_Printing_Safe_Voltage,
+        Flag_Skip_Printing_SelSrm_DSSC_Info,
+        Vddbin_COF_StepInheritance,
+        Conventional,
+        FollowingModes,
+        PerformanceModes,
+        BinningDomains,
+        Is_BinCutJob_for_StepSearch,
+        Flag_cross_domain_check_enable,
+        Flag_PowerBinning_Harvest_Bin_FieldName,
+        Flag_Vddbin_HarvestBin4_Run_Bin1EQN1,
+        Flag_New_Selsrm_Vth_enable,
+        Flag_T0TX_ROOM_format,
+        Flag_T0TX_HOT_format,
+        Flag_SyncUp_DCVS_Output_enable_Printing,
+        Vddbin_COF_StepInheritance_New_Logic,
+        Debug_BinCutCOF_E1,
+        Debug_BinCutCOF_Stored
+    }
+}

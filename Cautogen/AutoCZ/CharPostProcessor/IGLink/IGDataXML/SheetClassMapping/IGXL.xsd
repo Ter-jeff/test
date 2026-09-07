@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://Teradyne.Oasis.IGData.Utilities/IGXL.xsd"
+      elementFormDefault="qualified"
+      xmlns="http://Teradyne.Oasis.IGData.Utilities/IGXL.xsd"
+      xmlns:mstns="http://Teradyne.Oasis.IGData.Utilities/IGXL.xsd"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="IGXL">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="SheetItemClass" type="SheetObjMap" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="version" use="required">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="\d+\.\d+\.\d+"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="ordered" type="xs:boolean" default="false"/>
+      </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="SheetObjMap">
+    <xs:sequence>
+      <xs:element name="Field" type="SheetField" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="SequenceProperty" type="ClassSequenceProperty" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="InnerObj" type="ClassInnerObj" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="sheetname" type="xs:string" use="required"/>
+    <xs:attribute name="sheetversion" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="\d+\.\d+"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="SheetField">
+    <xs:attribute name="fieldName" type="xs:string" use="required"/>
+    <xs:attribute name="rowIndex" type="xs:int" use="required"/>
+    <xs:attribute name="columnIndex" type="xs:int" use="required"/>
+    <xs:attribute name="nameInSheet" type="xs:string"/>
+    <xs:attribute name="defaultValue" default=" "/>
+  </xs:complexType>
+
+  <xs:complexType name="ClassProperty">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="isRelative" type="xs:boolean" default="false"/>
+    <xs:attribute name="relativePropertyName" type="xs:string"/>
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="String"/>
+          <xs:enumeration value="Long"/>
+          <xs:enumeration value="Int"/>
+          <xs:enumeration value="Short"/>
+          <xs:enumeration value="Double"/>
+          <xs:enumeration value="Float"/>
+          <xs:enumeration value="List"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="indexInSheet" type="xs:int" default="0"/>
+    <xs:attribute name="nameInSheet" type="xs:string"/>
+    <xs:attribute name="isGroupKey" type="xs:boolean" default="false"/>
+    <xs:attribute name="isEmptyRowJudgeKey" type="xs:boolean" default="false"/>
+  </xs:complexType>
+  
+  <xs:complexType name="ClassSequenceProperty">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="ClassInnerObj">
+    <xs:sequence>
+      <xs:element name="Property" type="ClassProperty" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="InnerObjComplex" type="ClassInnerObj" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="type" type="xs:string" use="required"/>
+     <xs:attribute name="fullType" type="xs:string" use="required"/>
+    <xs:attribute name="isMultiRow" type="xs:boolean" default="false"/>
+    <xs:attribute name="isVariant" type="xs:boolean" default="false"/>
+    <xs:attribute name="isRelative" type="xs:boolean" default="false"/>
+    <xs:attribute name="relativePropertyName" type="xs:string"/>
+  </xs:complexType>
+
+</xs:schema>

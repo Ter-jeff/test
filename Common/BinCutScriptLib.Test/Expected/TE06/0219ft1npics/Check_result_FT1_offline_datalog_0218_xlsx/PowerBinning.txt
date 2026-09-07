@@ -1,0 +1,7 @@
+Type	Parameter	X:-1 Y:-1	X:-1 Y:-1
+			
+			
+			
+PowerBinning Check		P	P
+IsPowerBinningFail		N/A	N/A
+IsPowerBinningBinXFail		N/A	N/A

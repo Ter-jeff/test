@@ -1,0 +1,29 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						assign-integer	EVS_Max_Step 1																															
+		Vtrig				assign-integer	EVS_Max_Step 11																															
+		Vtrig || IVCurve				flag-true	F_Debug_all																															
+						flag-false	F_EVS_Tight																															
+						flag-false	F_EVS_PwrDown																															
+						flag-false	F_EVS_No_Stress																															
+						call	Flow_EVS_ECPU_mbist_w0																															
+						call	Flow_EVS_ECPU_mbist_w1																															
+						call	Flow_EVS_PCPU_PCORES_mbist_w0																															
+						call	Flow_EVS_PCPU_PCORES_mbist_w1																															
+						call	Flow_EVS_PCPU_CPM_mbist_w0																															
+						call	Flow_EVS_PCPU_CPM_mbist_w1																															
+						call	Flow_EVS_ECPU_Scan_EVS00																															
+						call	Flow_EVS_ECPU_Scan_EVS11																															
+						call	Flow_EVS_PCPU_Scan_EVS00																															
+						call	Flow_EVS_PCPU_Scan_EVS11																															
+						call	Flow_EVS_GFX_MBIST_INVERSE																															
+						call	Flow_EVS_GFX_MBIST_TRUE																															
+						call	Flow_EVS_SOC_Scan_EVS0																															
+						call	Flow_EVS_SOC_Scan_EVS1																															
+						call	Flow_EVS_GFX_Scan_EVS0000																															
+						call	Flow_EVS_GFX_Scan_EVS1111																															
+						call	Flow_EVS_SOC_mbist_WD																															
+						call	Flow_EVS_SOC_mbist_WB																															
+						Return																																

@@ -1,0 +1,12 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table	=HYPERLINK("#'Data'!1:1","Return")																																				
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						set-error-bin										21		999																				
+						Test	Enable_Charz_mode																															
+						call	Flow_LVCC_CZ_TDF_9S_CP1																															
+						call	Flow_LVCC_CZ_MBist_9S_CP1																															
+						call	Flow_LVCC_CZ_RET_9S_CP1																															
+						call	Flow_LVCC_CZ_CPM_9S_CP1																															
+						Test	Disable_Charz_mode																															
+						return																																

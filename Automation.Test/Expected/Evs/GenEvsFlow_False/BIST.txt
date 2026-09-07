@@ -1,0 +1,43 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	BIST_Header_1																															
+						print	"Flow BIST Start"																															
+						For	EVS_INDEX=0; EVS_INDEX< EVS_Max_Step; EVS_INDEX++																															
+						If	F_BIST																															
+EVS_GFX_SHEET,Row2,Flow_EVS_GFX_HV		YES				Test	EVS_GFX_PATSET_ROW2_INST_GFX_1_HV														F_EVS_GFXBist_Alarm																	
+						EndIf																																
+						If	F_BIST																															
+EVS_GFX_SHEET,Row2,Flow_EVS_GFX_HV		YES				Test	EVS_GFX_PATSET_ROW2_INST_GFX_1_HV														F_EVS_GFXBist_Alarm																	
+						EndIf																																
+						If	F_BIST																															
+EVS_GFX_SHEET,Row2,Flow_EVS_GFX_HV		YES&& A_EVS				Test	EVS_Static_Power_Ramp_Multi_GFX_INST_GFX_1														F_EVS_GFXBist_Alarm																	
+						EndIf																																
+						If	F_BIST																															
+EVS_GFX_SHEET,Row2,Flow_EVS_GFX_HV		YES				Test	EVS_GFX_PATSET_ROW2_INST_GFX_1_LV														F_EVS_GFXBist_Alarm																	
+						EndIf																																
+						If	F_BIST																															
+EVS_GFX_SHEET,Row2,Flow_EVS_GFX_HV		YES&& A_EVS				Test	EVS_Static_Power_Ramp_Multi_GFX_INST_GFX_1														F_EVS_GFXBist_Alarm																	
+						EndIf																																
+						If	F_BIST																															
+EVS_GFX_SHEET,Row2,Flow_EVS_GFX_HV		YES				Test	EVS_GFX_PATSET_ROW2_INST_GFX_1_NV														F_EVS_GFXBist_Alarm																	
+						EndIf																																
+						If	F_BIST																															
+EVS_GFX_SHEET,Row2,Flow_EVS_GFX_HV		YES&& A_EVS				Test	EVS_Static_Power_Ramp_Multi_GFX_INST_GFX_1														F_EVS_GFXBist_Alarm																	
+						EndIf																																
+						If	F_BIST																															
+EVS_GFX_SHEET,Row2,Flow_EVS_GFX_HV		YES				Test	EVS_GFX_PATSET_ROW2_INST_GFX_1_HV														F_EVS_GFXBist_Alarm																	
+						EndIf																																
+						If	F_BIST																															
+EVS_GFX_SHEET,Row2,Flow_EVS_GFX_HV		YES&& A_EVS				Test	EVS_Static_Power_Ramp_Multi_GFX_INST_GFX_1														F_EVS_GFXBist_Alarm																	
+						EndIf																																
+						Bintable	Bin_EVS_GFXBist_Alarm																															
+						Bintable	Bin_EVS_GFXBist_Alarm																															
+						Bintable	Bin_EVS_GFXBist_Alarm																															
+						Bintable	Bin_EVS_GFXBist_Alarm																															
+						Bintable	Bin_EVS_GFXBist_Alarm																															
+						Next																																
+						print	"Flow BIST Stop"																															
+						Test	BIST_Footer_1																															
+						Return																																

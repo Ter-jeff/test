@@ -1,0 +1,394 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						flag-false	Bin01																															
+						flag-false	Bin41																															
+						flag-false	Bin02																															
+						flag-false	Bin42																															
+						flag-false	Bin07																															
+						flag-false	Bin08																															
+						flag-false	Bin09																															
+						flag-false	Bin10																															
+						flag-false	Bin11																															
+						flag-false	Bin12																															
+						flag-false	Bin13																															
+						flag-false	Bin14																															
+						flag-false	Bin15																															
+						flag-false	Bin16																															
+						flag-false	Bin17																															
+						flag-false	Bin22																															
+						flag-false	F_Bin01_AllPower																															
+						flag-false	F_Bin41_AllPower_NoTurbo																															
+						flag-false	F_Bin02_LowPower																															
+						flag-false	F_Bin42_LowPower_NoTurbo																															
+						flag-false	F_Bin07_1FSTP																															
+						flag-false	F_Bin08_2FSTP																															
+						flag-false	F_Bin09_IS																															
+						flag-false	F_Bin10_ED																															
+						flag-false	F_Bin11_AT02																															
+						flag-false	F_Bin12_AT13																															
+						flag-false	F_Bin13_1PCPU																															
+						flag-false	F_Bin14_1MCPU																															
+						flag-false	F_Bin15_1ECPU																															
+						flag-false	F_Bin16_1ANE																															
+						flag-false	F_Bin17_SC																															
+						flag-false	F_Bin101_AllPower																															
+						flag-false	F_Bin141_AllPower_NoTurbo																															
+						flag-false	F_Bin102_LowPower																															
+						flag-false	F_Bin142_LowPower_NoTurbo																															
+						flag-false	F_Bin107_1FSTP																															
+						flag-false	F_Bin108_2FSTP																															
+						flag-false	F_Bin109_IS																															
+						flag-false	F_Bin110_ED																															
+						flag-false	F_Bin111_AT02																															
+						flag-false	F_Bin112_AT13																															
+						flag-false	F_Bin113_1PCPU																															
+						flag-false	F_Bin114_1MCPU																															
+						flag-false	F_Bin115_1ECPU																															
+						flag-false	F_Bin116_1ANE																															
+						flag-false	F_Bin117_SC																															
+						call	Flow_FlagOperation																															
+						Test	Harvest_Summary_Before_Harvesting_Decision_BC		48150000																													
+						call	Flow_FlagOperation_Post																															
+						If	!F_GFX0_HARV_CORE_11_0_SUM&&!F_GFX0_HARV_CORE_5_0_SUM&&!F_GFX0_HARV_CORE_11_6_SUM&&!F_HCPU_HARV_CORE_1_0_SUM&&!F_HCPU_HARV_CORE_5_2_SUM&&!F_ECPU_HARV_CORE_5_0_SUM&&!F_SOC_HARV_ED_1_0_SUM&&!F_ANE0_HARV_CORE_16_0_SUM&&!F_ANE1_HARV_CORE_16_0_SUM&&!F_ANE0_BIST_CORE_16_0_SUM&&!F_ANE1_BIST_CORE_16_0_SUM&&!F_ANEX_HARV_CORE_33_0_SUM																															
+						If	!F_PowerBinning0 && !F_PowerBinning1 && F_PowerBinning2 && !F_PowerBinning3 && F_Enable_PCPU_Turbo && F_Enable_GPU_Turbo && !F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin01																															
+						flag-true	F_Bin01_AllPower																															
+						flag-true	F_FUSE_PCPU_Turbo																															
+						flag-true	F_FUSE_GPU_Turbo																															
+						flag-false	F_FUSE_PCPU_Turbo_Disable																															
+						flag-false	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48151000																													
+						ElseIf	!F_PowerBinning0 && !F_PowerBinning1 && F_PowerBinning2 && !F_PowerBinning3 && !F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin41																															
+						flag-true	F_Bin41_AllPower_NoTurbo																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48152000																													
+						ElseIf	!F_PowerBinning0 && F_PowerBinning1 && !F_PowerBinning2 && !F_PowerBinning3 && F_Enable_PCPU_Turbo && F_Enable_GPU_Turbo && !F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin02																															
+						flag-true	F_Bin02_LowPower																															
+						flag-true	F_FUSE_PCPU_Turbo																															
+						flag-true	F_FUSE_GPU_Turbo																															
+						flag-false	F_FUSE_PCPU_Turbo_Disable																															
+						flag-false	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48153000																													
+						ElseIf	!F_PowerBinning0 && F_PowerBinning1 && !F_PowerBinning2 && !F_PowerBinning3 && !F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin42																															
+						flag-true	F_Bin42_LowPower_NoTurbo																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48154000																													
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_1 && F_GFX0_HARV_CORE_5_0_SUM_0To1 && F_GFX0_HARV_CORE_11_6_SUM_0To1 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin07																															
+						flag-true	F_Bin07_1FSTP																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48155000																													
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_2 && F_GFX0_HARV_CORE_5_0_SUM_1 && F_GFX0_HARV_CORE_11_6_SUM_1 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin08																															
+						flag-true	F_Bin08_2FSTP																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48156000																													
+						ElseIf	F_Enable_PCPU_Turbo && F_Enable_GPU_Turbo && !F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin09																															
+						flag-true	F_Bin09_IS																															
+						flag-true	F_FUSE_PCPU_Turbo																															
+						flag-true	F_FUSE_GPU_Turbo																															
+						flag-false	F_FUSE_PCPU_Turbo_Disable																															
+						flag-false	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48157000																													
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_1 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin10																															
+						flag-true	F_Bin10_ED																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48158000																													
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin11																															
+						flag-true	F_Bin11_AT02																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48159000																													
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT2 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin12																															
+						flag-true	F_Bin12_AT13																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48160000																													
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_1 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin13																															
+						flag-true	F_Bin13_1PCPU																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48161000																													
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_1 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin14																															
+						flag-true	F_Bin14_1MCPU																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48162000																													
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_1 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin15																															
+						flag-true	F_Bin15_1ECPU																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48163000																													
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To17 && F_ANE1_HARV_CORE_16_0_SUM_0To17 && F_ANE0_BIST_CORE_16_0_SUM_0To17 && F_ANE1_BIST_CORE_16_0_SUM_0To17 && F_ANEX_HARV_CORE_33_0_SUM_0To34 && !F_ANEX_HARV_ALL_AND && F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin16																															
+						flag-true	F_Bin16_1ANE																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48164000																													
+						ElseIf	!F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin17																															
+						flag-true	F_Bin17_SC																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-false	F_FUSE_Alarm1																															
+						flag-true	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48165000																													
+						ElseIf	!F_PowerBinning0 && !F_PowerBinning1 && F_PowerBinning2 && !F_PowerBinning3 && F_Enable_PCPU_Turbo && F_Enable_GPU_Turbo && F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin01																															
+						flag-true	F_Bin101_AllPower																															
+						flag-true	F_FUSE_PCPU_Turbo																															
+						flag-true	F_FUSE_GPU_Turbo																															
+						flag-false	F_FUSE_PCPU_Turbo_Disable																															
+						flag-false	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48166000																													
+						ElseIf	!F_PowerBinning0 && !F_PowerBinning1 && F_PowerBinning2 && !F_PowerBinning3 && F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin41																															
+						flag-true	F_Bin141_AllPower_NoTurbo																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48167000																													
+						ElseIf	!F_PowerBinning0 && F_PowerBinning1 && !F_PowerBinning2 && !F_PowerBinning3 && F_Enable_PCPU_Turbo && F_Enable_GPU_Turbo && F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin02																															
+						flag-true	F_Bin102_LowPower																															
+						flag-true	F_FUSE_PCPU_Turbo																															
+						flag-true	F_FUSE_GPU_Turbo																															
+						flag-false	F_FUSE_PCPU_Turbo_Disable																															
+						flag-false	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48168000																													
+						ElseIf	!F_PowerBinning0 && F_PowerBinning1 && !F_PowerBinning2 && !F_PowerBinning3 && F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin42																															
+						flag-true	F_Bin142_LowPower_NoTurbo																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48169000																													
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_1 && F_GFX0_HARV_CORE_5_0_SUM_0To1 && F_GFX0_HARV_CORE_11_6_SUM_0To1 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin07																															
+						flag-true	F_Bin107_1FSTP																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48170000																													
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_2 && F_GFX0_HARV_CORE_5_0_SUM_1 && F_GFX0_HARV_CORE_11_6_SUM_1 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin08																															
+						flag-true	F_Bin108_2FSTP																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48171000																													
+						ElseIf	F_Enable_PCPU_Turbo && F_Enable_GPU_Turbo && F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin09																															
+						flag-true	F_Bin109_IS																															
+						flag-true	F_FUSE_PCPU_Turbo																															
+						flag-true	F_FUSE_GPU_Turbo																															
+						flag-false	F_FUSE_PCPU_Turbo_Disable																															
+						flag-false	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48172000																													
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_1 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin10																															
+						flag-true	F_Bin110_ED																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48173000																													
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin11																															
+						flag-true	F_Bin111_AT02																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48174000																													
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT2 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin12																															
+						flag-true	F_Bin112_AT13																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48175000																													
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_1 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin13																															
+						flag-true	F_Bin113_1PCPU																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48176000																													
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_1 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin14																															
+						flag-true	F_Bin114_1MCPU																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48177000																													
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_1 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin15																															
+						flag-true	F_Bin115_1ECPU																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48178000																													
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && !F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To17 && F_ANE1_HARV_CORE_16_0_SUM_0To17 && F_ANE0_BIST_CORE_16_0_SUM_0To17 && F_ANE1_BIST_CORE_16_0_SUM_0To17 && F_ANEX_HARV_CORE_33_0_SUM_0To34 && !F_ANEX_HARV_ALL_AND && F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin16																															
+						flag-true	F_Bin116_1ANE																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48179000																													
+						ElseIf	F_EVS_Alarm_CP1 && F_GFX0_HARV_CORE_11_0_SUM_0 && F_GFX0_HARV_CORE_5_0_SUM_0 && F_GFX0_HARV_CORE_11_6_SUM_0 && F_HCPU_HARV_CORE_1_0_SUM_0 && F_HCPU_HARV_CORE_5_2_SUM_0 && F_ECPU_HARV_CORE_5_0_SUM_0 && !F_SOC_HARV_IS && F_SOC_HARV_ED_1_0_SUM_0 && !F_SOC_HARV_AT02 && !F_SOC_HARV_AT13 && !F_SOC_HARV_AT0 && !F_SOC_HARV_AT1 && !F_SOC_HARV_AT2 && !F_SOC_HARV_AT3 && F_SOC_HARV_SC && F_ANE0_HARV_CORE_16_0_SUM_0To1 && F_ANE1_HARV_CORE_16_0_SUM_0To1 && F_ANE0_BIST_CORE_16_0_SUM_0To1 && F_ANE1_BIST_CORE_16_0_SUM_0To1 && F_ANEX_HARV_CORE_33_0_SUM_0To2 && !F_ANE0_HARV_CNTR && !F_ANE1_HARV_CNTR && !F_ANEX_HARV_ALL_AND && !F_ANEX_HARV_ALL_OR																															
+						flag-true	Bin17																															
+						flag-true	F_Bin117_SC																															
+						flag-false	F_FUSE_PCPU_Turbo																															
+						flag-false	F_FUSE_GPU_Turbo																															
+						flag-true	F_FUSE_PCPU_Turbo_Disable																															
+						flag-true	F_FUSE_GPU_Turbo_Disable																															
+						flag-true	F_FUSE_Alarm1																															
+						flag-false	F_FUSE_Alarm0																															
+						call	Flow_SetBinFuse																															
+						Test	Harvest_eFuse_Write_CP2		48180000																													
+						Else																																
+						flag-true	F_Harvest_Other_Combination																															
+						Bintable	Bin_other_Harvest_Unexpected_Combination_Failure																															
+						EndIf																																
+						Else																																
+						flag-true	F_Harvest_Other_Combination																															
+						Bintable	Bin_other_Harvest_Unexpected_Combination_Failure																															
+						EndIf																																
+						Test	Harvest_Summary_After_Harvesting_Decision_BC		48181000																													
+						Return																																

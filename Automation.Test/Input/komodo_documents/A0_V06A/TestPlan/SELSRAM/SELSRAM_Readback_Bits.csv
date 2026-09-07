@@ -1,0 +1,6 @@
+﻿Pattern,bit order,Logic Pins
+mn_kmda0_s_fulp_an_ptsx_pff_jtg_uns_allfrv_si_srmread,0,VDD_DISP
+,1,VDD_GPU
+,2,VDD_DCS_DDR
+,3,VDD_SOC
+,4,VDD_SOC

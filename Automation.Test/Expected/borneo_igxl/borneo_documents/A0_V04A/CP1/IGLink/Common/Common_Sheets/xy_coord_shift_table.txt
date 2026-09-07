@@ -1,0 +1,5 @@
+ChannelMap	Site	XCoordShift	YCoordShift	
+ChannelMap_CP_4_site	0	0	0	
+ChannelMap_CP_4_site	1	0	-3	
+ChannelMap_CP_4_site	2	4	0	
+ChannelMap_CP_4_site	3	4	-3	

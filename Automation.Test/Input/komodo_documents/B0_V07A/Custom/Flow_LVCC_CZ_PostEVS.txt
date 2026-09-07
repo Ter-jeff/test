@@ -1,0 +1,28 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"*print: PowerChain_LVCC_Header start*"																															
+		!ShmooOnly				Test	DFTL_CPU_PCPU_MPXXXX_PWRChain_PWRChain_X_X_X_X_X_CZ_PostEVS_X_X_X		12060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_PCPU_MPXXXX_PWRChain_PWRChain_X_X_X_X_X_CZ_PostEVS_X_X_X PWRCHAIN_VDDPCPU_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_CPU_ECPU_MEXXXX_PWRChain_PWRChain_X_X_X_X_X_CZ_PostEVS_X_X_X		14060												F_Dummy																	
+		!TestOnly				characterize	DFTL_CPU_ECPU_MEXXXX_PWRChain_PWRChain_X_X_X_X_X_CZ_PostEVS_X_X_X PWRCHAIN_VDDECPU_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_GPU_SOC_MSXXXX_PWRChain_PWRChain_X_X_X_X_X_CZ_PostEVS_X_X_X		16060												F_Dummy																	
+		!TestOnly				characterize	DFTL_GPU_SOC_MSXXXX_PWRChain_PWRChain_X_X_X_X_X_CZ_PostEVS_X_X_X PWRCHAIN_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MSXXXX_PWRChain_PWRChain_X_X_X_X_X_CZ_PostEVS_X_X_X		18060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MSXXXX_PWRChain_PWRChain_X_X_X_X_X_CZ_PostEVS_X_X_X PWRCHAIN_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MSXXXX_PWRChain_PWRChain_DelayOn_X_X_X_X_CZ_PostEVS_X_X_X		20060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MSXXXX_PWRChain_PWRChain_DelayOn_X_X_X_X_CZ_PostEVS_X_X_X PWRCHAIN_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MSXXXX_PWRChain_PWRChain_MemOn_X_X_X_X_CZ_PostEVS_X_X_X		22060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MSXXXX_PWRChain_PWRChain_MemOn_X_X_X_X_CZ_PostEVS_X_X_X PWRCHAIN_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+		!ShmooOnly				Test	DFTL_SOC_SOC_MSXXXX_PWRChain_PWRChain_MemOff_X_X_X_X_CZ_PostEVS_X_X_X		24060												F_Dummy																	
+		!TestOnly				characterize	DFTL_SOC_SOC_MSXXXX_PWRChain_PWRChain_MemOff_X_X_X_X_CZ_PostEVS_X_X_X PWRCHAIN_VDDSOC_Jump														F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						print	"*print: PowerChain_Lvcc_Footer end*"																															
+						return																																

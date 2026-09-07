@@ -1,0 +1,16 @@
+Pass Rate	91.67%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	12	Pass Rows	11																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	5	5						print	"Flow Flow_efuse_BankRead Start"																														
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	6	6						flag-clear	F_BankRead_Enable																														
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	7	7		Enable_Flow_efuse_BankRead				flag-true	F_BankRead_Enable																														
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	8	8						If	F_BankRead_Enable																														
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	9	9						Test	Config_Read_MR1_NV														F_Config_BankRead																
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	10	10						Bintable	Bin_EFUSE_RT_Config_BankRead																														
+M	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	11	11		CFG_Early_Enable => (CFG_Early_Enable)&&(CP1)	CP1 => 			call	Flow_efuse_Config_Early																														
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	12	12						Test	ECID_Read_MR1_NV														F_ECID_BankRead																
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	13	13						Bintable	Bin_EFUSE_RT_ECID_BankRead																														
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	14	14						EndIf																															
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	15	15						print	"Flow Flow_efuse_BankRead Stop"																														
+P	Flow_efuse_BankRead.txt	Flow_efuse_BankRead.txt	16	16						return																															

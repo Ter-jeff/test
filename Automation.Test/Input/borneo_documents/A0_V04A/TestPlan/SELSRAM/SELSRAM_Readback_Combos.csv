@@ -1,0 +1,15 @@
+﻿WRITE,READ,CHECK,,comment
+00000,000000,V,,all-zeros
+11111,111111,V,,all-ones
+10000,100000,V,,walking-1
+01000,010000,V,,walking-1
+00100,001000,V,,walking-1
+00010,000100,V,,walking-1
+00001,000011,V,,walking-1
+01111,011111,V,,walking-0
+10111,101111,V,,walking-0
+11011,110111,V,,walking-0
+11101,111011,V,,walking-0
+11110,111100,V,,walking-0
+01010,010100,,,checkerboard
+10101,101011,,,reversecheckerboard

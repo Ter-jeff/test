@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NeedSheetsConfig xmlns="http://tempuri.org/NeedSheetsConfig.xsd">
+	<TestPlan>
+		<NeedSheetItem ItemName="TestSettingTbl" SheetName = "TestSetting_\w+"/>
+		<NeedSheetItem ItemName="PowerMerge" SheetName = "POWER_PowerMerge"/>
+		<NeedSheetItem ItemName="ContiDcTest" SheetName = "DCTEST_Continuity"/>
+		<NeedSheetItem ItemName="ContiIo" SheetName = "IO_Continuity"/>
+		<NeedSheetItem ItemName="IoGroup" SheetName = "IO_PinGroup"/>
+		<NeedSheetItem ItemName="PinMap" SheetName = "IO_PinMap"/>
+		<NeedSheetItem ItemName="MainFlow" SheetName = "Flow_Main"/>
+		<NeedSheetItem ItemName="HardIpDc" SheetName = "HardIp_DC"/>
+		<NeedSheetItem ItemName="HardIpDcDefault" SheetName = "HardIp_DCDefault"/>
+		<NeedSheetItem ItemName="IOLevels" SheetName = "IO_Levels"/>
+ 
+		<NeedSheetItem ItemName="PowerInfo" SheetName = "PowerInfo"/>
+	</TestPlan>
+	<Scgh>
+		<NeedSheetItem ItemName="ScanScg" SheetName = "SC_PC"/>
+		<NeedSheetItem ItemName="MbistCharScg" SheetName = "BI_PC"/>
+		<NeedSheetItem ItemName="PMICscgh" SheetName = "PMIC_PC"/>
+	</Scgh>
+	<NwireRelay>
+		<NeedSheetItem ItemName="FreeRunClk" SheetName = "FreeRunningClock"/>
+		<NeedSheetItem ItemName="Relay" SheetName = "Relay"/>
+	</NwireRelay>
+	<IoMapping>
+		<NeedSheetItem ItemName="IoMapping" SheetName = "IO_Mapping"/>
+	</IoMapping>
+</NeedSheetsConfig>

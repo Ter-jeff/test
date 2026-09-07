@@ -1,0 +1,340 @@
+ > tsetJTAG 1 0 0 1 X 1 ; // 3135 V:150 C:151 
+ > tsetJTAG 1 0 1 1 X 1 ; // 3156 V:151 C:152 
+ > tsetJTAG 1 0 1 1 X 1 ; // 3177 V:152 C:153 
+repeat 9
+ > tsetJTAG 1 0 0 1 X 1 ; // 3198 V:153 C:154 
+ > tsetJTAG 1 1 1 1 X 1 ; // 3386 V:154 C:163 
+ > tsetJTAG 1 0 1 1 X 1 ; // 3407 V:155 C:164 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3428 V:156 C:165 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3448 V:157 C:166 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3469 V:158 C:167 
+ > tsetJTAG 1 0 1 1 X 1 ; // 3490 V:159 C:168 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3511 V:160 C:169 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3532 V:161 C:170 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3553 V:162 C:171 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3574 V:163 C:172 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3595 V:164 C:173 
+ > tsetJTAG 1 1 0 1 X 1 ; // 3616 V:165 C:174 
+ > tsetJTAG 1 1 0 1 X 1 ; // 3637 V:166 C:175 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3658 V:167 C:176 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3678 V:168 C:177 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3699 V:169 C:178 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3720 V:170 C:179 
+ > tsetJTAG 1 1 0 1 X 1 ; // 3741 V:171 C:180 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3762 V:172 C:181 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3783 V:173 C:182 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3804 V:174 C:183 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3825 V:175 C:184 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3846 V:176 C:185 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3866 V:177 C:186 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3887 V:178 C:187 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3908 V:179 C:188 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3929 V:180 C:189 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3950 V:181 C:190 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3971 V:182 C:191 
+ > tsetJTAG 1 0 0 1 X 1 ; // 3992 V:183 C:192 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4013 V:184 C:193 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4034 V:185 C:194 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4055 V:186 C:195 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4076 V:187 C:196 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4096 V:188 C:197 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4117 V:189 C:198 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4138 V:190 C:199 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4159 V:191 C:200 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4180 V:192 C:201 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4201 V:193 C:202 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4222 V:194 C:203 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4243 V:195 C:204 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4264 V:196 C:205 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4284 V:197 C:206 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4305 V:198 C:207 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4326 V:199 C:208 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4347 V:200 C:209 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4368 V:201 C:210 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4389 V:202 C:211 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4410 V:203 C:212 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4431 V:204 C:213 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4452 V:205 C:214 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4473 V:206 C:215 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4494 V:207 C:216 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4514 V:208 C:217 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4535 V:209 C:218 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4556 V:210 C:219 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4577 V:211 C:220 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4598 V:212 C:221 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4619 V:213 C:222 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4640 V:214 C:223 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4661 V:215 C:224 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4682 V:216 C:225 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4702 V:217 C:226 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4723 V:218 C:227 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4744 V:219 C:228 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4765 V:220 C:229 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4786 V:221 C:230 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4807 V:222 C:231 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4828 V:223 C:232 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4849 V:224 C:233 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4870 V:225 C:234 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4891 V:226 C:235 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4912 V:227 C:236 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4932 V:228 C:237 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4953 V:229 C:238 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4974 V:230 C:239 
+ > tsetJTAG 1 0 0 1 X 1 ; // 4995 V:231 C:240 
+ > tsetJTAG 1 0 0 1 X 1 ; // 5016 V:232 C:241 
+ > tsetJTAG 1 0 0 1 X 1 ; // 5037 V:233 C:242 
+ > tsetJTAG 1 0 0 1 X 1 ; // 5058 V:234 C:243 
+ > tsetJTAG 1 0 0 1 X 1 ; // 5079 V:235 C:244 
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5100 V:236 C:245 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[0]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5120 V:237 C:246 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[1]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5141 V:238 C:247 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[2]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5162 V:239 C:248 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[3]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5183 V:240 C:249 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[4]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5204 V:241 C:250 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[5]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5225 V:242 C:251 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[6]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5246 V:243 C:252 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[7]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5267 V:244 C:253 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[8]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5288 V:245 C:254 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[9]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5309 V:246 C:255 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[10]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5330 V:247 C:256 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[11]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5350 V:248 C:257 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[12]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5371 V:249 C:258 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[13]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5392 V:250 C:259 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[14]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5413 V:251 C:260 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[15]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5434 V:252 C:261 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[16]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5455 V:253 C:262 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[17]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5476 V:254 C:263 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[18]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5497 V:255 C:264 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[19]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5518 V:256 C:265 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[20]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5538 V:257 C:266 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[21]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5559 V:258 C:267 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[22]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5580 V:259 C:268 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[23]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5601 V:260 C:269 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[24]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5622 V:261 C:270 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[25]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5643 V:262 C:271 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[26]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5664 V:263 C:272 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[27]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5685 V:264 C:273 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[28]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5706 V:265 C:274 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[29]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 0 1 X 1 ; // 5727 V:266 C:275 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[30]  
+((JTAG_TDI):DigSrc = Send)
+ > tsetJTAG 1 D 1 1 X 1 ; // 5748 V:267 C:276 // Source Pin = JTAG_TDI sgmt0 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__address_csr[31]  
+ > tsetJTAG 1 0 1 1 X 1 ; // 5768 V:268 C:277 
+repeat 153
+ > tsetJTAG 1 0 0 1 X 1 ; // 5789 V:269 C:278 
+ > tsetJTAG 1 0 1 1 X 1 ; // 8987 V:270 C:431 
+ > tsetJTAG 1 0 1 1 X 1 ; // 9008 V:271 C:432 
+repeat 9
+ > tsetJTAG 1 0 0 1 X 1 ; // 9029 V:272 C:433 
+ > tsetJTAG 1 1 1 1 X 1 ; // 9217 V:273 C:442 
+ > tsetJTAG 1 0 1 1 X 1 ; // 9238 V:274 C:443 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9259 V:275 C:444 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9280 V:276 C:445 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9300 V:277 C:446 
+ > tsetJTAG 1 0 1 1 X 1 ; // 9321 V:278 C:447 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9342 V:279 C:448 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9363 V:280 C:449 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9384 V:281 C:450 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9405 V:282 C:451 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9426 V:283 C:452 
+ > tsetJTAG 1 1 0 1 X 1 ; // 9447 V:284 C:453 
+ > tsetJTAG 1 1 0 1 X 1 ; // 9468 V:285 C:454 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9489 V:286 C:455 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9510 V:287 C:456 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9530 V:288 C:457 
+ > tsetJTAG 1 0 0 1 X 1 ; // 9551 V:289 C:458 
+ > tsetJTAG 1 1 0 1 X 1 ; // 9572 V:290 C:459 
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9593 V:291 C:460 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[0]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9614 V:292 C:461 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[1]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9635 V:293 C:462 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[2]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9656 V:294 C:463 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[3]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9677 V:295 C:464 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[4]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9698 V:296 C:465 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[5]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9718 V:297 C:466 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[6]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9739 V:298 C:467 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[7]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9760 V:299 C:468 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[8]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9781 V:300 C:469 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[9]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9802 V:301 C:470 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[10]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9823 V:302 C:471 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[11]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9844 V:303 C:472 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[12]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9865 V:304 C:473 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[13]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9886 V:305 C:474 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[14]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9907 V:306 C:475 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[15]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9928 V:307 C:476 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[16]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9948 V:308 C:477 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[17]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9969 V:309 C:478 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[18]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 9990 V:310 C:479 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[19]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10011 V:311 C:480 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[20]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10032 V:312 C:481 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[21]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10053 V:313 C:482 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[22]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10074 V:314 C:483 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[23]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10095 V:315 C:484 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[24]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10116 V:316 C:485 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[25]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10136 V:317 C:486 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[26]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10157 V:318 C:487 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[27]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10178 V:319 C:488 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[28]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10199 V:320 C:489 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[29]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10220 V:321 C:490 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[30]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10241 V:322 C:491 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[31]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10262 V:323 C:492 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[32]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10283 V:324 C:493 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[33]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10304 V:325 C:494 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[34]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10325 V:326 C:495 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[35]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10346 V:327 C:496 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[36]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10366 V:328 C:497 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[37]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10387 V:329 C:498 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[38]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10408 V:330 C:499 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[39]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10429 V:331 C:500 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[40]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10450 V:332 C:501 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[41]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10471 V:333 C:502 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[42]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10492 V:334 C:503 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[43]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10513 V:335 C:504 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[44]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10534 V:336 C:505 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[45]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10554 V:337 C:506 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[46]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10575 V:338 C:507 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[47]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10596 V:339 C:508 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[48]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10617 V:340 C:509 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[49]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10638 V:341 C:510 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[50]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10659 V:342 C:511 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[51]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10680 V:343 C:512 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[52]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10701 V:344 C:513 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[53]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10722 V:345 C:514 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[54]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10743 V:346 C:515 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[55]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10764 V:347 C:516 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[56]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10784 V:348 C:517 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[57]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10805 V:349 C:518 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[58]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10826 V:350 C:519 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[59]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10847 V:351 C:520 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[60]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10868 V:352 C:521 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[61]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10889 V:353 C:522 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[62]  
+((JTAG_TDO):DigCap = Store)
+ > tsetJTAG 1 0 0 1 V 1 ; // 10910 V:354 C:523 // Capture Pin = JTAG_TDO sgmt1 APB_64_BIT_REG_WDR_CCS__ASCWRAP_CTRL__ASC_CHINOOK__asc_CNTCVCTLRD__CNT_CV64_CTL__pct[63]  
+ > tsetJTAG 1 0 0 1 X 1 ; // 10931 V:355 C:524 
+ > tsetJTAG 1 0 0 1 X 1 ; // 10952 V:356 C:525 
+ > tsetJTAG 1 0 0 1 X 1 ; // 10972 V:357 C:526 
+ > tsetJTAG 1 1 0 1 X 1 ; // 10993 V:358 C:527 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11014 V:359 C:528 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11035 V:360 C:529 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11056 V:361 C:530 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11077 V:362 C:531 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11098 V:363 C:532 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11119 V:364 C:533 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11140 V:365 C:534 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11161 V:366 C:535 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11182 V:367 C:536 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11202 V:368 C:537 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11223 V:369 C:538 
+ > tsetJTAG 1 1 0 1 X 1 ; // 11244 V:370 C:539 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11265 V:371 C:540 
+ > tsetJTAG 1 1 0 1 X 1 ; // 11286 V:372 C:541 
+ > tsetJTAG 1 1 0 1 X 1 ; // 11307 V:373 C:542 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11328 V:374 C:543 
+ > tsetJTAG 1 1 0 1 X 1 ; // 11349 V:375 C:544 
+ > tsetJTAG 1 1 0 1 X 1 ; // 11370 V:376 C:545 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11390 V:377 C:546 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11411 V:378 C:547 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11432 V:379 C:548 
+ > tsetJTAG 1 1 0 1 X 1 ; // 11453 V:380 C:549 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11474 V:381 C:550 
+ > tsetJTAG 1 1 0 1 X 1 ; // 11495 V:382 C:551 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11516 V:383 C:552 
+ > tsetJTAG 1 0 0 1 X 1 ; // 11537 V:384 C:553 
+ > tsetJTAG 1 1 0 1 X 1 ; // 11558 V:385 C:554 
+ > tsetJTAG 1 0 1 1 X 1 ; // 11579 V:386 C:555 
+ > tsetJTAG 1 0 1 1 X 1 ; // 11600 V:387 C:556 
+repeat 151
+ > tsetJTAG 1 0 0 1 X 1 ; // 11620 V:388 C:557 
+ > tsetJTAG 1 0 0 1 X 1 ; // 14776 V:389 C:708 

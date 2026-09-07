@@ -1,0 +1,37 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	MI001_TD_Mbist_BV_Header_1																															
+						print	"Flow MI001_TD_Mbist_BV Start"																															
+Instance_Bincut_MS,Row33,MIX001 SOC TD,TD		CP1||CP2||FT1||RMA_ROOM||RMA_HOT	CP1,CP2		no_pattern	Test	MI001_MIX001_SOC_MIX001_TD_CXA0_PL00_SSC_SOC_MIX001_TD_CXA0_PL00_SSC_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row33,MIX001 SOC TD,TD		T0TX_ROOM||T0TX_HOT	CP1,CP2		no_pattern	Test	MI001_MIX001_SOC_MIX001_TD_CXA0_PL00_SSC_Typ_SOC_MIX001_TD_CXA0_PL00_SSC_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row34,MIX001 SOC TD,TD		CP1||CP2||FT1||RMA_ROOM||RMA_HOT	FT1		no_pattern	Test	MI001_MIX001_SOC_MIX001_TD_CIA0_PL00_SSC_FT1_SOC_MIX001_TD_CIA0_PL00_SSC_FT1_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_MS,Row34,MIX001 SOC TD,TD		T0TX_ROOM||T0TX_HOT	FT1		no_pattern	Test	MI001_MIX001_SOC_MIX001_TD_CIA0_PL00_SSC_FT1_Typ_SOC_MIX001_TD_CIA0_PL00_SSC_FT1_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						If	(!F_SOC_TD_ED0&&!F_SOC_TD_ED1&&!F_SOC_TD_ID) || F_Debug_all																															
+Instance_Bincut_BIST,Row485,MIX001 SOC BIST,Mbist		CP1||CP2||FT1||RMA_ROOM||RMA_HOT			no_pattern	Test	MI001_MIX001_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_NoHarv_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+						If	(!F_SOC_TD_ED0&&!F_SOC_TD_ED1&&!F_SOC_TD_ID) || F_Debug_all																															
+Instance_Bincut_BIST,Row485,MIX001 SOC BIST,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MI001_MIX001_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_Typ_NoHarv_BV																															
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						EndIf																																
+Instance_Bincut_BIST,Row486,MIX001 SOC BIST,Mbist		CP1||CP2||FT1||RMA_ROOM||RMA_HOT			no_pattern	Test	MI001_MIX001_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_1_HarvID_BV																					Flag-true	F_SOC_TD_ID									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row486,MIX001 SOC BIST,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MI001_MIX001_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_1_Typ_HarvID_BV																					Flag-true	F_SOC_TD_ID									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row487,MIX001 SOC BIST,Mbist		CP1||CP2||FT1||RMA_ROOM||RMA_HOT			no_pattern	Test	MI001_MIX001_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_2_HarvED0_BV																					Flag-true	F_SOC_TD_ED0									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row487,MIX001 SOC BIST,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MI001_MIX001_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_2_Typ_HarvED0_BV																					Flag-true	F_SOC_TD_ED0									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row488,MIX001 SOC BIST,Mbist		CP1||CP2||FT1||RMA_ROOM||RMA_HOT			no_pattern	Test	MI001_MIX001_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_3_HarvED1_BV																					Flag-true	F_SOC_TD_ED1									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+Instance_Bincut_BIST,Row488,MIX001 SOC BIST,Mbist		T0TX_ROOM||T0TX_HOT			no_pattern	Test	MI001_MIX001_SocMbist_PP_HIDA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_3_Typ_HarvED1_BV																					Flag-true	F_SOC_TD_ED1									
+					no_pattern	Bintable	Vddbinning_Fail_Stop																															
+						print	"Flow MI001_TD_Mbist_BV Stop"																															
+						Test	MI001_TD_Mbist_BV_Footer_1																															
+						Return																																

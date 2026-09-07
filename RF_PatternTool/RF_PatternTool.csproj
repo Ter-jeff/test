@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutogenCommandLine\AutogenCommandLine.csproj" />
+    <!--<ProjectReference Include="..\Automation\Automation.csproj" />
+    <ProjectReference Include="..\Common\CommonLib\CommonLib.csproj" />
+    <ProjectReference Include="..\Common\CommonReaderLib\CommonReaderLib.csproj" />
+    <ProjectReference Include="..\Common\EfuseCheckCmdLib\EfuseCheckCmdLib.csproj" />
+    <ProjectReference Include="..\Common\IgxlLib\IgxlLib.csproj" />
+    <ProjectReference Include="..\Common\LogLib\LogLib.csproj" />
+    <ProjectReference Include="..\Common\MyCommandLineLib\MyCommandLineLib.csproj" />
+    <ProjectReference Include="..\Common\ProjectConfigLib\ProjectConfigLib.csproj" />
+    <ProjectReference Include="..\Common\RfLib\RfLib.csproj" />
+    <ProjectReference Include="..\Common\TestPlanLib\TestPlanLib.csproj" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Template\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Settings\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="run.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  
+</Project>

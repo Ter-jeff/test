@@ -1,0 +1,27 @@
+Stage	InstanceName	PinName	eFuseFieldName
+CP1	IDS_IDSCP_PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_NV	vdd_amph_ddr	ids_vdd_amph
+		vdd_ave	ids_vdd_ave
+		vdd_cpu_sram	ids_vdd_cpu_sram
+		vdd_dcs_ddr	ids_vdd_dcs_ddr
+		vdd_disp	ids_vdd_disp
+		vdd_ecpu	ids_vdd_ecpu
+		vdd_fixed	ids_vdd_fixed
+		vdd_gpu	ids_vdd_gpu
+		vdd_low	ids_vdd_low
+		vdd_pcpu	ids_vdd_pcpu
+		vdd_soc	ids_vdd_soc
+		vdd_sram_gpu	ids_vdd_sram_gpu
+		vdd_sram_soc	ids_vdd_sram_soc
+CP2	IDS_IDSCP_PP_BRNA0_S_FULP_IO_POPX_NAN_DAA_DIO_ALLFRV_SI_IDS_NV	vdd_amph_ddr	ids_vdd_amph_hot
+		vdd_ave	ids_vdd_ave_hot
+		vdd_cpu_sram	ids_vdd_cpu_sram_hot
+		vdd_dcs_ddr	ids_vdd_dcs_ddr_hot
+		vdd_disp	ids_vdd_disp_hot
+		vdd_ecpu	ids_vdd_ecpu_hot
+		vdd_fixed	ids_vdd_fixed_hot
+		vdd_gpu	ids_vdd_gpu_hot
+		vdd_low	ids_vdd_low_hot
+		vdd_pcpu	ids_vdd_pcpu_hot
+		vdd_soc	ids_vdd_soc_hot
+		vdd_sram_gpu	ids_vdd_sram_gpu_hot
+		vdd_sram_soc	ids_vdd_sram_soc_hot

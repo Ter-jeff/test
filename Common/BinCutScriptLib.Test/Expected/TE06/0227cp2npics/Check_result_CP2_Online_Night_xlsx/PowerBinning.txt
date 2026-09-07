@@ -1,0 +1,7 @@
+Type	Parameter	X:11 Y:13	X:11 Y:10	X:14 Y:13
+				
+				
+				
+PowerBinning Check		P	P	P
+IsPowerBinningFail		N/A	N/A	N/A
+IsPowerBinningBinXFail		N/A	N/A	N/A

@@ -1,0 +1,42 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow EVS_PCPU_PCORES_mbist_w1 Start"																															
+		CurrentProfile				Test	Profile_Start_EVS_CP1_PCPU_PCORES_mbist_w1_CP1_EVS1		25200000																													
+						For	EVS_INDEX=0; EVS_INDEX< EVS_Max_Step; EVS_INDEX++																															
+						If	(!F_EVS_Tight) || F_Debug_all																															
+Instance_EVS,Row7,Flow_EVS_PCPU_PCORES_mbist_w1		CP1				Test	EVS_CP1_PCPU_PCORES_mbist_w1_NV		25200500												F_EVS_PatSets_Cpu_Bist_Fail																	
+Instance_EVS,Row7,Flow_EVS_PCPU_PCORES_mbist_w1		(A_EVS)&&(CP1)				Test	EVS_Static_Power_Ramp_Multi_CP1_PCPU_PCORES_mbist_w1_CP1_EVS1		25201000												F_EVS_CPU_MBIST_Alarm,F_EVS_Tight,F_EVS_PwrDown																	
+Vtrig for Instance_EVS,Row7,Flow_EVS_PCPU_PCORES_mbist_w1		(Vtrig)&&(CP1)				Test	EVS_Static_Power_Ramp_Multi_CP1_PCPU_PCORES_mbist_w1_CP1_EVS1_Vtrig		25201500												F_EVS_Tight																	
+IV curve for Instance_EVS,Row7,Flow_EVS_PCPU_PCORES_mbist_w1		(IVCurve)&&(CP1)				Test	EVS_Static_Power_Ramp_Multi_CP1_PCPU_PCORES_mbist_w1_CP1_EVS1_IV		25202000												F_EVS_Tight																	
+						EndIf																																
+						If	F_EVS_PwrDown																															
+		CP1				enable-flow-word	EVS_PwrDown																															
+						EndIf																																
+		(EVS_PwrDown)&&(CP1)				call	Flow_EVS_PowerReset																															
+		CP1				disable-flow-word	EVS_PwrDown																															
+						flag-false	F_EVS_PwrDown																															
+		Vtrig||IVCurve				flag-false	F_EVS_Tight																															
+						Next																																
+		CurrentProfile				Test	Profile_Plot_EVS_CP1_PCPU_PCORES_mbist_w1_CP1_EVS1		25202500																													
+		CurrentProfile				Test	Profile_Start_EVS_CP2_PCPU_PCORES_mbist_w1_CP2_EVS1		25203000																													
+						For	EVS_INDEX=0; EVS_INDEX< EVS_Max_Step; EVS_INDEX++																															
+						If	(!F_EVS_Tight) || F_Debug_all																															
+Instance_EVS,Row25,Flow_EVS_PCPU_PCORES_mbist_w1		CP2				Test	EVS_CP2_PCPU_PCORES_mbist_w1_NV		25203500												F_EVS_PatSets_Cpu_Bist_Fail																	
+Instance_EVS,Row25,Flow_EVS_PCPU_PCORES_mbist_w1		(A_EVS)&&(CP2)				Test	EVS_Static_Power_Ramp_Multi_CP2_PCPU_PCORES_mbist_w1_CP2_EVS1		25204000												F_EVS_CPU_MBIST_Alarm,F_EVS_Tight,F_EVS_PwrDown																	
+Vtrig for Instance_EVS,Row25,Flow_EVS_PCPU_PCORES_mbist_w1		(Vtrig)&&(CP2)				Test	EVS_Static_Power_Ramp_Multi_CP2_PCPU_PCORES_mbist_w1_CP2_EVS1_Vtrig		25204500												F_EVS_Tight																	
+IV curve for Instance_EVS,Row25,Flow_EVS_PCPU_PCORES_mbist_w1		(IVCurve)&&(CP2)				Test	EVS_Static_Power_Ramp_Multi_CP2_PCPU_PCORES_mbist_w1_CP2_EVS1_IV		25205000												F_EVS_Tight																	
+						EndIf																																
+						If	F_EVS_PwrDown																															
+		CP2				enable-flow-word	EVS_PwrDown																															
+						EndIf																																
+		(EVS_PwrDown)&&(CP2)				call	Flow_EVS_PowerReset																															
+		CP2				disable-flow-word	EVS_PwrDown																															
+						flag-false	F_EVS_PwrDown																															
+		Vtrig||IVCurve				flag-false	F_EVS_Tight																															
+						Next																																
+		CurrentProfile				Test	Profile_Plot_EVS_CP2_PCPU_PCORES_mbist_w1_CP2_EVS1		25205500																													
+						Bintable	Bin_EVS_CPU_MBIST_Alarm																															
+						print	"Flow EVS_PCPU_PCORES_mbist_w1 Stop"																															
+						Return																																

@@ -1,0 +1,21 @@
+Pass Rate	100.00%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	17	Pass Rows	17																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	5	5						print	"Flow VddBinning_HVCC Start"																														
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	6	6		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_SocTd_PP_GLNA0_S_PLXX_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD002_TD_CLA0_PL10_PL20_PL21_HBV		550000																												
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	7	7						Bintable	Bin_TD_MD002_HBV																														
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	8	8		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && !BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GO01_GO02_GX01_GX02_GR01_GR02_GR03_GR05_XXXX_GO01_GR04_BST_JTG_UNS_MSXXXX_SI_SRVASETP_HBV		550500																												
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	9	9						Bintable	Bin_Mbist_MD002_HBV																														
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	11	11						Bintable	Bin_Mbist_MD002_HBV																														
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	13	13						Bintable	Bin_Mbist_MD002_HBV																														
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	15	15						Bintable	Bin_Mbist_MD002_HBV																														
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	17	17						Bintable	Bin_Mbist_MD002_HBV																														
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	19	19						Bintable	Bin_Mbist_MD002_HBV																														
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	10	10		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR01_XXXX_GR01_BIR_JTG_UNS_MSXXXX_SI_SRVASETP_HBV		551000																												
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	12	12		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR02_XXXX_GR02_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_HBV		551500																												
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	14	14		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR03_XXXX_GR03_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_HBV		552000																												
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	16	16		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR04_XXXX_GR04_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_HBV		552500																												
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	18	18		((CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT) && BINCUT_WITH_BIRA)&&(CP1||CP2||FT1)				Test	MD002_SocMbist_PP_GLNA0_S_PL01_BI_GR05_XXXX_GR05_BIR_JTG_UNS_MRDXXX_SI_SRVASETP_HBV		553000																												
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	20	20						print	"Flow VddBinning_HVCC Stop"																														
+P	Flow_VddBinning_HVCC.txt	Flow_VddBinning_HVCC.txt	21	21						return																															

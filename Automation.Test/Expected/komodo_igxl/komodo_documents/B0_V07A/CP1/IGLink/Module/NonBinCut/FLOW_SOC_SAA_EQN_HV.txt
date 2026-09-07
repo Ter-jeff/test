@@ -1,0 +1,48 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow SOC_SAA_EQN_HV Start"																															
+Instance_SA_SOC,Row15,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CALL_SRM04_EQN_HV		27250000												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CALL_SRM04_EQN_HV																	
+Instance_SA_SOC,Row15,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CALL_SRM04_EQN_HV									
+						Bintable	Bin_SOC_SACHAIN_SSN_INIT_Fail																															
+Instance_SA_SOC,Row16,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CUA0_SRM04_EQN_HV		27250500												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CUA0_SRM04_EQN_HV																	
+Instance_SA_SOC,Row16,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CUA0_SRM04_EQN_HV									
+Instance_SA_SOC,Row17,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CXSA_SRM04_EQN_HV		27251000												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CXSA_SRM04_EQN_HV																	
+Instance_SA_SOC,Row17,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CXSA_SRM04_EQN_HV									
+Instance_SA_SOC,Row18,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CXSB_SRM04_EQN_HV		27251500												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CXSB_SRM04_EQN_HV																	
+Instance_SA_SOC,Row18,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CXSB_SRM04_EQN_HV									
+Instance_SA_SOC,Row19,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CXSC_SRM04_EQN_HV		27252000												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CXSC_SRM04_EQN_HV																	
+Instance_SA_SOC,Row19,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CXSC_SRM04_EQN_HV									
+Instance_SA_SOC,Row20,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CXSD_SRM04_EQN_HV		27252500												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CXSD_SRM04_EQN_HV																	
+Instance_SA_SOC,Row20,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CXSD_SRM04_EQN_HV									
+Instance_SA_SOC,Row21,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CXSE_SRM04_EQN_HV		27253000												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CXSE_SRM04_EQN_HV																	
+Instance_SA_SOC,Row21,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CXSE_SRM04_EQN_HV									
+Instance_SA_SOC,Row22,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CXSF_SRM04_EQN_HV		27253500												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CXSF_SRM04_EQN_HV																	
+Instance_SA_SOC,Row22,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CXSF_SRM04_EQN_HV									
+Instance_SA_SOC,Row23,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CXSG_SRM04_EQN_HV		27254000												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CXSG_SRM04_EQN_HV																	
+Instance_SA_SOC,Row23,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CXSG_SRM04_EQN_HV									
+Instance_SA_SOC,Row24,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CXSH_SRM04_EQN_HV		27254500												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CXSH_SRM04_EQN_HV																	
+Instance_SA_SOC,Row24,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CXSH_SRM04_EQN_HV									
+Instance_SA_SOC,Row25,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CXSI_SRM04_EQN_HV		27255000												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CXSI_SRM04_EQN_HV																	
+Instance_SA_SOC,Row25,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CXSI_SRM04_EQN_HV									
+Instance_SA_SOC,Row26,Flow_SOC_SAA_EQN_HV		SA_Chain_SOC				Test	SocSaChain_NonHarv_SOC_SA_Chain_CXSJ_SRM04_EQN_HV		27255500												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSaChain_NonHarv_SOC_SA_Chain_CXSJ_SRM04_EQN_HV																	
+Instance_SA_SOC,Row26,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSaChain_NonHarv_SOC_SA_Chain_CXSJ_SRM04_EQN_HV									
+Instance_SA_SOC,Row35,Flow_SOC_SAA_EQN_HV		CP1||CP2				Test	SocSa_Harvest_SOC_SA_CALL_SRM04_EQN_HV		27256000												F_Soc_Sa_MSX000_HV,F_SocSa_Harvest_SOC_SA_CALL_SRM04_EQN_HV																	
+Instance_SA_SOC,Row35,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSa_Harvest_SOC_SA_CALL_SRM04_EQN_HV									
+						Bintable	Bin_SOC_SA_SSN_INIT_Fail																															
+Instance_SA_SOC,Row36,Flow_SOC_SAA_EQN_HV		FT1||FT2				Test	SocSa_NonHarv_SOC_SA_CALL_FT_SRM04_EQN_HV		27256500												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSa_NonHarv_SOC_SA_CALL_FT_SRM04_EQN_HV																	
+Instance_SA_SOC,Row36,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSa_NonHarv_SOC_SA_CALL_FT_SRM04_EQN_HV									
+						Bintable	Bin_SOC_SA_SSN_INIT_Fail																															
+Instance_SA_SOC,Row37,Flow_SOC_SAA_EQN_HV						Test	SocSa_NonHarv_SOC_SA_CUA0_SRM04_EQN_HV		27257000												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSa_NonHarv_SOC_SA_CUA0_SRM04_EQN_HV																	
+Instance_SA_SOC,Row37,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSa_NonHarv_SOC_SA_CUA0_SRM04_EQN_HV									
+Instance_SA_SOC,Row38,Flow_SOC_SAA_EQN_HV						Test	SocSa_NonHarv_SOC_SA_CXSX_SRM04_EQN_HV		27257500												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSa_NonHarv_SOC_SA_CXSX_SRM04_EQN_HV																	
+Instance_SA_SOC,Row38,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSa_NonHarv_SOC_SA_CXSX_SRM04_EQN_HV									
+Instance_SA_SOC,Row40,Flow_SOC_SAA_EQN_HV		SA_PL99_SOC				Test	SocSa_NonHarv_SOC_SA_CALL_PL99_SRM04_EQN_HV		27258000												F_SOC_SA_NonHarv,F_Soc_Sa_MSX000_HV,F_SocSa_NonHarv_SOC_SA_CALL_PL99_SRM04_EQN_HV																	
+Instance_SA_SOC,Row40,Flow_SOC_SAA_EQN_HV						flag-true	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																					Flag-true	F_SocSa_NonHarv_SOC_SA_CALL_PL99_SRM04_EQN_HV									
+						Bintable	Bin_SOC_SA_SSN_INIT_Fail																															
+						If	ControlBin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																															
+						Bintable	Bin_SOC_SA_NonHarv_Soc_Sa_MSX000_HV																															
+						EndIf																																
+						print	"Flow SOC_SAA_EQN_HV Stop"																															
+						Return																																

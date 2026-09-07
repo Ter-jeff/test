@@ -1,0 +1,81 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow MG008_TD_Mbist_BV Start"																															
+Instance_Bincut_TDF_MGX,Row16,MGX008 GPU TD,TD		FT1||FT1				Test	MG008_MGX008_X7GR1_PL10_7_GPU_MGX008_TD_X7GR1_PL10_BV		1000429000																													
+						Bintable	Bin_MG008_TD_BV																															
+Instance_Bincut_TDF_MGX,Row17,MGX008 GPU TD,TD		FT1||FT1				Test	MG008_MGX008_CSO0_PL10_7_GPU_MGX008_TD_CSO0_PL10_BV		1000430000																													
+						Bintable	Bin_MG008_TD_BV																															
+Instance_Bincut_TDF_MGX,Row44,MGX008 GPU TD,TD		(FT1||FT1) && GPU_PL20_ALL	FT1			Test	MG008_MGX008_X7GR1_PL20_FT1_7_GPU_MGX008_TD_X7GR1_PL20_FT1_BV		1000431000																													
+						Bintable	Bin_MG008_TD_BV																															
+Instance_Bincut_TDF_MGX,Row60,MGX008 GPU TD,TD		(FT1||FT1) && GPU_PL20_ALL	FT1			Test	MG008_MGX008_CSO0_PL20_FT1_7_GPU_MGX008_TD_CSO0_PL20_FT1_BV		1000432000																													
+						Bintable	Bin_MG008_TD_BV																															
+Instance_Bincut_TDF_MGX,Row76,MGX008 GPU TD,TD		(FT1||FT1) && GPU_PL40_ALL	FT1			Test	MG008_MGX008_X7GR1_PL40_FT1_7_GPU_MGX008_TD_X7GR1_PL40_FT1_BV		1000433000																													
+						Bintable	Bin_MG008_TD_BV																															
+Instance_Bincut_BIST_MGX,Row65,MGX008 GPU BIST,Mbist		(FT1||FT1) && !BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIRA_MGX001_BIR_FSTPALL_GFX_BIRA_MGX008_BIR_FSTPALL_BV		1000434000																			Flag-true	F_GFX0_HARV_CORE_6_0_SUM_0									
+						Bintable	Bin_MG008_Mbist_BV																															
+Instance_Bincut_BIST_MGX,Row66,MGX008 GPU BIST,Mbist		(FT1||FT1) && !BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIRA_MGX001_BIR_CS_GFX_BIRA_MGX008_BIR_CS_BV		1000435000																			Flag-false	F_GFX0_HARV_CORE_6_0_SUM_0									
+						Bintable	Bin_MG008_Mbist_BV																															
+						If	(!F_GFX0_BIST_CORE0&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row67,MGX008 GPU BIST,Mbist		(FT1||FT1) && !BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIRA_MGX001_BIR_FSTP0_GFX_BIRA_MGX008_BIR_FSTP0_BV		1000436000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE1&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row68,MGX008 GPU BIST,Mbist		(FT1||FT1) && !BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIRA_MGX001_BIR_FSTP1_GFX_BIRA_MGX008_BIR_FSTP1_BV		1000437000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE2&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row69,MGX008 GPU BIST,Mbist		(FT1||FT1) && !BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIRA_MGX001_BIR_FSTP2_GFX_BIRA_MGX008_BIR_FSTP2_BV		1000438000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE3&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row70,MGX008 GPU BIST,Mbist		(FT1||FT1) && !BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIRA_MGX001_BIR_FSTP3_GFX_BIRA_MGX008_BIR_FSTP3_BV		1000439000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE4&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row71,MGX008 GPU BIST,Mbist		(FT1||FT1) && !BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIRA_MGX001_BIR_FSTP4_GFX_BIRA_MGX008_BIR_FSTP4_BV		1000440000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE5&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row72,MGX008 GPU BIST,Mbist		(FT1||FT1) && !BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIRA_MGX001_BIR_FSTP5_GFX_BIRA_MGX008_BIR_FSTP5_BV		1000441000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE6&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row73,MGX008 GPU BIST,Mbist		(FT1||FT1) && !BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIRA_MGX001_BIR_FSTP6_GFX_BIRA_MGX008_BIR_FSTP6_BV		1000442000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+Instance_Bincut_BIST_MGX,Row201,MGX008 GPU BIST,Mbist		(FT1||FT1) && BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIST_MGX001_BST_FSTPALL_GFX_BIST_MGX008_BST_FSTPALL_BV		1000443000																			Flag-true	F_GFX0_HARV_CORE_6_0_SUM_0									
+						Bintable	Bin_MG008_Mbist_BV																															
+Instance_Bincut_BIST_MGX,Row202,MGX008 GPU BIST,Mbist		(FT1||FT1) && BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIST_MGX001_BST_CS_GFX_BIST_MGX008_BST_CS_BV		1000444000																			Flag-false	F_GFX0_HARV_CORE_6_0_SUM_0									
+						Bintable	Bin_MG008_Mbist_BV																															
+						If	(!F_GFX0_BIST_CORE0&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row203,MGX008 GPU BIST,Mbist		(FT1||FT1) && BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIST_MGX001_BST_FSTP0_GFX_BIST_MGX008_BST_FSTP0_BV		1000445000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE1&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row204,MGX008 GPU BIST,Mbist		(FT1||FT1) && BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIST_MGX001_BST_FSTP1_GFX_BIST_MGX008_BST_FSTP1_BV		1000446000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE2&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row205,MGX008 GPU BIST,Mbist		(FT1||FT1) && BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIST_MGX001_BST_FSTP2_GFX_BIST_MGX008_BST_FSTP2_BV		1000447000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE3&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row206,MGX008 GPU BIST,Mbist		(FT1||FT1) && BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIST_MGX001_BST_FSTP3_GFX_BIST_MGX008_BST_FSTP3_BV		1000448000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE4&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row207,MGX008 GPU BIST,Mbist		(FT1||FT1) && BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIST_MGX001_BST_FSTP4_GFX_BIST_MGX008_BST_FSTP4_BV		1000449000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE5&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row208,MGX008 GPU BIST,Mbist		(FT1||FT1) && BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIST_MGX001_BST_FSTP5_GFX_BIST_MGX008_BST_FSTP5_BV		1000450000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						If	(!F_GFX0_BIST_CORE6&&!F_GFX0_HARV_CORE_6_0_SUM_0) || F_Debug_all																															
+Instance_Bincut_BIST_MGX,Row209,MGX008 GPU BIST,Mbist		(FT1||FT1) && BINCUT_WITH_BIST				Test	MG008_MGX008_GFX_BIST_MGX001_BST_FSTP6_GFX_BIST_MGX008_BST_FSTP6_BV		1000451000																													
+						Bintable	Bin_MG008_Mbist_BV																															
+						EndIf																																
+						print	"Flow MG008_TD_Mbist_BV Stop"																															
+						Return																																

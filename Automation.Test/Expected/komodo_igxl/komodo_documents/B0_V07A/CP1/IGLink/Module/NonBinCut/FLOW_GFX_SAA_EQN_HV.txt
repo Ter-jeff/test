@@ -1,0 +1,129 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow GFX_SAA_EQN_HV Start"																															
+Instance_SA_GFX,Row6,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_NonHarv_CSOC_Chain_SRM0E_EQN_HV		27750000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSaChain_NonHarv_CSOC_Chain_SRM0E_EQN_HV																	
+Instance_SA_GFX,Row6,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSaChain_NonHarv_CSOC_Chain_SRM0E_EQN_HV									
+Instance_SA_GFX,Row7,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_NonHarv_CMS0_Chain_SRM0A_EQN_HV		27750500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSaChain_NonHarv_CMS0_Chain_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row7,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSaChain_NonHarv_CMS0_Chain_SRM0A_EQN_HV									
+Instance_SA_GFX,Row8,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_NonHarv_CMS1_Chain_SRM0A_EQN_HV		27751000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSaChain_NonHarv_CMS1_Chain_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row8,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSaChain_NonHarv_CMS1_Chain_SRM0A_EQN_HV									
+Instance_SA_GFX,Row23,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF00_Chain_SRM0A_EQN_HV		27751500												F_GFX0_SA_CORE0,F_GFX0_SCAN_CORE0,F_GfxSaChain_Harvest_CF00_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE0									
+Instance_SA_GFX,Row24,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF01_Chain_SRM0A_EQN_HV		27752000												F_GFX0_SA_CORE1,F_GFX0_SCAN_CORE1,F_GfxSaChain_Harvest_CF01_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE1									
+Instance_SA_GFX,Row25,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF02_Chain_SRM0A_EQN_HV		27752500												F_GFX0_SA_CORE2,F_GFX0_SCAN_CORE2,F_GfxSaChain_Harvest_CF02_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE2									
+Instance_SA_GFX,Row26,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF03_Chain_SRM0A_EQN_HV		27753000												F_GFX0_SA_CORE3,F_GFX0_SCAN_CORE3,F_GfxSaChain_Harvest_CF03_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE3									
+Instance_SA_GFX,Row27,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF04_Chain_SRM0A_EQN_HV		27753500												F_GFX0_SA_CORE4,F_GFX0_SCAN_CORE4,F_GfxSaChain_Harvest_CF04_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE4									
+Instance_SA_GFX,Row28,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF05_Chain_SRM0A_EQN_HV		27754000												F_GFX0_SA_CORE5,F_GFX0_SCAN_CORE5,F_GfxSaChain_Harvest_CF05_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE5									
+Instance_SA_GFX,Row29,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF06_Chain_SRM0A_EQN_HV		27754500												F_GFX0_SA_CORE6,F_GFX0_SCAN_CORE6,F_GfxSaChain_Harvest_CF06_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE6									
+Instance_SA_GFX,Row30,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF07_Chain_SRM0A_EQN_HV		27755000												F_GFX0_SA_CORE7,F_GFX0_SCAN_CORE7,F_GfxSaChain_Harvest_CF07_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE7									
+Instance_SA_GFX,Row31,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF08_Chain_SRM0A_EQN_HV		27755500												F_GFX0_SA_CORE8,F_GFX0_SCAN_CORE8,F_GfxSaChain_Harvest_CF08_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE8									
+Instance_SA_GFX,Row32,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF09_Chain_SRM0A_EQN_HV		27756000												F_GFX0_SA_CORE9,F_GFX0_SCAN_CORE9,F_GfxSaChain_Harvest_CF09_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE9									
+Instance_SA_GFX,Row33,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF10_Chain_SRM0A_EQN_HV		27756500												F_GFX0_SA_CORE10,F_GFX0_SCAN_CORE10,F_GfxSaChain_Harvest_CF10_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE10									
+Instance_SA_GFX,Row34,Flow_GFX_SAA_EQN_HV		SA_Chain_GPU				Test	GfxSaChain_Harvest_CF11_Chain_SRM0A_EQN_HV		27757000												F_GFX0_SA_CORE11,F_GFX0_SCAN_CORE11,F_GfxSaChain_Harvest_CF11_Chain_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE11									
+Instance_SA_GFX,Row88,Flow_GFX_SAA_EQN_HV						Test	GfxSa_NonHarv_CSOC_SA_SRM0E_EQN_HV		27757500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CSOC_SA_SRM0E_EQN_HV																	
+Instance_SA_GFX,Row88,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CSOC_SA_SRM0E_EQN_HV									
+Instance_SA_GFX,Row89,Flow_GFX_SAA_EQN_HV						Test	GfxSa_NonHarv_CMSX_SA_SRM0A_EQN_HV		27758000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CMSX_SA_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row89,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CMSX_SA_SRM0A_EQN_HV									
+Instance_SA_GFX,Row91,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_MLTFSTP_X12GR1_SRM0A_EQN_HV		27758500												F_GFX0_SA_Multi,F_GfxSa_Harvest_MLTFSTP_X12GR1_SRM0A_EQN_HV																	
+						If	(!F_GFX0_SA_Multi && !F_GFX0_SA_CORE0) || F_Debug_all																															
+Instance_SA_GFX,Row93,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_NonHarv_CF00_Checking_PL10_SRM0A_EQN_HV		27759000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF00_Checking_PL10_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row93,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF00_Checking_PL10_SRM0A_EQN_HV									
+						EndIf																																
+						If	(!F_GFX0_SA_Multi && F_GFX0_SA_CORE0 && !F_GFX0_SA_CORE1) || F_Debug_all																															
+Instance_SA_GFX,Row94,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_NonHarv_CF01_Checking_PL10_SRM0A_EQN_HV		27759500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF01_Checking_PL10_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row94,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF01_Checking_PL10_SRM0A_EQN_HV									
+						EndIf																																
+						If	(!F_GFX0_SA_Multi && !F_GFX0_SA_CORE6) || F_Debug_all																															
+Instance_SA_GFX,Row95,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_NonHarv_CF06_Checking_PL10_SRM0A_EQN_HV		27760000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF06_Checking_PL10_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row95,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF06_Checking_PL10_SRM0A_EQN_HV									
+						EndIf																																
+						If	(!F_GFX0_SA_Multi && F_GFX0_SA_CORE6 && !F_GFX0_SA_CORE7) || F_Debug_all																															
+Instance_SA_GFX,Row96,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_NonHarv_CF07_Checking_PL10_SRM0A_EQN_HV		27760500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF07_Checking_PL10_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row96,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF07_Checking_PL10_SRM0A_EQN_HV									
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE0) || F_Debug_all																															
+Instance_SA_GFX,Row98,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF00_SA_SRM0A_EQN_HV		27761000												F_GFX0_SA_CORE0,F_GFX0_SCAN_CORE0,F_GfxSa_Harvest_CF00_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE1) || F_Debug_all																															
+Instance_SA_GFX,Row99,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF01_SA_SRM0A_EQN_HV		27761500												F_GFX0_SA_CORE1,F_GFX0_SCAN_CORE1,F_GfxSa_Harvest_CF01_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE2) || F_Debug_all																															
+Instance_SA_GFX,Row100,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF02_SA_SRM0A_EQN_HV		27762000												F_GFX0_SA_CORE2,F_GFX0_SCAN_CORE2,F_GfxSa_Harvest_CF02_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE3) || F_Debug_all																															
+Instance_SA_GFX,Row101,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF03_SA_SRM0A_EQN_HV		27762500												F_GFX0_SA_CORE3,F_GFX0_SCAN_CORE3,F_GfxSa_Harvest_CF03_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE4) || F_Debug_all																															
+Instance_SA_GFX,Row102,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF04_SA_SRM0A_EQN_HV		27763000												F_GFX0_SA_CORE4,F_GFX0_SCAN_CORE4,F_GfxSa_Harvest_CF04_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE5) || F_Debug_all																															
+Instance_SA_GFX,Row103,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF05_SA_SRM0A_EQN_HV		27763500												F_GFX0_SA_CORE5,F_GFX0_SCAN_CORE5,F_GfxSa_Harvest_CF05_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE6) || F_Debug_all																															
+Instance_SA_GFX,Row104,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF06_SA_SRM0A_EQN_HV		27764000												F_GFX0_SA_CORE6,F_GFX0_SCAN_CORE6,F_GfxSa_Harvest_CF06_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE7) || F_Debug_all																															
+Instance_SA_GFX,Row105,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF07_SA_SRM0A_EQN_HV		27764500												F_GFX0_SA_CORE7,F_GFX0_SCAN_CORE7,F_GfxSa_Harvest_CF07_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE8) || F_Debug_all																															
+Instance_SA_GFX,Row106,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF08_SA_SRM0A_EQN_HV		27765000												F_GFX0_SA_CORE8,F_GFX0_SCAN_CORE8,F_GfxSa_Harvest_CF08_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE9) || F_Debug_all																															
+Instance_SA_GFX,Row107,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF09_SA_SRM0A_EQN_HV		27765500												F_GFX0_SA_CORE9,F_GFX0_SCAN_CORE9,F_GfxSa_Harvest_CF09_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE10) || F_Debug_all																															
+Instance_SA_GFX,Row108,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF10_SA_SRM0A_EQN_HV		27766000												F_GFX0_SA_CORE10,F_GFX0_SCAN_CORE10,F_GfxSa_Harvest_CF10_SA_SRM0A_EQN_HV																	
+						EndIf																																
+						If	(F_GFX0_SA_Multi&&!F_GFX0_SA_CORE11) || F_Debug_all																															
+Instance_SA_GFX,Row109,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(CP2)				Test	GfxSa_Harvest_CF11_SA_SRM0A_EQN_HV		27766500												F_GFX0_SA_CORE11,F_GFX0_SCAN_CORE11,F_GfxSa_Harvest_CF11_SA_SRM0A_EQN_HV																	
+						EndIf																																
+Instance_SA_GFX,Row111,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF00_SA_SF_SRM0A_EQN_HV		27767000												F_GFX0_SA_CORE0,F_GFX0_SCAN_CORE0,F_GfxSa_Harvest_CF00_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE0									
+Instance_SA_GFX,Row112,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF01_SA_SF_SRM0A_EQN_HV		27767500												F_GFX0_SA_CORE1,F_GFX0_SCAN_CORE1,F_GfxSa_Harvest_CF01_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE1									
+Instance_SA_GFX,Row113,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF02_SA_SF_SRM0A_EQN_HV		27768000												F_GFX0_SA_CORE2,F_GFX0_SCAN_CORE2,F_GfxSa_Harvest_CF02_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE2									
+Instance_SA_GFX,Row114,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF03_SA_SF_SRM0A_EQN_HV		27768500												F_GFX0_SA_CORE3,F_GFX0_SCAN_CORE3,F_GfxSa_Harvest_CF03_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE3									
+Instance_SA_GFX,Row115,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF04_SA_SF_SRM0A_EQN_HV		27769000												F_GFX0_SA_CORE4,F_GFX0_SCAN_CORE4,F_GfxSa_Harvest_CF04_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE4									
+Instance_SA_GFX,Row116,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF05_SA_SF_SRM0A_EQN_HV		27769500												F_GFX0_SA_CORE5,F_GFX0_SCAN_CORE5,F_GfxSa_Harvest_CF05_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE5									
+Instance_SA_GFX,Row117,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF06_SA_SF_SRM0A_EQN_HV		27770000												F_GFX0_SA_CORE6,F_GFX0_SCAN_CORE6,F_GfxSa_Harvest_CF06_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE6									
+Instance_SA_GFX,Row118,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF07_SA_SF_SRM0A_EQN_HV		27770500												F_GFX0_SA_CORE7,F_GFX0_SCAN_CORE7,F_GfxSa_Harvest_CF07_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE7									
+Instance_SA_GFX,Row119,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF08_SA_SF_SRM0A_EQN_HV		27771000												F_GFX0_SA_CORE8,F_GFX0_SCAN_CORE8,F_GfxSa_Harvest_CF08_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE8									
+Instance_SA_GFX,Row120,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF09_SA_SF_SRM0A_EQN_HV		27771500												F_GFX0_SA_CORE9,F_GFX0_SCAN_CORE9,F_GfxSa_Harvest_CF09_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE9									
+Instance_SA_GFX,Row121,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF10_SA_SF_SRM0A_EQN_HV		27772000												F_GFX0_SA_CORE10,F_GFX0_SCAN_CORE10,F_GfxSa_Harvest_CF10_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE10									
+Instance_SA_GFX,Row122,Flow_GFX_SAA_EQN_HV		(GFX_SFSTP)&&(CP2)				Test	GfxSa_Harvest_CF11_SA_SF_SRM0A_EQN_HV		27772500												F_GFX0_SA_CORE11,F_GFX0_SCAN_CORE11,F_GfxSa_Harvest_CF11_SA_SF_SRM0A_EQN_HV							Flag-false	F_GFX0_SA_CORE11									
+Instance_SA_GFX,Row124,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF00_SF_PL99_SRM0A_EQN_HV		27773000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF00_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row124,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF00_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row125,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF01_SF_PL99_SRM0A_EQN_HV		27773500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF01_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row125,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF01_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row126,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF02_SF_PL99_SRM0A_EQN_HV		27774000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF02_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row126,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF02_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row127,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF03_SF_PL99_SRM0A_EQN_HV		27774500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF03_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row127,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF03_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row128,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF04_SF_PL99_SRM0A_EQN_HV		27775000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF04_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row128,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF04_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row129,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF05_SF_PL99_SRM0A_EQN_HV		27775500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF05_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row129,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF05_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row130,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF06_SF_PL99_SRM0A_EQN_HV		27776000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF06_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row130,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF06_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row131,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF07_SF_PL99_SRM0A_EQN_HV		27776500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF07_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row131,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF07_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row132,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF08_SF_PL99_SRM0A_EQN_HV		27777000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF08_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row132,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF08_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row133,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF09_SF_PL99_SRM0A_EQN_HV		27777500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF09_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row133,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF09_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row134,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF10_SF_PL99_SRM0A_EQN_HV		27778000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF10_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row134,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF10_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row135,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CF11_SF_PL99_SRM0A_EQN_HV		27778500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CF11_SF_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row135,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CF11_SF_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row136,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CSOC_PL99_SRM0A_EQN_HV		27779000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CSOC_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row136,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CSOC_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row137,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CMS0_PL99_SRM0A_EQN_HV		27779500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CMS0_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row137,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CMS0_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row138,Flow_GFX_SAA_EQN_HV		SA_PL99_GFX				Test	GfxSa_NonHarv_CMS1_PL99_SRM0A_EQN_HV		27780000												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_CMS1_PL99_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row138,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_CMS1_PL99_SRM0A_EQN_HV									
+Instance_SA_GFX,Row142,Flow_GFX_SAA_EQN_HV		(GFX_MFSTP)&&(FT1||FT2)				Test	GfxSa_NonHarv_check_MLTFSTP_X12GR1_SRM0A_EQN_HV		27780500												F_GFX0_SA_NonHarv,F_Gpu_Sa_MGX000_HV,F_GfxSa_NonHarv_check_MLTFSTP_X12GR1_SRM0A_EQN_HV																	
+Instance_SA_GFX,Row142,Flow_GFX_SAA_EQN_HV						flag-true	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																					Flag-true	F_GfxSa_NonHarv_check_MLTFSTP_X12GR1_SRM0A_EQN_HV									
+						If	ControlBin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																															
+						Bintable	Bin_GFX0_SA_NonHarv_Gpu_Sa_MGX000_HV																															
+						EndIf																																
+						print	"Flow GFX_SAA_EQN_HV Stop"																															
+						Return																																

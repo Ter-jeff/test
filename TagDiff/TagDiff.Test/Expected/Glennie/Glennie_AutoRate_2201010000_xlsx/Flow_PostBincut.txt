@@ -1,0 +1,19 @@
+Pass Rate	100.00%	=HYPERLINK("#'Data'!1:1","Return")																																							
+Total Rows	15	Pass Rows	15																																						
+																																									
+Status	BaseSheet	ComparedSheet	BaseRow	ComparedRow	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	BinPass	BinFail	SortPass	SortFail	Result	PassAction	FailAction	State	GroupSpecifier	GroupSense	GroupCondition	GroupName	DeviceSense	DeviceCondition	DeviceName	DebugAssume	DebugSites	CtProfileDataElapsedTime	CtProfileDataBackgroundType	CtProfileDataSerialize	CtProfileDataResourceLock	CtProfileDataFlowStepLocked	Comment
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	5	5						print	"Flow PostBincut Start"																														
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	6	6		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD001_TD_PBC_SocTd_PP_GLNA0_S_PL21_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD001_TD_CLA0_PL21_outsidebincut_BV		570000																												
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	7	7						Bintable	Bin_TD_MD001_TD_PBC_outsidebincut_BV																														
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	8	8		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD001_HAMMER_PBC_SocMbist_PP_GLNA0_S_PL01_BI_GRXX_BST_JTG_UNS_MRDXXX_SI_SRVA_9X_MRD001_SOC_HAMMER_outsidebincut_BV		570500																												
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	9	9						Bintable	Bin_Mbist_MD001_HAMMER_PBC_outsidebincut_BV																														
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	10	10		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD001_LG01_PBC_SocMbist_PP_GLNA0_S_PL01_BI_GX0X_BST_JTG_UNS_MXXXXX_SI_SRVA_L01DB_MRD001_SOC_LG01_outsidebincut_BV		571000																												
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	11	11						Bintable	Bin_Mbist_MD001_LG01_PBC_outsidebincut_BV																														
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	12	12		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_TD_PBC_SocTd_PP_GLNA0_S_PL21_SC_CLA0_TDF_COM_AUT_MSRDXX_DM_SOC_MRD002_TD_CLA0_PL21_outsidebincut_BV		571500																												
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	13	13						Bintable	Bin_TD_MD002_TD_PBC_outsidebincut_BV																														
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	14	14		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_HAMMER_PBC_SocMbist_PP_GLNA0_S_PL01_BI_GRXX_BST_JTG_UNS_MRDXXX_SI_SRVA_9X_MRD002_SOC_HAMMER_outsidebincut_BV		572000																												
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	15	15						Bintable	Bin_Mbist_MD002_HAMMER_PBC_outsidebincut_BV																														
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	16	16		(CP1||CP2||T0TX_ROOM||T0TX_HOT||RMA_ROOM||RMA_HOT)&&(CP1||CP2||FT1)				Test	MD002_LG01_PBC_SocMbist_PP_GLNA0_S_PL01_BI_GX0X_BST_JTG_UNS_MXXXXX_SI_SRVA_L01DB_MRD002_SOC_LG01_outsidebincut_BV		572500																												
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	17	17						Bintable	Bin_Mbist_MD002_LG01_PBC_outsidebincut_BV																														
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	18	18						print	"Flow PostBincut Stop"																														
+P	Flow_PostBincut.txt	Flow_PostBincut.txt	19	19						return																															

@@ -1,0 +1,9 @@
+DTPatternSetSheet,version=2.2:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Pattern Sets
+	
+	Pattern Set	TD Group	Time Domain	Enable	File/Group Name	Burst	Start Label	Stop Label	Comment
+	DSSC_SPIROM_ReadData				.\Pattern\SPIROM\SPIROM_Read_DSSC.pat	no			
+	DSSC_SPIROM_Erase				.\Pattern\SPIROM\SPIROM_ChipEraseAddrNCheckWIP.pat	no			
+	DSSC_SPIROM_SectorErase				.\Pattern\SPIROM\SPIROM_SectorEraseNCheckWIP.pat	no			
+	DSSC_SPIROM_Program				.\Pattern\SPIROM\SPIROM_PageProgram.pat	no			
+	DSSC_SPIROM_ReadID				.\Pattern\SPIROM\SPIROM_ReadID.pat	no			
+	DSSC_SPIROM_Addr_ReadData				.\Pattern\SPIROM\SPIROM_Read_Addr_DSSC.pat	no			

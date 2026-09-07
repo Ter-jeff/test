@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Automation.IgxlPackaging</AssemblyName>
+    <RootNamespace>Automation.IgxlPackaging</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--ignore severity vulnerability warning for log4net -->
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-2cwj-8chv-9pp9" />
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-4f7c-pmjv-c25w" />
+    <PackageReference Include="log4net" Version="1.2.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Teradyne.Oasis.IGData" Version="4.0.0">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <PackageReference Include="Teradyne.Oasis.IGLinkBase" Version="4.0.0">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <PackageReference Include="Teradyne.Oasis.OasisUtilityLib" Version="4.0.0">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<VpnSettingFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <DownLoad>1</DownLoad>
+  <DownThreads>1</DownThreads>
+  <SmallerFile1St>1</SmallerFile1St>
+  <Extensions>.atp.gz$,.txt$,.xlsx$</Extensions>  
+  <Bypass_files>apple.txt$,FileB.tar.gz$,aspx$</Bypass_files>
+  
+  <ConfigFile>D:\TestVpn\Config.json</ConfigFile>  
+  <ServerPatRoot>D:\TestVpn\Server</ServerPatRoot>  
+  <DbOutputPath>D:\TestVpn</DbOutputPath>  
+  <FlagOutputPath>D:\TestVpn\Flag</FlagOutputPath>
+  
+  <RepeatHours>1.5</RepeatHours>
+  
+  <ExportTxt>0</ExportTxt>  
+  <ExportDB>0</ExportDB>
+  
+  <DefaultFolders>
+  		"Atp_File", "Atp_FailedCompilation", "Atp_WithHalt",
+                "Atp_WithoutHalt", "Log_FailedCompilation"
+  </DefaultFolders>
+  
+  <DicOrgStr>
+  		'A': 'HARD_IP', 'C': 'CPU', 'L': 'GFX',
+  		'P': 'HARD_IP', 'S': 'SOC', 'V': 'HARD_IP', 'H': 'SOC'
+  </DicOrgStr>
+  
+  <DicSpecStr>
+  		'AN': 'HARD_IP', 'BI': 'BIST', 'CH': 'SCAN',
+  		'EF': 'EFUSE', 'FU': 'HARD_IP', 'IO': 'HARD_IP',
+  		'JT': 'HARD_IP', 'SC': 'SCAN', 'PW': 'HARD_IP','EFUSE': 'EFUSE'
+  </DicSpecStr>
+  
+</VpnSettingFile>

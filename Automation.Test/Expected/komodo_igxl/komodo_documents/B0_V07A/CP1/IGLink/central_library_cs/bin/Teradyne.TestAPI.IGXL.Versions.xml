@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Teradyne.TestAPI.IGXL.Versions</name>
+    </assembly>
+    <members>
+        <member name="T:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheExecEnableWord">
+            <summary>
+            Enable word interface in IGXL layer.
+            </summary>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheExecEnableWord.Set(System.String,System.Boolean)">
+            <summary>
+            Sets the enable word.
+            </summary>
+            <param name="enableWordName">Name of the enable word.</param>
+            <param name="enabled">if set to <c>true</c> [enabled].</param>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheExecEnableWord.Get(System.String)">
+            <summary>
+            Gets the enable word.
+            </summary>
+            <param name="enableWordName">Name of the enable word.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDigital.DataMasksCount">
+            <summary>
+            Datas the masks count.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDigital.DataMasksUnapplyAllMasksFromPattern(System.String)">
+            <summary>
+            Unapplies all masks from pattern.
+            </summary>
+            <param name="patternSpecification">The pattern specification.</param>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDigital.DataMasksRemoveAll">
+            <summary>
+            Removes all for DataMasks.
+            </summary>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDigital.DataMasksAdd(System.String)">
+            <summary>
+            Adds the specified mask name.
+            </summary>
+            <param name="maskName">Name of the mask.</param>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDigital.DataMasksApply(System.String,System.String,System.String)">
+            <summary>
+            Applies the specified mask name.
+            </summary>
+            <param name="maskName">Name of the mask.</param>
+            <param name="patternSpecification">The pattern specification.</param>
+            <param name="pinState">State of the pin.</param>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDigital.DataMasksPinsAdd(System.String,System.String)">
+            <summary>
+            Datas the masks pins add.
+            </summary>
+            <param name="maskName">Name of the mask.</param>
+            <param name="pinName">Name of the pin.</param>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDigital.DataMasksPinsVectorOffsetsAdd(System.String,System.String,System.Int32)">
+            <summary>
+            Datas the masks pins vector offsets add.
+            </summary>
+            <param name="maskName">Name of the mask.</param>
+            <param name="pinName">Name of the pin.</param>
+            <param name="offSet">The off set.</param>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.EEPROMProgram(System.Object@)">
+            <summary>
+            EEPROMs the program.
+            </summary>
+            <param name="obj">The object.</param>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.EEPROMIsProgrammed">
+            <summary>
+            Determind EEPROMs if programmed.
+            </summary>
+            <returns>true if programmed.</returns>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.EEPROMSetRecord(System.String,System.Object)">
+            <summary>
+            Sets the record.
+            </summary>
+            <param name="recordID">The record identifier.</param>
+            <param name="setting">The setting.</param>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.EEPROMGetRecord(System.String)">
+            <summary>
+            Gets the record.
+            </summary>
+            <param name="recordID">The record identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.EEPROMRecordList">
+            <summary>
+            Records the list.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.EEPROMRecordReadFromHW">
+            <summary>
+            Reads from hw.
+            </summary>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.EEPROMRecordWriteToHW">
+            <summary>
+            Writes to hw.
+            </summary>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.EEPROMRecordDelete(System.String,Teradyne.TestAPI.DIBEEPROMRecordObj[]@)">
+            <summary>
+            Deletes the specified record identifier.
+            </summary>
+            <param name="recordID">The record identifier.</param>
+            <param name="dibEEPROMRecordList">The dib eeprom record list.</param>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.EEPROMRecordRefresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.SegmentsEEPROMProgram(System.String,System.Object@)">
+            <summary>
+            Segmentses the eeprom program.
+            </summary>
+            <param name="segmentNumber">The segment number.</param>
+            <param name="obj">The object.</param>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwDIB.SegmentsEEPROMIsProgrammed(System.String)">
+            <summary>
+            Segmentses the eeprom is programmed.
+            </summary>
+            <param name="segmentsNumber">The segments number.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Teradyne.TestAPI.IGXL.ITeradyneTestAPIUltraFLEXTheHdwTester.Type">
+            <summary>
+            Types this instance.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

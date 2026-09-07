@@ -1,0 +1,52 @@
+DTLevelSheet,version=2.1:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Pin Levels
+	
+	Pin/Group	Seq.	Parameter	Value	Comment
+	SPIROM_POWER		VMain	=_SPIROM_POWER	=_VDD30
+	SPIROM_POWER		VAlt	=0	0
+	SPIROM_POWER		IFoldLevel	=0.1	0.1
+	SPIROM_POWER		Tdelay	=0	0.005
+	SPIROM_PINS		Vil	=_SPIROM_POWER*0	=_VDD30*0
+	SPIROM_PINS		Vih	=_SPIROM_POWER*1	=_VDD30*1
+	SPIROM_PINS		Vol	=_SPIROM_POWER*0.5-0.1	=_VDD30*0.5-0.1
+	SPIROM_PINS		Voh	=_SPIROM_POWER*0.5+0.1	=_VDD30*0.5+0.1
+	SPIROM_PINS		Iol	=0.001	0.001
+	SPIROM_PINS		Ioh	=-0.001	-0.001
+	SPIROM_PINS		Vt	=_SPIROM_POWER*0.5	=_VDD30*0.5
+	SPIROM_PINS		Vcl	=_Vcl_default	=_Vcl_default
+	SPIROM_PINS		Vch	=1.98	=_SPIROM_PINS_Vch
+	SPIROM_PINS		VoutLoTyp	=0	0
+	SPIROM_PINS		VoutHiTyp	=0	0
+	SPIROM_PINS		DriverMode	=Largeswing-HiZ	
+	XI0_Diff_PA		Vicm	=_Pins_XI0_Diff_GLB*0.5	
+	XI0_Diff_PA		Vid	=_Pins_XI0_Diff_GLB	
+	XI0_Diff_PA		dVid0	=0	
+	XI0_Diff_PA		dVid1	=0	
+	XI0_Diff_PA		dVicm0	=0	
+	XI0_Diff_PA		dVicm1	=0	
+	XI0_Diff_PA		Vod	=0	
+	XI0_Diff_PA		Vod_Alt1	=0	
+	XI0_Diff_PA		Vod_Alt2	=0	
+	XI0_Diff_PA		dVod0	=0	
+	XI0_Diff_PA		dVod1	=0	
+	XI0_Diff_PA		Iol	=0	
+	XI0_Diff_PA		Ioh	=0	
+	XI0_Diff_PA		VodTyp	=0	
+	XI0_Diff_PA		VocmTyp	=0	
+	XI0_Diff_PA		Vt	=0	
+	XI0_Diff_PA		Vcl	=_Vcl_default	
+	XI0_Diff_PA		Vch	=_Pins_XI0_Diff_GLB*1.1	
+	XI0_Diff_PA		DriverMode	VT	
+	RT_CLK32768_PA		vil	=0	
+	RT_CLK32768_PA		vih	=_Pins_RT_CLK32768_GLB	
+	RT_CLK32768_PA		vol	=_Pins_RT_CLK32768_GLB*0.5	
+	RT_CLK32768_PA		voh	=_Pins_RT_CLK32768_GLB*0.5	
+	RT_CLK32768_PA		voh_alt1	=0	
+	RT_CLK32768_PA		voh_alt2	=0	
+	RT_CLK32768_PA		iol	=0	
+	RT_CLK32768_PA		ioh	=0	
+	RT_CLK32768_PA		vt	=_Pins_RT_CLK32768_GLB*0.5	
+	RT_CLK32768_PA		vcl	=_Vcl_default	
+	RT_CLK32768_PA		vch	=_Pins_RT_CLK32768_GLB*1.1	
+	RT_CLK32768_PA		voutLoTyp	=0	
+	RT_CLK32768_PA		voutHiTyp	=0	
+	RT_CLK32768_PA		driverMode	HiZ	

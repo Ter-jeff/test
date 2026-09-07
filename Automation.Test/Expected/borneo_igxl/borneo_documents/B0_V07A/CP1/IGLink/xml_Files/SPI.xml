@@ -1,0 +1,151 @@
+﻿<protocol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" description="ADG1414 SPI Protocol" version="1.0" defaultName="SPI_PORT" controller="Tester" validFamilies="">
+	<function name="SCLK" group="" type="Clock" description="SPI CLOCK" />
+	<function name="SYNCN" group="" type="InOut" description="SYNC Negative" />
+	<function name="DIN" group="" type="In" description="SPI Data Input" />
+	<function name="SDO" group="" type="Out" description="SPI Data Output" />
+	<function name="RESETN" group="" type="In" description="SPI Reset Negative" />
+	<setting name="MaxWaitUntilTimeout" defaultValue="0.100" validOptions="" />
+	<frame name="SPI_BYTE_READ" description="SPI  8Bits Transaction" type="Read" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">- 0 0 E 1</cycle>
+			<cycle repeat="0">- 0 0 E 1</cycle>
+			<cycle repeat="0">- 0 0 E 1</cycle>
+			<cycle repeat="0">- 0 0 E 1</cycle>
+			<cycle repeat="0">- 0 0 E 1</cycle>
+			<cycle repeat="0">- 0 0 E 1</cycle>
+			<cycle repeat="0">- 0 0 E 1</cycle>
+			<cycle repeat="0">- 0 0 E 1</cycle>
+			<cycle repeat="0">1 1 0 X 1</cycle>
+			<cycle repeat="0">1 1 0 X 1</cycle>
+		</data>
+		<field name="SDO" description="" length="0" variableLength="false">
+			<bit function="SDO" cycle="0" />
+			<bit function="SDO" cycle="1" />
+			<bit function="SDO" cycle="2" />
+			<bit function="SDO" cycle="3" />
+			<bit function="SDO" cycle="4" />
+			<bit function="SDO" cycle="5" />
+			<bit function="SDO" cycle="6" />
+			<bit function="SDO" cycle="7" />
+		</field>
+	</frame>
+	<frame name="SPI_BYTE_WRITE" description="SPI 8Bits Transaction" type="Read" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">- 0 0 X 1</cycle>
+			<cycle repeat="0">- 0 0 X 1</cycle>
+			<cycle repeat="0">- 1 0 X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+		</data>
+		<field name="DIN" description="" length="0" variableLength="false">
+			<bit function="DIN" cycle="3" />
+			<bit function="DIN" cycle="4" />
+			<bit function="DIN" cycle="5" />
+			<bit function="DIN" cycle="6" />
+			<bit function="DIN" cycle="7" />
+			<bit function="DIN" cycle="8" />
+			<bit function="DIN" cycle="9" />
+			<bit function="DIN" cycle="10" />
+			<bit function="DIN" cycle="11" />
+			<bit function="DIN" cycle="13" />
+			<bit function="DIN" cycle="14" />
+			<bit function="DIN" cycle="15" />
+			<bit function="DIN" cycle="16" />
+			<bit function="DIN" cycle="17" />
+			<bit function="DIN" cycle="18" />
+			<bit function="DIN" cycle="12" />
+		</field>
+		<field name="SDO" description="" length="0" variableLength="false">
+			<bit function="SDO" cycle="11" />
+			<bit function="SDO" cycle="12" />
+			<bit function="SDO" cycle="13" />
+			<bit function="SDO" cycle="14" />
+			<bit function="SDO" cycle="15" />
+			<bit function="SDO" cycle="16" />
+			<bit function="SDO" cycle="17" />
+			<bit function="SDO" cycle="18" />
+		</field>
+	</frame>
+	<frame name="SPI_BYTE_WRITE1" description="SPI 8Bits Transaction" type="Write" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">- 0 0 X 1</cycle>
+			<cycle repeat="0">- 0 0 X 1</cycle>
+			<cycle repeat="0">- 1 0 X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+			<cycle repeat="0">- 0 D X 1</cycle>
+		</data>
+		<field name="DIN" description="" length="0" variableLength="false">
+			<bit function="DIN" cycle="3" />
+			<bit function="DIN" cycle="4" />
+			<bit function="DIN" cycle="5" />
+			<bit function="DIN" cycle="6" />
+			<bit function="DIN" cycle="7" />
+			<bit function="DIN" cycle="8" />
+			<bit function="DIN" cycle="9" />
+			<bit function="DIN" cycle="10" />
+		</field>
+	</frame>
+	<frame name="SPI_BYTE_WRITE2" description="SPI 8Bits Transaction" type="Read" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+			<cycle repeat="0">- 0 D E 1</cycle>
+		</data>
+		<field name="DIN" description="" length="0" variableLength="false">
+			<bit function="DIN" cycle="0" />
+			<bit function="DIN" cycle="1" />
+			<bit function="DIN" cycle="2" />
+			<bit function="DIN" cycle="3" />
+			<bit function="DIN" cycle="4" />
+			<bit function="DIN" cycle="5" />
+			<bit function="DIN" cycle="6" />
+			<bit function="DIN" cycle="7" />
+		</field>
+		<field name="SDO" description="" length="0" variableLength="false">
+			<bit function="SDO" cycle="0" />
+			<bit function="SDO" cycle="1" />
+			<bit function="SDO" cycle="2" />
+			<bit function="SDO" cycle="3" />
+			<bit function="SDO" cycle="4" />
+			<bit function="SDO" cycle="5" />
+			<bit function="SDO" cycle="6" />
+			<bit function="SDO" cycle="7" />
+		</field>
+	</frame>
+	<frame name="Idle" description="IDLE State" type="Idle" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="3">1 1 0 X 1</cycle>
+		</data>
+	</frame>
+	<frame name="RESET" description="" type="Write" ascending_algorithm="" descending_algorithm="">
+		<data>
+			<cycle repeat="3">- 0 0 X 0</cycle>
+		</data>
+	</frame>
+	<layer_map has_hardware_layering="false" />
+</protocol>

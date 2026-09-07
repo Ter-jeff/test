@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<UflexConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IO>		15  		</IO>
+  <HexVS>	 		</HexVS>
+  <UVS256>		        </UVS256>
+  <UVI80>	7,19		</UVI80>
+  <Support>	24		</Support>
+  <UltraPAC>			</UltraPAC>
+  <DC30>	11		</DC30>
+  <US10G>			</US10G>
+  <VSM>       </VSM>
+</UflexConfig>
+<!--
+Notice 1: xml is case sensitive !
+Notice 2: Only support instrument type for VSM,IO,HexVS,UVS64,UVS256,UVI80,UltraPAC,DC30,US10G,Support. If need to add any new type, please inform Teradyne Autogen team.
+-->
+
+<!-- 
+<CP>
+  <VSM>       </VSM>
+  <IO>		2,3,4,5,6,7,8,9,10,13,14,15,16,17  </IO>
+  <HexVS>	0,1,11,20,21  	</HexVS>
+  <UVS64>       </UVS64>
+  <UVS256>	19,22,23	</UVS256>
+  <UVI80>	18		</UVI80>
+  <UltraPAC>	12		</UltraPAC>
+  <DC30>			</DC30>
+  <US10G>			</US10G>
+  <Support>	24,25		</Support>
+</CP>
+<FT>
+  <IO>		2,3,4,5,6,7,8,9,10,13,14,15,16,17  </IO>
+  <HexVS>	0,1,11,20,21  	</HexVS>
+  <UVS256>	19,22,23	</UVS256>
+  <UVI80>	18		</UVI80>
+  <Support>	24,25		</Support>
+  <UltraPAC>	12		</UltraPAC>
+  <DC30>			</DC30>
+  <US10G>			</US10G>
+  <VSM>       </VSM>
+</FT>
+-->

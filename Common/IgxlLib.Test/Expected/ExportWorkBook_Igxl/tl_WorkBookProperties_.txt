@@ -1,0 +1,10 @@
+TAB_ORDER	Channel Map:1;Flow Table:2;Global Specs:3;Lib_Autogen.bas:4;Lib_Test1.bas:5;Pin Map:6;Test Instances:7;
+terAC	
+terChanMap	Channel Map
+terDC	
+terEnv	
+terHiddenSheets	
+terJob	Sample_a.igxl
+terName	Sample_a.igxl
+terPart	
+terTI	

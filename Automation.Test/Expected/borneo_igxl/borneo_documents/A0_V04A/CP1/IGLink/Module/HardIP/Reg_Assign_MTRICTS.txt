@@ -1,0 +1,971 @@
+MeasV_PinS				MeasV_PinS				MeasV_PinS				Meas_StoreName				MeasI_PinS				Calc_Eqn						Calc_Eqn					
+SubBlockName	Seq	Parametric0		SubBlockName	Seq	Parametric0		SubBlockName	Seq	Parametric0		SubBlockName	Seq	Parametric0		SubBlockName	Seq	Parametric0		SubBlockName	Parametric0	Parametric1	Parametric2	Parametric3		SubBlockName	Parametric0	Parametric1	Parametric2	Parametric3	
+MTRICTS_MNANATESTT1P3HV	V	ANALOGMUX_OUT_NEG		MTRICTS_MNANATESTT1P3LV	V	ANALOGMUX_OUT_NEG		MTRICTS_MNANATESTT1P3NV	V	ANALOGMUX_OUT_NEG		MTRICTS_MNIREFT1P2	I	ta000_core0__iref0		MTRICTS_MNIREFT1P2	I	ANALOGMUX_OUT_NEG		MTRICTS_NBRIDGET2P1	Alg		Calc_DSP_Dictionary_Process(Ta000_CORE0__NBCAL:5:16,ta000_core0__nbcal_ate)			MTRICTS_READT4P1	Alg		Calc_DSP_Dictionary_Process(Ta000_CORE0__RAW_MSSN:3:16,ta000_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core0__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta001_CORE0__NBCAL:5:16,ta001_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta001_CORE0__RAW_MSSN:3:16,ta001_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core0__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta004_CORE0__NBCAL:5:16,ta004_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta004_CORE0__RAW_MSSN:3:16,ta004_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core0__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta000_CORE1__NBCAL:5:16,ta000_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta000_CORE1__RAW_MSSN:3:16,ta000_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core0__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta001_CORE1__NBCAL:5:16,ta001_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta001_CORE1__RAW_MSSN:3:16,ta001_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core0__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta004_CORE1__NBCAL:5:16,ta004_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta004_CORE1__RAW_MSSN:3:16,ta004_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core0__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta005_CORE0__NBCAL:5:16,ta005_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta005_CORE0__RAW_MSSN:3:16,ta005_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core0__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta007_CORE0__NBCAL:5:16,ta007_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta007_CORE0__RAW_MSSN:3:16,ta007_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core0__iref0			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta009_CORE0__NBCAL:5:16,ta009_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta009_CORE0__RAW_MSSN:3:16,ta009_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core0__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta005_CORE1__NBCAL:5:16,ta005_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta005_CORE1__RAW_MSSN:3:16,ta005_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core0__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta007_CORE1__NBCAL:5:16,ta007_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta007_CORE1__RAW_MSSN:3:16,ta007_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core0__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta009_CORE1__NBCAL:5:16,ta009_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta009_CORE1__RAW_MSSN:3:16,ta009_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core0__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta010_CORE0__NBCAL:5:16,ta010_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta010_CORE0__RAW_MSSN:3:16,ta010_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core0__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta011_CORE0__NBCAL:5:16,ta011_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta011_CORE0__RAW_MSSN:3:16,ta011_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core0__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta012_CORE0__NBCAL:5:16,ta012_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta012_CORE0__RAW_MSSN:3:16,ta012_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core0__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta014_CORE0__NBCAL:5:16,ta014_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta014_CORE0__RAW_MSSN:3:16,ta014_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core0__iref0			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta010_CORE1__NBCAL:5:16,ta010_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta010_CORE1__RAW_MSSN:3:16,ta010_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core0__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta011_CORE1__NBCAL:5:16,ta011_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta011_CORE1__RAW_MSSN:3:16,ta011_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core0__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta012_CORE1__NBCAL:5:16,ta012_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta012_CORE1__RAW_MSSN:3:16,ta012_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core0__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta014_CORE1__NBCAL:5:16,ta014_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta014_CORE1__RAW_MSSN:3:16,ta014_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core0__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta015_CORE0__NBCAL:5:16,ta015_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta015_CORE0__RAW_MSSN:3:16,ta015_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core0__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta016_CORE0__NBCAL:5:16,ta016_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta016_CORE0__RAW_MSSN:3:16,ta016_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core0__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta018_CORE0__NBCAL:5:16,ta018_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta018_CORE0__RAW_MSSN:3:16,ta018_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core0__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta015_CORE1__NBCAL:5:16,ta015_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta015_CORE1__RAW_MSSN:3:16,ta015_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core1__iref0			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta016_CORE1__NBCAL:5:16,ta016_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta016_CORE1__RAW_MSSN:3:16,ta016_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core1__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ta018_CORE1__NBCAL:5:16,ta018_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ta018_CORE1__RAW_MSSN:3:16,ta018_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core1__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts000_CORE0__NBCAL:5:16,ts000_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts000_CORE0__RAW_MSSN:3:16,ts000_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core1__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts001_CORE0__NBCAL:5:16,ts001_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts001_CORE0__RAW_MSSN:3:16,ts001_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core1__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts002_CORE0__NBCAL:5:16,ts002_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts002_CORE0__RAW_MSSN:3:16,ts002_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core1__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts003_CORE0__NBCAL:5:16,ts003_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts003_CORE0__RAW_MSSN:3:16,ts003_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core1__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts004_CORE0__NBCAL:5:16,ts004_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts004_CORE0__RAW_MSSN:3:16,ts004_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta000_core1__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts005_CORE0__NBCAL:5:16,ts005_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts005_CORE0__RAW_MSSN:3:16,ts005_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core1__iref0			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts006_CORE0__NBCAL:5:16,ts006_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts006_CORE0__RAW_MSSN:3:16,ts006_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core1__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts007_CORE0__NBCAL:5:16,ts007_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts007_CORE0__RAW_MSSN:3:16,ts007_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core1__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts000_CORE1__NBCAL:5:16,ts000_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts000_CORE1__RAW_MSSN:3:16,ts000_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core1__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts001_CORE1__NBCAL:5:16,ts001_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts001_CORE1__RAW_MSSN:3:16,ts001_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core1__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts002_CORE1__NBCAL:5:16,ts002_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts002_CORE1__RAW_MSSN:3:16,ts002_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core1__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts003_CORE1__NBCAL:5:16,ts003_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts003_CORE1__RAW_MSSN:3:16,ts003_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core1__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts004_CORE1__NBCAL:5:16,ts004_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts004_CORE1__RAW_MSSN:3:16,ts004_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta001_core1__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts005_CORE1__NBCAL:5:16,ts005_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts005_CORE1__RAW_MSSN:3:16,ts005_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core1__iref0			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts006_CORE1__NBCAL:5:16,ts006_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts006_CORE1__RAW_MSSN:3:16,ts006_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core1__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts007_CORE1__NBCAL:5:16,ts007_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts007_CORE1__RAW_MSSN:3:16,ts007_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core1__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts008_CORE0__NBCAL:5:16,ts008_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts008_CORE0__RAW_MSSN:3:16,ts008_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core1__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Ts008_CORE1__NBCAL:5:16,ts008_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Ts008_CORE1__RAW_MSSN:3:16,ts008_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core1__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tsep_cpu_CORE0__NBCAL:5:16,tsep_cpu_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tsep_cpu_CORE0__RAW_MSSN:3:16,tsep_cpu_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core1__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tsep_sys0_CORE0__NBCAL:5:16,tsep_sys0_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tsep_sys0_CORE0__RAW_MSSN:3:16,tsep_sys0_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core1__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tsep_sys1_CORE0__NBCAL:5:16,tsep_sys1_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tsep_sys1_CORE0__RAW_MSSN:3:16,tsep_sys1_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta004_core1__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tsep_cpu_CORE1__NBCAL:5:16,tsep_cpu_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tsep_cpu_CORE1__RAW_MSSN:3:16,tsep_cpu_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core0__iref0			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tsep_sys0_CORE1__NBCAL:5:16,tsep_sys0_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tsep_sys0_CORE1__RAW_MSSN:3:16,tsep_sys0_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core0__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tsep_sys1_CORE1__NBCAL:5:16,tsep_sys1_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tsep_sys1_CORE1__RAW_MSSN:3:16,tsep_sys1_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core0__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg000_CORE0__NBCAL:5:16,tg000_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg000_CORE0__RAW_MSSN:3:16,tg000_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core0__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg001_CORE0__NBCAL:5:16,tg001_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg001_CORE0__RAW_MSSN:3:16,tg001_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core0__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg002_CORE0__NBCAL:5:16,tg002_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg002_CORE0__RAW_MSSN:3:16,tg002_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core0__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg004_CORE0__NBCAL:5:16,tg004_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg004_CORE0__RAW_MSSN:3:16,tg004_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core0__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg000_CORE1__NBCAL:5:16,tg000_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg000_CORE1__RAW_MSSN:3:16,tg000_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core0__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg001_CORE1__NBCAL:5:16,tg001_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg001_CORE1__RAW_MSSN:3:16,tg001_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core0__iref0			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg002_CORE1__NBCAL:5:16,tg002_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg002_CORE1__RAW_MSSN:3:16,tg002_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core0__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg004_CORE1__NBCAL:5:16,tg004_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg004_CORE1__RAW_MSSN:3:16,tg004_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core0__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00d_CORE0__NBCAL:5:16,tg00d_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00d_CORE0__RAW_MSSN:3:16,tg00d_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core0__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00h_CORE0__NBCAL:5:16,tg00h_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00h_CORE0__RAW_MSSN:3:16,tg00h_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core0__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00i_CORE0__NBCAL:5:16,tg00i_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00i_CORE0__RAW_MSSN:3:16,tg00i_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core0__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00j_CORE0__NBCAL:5:16,tg00j_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00j_CORE0__RAW_MSSN:3:16,tg00j_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core0__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00k_CORE0__NBCAL:5:16,tg00k_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00k_CORE0__RAW_MSSN:3:16,tg00k_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core0__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00l_CORE0__NBCAL:5:16,tg00l_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00l_CORE0__RAW_MSSN:3:16,tg00l_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core0__iref0			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00m_CORE0__NBCAL:5:16,tg00m_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00m_CORE0__RAW_MSSN:3:16,tg00m_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core0__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00d_CORE1__NBCAL:5:16,tg00d_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00d_CORE1__RAW_MSSN:3:16,tg00d_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core0__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00h_CORE1__NBCAL:5:16,tg00h_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00h_CORE1__RAW_MSSN:3:16,tg00h_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core0__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00i_CORE1__NBCAL:5:16,tg00i_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00i_CORE1__RAW_MSSN:3:16,tg00i_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core0__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00j_CORE1__NBCAL:5:16,tg00j_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00j_CORE1__RAW_MSSN:3:16,tg00j_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core0__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00k_CORE1__NBCAL:5:16,tg00k_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00k_CORE1__RAW_MSSN:3:16,tg00k_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core0__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00l_CORE1__NBCAL:5:16,tg00l_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00l_CORE1__RAW_MSSN:3:16,tg00l_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core0__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tg00m_CORE1__NBCAL:5:16,tg00m_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tg00m_CORE1__RAW_MSSN:3:16,tg00m_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core1__iref0			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Te001_CORE0__NBCAL:5:16,te001_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Te001_CORE0__RAW_MSSN:3:16,te001_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core1__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Te001_CORE1__NBCAL:5:16,te001_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Te001_CORE1__RAW_MSSN:3:16,te001_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core1__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Te008_CORE0__NBCAL:5:16,te008_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Te008_CORE0__RAW_MSSN:3:16,te008_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core1__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Te009_CORE0__NBCAL:5:16,te009_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Te009_CORE0__RAW_MSSN:3:16,te009_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core1__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Te008_CORE1__NBCAL:5:16,te008_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Te008_CORE1__RAW_MSSN:3:16,te008_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core1__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Te009_CORE1__NBCAL:5:16,te009_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Te009_CORE1__RAW_MSSN:3:16,te009_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core1__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tp000_CORE0__NBCAL:5:16,tp000_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tp000_CORE0__RAW_MSSN:3:16,tp000_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta005_core1__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tp001_CORE0__NBCAL:5:16,tp001_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tp001_CORE0__RAW_MSSN:3:16,tp001_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core1__iref0			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tp000_CORE1__NBCAL:5:16,tp000_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tp000_CORE1__RAW_MSSN:3:16,tp000_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core1__iref1			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tp001_CORE1__NBCAL:5:16,tp001_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tp001_CORE1__RAW_MSSN:3:16,tp001_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core1__iref2			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tp00a_CORE0__NBCAL:5:16,tp00a_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tp00a_CORE0__RAW_MSSN:3:16,tp00a_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core1__iref3			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tp00b_CORE0__NBCAL:5:16,tp00b_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tp00b_CORE0__RAW_MSSN:3:16,tp00b_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core1__iref4			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tp00c_CORE0__NBCAL:5:16,tp00c_core0__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tp00c_CORE0__RAW_MSSN:3:16,tp00c_core0__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core1__iref5			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tp00a_CORE1__NBCAL:5:16,tp00a_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tp00a_CORE1__RAW_MSSN:3:16,tp00a_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core1__iref6			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tp00b_CORE1__NBCAL:5:16,tp00b_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tp00b_CORE1__RAW_MSSN:3:16,tp00b_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta007_core1__iref7			I	ANALOGMUX_OUT_NEG			Alg		Calc_DSP_Dictionary_Process(Tp00c_CORE1__NBCAL:5:16,tp00c_core1__nbcal_ate)				Alg		Calc_DSP_Dictionary_Process(Tp00c_CORE1__RAW_MSSN:3:16,tp00c_core1__raw_mssn_t4p1_ate)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core1__iref0			I	ANALOGMUX_OUT_NEG									Alg		Calc_ICTS_Coefficient1DPolyFit(ta000_core0__raw_mssn_t4p1_ate+ta000_core0__ICTS+25,ta001_core0__raw_mssn_t4p1_ate+ta001_core0__ICTS+25,ta004_core0__raw_mssn_t4p1_ate+ta004_core0__ICTS+25,ta000_core1__raw_mssn_t4p1_ate+ta000_core1__ICTS+25,ta001_core1__raw_mssn_t4p1_ate+ta001_core1__ICTS+25,ta004_core1__raw_mssn_t4p1_ate+ta004_core1__ICTS+25,ta005_core0__raw_mssn_t4p1_ate+ta005_core0__ICTS+25,ta007_core0__raw_mssn_t4p1_ate+ta007_core0__ICTS+25,ta009_core0__raw_mssn_t4p1_ate+ta009_core0__ICTS+25,ta005_core1__raw_mssn_t4p1_ate+ta005_core1__ICTS+25,ta007_core1__raw_mssn_t4p1_ate+ta007_core1__ICTS+25,ta009_core1__raw_mssn_t4p1_ate+ta009_core1__ICTS+25,ta010_core0__raw_mssn_t4p1_ate+ta010_core0__ICTS+25,ta011_core0__raw_mssn_t4p1_ate+ta011_core0__ICTS+25,ta012_core0__raw_mssn_t4p1_ate+ta012_core0__ICTS+25,ta014_core0__raw_mssn_t4p1_ate+ta014_core0__ICTS+25,ta010_core1__raw_mssn_t4p1_ate+ta010_core1__ICTS+25,ta011_core1__raw_mssn_t4p1_ate+ta011_core1__ICTS+25,ta012_core1__raw_mssn_t4p1_ate+ta012_core1__ICTS+25,ta014_core1__raw_mssn_t4p1_ate+ta014_core1__ICTS+25,ta015_core0__raw_mssn_t4p1_ate+ta015_core0__ICTS+25,ta016_core0__raw_mssn_t4p1_ate+ta016_core0__ICTS+25,ta018_core0__raw_mssn_t4p1_ate+ta018_core0__ICTS+25,ta015_core1__raw_mssn_t4p1_ate+ta015_core1__ICTS+25,ta016_core1__raw_mssn_t4p1_ate+ta016_core1__ICTS+25,ta018_core1__raw_mssn_t4p1_ate+ta018_core1__ICTS+25,ts000_core0__raw_mssn_t4p1_ate+ts000_core0__ICTS+25,ts001_core0__raw_mssn_t4p1_ate+ts001_core0__ICTS+25,ts002_core0__raw_mssn_t4p1_ate+ts002_core0__ICTS+25,ts003_core0__raw_mssn_t4p1_ate+ts003_core0__ICTS+25,ts004_core0__raw_mssn_t4p1_ate+ts004_core0__ICTS+25,ts005_core0__raw_mssn_t4p1_ate+ts005_core0__ICTS+25,ts006_core0__raw_mssn_t4p1_ate+ts006_core0__ICTS+25,ts007_core0__raw_mssn_t4p1_ate+ts007_core0__ICTS+25,ts000_core1__raw_mssn_t4p1_ate+ts000_core1__ICTS+25,ts001_core1__raw_mssn_t4p1_ate+ts001_core1__ICTS+25,ts002_core1__raw_mssn_t4p1_ate+ts002_core1__ICTS+25,ts003_core1__raw_mssn_t4p1_ate+ts003_core1__ICTS+25,ts004_core1__raw_mssn_t4p1_ate+ts004_core1__ICTS+25,ts005_core1__raw_mssn_t4p1_ate+ts005_core1__ICTS+25,ts006_core1__raw_mssn_t4p1_ate+ts006_core1__ICTS+25,ts007_core1__raw_mssn_t4p1_ate+ts007_core1__ICTS+25,ts008_core0__raw_mssn_t4p1_ate+ts008_core0__ICTS+25,ts008_core1__raw_mssn_t4p1_ate+ts008_core1__ICTS+25,tsep_cpu_core0__raw_mssn_t4p1_ate+tsep_cpu_core0__ICTS+25,tsep_sys0_core0__raw_mssn_t4p1_ate+tsep_sys0_core0__ICTS+25,tsep_sys1_core0__raw_mssn_t4p1_ate+tsep_sys1_core0__ICTS+25,tsep_cpu_core1__raw_mssn_t4p1_ate+tsep_cpu_core1__ICTS+25,tsep_sys0_core1__raw_mssn_t4p1_ate+tsep_sys0_core1__ICTS+25,tsep_sys1_core1__raw_mssn_t4p1_ate+tsep_sys1_core1__ICTS+25,tg000_core0__raw_mssn_t4p1_ate+tg000_core0__ICTS+25,tg001_core0__raw_mssn_t4p1_ate+tg001_core0__ICTS+25,tg002_core0__raw_mssn_t4p1_ate+tg002_core0__ICTS+25,tg004_core0__raw_mssn_t4p1_ate+tg004_core0__ICTS+25,tg000_core1__raw_mssn_t4p1_ate+tg000_core1__ICTS+25,tg001_core1__raw_mssn_t4p1_ate+tg001_core1__ICTS+25,tg002_core1__raw_mssn_t4p1_ate+tg002_core1__ICTS+25,tg004_core1__raw_mssn_t4p1_ate+tg004_core1__ICTS+25,tg00d_core0__raw_mssn_t4p1_ate+tg00d_core0__ICTS+25,tg00h_core0__raw_mssn_t4p1_ate+tg00h_core0__ICTS+25,tg00i_core0__raw_mssn_t4p1_ate+tg00i_core0__ICTS+25,tg00j_core0__raw_mssn_t4p1_ate+tg00j_core0__ICTS+25,tg00k_core0__raw_mssn_t4p1_ate+tg00k_core0__ICTS+25,tg00l_core0__raw_mssn_t4p1_ate+tg00l_core0__ICTS+25,tg00m_core0__raw_mssn_t4p1_ate+tg00m_core0__ICTS+25,tg00d_core1__raw_mssn_t4p1_ate+tg00d_core1__ICTS+25,tg00h_core1__raw_mssn_t4p1_ate+tg00h_core1__ICTS+25,tg00i_core1__raw_mssn_t4p1_ate+tg00i_core1__ICTS+25,tg00j_core1__raw_mssn_t4p1_ate+tg00j_core1__ICTS+25,tg00k_core1__raw_mssn_t4p1_ate+tg00k_core1__ICTS+25,tg00l_core1__raw_mssn_t4p1_ate+tg00l_core1__ICTS+25,tg00m_core1__raw_mssn_t4p1_ate+tg00m_core1__ICTS+25,te001_core0__raw_mssn_t4p1_ate+te001_core0__ICTS+25,te001_core1__raw_mssn_t4p1_ate+te001_core1__ICTS+25,te008_core0__raw_mssn_t4p1_ate+te008_core0__ICTS+25,te009_core0__raw_mssn_t4p1_ate+te009_core0__ICTS+25,te008_core1__raw_mssn_t4p1_ate+te008_core1__ICTS+25,te009_core1__raw_mssn_t4p1_ate+te009_core1__ICTS+25,tp000_core0__raw_mssn_t4p1_ate+tp000_core0__ICTS+25,tp001_core0__raw_mssn_t4p1_ate+tp001_core0__ICTS+25,tp000_core1__raw_mssn_t4p1_ate+tp000_core1__ICTS+25,tp001_core1__raw_mssn_t4p1_ate+tp001_core1__ICTS+25,tp00a_core0__raw_mssn_t4p1_ate+tp00a_core0__ICTS+25,tp00b_core0__raw_mssn_t4p1_ate+tp00b_core0__ICTS+25,tp00c_core0__raw_mssn_t4p1_ate+tp00c_core0__ICTS+25,tp00a_core1__raw_mssn_t4p1_ate+tp00a_core1__ICTS+25,tp00b_core1__raw_mssn_t4p1_ate+tp00b_core1__ICTS+25,tp00c_core1__raw_mssn_t4p1_ate+tp00c_core1__ICTS+25)		
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta009_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta010_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta011_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta012_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta014_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta015_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta016_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ta018_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts005_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts005_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts005_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts005_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts005_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts005_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts005_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts005_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts006_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts006_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts006_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts006_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts006_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts006_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts006_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts006_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts007_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts007_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts007_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts007_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts007_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts007_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts007_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts007_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts000_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts001_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts002_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts003_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	ts004_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts004_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts004_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts004_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts004_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts005_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts005_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts005_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts005_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts005_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts005_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts005_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts005_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts006_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts006_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts006_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts006_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts006_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts006_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts006_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts006_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts007_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts007_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts007_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts007_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts007_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts007_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts007_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts007_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	ts008_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_cpu_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_cpu_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_cpu_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_cpu_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_cpu_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_cpu_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_cpu_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_cpu_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_sys0_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_sys0_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_sys0_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core0__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core0__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core0__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core0__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core0__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core0__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core0__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core0__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_cpu_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_cpu_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_cpu_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_cpu_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_cpu_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_cpu_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_cpu_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_cpu_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys0_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core1__iref0			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core1__iref1			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core1__iref2			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tsep_sys1_core1__iref3			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_sys1_core1__iref4			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_sys1_core1__iref5			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_sys1_core1__iref6			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tsep_sys1_core1__iref7			I	ANALOGMUX_OUT_NEG													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg004_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg004_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg004_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg004_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg004_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg004_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg004_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg004_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg000_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg001_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg002_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg002_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg002_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg002_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg002_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg002_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg004_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg004_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg004_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg004_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg004_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg004_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg004_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg004_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00k_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00k_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00k_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00k_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00k_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00k_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00k_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00k_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00l_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00l_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00l_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00l_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00l_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00l_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00l_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00l_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00m_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00m_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00m_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00m_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00m_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00m_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00m_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00m_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00d_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00h_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00i_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			V	ANALOGMUX_OUT_NEG			I	tg00j_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00j_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00j_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00k_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00k_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00k_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00k_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00k_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00k_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00k_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00k_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00l_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00l_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00l_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00l_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00l_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00l_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00l_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00l_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00m_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00m_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00m_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00m_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00m_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00m_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00m_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tg00m_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te001_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te008_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	te009_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp000_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp001_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core0__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core0__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core0__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core0__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core0__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core0__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core0__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core0__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00a_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00b_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core1__iref0			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core1__iref1			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core1__iref2			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core1__iref3			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core1__iref4			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core1__iref5			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core1__iref6			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			I	tp00c_core1__iref7			I	ANALOGMUX_OUT_POS													
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+	V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS			V	ANALOGMUX_OUT_POS																					
+																															

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NeedSheetsConfig xmlns="http://tempuri.org/NeedSheetsConfig.xsd">
+	<TestPlan>
+		<NeedSheetItem ItemName="TestSettingTbl" SheetName = "((?&lt;projectname&gt;[\w]+)_)?(TestSetting|VoltageTable)(_(?&lt;job&gt;[\w]+))?"/>
+		<NeedSheetItem ItemName="PowerTbl" SheetName = "POWER_PowerTable"/>
+		<NeedSheetItem ItemName="PowerGb" SheetName = "POWER_GuardBand"/>
+		<NeedSheetItem ItemName="PowerMerge" SheetName = "POWER_PowerMerge"/>
+		<NeedSheetItem ItemName="HardIPPLLMeas" SheetName = "PLLDEBUG"/>
+		<NeedSheetItem ItemName="ClockOutMeas" SheetName = "Clock_Check"/>
+		<NeedSheetItem ItemName="PowerPerform" SheetName = "POWER_Performance_Modes"/>
+		<NeedSheetItem ItemName="PowerVmargin" SheetName = "POWER_Vmargin"/>
+		<NeedSheetItem ItemName="ContiDcTest" SheetName = "DCTEST_Continuity"/>
+		<NeedSheetItem ItemName="ContiIo" SheetName = "IO_Continuity"/>
+		<NeedSheetItem ItemName="IoGroup" SheetName = "IO_PinGroup"/>
+		<NeedSheetItem ItemName="PinMap" SheetName = "IO_PinMap"/>
+		<NeedSheetItem ItemName="ArraysSize" SheetName = "EFUSE_Arrays_Size"/>
+		<NeedSheetItem ItemName="EvsPat" SheetName = "EVS_Pat_list"/>
+		<NeedSheetItem ItemName="MainFlow" SheetName = "Flow_Main"/>
+		<NeedSheetItem ItemName="HardIpDc" SheetName = "HardIp_DC"/>
+		<NeedSheetItem ItemName="HardIpDcDefault" SheetName = "HardIp_DCDefault"/>
+		<NeedSheetItem ItemName="PowerMemoryRepairBist" SheetName = "Power_MemoryRepairBist"/>
+		<NeedSheetItem ItemName="HardIRegAssign" SheetName = "Reg_Assign"/>
+		<NeedSheetItem ItemName="PowerInfo" SheetName = "PowerInfo"/>
+		<NeedSheetItem ItemName="IOInfo" SheetName = "IOInfo"/>
+		<NeedSheetItem ItemName="IOInfo_Concurrent" SheetName = "IOInfo_Concurrent"/>
+		<NeedSheetItem ItemName="EvsFlow" SheetName = "EVS_Flow"/>
+		<NeedSheetItem ItemName="CharSetting" SheetName = "CharSetting"/>
+	</TestPlan>
+	<Scgh>
+		<NeedSheetItem ItemName="HardIpScgh" SheetName = "HardIP_PC"/>
+		<NeedSheetItem ItemName="C_HardIpScgh" SheetName = "C_HardIP_PC"/>
+		<NeedSheetItem ItemName="G_HardIpScgh" SheetName = "L_HardIP_PC"/>
+		<NeedSheetItem ItemName="S_HardIpScgh" SheetName = "S_HardIP_PC"/>
+		<NeedSheetItem ItemName="ScanScgCpu" SheetName = "C_SC_PC"/>
+		<NeedSheetItem ItemName="ScanScgGpu" SheetName = "L_SC_PC"/>
+		<NeedSheetItem ItemName="ScanScgSoc" SheetName = "S_SC_PC"/>
+		<NeedSheetItem ItemName="MbistScgCpu" SheetName = "C_BI_PP"/>
+		<NeedSheetItem ItemName="MbistScgGpu" SheetName = "L_BI_PP"/>
+		<NeedSheetItem ItemName="MbistScgSoc" SheetName = "S_BI_PP"/>
+		<NeedSheetItem ItemName="MbistCharScgCpu" SheetName = "C_BI_PC"/>
+		<NeedSheetItem ItemName="MbistCharScgGpu" SheetName = "L_BI_PC"/>
+		<NeedSheetItem ItemName="MbistCharScgSoc" SheetName = "S_BI_PC"/>
+		<NeedSheetItem ItemName="SpiScghCpu" SheetName = "RTOS_PC"/>
+		<NeedSheetItem ItemName="SpiScghGpu" SheetName = "L_SPI_PROD_CHAR"/>
+		<NeedSheetItem ItemName="SpiScghSoc" SheetName = "S_SPI_PROD_CHAR"/>
+	</Scgh>
+	<BinCutWorkBook>
+		<NeedSheetItem ItemName="BcFlow" SheetName = "Flow"/>
+		<NeedSheetItem ItemName="BcNotes" SheetName = "Notes"/>
+		<NeedSheetItem ItemName="Binning" SheetName = "Binning"/>
+		<NeedSheetItem ItemName="BinningBinX" SheetName = "Binning_BinX"/>
+		<NeedSheetItem ItemName="BinningBinY" SheetName = "Binning_BinY"/>
+	</BinCutWorkBook>
+	<BinCutPostWorkbook>
+		<NeedSheetItem ItemName="BcFlowPost" SheetName = "Flow_PostBincut"/>
+		<NeedSheetItem ItemName="BcNotesPost" SheetName = "Notes"/>
+	</BinCutPostWorkbook>
+	<NwireRelay>
+		<NeedSheetItem ItemName="FreeRunClk" SheetName = "FreeRunningClock"/>
+		<NeedSheetItem ItemName="Relay" SheetName = "Relay"/>
+	</NwireRelay>
+	<IoMapping>
+		<NeedSheetItem ItemName="IoMapping" SheetName = "IO_Mapping"/>
+	</IoMapping>
+</NeedSheetsConfig>

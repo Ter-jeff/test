@@ -1,0 +1,22 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						If	ControlBin__																															
+						Bintable	Bin__																															
+						EndIf																																
+						If	ControlBin_CPU_A																															
+						Bintable	Bin_CPU_A																															
+						EndIf																																
+						If	ControlBin_CPU_B																															
+						Bintable	Bin_CPU_B																															
+						EndIf																																
+						If	ControlBin_SOC_C																															
+						Bintable	Bin_SOC_C																															
+						EndIf																																
+						If	ControlBin_SOC_D																															
+						Bintable	Bin_SOC_D																															
+						EndIf																																
+						If	ControlBin_SOC_E																															
+						Bintable	Bin_SOC_E																															
+						EndIf																																

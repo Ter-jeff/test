@@ -1,0 +1,33 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table																																					
+						Flow Domain:																																
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data						
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Datalog Display Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment	
+						print	"Flow HardIP_LPDPTX Start "																															
+_MemoryBK		(HardIP_NV||Prod_CP1)&&!Char_CP_FuseRead	CP1		xx	Test	lpdptx_auxrxauxtimp_fuse_prewrite_cal														,F_HardIP_LPDPTX_Flag																	lpdptx_auxrxauxtimp_fuse_prewrite_cal	
+_MemoryBK		(HardIP_NV||Prod_CP2||Prod_FT1||Prod_FT2||Char_CP_fuseRead)	CP2,WLFT1,WLFT2,FT1,FT2			Test	lpdptx_auxrxauxtimp_fuse_read_cal														F_HARDIP_Fuse_Read_Non_Zero_Check_Flag,F_HardIP_LPDPTX_Flag																	lpdptx_auxrxauxtimp_fuse_read_cal	
+		Enable_HF			xx	Test	HFLH_N_VDDFIXEDLPDPTXINT_PLB_PP_BRNA0_S_IN00_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_CHIP_INIT_NV		22200000												F_Dummy																	
+		Enable_HF			xx	Test	LPDPTX_PP_BRNA0_S_IN01_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_LPDPTX_HEADER_PLB_CZ_NV		22200050												F_Dummy																	
+		Enable_HF			xx	Test	LPDPTX_PP_BRNA0_S_IN02_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_LOAD_TUNABLES_PLB_CZ_NV		22200100												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDDFIXEDLPDPTXINT_PLB_LPDPTX_X_X_X_X_X_CZ_NV		22200150												F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDDFIXEDLPDPTXINT_PLB_LPDPTX_X_X_X_X_X_CZ_NV LPDPTX_VDDFIXEDLPDPTXINT_jump		22200200												F_Dummy																	
+						nop	Bin_initFlow_BinOut		22200250																													
+		Enable_HF			xx	Test	HFLH_N_VDDFIXEDLPDPTXSEC_PLB_PP_BRNA0_S_IN00_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_CHIP_INIT_NV		22200300												F_Dummy																	
+		Enable_HF			xx	Test	LPDPTX_PP_BRNA0_S_IN01_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_LPDPTX_HEADER_PLB_CZ_NV		22200350												F_Dummy																	
+		Enable_HF			xx	Test	LPDPTX_PP_BRNA0_S_IN02_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_LOAD_TUNABLES_PLB_CZ_NV		22200400												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDDFIXEDLPDPTXSEC_PLB_LPDPTX_X_X_X_X_X_CZ_NV		22200450												F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDDFIXEDLPDPTXSEC_PLB_LPDPTX_X_X_X_X_X_CZ_NV LPDPTX_VDDFIXEDLPDPTXSEC_jump		22200500												F_Dummy																	
+						nop	Bin_initFlow_BinOut		22200550																													
+		Enable_HF			xx	Test	HFLH_N_VDD10LPDPTXINT_PLB_PP_BRNA0_S_IN00_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_CHIP_INIT_NV		22200600												F_Dummy																	
+		Enable_HF			xx	Test	LPDPTX_PP_BRNA0_S_IN01_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_LPDPTX_HEADER_PLB_CZ_NV		22200650												F_Dummy																	
+		Enable_HF			xx	Test	LPDPTX_PP_BRNA0_S_IN02_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_LOAD_TUNABLES_PLB_CZ_NV		22200700												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDD10LPDPTXINT_PLB_LPDPTX_X_X_X_X_X_CZ_NV		22200750												F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDD10LPDPTXINT_PLB_LPDPTX_X_X_X_X_X_CZ_NV LPDPTX_VDD10LPDPTXINT_jump		22200800												F_Dummy																	
+						nop	Bin_initFlow_BinOut		22200850																													
+		Enable_HF			xx	Test	HFLH_N_VDD10LPDPTXSEC_PLB_PP_BRNA0_S_IN00_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_CHIP_INIT_NV		22200900												F_Dummy																	
+		Enable_HF			xx	Test	LPDPTX_PP_BRNA0_S_IN01_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_LPDPTX_HEADER_PLB_CZ_NV		22200950												F_Dummy																	
+		Enable_HF			xx	Test	LPDPTX_PP_BRNA0_S_IN02_AN_TXXX_PFF_JTG_XXX_ALLFRV_SI_LOAD_TUNABLES_PLB_CZ_NV		22201000												F_Dummy																	
+		Enable_HF&&!ShmooOnly				Test	HFLH_N_VDD10LPDPTXSEC_PLB_LPDPTX_X_X_X_X_X_CZ_NV		22201050												F_Dummy																	
+		Enable_HF&&!TestOnly				characterize	HFLH_N_VDD10LPDPTXSEC_PLB_LPDPTX_X_X_X_X_X_CZ_NV LPDPTX_VDD10LPDPTXSEC_jump		22201100												F_Dummy																	
+						nop	Bin_initFlow_BinOut																															
+						print	"Flow HardIP_LPDPTX Stop "																															
+						return																																

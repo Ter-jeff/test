@@ -1,0 +1,101 @@
+FuseName,Value to write,Comment
+te_misc_bin_cp1,F_BinFuse[4:0],CP1
+te_misc_bin_cp2,F_BinFuse[4:0],CP2
+te_misc_bin_ft1,F_BinFuse[4:0],FT1
+te_misc_bin_ft2,F_BinFuse[4:0],FT2
+te_misc_bin_slt,F_BinFuse[4:0],FT3
+te_harvest_cp1_gfx0_scan,F_GFX0_SCAN_CORE[6:0],Bin05 GFX
+te_harvest_cp1_gfx0_bist,F_GFX0_BIST_CORE[6:0],Bin05 GFX
+te_harvest_cp1_pcpu,F_PCPU_HARV_CORE[1:0],
+te_harvest_cp1_ecpu,F_ECPU_HARV_CORE[3:0],
+te_harvest_cp1_is,F_SOC_HARV_IS,
+te_harvest_cp1_ed,F_SOC_HARV_ED,
+te_harvest_cp1_pd,F_SOC_HARV_PD,
+te_harvest_cp1_sd,F_SOC_HARV_SD,
+te_harvest_cp1_pr,F_SOC_HARV_PR,
+te_harvest_cp1_pis,F_SOC_HARV_PIS,
+te_harvest_ane0_all_cp1,F_ANE0_HARV_CNTR,
+te_harvest_cp1_ane0,F_ANE0_HARV_CORE[16:0],
+te_harvest_ane1_all_cp1,F_ANE1_HARV_CNTR,
+te_harvest_cp1_ane1,F_ANE1_HARV_CORE[16:0],
+harvest_defect_gfx0,F_GFX0_FUSE_CORE[6:0],Bin05 GFX [1721:1715]
+CFG_condition_60,F_PCPU_HARV_CORE[1:0],Bin06 PCPU [167:166]
+CFG_condition_58,F_ECPU_HARV_CORE[3:0],Bin07 ECPU [163:160]
+disable_ps_119,F_SOC_HARV_IS,Bin09 IS [14360:14360]
+disable_ps_133,F_SOC_HARV_IS,Bin09 IS [14380:14380]
+disable_ps_134,F_SOC_HARV_IS,Bin09 IS [14381:14381]
+disable_ps_135,F_SOC_HARV_IS,Bin09 IS [14382:14382]
+disable_ps_136,F_SOC_HARV_IS,Bin09 IS [14383:14383]
+disable_ps_139,F_SOC_HARV_IS,Bin09 IS [14386:14386]
+disable_ps_142,F_SOC_HARV_IS,Bin09 IS [14389:14389]
+disable_ps_144,F_SOC_HARV_IS,Bin09 IS [14391:14391]
+disable_ps_145,F_SOC_HARV_IS,Bin09 IS [14392:14392]
+disable_ps_146,F_SOC_HARV_IS,Bin09 IS [14393:14393]
+harvest_defect_lpdp,F_SOC_HARV_IS,Bin09 IS [1712:1712]
+disable_ps_137,F_SOC_HARV_PIS,"Bin09,14 IS/PIS [14384:14384]"
+disable_ps_138,F_SOC_HARV_PIS,"Bin09,14 IS/PIS [14385:14385]"
+disable_ps_140,F_SOC_HARV_PIS,"Bin09,14 IS/PIS [14387:14387]"
+disable_ps_141,F_SOC_HARV_PIS,"Bin09,14 IS/PIS [14388:14388]"
+disable_ps_143,F_SOC_HARV_PIS,"Bin09,14 IS/PIS [14390:14390]"
+harvest_defect_is_mo,F_SOC_HARV_PIS,"Bin09,14 IS/PIS [1709:1709]"
+harvest_defect_is_pe,F_SOC_HARV_PIS,"Bin09,14 IS/PIS [1710:1710]"
+disable_ps_112,F_SOC_HARV_ED,Bin10 ED [14390:14390]
+disable_ps_113,F_SOC_HARV_ED,Bin10 ED [14391:14391]
+disable_ps_114,F_SOC_HARV_ED,Bin10 ED [14392:14392]
+disable_ps_116,F_SOC_HARV_ED,Bin10 ED [14398:14398]
+disable_ps_118,F_SOC_HARV_ED,Bin10 ED [14409:14409]
+disable_ps_099,F_SOC_HARV_PD,Bin11 PD [14328:14328]
+disable_ps_100,F_SOC_HARV_PD,Bin11 PD [14329:14329]
+disable_ps_101,F_SOC_HARV_PD,Bin11 PD [14330:14330]
+disable_ps_102,F_SOC_HARV_PD,Bin11 PD [14331:14331]
+disable_ps_104,F_SOC_HARV_PD,Bin11 PD [14332:14332]
+disable_ps_105,F_SOC_HARV_PD,Bin11 PD [14333:14333]
+disable_ps_106,F_SOC_HARV_PD,Bin11 PD [14334:14334]
+disable_ps_107,F_SOC_HARV_PD,Bin11 PD [14335:14335]
+disable_ps_108,F_SOC_HARV_PD,Bin11 PD [14336:14336]
+disable_ps_109,F_SOC_HARV_PD,Bin11 PD [14337:14337]
+disable_ps_110,F_SOC_HARV_PD,Bin11 PD [14338:14338]
+disable_ps_14339,F_SOC_HARV_PD,Bin11 PD [14339:14339]
+disable_ps_111,F_SOC_HARV_PD,Bin11 PD [14340:14340]
+disable_ps_117,F_SOC_HARV_PD,Bin11 PD [14358:14358]
+disable_ps_121,F_SOC_HARV_PD,Bin11 PD [14362:14362]
+disable_ps_14364,F_SOC_HARV_PD,Bin11 PD [14364:14364]
+disable_ps_14372,F_SOC_HARV_PD,Bin11 PD [14372:14372]
+disable_ps_14345,F_SOC_HARV_SD,Bin12 SD [14345:14345]
+disable_ps_14346,F_SOC_HARV_SD,Bin12 SD [14346:14346]
+disable_ps_14347,F_SOC_HARV_SD,Bin12 SD [14347:14347]
+disable_ps_14348,F_SOC_HARV_SD,Bin12 SD [14348:14348]
+disable_ps_14349,F_SOC_HARV_SD,Bin12 SD [14349:14349]
+disable_ps_14350,F_SOC_HARV_SD,Bin12 SD [14350:14350]
+disable_ps_14351,F_SOC_HARV_SD,Bin12 SD [14351:14351]
+disable_ps_14352,F_SOC_HARV_SD,Bin12 SD [14352:14352]
+disable_ps_14353,F_SOC_HARV_SD,Bin12 SD [14353:14353]
+disable_ps_14354,F_SOC_HARV_SD,Bin12 SD [14354:14354]
+disable_ps_14355,F_SOC_HARV_SD,Bin12 SD [14355:14355]
+disable_ps_14356,F_SOC_HARV_SD,Bin12 SD [14356:14356]
+disable_ps_14357,F_SOC_HARV_SD,Bin12 SD [14357:14357]
+disable_ps_14361,F_SOC_HARV_SD,Bin12 SD [14361:14361]
+disable_ps_14363,F_SOC_HARV_SD,Bin12 SD [14363:14363]
+disable_ps_14365,F_SOC_HARV_SD,Bin12 SD [14365:14365]
+disable_ps_14373,F_SOC_HARV_SD,Bin12 SD [14373:14373]
+disable_ps_194,F_SOC_HARV_PR,Bin13 PR [14446:14446]
+disable_ps_14247,F_ANE0_FUSE_ALL,Bin16 ANE0 [14247:14247]
+disable_ps_14248,F_ANE0_FUSE_ALL,Bin16 ANE0 [14248:14248]
+disable_ps_14250,F_ANE0_FUSE_ALL,Bin16 ANE0 [14250:14250]
+disable_ps_14251,F_ANE1_FUSE_ALL,Bin16 ANE1 [14251:14251]
+disable_ps_14252,F_ANE1_FUSE_ALL,Bin16 ANE1 [14252:14252]
+disable_ps_14254,F_ANE1_FUSE_ALL,Bin16 ANE1 [14254:14254]
+harvest_ane0,F_ANE0_FUSE_ALL,Bin16 ANE0 [1809:1809]
+harvest_ane1,F_ANE1_FUSE_ALL,Bin16 ANE1 [863:863]
+harvest_ane0_core,F_ANE0_FUSE_CORE[16:0],BinALL ANE0 [1808:1792]
+harvest_ane1_core,F_ANE1_FUSE_CORE[16:0],BinALL ANE1 [862:846]
+package_wmcm,F_PACKAGE_WMCM_STD,FT1
+package_wmcm_lite,F_PACKAGE_WMCM_LITE,FT1
+pe_misc_bira1_ecpu_mhv,F_pe_misc_bira1_ecpu_mhv,config 2941
+pe_misc_bira1_ecpu_mlv,F_pe_misc_bira1_ecpu_mlv,config 2940
+pe_misc_bira1_gfx_mhv,F_pe_misc_bira1_gfx_mhv,config 2939
+pe_misc_bira1_gfx_mlv,F_pe_misc_bira1_gfx_mlv,config 2938
+pe_misc_bira1_pcpu_mhv,F_pe_misc_bira1_pcpu_mhv,config 2943
+pe_misc_bira1_pcpu_mlv,F_pe_misc_bira1_pcpu_mlv,config 2942
+pe_misc_bira1_soc_mhv,F_pe_misc_bira1_soc_mhv,config 2937
+pe_misc_bira1_soc_mlv,F_pe_misc_bira1_soc_mlv,config 2936

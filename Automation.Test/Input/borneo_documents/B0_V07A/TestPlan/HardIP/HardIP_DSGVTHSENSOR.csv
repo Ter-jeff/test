@@ -1,0 +1,742 @@
+TTR,Test Item,Step,Description,Pattern,Force Condition,Register Assignment,Misc Info,Meas,"CP1 Lo Limit (H,L,N)","CP1 Hi Limit (H,L,N)","CP2 Lo Limit (H,L,N)","CP2 Hi Limit (H,L,N)","FT1 Lo Limit (H,L,N)","FT1 Hi Limit (H,L,N)","FT2 Lo Limit (H,L,N)","FT2 Hi Limit (H,L,N)","FT3 Lo Limit (H,L,N)","FT3 Hi Limit (H,L,N)","QA Lo Limit (H,L,N)","QA Hi Limit (H,L,N)","HTOL Lo Limit (H,L,N)","HTOL Hi Limit (H,L,N)",Comment
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"VTHSP_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSP_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.076;
+","
+WDR_bit_sweep=NestSweep1
+[100010001100000,100010001100001,100010001100010,100010001100011,100010001100100,100010001100101];
+","SubBlock:VTHSP_T4_2p253uA;
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:NMOS;
+trimStartCode:0.05;
+trimEndCode:0.4;
+trimStepSize:0.01;
+trimTarget:0.000002253;
+trimIsIncrease:TRUE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Above;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97526, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSP_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSP_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.076;
+","
+WDR_bit_sweep=NestSweep1
+[100010001100110,100010001100111,100010001101000,100010001101001,100010001101010,100010001101011,100000110100101,100000110100110];
+","SubBlock:VTHSP_T4_2p28uA;
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:NMOS;
+trimStartCode:0.05;
+trimEndCode:0.4;
+trimStepSize:0.01;
+trimTarget:0.00000228;
+trimIsIncrease:TRUE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Above;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97526, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSP_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSP_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.076;
+","
+WDR_bit_sweep=NestSweep1[100010001101100,100010001101101,100010001101110];
+","SubBlock:VTHSP_T4_2p32uA;
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:NMOS;
+trimStartCode:0.05;
+trimEndCode:0.4;
+trimStepSize:0.01;
+trimTarget:0.00000232;
+trimIsIncrease:TRUE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Above;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;",,,,,,,,,,,,,,,,"Cycle count: 97526, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSP_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSP_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.076;
+","
+WDR_bit_sweep=NestSweep1
+[100010001101111,100010001110000,100010001110001,100000100100111,100000100101000,100000100101001,100000100101010,100000100101011,100000110100111,100000110101000,100000110101001,100000110101010,100000110101011,100000110101100,100001100100000,100001100100001,100001100100010,100001100100011,100001100100100,100001100100101,100001100100110,100001100100111,100001100101000];
+      ","SubBlock:VTHSP_T4_2p4uA;
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:NMOS;
+trimStartCode:0.05;
+trimEndCode:0.4;
+trimStepSize:0.01;
+trimTarget:0.0000024;
+trimIsIncrease:TRUE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Above;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97526, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSP_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSP_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.076;
+","
+WDR_bit_sweep=NestSweep1
+[100000110100000,100000110100001,100000110100010,100000110100011,100000110100100];
+","SubBlock:VTHSP_T4_2p133uA;
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:NMOS;
+trimStartCode:0.05;
+trimEndCode:0.4;
+trimStepSize:0.01;
+trimTarget:0.000002133;
+trimIsIncrease:TRUE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Above;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97526, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"VTHSP_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSP_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.668;
+","
+WDR_bit_sweep=NestSweep1
+[100010001000000,100010001000001,100010001000010,100010001000011,100010001000100,100010001000101];
+","SubBlock:VTHSP_T5_2p253uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:PMOS;
+trimStartCode:0.7;
+trimEndCode:0.35;
+trimStepSize:0.01;
+trimTarget:-0.000002253;
+trimIsIncrease:FALSE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Below;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97526, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSP_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSP_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.668;
+","
+WDR_bit_sweep=NestSweep1
+[100010001000110,100010001000111,100010001001000,100010001001001,100010001001010,100010001001011,100000110000101,100000110000110];
+","SubBlock:VTHSP_T5_2p28;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:PMOS;
+trimStartCode:0.7;
+trimEndCode:0.35;
+trimStepSize:0.01;
+trimTarget:-0.00000228;
+trimIsIncrease:FALSE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Below;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97526, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSP_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSP_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.668;
+","WDR_bit_sweep=NestSweep1
+[100010001001100,100010001001101,100010001001110];","SubBlock:VTHSP_T5_2p32uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:PMOS;
+trimStartCode:0.7;
+trimEndCode:0.35;
+trimStepSize:0.01;
+trimTarget:-0.00000232;
+trimIsIncrease:FALSE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Below;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97526, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSP_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSP_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.668;
+","
+WDR_bit_sweep=NestSweep1
+[100010001001111,100010001010000,100010001010001,100000100000111,100000100001000,100000100001001,100000100001010,100000100001011,100000110000111,100000110001000,100000110001001,100000110001010,100000110001011,100000110001100,100001100000000,100001100000001,100001100000010,100001100000011,100001100000100,100001100000101,100001100000110,100001100000111,100001100001000];
+","SubBlock:VTHSP_T5_2p4uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:PMOS;
+trimStartCode:0.7;
+trimEndCode:0.35;
+trimStepSize:0.01;
+trimTarget:-0.0000024;
+trimIsIncrease:FALSE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Below;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97526, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSP_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSP_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.668;
+","
+WDR_bit_sweep=NestSweep1
+[100000110000000,100000110000001,100000110000010,100000110000011,100000110000100];
+","SubBlock:VTHSP_T5_2p133uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:PMOS;
+trimStartCode:0.7;
+trimEndCode:0.35;
+trimStepSize:0.01;
+trimTarget:-0.000002133;
+trimIsIncrease:FALSE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Below;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97526, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"VTHSE_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSE_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.076;
+","
+WDR_bit_sweep=NestSweep1
+[100010001100000,100010001100001,100010001100010,100010001100011,100010001100100,100010001100101];
+","SubBlock:VTHSE_T4_2p253uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:NMOS;
+trimStartCode:0.05;
+trimEndCode:0.4;
+trimStepSize:0.01;
+trimTarget:0.00000253;
+trimIsIncrease:TRUE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Above;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97189, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSE_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSE_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.076;
+","
+WDR_bit_sweep=NestSweep1
+[100010001100110,100010001100111,100010001101000,100010001101001,100010001101010,100010001101011,100000110100101,100000110100110];
+","SubBlock:VTHSE_T4_2p28uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:NMOS;
+trimStartCode:0.05;
+trimEndCode:0.4;
+trimStepSize:0.01;
+trimTarget:0.00000228;
+trimIsIncrease:TRUE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Above;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97189, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSE_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSE_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.076;
+","
+WDR_bit_sweep=NestSweep1[100010001101100,100010001101101,100010001101110];
+","SubBlock:VTHSE_T4_2p32uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:NMOS;
+trimStartCode:0.05;
+trimEndCode:0.4;
+trimStepSize:0.01;
+trimTarget:0.00000232;
+trimIsIncrease:TRUE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Above;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97189, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSE_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSE_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.076;
+","
+WDR_bit_sweep=NestSweep1
+[100010001101111,100010001110000,100010001110001,100000100100111,100000100101000,100000100101001,100000100101010,100000100101011,100000110100111,100000110101000,100000110101001,100000110101010,100000110101011,100000110101100,100001100100000,100001100100001,100001100100010,100001100100011,100001100100100,100001100100101,100001100100110,100001100100111,100001100101000];
+      ","SubBlock:VTHSE_T4_2p4uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:NMOS;
+trimStartCode:0.05;
+trimEndCode:0.4;
+trimStepSize:0.01;
+trimTarget:0.0000024;
+trimIsIncrease:TRUE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Above;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97189, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSE_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSE_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.076;
+","
+WDR_bit_sweep=NestSweep1
+[100000110100000,100000110100001,100000110100010,100000110100011,100000110100100];
+","SubBlock:VTHSE_T4_2p133uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:NMOS;
+trimStartCode:0.05;
+trimEndCode:0.4;
+trimStepSize:0.01;
+trimTarget:0.000002133;
+trimIsIncrease:TRUE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Above;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97189, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",0A,,0A,,0A,,0A,,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"VTHSE_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSE_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.668;
+","
+WDR_bit_sweep=NestSweep1
+[100010001000000,100010001000001,100010001000010,100010001000011,100010001000100,100010001000101];
+","SubBlock:VTHSE_T5_2p253uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:PMOS;
+trimStartCode:0.7;
+trimEndCode:0.35;
+trimStepSize:0.01;
+trimTarget:-0.00000253;
+trimIsIncrease:FALSE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Below;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97189, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSE_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSE_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.668;
+","
+WDR_bit_sweep=NestSweep1
+[100010001000110,100010001000111,100010001001000,100010001001001,100010001001010,100010001001011,100000110000101,100000110000110];
+","SubBlock:VTHSE_T5_2p28uA;
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:PMOS;
+trimStartCode:0.7;
+trimEndCode:0.35;
+trimStepSize:0.01;
+trimTarget:-0.00000228;
+trimIsIncrease:FALSE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Below;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97189, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSE_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSE_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.668;
+","WDR_bit_sweep=NestSweep1
+[100010001001100,100010001001101,100010001001110];","SubBlock:VTHSE_T5_2p32uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:PMOS;
+trimStartCode:0.7;
+trimEndCode:0.35;
+trimStepSize:0.01;
+trimTarget:-0.00000232;
+trimIsIncrease:FALSE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Below;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97189, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSE_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSE_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.668;
+","
+WDR_bit_sweep=NestSweep1
+[100010001001111,100010001010000,100010001010001,100000100000111,100000100001000,100000100001001,100000100001010,100000100001011,100000110000111,100000110001000,100000110001001,100000110001010,100000110001011,100000110001100,100001100000000,100001100000001,100001100000010,100001100000011,100001100000100,100001100000101,100001100000110,100001100000111,100001100001000];
+","SubBlock:VTHSE_T5_2p4uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:PMOS;
+trimStartCode:0.7;
+trimEndCode:0.35;
+trimStepSize:0.01;
+trimTarget:-0.0000024;
+trimIsIncrease:FALSE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Below;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97189, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,
+,,,"VTHSE_T4T5, V1, 2502200401, DigSrc bits: 15",,,,,,,,,,,,,,,,,,,,
+,,1,Run the pattern provided,PP_BRNA0_C_FULP_AN_VSNR_DLL_JTG_FRQ_ALLFRV_SI_VTHSE_T4T5,"VDD_PCPU:V:0.75;
+ANALOGMUX_OUT_POS:V:0.668;
+","
+WDR_bit_sweep=NestSweep1
+[100000110000000,100000110000001,100000110000010,100000110000011,100000110000100];
+","SubBlock:VTHSE_T5_2p133uA;
+
+measureRange:0.0002;
+MeasI_WaitTime:0.01;
+BypassAutorange;
+interposePostTest:ANALOGMUX_OUT_NEG:V:0;
+interposePostTest:CP=ANALOGMUX_OUT_NEG:DisconnectDCVI; interposePostTest:FT=ANALOGMUX_OUT_NEG:DisconnectDCVS;
+trimCategory:VthSensor;
+trimCodeSize:0;
+trimDigCapOffset:0;
+trimDigCapWidth:0;
+trimFormat:PMOS;
+trimStartCode:0.7;
+trimEndCode:0.35;
+trimStepSize:0.01;
+trimTarget:-0.000002133;
+trimIsIncrease:FALSE;
+trimMethod:Binary;
+setupMSBFirstFlag:True;
+trimTargetPosition:Below;
+trimDictionaryStoreName:TrimVth;
+trimCalculationStoreName:ANALOGMUX_OUT_POS;
+CUS_Str_DigSrcData:BYP_CURR_AUTORANGE;
+RUN_NV_FLOW_ONLY;",,,,,,,,,,,,,,,,"Cycle count: 97189, DigSrc detail: WDR_bit_sweep[14:0]"
+,,1.1,Measure current - NoRepeat_mon_vth_current,,ANALOGMUX_OUT_NEG:V:TrimVth,,,"MeasI Pin = ANALOGMUX_OUT_POS ""NoRepeat_mon_vth_current""",,,,,,,,,,,,,,,
+,,1.2,Calculate High Value for POS Pin,,,,,"Limits ""High""",0V,,0V,,0V,,0V,,,,,,,,
+,,1.3,Calculate High Value for NEG Pini,,,,,"Limits ""High""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.4,Calculate Low Value for POS Pin ,,,,,"Limits ""Low'",0V,,0V,,0V,,0V,,,,,,,,
+,,1.5,Calculate Low Value for NEG Pin,,,,,"Limits ""Low""",,0A,,0A,,0A,,0A,,,,,,,
+,,1.6,Calculate DeltaV,,,,,"Limits ""DeltaV""",-10mV,10mV,-10mV,10mV,-10mV,10mV,-10mV,10mV,,,,,,,
+,,1.7,Calculate NMOS-VT,,,,,"Limits ""NMOS-VIT",50mV,400mV,50mV,400mV,50mV,400mV,50mV,400mV,,,,,,,

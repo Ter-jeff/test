@@ -1,0 +1,7 @@
+Set Flag,CP1 (initialization),CP2 (fuse read),FT1 (fuse read),FT2 (fuse read),FT3 (fuse read),Comment
+F_BinFuse[5:0],x00,te_misc_bin_cp1,te_misc_bin_cp2,te_misc_bin_ft1,te_misc_bin_ft1,
+F_PowerBinning[3:0],x0,power_binning,power_binning,power_binning,power_binning,
+F_EVS_Alarm_CP1,b0,te_misc_evs_cp1[1],te_misc_evs_cp1[1],te_misc_evs_cp1[1],te_misc_evs_cp1[1],
+F_GFX0_SA_CORE[6:0],x00,te_harvest_cp1_gfx0_scan,harvest_defect_gfx0,harvest_defect_gfx0,harvest_defect_gfx0,
+F_GFX0_BIST_CORE[6:0],x00,te_harvest_cp1_gfx0_bist,harvest_defect_gfx0,harvest_defect_gfx0,harvest_defect_gfx0,
+F_GFX0_TD_CORE[6:0],x00,te_harvest_cp1_gfx0_scan,harvest_defect_gfx0,harvest_defect_gfx0,harvest_defect_gfx0,

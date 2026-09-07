@@ -1,0 +1,2 @@
+EFUSE_CONFIG_MAIN_A										EFUSE_CONFIG_MAIN_B					EFUSE_CONFIG_MAIN_C					
+Condition	MSB BIT	LSB BIT	Bit Width	programming stage	A00	A06	A09	A12	CommentA	B00	B06	B09	B12	CommentB	C00	C06	C09	C12	CommentC	end

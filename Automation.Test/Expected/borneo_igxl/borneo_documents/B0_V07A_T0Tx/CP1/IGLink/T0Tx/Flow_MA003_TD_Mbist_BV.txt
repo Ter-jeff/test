@@ -1,0 +1,13 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						print	"Flow MA003_TD_Mbist_BV Start"																															
+Instance_Bincut_TDF_MAX,Row4,MAX003 SOC TD,TD		FT1||FT1||FT2				Test	MA003_MAX003_MAX003_CCJ0_PL10_SOC_TD_MAX003_CCJ0_PL10_BV		1000161000																													
+						Bintable	Bin_MA003_TD_BV																															
+Instance_Bincut_BIST_MAX,Row6,MAX003 SOC BIST,Mbist		(FT1||FT1||FT2) && !BINCUT_WITH_BIST				Test	MA003_MAX003_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_MAX003_SRVF_GR01_BIR_BV		1000162000																													
+						Bintable	Bin_MA003_Mbist_BV																															
+Instance_Bincut_BIST_MAX,Row7,MAX003 SOC BIST,Mbist		(FT1||FT1||FT2) && BINCUT_WITH_BIST				Test	MA003_MAX003_SocMbist_PP_BRNA0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_1_MAX003_SRVF_GR01_BST_BV		1000163000																													
+						Bintable	Bin_MA003_Mbist_BV																															
+						print	"Flow MA003_TD_Mbist_BV Stop"																															
+						Return																																

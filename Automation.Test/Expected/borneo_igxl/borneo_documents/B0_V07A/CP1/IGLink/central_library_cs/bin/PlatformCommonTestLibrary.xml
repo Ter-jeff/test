@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PlatformCommonTestLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:PlatformCommonTestLibrary.CaptureSetupIO">
+            <summary>
+            Setups up the platform capture setup before pattern start
+            </summary>
+            <seealso cref="T:PlatformInterfacesLibrary.ICaptureSetupIO" />
+        </member>
+        <member name="M:PlatformCommonTestLibrary.CaptureSetupIO.SetCaptureConfig(PlatformInterfacesLibrary.CaptureSetupMemType,System.Int32)">
+            <summary>
+            Sets the capture configuration.
+            </summary>
+            <param name="memType">Enum that defines the type of Hardware to use.</param>
+            <param name="captureSize">Size of the capture.</param>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.CaptureSetupIO.StopCapture(PlatformInterfacesLibrary.CaptureSetupMemType)">
+            <summary>
+            ' This function turns off central capture
+            </summary>
+            <param name="memType">Type of the memory.</param>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.CaptureSetupIO.SsnCmemSetup(System.Int32)">
+            <summary>
+            Setup CMEM for SSN
+            </summary>
+            <param name="captureLimit">The capture limit.</param>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.CaptureSetupIO.SsnCmemReset">
+            <summary>
+            Resets CMEM for SSN
+            </summary>
+        </member>
+        <member name="T:PlatformCommonTestLibrary.DatalogManager">
+            <inheritdoc cref="T:PlatformInterfacesLibrary.IDatalogManager"/>
+        </member>
+        <member name="P:PlatformCommonTestLibrary.DatalogManager.LotId">
+            <inheritdoc />
+        </member>
+        <member name="P:PlatformCommonTestLibrary.DatalogManager.WaferId">
+            <inheritdoc />
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DatalogManager.SetWaferCoordinates(System.Int32,System.Int32,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DatalogManager.ClearWaferCoordinates">
+            <inheritdoc />
+        </member>
+        <member name="T:PlatformCommonTestLibrary.DataManager">
+            <summary>
+            Hold TheExec.DataManager related API
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.DecomposePinList(System.String)">
+            <summary>
+            Decomposes the pin list.
+            </summary>
+            <param name="pinList">The pin list.</param>
+            <returns>The pins in the pin list.</returns>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.GetEnableFlags(System.String[]@)">
+            <summary>
+            Get all enable words
+            </summary>
+            <param name="flags"> return all enables as string with ","</param>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.GetSoftwareVerion">
+            <summary>
+            Return software version
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.GetSoftwareBuildVerion">
+            <summary>
+            Return software build version
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.GetRunOptionsDoAll">
+            <summary>
+            Return if enable DoAll
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.GetRunOptionsOverrideFailStop">
+            <summary>
+            Return if enable override fail sto
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.GetRunOptionsAssume">
+            <summary>
+            Return if enable assume
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.GetRunOptionsAssumeSiteDisable">
+            <summary>
+            Return if enable AssumeSiteDisable
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.IsPinValid(System.String)">
+            <summary>
+            The method returns a int: TL_ERROR(1) if it fails and TL_SUCCESS(0) if it succeeds
+            </summary>
+            <param name="pin"></param>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.SsnDatalogSetup(System.Int32)">
+            <summary>
+            Setup datalogging for SSN.
+            </summary>
+            <param name="captureLimit">The capture limit.</param>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.SetDatalogDefaultSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+             <summary>
+             Data log format default setting.
+             PartResult                : Part result data consists of bin and sort numbers for each site.
+             XYCoordinates             : gets or sets whether to include X/Y coordinates in part results.
+             DisableChannelNumberInPTR : use a channel number in a Parametric Test Record
+             OutputWidth               : gets or sets the maximum number of characters to be displayed per line
+             DisableInstanceNameInPTR  : use of a test instance name in a Parametric Test Record (PTR) in datalogging
+             DisablePinNameInPTR       : use of a pin name in a Parametric Test Record (PTR) in datalogging
+             PTR_InstanceNameIsTINameOnly :  gets or sets which test name to use in a Parametric Test Record (PTR) test text
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.SetDatalogParametricColumnsSettings(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Parametric columns settings
+            </summary>
+            <param name="ptrTestNameWid">Parametric TestName Width</param>
+            <param name="ptrMeasureWid">Parametric Measured Width</param>
+            <param name="ptrNumberWid">Parametric Number Width</param>
+            <param name="ptrPinWid">Parametric Pin Width</param>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.SetDatalogFunctionalColumnsSettings(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Functional columns settings
+            </summary>
+            <param name="ftrTestNameWid">Functional TestName Width</param>
+            <param name="ftrPatternWid">Functional Pattern Width</param>
+            <param name="ftrNumberWid">Functional Number Width</param>
+            <param name="ftrCycleWid">Parametric Cycle Width</param>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.DataManager.SetDatalogCustomizeColumnsSettings(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Functional columns settings
+            </summary>
+            <param name="ptrTestNameWid">Parametric TestName Width</param>
+            <param name="ptrPinWid">Parametric Pin Width</param>
+            <param name="ftrTestNameWid">Functional TestName Width</param>
+            <param name="ftrPatternWid">Functional Pattern Width</param>
+        </member>
+        <member name="T:PlatformCommonTestLibrary.PatternsTesterIO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.PatternsTesterIO.PatternSetToArray(System.String,System.Boolean,System.String[]@)">
+            <summary>
+            Patterns the set to array.
+            </summary>
+            <param name="testPattern">The test pattern.</param>
+            <param name="decompose">if set to <c>true</c> [decompose].</param>
+            <param name="patternSet">The modules set.</param>
+        </member>
+        <member name="T:PlatformCommonTestLibrary.PlatformTesterIO">
+            <summary>
+             platform tester IO.
+            </summary>
+        </member>
+        <member name="P:PlatformCommonTestLibrary.PlatformTesterIO.PatternsTesterIO">
+            <summary>
+            Gets the patterns tio.
+            </summary>
+            <value>
+            The patterns tio.
+            </value>
+        </member>
+        <member name="P:PlatformCommonTestLibrary.PlatformTesterIO.CaptureSetupIO">
+            <summary>
+            Gets the capture setup tio.
+            </summary>
+            <value>
+            The capture setup tio.
+            </value>
+        </member>
+        <member name="P:PlatformCommonTestLibrary.PlatformTesterIO.DataManager">
+            <summary>
+            Gets the DataManager.
+            </summary>
+            <value>
+            The DataManager.
+            </value>
+        </member>
+        <member name="P:PlatformCommonTestLibrary.PlatformTesterIO.Datalog">
+            <inheritdoc/>
+        </member>
+        <member name="P:PlatformCommonTestLibrary.PlatformTesterIO.SheetManager">
+            <inheritdoc/>
+        </member>
+        <member name="P:PlatformCommonTestLibrary.PlatformTesterIO.SiteManager">
+            <summary>
+            Gets the site related operation.
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.PlatformTesterIO.GetProgramPath">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PlatformCommonTestLibrary.SheetManager">
+            <summary>
+            Hold TheProgram related API
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.SheetManager.ReadCustomSheets">
+            <inheritdoc />
+        </member>
+        <member name="P:PlatformCommonTestLibrary.SheetManager.ChannelMap">
+            <summary>
+            IGXL channel map
+            </summary>
+        </member>
+        <member name="P:PlatformCommonTestLibrary.SheetManager.DC">
+            <summary>
+            DC spec IGXL sheet
+            </summary>
+        </member>
+        <member name="P:PlatformCommonTestLibrary.SheetManager.PatSetAll">
+            <summary>
+            IGXL language to return all patset sheet
+            </summary>
+        </member>
+        <member name="P:PlatformCommonTestLibrary.SheetManager.BinTables">
+            <summary>
+            IGXL language to return BinTables sheet
+            </summary>
+        </member>
+        <member name="T:PlatformCommonTestLibrary.SiteManager">
+            <summary>
+            Site related operation, like reading/setting site flag state.
+            </summary>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.SiteManager.GetFlagState(System.Int32,System.String)">
+            <summary>
+            Getting flag state.
+            </summary>
+            <param name="site"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.SiteManager.SetFlagState(System.Int32,System.String,Teradyne.Igxl.Interfaces.Public.tlLogicState)">
+            <summary>
+            Setting flag state.
+            </summary>
+            <param name="site"></param>
+            <param name="flag"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.SiteManager.CountTrueInFlags(System.Int32,System.Collections.Generic.List{System.String})">
+            <summary>
+            Sum up flag count which equals to true.
+            </summary>
+            <param name="site"></param>
+            <param name="flags"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.SiteManager.CountFalseInFlags(System.Int32,System.Collections.Generic.List{System.String})">
+            <summary>
+            Sum up flag count which equals to false.
+            </summary>
+            <param name="site"></param>
+            <param name="flags"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.SiteManager.GetActiveSiteValue">
+            <summary>
+            Get active site value.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.SiteManager.GetSelectedSiteValue">
+            <summary>
+            Get selected site value.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PlatformCommonTestLibrary.SiteManager.SetSelectedSiteValue(Teradyne.Igxl.Interfaces.Public.Site{System.Boolean})">
+            <summary>
+            Set up site selected value.
+            </summary>
+            <param name="siteValue"></param>
+        </member>
+    </members>
+</doc>

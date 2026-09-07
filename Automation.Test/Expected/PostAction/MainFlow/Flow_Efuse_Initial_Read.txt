@@ -1,0 +1,29 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						Test	TestNameWidth_Tester																															
+			CP1,CP2			Test	ECID_Power_Pin_Resistance_VDDA_EFUSE0_NV														F_Other_ECID_Pwr_Resistance																	
+			CP1,CP2			Bintable	Bin_Other_ECID_Pwr_Resistance																															
+						Test	CFG_Power_Pin_Resistance_VDDA_EFUSE3_NV														F_Other_CFG_Pwr_Resistance																	
+						Bintable	Bin_Other_CFG_Pwr_Resistance																															
+						Test	CFG_Power_Pin_Resistance_VDDA_EFUSE6_NV														F_Other_CFG_Pwr_Resistance																	
+						Bintable	Bin_Other_CFG_Pwr_Resistance																															
+						Test	TestNameWidth_Efuse																															
+			CP1,FT1,FT2,FT3			call	Flow_efuse_BankRead																															
+		!Pgm2File	CP2			call	Flow_efuse_BankRead																															
+						Test	TestNameWidth_Tester																															
+		Pgm2File	CP2,FT1,FT2,FT3			Test	PseudoFuse_ReadFromFile														F_EFUSE_PseudoFuse_WriteToFile																	
+			CP2,FT1,FT2,FT3			Bintable	Bin_EFUSE_PseudoFuse_WriteToFile																															
+		!BypRetestCheck				Test	GoodDie_Retest														F_EFUSE_FailDie																	
+						Bintable	Bin_EFUSE_FailDie																															
+		!Disable_eFuse_BKM	CP1			Test	BKM_CP														F_Other_BKM_Fail																	
+			CP1			Bintable	Bin_Other_BKM_Fail																															
+		!Disable_eFuse_BKM	CP1			Test	IEDA_BKM_Before_Fusing														F_Other_BKM_Fail																	
+			CP1			Bintable	Bin_Other_BKM_Fail																															
+						Test	TestNameWidth_Harvest																															
+						call	Flow_Harvest_eFuse_Read																															
+			CP2			call	Flow_Harv_Dec_CP2_RD																															
+			FT1			call	Flow_Harv_Dec_FT1_RD																															
+			FT2			call	Flow_Harv_Dec_FT2_RD																															
+						Return																																

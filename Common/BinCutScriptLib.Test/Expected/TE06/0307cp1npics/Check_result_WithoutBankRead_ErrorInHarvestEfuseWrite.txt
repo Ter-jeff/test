@@ -1,0 +1,736 @@
+Fail line:68036 & 68025         X:11 Y:13         Site:0
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 0] 0101(C)
+       Datalog  :[INFO]  [Site 0] 0100(C)
+
+Fail line:68037 & 68026         X:12 Y:13         Site:1
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 0101(C)
+       Datalog  :[INFO]  [Site 1] 0100(C)
+
+Fail line:68038 & 68027         X:13 Y:13         Site:2
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 0101(C)
+       Datalog  :[INFO]  [Site 2] 0100(C)
+
+Fail line:68039 & 68028         X:14 Y:13         Site:3
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 0101(C)
+       Datalog  :[INFO]  [Site 3] 0100(C)
+
+Fail line:68099 & 68088         X:11 Y:13         Site:0
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 0] 0101(C)
+       Datalog  :[INFO]  [Site 0] 0100(C)
+
+Fail line:68100 & 68089         X:12 Y:13         Site:1
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 0101(C)
+       Datalog  :[INFO]  [Site 1] 0100(C)
+
+Fail line:68101 & 68090         X:13 Y:13         Site:2
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 0101(C)
+       Datalog  :[INFO]  [Site 2] 0100(C)
+
+Fail line:68102 & 68091         X:14 Y:13         Site:3
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 0101(C)
+       Datalog  :[INFO]  [Site 3] 0100(C)
+
+Fail line:68159 & 68148         X:11 Y:13         Site:0
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 0] 0101(C)
+       Datalog  :[INFO]  [Site 0] 0100(C)
+
+Fail line:68160 & 68149         X:12 Y:13         Site:1
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 0101(C)
+       Datalog  :[INFO]  [Site 1] 0100(C)
+
+Fail line:68161 & 68150         X:13 Y:13         Site:2
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 0101(C)
+       Datalog  :[INFO]  [Site 2] 0100(C)
+
+Fail line:68162 & 68151         X:14 Y:13         Site:3
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 0101(C)
+       Datalog  :[INFO]  [Site 3] 0100(C)
+
+Fail line:68219 & 68208         X:11 Y:13         Site:0
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 0] 0101(C)
+       Datalog  :[INFO]  [Site 0] 0100(C)
+
+Fail line:68220 & 68209         X:12 Y:13         Site:1
+<MS003_SocTd_MSX003_SOC_MSX003_TD_CCX0_PL00_SSC_Limiter_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 0101(C)
+       Datalog  :[INFO]  [Site 1] 0100(C)
+
+Fail line:69201 & 69190         X:13 Y:13         Site:2
+<MD001_SocMbist_MDX001_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_NoHarv_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 1111(C)
+       Datalog  :[INFO]  [Site 2] 1110(C)
+
+Fail line:69202 & 69191         X:14 Y:13         Site:3
+<MD001_SocMbist_MDX001_PP_HIDX0_S_PL01_BI_XXXX_XXX_JTG_UNS_XXXXXX_SI_XXXXXXXX_NoHarv_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 1111(C)
+       Datalog  :[INFO]  [Site 3] 1110(C)
+
+Fail line:70025 & 70014         X:11 Y:13         Site:0
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 0] 1110(C)
+       Datalog  :[INFO]  [Site 0] 1100(C)
+
+Fail line:70026 & 70015         X:12 Y:13         Site:1
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 1110(C)
+       Datalog  :[INFO]  [Site 1] 1100(C)
+
+Fail line:70027 & 70016         X:13 Y:13         Site:2
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 1110(C)
+       Datalog  :[INFO]  [Site 2] 1100(C)
+
+Fail line:70028 & 70017         X:14 Y:13         Site:3
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 1110(C)
+       Datalog  :[INFO]  [Site 3] 1100(C)
+
+Fail line:70068 & 70057         X:11 Y:13         Site:0
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 0] 1110(C)
+       Datalog  :[INFO]  [Site 0] 1100(C)
+
+Fail line:70069 & 70058         X:12 Y:13         Site:1
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 1110(C)
+       Datalog  :[INFO]  [Site 1] 1100(C)
+
+Fail line:70070 & 70059         X:13 Y:13         Site:2
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 1110(C)
+       Datalog  :[INFO]  [Site 2] 1100(C)
+
+Fail line:70071 & 70060         X:14 Y:13         Site:3
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 1110(C)
+       Datalog  :[INFO]  [Site 3] 1100(C)
+
+Fail line:70108 & 70097         X:11 Y:13         Site:0
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 0] 1110(C)
+       Datalog  :[INFO]  [Site 0] 1100(C)
+
+Fail line:70109 & 70098         X:12 Y:13         Site:1
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 1110(C)
+       Datalog  :[INFO]  [Site 1] 1100(C)
+
+Fail line:70110 & 70099         X:13 Y:13         Site:2
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 1110(C)
+       Datalog  :[INFO]  [Site 2] 1100(C)
+
+Fail line:70111 & 70100         X:14 Y:13         Site:3
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 1110(C)
+       Datalog  :[INFO]  [Site 3] 1100(C)
+
+Fail line:70148 & 70137         X:11 Y:13         Site:0
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 0] 1110(C)
+       Datalog  :[INFO]  [Site 0] 1100(C)
+
+Fail line:70149 & 70138         X:12 Y:13         Site:1
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 1110(C)
+       Datalog  :[INFO]  [Site 1] 1100(C)
+
+Fail line:70150 & 70139         X:13 Y:13         Site:2
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 1110(C)
+       Datalog  :[INFO]  [Site 2] 1100(C)
+
+Fail line:70151 & 70140         X:14 Y:13         Site:3
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 1110(C)
+       Datalog  :[INFO]  [Site 3] 1100(C)
+
+Fail line:70189 & 70178         X:12 Y:13         Site:1
+<MD005_SocTd_MDX005_SOC_MDX005_TD_CDD0_PL00_SSC_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 1110(C)
+       Datalog  :[INFO]  [Site 1] 1100(C)
+
+Fail line:72603 & 72592         X:11 Y:13         Site:0
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 0] 1110(C)
+       Datalog  :[INFO]  [Site 0] 1010(C)
+
+Fail line:72604 & 72593         X:12 Y:13         Site:1
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 1110(C)
+       Datalog  :[INFO]  [Site 1] 1010(C)
+
+Fail line:72605 & 72594         X:13 Y:13         Site:2
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 1110(C)
+       Datalog  :[INFO]  [Site 2] 1010(C)
+
+Fail line:72606 & 72595         X:14 Y:13         Site:3
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 1110(C)
+       Datalog  :[INFO]  [Site 3] 1010(C)
+
+Fail line:72664 & 72653         X:11 Y:13         Site:0
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 0] 1110(C)
+       Datalog  :[INFO]  [Site 0] 1010(C)
+
+Fail line:72665 & 72654         X:12 Y:13         Site:1
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 1110(C)
+       Datalog  :[INFO]  [Site 1] 1010(C)
+
+Fail line:72666 & 72655         X:13 Y:13         Site:2
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 1110(C)
+       Datalog  :[INFO]  [Site 2] 1010(C)
+
+Fail line:72667 & 72656         X:14 Y:13         Site:3
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 1110(C)
+       Datalog  :[INFO]  [Site 3] 1010(C)
+
+Fail line:72723 & 72712         X:12 Y:13         Site:1
+<MG007_GpuTd_MGX007_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 1] 1110(C)
+       Datalog  :[INFO]  [Site 1] 1010(C)
+
+Fail line:72979 & 72968         X:13 Y:13         Site:2
+<MG004_GpuTd_MGX004_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 2] 1110(C)
+       Datalog  :[INFO]  [Site 2] 1010(C)
+
+Fail line:72980 & 72969         X:14 Y:13         Site:3
+<MG004_GpuTd_MGX004_MultiFSTP_X10GR1_BV>
+Selsram:
+       Expected :[INFO]  [Site 3] 1110(C)
+       Datalog  :[INFO]  [Site 3] 1010(C)
+
+Fail line:76552         X:13 Y:13         Site:2
+MP00I_CpuTd_MPX00L_DIV133_1P_Rest_SRM0E_BV
+EQN:
+            Expected : 0
+            Datalog  : 5
+
+Fail line:76553         X:14 Y:13         Site:3
+MP00I_CpuTd_MPX00L_DIV133_1P_Rest_SRM0E_BV
+EQN:
+            Expected : 0
+            Datalog  : 5
+
+Fail line:84011         X:11 Y:13         Site:0
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:84012         X:12 Y:13         Site:1
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:84013         X:13 Y:13         Site:2
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1055.0000
+            Datalog  : 1070.0000
+
+Fail line:84014         X:14 Y:13         Site:3
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:84027         X:11 Y:13         Site:0
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:84028         X:12 Y:13         Site:1
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:84029         X:13 Y:13         Site:2
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1055.0000
+            Datalog  : 1070.0000
+
+Fail line:84030         X:14 Y:13         Site:3
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:84043         X:11 Y:13         Site:0
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1080.0000
+
+Fail line:84044         X:12 Y:13         Site:1
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1080.0000
+
+Fail line:84045         X:13 Y:13         Site:2
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1055.0000
+            Datalog  : 1085.0000
+
+Fail line:84046         X:14 Y:13         Site:3
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1060.0000
+
+Fail line:84059         X:11 Y:13         Site:0
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:84060         X:12 Y:13         Site:1
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:84061         X:13 Y:13         Site:2
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:84075         X:11 Y:13         Site:0
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:84076         X:12 Y:13         Site:1
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:84077         X:13 Y:13         Site:2
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:84219         X:11 Y:13         Site:0
+VDD_ECPU_ME009_Vbin:
+            Expected : 905.0000
+            Datalog  : 920.0000
+
+Fail line:84220         X:12 Y:13         Site:1
+VDD_ECPU_ME009_Vbin:
+            Expected : 890.0000
+            Datalog  : 905.0000
+
+Fail line:84221         X:13 Y:13         Site:2
+VDD_ECPU_ME009_Vbin:
+            Expected : 920.0000
+            Datalog  : 935.0000
+
+Fail line:84222         X:14 Y:13         Site:3
+VDD_ECPU_ME009_Vbin:
+            Expected : 910.0000
+            Datalog  : 925.0000
+
+Fail line:85671         X:11 Y:13         Site:0
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:85672         X:12 Y:13         Site:1
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:85673         X:13 Y:13         Site:2
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:85674         X:14 Y:13         Site:3
+Spec:
+            Expected : 63.7000
+            Datalog  : 0.0000
+
+Fail line:85906         X:11 Y:13         Site:0
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:85907         X:12 Y:13         Site:1
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:85908         X:13 Y:13         Site:2
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1055.0000
+            Datalog  : 1070.0000
+
+Fail line:85909         X:14 Y:13         Site:3
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:85922         X:11 Y:13         Site:0
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:85923         X:12 Y:13         Site:1
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:85924         X:13 Y:13         Site:2
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1055.0000
+            Datalog  : 1070.0000
+
+Fail line:85925         X:14 Y:13         Site:3
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:85938         X:11 Y:13         Site:0
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1080.0000
+
+Fail line:85939         X:12 Y:13         Site:1
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1080.0000
+
+Fail line:85940         X:13 Y:13         Site:2
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1055.0000
+            Datalog  : 1085.0000
+
+Fail line:85941         X:14 Y:13         Site:3
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1060.0000
+
+Fail line:85954         X:11 Y:13         Site:0
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:85955         X:12 Y:13         Site:1
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:85956         X:13 Y:13         Site:2
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:85970         X:11 Y:13         Site:0
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:85971         X:12 Y:13         Site:1
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:85972         X:13 Y:13         Site:2
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:86114         X:11 Y:13         Site:0
+VDD_ECPU_ME009_Vbin:
+            Expected : 905.0000
+            Datalog  : 920.0000
+
+Fail line:86115         X:12 Y:13         Site:1
+VDD_ECPU_ME009_Vbin:
+            Expected : 890.0000
+            Datalog  : 905.0000
+
+Fail line:86116         X:13 Y:13         Site:2
+VDD_ECPU_ME009_Vbin:
+            Expected : 920.0000
+            Datalog  : 935.0000
+
+Fail line:86117         X:14 Y:13         Site:3
+VDD_ECPU_ME009_Vbin:
+            Expected : 910.0000
+            Datalog  : 925.0000
+
+Fail line:87801         X:11 Y:13         Site:0
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:87802         X:12 Y:13         Site:1
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:87803         X:13 Y:13         Site:2
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1055.0000
+            Datalog  : 1070.0000
+
+Fail line:87804         X:14 Y:13         Site:3
+VDD_PCPU_MP00F_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:87809         X:11 Y:13         Site:0
+VDD_PCPU_MP00F_P_binned:
+            Expected : 0.5055
+            Datalog  : 0.5223
+
+Fail line:87810         X:12 Y:13         Site:1
+VDD_PCPU_MP00F_P_binned:
+            Expected : 0.5047
+            Datalog  : 0.5215
+
+Fail line:87811         X:13 Y:13         Site:2
+VDD_PCPU_MP00F_P_binned:
+            Expected : 0.5049
+            Datalog  : 0.5215
+
+Fail line:87812         X:14 Y:13         Site:3
+VDD_PCPU_MP00F_P_binned:
+            Expected : 0.4804
+            Datalog  : 0.4966
+
+Fail line:87817         X:11 Y:13         Site:0
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:87818         X:12 Y:13         Site:1
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1065.0000
+
+Fail line:87819         X:13 Y:13         Site:2
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1055.0000
+            Datalog  : 1070.0000
+
+Fail line:87820         X:14 Y:13         Site:3
+VDD_PCPU_MP00G_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1045.0000
+
+Fail line:87825         X:11 Y:13         Site:0
+VDD_PCPU_MP00G_P_binned:
+            Expected : 0.5758
+            Datalog  : 0.5946
+
+Fail line:87826         X:12 Y:13         Site:1
+VDD_PCPU_MP00G_P_binned:
+            Expected : 0.5749
+            Datalog  : 0.5937
+
+Fail line:87827         X:13 Y:13         Site:2
+VDD_PCPU_MP00G_P_binned:
+            Expected : 0.5750
+            Datalog  : 0.5936
+
+Fail line:87828         X:14 Y:13         Site:3
+VDD_PCPU_MP00G_P_binned:
+            Expected : 0.5477
+            Datalog  : 0.5659
+
+Fail line:87833         X:11 Y:13         Site:0
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1080.0000
+
+Fail line:87834         X:12 Y:13         Site:1
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1050.0000
+            Datalog  : 1080.0000
+
+Fail line:87835         X:13 Y:13         Site:2
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1055.0000
+            Datalog  : 1085.0000
+
+Fail line:87836         X:14 Y:13         Site:3
+VDD_PCPU_MP00H_Vbin:
+            Expected : 1030.0000
+            Datalog  : 1060.0000
+
+Fail line:87841         X:11 Y:13         Site:0
+VDD_PCPU_MP00H_P_binned:
+            Expected : 0.7322
+            Datalog  : 0.7804
+
+Fail line:87842         X:12 Y:13         Site:1
+VDD_PCPU_MP00H_P_binned:
+            Expected : 0.7311
+            Datalog  : 0.7793
+
+Fail line:87843         X:13 Y:13         Site:2
+VDD_PCPU_MP00H_P_binned:
+            Expected : 0.7314
+            Datalog  : 0.7790
+
+Fail line:87844         X:14 Y:13         Site:3
+VDD_PCPU_MP00H_P_binned:
+            Expected : 0.6966
+            Datalog  : 0.7432
+
+Fail line:87849         X:11 Y:13         Site:0
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:87850         X:12 Y:13         Site:1
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:87851         X:13 Y:13         Site:2
+VDD_PCPU_MP00I_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:87857         X:11 Y:13         Site:0
+VDD_PCPU_MP00I_P_binned:
+            Expected : 1.0563
+            Datalog  : 1.0887
+
+Fail line:87858         X:12 Y:13         Site:1
+VDD_PCPU_MP00I_P_binned:
+            Expected : 1.0547
+            Datalog  : 1.0870
+
+Fail line:87859         X:13 Y:13         Site:2
+VDD_PCPU_MP00I_P_binned:
+            Expected : 1.0535
+            Datalog  : 1.0854
+
+Fail line:87865         X:11 Y:13         Site:0
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:87866         X:12 Y:13         Site:1
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1125.0000
+            Datalog  : 1140.0000
+
+Fail line:87867         X:13 Y:13         Site:2
+VDD_PCPU_MP00J_Vbin:
+            Expected : 1130.0000
+            Datalog  : 1145.0000
+
+Fail line:87873         X:11 Y:13         Site:0
+VDD_PCPU_MP00J_P_binned:
+            Expected : 5.7205
+            Datalog  : 5.8956
+
+Fail line:87874         X:12 Y:13         Site:1
+VDD_PCPU_MP00J_P_binned:
+            Expected : 5.7118
+            Datalog  : 5.8865
+
+Fail line:87875         X:13 Y:13         Site:2
+VDD_PCPU_MP00J_P_binned:
+            Expected : 5.7074
+            Datalog  : 5.8801
+
+Fail line:88009         X:11 Y:13         Site:0
+VDD_ECPU_ME009_Vbin:
+            Expected : 905.0000
+            Datalog  : 920.0000
+
+Fail line:88010         X:12 Y:13         Site:1
+VDD_ECPU_ME009_Vbin:
+            Expected : 890.0000
+            Datalog  : 905.0000
+
+Fail line:88011         X:13 Y:13         Site:2
+VDD_ECPU_ME009_Vbin:
+            Expected : 920.0000
+            Datalog  : 935.0000
+
+Fail line:88012         X:14 Y:13         Site:3
+VDD_ECPU_ME009_Vbin:
+            Expected : 910.0000
+            Datalog  : 925.0000
+
+Fail line:89461         X:11 Y:13         Site:0
+P_total:
+            Expected : 81.9300
+            Datalog  : 82.2214
+
+Fail line:89462         X:12 Y:13         Site:1
+P_total:
+            Expected : 82.5315
+            Datalog  : 82.8222
+
+Fail line:89463         X:13 Y:13         Site:2
+P_total:
+            Expected : 81.2840
+            Datalog  : 81.5714
+
+Fail line:89464         X:14 Y:13         Site:3
+P_total:
+            Expected : 81.3496
+            Datalog  : 81.4305
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidateLeakageConfig>
+	<Leakage>
+		<regex>DC_Continuity_ZQ_Pos</regex>
+		<regex>DC_Continuity_All_DCVI_Pos</regex>
+		<regex>DC_Continuity_P VDD_CPU_SENSE</regex>
+		<regex>Leakage4</regex>
+	</Leakage>
+	
+</ValidateLeakageConfig>

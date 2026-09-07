@@ -1,0 +1,4 @@
+Line_No	Alarm_Message	IsBeforeBV
+77110	ERROR Test Config_WriteDSSC: 'Exception: DontFuse flag is set for site '0. Cannot process with physical write to DUT for this site.	True
+77112	ERROR Test Config_WriteDSSC: 'Exception: DontFuse flag is set for site '1. Cannot process with physical write to DUT for this site.	True
+77114	ERROR Test Config_WriteDSSC: 'Exception: DontFuse flag is set for site '2. Cannot process with physical write to DUT for this site.	True

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FullConfig>
+<Automation>
+      <Files>	</Files>         
+      <OutFolder> </OutFolder>	
+
+      <Basic>	1	</Basic>      
+      <Scan>	1	</Scan>
+      <BIST>	 1	</BIST>
+      <eFuse>	1	</eFuse>
+      <HardIp>  1	</HardIp>
+      <BinCut>	1	</BinCut>
+      <EVS>  	1	</EVS>
+      <SPI>  	1	</SPI>
+      
+      <Prod>  	1	</Prod>
+      <Eng>  	0	</Eng>
+      <Char>	0	</Char>
+      
+      <SkipHardInfo>	0	</SkipHardInfo>
+      <SkipPatChk>	0	</SkipPatChk>      
+      
+</Automation>
+
+<Validation>
+      <Files></Files>      
+      <OutFolder> </OutFolder>	
+
+      <PatAlign>	1	</PatAlign>      
+      <DcGpio>		1	</DcGpio>   
+      <HardIpLimits>	1	</HardIpLimits>   
+      <VddSetting>	1	</VddSetting>   
+      <eFuse>		1	</eFuse>   
+      <BinCut>		1	</BinCut>
+      
+      <SelJob>		CP1	</SelJob>
+         
+</Validation>
+
+<eFuse>
+      <Files></Files>    
+      <OutFolder> </OutFolder>	
+</eFuse>
+
+</FullConfig>

@@ -1,0 +1,80 @@
+DTBintablesSheet,version=2.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Bin Tables
+	
+	Name	Item List	Op	Sort	Bin	Result	Items0	Items1	Items2	Items3	Items4	Items5	Items6	Items7	Items8	Items9	Items10	Items11	Items12	Items13	Items14	Items15	Items16	Items17	Items18	Items19	Items20	Items21	Items22	Items23	Items24	Items25	Items26	Items27	Items28	Items29	Items30	Items31	Items32	Items33	Items34	Items35	Items36	Items37	Items38	Items39	Items40	Items41	Items42	Items43	Items44	Items45	Items46	Items47	Items48	Items49	Items50	Items51	Items52	Items53	Items54	Items55	Items56	Items57	Items58	Items59	Items60	Items61	Items62	Items63	Items64	Items65	Items66	Items67	Items68	Items69	Items70	Items71	Items72	Items73	Items74	Items75	Items76	Items77	Items78	Items79	Comment
+	Bin_EFUSE_ecid_other	F_ecid_other	AND	1	999	Fail	T																																																																																
+	Bin_initFlow_BinOut	F_initFlow_BinOut	AND	2	999	Fail	T																																																																																
+	Bin_OCR_error	F_OCR_error	AND	3	999	Fail	T																																																																																
+	Bin_DC_nWire_lock_check	F_nWire_lock_check	AND	4	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_MHLV_FAIL	F_MBIST_BIRA_MHV_FAIL,F_MBIST_BIRA_MLV_FAIL	AND	5	999	Fail	T	T																																																																															
+	Bin_MBIST_BIRA_HLV_FAIL	F_MBIST_BIRA_HV_FAIL,F_MBIST_BIRA_LV_FAIL	AND	6	999	Fail	T	T																																																																															
+	Bin_MBIST_RBOX_COMPARE_HLV_FAIL	F_MBIST_RBOX_COMPARE_HV_FAIL,F_MBIST_RBOX_COMPARE_LV_FAIL	AND	7	999	Fail	T	T																																																																															
+	Bin_MBIST_BIRA_SPLL500_HLV_FAIL	F_MBIST_BIRA_SPLL500_HV_FAIL,F_MBIST_BIRA_SPLL500_LV_FAIL	AND	8	999	Fail	T	T																																																																															
+	Bin_MBIST_BIST_MHLV_FAIL	F_MBIST_BIST_MHV_FAIL,F_MBIST_BIST_MLV_FAIL	AND	9	999	Fail	T	T																																																																															
+	Bin_MBIST_BIST_HLV_FAIL	F_MBIST_BIST_HV_FAIL,F_MBIST_BIST_LV_FAIL	AND	10	999	Fail	T	T																																																																															
+	Bin_MBIST_BIST_SPLL500_HLV_FAIL	F_MBIST_BIST_SPLL500_HV_FAIL,F_MBIST_BIST_SPLL500_LV_FAIL	AND	11	999	Fail	T	T																																																																															
+	Bin_SOC_MBIST__0_START_NV	F_SOC_MBIST__0_START_NV	AND	12	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_SETUPVM_FAIL	F_MBIST_BIRA_SETUPVM_FAIL	AND	13	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_MHV_FAIL	F_MBIST_BIRA_MHV_FAIL	AND	14	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_MLV_FAIL	F_MBIST_BIRA_MLV_FAIL	AND	15	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_PROD_SETUP_NV_FAIL	F_MBIST_BIRA_PROD_SETUP_NV_FAIL	AND	16	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_HV_FAIL	F_MBIST_BIRA_HV_FAIL	AND	17	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_NV_FAIL	F_MBIST_BIRA_NV_FAIL	AND	18	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_LV_FAIL	F_MBIST_BIRA_LV_FAIL	AND	19	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_BISRRUN_NV_FAIL	F_MBIST_BIRA_BISRRUN_NV_FAIL	AND	20	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_FLOAD_NV_FAIL	F_MBIST_BIRA_FLOAD_NV_FAIL	AND	21	999	Fail	T																																																																																
+	Bin_MBIST_RBOX_PROGRAM_NV_FAIL	F_MBIST_RBOX_PROGRAM_NV_FAIL	AND	22	999	Fail	T																																																																																
+	Bin_MBIST_RBOX_COMPARE_HV_FAIL	F_MBIST_RBOX_COMPARE_HV_FAIL	AND	23	999	Fail	T																																																																																
+	Bin_MBIST_RBOX_COMPARE_LV_FAIL	F_MBIST_RBOX_COMPARE_LV_FAIL	AND	24	999	Fail	T																																																																																
+	Bin_MBIST_RBOX_SEL_NV_FAIL	F_MBIST_RBOX_SEL_NV_FAIL	AND	25	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_PROD_SETUPSPLL500_NV_FAIL	F_MBIST_BIRA_PROD_SETUPSPLL500_NV_FAIL	AND	26	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_SPLL500_HV_FAIL	F_MBIST_BIRA_SPLL500_HV_FAIL	AND	27	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_SPLL500_NV_FAIL	F_MBIST_BIRA_SPLL500_NV_FAIL	AND	28	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_SPLL500_LV_FAIL	F_MBIST_BIRA_SPLL500_LV_FAIL	AND	29	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_ERT_W0_NV_FAIL	F_MBIST_BIRA_ERT_W0_NV_FAIL	AND	30	999	Fail	T																																																																																
+	Bin_SOC_MBIST__83_W0_EXTERNAL_RETENTION_VRET_NV	F_SOC_MBIST__83_W0_EXTERNAL_RETENTION_VRET_NV	AND	31	999	Fail	T																																																																																
+	Bin_SOC_MBIST__84_W0_EXTERNAL_RETENTION_TIME_NV	F_SOC_MBIST__84_W0_EXTERNAL_RETENTION_TIME_NV	AND	32	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_ERT_R0_NV_FAIL	F_MBIST_BIRA_ERT_R0_NV_FAIL	AND	33	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_ERT_W1_NV_FAIL	F_MBIST_BIRA_ERT_W1_NV_FAIL	AND	34	999	Fail	T																																																																																
+	Bin_SOC_MBIST__107_W1_EXTERNAL_RETENTION_VRET_NV	F_SOC_MBIST__107_W1_EXTERNAL_RETENTION_VRET_NV	AND	35	999	Fail	T																																																																																
+	Bin_SOC_MBIST__108_W1_EXTERNAL_RETENTION_TIME_NV	F_SOC_MBIST__108_W1_EXTERNAL_RETENTION_TIME_NV	AND	36	999	Fail	T																																																																																
+	Bin_MBIST_BIRA_ERT_R1_NV_FAIL	F_MBIST_BIRA_ERT_R1_NV_FAIL	AND	37	999	Fail	T																																																																																
+	Bin_SOC_MBIST__127_START_POST_BIRA_NV	F_SOC_MBIST__127_START_POST_BIRA_NV	AND	38	999	Fail	T																																																																																
+	Bin_MBIST_BIST_SETUPVM_FAIL	F_MBIST_BIST_SETUPVM_FAIL	AND	39	999	Fail	T																																																																																
+	Bin_MBIST_BIST_MHV_FAIL	F_MBIST_BIST_MHV_FAIL	AND	40	999	Fail	T																																																																																
+	Bin_MBIST_BIST_MLV_FAIL	F_MBIST_BIST_MLV_FAIL	AND	41	999	Fail	T																																																																																
+	Bin_MBIST_BIST_PROD_SETUP_NV_FAIL	F_MBIST_BIST_PROD_SETUP_NV_FAIL	AND	42	999	Fail	T																																																																																
+	Bin_MBIST_BIST_HV_FAIL	F_MBIST_BIST_HV_FAIL	AND	43	999	Fail	T																																																																																
+	Bin_MBIST_BIST_NV_FAIL	F_MBIST_BIST_NV_FAIL	AND	44	999	Fail	T																																																																																
+	Bin_MBIST_BIST_LV_FAIL	F_MBIST_BIST_LV_FAIL	AND	45	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT64_W0_NV_FAIL	F_MBIST_BIST_IRT64_W0_NV_FAIL	AND	46	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT64_ENABLE_NV_FAIL	F_MBIST_BIST_IRT64_ENABLE_NV_FAIL	AND	47	999	Fail	T																																																																																
+	Bin_SOC_MBIST__190_W0_INTERNAL_RETENTION_VRET_NV	F_SOC_MBIST__190_W0_INTERNAL_RETENTION_VRET_NV	AND	48	999	Fail	T																																																																																
+	Bin_SOC_MBIST__191_W0_INTERNAL_RETENTION_TIME_NV	F_SOC_MBIST__191_W0_INTERNAL_RETENTION_TIME_NV	AND	49	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT64_DISABLE_NV_FAIL	F_MBIST_BIST_IRT64_DISABLE_NV_FAIL	AND	50	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT64_R0_NV_FAIL	F_MBIST_BIST_IRT64_R0_NV_FAIL	AND	51	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT64_W1_NV_FAIL	F_MBIST_BIST_IRT64_W1_NV_FAIL	AND	52	999	Fail	T																																																																																
+	Bin_SOC_MBIST__196_W1_INTERNAL_RETENTION_VRET_NV	F_SOC_MBIST__196_W1_INTERNAL_RETENTION_VRET_NV	AND	53	999	Fail	T																																																																																
+	Bin_SOC_MBIST__197_W1_INTERNAL_RETENTION_TIME_NV	F_SOC_MBIST__197_W1_INTERNAL_RETENTION_TIME_NV	AND	54	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT64_R1_NV_FAIL	F_MBIST_BIST_IRT64_R1_NV_FAIL	AND	55	999	Fail	T																																																																																
+	Bin_MBIST_BIST_PROD_SETUPSPLL500_NV_FAIL	F_MBIST_BIST_PROD_SETUPSPLL500_NV_FAIL	AND	56	999	Fail	T																																																																																
+	Bin_MBIST_BIST_SPLL500_HV_FAIL	F_MBIST_BIST_SPLL500_HV_FAIL	AND	57	999	Fail	T																																																																																
+	Bin_MBIST_BIST_SPLL500_NV_FAIL	F_MBIST_BIST_SPLL500_NV_FAIL	AND	58	999	Fail	T																																																																																
+	Bin_MBIST_BIST_SPLL500_LV_FAIL	F_MBIST_BIST_SPLL500_LV_FAIL	AND	59	999	Fail	T																																																																																
+	Bin_MBIST_BIST_ERT_W0_NV_FAIL	F_MBIST_BIST_ERT_W0_NV_FAIL	AND	60	999	Fail	T																																																																																
+	Bin_SOC_MBIST__218_W0_EXTERNAL_RETENTION_VRET_NV	F_SOC_MBIST__218_W0_EXTERNAL_RETENTION_VRET_NV	AND	61	999	Fail	T																																																																																
+	Bin_SOC_MBIST__219_W0_EXTERNAL_RETENTION_TIME_NV	F_SOC_MBIST__219_W0_EXTERNAL_RETENTION_TIME_NV	AND	62	999	Fail	T																																																																																
+	Bin_MBIST_BIST_ERT_R0_NV_FAIL	F_MBIST_BIST_ERT_R0_NV_FAIL	AND	63	999	Fail	T																																																																																
+	Bin_MBIST_BIST_ERT_W1_NV_FAIL	F_MBIST_BIST_ERT_W1_NV_FAIL	AND	64	999	Fail	T																																																																																
+	Bin_SOC_MBIST__242_W1_EXTERNAL_RETENTION_VRET_NV	F_SOC_MBIST__242_W1_EXTERNAL_RETENTION_VRET_NV	AND	65	999	Fail	T																																																																																
+	Bin_SOC_MBIST__243_W1_EXTERNAL_RETENTION_TIME_NV	F_SOC_MBIST__243_W1_EXTERNAL_RETENTION_TIME_NV	AND	66	999	Fail	T																																																																																
+	Bin_MBIST_BIST_ERT_R1_NV_FAIL	F_MBIST_BIST_ERT_R1_NV_FAIL	AND	67	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT50_W0_NV_FAIL	F_MBIST_BIST_IRT50_W0_NV_FAIL	AND	68	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT50_ENABLE_NV_FAIL	F_MBIST_BIST_IRT50_ENABLE_NV_FAIL	AND	69	999	Fail	T																																																																																
+	Bin_SOC_MBIST__257_W0_INTERNAL_RETENTION_VRET_NV	F_SOC_MBIST__257_W0_INTERNAL_RETENTION_VRET_NV	AND	70	999	Fail	T																																																																																
+	Bin_SOC_MBIST__258_W0_INTERNAL_RETENTION_TIME_NV	F_SOC_MBIST__258_W0_INTERNAL_RETENTION_TIME_NV	AND	71	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT50_DISABLE_NV_FAIL	F_MBIST_BIST_IRT50_DISABLE_NV_FAIL	AND	72	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT50_R0_NV_FAIL	F_MBIST_BIST_IRT50_R0_NV_FAIL	AND	73	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT50_W1_NV_FAIL	F_MBIST_BIST_IRT50_W1_NV_FAIL	AND	74	999	Fail	T																																																																																
+	Bin_SOC_MBIST__263_W1_INTERNAL_RETENTION_VRET_NV	F_SOC_MBIST__263_W1_INTERNAL_RETENTION_VRET_NV	AND	75	999	Fail	T																																																																																
+	Bin_SOC_MBIST__264_W1_INTERNAL_RETENTION_TIME_NV	F_SOC_MBIST__264_W1_INTERNAL_RETENTION_TIME_NV	AND	76	999	Fail	T																																																																																
+	Bin_MBIST_BIST_IRT50_R1_NV_FAIL	F_MBIST_BIST_IRT50_R1_NV_FAIL	AND	77	999	Fail	T																																																																																

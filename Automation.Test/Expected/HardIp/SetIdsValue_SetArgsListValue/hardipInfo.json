@@ -1,0 +1,19 @@
+{
+  "IsInterPose": false,
+  "IsFound": true,
+  "Block": "",
+  "FunctionName": "VBT",
+  "FullFunctionName": "VBT",
+  "Type": "VBT",
+  "NameSpace": "",
+  "Parameters": "DigSrc_Assignment",
+  "ParameterDefaults": "",
+  "ArgList": [
+    "",
+    "A,B"
+  ],
+  "FileName": "",
+  "CheckParam": true,
+  "PatternDic": {},
+  "UsedPatternList": []
+}

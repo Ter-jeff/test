@@ -1,0 +1,10 @@
+Type	Parameter	X:-1 Y:-1	X:-1 Y:-1	X:-1 Y:-1	X:-1 Y:-1
+P_Total	PwrScreen_CS100F_Power_Binning_P_total	68.5595	71.2004	66.4187	N/A
+P_Total	PwrScreen_G124_Power_Binning_P_total	76.039	77.2497	75.2343	N/A
+P_Total	PwrScreen_SJ_Power_Binning_P_total	81.3151	81.9325	80.6569	N/A
+					
+					
+					
+PowerBinning Check		F	F	F	P
+IsPowerBinningFail		N/A	N/A	N/A	N/A
+IsPowerBinningBinXFail		N/A	N/A	N/A	N/A

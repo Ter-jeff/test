@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UltraFlexPlusTestLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:UltraFlexPlusTestLibrary.UFPCaptureSetupTesterIO">
+            <summary>
+            Implements Capture Config for UltraFLexPlus
+            </summary>
+            <seealso cref="T:PlatformCommonTestLibrary.CaptureSetupIO" />
+        </member>
+        <member name="M:UltraFlexPlusTestLibrary.UFPCaptureSetupTesterIO.SetCaptureConfig(PlatformInterfacesLibrary.CaptureSetupMemType,System.Int32)">
+            <summary>
+            Sets the capture configuration.
+            </summary>
+            <param name="memType">Enum that defines the type of Hardware to use.</param>
+            <param name="captureSize">Size of the capture.</param>
+        </member>
+        <member name="M:UltraFlexPlusTestLibrary.UFPCaptureSetupTesterIO.SsnCmemSetup(System.Int32)">
+            <summary>
+            Setup CMEM for SSN
+            </summary>
+            <param name="captureLimit">The capture limit.</param>
+        </member>
+        <member name="M:UltraFlexPlusTestLibrary.UFPCaptureSetupTesterIO.SsnCmemReset">
+            <summary>
+            Resets CMEM for SSN
+            </summary>
+        </member>
+        <member name="T:UltraFlexPlusTestLibrary.UFPDataManagerIO">
+            <summary>
+            
+            </summary>
+            <seealso cref="T:UltraFlexPlusTestLibrary.UFPDataManagerIO" />
+        </member>
+        <member name="M:UltraFlexPlusTestLibrary.UFPDataManagerIO.SsnDatalogSetup(System.Int32)">
+            <summary>
+            Setup Scan setup <see cref="T:UltraFlexPlusTestLibrary.UFPDataManagerIO"/> class.
+            </summary>
+        </member>
+        <member name="T:UltraFlexPlusTestLibrary.UFPPatternsTesterIO">
+            <summary>
+            
+            </summary>
+            <seealso cref="T:PlatformCommonTestLibrary.PatternsTesterIO" />
+        </member>
+        <member name="M:UltraFlexPlusTestLibrary.UFPPatternsTesterIO.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:UltraFlexPlusTestLibrary.UFPPatternsTesterIO"/> class.
+            </summary>
+        </member>
+        <member name="M:UltraFlexPlusTestLibrary.UFPPatternsTesterIO.PatternSetToArray(System.String,System.Boolean,System.String[]@)">
+            <summary>
+            
+            </summary>
+            <param name="testPattern"></param>
+            <param name="decompose"></param>
+            <param name="patternSet"></param>
+        </member>
+        <member name="M:UltraFlexPlusTestLibrary.UFPPatternsTesterIO.PatternSetToList(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="testPattern"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:UltraFlexPlusTestLibrary.UFPTesterIO">
+            <summary>
+            UltraFLex Plus Implementation
+            </summary>
+            <seealso cref="T:PlatformCommonTestLibrary.PlatformTesterIO" />
+        </member>
+        <member name="M:UltraFlexPlusTestLibrary.UFPTesterIO.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:UltraFlexPlusTestLibrary.UFPTesterIO"/> class.
+            </summary>
+        </member>
+        <member name="P:UltraFlexPlusTestLibrary.UFPTesterIO.PatternsTesterIO">
+            <summary>
+            Gets the patterns tio.
+            </summary>
+            <value>
+            The patterns tio.
+            </value>
+        </member>
+        <member name="P:UltraFlexPlusTestLibrary.UFPTesterIO.CaptureSetupIO">
+            <summary>
+            Gets the capture setup tio.
+            </summary>
+            <value>
+            The capture setup tio.
+            </value>
+        </member>
+        <member name="P:UltraFlexPlusTestLibrary.UFPTesterIO.DataManager">
+            <summary>
+            Gets the DataManager.
+            </summary>
+            <value>
+            The capture setup tio.
+            </value>
+        </member>
+    </members>
+</doc>

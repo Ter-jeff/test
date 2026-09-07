@@ -1,0 +1,8 @@
+LimitSetsSheet,version=2.0
+								CategoryName	CategoryName
+	Row	FlowTable	Instance	TestName	TestNumber	LowCompSign	HighCompSign	LoLim	HiLim	Scale	Units	Format	PassSort	FailSort	SortName	PassBin	FailBin	BinName	Result	PassAction	FailAction	Assume	Sites	Comment
+				Setup0		>=	<=	NA	NA										none						
+				Setup1		>=	<=	NA	NA										none						
+				Setup2		>=	<=	NA	NA										none						
+				Setup3		>=	<=	NA	NA										none						
+				Setup4		>=	<=	NA	NA										none						

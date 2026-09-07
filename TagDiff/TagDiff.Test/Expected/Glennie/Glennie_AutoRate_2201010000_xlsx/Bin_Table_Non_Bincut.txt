@@ -1,0 +1,22 @@
+DTBintablesSheet,version=2.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Bin Tables	=HYPERLINK("#'Data'!1:1","Return")																																																																																						
+																																																																																								
+	Name	Item List	Op	Sort	Bin	Result	Item0	Item1	Item2	Item3	Item4	Item5	Item6	Item7	Item8	Item9	Item10	Item11	Item12	Item13	Item14	Item15	Item16	Item17	Item18	Item19	Item20	Item21	Item22	Item23	Item24	Item25	Item26	Item27	Item28	Item29	Item30	Item31	Item32	Item33	Item34	Item35	Item36	Item37	Item38	Item39	Item40	Item41	Item42	Item43	Item44	Item45	Item46	Item47	Item48	Item49	Item50	Item51	Item52	Item53	Item54	Item55	Item56	Item57	Item58	Item59	Item60	Item61	Item62	Item63	Item64	Item65	Item66	Item67	Item68	Item69	Item70	Item71	Item72	Item73	Item74	Item75	Item76	Item77	Item78	Item79	Comment	
+P	Bin_Soc_MSX000_HLV	F_Soc_MSX000_HV,F_Soc_MSX000_LV,F_EVS_AlarmFail	AND	979	19	Fail	T	T	T																																																																														Block : Scan,Condition : TD	
+M	Bin_Soc_MSX000_HLV	F_Soc_MSX000_HV,F_Soc_MSX000_LV => 	AND	3051	21	Fail	T	T																																																																															Block : Scan,Condition : TD	
+P	Bin_Soc_MSX000_HV	F_Soc_MSX000_HV,F_EVS_AlarmFail	AND	979	19	Fail	T	T																																																																															Block : Scan,Condition : TD	
+M	Bin_Soc_MSX000_HV	F_Soc_MSX000_HV => 	AND	3052	21	Fail	T																																																																																Block : Scan,Condition : TD	
+P	Bin_Soc_MSX000_LV	F_Soc_MSX000_LV,F_EVS_AlarmFail	AND	979	19	Fail	T	T																																																																															Block : Scan,Condition : TD	
+M	Bin_Soc_MSX000_LV	F_Soc_MSX000_LV => 	AND	3053	21	Fail	T																																																																																Block : Scan,Condition : TD	
+P	Bin_Soc_Sa_MSX000_HLV	F_Soc_Sa_MSX000_HV,F_Soc_Sa_MSX000_LV,F_EVS_AlarmFail	AND	979	19	Fail	T	T	T																																																																														Block : Scan,Condition : TD	
+M	Bin_Soc_Sa_MSX000_HLV	F_Soc_Sa_MSX000_HV,F_Soc_Sa_MSX000_LV => 	AND	3054	21	Fail	T	T																																																																															Block : Scan,Condition : TD	
+P	Bin_Soc_Sa_MSX000_HV	F_Soc_Sa_MSX000_HV,F_EVS_AlarmFail	AND	979	19	Fail	T	T																																																																															Block : Scan,Condition : TD	
+M	Bin_Soc_Sa_MSX000_HV	F_Soc_Sa_MSX000_HV => 	AND	3055	21	Fail	T																																																																																Block : Scan,Condition : TD	
+P	Bin_Soc_Sa_MSX000_LV	F_Soc_Sa_MSX000_LV,F_EVS_AlarmFail	AND	979	19	Fail	T	T																																																																															Block : Scan,Condition : TD	
+M	Bin_Soc_Sa_MSX000_LV	F_Soc_Sa_MSX000_LV => 	AND	3056	21	Fail	T																																																																																Block : Scan,Condition : TD	
+P	Bin_Soc_Td_MSX000_HLV	F_Soc_Td_MSX000_HV,F_Soc_Td_MSX000_LV,F_EVS_AlarmFail	AND	979	19	Fail	T	T	T																																																																														Block : Scan,Condition : TD	
+M	Bin_Soc_Td_MSX000_HLV	F_Soc_Td_MSX000_HV,F_Soc_Td_MSX000_LV => 	AND	3057	21	Fail	T	T																																																																															Block : Scan,Condition : TD	
+P	Bin_Soc_Td_MSX000_HV	F_Soc_Td_MSX000_HV,F_EVS_AlarmFail	AND	979	19	Fail	T	T																																																																															Block : Scan,Condition : TD	
+M	Bin_Soc_Td_MSX000_HV	F_Soc_Td_MSX000_HV => 	AND	3058	21	Fail	T																																																																																Block : Scan,Condition : TD	
+P	Bin_Soc_Td_MSX000_LV	F_Soc_Td_MSX000_LV,F_EVS_AlarmFail	AND	979	19	Fail	T	T																																																																															Block : Scan,Condition : TD	
+M	Bin_Soc_Td_MSX000_LV	F_Soc_Td_MSX000_LV => 	AND	3059	21	Fail	T																																																																																Block : Scan,Condition : TD	
+	Bin_EVS_SOC_SCAN_DEFECT_Alarm_Check	F_Soc_Sa_MSX000_HV,F_Soc_Sa_MSX000_LV,F_Soc_MSX000_HV,F_Soc_MSX000_LV,F_Soc_Td_MSX000_HV,F_Soc_Td_MSX000_LV	OR	979	19	Fail-stop	T	T																																																																																

@@ -1,0 +1,14 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+					T0TX_Use	test	Vddbinning_T0TX_Levels_Scan_LV		50000000																													
+					T0TX_Use	test	Vddbinning_T0TX_Levels_Scan_NV		50001000																													
+					T0TX_Use	test	Vddbinning_T0TX_Levels_Scan_HV		50002000																													
+					T0TX_Use	test	Vddbinning_T0TX_Levels_Mbist_LV		50003000																													
+					T0TX_Use	test	Vddbinning_T0TX_Levels_Mbist_NV		50004000																													
+					T0TX_Use	test	Vddbinning_T0TX_Levels_Mbist_HV		50005000																													
+					T0TX_Use	test	Vddbinning_T0TX_Levels_HardIP_LV		50006000																													
+					T0TX_Use	test	Vddbinning_T0TX_Levels_HardIP_NV		50007000																													
+					T0TX_Use	test	Vddbinning_T0TX_Levels_HardIP_HV		50008000																													
+						Return																																

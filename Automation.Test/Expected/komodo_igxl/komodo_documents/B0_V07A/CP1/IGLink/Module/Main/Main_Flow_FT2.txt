@@ -1,0 +1,296 @@
+DTFlowtableSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Flow Table
+						Flow Domain:
+			Gate			Command				Limits		Datalog Display Results			Bin Number		Sort Number			Action			Group				Device			Debug		CT Profile Data
+	Label	Enable	Job	Part	Env	Opcode	Parameter	TName	TNum	LoLim	HiLim	Scale	Units	Format	Pass	Fail	Pass	Fail	Result	Pass	Fail	State	Specifier	Sense	Condition	Name	Sense	Condition	Name	Assume	Sites	Elapsed Time (s)	Background Type	Serialize	Resource Lock	Flow Step Locked	Comment
+						set-alarm-bin										39		998																				
+						set-error-bin										37		999																				
+						Test	InitTestTimeUtility		84000000																													
+						create-integer	EVS_INDEX																															
+						assign-integer	EVS_INDEX 0																															
+						create-integer	EVS_MAX_Step																															
+						assign-integer	EVS_MAX_Step 0																															
+						create-integer	SrcCodeIndx																															
+						assign-integer	SrcCodeIndx 0																															
+						create-integer	SrcCodeIndx0																															
+						assign-integer	SrcCodeIndx0 0																															
+						create-integer	SrcCodeIndx1																															
+						assign-integer	SrcCodeIndx1 0																															
+						create-integer	SrcCodeIndx2																															
+						assign-integer	SrcCodeIndx2 0																															
+						create-site-var	CFGChk_Var																															
+						assign-site-var	CFGChk_Var 0																															
+						create-site-var	ECIDChk_Var																															
+						assign-site-var	ECIDChk_Var 0																															
+						create-site-var	Efuse_config_Current																															
+						assign-site-var	Efuse_config_Current 0																															
+						create-site-var	Efuse_config_Early																															
+						assign-site-var	Efuse_config_Early 0																															
+						create-site-var	Efuse_config_Future																															
+						assign-site-var	Efuse_config_Future 0																															
+						create-site-var	Efuse_config_Previous																															
+						assign-site-var	Efuse_config_Previous 0																															
+						create-site-var	Efuse_ecid_Current																															
+						assign-site-var	Efuse_ecid_Current 0																															
+						create-site-var	Efuse_ecid_Future																															
+						assign-site-var	Efuse_ecid_Future 0																															
+						create-site-var	Efuse_ecid_Previous																															
+						assign-site-var	Efuse_ecid_Previous 0																															
+						create-site-var	Efuse_mon_Current																															
+						assign-site-var	Efuse_mon_Current 0																															
+						create-site-var	Efuse_mon_Early																															
+						assign-site-var	Efuse_mon_Early 0																															
+						create-site-var	Efuse_mon_Future																															
+						assign-site-var	Efuse_mon_Future 0																															
+						create-site-var	Efuse_mon_Previous																															
+						assign-site-var	Efuse_mon_Previous 0																															
+						create-site-var	Efuse_udr_e_Current																															
+						assign-site-var	Efuse_udr_e_Current 0																															
+						create-site-var	Efuse_udr_e_Future																															
+						assign-site-var	Efuse_udr_e_Future 0																															
+						create-site-var	Efuse_udr_e_Previous																															
+						assign-site-var	Efuse_udr_e_Previous 0																															
+						create-site-var	Efuse_udr_p_Current																															
+						assign-site-var	Efuse_udr_p_Current 0																															
+						create-site-var	Efuse_udr_p_Future																															
+						assign-site-var	Efuse_udr_p_Future 0																															
+						create-site-var	Efuse_udr_p_Previous																															
+						assign-site-var	Efuse_udr_p_Previous 0																															
+						create-site-var	LPCount_End																															
+						assign-site-var	LPCount_End 0																															
+						create-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_ECPU_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_ECPU_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_GFX_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_GFX_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_PCPU_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_PCPU_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index																															
+						assign-site-var	Mbist_SOC_AdaptiveBIRA_MHV_Index 0																															
+						create-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index																															
+						assign-site-var	Mbist_SOC_AdaptiveBIRA_MLV_Index 0																															
+						create-site-var	MFP_flow_idx																															
+						assign-site-var	MFP_flow_idx 0																															
+						create-site-var	MONChk_Var																															
+						assign-site-var	MONChk_Var 0																															
+						create-site-var	RSCR_Flow_Idx																															
+						assign-site-var	RSCR_Flow_Idx 0																															
+						create-integer	SEL_CASE_CNT																															
+						assign-integer	SEL_CASE_CNT 0																															
+						create-integer	SEL_CASE_END																															
+						assign-integer	SEL_CASE_END 0																															
+						create-integer	SEL_PAT_CNT																															
+						assign-integer	SEL_PAT_CNT 0																															
+						create-integer	SEL_PAT_END																															
+						assign-integer	SEL_PAT_END 0																															
+						create-site-var	SelSrm_LP_Var																															
+						assign-site-var	SelSrm_LP_Var 0																															
+						create-site-var	UDR_EChk_Var																															
+						assign-site-var	UDR_EChk_Var 0																															
+						create-site-var	UDR_PChk_Var																															
+						assign-site-var	UDR_PChk_Var 0																															
+						create-site-var	UIDChk_Var																															
+						assign-site-var	UIDChk_Var 0																															
+						create-site-var	Efuse_cmp_e_Current																															
+						assign-site-var	Efuse_cmp_e_Current 0																															
+						create-site-var	Efuse_cmp_e_Future																															
+						assign-site-var	Efuse_cmp_e_Future 0																															
+						create-site-var	Efuse_cmp_e_Previous																															
+						assign-site-var	Efuse_cmp_e_Previous 0																															
+						create-site-var	Efuse_cmp_p_Current																															
+						assign-site-var	Efuse_cmp_p_Current 0																															
+						create-site-var	Efuse_cmp_p_Future																															
+						assign-site-var	Efuse_cmp_p_Future 0																															
+						create-site-var	Efuse_cmp_p_Previous																															
+						assign-site-var	Efuse_cmp_p_Previous 0																															
+						call	Flow_HardIP_Init_Flag																															
+						call	Flow_Table_Main_Init_EnableWd																															
+						Test	InitializeModulesFromInstance		84001000																													
+						call	Flow_Table_Main_Init_Flows																															
+						Test	Relay_On_Conti		84002000																													
+						call	Flow_DC_Conti																															
+						Test	SetPower_BinOut_Enable		84003000																													
+						Test	Relay_On_HARDIP		84004000																													
+						call	Flow_ACIPHY_L5L4_SELECT																															
+						call	Flow_nWire_Default_Disable																															
+						call	Flow_HARDIP_IO_JTAG																															
+						call	Flow_nWire_Default_Enable																															
+						Test	Relay_Off_HARDIP		84005000																													
+						call	Flow_efuse_BankRead																															
+						Test	GoodDie_Retest		84006000												F_EFUSE_FailDie																	
+		!BypRetestCheck				Bintable	Bin_EFUSE_FailDie																															
+		FT2 && OSAT				Test	JudgeDramType		84007000																													
+						call	Flow_Harvest_eFuse_Read																															
+						call	Flow_Harv_Dec_FT2_RD																															
+						Test	Relay_On_HARDIP		84008000																													
+						call	Flow_nWire_Default_Disable																															
+		!DRAM_POPB				call	Flow_HARDIP_DRAM																															
+						call	Flow_HARDIP_ADCDFT																															
+						call	Flow_HARDIP_MTRICTS_B0																															
+						call	Flow_HARDIP_NTSE_B0																															
+						call	Flow_HARDIP_NTSR																															
+						call	Flow_nWire_Default_Enable																															
+						Test	Relay_Off_HARDIP		84009000																													
+						Test	SetPower_BinOut_Disable		84010000																													
+						call	Flow_DCTEST_IDS																															
+						Test	SetPower_BinOut_Enable		84011000																													
+						call	Flow_efuse_ECID																															
+						flag-false	SubFlow_TurnOnFlag_ByDie																															
+		!Disable_Sampling				Test	Process_SubFlowFlag_ByDie		84012000																													
+		Enable_Force_WAT				flag-true	SubFlow_TurnOnFlag_ByDie																															
+		Enable_Force_WAT				print	"Force Enable Flag: SubFlow_TurnOnFlag_ByDie "																															
+						call	Flow_nWire_Default_Disable																															
+						Test	Relay_On_HARDIP		84013000																													
+						call	Flow_HARDIP_MISC																															
+						call	Flow_HARDIP_FRO																															
+						call	Flow_HARDIP_CPLL																															
+						call	Flow_HARDIP_ADCLK																															
+						call	Flow_HARDIP_LAPLL																															
+						call	Flow_HARDIP_LAPLL_1																															
+						call	Flow_HARDIP_PCIEREFGEN																															
+						call	Flow_HARDIP_PCIE5CMN																															
+						call	Flow_HARDIP_ACIPHYCMN																															
+						call	Flow_HARDIP_ACIOPHYCMN																															
+						call	Flow_HARDIP_LPDPTXCMN																															
+						call	Flow_HARDIP_AMPCMN																															
+						call	Flow_HARDIP_PCIEREFPLL																															
+						call	Flow_HARDIP_PCIEPLL																															
+						call	Flow_HARDIP_CIOCIOPLL																															
+						call	Flow_HARDIP_CIODPPLL																															
+						call	Flow_HARDIP_LPDPDPPLL																															
+						call	Flow_HARDIP_LPDDRPLL																															
+						call	Flow_HARDIP_LPDDRPLL_1																															
+						call	Flow_HARDIP_HSCSAROSC																															
+						call	Flow_HARDIP_ULPPLL																															
+						call	Flow_HARDIP_FLPPLL																															
+						call	Flow_HARDIP_SEPF2M																															
+						call	Flow_HARDIP_SEPVMC																															
+						call	Flow_HARDIP_MIDBIASLDO																															
+						call	Flow_HARDIP_VMADC																															
+						call	Flow_HARDIP_ACIOPHY																															
+						call	Flow_HARDIP_ACIPHY																															
+						call	Flow_HARDIP_LPDPTX																															
+						call	Flow_HARDIP_PCIE5																															
+						call	Flow_HARDIP_NTSX																															
+						call	Flow_HARDIP_PCIEREFBUF																															
+						call	Flow_HARDIP_EUSB																															
+						call	Flow_HARDIP_AMP_TRIM																															
+						call	Flow_nWire_Default_Enable																															
+						call	Flow_HARDIP_DSGRINGS																															
+						call	Flow_HARDIP_NPMS																															
+						Test	Relay_On_DAPS		84014000																													
+						call	Flow_HARDIP_DAPS																															
+						Test	Relay_Off_DAPS		84015000																													
+						call	Flow_HARDIP_NCKM																															
+						Test	Relay_On_ABSMIN		84016000																													
+						call	Flow_HARDIP_ABSMIN																															
+						Test	Relay_Off_ABSMIN		84017000																													
+						call	Flow_HARDIP_IVDM																															
+						Test	Relay_On_DSGVTHSENSOR		84018000																													
+						call	Flow_HARDIP_DSGVTHSENSER																															
+						Test	Relay_Off_DSGVTHSENSOR		84019000																													
+						call	Flow_HARDIP_PWRDET																															
+						Test	Relay_Off_HARDIP		84020000																													
+						call	Flow_Vddbinning																															
+						call	Flow_Vddbinning_HVCC																															
+						call	Flow_PostBincut																															
+						call	Flow_nWire_Default_Disable																															
+						Test	Relay_On_HARDIP		84021000																													
+		AMP_POST_BV				call	Flow_HARDIP_AMP_Create_Overlay																															
+						call	Flow_HARDIP_AMP																															
+						call	Flow_HARDIP_MTR_DEFERBINOUT																															
+		AMP_POST_BV				call	Flow_HARDIP_AMP_Clear_Overlay																															
+						Test	Relay_Off_HARDIP		84022000																													
+						call	Flow_nWire_Default_Enable																															
+						call	Flow_CPM																															
+						call	FLOW_SOC_SAA_EQN_LV																															
+						call	FLOW_GFX_SAA_EQN_LV																															
+						call	FLOW_CPU_SAA_EQN_LV																															
+						Test	Harvest_Flag_Status_SA_GFX0_HARV_CORE_0to11		84023000												F_GFX_SA_CoreOver_GFX0_HARV_CORE_0to11																	
+						Bintable	Bin_GFX_SA_CoreOver_GFX0_HARV_CORE_0to11																															
+						Test	Harvest_Flag_Status_SA_GFX0_HARV_CORE_0to5		84024000												F_GFX_SA_CoreOver_GFX0_HARV_CORE_0to5																	
+						Bintable	Bin_GFX_SA_CoreOver_GFX0_HARV_CORE_0to5																															
+						Test	Harvest_Flag_Status_SA_GFX0_HARV_CORE_6to11		84025000												F_GFX_SA_CoreOver_GFX0_HARV_CORE_6to11																	
+						Bintable	Bin_GFX_SA_CoreOver_GFX0_HARV_CORE_6to11																															
+						Test	Harvest_Flag_Status_SA_HCPU_HARV_CORE_0to1		84026000												F_CPU_SA_CoreOver_HCPU_HARV_CORE_0to1																	
+						Bintable	Bin_CPU_SA_CoreOver_HCPU_HARV_CORE_0to1																															
+						Test	Harvest_Flag_Status_SA_HCPU_HARV_CORE_2to5		84027000												F_CPU_SA_CoreOver_HCPU_HARV_CORE_2to5																	
+						Bintable	Bin_CPU_SA_CoreOver_HCPU_HARV_CORE_2to5																															
+						Test	Harvest_Flag_Status_SA_ECPU_HARV_CORE_0to5		84028000												F_CPU_SA_CoreOver_ECPU_HARV_CORE_0to5																	
+						Bintable	Bin_CPU_SA_CoreOver_ECPU_HARV_CORE_0to5																															
+						Test	Harvest_Flag_Status_SA_SOC_HARV_IS		84029000												F_SOC_SA_CoreOver_SOC_HARV_IS																	
+						Bintable	Bin_SOC_SA_CoreOver_SOC_HARV_IS																															
+						Test	Harvest_Flag_Status_SA_SOC_HARV_ED_0to1		84030000												F_SOC_SA_CoreOver_SOC_HARV_ED_0to1																	
+						Bintable	Bin_SOC_SA_CoreOver_SOC_HARV_ED_0to1																															
+						Test	Harvest_Flag_Status_SA_SOC_HARV_AT02		84031000												F_SOC_SA_CoreOver_SOC_HARV_AT02																	
+						Bintable	Bin_SOC_SA_CoreOver_SOC_HARV_AT02																															
+						Test	Harvest_Flag_Status_SA_SOC_HARV_AT13		84032000												F_SOC_SA_CoreOver_SOC_HARV_AT13																	
+						Bintable	Bin_SOC_SA_CoreOver_SOC_HARV_AT13																															
+						Test	Harvest_Flag_Status_SA_SOC_HARV_SC		84033000												F_SOC_SA_CoreOver_SOC_HARV_SC																	
+						Bintable	Bin_SOC_SA_CoreOver_SOC_HARV_SC																															
+						Test	Harvest_Flag_Status_SA_SOC_HARV_ID		84034000												F_SOC_SA_CoreOver_SOC_HARV_ID																	
+						Bintable	Bin_SOC_SA_CoreOver_SOC_HARV_ID																															
+						Test	Harvest_Flag_Status_SA_ANE0_HARV_CORE_0to16		84035000												F_SOC_SA_CoreOver_ANE0_HARV_CORE_0to16																	
+						Bintable	Bin_SOC_SA_CoreOver_ANE0_HARV_CORE_0to16																															
+						Test	Harvest_Flag_Status_SA_ANE1_HARV_CORE_0to16		84036000												F_SOC_SA_CoreOver_ANE1_HARV_CORE_0to16																	
+						Bintable	Bin_SOC_SA_CoreOver_ANE1_HARV_CORE_0to16																															
+						Test	Harvest_Flag_Status_SA_ANE0_HARV_CNTR		84037000												F_SOC_SA_CoreOver_ANE0_HARV_CNTR																	
+						Bintable	Bin_SOC_SA_CoreOver_ANE0_HARV_CNTR																															
+						Test	Harvest_Flag_Status_SA_ANE1_HARV_CNTR		84038000												F_SOC_SA_CoreOver_ANE1_HARV_CNTR																	
+						Bintable	Bin_SOC_SA_CoreOver_ANE1_HARV_CNTR																															
+						call	Flow_S_BI_PP_FT2																															
+						call	Flow_S_BI_PP_FT_ERT																															
+						call	Flow_L_BI_PP_FT2																															
+						call	Flow_C_BI_PP_FT2																															
+						Test	Harvest_Flag_Status_BIST_GFX0_HARV_CORE_0to11		84039000												F_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to11																	
+						Bintable	Bin_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to11																															
+						Test	Harvest_Flag_Status_BIST_GFX0_HARV_CORE_0to5		84040000												F_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to5																	
+						Bintable	Bin_GFX_MBIST_CoreOver_GFX0_HARV_CORE_0to5																															
+						Test	Harvest_Flag_Status_BIST_GFX0_HARV_CORE_6to11		84041000												F_GFX_MBIST_CoreOver_GFX0_HARV_CORE_6to11																	
+						Bintable	Bin_GFX_MBIST_CoreOver_GFX0_HARV_CORE_6to11																															
+						Test	Harvest_Flag_Status_BIST_HCPU_HARV_CORE_0to1		84042000												F_CPU_MBIST_CoreOver_HCPU_HARV_CORE_0to1																	
+						Bintable	Bin_CPU_MBIST_CoreOver_HCPU_HARV_CORE_0to1																															
+						Test	Harvest_Flag_Status_BIST_HCPU_HARV_CORE_2to5		84043000												F_CPU_MBIST_CoreOver_HCPU_HARV_CORE_2to5																	
+						Bintable	Bin_CPU_MBIST_CoreOver_HCPU_HARV_CORE_2to5																															
+						Test	Harvest_Flag_Status_BIST_ECPU_HARV_CORE_0to5		84044000												F_CPU_MBIST_CoreOver_ECPU_HARV_CORE_0to5																	
+						Bintable	Bin_CPU_MBIST_CoreOver_ECPU_HARV_CORE_0to5																															
+						Test	Harvest_Flag_Status_BIST_SOC_HARV_IS		84045000												F_SOC_MBIST_CoreOver_SOC_HARV_IS																	
+						Bintable	Bin_SOC_MBIST_CoreOver_SOC_HARV_IS																															
+						Test	Harvest_Flag_Status_BIST_SOC_HARV_ED_0to1		84046000												F_SOC_MBIST_CoreOver_SOC_HARV_ED_0to1																	
+						Bintable	Bin_SOC_MBIST_CoreOver_SOC_HARV_ED_0to1																															
+						Test	Harvest_Flag_Status_BIST_SOC_HARV_AT02		84047000												F_SOC_MBIST_CoreOver_SOC_HARV_AT02																	
+						Bintable	Bin_SOC_MBIST_CoreOver_SOC_HARV_AT02																															
+						Test	Harvest_Flag_Status_BIST_SOC_HARV_AT13		84048000												F_SOC_MBIST_CoreOver_SOC_HARV_AT13																	
+						Bintable	Bin_SOC_MBIST_CoreOver_SOC_HARV_AT13																															
+						Test	Harvest_Flag_Status_BIST_SOC_HARV_SC		84049000												F_SOC_MBIST_CoreOver_SOC_HARV_SC																	
+						Bintable	Bin_SOC_MBIST_CoreOver_SOC_HARV_SC																															
+						Test	Harvest_Flag_Status_BIST_SOC_HARV_ID		84050000												F_SOC_MBIST_CoreOver_SOC_HARV_ID																	
+						Bintable	Bin_SOC_MBIST_CoreOver_SOC_HARV_ID																															
+						Test	Harvest_Flag_Status_BIST_ANE0_HARV_CORE_0to16		84051000												F_SOC_MBIST_CoreOver_ANE0_HARV_CORE_0to16																	
+						Bintable	Bin_SOC_MBIST_CoreOver_ANE0_HARV_CORE_0to16																															
+						Test	Harvest_Flag_Status_BIST_ANE1_HARV_CORE_0to16		84052000												F_SOC_MBIST_CoreOver_ANE1_HARV_CORE_0to16																	
+						Bintable	Bin_SOC_MBIST_CoreOver_ANE1_HARV_CORE_0to16																															
+						Test	Harvest_Flag_Status_BIST_ANE0_HARV_CNTR		84053000												F_SOC_MBIST_CoreOver_ANE0_HARV_CNTR																	
+						Bintable	Bin_SOC_MBIST_CoreOver_ANE0_HARV_CNTR																															
+						Test	Harvest_Flag_Status_BIST_ANE1_HARV_CNTR		84054000												F_SOC_MBIST_CoreOver_ANE1_HARV_CNTR																	
+						Bintable	Bin_SOC_MBIST_CoreOver_ANE1_HARV_CNTR																															
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin01		84055000																													
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin07		84056000																													
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin08		84057000																													
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin13		84058000																													
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin14		84059000																													
+						Test	Harvest_Summary_After_Harvesting_Decision_BC_Bin15		84060000																													
+		!BypRetestCheck				Bintable	Bin_EFUSE_GoodBinRetest																															
+						call	Flow_efuse_Post																															
+						call	Flow_efuse_BinCheck																															
+						Test	IEDA_BKM_After_Fused		84061000																													
+						Test	IEDA_Efuse_Revision		84062000																													
+						Test	IEDA_Config_288Bits		84063000																													
+						Test	SetPower_BinOut_Disable		84064000																													
+						call	Flow_Table_Main_EndFlow																															
+						limits-all																																
+						set-device									1		1		Pass																			
