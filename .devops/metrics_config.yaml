@@ -1,4 +1,4 @@
-solution: '../01_Code/ProjectAutomation/Automation.sln'
+solution: '../Automation.sln'
 
 # Global ignores — applied to all metrics
 ignore_projects:
